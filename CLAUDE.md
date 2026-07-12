@@ -5,14 +5,32 @@ della mia vita o del mio lavoro.
 
 ## Regole per te, Claude
 
-- Quando lavoriamo su un'area, leggi il suo CLAUDE.md e TUTTI i file
-  in `reference/`. Non leggere `knowledge/` se non te lo chiedo.
+- Quando lavoriamo su un'area, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo
+  `memory.md`, poi TUTTI i file in `reference/`. Non leggere `knowledge/` se non te lo chiedo.
 - Non leggere mai l'intero Vault. Ti intasi e lavori peggio.
 - In `_sistema/voce/` ci sono le regole di scrittura: valgono SEMPRE,
   in ogni area, ogni volta che scrivi un testo destinato a essere pubblicato.
 - In `_sistema/tecnica/` ci sono i pattern tecnici che ho già imparato a
   mie spese. Leggili prima di lavorare su WordPress o Notion.
+- Prima di qualsiasi lavoro su WordPress via Novamira, leggi
+  `_sistema/tecnica/novamira.md`.
 - `_local/` non lo tocchi mai.
+
+## File memory
+
+Ogni cartella di progetto ha un `memory.md`.
+
+- Quando prendiamo una decisione rilevante, o emerge qualcosa da ricordare, scrivilo lì
+  **con la data** — anche senza che io te lo chieda.
+- Se dico «ricordatelo», va nel `memory.md` del progetto attivo.
+- All'inizio di ogni sessione su un progetto, leggi il suo `memory.md` **dopo il CLAUDE.md
+  e prima dei reference**.
+
+## Gerarchia della voce
+
+- `_sistema/voce/anti-ai.md` vale **SEMPRE**, per qualsiasi testo destinato a essere letto
+  da altri, su qualsiasi progetto.
+- Il `tono.md` nei `reference/` di un progetto governa la voce **di quel brand**.
 
 ## Aree
 
