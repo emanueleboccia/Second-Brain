@@ -59,14 +59,12 @@ Emerse allo smistamento del 12/07/2026.
   fonte di verità per i testi.
 - ~~Nessuna regola visiva per i reel~~ → in `reference/design.md` restano i soli vincoli certi;
   il resto si definisce dopo i primi reel pubblicati.
+- ~~Le pagine interne del sito usano CTA diverse tra loro~~ → **le pagine interne non esistono
+  e non si faranno**: il sito è una landing one-page per scelta (chiusura cantiere, 12/07/2026).
+  Resta la formula unica «Richiedi disponibilità». Vedi `knowledge/sito/workflow-sito.md`.
 
 ### Ancora aperte
 
 - `knowledge/contenuti/ganci-dolori-desideri.md` chiude ancora gli schemi di contenuto
   con una CTA («scrivici, prenota una visita, scopri di più»): incompatibile con la fase Vetrina.
   Il file non è stato modificato — quando lo usi, ignora quella riga e applica `reference/tono.md`.
-### Risolte il 12/07/2026 (chiusura cantiere sito)
-
-- ~~Le pagine interne del sito usano CTA diverse tra loro~~ → **le pagine interne non esistono
-  e non si faranno**: il sito è una landing one-page per scelta. Resta la formula unica
-  «Richiedi disponibilità». Vedi `knowledge/sito/workflow-sito.md`.
