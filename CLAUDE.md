@@ -8,8 +8,6 @@ della mia vita o del mio lavoro.
 - Quando lavoriamo su un'area, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo
   `memory.md`, poi TUTTI i file in `reference/`. Non leggere `knowledge/` se non te lo chiedo.
 - Non leggere mai l'intero Vault. Ti intasi e lavori peggio.
-- In `_sistema/voce/` ci sono le regole di scrittura: valgono SEMPRE,
-  in ogni area, ogni volta che scrivi un testo destinato a essere pubblicato.
 - In `_sistema/tecnica/` ci sono i pattern tecnici che ho già imparato a
   mie spese. Leggili prima di lavorare su WordPress o Notion.
 - Prima di qualsiasi lavoro su WordPress via Novamira, leggi
@@ -28,9 +26,15 @@ Ogni cartella di progetto ha un `memory.md`.
 
 ## Gerarchia della voce
 
-- `_sistema/voce/anti-ai.md` vale **SEMPRE**, per qualsiasi testo destinato a essere letto
-  da altri, su qualsiasi progetto.
+In `_sistema/voce/` ci sono le regole di scrittura. Valgono in ogni area, ogni volta che
+scrivi un testo destinato a essere letto da altri.
+
+- `_sistema/voce/anti-ai.md` vale **SEMPRE**, su qualsiasi progetto: è il filtro che tiene
+  fuori la scrittura che suona artificiale.
 - Il `tono.md` nei `reference/` di un progetto governa la voce **di quel brand**.
+
+I due livelli non si sostituiscono: `anti-ai.md` dice come non si scrive mai, `tono.md` dice
+come si scrive per quel brand.
 
 ## Aree
 
