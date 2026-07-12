@@ -36,7 +36,8 @@ Poggiomarino (NA), territorio vesuviano. Canale principale: Instagram. Sito web 
 - `contenuti/` — piano editoriale Instagram: content pillar, idee post e caroselli,
   tabelle complete dolori/desideri.
 - `sito/` — copy della homepage (fonte di verità per i testi), sitemap e wireframe
-  (markdown + wireframe visivo HTML).
+  (markdown + wireframe visivo HTML), e `workflow-sito.md`: come si lavora sul sito
+  e come si deploya. **Leggilo prima di toccare il sito.**
 
 ## Contraddizioni tra i file
 
@@ -64,6 +65,8 @@ Emerse allo smistamento del 12/07/2026.
 - `knowledge/contenuti/ganci-dolori-desideri.md` chiude ancora gli schemi di contenuto
   con una CTA («scrivici, prenota una visita, scopri di più»): incompatibile con la fase Vetrina.
   Il file non è stato modificato — quando lo usi, ignora quella riga e applica `reference/tono.md`.
-- Le pagine interne del sito usano CTA diverse tra loro («Prenota una visita»,
-  «Richiedi un preventivo») mentre copy e note prescrivono la formula unica
-  «Richiedi disponibilità». Da decidere quando si lavorerà sulle pagine interne.
+### Risolte il 12/07/2026 (chiusura cantiere sito)
+
+- ~~Le pagine interne del sito usano CTA diverse tra loro~~ → **le pagine interne non esistono
+  e non si faranno**: il sito è una landing one-page per scelta. Resta la formula unica
+  «Richiedi disponibilità». Vedi `knowledge/sito/workflow-sito.md`.
