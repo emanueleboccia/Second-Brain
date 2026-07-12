@@ -7,6 +7,48 @@ Per ogni sezione trovi: testo pronto + nota strategica (a quale persona/dolore r
 
 ---
 
+## 🏷️ METADATI DEL SITO (ufficiali)
+
+Questi due valori **non stanno nel codice del tema**: vivono nel **database WordPress**
+(*Impostazioni → Generali*). Git non li vede, e non si accorge se cambiano.
+**La fonte di verità sono i valori qui sotto**: se il sito diverge da questi, ha torto il sito.
+
+| Campo | Valore ufficiale |
+|---|---|
+| `blogname` — *Titolo del sito* | `Tenuta Don Gaetano` |
+| `blogdescription` — *Motto* | `Dimora storica per eventi in provincia di Napoli — Poggiomarino` |
+
+**Titolo SEO risultante.** Il tema non scrive nessun `<title>`: dichiara
+`add_theme_support( 'title-tag' )` e lascia comporre il titolo a WordPress, come
+`blogname` + separatore + `blogdescription`. Quello che deve comparire in pagina, e in SERP, è:
+
+```
+Tenuta Don Gaetano · Dimora storica per eventi in provincia di Napoli — Poggiomarino
+```
+
+Due caratteri da non sbagliare — nessuno dei due si digita per caso, e vengono da due posti diversi:
+
+- **`·`** (U+00B7, *middle dot*) — è il **separatore**, e arriva dal **codice**: il filtro
+  `document_title_separator` in `functions.php` del tema. Senza quel filtro WordPress
+  userebbe il suo default `-`.
+- **`—`** (U+2014, *em dash*) — è **dentro il motto**, quindi vive nel **database**.
+
+> **Verifica post-deploy, obbligatoria.** Che in pagina ci sia **un solo** `<title>`, e che il
+> testo corrisponda **carattere per carattere** a quello qui sopra. Il sito ha già avuto due
+> `<title>` contemporaneamente per settimane senza che nessuno se ne accorgesse.
+>
+> ```sh
+> curl -s https://tenutadongaetano.it/ | grep -c '<title>'              # atteso: 1
+> curl -s https://tenutadongaetano.it/ | grep -oE '<title>[^<]*</title>'
+> ```
+
+> **Nota — 12/07/2026.** Il motto precedente era
+> `Dimora storica per eventi esclusivi — Poggiomarino (NA)`.
+> È stato **sostituito il 12/07/2026** con quello ufficiale qui sopra, che porta in SERP la
+> keyword **"provincia di Napoli"**. Se lo ritrovi da qualche parte, è un residuo: è vecchio.
+
+---
+
 ## 🔝 HEADER (sticky)
 
 **Logo:** Tenuta Don Gaetano
@@ -167,21 +209,37 @@ Il modo migliore per capire se è il posto giusto per la tua festa è visitarlo.
 ## 9. FOOTER
 
 **Colonna 1 — Brand**
-Tenuta Don Gaetano
-Dimora storica per eventi esclusivi
-Poggiomarino (NA) — area vesuviana
+Logo Tenuta Don Gaetano
+Dimora storica settecentesca a Poggiomarino, nel cuore dell'area vesuviana. La cornice per le tue feste più importanti.
+Social: Instagram · Facebook · WhatsApp
 
 **Colonna 2 — Naviga**
-La Dimora · Eventi · Gallery · Testimonianze · Servizi · FAQ · Contatti
+La Dimora · Eventi · Gallery · Perché noi · Contatti
+
+> Le voci sono **solo quelle**, e in quest'ordine: sono le uniche **ancore che esistono davvero**
+> nella home (`#dimora`, `#eventi`, `#gallery`, `#perche`, `#contatti`). Il sito è una landing
+> one-page: una voce di menu che non punta a una di queste ancore è una voce che porta a un 404.
 
 **Colonna 3 — Contatti**
-☎ Telefono / WhatsApp
-✉ Email
-📍 Indirizzo
+☎ WhatsApp · +39 351 616 5734
+✉ tenutadongaetano@gmail.com
 📷 @tenutadongaetano
+📍 Poggiomarino (NA) — area vesuviana
 
 **Riga legale:**
-© Tenuta Don Gaetano · P.IVA · Privacy & Cookie Policy
+© Tenuta Don Gaetano · Tutti i diritti riservati
+Dimora storica per eventi · Poggiomarino (NA)
+
+> *Strategia:* il footer chiude ribadendo il posizionamento (dimora storica, Poggiomarino) e
+> tiene i tre canali di contatto a un tap, senza form.
+
+> **Nota — 12/07/2026.** Dalla colonna *Naviga* sono state **tolte "Servizi & Pacchetti" e "FAQ"**:
+> puntavano a `/servizi/` e `/faq/`, pagine che **non esistono e rispondono 404**. Nella stessa
+> occasione è sparita **"Testimonianze"**, che non ha una sezione né un'ancora nella home.
+> La home è una **landing one-page per scelta** — non un cantiere a metà — quindi il footer
+> naviga per ancore, non per pagine.
+> ⚠️ **Il tema è ancora indietro:** `footer.php` continua a servire i due link a `/servizi/` e
+> `/faq/`. Vanno rimossi lì e deployati perché il sito rispecchi questo documento.
 
 ---
 
