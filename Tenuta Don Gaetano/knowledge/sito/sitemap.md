@@ -1,6 +1,6 @@
 # Sitemap & Wireframe — Sito Web Tenuta Don Gaetano
 
-> **Fonte di verità per i testi: `Copy-Homepage.md`.**
+> **Fonte di verità per i testi: `copy-homepage.md`.**
 > Se un testo qui dentro diverge dal copy, vince il copy: questo file descrive la *struttura*,
 > non le parole. I testi della home sono stati riallineati al copy il 12/07/2026 (H1, CTA
 > secondaria dell'hero, H2 dell'intro, CTA finale).

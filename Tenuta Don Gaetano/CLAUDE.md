@@ -50,9 +50,9 @@ Emerse allo smistamento del 12/07/2026.
 - ~~Regola rigida «mai Napoli»~~ → sostituita: la località si menziona ogni tanto per
   contestualizzare, senza formule obbligate (`reference/tono.md`).
 - ~~Testimonianze inventate nel copy della homepage~~ → marcate
-  `⚠️ PLACEHOLDER — NON PUBBLICARE` in `knowledge/sito/Copy-Homepage.md`.
-- ~~Il consenso spariva nel passaggio tra i file~~ → nota in cima a `Content-Pillar-Instagram.md`
-  e `Idee-Post-Caroselli-per-Pillar.md`, con rimando a `reference/tono.md`.
+  `⚠️ PLACEHOLDER — NON PUBBLICARE` in `knowledge/sito/copy-homepage.md`.
+- ~~Il consenso spariva nel passaggio tra i file~~ → nota in cima a `pillar-instagram.md`
+  e `idee-post.md`, con rimando a `reference/tono.md`.
 - ~~Prezzo come cifra secca~~ → regola: sempre fascia indicativa (`reference/tono.md`).
 - ~~Copy e wireframe divergenti sulla home~~ → wireframe riallineato al copy, che è la
   fonte di verità per i testi.
@@ -61,7 +61,7 @@ Emerse allo smistamento del 12/07/2026.
 
 ### Ancora aperte
 
-- `knowledge/contenuti/Dolori-Desideri-Buyer-Persona.md` chiude ancora gli schemi di contenuto
+- `knowledge/contenuti/ganci-dolori-desideri.md` chiude ancora gli schemi di contenuto
   con una CTA («scrivici, prenota una visita, scopri di più»): incompatibile con la fase Vetrina.
   Il file non è stato modificato — quando lo usi, ignora quella riga e applica `reference/tono.md`.
 - Le pagine interne del sito usano CTA diverse tra loro («Prenota una visita»,

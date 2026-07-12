@@ -6,7 +6,7 @@ della mia vita o del mio lavoro.
 ## Regole per te, Claude
 
 - Quando lavoriamo su un'area, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo
-  `memory.md`, poi TUTTI i file in `reference/`. Non leggere `knowledge/` se non te lo chiedo.
+  `MEMORY.md`, poi TUTTI i file in `reference/`. Non leggere `knowledge/` se non te lo chiedo.
 - Non leggere mai l'intero Vault. Ti intasi e lavori peggio.
 - In `_sistema/tecnica/` ci sono i pattern tecnici che ho già imparato a
   mie spese. Leggili prima di lavorare su WordPress o Notion.
@@ -14,14 +14,25 @@ della mia vita o del mio lavoro.
   `_sistema/tecnica/novamira.md`.
 - `_local/` non lo tocchi mai.
 
+## Convenzione di nomi
+
+- Tutti i file in **minuscolo-con-trattini**: `pillar-instagram.md`, `copy-homepage.md`.
+- Fanno eccezione `CLAUDE.md` e `MEMORY.md`, sempre in maiuscolo.
+- Le **cartelle madri dei progetti** portano il nome proprio del progetto, con le iniziali
+  maiuscole e senza trattini: `Tenuta Don Gaetano/`.
+- Le **sottocartelle** sono minuscole: `reference/`, `knowledge/`, `knowledge/contenuti/`.
+
+Il nome di un file deve essere corto e inerente alla sua posizione: se sta in
+`knowledge/contenuti/`, si chiama `idee-post.md`, non `Idee-Post-Caroselli-per-Pillar.md`.
+
 ## File memory
 
-Ogni cartella di progetto ha un `memory.md`.
+Ogni cartella di progetto ha un `MEMORY.md`.
 
 - Quando prendiamo una decisione rilevante, o emerge qualcosa da ricordare, scrivilo lì
   **con la data** — anche senza che io te lo chieda.
-- Se dico «ricordatelo», va nel `memory.md` del progetto attivo.
-- All'inizio di ogni sessione su un progetto, leggi il suo `memory.md` **dopo il CLAUDE.md
+- Se dico «ricordatelo», va nel `MEMORY.md` del progetto attivo.
+- All'inizio di ogni sessione su un progetto, leggi il suo `MEMORY.md` **dopo il CLAUDE.md
   e prima dei reference**.
 
 ## Gerarchia della voce
@@ -38,4 +49,4 @@ come si scrive per quel brand.
 
 ## Aree
 
-- `tenuta-don-gaetano/` — location per eventi privati, Campania.
+- `Tenuta Don Gaetano/` — location per eventi privati, Campania.
