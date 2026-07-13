@@ -23,13 +23,16 @@ Sono questi, e sono tutti:
 - **Feste private**
 - **Battesimi**
 - **Comunioni**
+- **Cresime**
 - **Promesse di matrimonio**
 - **Feste di laurea**
 - **Feste di compleanno**
+- **Anniversari**
 - **Eventi aziendali**
 
-**Battesimi e comunioni sono il cuore del fatturato**, di gran lunga: i contenuti devono dire quella
-parola, perché chi cerca dove fare la comunione deve trovarla scritta.
+**Le cerimonie religiose — battesimi, comunioni, cresime — sono il cuore del fatturato**, di gran
+lunga: i contenuti devono dire quella parola, perché chi cerca dove fare la comunione deve trovarla
+scritta.
 
 ⚠️ **I matrimoni no.** Né qui né alla Tenuta. Le *promesse* di matrimonio sì, i matrimoni no.
 

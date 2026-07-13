@@ -47,8 +47,9 @@ prezzo a parte.)*
 
 Gli eventi ufficiali che facciamo sono elencati in [offerta.md](offerta.md).
 
-Quello che conta sapere prima di scrivere: **le cerimonie religiose — comunioni e battesimi — sono
-il cuore del fatturato, di gran lunga.** Le feste giovani (18°, 30°) ci sono, ma pesano poco.
+Quello che conta sapere prima di scrivere: **le cerimonie religiose — battesimi, comunioni,
+cresime — sono il cuore del fatturato, di gran lunga.** Le feste giovani (18°, 30°) ci sono, ma
+pesano poco.
 
 ## Fuori target
 
