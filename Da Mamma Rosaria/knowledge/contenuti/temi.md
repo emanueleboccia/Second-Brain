@@ -34,10 +34,12 @@ Comunioni, battesimi, cresime. **È il cuore del fatturato, di gran lunga**, e i
 dire quella parola: chi cerca dove fare la comunione deve trovarla scritta.
 *Format naturali: tutti.*
 
-## 4. La location in esclusiva
+## 4. Lo spazio dedicato
 
-Il verde, gli spazi, la casa. Il posto è solo tuo: nessun altro evento in corso.
-⚠️ **Senza numeri di invitati** — non si comunicano.
+Il verde, le sale, la casa. Uno spazio riservato solo al tuo evento.
+
+⚠️ **Non si promette l'intera location:** quella è un optional e dipende. Si promette *lo spazio
+dedicato*. E **senza numeri di invitati** — non si comunicano.
 *Format naturali: post fotografico, reel lunghi.*
 
 ## 5. Educativo

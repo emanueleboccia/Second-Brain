@@ -29,9 +29,13 @@ fare, non un tema attivo. Vedi [tono.md](tono.md).
 
 **Non siamo i più economici: siamo quelli che ti cuciono l'evento addosso.**
 
-L'esclusiva della location è compresa — il posto è tuo. Si parte da un menù e da lì l'evento
-cresce quanto vuole il cliente: allestimento, angoli a vista, buffet dolci, torta, spettacoli,
-menù personalizzati. **Tutto attraverso di noi, un interlocutore solo.**
+Si parte da **uno spazio dedicato** e da un menù di base, e da lì l'evento cresce quanto vuole il
+cliente: allestimento, angoli a vista, buffet dolci, torta, spettacoli, menù personalizzati.
+**Tutto attraverso di noi, un interlocutore solo.**
+
+⚠️ **«Esclusivo» vuol dire uno spazio riservato solo a quell'evento — non l'intera location.**
+Prendere tutta la location è un *optional*, e dipende. Non si promette mai come se fosse la norma:
+il cliente si farebbe un'idea che poi dovremmo correggere.
 
 Il rapporto qualità-prezzo è la nostra forza, ma **non è il nostro messaggio**: il messaggio è
 l'evento su misura. La fascia alta e nobile è un'altra cosa, ed è un'altra location — vedi sotto.
@@ -41,9 +45,10 @@ prezzo a parte.)*
 
 ## Target di comunicazione
 
-- **Cerimonie religiose: comunioni, battesimi, cresime.** È il cuore del fatturato, di gran lunga.
-- Compleanni importanti e anniversari.
-- Feste giovani (18°, 30°). Ci sono, ma pesano poco.
+Gli eventi ufficiali che facciamo sono elencati in [offerta.md](offerta.md).
+
+Quello che conta sapere prima di scrivere: **le cerimonie religiose — comunioni e battesimi — sono
+il cuore del fatturato, di gran lunga.** Le feste giovani (18°, 30°) ci sono, ma pesano poco.
 
 ## Fuori target
 
@@ -73,6 +78,9 @@ melanzane, peperoni), confetture, liquori.
 Oggi **non si vende al pubblico**: si vende solo come **bomboniera** ai clienti degli eventi.
 È un upsell, ed è a catalogo — vedi [offerta.md](offerta.md). La vendita al pubblico è una cosa
 di cui riparleremo.
+
+⚠️ **Non si dice mai «coltivati da noi».** La formula giusta è: **prodotti stagionali genuini,
+azienda agricola a conduzione familiare.**
 
 ## Cosa non si comunica
 

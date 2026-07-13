@@ -21,6 +21,8 @@ Niente ristorazione ordinaria, niente camere: **solo eventi privati, cuciti su m
    del preventivo gonfiato non si risponde con un numero: si risponde con *un interlocutore solo
    che cuce l'evento su misura*.
 3. **Non siamo i più economici.** Il messaggio è l'evento su misura, non il risparmio.
+   Mai «tutto incluso», mai «un solo prezzo», mai **l'intera location**: si promette **uno spazio
+   dedicato**. Mai «coltivati da noi».
 4. **La storia di Mamma Rosaria non si racconta ancora sui social.** È l'asset più forte che
    abbiamo, ed è la storia di una madre morta nel 2021. Vive sul sito. Non infilarla nei contenuti
    finché non lo dico io.
@@ -39,8 +41,9 @@ Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettin
 
 - `brand.md` — cos'è, la storia, il posizionamento, cosa è fuori target, il rapporto con la Tenuta.
 - `target.md` — le tre buyer persona: Carmela, Lucia, Giusy.
-- `offerta.md` — i 27 servizi con i testi ufficiali per sito e catalogo.
-- `tono.md` — voce, tu, napoletano, prezzi, consenso.
+- `offerta.md` — gli eventi che facciamo e i 27 servizi, coi testi ufficiali per sito e catalogo.
+- `tono.md` — voce, tu, napoletano, prezzi, formule vietate, consenso.
+- `design.md` — palette, caratteri, logo, sfondi, foto, i 5 format del feed, le 2 storie.
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 

@@ -2,6 +2,36 @@
 
 Aperto il 13/07/2026.
 
+## 13/07/2026 — Il design system, e tre cose che ci ha corretto
+
+Dalla **Brand Guideline DMR 2026 (v2.0)** è nato `reference/design.md`: palette (arancio `#F09D28`,
+marrone `#774F03`, bianco, crema `#FBF1DD`), i due font (D-DIN + Regular Brush), il logo, le tre
+texture a foglie, il color grading delle foto, i **cinque format del feed**, i **due template delle
+storie**, il mese tipo (12 post: max 4 grafici, min 8 fotografici).
+
+⚠️ **Il PDF originale va messo in `knowledge/brand-guideline-originale.pdf`** — me l'ha passato in
+chat, non su disco.
+
+**Trappola tecnica del Brush:** ha una filigrana demo su punteggiatura, cifre e simboli. Dentro una
+parola in Brush **non ci vanno punti, virgole, numeri o «&»**. L'apostrofo invece è pulito, quindi
+*'A Friggitoria* si scrive tranquillamente in Brush.
+
+**La guideline ha corretto tre cose che avevo scritto io:**
+
+1. **«Esclusivo» = uno spazio dedicato, non l'intera location.** Avevo scritto «il posto è tuo»:
+   era una promessa più grande del vero. L'intera location è un optional, e dipende.
+2. **Mai «coltivati da noi».** La formula è *prodotti stagionali genuini, azienda agricola a
+   conduzione familiare*. Ho riscritto La Dispensa e Il Banco del Territorio.
+3. **Anche le lauree.** Gli eventi ufficiali sono sette: feste private, battesimi, comunioni,
+   promesse di matrimonio, feste di laurea, compleanni, eventi aziendali. Stanno in `offerta.md`.
+   *(Matrimoni no, mai. Le promesse sì.)*
+
+**Il payoff giusto è «eventi in agriturismo».** Quello sul sito («amore in natura») è vecchio, come
+il resto del sito: fuori palette, con un blu che nella guideline non esiste.
+
+⚠️ **La guideline si contraddice una volta:** vieta «un solo prezzo», poi lo scrive nel mockup della
+slide finale. Vale la regola, non l'esempio.
+
 ## 13/07/2026 — Spazi, sitemap e storie in evidenza
 
 **Le sei sale hanno un nome proprio:** Sala Tufo, Sala Legno, L'Uliveto, La Serra, Sala Ombrelloni,

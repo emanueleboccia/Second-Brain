@@ -39,6 +39,24 @@ Questo cancella l'angolo «prezzo chiaro e trasparente» che c'era nei materiali
 preventivo gonfiato resta una leva vera — ma non le si risponde con un numero: le si risponde con
 **un interlocutore solo che cuce l'evento su misura**.
 
+## Le formule vietate
+
+Non sono questioni di gusto: sono promesse che poi dovremmo correggere.
+
+- **«Tutto incluso», «un solo prezzo», «nessuna sorpresa», «pacchetto», «catering».**
+  L'evento si compone, non si compra a scatola chiusa.
+- **«L'intera location».** Si promette **uno spazio dedicato**, riservato solo a quell'evento.
+  L'intera location è un optional, e dipende.
+- **«Coltivati da noi».** La formula giusta è *prodotti stagionali genuini, azienda agricola a
+  conduzione familiare*.
+
+Le parole nostre, invece: «su misura», «spazio dedicato», «angoli vivi», «showcooking a vista»,
+«prodotti stagionali genuini», «di famiglia».
+
+## Emoji
+
+**Mai dentro le grafiche. Nelle caption sì.**
+
 ## Il numero di invitati — non si comunica
 
 Non c'è un limite fisso: dipende dallo spazio e se si prende l'intera location. Non è un dato che

@@ -16,6 +16,23 @@ Per ogni servizio, **due testi**:
 I servizi si dà del **tu** al cliente. I prezzi non compaiono mai qui: stanno nel catalogo di
 vendita, e non si pubblicano. Vedi [tono.md](tono.md).
 
+## Gli eventi che facciamo
+
+Sono questi, e sono tutti:
+
+- **Feste private**
+- **Battesimi**
+- **Comunioni**
+- **Promesse di matrimonio**
+- **Feste di laurea**
+- **Feste di compleanno**
+- **Eventi aziendali**
+
+**Battesimi e comunioni sono il cuore del fatturato**, di gran lunga: i contenuti devono dire quella
+parola, perché chi cerca dove fare la comunione deve trovarla scritta.
+
+⚠️ **I matrimoni no.** Né qui né alla Tenuta. Le *promesse* di matrimonio sì, i matrimoni no.
+
 ## Come sono costruiti i nomi
 
 Tre registri, e non se ne esce:
@@ -89,7 +106,7 @@ storia.
 **CATALOGO** — Apecar attrezzata con forno. Pizza a portafoglio preparata e servita live, postazione a vista, servizio continuo.
 
 ## Il Banco del Territorio
-**SITO** — Un bancone con i prodotti della nostra terra: salumi, formaggi e fior di latte, tagliati e serviti davanti agli ospiti. Soppressata, capocollo, mozzarella — tutto a portata di mano. Il benvenuto che sa già dove sei, senza bisogno di dirlo.
+**SITO** — Un bancone con i prodotti del territorio: salumi, formaggi e fior di latte, tagliati e serviti davanti agli ospiti. Soppressata, capocollo, mozzarella — tutto a portata di mano. Il benvenuto che sa già dove sei, senza bisogno di dirlo.
 
 **CATALOGO** — Banco degustazione prodotti tipici con taglio a vista. Include: salumi, formaggi, fior di latte del territorio.
 
@@ -194,12 +211,15 @@ Le foto sono **tre livelli di un solo concetto**: si sceglie a colpo d'occhio.
 **CATALOGO** — Pacchetto completo: foto digitali editate + album fisico + reel video. Unica soluzione, nessun coordinamento successivo.
 
 ## La Dispensa di Mamma Rosaria
-**SITO** — Le bomboniere le componiamo noi, con quello che produciamo: barattoli di verdure di stagione — crema di friarielli, melanzane, peperoni — confetture, liquori. Gli ospiti tornano a casa con qualcosa che si mangia, non con l'ennesimo soprammobile.
+**SITO** — Le bomboniere le componiamo noi, con i nostri prodotti: barattoli di verdure di stagione — crema di friarielli, melanzane, peperoni — confetture, liquori. Roba genuina, da azienda agricola a conduzione familiare. Gli ospiti tornano a casa con qualcosa che si mangia, non con l'ennesimo soprammobile.
 
 **CATALOGO** — Bomboniere composte con i prodotti della nostra linea. Barattoli di verdure di stagione (crema di friarielli, melanzane, peperoni), confetture, liquori. Composizione concordata in fase di organizzazione.
 
 > ⚠️ Oggi la Dispensa **si vende solo come bomboniera** ai clienti degli eventi. Non c'è vendita
 > al pubblico: non comunicarla come una linea acquistabile. Vedi [brand.md](brand.md).
+>
+> ⚠️ **Mai «coltivati da noi».** La formula è *prodotti stagionali genuini, azienda agricola a
+> conduzione familiare*.
 
 ---
 
