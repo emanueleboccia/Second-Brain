@@ -1,12 +1,10 @@
 # Da Mamma Rosaria
 
-**Agriturismo di famiglia**, gestito insieme ai miei due fratelli.
+**Agriturismo per eventi privati in esclusiva.** Poggiomarino (NA), attivo dal 2021.
+Gestito da Emanuele con i suoi due fratelli, Raffaele e Domenico.
+Sito: damammarosaria.com (**da rifare**). Canale principale: Instagram.
 
-Area con **sito web** e **contenuti social**.
-
-⚠️ **I `reference/` sono in costruzione.** Oggi sono scheletri vuoti: non sono ancora una fonte
-di verità. Finché non li riempiamo, non scrivere contenuti per questo brand tirando a indovinare —
-chiedimi quello che manca.
+Niente ristorazione ordinaria, niente camere: **solo eventi privati, cuciti su misura**.
 
 ## Regole per te, Claude
 
@@ -16,15 +14,36 @@ chiedimi quello che manca.
 - Prima di toccare il sito, leggi `_sistema/tecnica/stile-siti.md`.
 - `knowledge/` è materiale di lavoro: leggilo solo se te lo chiedo o se serve per il compito.
 
+## Le cinque cose da sapere prima di scrivere
+
+1. **Si vende.** L'obiettivo è far arrivare richieste di informazioni e prenotazioni. Le CTA ci vanno.
+2. **I prezzi non si pubblicano mai.** Né sul sito, né nei post. Tutto in trattativa. Alla paura
+   del preventivo gonfiato non si risponde con un numero: si risponde con *un interlocutore solo
+   che cuce l'evento su misura*.
+3. **Non siamo i più economici.** Il messaggio è l'evento su misura, non il risparmio.
+4. **La storia di Mamma Rosaria non si racconta ancora sui social.** È l'asset più forte che
+   abbiamo, ed è la storia di una madre morta nel 2021. Vive sul sito. Non infilarla nei contenuti
+   finché non lo dico io.
+5. **Fuori target:** niente matrimoni, niente fattoria didattica (è passata a *La Masseria di
+   Mezz'autunno*).
+
+## Nomi dei servizi
+
+I nomi ufficiali sono in `reference/offerta.md` e **non si toccano**. Se trovi in giro *Angolo del
+Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettino dei Gelati*:
+è materiale vecchio, buttalo.
+
 ## Mappa
 
 ### `reference/` — la fonte di verità (leggi sempre)
 
-- `brand.md` — cos'è l'agriturismo, a chi parla, cosa è fuori target.
-- `target.md` — a chi ci rivolgiamo: le persone, quello che cercano, quello che temono.
-- `tono.md` — come si scrive per questo brand.
+- `brand.md` — cos'è, la storia, il posizionamento, cosa è fuori target, il rapporto con la Tenuta.
+- `target.md` — le tre buyer persona: Carmela, Lucia, Giusy.
+- `offerta.md` — i 27 servizi con i testi ufficiali per sito e catalogo.
+- `tono.md` — voce, tu, napoletano, prezzi, consenso.
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
-- `contenuti/` — piano editoriale e materiali per i social.
-- `sito/` — copy, struttura e lavorazioni del sito.
+- `contenuti/temi.md` — di cosa parliamo. `contenuti/format.md` — come sono fatti i contenuti.
+- `contenuti/dolori-desideri.md` — i ganci, dolori e desideri per persona.
+- `sito/stato-attuale.md` — com'è messo il sito oggi e cosa c'è di sbagliato.
