@@ -45,5 +45,8 @@ Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettin
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
 - `contenuti/temi.md` — di cosa parliamo. `contenuti/format.md` — come sono fatti i contenuti.
+- `contenuti/storie-evidenza.md` — le undici evidenze di Instagram.
 - `contenuti/dolori-desideri.md` — i ganci, dolori e desideri per persona.
+- `spazi.md` — i nomi delle sei sale. Sono nomi propri: non si traducono.
 - `sito/stato-attuale.md` — com'è messo il sito oggi e cosa c'è di sbagliato.
+- `sito/sitemap.md` — le sette pagine del sito nuovo.

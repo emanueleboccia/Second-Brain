@@ -2,6 +2,27 @@
 
 Aperto il 13/07/2026.
 
+## 13/07/2026 — Spazi, sitemap e storie in evidenza
+
+**Le sei sale hanno un nome proprio:** Sala Tufo, Sala Legno, L'Uliveto, La Serra, Sala Ombrelloni,
+La Cantina (`knowledge/spazi.md`). Alcune sono inattive e vanno marcate *work in progress* sul
+sito — **quali, non lo sappiamo ancora.**
+
+**Il sito nuovo avrà sette pagine** (`knowledge/sito/sitemap.md`): home, la storia, contatti,
+ambienti, angoli, eventi, blog. Home e «la storia» rimandano entrambe a *La Masseria di
+Mezz'autunno*: i due brand si citano a vicenda. L'ingresso è dal **Portone di Boccapianola**, e va
+spiegato in modo che nessuno sbagli strada.
+
+**Undici storie in evidenza** su Instagram (`knowledge/contenuti/storie-evidenza.md`).
+Due cose che ne discendono:
+- **Il post recensione è stato eliminato**: le recensioni vivono solo nelle storie.
+- L'evidenza CHI SIAMO è **l'unico posto in cui la storia di Mamma Rosaria entra su Instagram**.
+  Nel feed continua a non andarci.
+
+⚠️ Due buchi aperti: manca una **pagina del sito per La Dispensa**, a cui l'evidenza omonima
+dovrebbe rimandare. E l'evidenza **IN FATTORIA** contraddice il fatto che la fattoria didattica sia
+passata alla Masseria: va chiarito se qui si fa ancora o se è un archivio.
+
 ## 13/07/2026 — Smistamento dell'inbox: i reference sono nati
 
 Otto file accumulati nei mesi, letti, contraddetti e validati con Emanuele domanda per domanda.
