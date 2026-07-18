@@ -1,4 +1,4 @@
-# Memory — La Masseria di Mezzautunno
+# Memory — La Masseria di Mezz'autunno
 
 Aperto il 13/07/2026.
 

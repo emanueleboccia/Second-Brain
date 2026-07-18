@@ -1,9 +1,9 @@
-# Brand — cos'è La Masseria di Mezzautunno e a chi parla
+# Brand — cos'è La Masseria di Mezz'autunno e a chi parla
 
 > 🚧 **SCHELETRO — DA RIEMPIRE.** Creato il 13/07/2026. Finché ci sono i segnaposto,
 > questo file **non è una fonte di verità**: non scriverci sopra contenuti tirando a indovinare.
 
-**La Masseria di Mezzautunno** — eventi esperienziali autunnali per famiglie e scuole.
+**La Masseria di Mezz'autunno** — eventi esperienziali autunnali per famiglie e scuole.
 Poggiomarino (NA). Sito: masseriadimezzautunno.it.
 
 ## Cos'è davvero

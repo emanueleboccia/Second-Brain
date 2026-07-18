@@ -1,4 +1,4 @@
-# La Masseria di Mezzautunno
+# La Masseria di Mezz'autunno
 
 **Eventi esperienziali autunnali** per **famiglie** e **scuole**.
 Sito: **masseriadimezzautunno.it** — WordPress. Poggiomarino (NA).

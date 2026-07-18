@@ -1,4 +1,4 @@
-# Tono di voce & regole editoriali — La Masseria di Mezzautunno
+# Tono di voce & regole editoriali — La Masseria di Mezz'autunno
 
 > 🚧 **SCHELETRO — DA RIEMPIRE.** Creato il 13/07/2026. Finché ci sono i segnaposto,
 > questo file **non è una fonte di verità**.

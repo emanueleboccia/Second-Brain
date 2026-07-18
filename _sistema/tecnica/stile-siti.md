@@ -1,7 +1,7 @@
 # Siti — regole di lavorazione
 
 Valgono per **tutti e tre i siti**: Tenuta Don Gaetano, Da Mamma Rosaria,
-La Masseria di Mezzautunno (masseriadimezzautunno.it).
+La Masseria di Mezz'autunno (masseriadimezzautunno.it).
 
 Da leggere **prima** di toccare un sito. Il *come* tecnico del deploy sta in
 [novamira.md](novamira.md); qui c'è il *cosa non si fa mai*.

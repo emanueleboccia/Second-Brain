@@ -1,6 +1,6 @@
 # Sotto-progetti della Masseria
 
-La Masseria di Mezzautunno è un **brand madre**: contiene sotto-progetti.
+La Masseria di Mezz'autunno è un **brand madre**: contiene sotto-progetti.
 
 Ogni sotto-progetto ha **il proprio stile**, ma resta **coerente col brand madre**. Lo stile può
 cambiare — nome, voce, grafica, pubblico di quella singola iniziativa. L'identità no: quella è
