@@ -31,8 +31,10 @@ della mia vita o del mio lavoro.
 
 - Tutti i file in **minuscolo-con-trattini**: `pillar-instagram.md`, `copy-homepage.md`.
 - Fanno eccezione `CLAUDE.md` e `MEMORY.md`, sempre in maiuscolo.
-- Le **cartelle madri dei progetti** portano il nome proprio del progetto, con le iniziali
-  maiuscole e senza trattini: `Tenuta Don Gaetano/`.
+- Anche le **cartelle madri dei progetti** vanno in **minuscolo-con-trattini**, senza
+  eccezioni: `tenuta-don-gaetano/`, `da-mamma-rosaria/`, `la-masseria-di-mezzautunno/`. Il
+  nome proprio del brand, con le maiuscole, resta nella prosa e nei titoli dei file, non nel
+  nome della cartella.
 - Le **sottocartelle** sono minuscole: `reference/`, `knowledge/`, `knowledge/contenuti/`.
 
 Il nome di un file deve essere corto e inerente alla sua posizione: se sta in
@@ -62,6 +64,6 @@ come si scrive per quel brand.
 
 ## Aree
 
-- `Tenuta Don Gaetano/` — location per eventi privati, Campania.
-- `Da Mamma Rosaria/` — agriturismo di famiglia, gestito con i miei due fratelli.
-- `La Masseria di Mezzautunno/` — eventi esperienziali autunnali. Brand madre con sotto-progetti.
+- `tenuta-don-gaetano/` — location per eventi privati, Campania.
+- `da-mamma-rosaria/` — agriturismo di famiglia, gestito con i miei due fratelli.
+- `la-masseria-di-mezzautunno/` — eventi esperienziali autunnali. Brand madre con sotto-progetti.
