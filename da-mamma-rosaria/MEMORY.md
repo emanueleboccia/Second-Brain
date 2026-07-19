@@ -109,3 +109,13 @@ nobile, fascia più alta. **Il discriminante è lo stile, non l'evento.**
 
 La **fattoria didattica** non è più materia di questo brand: è migrata su *La Masseria di
 Mezz'autunno*. Il sito attuale la dà ancora attiva — è uno dei motivi per cui va rifatto.
+
+## 19/07/2026 — Una regola per le caption: anti-AI e mestiere del copy
+
+Nato `reference/caption.md`: come si costruisce una caption che si legge fino in fondo, invece di
+scrollarla. La prima riga come gancio, il testo arieggiato (riga vuota tra i blocchi), il ritmo
+fatto con la lunghezza delle frasi, la punteggiatura come pausa, la chiusura che chiede qualcosa
+(si vende). Più i tell che tradiscono l'AI in una caption, oltre a quelli di `_sistema/voce/anti-ai.md`.
+
+Non sostituisce niente: `anti-ai.md` resta il «come non si scrive mai» di sistema, `tono.md` la voce
+del brand. Questo è il livello sotto — il mestiere della didascalia — e lo richiamano entrambi.

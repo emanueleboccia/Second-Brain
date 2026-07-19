@@ -3,6 +3,7 @@
 > Fonte di verità. Validato il 13/07/2026.
 > Vale **sempre** anche `_sistema/voce/anti-ai.md`: dice come non si scrive mai, su qualsiasi
 > progetto. Questo file dice come si scrive **per Da Mamma Rosaria**.
+> La **costruzione** della caption — gancio, spazi, ritmo, punteggiatura — sta in [caption.md](caption.md).
 
 ## FASE ATTUALE: vendita
 

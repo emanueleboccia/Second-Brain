@@ -43,6 +43,7 @@ Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettin
 - `target.md` — le tre buyer persona: Carmela, Lucia, Giusy.
 - `offerta.md` — gli eventi che facciamo e i 27 servizi, coi testi ufficiali per sito e catalogo.
 - `tono.md` — voce, tu, napoletano, prezzi, formule vietate, consenso.
+- `caption.md` — come si monta una caption che si legge: gancio, spazi, ritmo, punteggiatura, anti-AI.
 - `design.md` — palette, caratteri, logo, sfondi, foto, i 5 format del feed, le 2 storie.
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
