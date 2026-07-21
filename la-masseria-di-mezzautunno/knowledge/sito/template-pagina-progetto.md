@@ -38,14 +38,14 @@
   con **leva di scarsità**.
 - **Leva:** «edizione passata sold out», «ultimi posti», date che spariscono.
 
-### 7. ⚠️ Festeggia il tuo evento esclusivo *(DA CONFERMARE)*
-- **Contenuto voluto:** sezione dove si può cliccare una CTA e **richiedere un preventivo** per
-  festeggiare il proprio **compleanno o festa nel parco**.
-- ⚠️ **Nodo di brand.** Gli eventi privati su misura, nella scorsa validazione, erano **fuori
-  target per la Masseria** e assegnati a **Da Mamma Rosaria** (l'unico brand privato, ed è la
-  location). Questa sezione va incastrata senza sbriciolare quel confine — **in attesa della
-  decisione di Emanuele**: se la festa privata nel parco la gestisce Da Mamma Rosaria (CTA verso il
-  suo preventivo) o se diventa una nuova offerta della Masseria (allora si aggiornano i reference).
+### 7. Festeggia il tuo evento esclusivo
+- **Contenuto:** sezione con CTA per **richiedere un preventivo** e festeggiare il proprio
+  **compleanno o festa nel parco**.
+- **Cos'è:** un **plus, un servizio aggiuntivo** — **pacchetti festa strutturati insieme a Da Mamma
+  Rosaria** (che è la location e il brand di eventi privati). Non è la Masseria che diventa bespoke:
+  è un add-on **co-costruito con DMR**, offerto dentro la cornice dell'evento stagionale.
+- **Leva:** esclusività dentro l'esperienza — «vivi il parco per la tua festa».
+- **CTA:** Richiedi un preventivo (gestione condivisa con Da Mamma Rosaria).
 
 ### 8. Mappa del parco
 - **Contenuto:** la mappa del parco con le aree.

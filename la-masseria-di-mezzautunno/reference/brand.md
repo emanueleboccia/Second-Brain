@@ -85,6 +85,11 @@ in una veste diversa.
 
 ## Fuori target
 
-- **Eventi privati su misura** (comunioni, battesimi, compleanni privati, promesse): non sono
-  della Masseria — sono di Da Mamma Rosaria o della Tenuta.
+- **Eventi privati su misura** (comunioni, battesimi, promesse): non sono della Masseria — sono di
+  Da Mamma Rosaria o della Tenuta.
 - **Matrimoni:** no, in nessuno dei brand.
+
+**L'unico ponte:** durante gli eventi si possono festeggiare **compleanni e feste nel parco**, come
+**pacchetti-plus strutturati insieme a Da Mamma Rosaria**. È un servizio aggiuntivo co-brandizzato,
+non un business bespoke della Masseria: il privato resta powered by DMR. Vedi
+[offerta.md](offerta.md).

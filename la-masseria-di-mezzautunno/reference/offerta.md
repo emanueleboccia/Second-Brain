@@ -52,6 +52,17 @@ del progetto.
 - **Giochi all'aria aperta** e **aree pic-nic**.
 - **Gli spettacoli e gli allestimenti** di Funny Show, che cambiano l'atmosfera dell'evento.
 
+## Un plus: le feste private nel parco
+
+Durante gli eventi si può festeggiare il proprio **compleanno o una festa nel parco**. È un
+**servizio aggiuntivo, un plus** — **pacchetti strutturati insieme a Da Mamma Rosaria**, che è la
+location e il brand di eventi privati.
+
+⚠️ **Non è la Masseria che diventa bespoke.** Il privato resta **powered by Da Mamma Rosaria**: la
+Masseria vende biglietti pubblici, e la festa privata è un add-on **co-brandizzato con DMR**,
+offerto dentro la cornice dell'evento stagionale. Si comunica **solo come plus**, con richiesta di
+preventivo, mai come il cuore dell'offerta.
+
 ## La parte scuole, in concreto
 
 Per le scuole ogni evento ha una lettura didattica (il ciclo della zucca, gli animali, le stagioni,
