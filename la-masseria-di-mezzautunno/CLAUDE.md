@@ -1,46 +1,63 @@
 # La Masseria di Mezz'autunno
 
-**Eventi esperienziali autunnali** per **famiglie** e **scuole**.
+**Brand madre di eventi esperienziali stagionali** per **famiglie** e **scuole**.
 Sito: **masseriadimezzautunno.it** — WordPress. Poggiomarino (NA).
 
-È un **brand madre**: contiene sotto-progetti, ognuno col proprio stile ma tutti coerenti con
-lui. Vedi `sottoprogetti/README.md`.
-
-⚠️ **I `reference/` sono in costruzione.** Oggi sono scheletri vuoti: non sono ancora una fonte
-di verità. Finché non li riempiamo, non scrivere contenuti per questo brand tirando a indovinare —
-chiedimi quello che manca.
+Nasce dall'unione di due brand di famiglia: **Da Mamma Rosaria** (la location e il cibo genuino) e
+**Funny Show** (l'agenzia di eventi e spettacoli). Sotto la Masseria vivono i suoi **progetti
+stagionali** — vedi `progetti/README.md`.
 
 ## Regole per te, Claude
 
 - Prima di scrivere qualsiasi contenuto per questa area, leggi **tutti** i file in `reference/`.
   Sono la fonte di verità: se un file in `knowledge/` li contraddice, vincono quelli in `reference/`.
+- Se lavori su un evento specifico, leggi anche il suo mini-reference in `progetti/`.
 - Valgono sempre anche le regole di scrittura in `_sistema/voce/`.
-- Prima di toccare il sito, leggi `_sistema/tecnica/stile-siti.md`.
+- Prima di toccare il sito, leggi `_sistema/tecnica/stile-siti.md` e `_sistema/tecnica/novamira.md`.
 - `knowledge/` è materiale di lavoro: leggilo solo se te lo chiedo o se serve per il compito.
+
+## Le cose da sapere prima di scrivere
+
+1. **Non è solo autunno: è stagionale.** I progetti sono **Zucche in Masseria** (autunno),
+   **Il Borgo Infestato** (autunno), **Il Presepe** (inverno), **Funny Farm** (primavera). Ogni
+   evento è una **finestra** che si apre e si chiude: chiediti sempre *di quale evento parlo e in
+   che fase è* (riscaldamento / in vendita / dopo). La fase si gestisce a stagioni, non a date fisse.
+2. **Doppio target, due binari.** Famiglie = evento pubblico, **biglietto a prezzo pubblico su
+   Clappit**, «tutto incluso» qui va bene. Scuole = pagina dedicata, **richiesta brochure** (non
+   acquisto). Non si mescolano nello stesso contenuto.
+3. **La Masseria è l'unico brand pubblico e a biglietto** dei tre. Da Mamma Rosaria e la Tenuta sono
+   privati, su misura, senza prezzi: **non usare mai** qui il loro linguaggio «su misura/esclusivo».
+4. **La fattoria didattica certificata è una dicitura burocratica sottintesa**, non un progetto e
+   non un vanto. Si nomina ogni tanto sul sito per le scuole. La riprova sociale è un'altra cosa.
+5. **Riprova sociale: solo quella vera.** Il **sold out** delle edizioni passate (Zucche 2025,
+   Funny Farm 2026) e le **foto piene di gente**. **Mai numeri inventati**, niente recensioni finché
+   non le raccogliamo.
+6. **Location e cibo sono di Da Mamma Rosaria; gli spettacoli di Funny Show.** Il cibo genuino che
+   comunichiamo è dell'agriturismo.
 
 ## ⚠️ Il sito è già stato ferito una volta
 
-Su questo sito, **durante un build, gli accenti si sono corrotti**. Non è un rischio teorico:
-è successo.
-
-Prima di qualsiasi lavoro sul sito leggi `_sistema/tecnica/novamira.md`, dove stanno le cautele —
-a partire dalla regola sull'escape unicode (`\uXXXX` sì, `\\uXXXX` mai). E dopo ogni deploy
-rileggi la pagina pubblicata: **testi, accenti, link**.
+Su questo sito, **durante un build gli accenti si sono corrotti**. Non è teorico: è successo. Prima
+di lavorare sul sito leggi `_sistema/tecnica/novamira.md` (regola sull'escape unicode: `\uXXXX` sì,
+`\\uXXXX` mai). Dopo ogni deploy rileggi la pagina pubblicata: **testi, accenti, link**.
 
 ## Mappa
 
 ### `reference/` — la fonte di verità (leggi sempre)
 
-- `brand.md` — cos'è la Masseria, a chi parla, cosa è fuori target.
-- `target.md` — famiglie e scuole: chi decide, cosa cerca, cosa teme.
-- `tono.md` — come si scrive per questo brand.
+- `brand.md` — cos'è, l'origine (Da Mamma Rosaria + Funny Show), i quattro progetti, il doppio
+  target, la location, il rapporto coi brand fratelli, cosa è fuori target.
+- `target.md` — famiglie (Valentina; Paola & Gennaro) e scuole (Maestra Teresa).
+- `offerta.md` — come si compra (biglietto Clappit / brochure scuole), chi fa cosa, la giornata tipo.
+- `tono.md` — la fase a stagioni, i due registri, il copy, i prezzi, la riprova sociale, l'hero.
 
-### `sottoprogetti/` — i progetti figli
+### `progetti/` — i progetti stagionali
 
-Ognuno avrà la sua sottocartella con `CLAUDE.md` e `reference/` propri, quando nascerà.
-Le regole stanno in `sottoprogetti/README.md`.
+Ognuno ha la sua cartella e il suo `reference.md`. Le regole stanno in `progetti/README.md`.
+Zucche in Masseria e Funny Farm hanno un'edizione fatta; Il Borgo Infestato e Il Presepe sono in
+lineup e ancora da riempire.
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
-- `contenuti/` — piano editoriale e materiali per i social.
-- `sito/` — copy, struttura e lavorazioni del sito.
+- `contenuti/` — `dolori-desideri.md`, `pillar.md` (consolidati), `idee-reel.md`.
+- `sito/` — `sitemap.md` e `copy-home.md` (bozza da adattare all'evento in corso).

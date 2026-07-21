@@ -71,6 +71,19 @@ Sono **due location nostre**, sulla stessa via, e **non si fanno concorrenza**: 
 Una mamma che fa la comunione del figlio qui spende un tot; alla Tenuta è tutt'altro. **Il
 discriminante è lo stile, non l'evento.** Chi cerca la casa viene qui, chi cerca la dimora va lì.
 
+## Da Mamma Rosaria e La Masseria di Mezz'autunno
+
+**Da Mamma Rosaria è anche la location de La Masseria di Mezz'autunno**, il brand di eventi
+stagionali pubblici (Zucche in Masseria, Funny Farm, ecc.): stessa terra, veste diversa. Gli eventi
+della Masseria si svolgono qui, e il **cibo genuino** che la Masseria comunica è il nostro —
+prodotti stagionali dell'azienda agricola a conduzione familiare.
+
+Sono due comunicazioni distinte: **qui** eventi privati su misura, senza prezzi; **là** eventi
+pubblici a biglietto. La **fattoria didattica** vive tutta sulla Masseria, non su di noi.
+
+⚠️ Il sito attuale di Da Mamma Rosaria dà ancora la fattoria didattica come attività propria: va
+tolto nel rifacimento — è roba della Masseria.
+
 ## La Dispensa di Mamma Rosaria
 
 La nostra **linea di prodotti brandizzati**: barattoli di verdure di stagione (crema di friarielli,
