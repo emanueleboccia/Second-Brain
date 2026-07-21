@@ -15,7 +15,7 @@ diverso dagli altri.
 |---|---|---|
 | **Zucche in Masseria** | Autunno | [`zucche-in-masseria/`](zucche-in-masseria/) |
 | **Il Borgo Infestato** | Autunno | [`il-borgo-infestato/`](il-borgo-infestato/) |
-| **Il Presepe** | Inverno | [`il-presepe/`](il-presepe/) |
+| **Il Presepe di una volta** | Inverno | [`il-presepe-di-una-volta/`](il-presepe-di-una-volta/) |
 | **Funny Farm** | Primavera | [`funny-farm/`](funny-farm/) |
 
 ## Com'è fatta una cartella progetto

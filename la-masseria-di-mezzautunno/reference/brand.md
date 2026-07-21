@@ -29,7 +29,7 @@ Masseria. Ognuno ha la sua cartella e il suo mini-reference in [`../progetti/`](
 |---|---|---|
 | **Zucche in Masseria** | Autunno | Edizione 2025 fatta — **sold out** quasi tutte le date |
 | **Il Borgo Infestato** | Autunno | In lineup |
-| **Il Presepe** | Inverno | In lineup |
+| **Il Presepe di una volta** | Inverno | Nuovo — prima edizione dicembre 2026 |
 | **Funny Farm** | Primavera | Edizione 2026 fatta — **sold out** |
 
 ⚠️ **Il brand non è "sempre acceso" e non è solo autunnale.** Vive per finestre: un evento si apre

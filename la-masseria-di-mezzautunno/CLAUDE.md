@@ -19,7 +19,8 @@ stagionali** — vedi `progetti/README.md`.
 ## Le cose da sapere prima di scrivere
 
 1. **Non è solo autunno: è stagionale.** I progetti sono **Zucche in Masseria** (autunno),
-   **Il Borgo Infestato** (autunno), **Il Presepe** (inverno), **Funny Farm** (primavera). Ogni
+   **Il Borgo Infestato** (autunno), **Il Presepe di una volta** (inverno, nuovo), **Funny Farm**
+   (primavera). Ogni
    evento è una **finestra** che si apre e si chiude: chiediti sempre *di quale evento parlo e in
    che fase è* (riscaldamento / in vendita / dopo). La fase si gestisce a stagioni, non a date fisse.
 2. **Doppio target, due binari.** Famiglie = evento pubblico, **biglietto a prezzo pubblico su
@@ -54,10 +55,11 @@ di lavorare sul sito leggi `_sistema/tecnica/novamira.md` (regola sull'escape un
 ### `progetti/` — i progetti stagionali
 
 Ognuno ha la sua cartella e il suo `reference.md`. Le regole stanno in `progetti/README.md`.
-Zucche in Masseria e Funny Farm hanno un'edizione fatta; Il Borgo Infestato e Il Presepe sono in
-lineup e ancora da riempire.
+Zucche in Masseria e Funny Farm hanno un'edizione fatta; Il Borgo Infestato è in lineup; Il Presepe
+di una volta è nuovo (prima edizione dicembre 2026, sul sito è un «coming soon»).
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
 - `contenuti/` — `dolori-desideri.md`, `pillar.md` (consolidati), `idee-reel.md`.
-- `sito/` — `sitemap.md` e `copy-home.md` (bozza da adattare all'evento in corso).
+- `sito/` — il blueprint del sito: `struttura-sito.md` (architettura e regole), `pagina-home.md`,
+  `pagina-scuole.md`, `template-pagina-progetto.md` (l'ossatura delle landing di progetto).
