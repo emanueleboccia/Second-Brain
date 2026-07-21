@@ -1,55 +1,144 @@
 # Sitemap — il sito nuovo
 
-> Decisa il 13/07/2026. Il sito attuale è da rifare: cos'è che non va, in `stato-attuale.md`.
-> Come si struttura ogni singola pagina lo vedremo dopo: qui c'è l'impianto.
+> Impianto deciso il 13/07/2026, **dettagliato sezione per sezione il 21/07/2026** con la specifica
+> di Emanuele. Materiale di lavoro: dove tocca voce, offerta o prezzi, vincono i `reference/`.
+> Cos'è che non va nel sito attuale: [stato-attuale.md](stato-attuale.md).
+> Prima di toccare il sito: `_sistema/tecnica/stile-siti.md` e `_sistema/tecnica/novamira.md`.
 
-Sette pagine.
+**Sette pagine:** Home · La Storia · Contatti · Ambienti · Angoli · Eventi · Blog.
 
-## Home
-
-Focus sugli **eventi**. Dentro, anche una sezione che parla de **La Masseria di Mezz'autunno**.
-
-## La storia
-
-Focus sulla storia di **Mamma Rosaria** — che è immensa e non è mai stata raccontata: la masseria,
-gli eventi che faceva lei, le visioni future. Con richiami a **La Masseria di Mezz'autunno**.
-
-È la pagina che oggi non esiste davvero: quella attuale è orfana, non linkata da nessuna parte, e
-mette Antonio tra i figli (è il marito). Vedi `stato-attuale.md`.
-
-## Contatti
-
-Mappa, informazioni, e **come raggiungerci**. L'ingresso è dal **Portone di Boccapianola**: va detto
-in modo che non si possa sbagliare.
-
-## Ambienti
-
-Una sezione per ogni sala, spiegata. **Le sale inattive portano la dicitura *work in progress*.**
-I nomi stanno in `../spazi.md`.
-
-## Angoli
-
-I servizi aggiuntivi e gli showcooking. I testi sono già pronti e validati: `reference/offerta.md`,
-testo **SITO**, nelle cinque categorie che seguono l'arco della serata.
-
-## Eventi
-
-Focus sui **dolori di chi sta organizzando**: i nostri punti di forza e quali eventi si possono
-festeggiare qui. I ganci stanno in `../contenuti/dolori-desideri.md`.
-
-*In futuro una sottopagina per ogni evento. **Non ora.***
-
-## Blog
-
-Eventi del passato, novità, programmi futuri.
+⚠️ **Nessun prezzo, in nessuna pagina. Mai.** Vedi [../../reference/tono.md](../../reference/tono.md).
+Fase: **vendita** — le CTA ci vanno, si chiude chiedendo un preventivo/contatto.
 
 ---
 
-⚠️ **Nessun prezzo, in nessuna pagina.** Mai. Vedi `reference/tono.md`.
+## Home
 
-## ⚠️ Il buco: la Dispensa
+Focus sugli **eventi**, con un aggancio a *La Masseria di Mezz'autunno*. Le sezioni, in ordine:
 
-L'evidenza Instagram **LA DISPENSA** deve rimandare a «una pagina del sito che spiega i prodotti e
-ne mostra l'uso come bomboniera negli eventi». **Quella pagina nella sitemap non c'è.**
+1. **Hero** — slogan forte + **due CTA**: «Prenota ora» e «Scopri di più».
+2. **Chi siamo (breve)** — chi siamo in poche righe, veloce, + **CTA alla pagina [La Storia](#la-storia)**.
+3. **Eventi su misura** — il cuore del servizio: l'evento cucito addosso. Copy sui **dolori di chi
+   organizza** (vedi `../contenuti/dolori-desideri.md`). Leva: *un interlocutore solo che cuce
+   l'evento su misura*.
+4. **Come funziona** — come si svolge un evento da noi: il primo incontro, come si costruisce, cosa
+   trova la persona quando viene. Toglie l'ansia del «dover pensare a tutto».
+5. **Perché noi** — riprova sociale: **le recensioni Google** (numero reale, vedi ⚠️ sotto), gli
+   eventi fatti negli anni, le famiglie che si sono affidate a noi.
+6. **CTA urgenza / FOMO** — spinta a prenotare: **poche date disponibili per autunno–inverno**.
+7. **La Masseria di Mezz'autunno** — piccola sezione: Da Mamma Rosaria è **anche fattoria didattica**,
+   e qui entra *La Masseria di Mezz'autunno* — gli **eventi stagionali aperti al pubblico** che si
+   svolgono qui. È il ponte tra i due brand (vedi `../../reference/brand.md`).
+8. **Recensioni** — blocco recensioni + riprova sociale.
+9. **Social wall** — gli ultimi post da Instagram.
+10. **FAQ** — le domande frequenti.
+11. **CTA finale** — grande, al prenotare, con le solite leve (FOMO, su misura, un solo interlocutore).
 
-Va decisa: una pagina a sé, o una sezione dentro *Angoli*?
+⚠️ **Numeri — attenzione alla regola.** `tono.md` vieta i numeri inventati (il vecchio «100+
+famiglie» era senza fonte). Quindi:
+- **«Oltre 100 recensioni su Google»** → va bene **se il conteggio è reale** (Google le conta da sé).
+  Da confermare: le abbiamo davvero superate le 100?
+- **«Centinaia di famiglie si sono affidate a noi»** → usabile **solo se lo possiamo sostanziare**
+  (registro prenotazioni/anni di eventi). Altrimenti si àncora tutto al numero vero delle recensioni,
+  senza inventare una cifra tonda.
+
+---
+
+## La Storia
+
+La pagina «chi siamo», chiamata **La Storia** perché dietro c'è una storia immensa. Deve essere
+**super accattivante**: una **timeline** e **foto che scorrono** che raccontano il progetto — non
+nato ieri, ma **ideato già da Mamma Rosaria**. Storytelling il più autentico possibile.
+
+- È il **luogo dove la storia di Mamma Rosaria vive** (sul sito, non sui social — vedi
+  `../../reference/tono.md`, la storia non si racconta ancora su Instagram).
+- Richiami a *La Masseria di Mezz'autunno* (i due brand si citano a vicenda).
+- ⚠️ **Correggere l'errore del sito vecchio:** Antonio è il **marito** di Mamma Rosaria, non un
+  figlio. I figli sono tre: Raffaele, Domenico, Emanuele. (Vedi [stato-attuale.md](stato-attuale.md).)
+- Oggi questa pagina è **orfana** (non linkata): il sito nuovo la collega dalla Home.
+- L'impostazione narrativa di dettaglio la vediamo quando scriviamo la pagina.
+
+---
+
+## Contatti
+
+- **Contatti principali:** telefono, social, email.
+- **Mega mappa Google Maps** con la nostra posizione.
+- **Come raggiungerci:** indicazioni precise. ⚠️ **L'ingresso è dal Portone di Boccapianola** — va
+  detto in modo che nessuno sbagli strada.
+- **Form** per richiesta informazioni o **preventivo** (nessun prezzo: si richiede, non si legge).
+
+**Dati veri** (da [stato-attuale.md](stato-attuale.md)):
+Via Passanti Flocco 217 — Poggiomarino (NA), 80040 · Tel +39 351 616 5734 ·
+info@damammarosaria.com · P. IVA 09922841219.
+
+---
+
+## Ambienti
+
+- **Hero:** «Le nostre sale».
+- **Sezioni ad alternanza** (immagine a sinistra / testo a destra, poi invertito), **una per sala**,
+  con foto e breve descrizione.
+
+Le sei sale, coi **nomi propri** (da [../spazi.md](../spazi.md) — non si traducono né si accorciano):
+
+**Sala Tufo** · **Sala Legno** · **L'Uliveto** · **La Serra** · **Sala Ombrelloni** · **La Cantina**
+
+⚠️ **Nomi da non sbagliare:** è **Sala Tufo** (la pietra), non «tuffo». E sono *L'Uliveto*, *La
+Serra*, *La Cantina* — non «uliveto», «serra», «cantina» sciolti.
+⚠️ **Le sale inattive portano la dicitura *work in progress*.** Quali siano, non è ancora deciso:
+finché non lo sappiamo, la pagina non si pubblica.
+
+---
+
+## Angoli
+
+I servizi aggiuntivi e gli showcooking. I testi sono **già pronti e validati**:
+`../../reference/offerta.md`, testo **SITO**.
+
+- **Hero:** «I nostri angoli».
+- **Sezioni a card:** ogni card = un servizio, con **foto + titolo + breve descrizione**. Le sezioni
+  seguono le **cinque categorie dell'arco della serata** (L'Arrivo → Le Mani al Lavoro → Il Dolce →
+  La Festa → Il Ricordo): dentro ognuna, le card dei servizi (circa 3 per riga).
+- **Sezione finale:** «Altre novità sui social — seguici».
+
+⚠️ **Terminologia:** questa pagina si chiama **Angoli**. In `offerta.md` e `stato-attuale.md` è
+citata come «pagina Esperienze»: è la stessa pagina — allineare il nome a **Angoli**.
+⚠️ **Il buco della Dispensa:** *La Dispensa di Mamma Rosaria* (offerta.md, categoria «Il Ricordo»)
+serve anche da destinazione dell'evidenza Instagram omonima. Va deciso se è **una card dentro
+Angoli** o **una pagina a sé**. Non ancora risolto.
+
+---
+
+## Eventi
+
+- **Hero** grande con **frase d'impatto sul target** (chi deve festeggiare) + **due CTA**: «Prenota
+  adesso» e «Scopri ora».
+- **Punti di forza** — la sezione fatta bene.
+- **Dolori & desideri del target** — i pain principali di chi organizza (ganci in
+  `../contenuti/dolori-desideri.md`).
+- **La nostra offerta** — quali eventi si festeggiano qui (i **nove eventi ufficiali** di
+  `../../reference/offerta.md`: feste private, battesimi, comunioni, cresime, promesse di
+  matrimonio, feste di laurea, compleanni, anniversari, eventi aziendali). ⚠️ **Matrimoni no.**
+- **CTA FOMO / urgenza** — al prenotare.
+- **FAQ.**
+- **Gallery.**
+
+*In futuro una sottopagina per ogni evento. **Non ora.***
+
+---
+
+## Blog
+
+- **Hero** (il testo si decide dopo).
+- **Articoli:** eventi passati che abbiamo fatto, **storia della nostra terra**, pezzi sugli eventi
+  e sulla nostra zona.
+
+---
+
+## Riepilogo dei nodi aperti
+
+1. **Recensioni Google:** confermare che sono **oltre 100** (numero reale) e chiarire se «centinaia
+   di famiglie» è sostanziabile.
+2. **Sale *work in progress*:** quali delle sei sono inattive.
+3. **La Dispensa:** card dentro *Angoli* o pagina a sé.
