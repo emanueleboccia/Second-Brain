@@ -119,3 +119,17 @@ fatto con la lunghezza delle frasi, la punteggiatura come pausa, la chiusura che
 
 Non sostituisce niente: `anti-ai.md` resta il «come non si scrive mai» di sistema, `tono.md` la voce
 del brand. Questo è il livello sotto — il mestiere della didascalia — e lo richiamano entrambi.
+
+## 21/07/2026 — Sitemap dettagliata, e due decisioni
+
+Dettagliata la sitemap del sito nuovo sezione per sezione (`knowledge/sito/sitemap.md`), dalla
+specifica di Emanuele. Due decisioni:
+
+- **La Dispensa avrà una pagina propria** (non una card di Angoli): il sito passa a **otto pagine**.
+  Risolve il buco dell'evidenza Instagram «LA DISPENSA», che non aveva dove rimandare.
+- **La riprova sociale si àncora al numero vero delle recensioni Google.** Si abbandona «centinaia
+  di famiglie»: cifra senza fonte, vietata da `tono.md`.
+
+Correzioni segnate: **Sala Tufo** (non «tuffo»); la pagina si chiama **Angoli** (`offerta.md` e
+`stato-attuale.md` la chiamano «Esperienze» — da uniformare). Resta aperto: quali sale sono *work
+in progress*.

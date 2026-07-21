@@ -53,4 +53,4 @@ Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettin
 - `contenuti/dolori-desideri.md` — i ganci, dolori e desideri per persona.
 - `spazi.md` — i nomi delle sei sale. Sono nomi propri: non si traducono.
 - `sito/stato-attuale.md` — com'è messo il sito oggi e cosa c'è di sbagliato.
-- `sito/sitemap.md` — le sette pagine del sito nuovo.
+- `sito/sitemap.md` — le otto pagine del sito nuovo, sezione per sezione.

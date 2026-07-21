@@ -5,7 +5,7 @@
 > Cos'è che non va nel sito attuale: [stato-attuale.md](stato-attuale.md).
 > Prima di toccare il sito: `_sistema/tecnica/stile-siti.md` e `_sistema/tecnica/novamira.md`.
 
-**Sette pagine:** Home · La Storia · Contatti · Ambienti · Angoli · Eventi · Blog.
+**Otto pagine:** Home · La Storia · Contatti · Ambienti · Angoli · La Dispensa · Eventi · Blog.
 
 ⚠️ **Nessun prezzo, in nessuna pagina. Mai.** Vedi [../../reference/tono.md](../../reference/tono.md).
 Fase: **vendita** — le CTA ci vanno, si chiude chiedendo un preventivo/contatto.
@@ -23,8 +23,8 @@ Focus sugli **eventi**, con un aggancio a *La Masseria di Mezz'autunno*. Le sezi
    l'evento su misura*.
 4. **Come funziona** — come si svolge un evento da noi: il primo incontro, come si costruisce, cosa
    trova la persona quando viene. Toglie l'ansia del «dover pensare a tutto».
-5. **Perché noi** — riprova sociale: **le recensioni Google** (numero reale, vedi ⚠️ sotto), gli
-   eventi fatti negli anni, le famiglie che si sono affidate a noi.
+5. **Perché noi** — riprova sociale ancorata al **numero vero delle recensioni Google** + gli
+   eventi fatti negli anni. Niente cifre inventate sulle famiglie.
 6. **CTA urgenza / FOMO** — spinta a prenotare: **poche date disponibili per autunno–inverno**.
 7. **La Masseria di Mezz'autunno** — piccola sezione: Da Mamma Rosaria è **anche fattoria didattica**,
    e qui entra *La Masseria di Mezz'autunno* — gli **eventi stagionali aperti al pubblico** che si
@@ -34,13 +34,9 @@ Focus sugli **eventi**, con un aggancio a *La Masseria di Mezz'autunno*. Le sezi
 10. **FAQ** — le domande frequenti.
 11. **CTA finale** — grande, al prenotare, con le solite leve (FOMO, su misura, un solo interlocutore).
 
-⚠️ **Numeri — attenzione alla regola.** `tono.md` vieta i numeri inventati (il vecchio «100+
-famiglie» era senza fonte). Quindi:
-- **«Oltre 100 recensioni su Google»** → va bene **se il conteggio è reale** (Google le conta da sé).
-  Da confermare: le abbiamo davvero superate le 100?
-- **«Centinaia di famiglie si sono affidate a noi»** → usabile **solo se lo possiamo sostanziare**
-  (registro prenotazioni/anni di eventi). Altrimenti si àncora tutto al numero vero delle recensioni,
-  senza inventare una cifra tonda.
+⚠️ **Numeri — deciso il 21/07/2026.** La riprova sociale si àncora al **numero vero delle recensioni
+Google** (Google le conta da sé): quello è il dato che si mostra. **Si abbandona «centinaia di
+famiglie»** — è la cifra senza fonte che `tono.md` vieta. Nessun numero inventato.
 
 ---
 
@@ -104,9 +100,22 @@ I servizi aggiuntivi e gli showcooking. I testi sono **già pronti e validati**:
 
 ⚠️ **Terminologia:** questa pagina si chiama **Angoli**. In `offerta.md` e `stato-attuale.md` è
 citata come «pagina Esperienze»: è la stessa pagina — allineare il nome a **Angoli**.
-⚠️ **Il buco della Dispensa:** *La Dispensa di Mamma Rosaria* (offerta.md, categoria «Il Ricordo»)
-serve anche da destinazione dell'evidenza Instagram omonima. Va deciso se è **una card dentro
-Angoli** o **una pagina a sé**. Non ancora risolto.
+> *La Dispensa di Mamma Rosaria* **ha una pagina propria** (deciso il 21/07/2026): vedi
+> [La Dispensa](#la-dispensa). Non è una card di Angoli.
+
+---
+
+## La Dispensa
+
+Pagina dedicata a **La Dispensa di Mamma Rosaria** — la linea di prodotti (barattoli di verdure di
+stagione, confetture, liquori). Deciso il 21/07/2026: **pagina a sé**, non una card di Angoli.
+
+- Spiega i prodotti e ne mostra **l'uso come bomboniera** negli eventi.
+- È la destinazione dell'**evidenza Instagram «LA DISPENSA»**, che finora non aveva dove rimandare.
+- ⚠️ Oggi **nessuna vendita al pubblico**: si comunica solo come bomboniera ai clienti degli eventi
+  (vedi `../../reference/brand.md` e `../../reference/offerta.md`). Niente prezzi.
+- ⚠️ **Mai «coltivati da noi».** La formula è *prodotti stagionali genuini, azienda agricola a
+  conduzione familiare*.
 
 ---
 
@@ -138,7 +147,7 @@ Angoli** o **una pagina a sé**. Non ancora risolto.
 
 ## Riepilogo dei nodi aperti
 
-1. **Recensioni Google:** confermare che sono **oltre 100** (numero reale) e chiarire se «centinaia
-   di famiglie» è sostanziabile.
-2. **Sale *work in progress*:** quali delle sei sono inattive.
-3. **La Dispensa:** card dentro *Angoli* o pagina a sé.
+1. **Sale *work in progress*:** quali delle sei sono inattive (da vedere più avanti).
+
+*Risolti il 21/07/2026:* la riprova sociale si àncora al numero vero delle recensioni Google (via
+«centinaia di famiglie»); La Dispensa ha una pagina propria.
