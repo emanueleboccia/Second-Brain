@@ -31,9 +31,11 @@ Niente ristorazione ordinaria, niente camere: **solo eventi privati, cuciti su m
 
 ## Nomi dei servizi
 
-I nomi ufficiali sono in `reference/offerta.md` e **non si toccano**. Se trovi in giro *Angolo del
-Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettino dei Gelati*:
-è materiale vecchio, buttalo.
+I nomi ufficiali sono in `reference/offerta.md`, **allineati al catalogo definitivo (21/07/2026)** e
+**non si toccano**. I nomi sono **in italiano**: le vecchie forme dialettali con l'apostrofo
+(*'O Cuzzetiello*, *'A Carriola*, *'O Granitore*…) sono ritirate. Se trovi in giro *Angolo del
+Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettino dei Gelati* — o
+qualsiasi nome con l'apostrofo dialettale — è materiale vecchio, buttalo.
 
 ## Mappa
 
@@ -41,7 +43,7 @@ Casaro*, *Fontana di Nutella*, *Angolo Cubano*, *Aperitivo Dinamico*, *Carrettin
 
 - `brand.md` — cos'è, la storia, il posizionamento, cosa è fuori target, il rapporto con la Tenuta.
 - `target.md` — le tre buyer persona: Carmela, Lucia, Giusy.
-- `offerta.md` — gli eventi che facciamo e i 27 servizi, coi testi ufficiali per sito e catalogo.
+- `offerta.md` — gli eventi che facciamo e i 22 servizi, coi testi ufficiali per sito e catalogo.
 - `tono.md` — voce, tu, napoletano, prezzi, formule vietate, consenso.
 - `caption.md` — come si monta una caption che si legge: gancio, spazi, ritmo, punteggiatura, anti-AI.
 - `design.md` — palette, caratteri, logo, sfondi, foto, i 5 format del feed, le 2 storie.

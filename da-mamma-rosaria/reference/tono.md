@@ -27,10 +27,12 @@ Al cliente si dà del **tu**: «i tuoi ospiti», «la tua festa».
 
 ## Il napoletano
 
-**Non comunichiamo in napoletano.** I testi sono in italiano.
+**Non comunichiamo in napoletano.** I testi sono in italiano — e dal **catalogo definitivo del
+21/07/2026 anche i nomi dei servizi sono in italiano**: le vecchie forme con l'apostrofo
+(*'O Cuzzetiello*, *'A Carriola*, *'O Granitore*…) sono **ritirate**. Vedi [offerta.md](offerta.md).
 
-Il napoletano vive **solo nei nomi di alcuni servizi** — *'O Cuzzetiello*, *'A Carriola*, *'O
-Granitore* — perché quelli seguono la tradizione. L'apostrofo si scrive dritto.
+Resta napoletano solo dove è **descrittivo e vero**: *La Serata Napoletana*, la *posteggia* suonata
+tra i tavoli. Non è un vezzo grafico — è la cosa che si suona davvero.
 
 ## I prezzi — non si pubblicano mai
 

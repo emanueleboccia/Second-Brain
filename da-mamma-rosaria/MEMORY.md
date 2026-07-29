@@ -133,3 +133,22 @@ specifica di Emanuele. Due decisioni:
 Correzioni segnate: **Sala Tufo** (non «tuffo»); la pagina si chiama **Angoli** (`offerta.md` e
 `stato-attuale.md` la chiamano «Esperienze» — da uniformare). Resta aperto: quali sale sono *work
 in progress*.
+
+## 21/07/2026 — Catalogo servizi definitivo: nuova architettura
+
+Arrivato il **catalogo servizi definitivo** (*Catalogo-Servizi-DMR*). Riscritto `reference/offerta.md`.
+
+- **Via il napoletano dai nomi:** i servizi ora sono in italiano (*La Pentola Grande, Il Caciocavallo,
+  Il Cannolo, Il Granitore*…). Ritirata la dottrina «il napoletano vive nei nomi dei servizi»;
+  aggiornati `tono.md` e `CLAUDE.md`. Resta il napoletano solo dove è descrittivo (*La Serata
+  Napoletana*, la posteggia).
+- **Servizi: da 27 a 22.** Eliminati: *'O Cuzzetiello, 'A Carriola, 'O Carrettino, Il Sax sotto le
+  Stelle, Il Baule degli Amari, Il Ricordo Completo*. Rinominati: *Il Ricordo Dolce → La Confettata*,
+  *Il Gran Finale → Il Gran Buffet dei Dolci*, *'A Posteggia → La Serata Napoletana*, *La Serata al
+  Piano → La Serata in Musica*. Nuovo: **Gli Allestimenti** — assorbe il vecchio «angolo torta», che
+  prima era tra le cose «facciamo ma non comunichiamo».
+- **Contenuti:** *La Fontana Golosa* → crema alla nocciola (non cioccolato); *Il Salotto Buono*
+  aggiunge sigari; la foto passa da tre livelli a due (*Digitale* + *da Sfogliare*).
+- **Prezzi:** nel catalogo (fasce di persone, +20% ogni 10), **fuori dal reference e dal sito**.
+
+⚠️ Da sistemare: `knowledge/contenuti/` (storie-evidenza, temi) può ancora citare i nomi vecchi.
