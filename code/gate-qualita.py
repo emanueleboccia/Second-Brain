@@ -63,9 +63,8 @@ GRAPPOLI_DICHIARATI = {
 # vengono contestate se nessuno le raggiunge. La riga si cancella quando
 # l'aggancio nasce davvero.
 DEROGHE_ISOLAMENTO = {
-    "self/tariffario.md":
-        "le note che dovrebbero citarlo — self/reference/offerta, docs/brief-cliente, "
-        "docs/checklist-sito — sono ancora impalcature da compilare",
+    # self/tariffario.md stava qui: la deroga è caduta il 21/08/2026, quando il primo
+    # preventivo e la prima scheda cliente hanno cominciato a citarlo davvero.
 }
 
 # Le note ancora da compilare non partecipano alle regole sul grafo: non hanno

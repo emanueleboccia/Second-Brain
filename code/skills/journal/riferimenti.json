@@ -23,7 +23,9 @@
       "_nota_stati": "«Pronta per l'invio» è aperta ma ferma su Emanuele, non sul cliente: non si sollecita, si manda. «Scaduta» è chiusa dal tempo, non da una risposta.",
       "escludi_se": {
         "Archivia": true
-      }
+      },
+      "campo_referente": "Referente",
+      "_nota_relazioni": "Dal 21/08/2026 l'unica relazione è Referente → Contatti. I campi Cliente e Servizio non esistono più: non provare a valorizzarli."
     },
     "contatti": {
       "database_id": "70fa62ff-65e4-498a-8001-87f2b3aab424",
@@ -39,7 +41,12 @@
       "_nota_azione": "Lead caldo senza proposta = stato in stati_caldi e relazione Proposte vuota. È l'unica riga che il briefing dedica ai contatti.",
       "escludi_se": {
         "Archivia": true
-      }
+      },
+      "campo_azienda": "Azienda",
+      "campo_categoria": "Category",
+      "campo_origine": "Origine",
+      "campo_ruolo": "Ruolo",
+      "_nota_entita": "Questa è l'unica lista di persone e clienti. La lista Aziende esiste ancora nel workspace ma è scollegata: il 21/08/2026 le relazioni Cliente (su Proposte) e Deals (su Aziende) sono state eliminate. Il cliente si identifica dal Contatto, col campo Azienda come testo."
     },
     "siti": {
       "database_id": "f09622a3-1648-4e3a-94c7-65fa9db1b604",
@@ -66,29 +73,6 @@
       ],
       "_nota_stati": "Sono due campi distinti: Stato dice se il sito è su, Assistenza se il contratto di assistenza è attivo.",
       "_nota_uso": "Il briefing legge i tre campi di scadenza: entro 30 giorni compaiono, sotto i 14 sono urgenti. È fatturato ricorrente, non deve scadere nel silenzio.",
-      "escludi_se": {
-        "Archivia": true
-      }
-    },
-    "clienti": {
-      "database_id": "e2950c4e-b1fb-427e-8e63-6e770acab6f3",
-      "data_source": "collection://6376e942-966f-4a19-bff9-6938eff1da7c",
-      "nome": "Aziende",
-      "campo_titolo": "Nome Azienda",
-      "campo_stato": "Stato relazione",
-      "campo_settore": "Settore",
-      "campo_sito": "Sito",
-      "campo_note": "Note azienda",
-      "campo_proposte": "Deals",
-      "stati": [
-        "Lead",
-        "In trattativa",
-        "Cliente attivo",
-        "Cliente passato",
-        "Perso",
-        "Collaborazione"
-      ],
-      "_nota_uso": "Questa è la lista delle ENTITÀ CLIENTE: è qui che punta il campo Cliente delle Proposte. I Contatti sono le persone (con Ruolo e Azienda), le Aziende sono le organizzazioni. Le note in entities/ nascono da qui, non dai contatti.",
       "escludi_se": {
         "Archivia": true
       }

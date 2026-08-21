@@ -90,14 +90,16 @@ indovinare.
    `self/reference/tono.md` è compilato, quello è il tono; finché è vuoto, scrivi come parlerebbe
    Emanuele — niente «restiamo a disposizione», niente «in allegato troverà».
 
-8. **Se il cliente non ha una nota in `entities/`, creala.** La fonte del cliente è la lista
-   **Aziende** di Notion (`collection://6376e942-966f-4a19-bff9-6938eff1da7c`, riferimenti in
-   `code/skills/journal/riferimenti.json` sotto `clienti`), **non** la lista Contatti: i Contatti
-   sono le persone — con ruolo e telefono — le Aziende sono le organizzazioni, ed è alle Aziende
-   che punta il campo `Cliente` delle Proposte. Una nota in `entities/` che nasce da un contatto
-   invece che da un'azienda si aggancia al nodo sbagliato, e il preventivo finisce appeso a una
-   persona invece che al cliente che paga. Se l'azienda esiste già su Notion, prendi da lì nome,
-   settore e sito.
+8. **Se il cliente non ha una nota in `entities/`, creala.** Su Notion la fonte è la lista
+   **Contatti** (riferimenti in `code/skills/journal/riferimenti.json`): è l'unica lista di
+   persone e clienti, e le proposte ci si agganciano col campo `Referente`. Il campo `Azienda`
+   del contatto è **testo**, non una relazione.
+
+   Nel vault invece l'entità è **il cliente che paga**, cioè l'attività: il file si chiama
+   `entities/<attivita-in-minuscolo-con-trattini>.md` e la persona di riferimento si scrive
+   dentro. Un'attività può cambiare referente senza diventare un altro cliente, e due persone
+   della stessa attività non sono due clienti. La corrispondenza è quindi: **una nota in
+   `entities/` ↔ il contatto Notion che ha quell'azienda nel campo `Azienda`.**
 
    La nota è minima e onesta: nome, attività, data del primo contatto, cosa gli serve. **Non
    chiedere i dati che non hai**: metti quello che si ricava dalla richiesta e lascia il resto da
