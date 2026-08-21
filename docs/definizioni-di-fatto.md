@@ -42,10 +42,20 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 
 **«buongiorno» — il briefing di inizio sessione**
 
-- Il briefing è di cinque righe, non sei.
+- Ci sono tutte e quattro le parti, in ordine: diario, TickTick, Notion, le tre cose di oggi.
+- Il briefing sta in una schermata. Se le task di oggi sono quindici, nel briefing ci sono
+  quelle che contano: è una sintesi, non un inventario.
+- TickTick è riportato nell'ordine giusto — oggi, poi le scadute, poi i sette giorni in arrivo —
+  con gli orari dove ci sono.
+- Per ogni proposta aperta su Notion è scritto **da quanti giorni** è ferma, e quelle oltre i
+  sette giorni sono marcate come da sollecitare.
+- Un servizio che non risponde è **dichiarato**, non omesso: «TickTick non raggiungibile». Il
+  briefing esce comunque.
+- Le tre priorità sono presentate come proposta, non come decisione presa.
 - Ogni cosa nominata esiste davvero: la sessione citata è un file che è stato letto, le note
-  citate sono in `llms.txt`.
-- Non è stato scritto né modificato nessun file. Questo comando legge e basta.
+  citate sono in `llms.txt`, le task e le proposte vengono da una lettura fatta adesso.
+- **Non è stato scritto né modificato niente**: né file, né task, né pagine Notion. Questo
+  comando legge e basta.
 
 **«chiudi sessione» e «fine giornata» — le note di diario**
 
@@ -66,6 +76,17 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
   più `## Sessioni` in fondo.
 - Quello che è scritto è successo davvero. Niente lavoro plausibile ma non fatto, niente
   decisioni che nessuno ha preso.
+
+**«chiudi sessione» — il check di uscita**
+
+- La sessione è stata ripassata cercando cosa appartiene a TickTick (task, appuntamenti,
+  scadenze) e cosa a Notion (stati, proposte inviate, esiti).
+- Quello che è emerso è stato **elencato a Emanuele**, non scritto di iniziativa.
+- Di ogni scrittura proposta è stato mostrato il **testo esatto** prima di eseguirla: titolo
+  della task con data e ora, o campo di Notion col valore nuovo.
+- Niente è stato scritto su TickTick o su Notion senza un ok esplicito, una cosa alla volta.
+- Se non era emerso niente, è stato detto in una riga. Nessuna task inventata per sembrare
+  utili.
 
 ## Sito
 

@@ -1,0 +1,20 @@
+{
+  "_nota": "Quali database Notion legge il comando «buongiorno». Si compila alla prima esecuzione: la skill chiede a Emanuele quale lista è quale, verifica che esista su Notion e scrive qui id e nome. Dalla seconda volta in poi si legge da qui e non si chiede più. Se un id smette di rispondere, la skill lo dice e richiede quello — non cerca a tentoni un database che somigli.",
+  "notion": {
+    "proposte": {
+      "id": null,
+      "nome": null,
+      "campo_stato": null,
+      "stati_aperti": ["in attesa", "inviata"]
+    },
+    "contatti": {
+      "id": null,
+      "nome": null,
+      "campo_stato": null
+    }
+  },
+  "soglie": {
+    "giorni_proposta_ferma": 7,
+    "giorni_settimana_in_arrivo": 7
+  }
+}

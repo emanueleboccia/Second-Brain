@@ -9,6 +9,11 @@ La regola che tiene insieme i due strati: **una nota di diario si aggancia sempr
 statica con un [[wikilink]]**. Una nota che non si aggancia a niente non è memoria, è un post-it
 che tra un mese non dice più niente a nessuno.
 
+Il diario però non basta a sapere dove sei. Lo **stato** delle cose vive fuori: le azioni su
+TickTick, i contatti e le proposte su Notion. Per questo «buongiorno» li legge tutti e tre e ne
+fa una cosa sola, e «chiudi sessione» controlla che quello che è emerso parlando sia finito dove
+deve stare.
+
 Le note del diario stanno in `workspace/`, che è fuori da `llms.txt` e fuori dal gate di qualità:
 dopo aver scritto non serve rigenerare né rilanciare niente.
 
@@ -16,10 +21,10 @@ dopo aver scritto non serve rigenerare né rilanciare niente.
 
 Tre comandi, tre momenti della giornata.
 
-- **«buongiorno»** — all'inizio di una sessione. Chiede un briefing su dove eravamo rimasti.
-  Vale anche detto come «dove eravamo rimasti», «ripartiamo», «briefing».
-- **«chiudi sessione»** — alla fine di una sessione di lavoro. Scrive la nota della sessione.
-  Vale anche come «chiudiamo qui», «segna cosa abbiamo fatto».
+- **«buongiorno»** — all'inizio di una sessione. Briefing completo: dove eravamo rimasti, cosa
+  c'è oggi, cosa è fermo. Vale anche detto come «dove eravamo rimasti», «ripartiamo», «briefing».
+- **«chiudi sessione»** — alla fine di una sessione di lavoro. Scrive la nota della sessione e
+  controlla che niente resti per aria. Vale anche come «chiudiamo qui», «segna cosa abbiamo fatto».
 - **«fine giornata»** — quando la giornata è finita. Riassume tutte le sessioni del giorno in
   una nota sola. Vale anche come «chiudiamo la giornata», «riassunto di oggi».
 
@@ -30,10 +35,15 @@ Tre comandi, tre momenti della giornata.
 | La data di oggi in formato `YYYY-MM-DD` | dal sistema | sì, per tutti e tre |
 | L'indice del cervello | `llms.txt` alla radice | sì, per tutti e tre |
 | L'ultima nota di sessione | `workspace/journal/sessions/`, la più recente per nome file | sì per «buongiorno» |
+| Task, appuntamenti e scadenze | TickTick, dal connettore attivo | sì per «buongiorno» |
+| Proposte e contatti | Notion, dal connettore attivo | sì per «buongiorno» |
+| Quali database Notion leggere | `code/skills/journal/riferimenti.json` | sì per «buongiorno» |
 | Le sessioni di oggi | `workspace/journal/sessions/sessione-<oggi>.md` | sì per «fine giornata» |
-| Il template della sessione | `workspace/journal/_templates/sessione.md` | sì per «chiudi sessione» |
-| Il template del daily | `workspace/journal/_templates/daily.md` | sì per «fine giornata» |
+| I template | `workspace/journal/_templates/` | sì per chi scrive |
 | Cosa è successo nella sessione | la conversazione in corso | sì per «chiudi sessione» |
+
+TickTick e Notion si leggono **dai connettori attivi**, non da Composio: è la divisione scritta
+nel `CLAUDE.md` di radice. Composio serve per Gmail e Sheets, che qui non c'entrano.
 
 Se `workspace/journal/sessions/` è vuota, non è un errore: si va ai casi limite.
 
@@ -41,22 +51,48 @@ Se `workspace/journal/sessions/` è vuota, non è un errore: si va ai casi limit
 
 ### Comando 1 — «buongiorno»
 
-**Questo comando non scrive niente.** Legge e basta. Se ti viene voglia di aggiornare un file,
-non è questo il momento.
+**Questo comando non scrive niente.** Legge e basta — e leggere non richiede conferma, né sui
+file né sui servizi. Se ti viene voglia di aggiornare qualcosa, non è questo il momento.
 
-1. Leggi `llms.txt`. Serve a sapere quali entità esistono e come si chiamano, prima di nominarle.
-2. Trova l'ultima nota in `workspace/journal/sessions/`: i nomi sono `sessione-<YYYY-MM-DD>.md`,
-   quindi l'ordine alfabetico è già l'ordine cronologico. Leggila tutta.
-3. Leggi anche l'ultimo daily in `workspace/journal/daily/`, se c'è ed è più recente della
-   sessione: contiene il quadro d'insieme che la singola sessione non ha.
-4. Apri le note citate nel `related` di quella sessione, ma **solo quelle**: non rileggere il
-   vault intero.
-5. Dai il briefing in **cinque righe**, in quest'ordine:
-   - riga 1 — dove eravamo rimasti, con la data dell'ultima sessione;
-   - riga 2 — cosa era rimasto aperto (dalla sezione `## Aperto`);
-   - righe 3, 4, 5 — cosa conviene affrontare oggi, **in ordine di priorità**, una cosa per riga.
-6. La priorità si motiva in mezza frase: cosa blocca cos'altro, o cosa scade. Se due cose pesano
-   uguale, dillo invece di inventare un ordine.
+Il briefing deve stare **in una schermata**. È una sintesi, non un inventario: se le task di oggi
+sono quindici, quelle che contano sono tre. Un briefing che si scrolla non viene letto, e un
+briefing non letto è tempo perso due volte.
+
+**1 · Il diario.** Leggi `llms.txt` per sapere quali entità esistono e come si chiamano. Poi
+l'ultima nota in `workspace/journal/sessions/`: i nomi sono `sessione-<YYYY-MM-DD>.md`, quindi
+l'ordine alfabetico è già quello cronologico. Leggi anche l'ultimo daily in
+`workspace/journal/daily/`, se è più recente. Apri le note citate nel loro `related`, **solo
+quelle**: non rileggere il vault intero.
+
+Riporta: dove eravamo rimasti, con la data, e cosa era rimasto nella sezione `## Aperto`.
+
+**2 · TickTick.** Leggi e riporta, in quest'ordine:
+
+- **oggi** — task e appuntamenti di oggi, con gli orari;
+- **in ritardo** — task scadute, le più urgenti in cima;
+- **la settimana** — appuntamenti e scadenze dei prossimi sette giorni.
+
+Le scadute vanno sopra la settimana anche se sono poche: una cosa in ritardo pesa più di una che
+deve ancora arrivare.
+
+**3 · Notion.** Leggi la lista Proposte — quale database sia sta scritto in
+`code/skills/journal/riferimenti.json`. Riporta le proposte con stato **aperto** (in attesa,
+inviata) e **da quanti giorni** sono in quello stato.
+
+- Per ognuna, chiedi se c'è un aggiornamento da registrare.
+- Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
+  aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
+
+Se leggi anche la lista Contatti e trovi uno stato che chiede un'azione — un lead caldo senza
+nessuna proposta collegata, un cliente fermo da mesi — dillo in **una riga sola**. Non fare il
+censimento dei contatti: quello non è un briefing.
+
+**4 · Le tre cose di oggi.** Chiudi proponendo tre priorità, incrociando le tre fonti: cosa era
+aperto ieri, cosa scade oggi, cosa è fermo da troppo. Per ognuna mezza frase sul perché — cosa
+blocca cos'altro, o cosa scade.
+
+**È una proposta, non un ordine.** Decide Emanuele. Se due cose pesano uguale dillo, invece di
+inventare una gerarchia per far tornare il numero tre.
 
 ### Comando 2 — «chiudi sessione»
 
@@ -80,8 +116,22 @@ non è questo il momento.
    - `created` e `updated`: la data di oggi, in `YYYY-MM-DD`;
    - `related`: lista multi-riga, un wikilink quotato per riga, con tutte le note toccate.
 6. Il corpo ha tre sezioni, in quest'ordine: `## Fatto`, `## Deciso`, `## Aperto`. I wikilink
-   vanno **dentro il testo**, dove si nomina la nota, non solo nel `related`.
-7. Se una sezione è davvero vuota, scrivi `Niente.` e vai avanti. Non riempirla per simmetria.
+   vanno **dentro il testo**, dove si nomina la nota, non solo nel `related`. Se una sezione è
+   davvero vuota, scrivi `Niente.` e vai avanti: non riempirla per simmetria.
+
+7. **Il check di uscita.** Il diario registra cosa è successo, ma le cose da *fare* vivono su
+   TickTick e lo stato dei clienti su Notion. Ripassa la sessione e cerca quello che è emerso
+   parlando e non è finito da nessuna parte:
+
+   - **per TickTick** — task nuove, appuntamenti presi, scadenze nominate;
+   - **per Notion** — stati da cambiare, proposte inviate, esiti arrivati.
+
+   Elenca quello che hai trovato e chiedi a Emanuele se vuoi scriverlo ora. **Mostra sempre il
+   testo esatto prima di scriverlo** — titolo della task con data e ora, o riga di Notion con
+   campo e valore nuovo — e scrivi solo dopo il suo ok, una cosa alla volta.
+
+   Se non è emerso niente, dillo in una riga e chiudi. Un check di uscita che inventa due task
+   per sembrare utile fa più danno di uno che dice «niente da registrare».
 
 ### Comando 3 — «fine giornata»
 
@@ -111,9 +161,21 @@ corregge e si riverifica: il risultato si dà solo quando passano tutte.
 
 ## Casi limite
 
+**Un servizio non risponde, o ci mette troppo.** Il briefing esce lo stesso, con la sezione
+mancante dichiarata: «TickTick non raggiungibile», «Notion non raggiungibile». Non si aspetta, non
+si riprova all'infinito, e soprattutto non si tace: un briefing senza la riga di TickTick e senza
+spiegazione fa credere che oggi non ci sia niente da fare. **Mai bloccare il buongiorno per un
+connettore lento.**
+
+**Prima esecuzione: non si sa quali database Notion leggere.** Il file
+`code/skills/journal/riferimenti.json` esiste ma è vuoto. Chiedi a Emanuele quale database è la
+lista **Proposte** e quale la lista **Contatti**, cercali su Notion per confermare che esistano, e
+**salva id e nome nel file**. È l'unica volta che la domanda si fa: dalla seconda in poi si legge
+da lì. Se il file c'è ma un id non risponde più, dillo e richiedi quello — non cercare a tentoni
+un database che somigli.
+
 **La cartella delle sessioni è vuota** (prima volta che si usa la skill). «Buongiorno» non ha
-niente da leggere: dillo in una riga, leggi `llms.txt` e proponi le priorità basandoti su quello —
-i nodi aperti sono scritti dentro le note, in fondo alle sitemap dei siti e simili.
+diario da leggere: dillo in una riga e vai avanti con TickTick e Notion, che ci sono comunque.
 
 **La sessione non ha toccato nessuna entità.** Fermati e chiedi a cosa va collegata. È il caso
 per cui esiste la regola: senza aggancio la nota non si scrive.
