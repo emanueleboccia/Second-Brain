@@ -21,6 +21,22 @@ Come se la spiegassi a una persona competente che non ha mai visto il mio lavoro
 suo mestiere, ma non sa niente di me: non sa come chiamo le cose, non sa cosa do per scontato,
 non sa dove sta un file. Quello che non è scritto, non lo sa.
 
+## Da dove si parte
+
+**Ogni skill nuova si costruisce invocando lo skill creator** in [`skill-creator/`](skill-creator/):
+è quello ufficiale di Anthropic, preso il 21/08/2026 da `anthropics/claude-plugins-official`
+(commit `67a666e`). Non si scrive più una skill a mano partendo dal foglio bianco.
+
+Lo skill creator sa costruire skill in generale, ma **di questo vault non sa niente**. Quello che
+produce va riportato alle nostre regole, e la verifica è di chi lo invoca:
+
+- **Le cinque sezioni qui sotto**, in quest'ordine. Lo skill creator usa una struttura sua, con un
+  frontmatter `name`/`description`: quella è la sua convenzione, non la nostra.
+- **I percorsi veri del vault.** Il tariffario è [`../../self/tariffario.md`](../../self/tariffario.md),
+  le definizioni di fatto sono [`../../docs/definizioni-di-fatto.md`](../../docs/definizioni-di-fatto.md),
+  il correction log è [`../../correction.md`](../../correction.md) alla radice. Un percorso
+  inventato è un percorso morto, e qui dentro è già successo.
+
 ## Le cinque sezioni
 
 Ogni `SKILL.md` ha queste cinque sezioni, in quest'ordine.

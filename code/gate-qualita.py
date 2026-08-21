@@ -20,6 +20,9 @@ VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CARTELLE_ESCLUSE = {"sources", "workspace"}
 # I file che non sono note: istruzioni, memoria, indici di cartella.
 FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
+# Gli alberi che non contengono note: dentro una skill ci sono procedure, script
+# e materiale importato da fuori. Si giudicano da come funzionano, non col gate.
+ALBERI_ESCLUSI = ("code/skills",)
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300
@@ -60,7 +63,10 @@ def trova_note():
             for nome in sorted(file):
                 if not nome.endswith(".md") or nome in FILE_ESCLUSI:
                     continue
-                note.append(os.path.relpath(os.path.join(cartella, nome), VAULT))
+                relativo = os.path.relpath(os.path.join(cartella, nome), VAULT)
+                if relativo.startswith(ALBERI_ESCLUSI):
+                    continue
+                note.append(relativo)
     return sorted(note)
 
 

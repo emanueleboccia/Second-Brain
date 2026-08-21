@@ -66,6 +66,8 @@ def note_di(cartella):
                 continue
             completo = os.path.join(percorso, nome)
             relativo = os.path.relpath(completo, VAULT)
+            if relativo.startswith("code/skills"):
+                continue          # le skill hanno il loro elenco, sotto
             with open(completo, encoding="utf-8") as fh:
                 testo = nfc(fh.read())
             if not testo.startswith("---\n"):
