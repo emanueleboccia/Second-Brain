@@ -10,6 +10,11 @@ della mia vita o del mio lavoro.
 - **L'operatività vive altrove.** Contenuti, siti e deploy si fanno su **Claude Desktop** e
   **Cowork**, che leggono da qui.
 - **I lavori finiti e i media stanno su Google Drive.**
+- **Notion tiene lo stato**: contatti e lead, proposte inviate, siti dei clienti. Cosa è
+  successo e a che punto sta. Il Vault tiene le regole, Notion tiene i record. Regola pratica:
+  se un dato cambia ogni settimana sta su Notion, se cambia ogni sei mesi sta qui. Prima di
+  scrivere su Notion, mostrami cosa stai per cambiare.
+- **TickTick tiene le azioni da fare.**
 - **Le sessioni strategiche si fanno qui, con Claude Code**: nuove decisioni, nuovi progetti,
   aggiornamenti dei `reference/`. Claude aggiorna i file e committa.
 - **Le chat operative sono usa e getta.** Il contesto sta nei file, non nelle conversazioni.
@@ -26,6 +31,11 @@ della mia vita o del mio lavoro.
 - Prima di qualsiasi lavoro su WordPress via Novamira, leggi
   `_sistema/tecnica/novamira.md`.
 - `_local/` non lo tocchi mai.
+
+## Prezzi
+
+I prezzi si leggono da `emanuele-boccia/knowledge/tariffario.md`. Mai calcolati, mai stimati,
+mai inventati. Se una voce non c'è, chiedimela invece di riempire il buco.
 
 ## Convenzione di nomi
 
@@ -50,6 +60,15 @@ Ogni cartella di progetto ha un `MEMORY.md`.
 - All'inizio di ogni sessione su un progetto, leggi il suo `MEMORY.md` **dopo il CLAUDE.md
   e prima dei reference**.
 
+## Definizione di fatto
+
+Per i lavori ripetibili, in `emanuele-boccia/knowledge/definizioni-di-fatto.md` c'è scritto
+quando una cosa è finita.
+
+Quando esegui una skill, verifica le condizioni prima di darmi l'output. Se una non torna,
+correggi e riverifica. Dammi il risultato solo quando passano tutte. Le condizioni devono essere
+cose che puoi controllare tu: se una richiede un dato che non hai, dimmelo invece di supporlo.
+
 ## Gerarchia della voce
 
 In `_sistema/voce/` ci sono le regole di scrittura. Valgono in ogni area, ogni volta che
@@ -67,3 +86,13 @@ come si scrive per quel brand.
 - `tenuta-don-gaetano/` — location per eventi privati, Campania.
 - `da-mamma-rosaria/` — agriturismo di famiglia, gestito con i miei due fratelli.
 - `la-masseria-di-mezzautunno/` — eventi esperienziali autunnali. Brand madre con sotto-progetti.
+- `emanuele-boccia/` — il mio personal brand e il mio lavoro da freelance.
+
+`skills/` sta alla radice insieme alle aree, ma non è un'area brand: contiene le procedure
+operative, una cartella per skill. Le regole stanno in `skills/README.md`.
+
+## Correction log
+
+`correction.md` alla radice raccoglie gli errori che non vanno ripetuti. Quando ti correggo su
+qualcosa che potrebbe ricapitare, scrivici una riga: cosa è successo, cosa fare la prossima
+volta. Leggilo prima di eseguire una skill.

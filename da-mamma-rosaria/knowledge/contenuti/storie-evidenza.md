@@ -63,7 +63,7 @@ Boccapianola**. Così non si può sbagliare.
 ## LA LOCATION
 
 Le sale, in grafica statica: Sala Tufo, Sala Legno, L'Uliveto, La Serra, Sala Ombrelloni, La
-Cantina. Vedi `../spazi.md`.
+Cantina. Vedi `../location/spazi.md`.
 
 ## IL MENU
 

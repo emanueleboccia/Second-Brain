@@ -1,6 +1,6 @@
 # Target — le tre buyer persona
 
-> Sintesi operativa. Documento completo: `knowledge/buyer-persona-completo.md`.
+> Sintesi operativa. Documento completo: `knowledge/target/persona.md`.
 > Tabelle complete dolori/desideri (Alta, Media, Bassa): `knowledge/contenuti/ganci-dolori-desideri.md`.
 > Qui sotto **solo i dolori a importanza Alta**, quelli su cui costruire i contenuti che convertono.
 

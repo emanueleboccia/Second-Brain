@@ -30,7 +30,7 @@ Poggiomarino (NA), territorio vesuviano. Canale principale: Instagram. Sito web 
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
-- `buyer-persona-completo.md` — le buyer persona in versione integrale.
+- `target/persona.md` — le buyer persona in versione integrale.
 - `design-system-originale.pdf` — il design system originale, con gli esempi visivi
   dei formati che il markdown non può rendere.
 - `contenuti/` — piano editoriale Instagram: content pillar, idee post e caroselli,

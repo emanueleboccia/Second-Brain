@@ -76,7 +76,7 @@ info@damammarosaria.com · P. IVA 09922841219.
 - **Sezioni ad alternanza** (immagine a sinistra / testo a destra, poi invertito), **una per sala**,
   con foto e breve descrizione.
 
-Le sei sale, coi **nomi propri** (da [../spazi.md](../spazi.md) — non si traducono né si accorciano):
+Le sei sale, coi **nomi propri** (da [../location/spazi.md](../location/spazi.md) — non si traducono né si accorciano):
 
 **Sala Tufo** · **Sala Legno** · **L'Uliveto** · **La Serra** · **Sala Ombrelloni** · **La Cantina**
 
