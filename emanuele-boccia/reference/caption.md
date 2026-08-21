@@ -1,3 +1,0 @@
-# Caption
-
-> Da compilare.

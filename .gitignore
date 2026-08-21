@@ -3,3 +3,11 @@ _local/
 *.mov
 *.mp4
 *.zip
+
+# credenziali
+.env
+.env.*
+
+# stato locale di Obsidian (non è contenuto)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

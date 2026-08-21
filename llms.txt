@@ -1,0 +1,101 @@
+# Company Brain di Emanuele
+
+<!-- FILE DERIVATO — NON MODIFICARE A MANO.
+     Si rigenera da capo con `python3 code/genera-llms.py` ogni volta che il vault cambia.
+     Qualsiasi modifica scritta qui dentro viene persa alla prossima rigenerazione.
+     I summary arrivano dal frontmatter delle note: si correggono lì, non qui. -->
+
+Questo è l'indice d'ingresso del vault. Le regole vivono qui e qui sono vere; lo stato dei
+clienti sta su Notion, le azioni su TickTick, i file finiti su Google Drive.
+
+I collegamenti usano il percorso completo dalla radice: i nomi si ripetono tra i brand
+(`brand.md`, `tono.md` e `offerta.md` esistono in più copie) e un nome corto punterebbe al
+file sbagliato.
+
+## `self/` — Chi è Emanuele: identità, tono, offerta, tariffario del suo lavoro.
+
+- [[self/reference/brand]] -- Impalcatura vuota: il posizionamento del personal brand di Emanuele, ancora da scrivere.
+- [[self/reference/caption]] -- Impalcatura vuota: come si scrivono le caption del personal brand, ancora da scrivere.
+- [[self/reference/design]] -- Impalcatura vuota: l'identità visiva del personal brand, ancora da scrivere.
+- [[self/reference/offerta]] -- Impalcatura vuota: i servizi che Emanuele vende da freelance, ancora da scrivere.
+- [[self/reference/target]] -- Impalcatura vuota: a chi parla il personal brand di Emanuele, ancora da scrivere.
+- [[self/reference/tono]] -- Impalcatura vuota: la voce del personal brand di Emanuele, ancora da scrivere.
+- [[self/tariffario]] -- L'unica fonte dei prezzi del mio lavoro: dieci voci di servizio, ciascuna con range, cosa è incluso, cosa non lo è e le revisioni. Impalcatura ancora da compilare.
+
+## `areas/` — I tre brand di famiglia, ognuno con la sua sottocartella completa.
+
+- [[areas/da-mamma-rosaria/knowledge/contenuti/dolori-desideri]] -- Le tabelle estese dolore/desiderio delle tre persona, importanza Alta e Media, ripulite dai desideri che promettevano prezzi pubblicati e dai nomi di servizi ritirati.
+- [[areas/da-mamma-rosaria/knowledge/contenuti/format]] -- I sei format del profilo — post grafico, fotografico, fotografico + commento, reel brevi, reel lunghi e reel parlati — con la funzione di ciascuno e le durate.
+- [[areas/da-mamma-rosaria/knowledge/contenuti/storie-evidenza]] -- Le undici evidenze del profilo e cosa va in ciascuna, più il nodo aperto sulla fattoria didattica passata a La Masseria.
+- [[areas/da-mamma-rosaria/knowledge/contenuti/temi]] -- I sei temi dei contenuti — le mani al lavoro, l'evento su misura, le cerimonie, lo spazio dedicato, l'educativo, le feste vere — con i format naturali di ciascuno.
+- [[areas/da-mamma-rosaria/knowledge/location/spazi]] -- I sei ambienti coi nomi propri — Sala Tufo, Sala Legno, L'Uliveto, La Serra, Sala Ombrelloni, La Cantina — dove vivono su sito e Instagram, e la domanda aperta su quali sale sono work in progress.
+- [[areas/da-mamma-rosaria/knowledge/sito/sitemap]] -- L'impianto del sito nuovo pagina per pagina — Home, La Storia, Contatti, Ambienti, Angoli, La Dispensa, Eventi, Blog — con il riepilogo dei nodi ancora aperti.
+- [[areas/da-mamma-rosaria/knowledge/sito/stato-attuale]] -- Cosa non va nel sito attuale — la fattoria didattica che non è più nostra, Antonio dato come figlio, la pagina «Chi siamo» orfana — e i dati di contatto veri.
+- [[areas/da-mamma-rosaria/reference/brand]] -- Cos'è Da Mamma Rosaria, la storia da cui nasce, il posizionamento sull'evento cucito su misura e i confini con Tenuta Don Gaetano e La Masseria di Mezz'autunno.
+- [[areas/da-mamma-rosaria/reference/caption]] -- Come si monta una caption che viene letta fino in fondo: prima riga, aria tra i blocchi, ritmo, punteggiatura, chiusura con CTA e i tell che tradiscono l'AI.
+- [[areas/da-mamma-rosaria/reference/design]] -- Palette, caratteri, logo, sfondi, trattamento delle foto, pulsanti, i cinque format del feed e i due template delle storie, con quello che il design system non copre ancora.
+- [[areas/da-mamma-rosaria/reference/offerta]] -- Il catalogo definitivo del 21/07/2026: gli eventi che si fanno, i nomi ufficiali dei servizi nelle cinque categorie dell'arco della serata, e per ciascuno il testo per il sito e quello per il catalogo di vendita.
+- [[areas/da-mamma-rosaria/reference/regole-editoriali]] -- Il mese tipo con la composizione dei dodici post, la checklist da passare prima di pubblicare, gli undici no del marchio e le misure di export.
+- [[areas/da-mamma-rosaria/reference/target]] -- Carmela, Lucia e Giusy: chi sono, i dolori a importanza alta con i desideri corrispondenti, e come si parla a ciascuna.
+- [[areas/da-mamma-rosaria/reference/tono]] -- Come si scrive per Da Mamma Rosaria: fase di vendita, voce di famiglia, niente napoletano e niente prezzi, le formule vietate e i temi che non si toccano ancora.
+- [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/dolori-desideri]] -- Le tabelle estese dolore/desiderio-specchio per Valentina, Paola & Gennaro e Maestra Teresa, con l'importanza di ciascuna riga come gancio.
+- [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/idee-reel]] -- I dolori e i desideri delle persona trasformati in idee di Reel, per famiglie e per scuole su due binari separati, con importanza e fonte di ciascuna.
+- [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/pillar]] -- I quattro pilastri del profilo — meraviglia, dietro le quinte, cosa trovi & FAQ, scuole — più la modalità FOMO che è una fase e non un pilastro.
+- [[areas/la-masseria-di-mezzautunno/knowledge/sito/pagina-home]] -- Le nove sezioni della home in ordine, con obiettivo, contenuto e leva di ciascuna e un esempio di hook.
+- [[areas/la-masseria-di-mezzautunno/knowledge/sito/pagina-scuole]] -- Le dieci sezioni della pagina Scuole, tarate su Maestra Teresa, con la richiesta della brochure come conversione e una FOMO diversa da quella delle famiglie.
+- [[areas/la-masseria-di-mezzautunno/knowledge/sito/struttura-sito]] -- Come è fatto il sito — header e footer fissi, ogni progetto una landing con la sua identità — le regole di scrittura valide per tutte le pagine e l'elenco delle pagine coi rispettivi blueprint.
+- [[areas/la-masseria-di-mezzautunno/knowledge/sito/template-pagina-progetto]] -- L'ossatura condivisa delle landing di progetto, dieci sezioni dall'hero alla CTA finale, più il caso speciale della pagina coming soon.
+- [[areas/la-masseria-di-mezzautunno/progetti/funny-farm/reference]] -- L'evento di primavera che prende il nome da Funny Show: l'edizione 2026 andata sold out, il registro luminoso della stagione e cosa manca per l'edizione in corso.
+- [[areas/la-masseria-di-mezzautunno/progetti/il-borgo-infestato/reference]] -- L'evento autunnale a tema infestato, confermato come progetto ma ancora senza dettagli d'edizione: cosa si sa e la lista di cosa manca prima di scriverne.
+- [[areas/la-masseria-di-mezzautunno/progetti/il-presepe-di-una-volta/reference]] -- L'evento d'inverno alla prima edizione di dicembre 2026: perché sul sito vive come coming soon e cosa va deciso prima di partire.
+- [[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]] -- L'evento d'autunno da cui viene il nome della Masseria: cosa è stata l'edizione 2025 andata sold out, l'identità del progetto e cosa manca per l'edizione in corso.
+- [[areas/la-masseria-di-mezzautunno/reference/brand]] -- Cos'è la Masseria, l'unione di Da Mamma Rosaria e Funny Show da cui nasce, i quattro progetti stagionali, il doppio target famiglie/scuole e cosa la distingue dagli altri due brand di famiglia.
+- [[areas/la-masseria-di-mezzautunno/reference/caption]] -- Impalcatura vuota: come si scrivono le caption della Masseria, ancora da scrivere.
+- [[areas/la-masseria-di-mezzautunno/reference/design]] -- Impalcatura vuota: l'identità visiva della Masseria e dei suoi progetti, ancora da scrivere.
+- [[areas/la-masseria-di-mezzautunno/reference/offerta]] -- Il modello comune agli eventi: biglietto Clappit per le famiglie e brochure su richiesta per le scuole, chi mette cosa fra i due brand madre, com'è fatta una giornata e il plus delle feste private nel parco.
+- [[areas/la-masseria-di-mezzautunno/reference/target]] -- I due pubblici e le loro logiche opposte: Valentina e Paola & Gennaro che comprano il biglietto d'impulso, Maestra Teresa che chiede la brochure con anticipo.
+- [[areas/la-masseria-di-mezzautunno/reference/tono]] -- Le tre fasi di ogni evento invece dei mesi fissi, i due registri per famiglie e scuole, come si scrive il copy, i prezzi che qui si comunicano e la riprova sociale ammessa.
+- [[areas/tenuta-don-gaetano/knowledge/contenuti/ganci-dolori-desideri]] -- Le tabelle complete dolore/desiderio per le tre persona con importanza Alta, Media e Bassa, e come trasformare ogni riga in un gancio per post o reel.
+- [[areas/tenuta-don-gaetano/knowledge/contenuti/idee-post]] -- Cinque idee di post o carosello per ciascuno dei sette pillar, con formato consigliato e voto da 0 a 10 per dare priorità alla produzione.
+- [[areas/tenuta-don-gaetano/knowledge/contenuti/pillar-instagram]] -- I sette pillar del profilo con obiettivo, persona di riferimento, cosa pubblicare e peso nel piano, più la rotazione settimanale e la copertura del funnel.
+- [[areas/tenuta-don-gaetano/knowledge/sito/copy-homepage]] -- Il copy pronto sezione per sezione della home, con i metadati ufficiali del sito e la nota strategica su quale persona e quale dolore risponde ogni blocco.
+- [[areas/tenuta-don-gaetano/knowledge/sito/sitemap]] -- La struttura della landing a pagina singola sezione per sezione, l'ambiente tecnico e le note di conversione.
+- [[areas/tenuta-don-gaetano/knowledge/sito/workflow-sito]] -- Come si lavora sul sito: il repo è la fonte di verità per il codice, il server si aggiorna solo via deploy, e il titolo SEO va verificato a ogni rilascio perché vive nel database.
+- [[areas/tenuta-don-gaetano/knowledge/target/persona]] -- Il documento esteso delle tre persona: contesto del mercato locale, pain point, desideri, ricerche su Google, tono e contenuti Instagram per ciascuna.
+- [[areas/tenuta-don-gaetano/reference/brand]] -- Cos'è la Tenuta, gli eventi su cui si comunica, la fascia di spesa del lusso accessibile e cosa resta fuori target.
+- [[areas/tenuta-don-gaetano/reference/caption]] -- Impalcatura vuota: come si scrivono le caption della Tenuta, ancora da scrivere.
+- [[areas/tenuta-don-gaetano/reference/design]] -- Palette, tipografia Cinzel, logo, trattamento immagine e i cinque formati del feed con la loro anatomia; per i reel valgono solo i vincoli certi.
+- [[areas/tenuta-don-gaetano/reference/offerta]] -- Impalcatura vuota: cosa vende la Tenuta e con quali testi, ancora da scrivere.
+- [[areas/tenuta-don-gaetano/reference/target]] -- Martina, Anna e Giuseppe & Rosa in sintesi operativa: budget mentale, dolori a importanza alta, desideri, tono e format per ciascuna.
+- [[areas/tenuta-don-gaetano/reference/tono]] -- La fase Vetrina e cosa comporta, la voce elegante e sobria, come si nomina la località, il prezzo solo a fascia, gli hashtag base e le regole di consenso.
+
+## `projects/` — Lavori con un inizio e una fine.
+
+*Nessuna nota.*
+
+## `concepts/` — Definizioni.
+
+*Nessuna nota.*
+
+## `docs/` — Procedure, checklist, definizioni di fatto.
+
+- [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
+- [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
+- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni e le quattro definizioni previste — sito, brief cliente, onboarding, preventivo. Impalcatura ancora da compilare.
+- [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
+
+## `entities/` — Clienti e fornitori.
+
+*Nessuna nota.*
+
+## `data/` — Numeri e KPI.
+
+*Nessuna nota.*
+
+## `code/` — Automazioni e skills.
+
+*Nessuna nota.*
+
+## `outputs/` — Deliverable prodotti.
+
+*Nessuna nota.*

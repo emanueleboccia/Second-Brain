@@ -1,3 +1,0 @@
-# Brief cliente
-
-> Da compilare.

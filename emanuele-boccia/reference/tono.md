@@ -1,3 +1,0 @@
-# Tono
-
-> Da compilare.

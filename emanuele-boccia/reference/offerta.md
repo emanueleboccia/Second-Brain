@@ -1,3 +1,0 @@
-# Offerta
-
-> Da compilare.
