@@ -31,7 +31,7 @@ CARTELLE = [
 ]
 # sources/ e workspace/ restano fuori: materiale grezzo e journal di sessione.
 
-FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md"}
+FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 
 INTESTAZIONE = """# Company Brain di Emanuele
 
@@ -81,6 +81,48 @@ def note_di(cartella):
     return sorted(trovate), sorted(senza_frontmatter)
 
 
+def skill_disponibili():
+    """Le skill in code/skills/: nome della cartella e riga di innesco.
+
+    Non sono note: sono procedure. Stanno fuori dal gate di qualità e non hanno
+    frontmatter, ma l'indice deve dire che esistono.
+    """
+    radice = os.path.join(VAULT, "code", "skills")
+    if not os.path.isdir(radice):
+        return []
+    trovate = []
+    for nome in sorted(os.listdir(radice)):
+        cartella = os.path.join(radice, nome)
+        skill = os.path.join(cartella, "SKILL.md")
+        if not os.path.isdir(cartella) or not os.path.isfile(skill):
+            continue
+        with open(skill, encoding="utf-8") as fh:
+            testo = nfc(fh.read())
+        trovate.append((nome, os.path.relpath(skill, VAULT), innesco(testo)))
+    return trovate
+
+
+def innesco(testo):
+    """La riga che dice quando si usa una skill.
+
+    Prima si cerca la sezione «Quando si usa» della convenzione del vault. Le
+    skill che arrivano da fuori non ce l'hanno: si ripiega sul campo
+    `description` del frontmatter.
+    """
+    sezione = re.search(r"^##+ +Quando si usa *$(.*?)(?=^##+ |\Z)", testo, re.M | re.S)
+    if sezione:
+        for riga in sezione.group(1).split("\n"):
+            riga = riga.strip().lstrip("-*").strip()
+            if riga and not riga.startswith(("|", ">", "<!--")):
+                return riga
+    if testo.startswith("---\n"):
+        frontmatter = testo[4:].split("\n---\n", 1)[0]
+        trovato = re.search(r"^description:[ ]*(.*)$", frontmatter, re.M)
+        if trovato:
+            return trovato.group(1).strip().strip('"')
+    return "(nessuna riga «Quando si usa»)"
+
+
 def main():
     righe = [INTESTAZIONE]
     totale, scartate = 0, []
@@ -88,13 +130,26 @@ def main():
         note, senza = note_di(cartella)
         scartate.extend(senza)
         righe.append("## `%s/` — %s\n" % (cartella, descrizione))
-        if not note:
+        if note:
+            for percorso, summary in note:
+                righe.append("- [[%s]] -- %s" % (percorso, summary))
+            righe.append("")
+            totale += len(note)
+        elif cartella != "code":
             righe.append("*Nessuna nota.*\n")
-            continue
-        for percorso, summary in note:
-            righe.append("- [[%s]] -- %s" % (percorso, summary))
-        righe.append("")
-        totale += len(note)
+
+        if cartella == "code":
+            skill = skill_disponibili()
+            if skill:
+                righe.append("Le skill: procedure, non note. Non hanno frontmatter e stanno fuori")
+                righe.append("dal gate di qualità.\n")
+                for nome, percorso, riga in skill:
+                    righe.append("- **%s** — skill · `%s`" % (nome, percorso))
+                    righe.append("  -- %s" % riga)
+                righe.append("")
+            elif not note:
+                righe.append("*Nessuna nota, nessuna skill.*\n")
+
 
     with open(os.path.join(VAULT, "llms.txt"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(righe).rstrip("\n") + "\n")

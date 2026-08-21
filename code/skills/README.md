@@ -10,7 +10,7 @@ Una sottocartella per skill, col nome in minuscolo-con-trattini. Dentro, un solo
 `SKILL.md`, in maiuscolo come `CLAUDE.md` e `MEMORY.md`.
 
 ```
-skills/
+code/skills/
 └── nome-della-skill/
     └── SKILL.md
 ```
@@ -44,7 +44,7 @@ quello che serve**. Niente passaggi che ne contengono altri tre dentro.
 ### Definizione di fatto
 
 Le condizioni verificabili che dicono quando il lavoro è finito. Non si riscrivono qui: si
-richiamano da [`../../emanuele-boccia/knowledge/definizioni-di-fatto.md`](../../emanuele-boccia/knowledge/definizioni-di-fatto.md),
+richiamano da [`../../docs/definizioni-di-fatto.md`](../../docs/definizioni-di-fatto.md),
 che è la fonte. Si verificano **prima** di consegnare l'output. Se una non torna, si corregge e
 si riverifica.
 
@@ -52,8 +52,8 @@ si riverifica.
 
 Cosa fare quando qualcosa manca o non torna. La regola di fondo è sempre la stessa:
 **se manca un dato, si chiede. Non si inventa mai.** Vale soprattutto per i prezzi, che si
-leggono solo da [`../../emanuele-boccia/knowledge/tariffario.md`](../../emanuele-boccia/knowledge/tariffario.md).
+leggono solo da [`../../self/tariffario.md`](../../self/tariffario.md).
 
 ## Prima di eseguire una skill
 
-Leggi [`../correction.md`](../correction.md): raccoglie gli errori che non vanno ripetuti.
+Leggi [`../../correction.md`](../../correction.md): raccoglie gli errori che non vanno ripetuti.

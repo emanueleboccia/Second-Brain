@@ -81,7 +81,7 @@ file sbagliato.
 
 - [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
 - [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
-- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni e le quattro definizioni previste — sito, brief cliente, onboarding, preventivo. Impalcatura ancora da compilare.
+- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, la voce Journal già scritta e le quattro ancora da compilare — sito, brief cliente, onboarding, preventivo.
 - [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
 
 ## `entities/` — Clienti e fornitori.
@@ -94,7 +94,11 @@ file sbagliato.
 
 ## `code/` — Automazioni e skills.
 
-*Nessuna nota.*
+Le skill: procedure, non note. Non hanno frontmatter e stanno fuori
+dal gate di qualità.
+
+- **journal** — skill · `code/skills/journal/SKILL.md`
+  -- Tre comandi, tre momenti della giornata.
 
 ## `outputs/` — Deliverable prodotti.
 

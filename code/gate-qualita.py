@@ -19,7 +19,7 @@ VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Le cartelle di contenuto: tutto il vault tranne queste.
 CARTELLE_ESCLUSE = {"sources", "workspace"}
 # I file che non sono note: istruzioni, memoria, indici di cartella.
-FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md"}
+FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300
