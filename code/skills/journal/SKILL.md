@@ -24,7 +24,9 @@ Tre comandi, tre momenti della giornata.
 - **«buongiorno»** — all'inizio di una sessione. Briefing completo: dove eravamo rimasti, cosa
   c'è oggi, cosa è fermo. Vale anche detto come «dove eravamo rimasti», «ripartiamo», «briefing».
 - **«chiudi sessione»** — alla fine di una sessione di lavoro. Scrive la nota della sessione e
-  controlla che niente resti per aria. Vale anche come «chiudiamo qui», «segna cosa abbiamo fatto».
+  controlla che niente resti per aria. Vale ogni volta che Emanuele fa capire che per oggi è
+  finita, comunque lo dica: «chiudiamo qui», «vado a dormire», «per oggi basta così», «segna cosa
+  abbiamo fatto». Non aspettare la formula esatta — riconosci l'intenzione.
 - **«fine giornata»** — quando la giornata è finita. Riassume tutte le sessioni del giorno in
   una nota sola. Vale anche come «chiudiamo la giornata», «riassunto di oggi».
 
@@ -143,6 +145,24 @@ inventare una gerarchia per far tornare il numero tre.
 
    Se non è emerso niente, dillo in una riga e chiudi. Un check di uscita che inventa due task
    per sembrare utile fa più danno di uno che dice «niente da registrare».
+
+8. **Il messaggio di chiusura.** Una giornata deve finire in modo riconoscibile, altrimenti non
+   finisce: resta la sensazione di aver lasciato qualcosa a metà. L'ultimo messaggio quindi si
+   scrive così, e ha una forma sua:
+
+   - **chiamalo per nome.** «Ok Emanuele, chiudiamo qui la giornata.» Non è un vezzo: è il
+     segnale che quello che segue è una chiusura e non un altro giro di lavoro;
+   - **racconta cosa è stato fatto**, ordinato e per intero, con i numeri veri;
+   - **niente domande, niente proposte, niente «vuoi che…».** Le decisioni che potevi prendere
+     da solo le hai già prese; quelle che restano aspettano domani;
+   - **una cosa in sospeso si nomina solo se è importante davvero** — qualcosa che, se domani
+     mattina lui non lo sa, gli fa sbagliare una mossa. Il resto sta già scritto nella nota di
+     sessione e nel briefing di domani;
+   - **chiudi con una frase che dia il senso della giornata.** Non una massima da poster: una
+     frase vera su quello che è stato costruito oggi. Deve leggersi come una porta che si chiude.
+
+   Se una cosa andava fatta e potevi farla, falla **prima** di scrivere questo messaggio: la
+   chiusura non è il posto dove si chiede il permesso, è il posto dove si dice cosa è successo.
 
 ### Comando 3 — «fine giornata»
 
