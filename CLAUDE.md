@@ -30,6 +30,47 @@ Le chat operative sono usa e getta. Il contesto sta nei file, non nelle conversa
 - `outputs/` — deliverable prodotti.
 - `workspace/` — journal delle sessioni.
 
+## Servizi collegati
+
+Due tubi che convivono, ognuno per quello che l'altro non fa. Prima di agire su un servizio
+esterno, guarda qui da dove si passa: sono strade diverse, e usare quella sbagliata o non
+funziona o duplica una connessione che c'è già.
+
+**Dai connettori già attivi** — funzionano, e per questi servizi non si passa da altro:
+
+| servizio | cosa ci si fa |
+|---|---|
+| Notion | contatti e lead, proposte inviate, siti dei clienti: lo stato delle cose |
+| TickTick | task, progetti, abitudini |
+| Google Calendar | eventi, disponibilità |
+| Google Drive | file finiti e media, creare e cercare documenti |
+
+**Da Composio** — collegato il 21/08/2026, serve per quello che ai connettori manca:
+
+| servizio | perché serve |
+|---|---|
+| Gmail | tra i connettori attivi non c'è nessuna email: senza Composio non si manda niente |
+| Google Sheets | Drive arriva al file, non alla cella: crea e sostituisce un foglio intero, ma non scrive righe e colonne. Per aggiornare un foglio esistente serve l'API vera |
+
+⚠️ **Composio non è un server MCP**, anche se all'inizio l'avevamo chiamato così. È la CLI
+`composio` installata in `~/.composio`, più la skill `composio-cli` che Claude Code carica
+all'avvio: gli strumenti si usano dal terminale — `composio search`, `composio execute`,
+`composio proxy` — non come strumenti nativi della sessione.
+
+Sull'account Composio risultano collegati anche GitHub, Calendar, Docs, Drive, Notion e TickTick.
+**Non si usano da lì.** Per quei servizi la via sono i connettori attivi qui sopra: Composio
+serve solo per Gmail e Sheets, e non è un secondo modo di fare le stesse cose.
+
+## La regola sulle scritture
+
+**Leggere no, scrivere sì.** Leggere un calendario, cercare su Notion, aprire un file su Drive:
+si fa e basta. Ogni azione che **scrive** su un servizio esterno — mandare un'email, creare o
+modificare un foglio, un documento, un evento, una pagina Notion — **si mostra prima di
+eseguirla**, e si esegue solo dopo il mio ok.
+
+Vale già per Notion, e da qui in poi vale per tutti allo stesso modo. Se ogni lettura chiedesse
+conferma, la regola diventerebbe rumore e smetterei di leggerla.
+
 ## Come si legge
 
 Quando lavoriamo su un brand in `areas/`, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo
