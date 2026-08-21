@@ -40,8 +40,26 @@ DEROGHE_MIN_LINK = {
         "il terzo rimando naturale era novamira.md, eliminato per decisione del 21/08/2026",
 }
 
-# Le note attive che ancora nessuno può citare, con il motivo. Valgono per le
-# regole 5 e 6: restano nel grafo e i loro link contano per gli altri, ma non
+# I grappoli in cui il grafo può legittimamente dividersi. Il vault ha due
+# mondi che non si toccano, e non esiste un collegamento onesto che li unisca:
+# inventarne uno per far tornare il conto sarebbe peggio della divisione. Ogni
+# grappolo si riconosce da una nota àncora. Un grappolo senza àncora non è
+# dichiarato, ed è un errore: vuol dire che qualcosa si è staccato.
+GRAPPOLI_DICHIARATI = {
+    "brand-famiglia": {
+        "ancora": "areas/da-mamma-rosaria/reference/brand.md",
+        "motivo": "i tre brand di famiglia si citano tra loro; col listino freelance "
+                  "non hanno niente da spartire",
+    },
+    "lavoro-freelance": {
+        "ancora": "self/tariffario.md",
+        "motivo": "il tariffario, i clienti in entities/ e i preventivi in outputs/: "
+                  "il lavoro da freelance non tocca i brand di famiglia",
+    },
+}
+
+# Le note attive che ancora nessuno può citare, con il motivo. Vale per la
+# regola 5: restano nel grafo e i loro link contano per gli altri, ma non
 # vengono contestate se nessuno le raggiunge. La riga si cancella quando
 # l'aggancio nasce davvero.
 DEROGHE_ISOLAMENTO = {
@@ -206,15 +224,18 @@ def controlla():
             coda.extend(vicini[corrente] - componente)
         componenti.append(sorted(componente))
         da_visitare -= componente
-    # un grappolo fatto solo di note in deroga non spezza il grafo: è isolato
-    # apposta, e il motivo è scritto qui sopra
-    componenti = [c for c in componenti if not all(n in DEROGHE_ISOLAMENTO for n in c)]
-    if len(componenti) > 1:
-        componenti.sort(key=len, reverse=True)
-        errori[6].append("il grafo è spezzato in %d grappoli" % len(componenti))
-        for indice, componente in enumerate(componenti, 1):
-            errori[6].append("  grappolo %d (%d note): %s"
-                             % (indice, len(componente), ", ".join(componente)))
+    ancore = {d["ancora"]: nome for nome, d in GRAPPOLI_DICHIARATI.items()}
+    for percorso, nome in sorted(ancore.items()):
+        if percorso not in insieme:
+            errori[6].append("l'àncora di «%s» non è nel grafo: %s" % (nome, percorso))
+    for componente in sorted(componenti, key=len, reverse=True):
+        dichiarati = [ancore[n] for n in componente if n in ancore]
+        if not dichiarati:
+            errori[6].append("grappolo non dichiarato, %d note: %s"
+                             % (len(componente), ", ".join(componente)))
+        elif len(dichiarati) > 1:
+            errori[6].append("un solo grappolo contiene più àncore (%s): la dichiarazione "
+                             "è da aggiornare" % ", ".join(dichiarati))
 
     return note, nel_grafo, errori
 
@@ -225,7 +246,7 @@ TITOLI = {
     3: "Almeno %d wikilink in uscita verso note esistenti" % MIN_LINK,
     4: "Zero link rotti",
     5: "Zero orfani (almeno 1 link in entrata)",
-    6: "Una sola componente connessa",
+    6: "Ogni grappolo del grafo è dichiarato",
 }
 
 
@@ -249,8 +270,14 @@ def main():
         for percorso, motivo in sorted(DEROGHE_MIN_LINK.items()):
             print("  %s — %s" % (percorso, motivo))
         print()
+    if GRAPPOLI_DICHIARATI:
+        print("Grappoli dichiarati:")
+        for nome, d in sorted(GRAPPOLI_DICHIARATI.items()):
+            print("  %s — %s" % (nome, d["motivo"]))
+            print("    àncora: %s" % d["ancora"])
+        print()
     if DEROGHE_ISOLAMENTO:
-        print("Deroghe attive sulle regole 5 e 6:")
+        print("Deroghe attive sulla regola 5:")
         for percorso, motivo in sorted(DEROGHE_ISOLAMENTO.items()):
             print("  %s — %s" % (percorso, motivo))
         print()

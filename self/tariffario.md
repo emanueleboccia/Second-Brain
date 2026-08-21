@@ -85,6 +85,8 @@ in fondo al file.
 - Prezzo caso studio: riduzione SOLO in cambio del permesso scritto di
   filmare e pubblicare il lavoro. Senza permesso, prezzo pieno.
   Massimo 2 casi studio attivi contemporaneamente.
+  **Riduzione standard 20%, arrotondata alla decina.** Esempio: menù 400 → 320.
+  Deroghe possibili caso per caso, ma si annotano nello Storico.
 - I [[docs/definizioni-di-fatto|preventivi]] presentano un totale unico con le voci sotto
 
 ## Nota strategica — i due piani
