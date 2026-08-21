@@ -5,7 +5,7 @@ tags:
   - self
   - prezzi
   - offerta
-status: active
+status: attivo
 created: 2026-08-21
 updated: 2026-08-21
 related:
@@ -106,4 +106,11 @@ dopo, al cliente che ormai si fida — e il caso studio filmato lavora
 per questa vendita, non per vendere altri siti.
 
 ## Storico trattative
-<!-- data · cliente · voce · prezzo proposto · esito -->
+<!-- data · cliente · voce · prezzo proposto · esito
+
+     Questa è anche la fonte per il conteggio dei casi studio.
+     Un caso studio è ATTIVO se ha esito "caso studio concordato" e non ha ancora
+     una riga di chiusura ("consegnato" oppure "pubblicato").
+     Il massimo è due attivi contemporaneamente.
+     Se qui non c'è scritto niente, o le righe sono ambigue, si chiede a Emanuele
+     invece di dedurre. -->

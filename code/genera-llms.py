@@ -113,16 +113,36 @@ def innesco(testo):
     """
     sezione = re.search(r"^##+ +Quando si usa *$(.*?)(?=^##+ |\Z)", testo, re.M | re.S)
     if sezione:
+        paragrafo = []
         for riga in sezione.group(1).split("\n"):
-            riga = riga.strip().lstrip("-*").strip()
-            if riga and not riga.startswith(("|", ">", "<!--")):
-                return riga
+            pulita = riga.strip().lstrip("-*").strip()
+            if not pulita or pulita.startswith(("|", ">", "<!--")):
+                if paragrafo:
+                    break
+                continue
+            paragrafo.append(pulita)
+        if paragrafo:
+            return prima_frase(" ".join(paragrafo))
     if testo.startswith("---\n"):
         frontmatter = testo[4:].split("\n---\n", 1)[0]
         trovato = re.search(r"^description:[ ]*(.*)$", frontmatter, re.M)
         if trovato:
-            return trovato.group(1).strip().strip('"')
+            return prima_frase(trovato.group(1).strip().strip('"'))
     return "(nessuna riga «Quando si usa»)"
+
+
+def prima_frase(testo, limite=160):
+    """La riga d'indice sta su un rigo: oltre il limite si taglia alla prima frase.
+
+    Le righe di innesco sono scritte per essere lette da un umano dentro una
+    skill, non dentro un elenco: spesso continuano per un paragrafo intero.
+    """
+    if len(testo) <= limite:
+        return testo
+    taglio = testo.find(". ")
+    if 0 < taglio < limite:
+        return testo[:taglio + 1]
+    return testo[:limite].rsplit(" ", 1)[0] + "…"
 
 
 def main():

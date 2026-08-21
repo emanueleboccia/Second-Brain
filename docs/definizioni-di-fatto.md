@@ -1,6 +1,6 @@
 ---
 title: "Definizioni di fatto"
-summary: "Quando un lavoro ripetibile è finito: come si usano le condizioni, la voce Journal già scritta e le quattro ancora da compilare — sito, brief cliente, onboarding, preventivo."
+summary: "Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal e Preventivo già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding."
 tags:
   - docs
   - processi
@@ -14,6 +14,7 @@ related:
   - "[[docs/brief-cliente]]"
   - "[[docs/onboarding]]"
   - "[[self/tariffario]]"
+  - "[[code/skills/genera-preventivo/SKILL]]"
 ---
 
 # Definizioni di fatto
@@ -31,8 +32,8 @@ Come si usa:
 Le skill in [[code/skills/README|code/skills]] richiamano queste definizioni: la sezione «Definizione di fatto» di uno
 `SKILL.md` punta qui.
 
-> Impalcatura creata il 21/08/2026. La voce **Journal** è scritta; le altre quattro
-> sono **da compilare**.
+> Impalcatura creata il 21/08/2026. Le voci **Journal** e **Preventivo** sono scritte;
+> **Sito**, **Brief cliente** e **Onboarding** sono da compilare.
 
 ## Journal
 
@@ -80,4 +81,14 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 
 ## Preventivo
 
-> Da compilare.
+Valgono per la skill [[code/skills/genera-preventivo/SKILL|genera-preventivo]]. Si verificano
+prima di consegnare: se una non passa, si corregge e si riverifica.
+
+- Tutte le voci richieste dal cliente sono presenti nel preventivo.
+- Ogni prezzo corrisponde **esattamente** a [[self/tariffario|tariffario]]: nessuna cifra
+  calcolata, stimata o arrotondata.
+- C'è un totale unico in evidenza, e la somma delle voci torna.
+- Le condizioni sono scritte: i due giri di revisione inclusi e, se è un caso studio, la clausola
+  del permesso scritto di filmare e pubblicare.
+- Il messaggio di accompagnamento è pronto, non da scrivere dopo.
+- Il file è salvato in `outputs/preventivi/<anno>-<cliente>.md`.

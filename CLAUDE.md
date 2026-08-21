@@ -95,6 +95,10 @@ Ogni cartella di progetto ha un `MEMORY.md`.
   `tenuta-don-gaetano/`, `da-mamma-rosaria/`. Il nome proprio del brand, con le maiuscole,
   resta nella prosa e nei titoli, non nel nome della cartella.
 - Le **sottocartelle** sono minuscole: `reference/`, `knowledge/`, `knowledge/contenuti/`.
+- Lo **status** di una nota è uno di tre: `attivo` (vale, si può usare), `in-lavorazione`
+  (materiale di lavoro, non fonte di verità), `da-compilare` (impalcatura vuota). Il gate di
+  qualità esenta le note `da-compilare` dalle regole sul grafo: non hanno prosa in cui mettere un
+  collegamento. Fuori da questi tre valori non si inventa niente, e si scrive in italiano.
 - I **wikilink** usano sempre il percorso completo dalla radice, con alias leggibile nel testo:
   `[[areas/da-mamma-rosaria/reference/tono|il tono di Mamma Rosaria]]`. I nomi si ripetono tra i
   brand — `tono.md`, `brand.md`, `offerta.md` esistono quattro volte — e un link corto punta al

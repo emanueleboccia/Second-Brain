@@ -81,7 +81,7 @@ file sbagliato.
 
 - [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
 - [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
-- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, la voce Journal già scritta e le quattro ancora da compilare — sito, brief cliente, onboarding, preventivo.
+- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal e Preventivo già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding.
 - [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
 
 ## `entities/` — Clienti e fornitori.
@@ -97,10 +97,12 @@ file sbagliato.
 Le skill: procedure, non note. Non hanno frontmatter e stanno fuori
 dal gate di qualità.
 
+- **genera-preventivo** — skill · `code/skills/genera-preventivo/SKILL.md`
+  -- Quando Emanuele deve mandare un preventivo.
 - **journal** — skill · `code/skills/journal/SKILL.md`
   -- Tre comandi, tre momenti della giornata.
 - **skill-creator** — skill · `code/skills/skill-creator/SKILL.md`
-  -- Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.
+  -- Create new skills, modify and improve existing skills, and measure skill performance.
 
 ## `outputs/` — Deliverable prodotti.
 
