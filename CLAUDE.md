@@ -71,6 +71,17 @@ eseguirla**, e si esegue solo dopo il mio ok.
 Vale già per Notion, e da qui in poi vale per tutti allo stesso modo. Se ogni lettura chiedesse
 conferma, la regola diventerebbe rumore e smetterei di leggerla.
 
+**Con un'eccezione: quello che ti detto io, lo scrivi e basta.** Se il contenuto te l'ho dato
+parola per parola — «segnami che devo ricontattare Tizio il primo settembre» — mostrarmelo
+prima è un giro a vuoto: l'ho appena scritto io. Scrivilo, poi dimmi cosa hai scritto.
+
+La conferma serve quando il contenuto **lo componi tu**: una riga di Notion coi campi che hai
+scelto, le note che aggiungi a una task, un testo che mandi a qualcuno. Lì la domanda non è se
+ho cambiato idea, è se hai capito bene — e va fatta prima, non dopo.
+
+Nel dubbio su quale dei due casi sia, mostra. Un giro a vuoto costa dieci secondi, una riga
+sbagliata su un servizio esterno costa molto di più.
+
 ## Come si legge
 
 Quando lavoriamo su un brand in `areas/`, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo

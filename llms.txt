@@ -86,7 +86,7 @@ file sbagliato.
 
 ## `entities/` — Clienti e fornitori.
 
-- [[entities/lampion-square]] -- Locale di Giorgio, primo contatto il 21/08/2026: gli servono menù digitale, menù animato per la TV e le foto dei panini.
+- [[entities/lampion-square]] -- Locale di Giorgio, primo contatto il 21/08/2026: menù digitale, menù animato per la TV, foto dei panini e hosting con assistenza.
 
 ## `data/` — Numeri e KPI.
 
@@ -106,4 +106,4 @@ dal gate di qualità.
 
 ## `outputs/` — Deliverable prodotti.
 
-- [[outputs/preventivi/2026-lampion-square]] -- Menù digitale, menù animato per TV e shooting dei panini per Lampion Square: 700 € a prezzo pieno, 560 € se accetta di farsi filmare come caso studio.
+- [[outputs/preventivi/2026-lampion-square]] -- Menù digitale, menù animato per TV, shooting dei panini e hosting con assistenza per Lampion Square: 1.120 € il primo anno, 980 € se accetta di farsi filmare come caso studio.
