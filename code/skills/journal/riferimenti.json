@@ -1,20 +1,103 @@
 {
-  "_nota": "Quali database Notion legge il comando «buongiorno». Si compila alla prima esecuzione: la skill chiede a Emanuele quale lista è quale, verifica che esista su Notion e scrive qui id e nome. Dalla seconda volta in poi si legge da qui e non si chiede più. Se un id smette di rispondere, la skill lo dice e richiede quello — non cerca a tentoni un database che somigli.",
+  "_nota": "Quali liste Notion legge il comando «buongiorno». Compilato il 21/08/2026 leggendo lo schema vero dei database. Se un id smette di rispondere, la skill lo dice e chiede quello — non cerca a tentoni un database che somigli. Per interrogare una lista si usa il data_source (collection://...), non il database_id.",
   "notion": {
     "proposte": {
-      "id": null,
-      "nome": null,
-      "campo_stato": null,
-      "stati_aperti": ["in attesa", "inviata"]
+      "database_id": "95420431-64e4-4f32-a68c-c2fab0356995",
+      "data_source": "collection://59ca2210-7706-4934-846e-fa9e137231aa",
+      "nome": "Proposte",
+      "campo_titolo": "Proposta",
+      "campo_stato": "Stato",
+      "campo_data": "Creato",
+      "campo_valore": "Valore Stimato",
+      "campo_note_esito": "Note esito",
+      "stati_aperti": [
+        "In attesa",
+        "Inviata",
+        "Pronta per l'invio"
+      ],
+      "stati_chiusi": [
+        "Accettata",
+        "Rifiutata",
+        "Scaduta"
+      ],
+      "_nota_stati": "«Pronta per l'invio» è aperta ma ferma su Emanuele, non sul cliente: non si sollecita, si manda. «Scaduta» è chiusa dal tempo, non da una risposta.",
+      "escludi_se": {
+        "Archivia": true
+      }
     },
     "contatti": {
-      "id": null,
-      "nome": null,
-      "campo_stato": null
+      "database_id": "70fa62ff-65e4-498a-8001-87f2b3aab424",
+      "data_source": "collection://3e3d52ca-c1c0-424a-a753-3fae64063814",
+      "nome": "Contatti",
+      "campo_titolo": "Nome contatto",
+      "campo_stato": "Stato",
+      "campo_proposte": "Proposte",
+      "stati_caldi": [
+        "🔵 Lead",
+        "🟡 In trattativa"
+      ],
+      "_nota_azione": "Lead caldo senza proposta = stato in stati_caldi e relazione Proposte vuota. È l'unica riga che il briefing dedica ai contatti.",
+      "escludi_se": {
+        "Archivia": true
+      }
+    },
+    "siti": {
+      "database_id": "f09622a3-1648-4e3a-94c7-65fa9db1b604",
+      "data_source": "collection://943ed9e8-601e-4f40-9cfe-f3f20e6f27e0",
+      "nome": "Siti Clienti",
+      "campo_titolo": "Sito Web",
+      "campo_stato": "Stato",
+      "campo_assistenza": "Assistenza",
+      "campi_scadenza": [
+        "(S) Hosting",
+        "(S) Assistenza",
+        "(S) Dominio"
+      ],
+      "stati_sito": [
+        "Online",
+        "In manutenzione",
+        "In sviluppo",
+        "Offline"
+      ],
+      "stati_assistenza": [
+        "Attiva",
+        "Su richiesta",
+        "Disattiva"
+      ],
+      "_nota_stati": "Sono due campi distinti: Stato dice se il sito è su, Assistenza se il contratto di assistenza è attivo.",
+      "_nota_uso": "Il briefing legge i tre campi di scadenza: entro 30 giorni compaiono, sotto i 14 sono urgenti. È fatturato ricorrente, non deve scadere nel silenzio.",
+      "escludi_se": {
+        "Archivia": true
+      }
+    },
+    "clienti": {
+      "database_id": "e2950c4e-b1fb-427e-8e63-6e770acab6f3",
+      "data_source": "collection://6376e942-966f-4a19-bff9-6938eff1da7c",
+      "nome": "Aziende",
+      "campo_titolo": "Nome Azienda",
+      "campo_stato": "Stato relazione",
+      "campo_settore": "Settore",
+      "campo_sito": "Sito",
+      "campo_note": "Note azienda",
+      "campo_proposte": "Deals",
+      "stati": [
+        "Lead",
+        "In trattativa",
+        "Cliente attivo",
+        "Cliente passato",
+        "Perso",
+        "Collaborazione"
+      ],
+      "_nota_uso": "Questa è la lista delle ENTITÀ CLIENTE: è qui che punta il campo Cliente delle Proposte. I Contatti sono le persone (con Ruolo e Azienda), le Aziende sono le organizzazioni. Le note in entities/ nascono da qui, non dai contatti.",
+      "escludi_se": {
+        "Archivia": true
+      }
     }
   },
   "soglie": {
     "giorni_proposta_ferma": 7,
-    "giorni_settimana_in_arrivo": 7
+    "giorni_settimana_in_arrivo": 7,
+    "giorni_scadenza_sito_visibile": 30,
+    "giorni_scadenza_sito_urgente": 14
   }
 }

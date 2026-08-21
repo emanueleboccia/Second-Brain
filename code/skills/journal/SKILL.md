@@ -75,17 +75,28 @@ Riporta: dove eravamo rimasti, con la data, e cosa era rimasto nella sezione `##
 Le scadute vanno sopra la settimana anche se sono poche: una cosa in ritardo pesa più di una che
 deve ancora arrivare.
 
-**3 · Notion.** Leggi la lista Proposte — quale database sia sta scritto in
-`code/skills/journal/riferimenti.json`. Riporta le proposte con stato **aperto** (in attesa,
-inviata) e **da quanti giorni** sono in quello stato.
+**3 · Notion.** Le liste da leggere, coi loro id e i nomi esatti dei campi, stanno in
+`code/skills/journal/riferimenti.json`: si interrogano dal `data_source`, non dal `database_id`,
+e si escludono le righe con `Archivia` spuntata. Riporta le proposte con stato **aperto** —
+`stati_aperti` nel file — e **da quanti giorni** sono ferme, contando da `Creato`.
 
 - Per ognuna, chiedi se c'è un aggiornamento da registrare.
 - Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
   aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
 
-Se leggi anche la lista Contatti e trovi uno stato che chiede un'azione — un lead caldo senza
-nessuna proposta collegata, un cliente fermo da mesi — dillo in **una riga sola**. Non fare il
-censimento dei contatti: quello non è un briefing.
+Poi le **scadenze dei siti**. In `Siti Clienti` ci sono tre date per ogni sito — hosting,
+assistenza, dominio. Riporta quelle che scadono **entro trenta giorni**, ordinate dalla più
+vicina, e marca come **urgenti** quelle sotto i quattordici. Una riga per scadenza: sito, cosa
+scade, fra quanti giorni.
+
+Questa è la parte del briefing che vale più delle altre. È **fatturato ricorrente**: un rinnovo
+che scade nel silenzio non è una task dimenticata, è un cliente che se ne va senza che nessuno
+se ne accorga. Se non scade niente nei trenta giorni, non scrivere una riga per dirlo: si nota
+l'assenza solo quando c'è qualcosa.
+
+Poi la lista Contatti, per **una riga sola**: un contatto in `stati_caldi` — lead o in
+trattativa — con la relazione `Proposte` vuota è qualcuno a cui hai parlato e non hai mai mandato
+niente. Non fare il censimento dei contatti: quello non è un briefing.
 
 **4 · Le tre cose di oggi.** Chiudi proponendo tre priorità, incrociando le tre fonti: cosa era
 aperto ieri, cosa scade oggi, cosa è fermo da troppo. Per ognuna mezza frase sul perché — cosa
@@ -167,12 +178,15 @@ si riprova all'infinito, e soprattutto non si tace: un briefing senza la riga di
 spiegazione fa credere che oggi non ci sia niente da fare. **Mai bloccare il buongiorno per un
 connettore lento.**
 
-**Prima esecuzione: non si sa quali database Notion leggere.** Il file
-`code/skills/journal/riferimenti.json` esiste ma è vuoto. Chiedi a Emanuele quale database è la
-lista **Proposte** e quale la lista **Contatti**, cercali su Notion per confermare che esistano, e
-**salva id e nome nel file**. È l'unica volta che la domanda si fa: dalla seconda in poi si legge
-da lì. Se il file c'è ma un id non risponde più, dillo e richiedi quello — non cercare a tentoni
-un database che somigli.
+**Un id di `riferimenti.json` non risponde più.** Il file è stato compilato il 21/08/2026
+leggendo lo schema vero delle liste, quindi la domanda su quale database sia quale **non si fa
+più**. Se però un id smette di rispondere — lista rinominata, spostata, cancellata — dillo e
+chiedi quello nuovo. Non cercare a tentoni un database che somigli: due liste con nomi simili
+esistono davvero in quel workspace, e leggere quella sbagliata è peggio che non leggere niente.
+
+**Le proposte «Pronta per l'invio» non si sollecitano.** Sono aperte, ma sono ferme su Emanuele,
+non sul cliente. Nel briefing vanno nominate per quello che sono — da mandare, non da sollecitare
+— e i sette giorni non c'entrano.
 
 **La cartella delle sessioni è vuota** (prima volta che si usa la skill). «Buongiorno» non ha
 diario da leggere: dillo in una riga e vai avanti con TickTick e Notion, che ci sono comunque.

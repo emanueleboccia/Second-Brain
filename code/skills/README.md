@@ -6,14 +6,21 @@ cosa**, non *cos'è* un brand.
 
 ## Com'è fatta una cartella skill
 
-Una sottocartella per skill, col nome in minuscolo-con-trattini. Dentro, un solo file:
-`SKILL.md`, in maiuscolo come `CLAUDE.md` e `MEMORY.md`.
+Una sottocartella per skill, col nome in minuscolo-con-trattini. Dentro c'è sempre `SKILL.md`,
+in maiuscolo come `CLAUDE.md` e `MEMORY.md`, e — se servono — i file di configurazione che quella
+skill si porta dietro: riferimenti a database esterni, soglie, valori che cambiano senza che la
+procedura cambi. Stanno accanto al `SKILL.md`, in minuscolo-con-trattini.
 
 ```
 code/skills/
 └── nome-della-skill/
-    └── SKILL.md
+    ├── SKILL.md
+    └── riferimenti.json      (se serve)
 ```
+
+La regola per decidere dove va una cosa: se è **come si fa** un lavoro sta nel `SKILL.md`, se è
+**un dato che cambia** — un id, una soglia, un nome di lista — sta nel file di configurazione.
+Così si aggiorna un id senza rimettere le mani nella procedura.
 
 ## Come si scrive una skill
 

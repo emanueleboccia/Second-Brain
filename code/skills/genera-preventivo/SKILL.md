@@ -90,9 +90,18 @@ indovinare.
    `self/reference/tono.md` è compilato, quello è il tono; finché è vuoto, scrivi come parlerebbe
    Emanuele — niente «restiamo a disposizione», niente «in allegato troverà».
 
-8. **Se il cliente non ha una nota in `entities/`, creala.** Minima e onesta: nome, attività, data
-   del primo contatto, cosa gli serve. **Non chiedere i dati che non hai**: metti quello che si
-   ricava dalla richiesta e lascia il resto da compilare. Il file è
+8. **Se il cliente non ha una nota in `entities/`, creala.** La fonte del cliente è la lista
+   **Aziende** di Notion (`collection://6376e942-966f-4a19-bff9-6938eff1da7c`, riferimenti in
+   `code/skills/journal/riferimenti.json` sotto `clienti`), **non** la lista Contatti: i Contatti
+   sono le persone — con ruolo e telefono — le Aziende sono le organizzazioni, ed è alle Aziende
+   che punta il campo `Cliente` delle Proposte. Una nota in `entities/` che nasce da un contatto
+   invece che da un'azienda si aggancia al nodo sbagliato, e il preventivo finisce appeso a una
+   persona invece che al cliente che paga. Se l'azienda esiste già su Notion, prendi da lì nome,
+   settore e sito.
+
+   La nota è minima e onesta: nome, attività, data del primo contatto, cosa gli serve. **Non
+   chiedere i dati che non hai**: metti quello che si ricava dalla richiesta e lascia il resto da
+   compilare — l'intervista al cliente non si fa mentre si preventiva. Il file è
    `entities/<cliente-in-minuscolo-con-trattini>.md`, con frontmatter completo — le note in
    `entities/` passano dal gate di qualità come tutte le altre.
 
@@ -130,10 +139,11 @@ quotata a mano dopo aver capito il problema.
 **Il cliente non ha una nota in `entities/`.** Procedi: fai il preventivo, crea la nota al
 passaggio 8, e dillo a Emanuele. Non è un blocco, è un'informazione.
 
-**È un caso studio ma non si sa quanto vale la riduzione.** Il tariffario dice che la riduzione
-c'è e a quale condizione — permesso scritto di filmare e pubblicare — ma **non dice di quanto**.
-Chiedi la cifra a Emanuele e, quando te la dà, digli che quella percentuale ha appena smesso di
-essere un'informazione orale: va scritta nel tariffario.
+**È un caso studio.** La riduzione standard è **20%, arrotondata alla decina** — sta scritta nel
+tariffario, non si chiede e non si ricontratta da soli. La condizione è il permesso **scritto** di
+filmare e pubblicare: senza quello il prezzo è pieno, anche se il cliente promette a voce. Se
+Emanuele decide una riduzione diversa per un caso particolare, il tariffario dice che la deroga si
+annota nello Storico trattative: ricordaglielo.
 
 **Ci sono già due casi studio attivi.** Non è un no automatico: dillo a Emanuele con i nomi dei
 due, e lascia decidere a lui. La regola serve a non svendere tre lavori insieme, non a bloccare

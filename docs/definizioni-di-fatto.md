@@ -48,7 +48,11 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - TickTick è riportato nell'ordine giusto — oggi, poi le scadute, poi i sette giorni in arrivo —
   con gli orari dove ci sono.
 - Per ogni proposta aperta su Notion è scritto **da quanti giorni** è ferma, e quelle oltre i
-  sette giorni sono marcate come da sollecitare.
+  sette giorni sono marcate come da sollecitare. Le proposte «Pronta per l'invio» non sono
+  marcate da sollecitare: sono ferme su Emanuele, non sul cliente.
+- Le scadenze dei siti entro trenta giorni ci sono tutte, ordinate dalla più vicina, e quelle
+  sotto i quattordici giorni sono marcate urgenti. Nessuna scadenza dentro la finestra è stata
+  omessa: è fatturato ricorrente.
 - Un servizio che non risponde è **dichiarato**, non omesso: «TickTick non raggiungibile». Il
   briefing esce comunque.
 - Le tre priorità sono presentate come proposta, non come decisione presa.
