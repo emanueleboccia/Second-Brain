@@ -20,7 +20,7 @@ file sbagliato.
 - [[self/reference/offerta]] -- Impalcatura vuota: i servizi che Emanuele vende da freelance, ancora da scrivere.
 - [[self/reference/target]] -- Impalcatura vuota: a chi parla il personal brand di Emanuele, ancora da scrivere.
 - [[self/reference/tono]] -- Impalcatura vuota: la voce del personal brand di Emanuele, ancora da scrivere.
-- [[self/tariffario]] -- L'unica fonte dei prezzi del mio lavoro: dieci voci di servizio, ciascuna con range, cosa è incluso, cosa non lo è e le revisioni. Impalcatura ancora da compilare.
+- [[self/tariffario]] -- I prezzi di partenza della versione 1 — siti, menù, contenuti, hosting, automazioni e AI — con le regole trasversali su revisioni e casi studio e la nota strategica sui due piani.
 
 ## `areas/` — I tre brand di famiglia, ognuno con la sua sottocartella completa.
 

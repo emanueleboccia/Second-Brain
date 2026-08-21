@@ -40,6 +40,16 @@ DEROGHE_MIN_LINK = {
         "il terzo rimando naturale era novamira.md, eliminato per decisione del 21/08/2026",
 }
 
+# Le note attive che ancora nessuno può citare, con il motivo. Valgono per le
+# regole 5 e 6: restano nel grafo e i loro link contano per gli altri, ma non
+# vengono contestate se nessuno le raggiunge. La riga si cancella quando
+# l'aggancio nasce davvero.
+DEROGHE_ISOLAMENTO = {
+    "self/tariffario.md":
+        "le note che dovrebbero citarlo — self/reference/offerta, docs/brief-cliente, "
+        "docs/checklist-sito — sono ancora impalcature da compilare",
+}
+
 # Le note ancora da compilare non partecipano alle regole sul grafo: non hanno
 # prosa in cui mettere un collegamento, e nessuno le cita finché sono vuote.
 STATUS_ESENTE_DAL_GRAFO = "da-compilare"
@@ -179,7 +189,7 @@ def controlla():
 
     # --- 5. nessun orfano ---
     for nota in nel_grafo:
-        if not entranti[nota]:
+        if not entranti[nota] and nota not in DEROGHE_ISOLAMENTO:
             errori[5].append("%s — nessun link in entrata" % nota)
 
     # --- 6. una sola componente connessa ---
@@ -196,6 +206,9 @@ def controlla():
             coda.extend(vicini[corrente] - componente)
         componenti.append(sorted(componente))
         da_visitare -= componente
+    # un grappolo fatto solo di note in deroga non spezza il grafo: è isolato
+    # apposta, e il motivo è scritto qui sopra
+    componenti = [c for c in componenti if not all(n in DEROGHE_ISOLAMENTO for n in c)]
     if len(componenti) > 1:
         componenti.sort(key=len, reverse=True)
         errori[6].append("il grafo è spezzato in %d grappoli" % len(componenti))
@@ -234,6 +247,11 @@ def main():
     if DEROGHE_MIN_LINK:
         print("Deroghe attive sulla regola 3:")
         for percorso, motivo in sorted(DEROGHE_MIN_LINK.items()):
+            print("  %s — %s" % (percorso, motivo))
+        print()
+    if DEROGHE_ISOLAMENTO:
+        print("Deroghe attive sulle regole 5 e 6:")
+        for percorso, motivo in sorted(DEROGHE_ISOLAMENTO.items()):
             print("  %s — %s" % (percorso, motivo))
         print()
     if totale:
