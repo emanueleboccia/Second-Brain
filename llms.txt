@@ -81,8 +81,56 @@ file sbagliato.
 
 - [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
 - [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
-- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal e Preventivo già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding.
+- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal, Preventivo e Consigliere vendita già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding.
 - [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
+- [[docs/vendita/agenda-a-scelta-chiusa]] -- Non si chiede «quando sei libero?»: si danno due opzioni precise di giorno e di fascia oraria, per dimostrare un'agenda piena e mantenere il controllo.
+- [[docs/vendita/ascolto-e-allineamento]] -- Non si risponde mai di petto a un'obiezione: si ascolta in silenzio, ci si mette dalla parte del cliente validando la sua preoccupazione, e solo con le difese abbassate si comincia a scavare.
+- [[docs/vendita/auto-vendita-del-venditore]] -- Nessun accordo si chiude se in cuor suo il venditore è d'accordo con la scusa del cliente: serve una convinzione totale del valore del proprio prodotto.
+- [[docs/vendita/causa-esterna]] -- Ogni sconto va giustificato con una motivazione logica — la ricerca di casi studio, il premio all'azione immediata — altrimenti il ribasso sa di disperazione o di truffa.
+- [[docs/vendita/cementificazione]] -- Dopo aver fissato l'orario si annuncia e si invia materiale da guardare prima dell'incontro, chiedendo l'impegno a vederlo: scalda il contatto e abbatte i no-show.
+- [[docs/vendita/check-di-bilancio]] -- Prima di dire il prezzo si verifica la temperatura del cliente: si procede solo se è entusiasta, idealmente solo quando è lui a chiedere quanto costa.
+- [[docs/vendita/claim]] -- L'aggancio che apre il pitch: una dichiarazione forte, sicura ed entusiasta che fa capire subito che la soluzione è stata studiata per i problemi specifici di quel cliente.
+- [[docs/vendita/contraddizioni-aperte]] -- I punti in cui gli appunti di vendita dicono due cose diverse: quando entra il prezzo, se la causa esterna può essere inventata, gli script vietati e poi forniti, le colonne della fiducia, quando si smette col follow-up.
+- [[docs/vendita/debito-di-azione]] -- Le azioni mancate in una giornata non si perdonano: si contano e si recuperano nei giorni successivi, altrimenti l'obiettivo del mese fallisce per aritmetica.
+- [[docs/vendita/decision-maker]] -- Accertarsi che l'interlocutore possa firmare e pagare da solo, e in fase di setting invitare fin da subito soci o coniugi che dovranno avallare la decisione.
+- [[docs/vendita/domanda-di-trasformazione]] -- Il framework condizionale con cui si propone l'appuntamento: «se ti mostrassi come passare dal problema al risultato, valuteresti mezz'ora con me?».
+- [[docs/vendita/domande-specchio]] -- Durante l'anagrafica, quesiti che riflettono al cliente l'inefficacia dei suoi metodi attuali e glieli fanno ammettere da solo: il venditore fa la diagnosi come un medico.
+- [[docs/vendita/follow-up]] -- Chi non risponde va richiamato almeno tre volte in tre giorni consecutivi: è la pratica che alza più di ogni altra il tasso di risposta e di presa appuntamento.
+- [[docs/vendita/incentivi]] -- Bonus, regali extra o sconti legati a un'azione immediata, usati per sbloccare uno stallo: funzionano solo se accompagnati da una causa esterna che li giustifichi.
+- [[docs/vendita/isolare-e-sradicare]] -- Trovata la vera obiezione la si isola chiedendo se è l'unico blocco, la si smonta con una dimostrazione logica o matematica, e subito dopo si lancia una nuova call to action.
+- [[docs/vendita/isolare-lo-stato-attuale]] -- Far dichiarare esplicitamente al cliente, con una scala da 1 a 10, quanto è insoddisfatto oggi: è il passaggio che sancisce lo stato di pain.
+- [[docs/vendita/mantenimento-clienti]] -- Un minimo giornaliero anche su chi ha già comprato: contattare via messaggio il 10% della lista clienti attivi ogni giorno, per tenere vivo il rapporto e generare referral.
+- [[docs/vendita/metriche-della-vendita]] -- Il processo commerciale è un motorino di ingranaggi consequenziali da misurare ogni giorno: contatti, chiamate, risposte, appuntamenti fissati e presentati, pitch, chiusure, incasso.
+- [[docs/vendita/micro-commitment]] -- Se il cliente non è pronto al passo grande gliene si fa fare uno piccolo — un acconto, l'ingresso nel gruppo di onboarding — che lo vincola psicologicamente ad andare fino in fondo.
+- [[docs/vendita/obiezioni-fumogeno]] -- «Ci devo pensare», «ne parlo con mia moglie», «devo valutare altre offerte» non sono quasi mai il vero blocco: sono muri difensivi che nascondono una credenza limitante.
+- [[docs/vendita/permesso-di-offerta]] -- Non si impone il pitch: si chiede l'autorizzazione a mostrare la soluzione, per dare al cliente l'illusione del controllo e predisporlo all'ascolto.
+- [[docs/vendita/pitch-panoramico]] -- Il servizio si descrive per step logici e sequenziali, come un diagramma di flusso: fa percepire al cliente una strada tracciata e una guida sicura.
+- [[docs/vendita/ponte-tra-due-stati]] -- La vendita come transito da una situazione insoddisfacente a una desiderata: i due stati hanno ciascuno una faccia esterna e una emotiva, e la soluzione è il ponte che li collega.
+- [[docs/vendita/prevenire-le-obiezioni]] -- Il modo migliore di trattare un'obiezione è non crearla: un processo eseguito bene nelle fasi precedenti arriva alla chiusura con pochi dubbi da sciogliere.
+- [[docs/vendita/prezzo-d-inazione]] -- Il venditore sminuisce il problema e suggerisce al cliente di accontentarsi, poi tace: il silenzio spinge il cliente a ribellarsi e a esprimere il vero problema interno.
+- [[docs/vendita/principio-di-logica]] -- Il venditore guida il processo con un obiettivo chiaro per ogni fase e non accetta acriticamente le incoerenze del cliente: chi ha fretta e poi dice «ci devo pensare» si sta nascondendo.
+- [[docs/vendita/principio-di-profondita]] -- I clienti comunicano in superficie per nascondere le vere intenzioni: si scava sotto l'iceberg con domande ripetute finché la risposta non diventa inscomponibile.
+- [[docs/vendita/principio-di-trasformazione]] -- Le persone comprano il risultato finale e come si sentiranno, non il mezzo: l'acquisto avviene quando il valore percepito della trasformazione supera abbondantemente il prezzo.
+- [[docs/vendita/problema-bruciante]] -- Un problema muove all'azione solo quando è percepito come acuto e fastidioso: il compito del venditore è far mettere attenzione su un disagio che il cliente convive ignorando.
+- [[docs/vendita/qualifica-monetaria]] -- Prima del pitch si ancora un range di prezzo ipotetico e alto per testare la percezione del valore; se il cliente rifiuta si rimanda il discorso prezzo alla fine.
+- [[docs/vendita/reason-why]] -- La prima indagine della question phase: perché il cliente ha accettato l'incontro. Si scava sulla risposta finché non emerge un problema esterno concreto e inscomponibile.
+- [[docs/vendita/regola-dei-soldi]] -- Le questioni economiche si trattano per ultime: prima si accantona il budget per verificare se il blocco è davvero il denaro o se manca la fiducia.
+- [[docs/vendita/regole-della-casa]] -- L'apertura in cui il venditore dichiara agenda e obiettivo dell'incontro, annuncia che farà domande e anticipa l'eventuale offerta finale: serve a prendere il controllo e a giustificare l'interrogatorio.
+- [[docs/vendita/report-serale]] -- Ogni sera, a un orario fisso, si compila il foglio di calcolo con chiamate, appuntamenti e contratti, ci si fanno domande panoramiche e si programmano i blocchi del giorno dopo.
+- [[docs/vendita/riprove]] -- Ogni affermazione va sostenuta da prove concrete e mostrate: casi studio, recensioni, grafici, dimostrazioni visive. Più si dimostra visivamente, più sale la fiducia.
+- [[docs/vendita/routine-mattutina]] -- La giornata comincia con un set mentale entusiasta — allenamento, lettura degli obiettivi — perché l'entusiasmo è il motore delle chiamate e al telefono si sente.
+- [[docs/vendita/setting-e-una-vendita]] -- Fissare un appuntamento non è incastrare agende: è vendere al prospect il motivo per cui vale la pena investire mezz'ora del suo tempo per ascoltare uno sconosciuto.
+- [[docs/vendita/stack-e-price-drop]] -- Si elencano tutti i componenti dell'offerta con un valore alto ancorato ai prezzi di mercato, si somma, e solo dopo si rivela il prezzo reale, molto inferiore al totale ancorato.
+- [[docs/vendita/straight-line]] -- La vendita è una linea retta dal primo contatto alla transazione, divisa in tre macro-fasi: question phase, pitch, looping e chiusura. Il venditore non lascia mai uscire il cliente dai confini.
+- [[docs/vendita/studio-mirato]] -- Studiare la sera serve solo se è puntato sul collo di bottiglia che i numeri hanno indicato: tecniche avanzate su un problema che non hai sono tempo perso.
+- [[docs/vendita/target-giornaliero]] -- L'obiettivo economico a 30 giorni si frantuma in target settimanali e poi giornalieri, e infine in azioni meccaniche obbligatorie: tot chiamate per tot appuntamenti.
+- [[docs/vendita/tassi-di-conversione]] -- La differenza tra un venditore mediocre e un professionista non è lavorare il doppio, ma alzare di poco la percentuale di passaggio in ogni singolo step.
+- [[docs/vendita/tempi-morti]] -- Dieci ore operative senza buchi: se un appuntamento salta o finisce prima, i venti minuti liberi vanno subito in chiamate a freddo, non sui social.
+- [[docs/vendita/teoria-dei-tre-10]] -- Perché compri devi fidarti al massimo del venditore, dell'azienda e del prodotto; gli appunti aggiungono una quarta colonna spesso trascurata, la fiducia del cliente in sé stesso.
+- [[docs/vendita/tono-di-voce]] -- Entusiasta, esperto e sicuro: al telefono la voce è l'unica immagine che il cliente ha del venditore, e la prima impressione si gioca nei primissimi secondi.
+- [[docs/vendita/tre-caratteristiche-irrinunciabili]] -- Prima di svelare il percorso si chiede al cliente quali sono le tre cose che non devono mancare nel servizio: le sue parole diventano le leve su cui modellare il pitch.
+- [[docs/vendita/uncino]] -- La frase iniziale che dichiara il motivo della chiamata con una promessa specifica e passa subito a scavare sul problema: il dolore è ciò che tiene la persona al telefono.
+- [[docs/vendita/vendere-il-risultato]] -- Nel pitch si spiega solo ciò che interessa al prospect e risolve i suoi problemi: i tecnicismi annoiano, abbassano il valore e invitano il cliente a decostruire l'offerta.
 
 ## `entities/` — Clienti e fornitori.
 
@@ -97,6 +145,8 @@ file sbagliato.
 Le skill: procedure, non note. Non hanno frontmatter e stanno fuori
 dal gate di qualità.
 
+- **consigliere-vendita** — skill · `code/skills/consigliere-vendita/SKILL.md`
+  -- Quando Emanuele deve giocare una trattativa e vuole ragionarci prima, o è in mezzo e non sa come rispondere.
 - **genera-preventivo** — skill · `code/skills/genera-preventivo/SKILL.md`
   -- Quando Emanuele deve mandare un preventivo.
 - **journal** — skill · `code/skills/journal/SKILL.md`
