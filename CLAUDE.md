@@ -51,6 +51,7 @@ funziona o duplica una connessione che c'è già.
 |---|---|
 | Gmail | tra i connettori attivi non c'è nessuna email: senza Composio non si manda niente |
 | Google Sheets | Drive arriva al file, non alla cella: crea e sostituisce un foglio intero, ma non scrive righe e colonne. Per aggiornare un foglio esistente serve l'API vera |
+| Apify | collegato il 25/08/2026: gli scraper di Google Maps, da cui la skill `estrai-lead` tira fuori le liste di potenziali clienti. Nessun connettore attivo fa scraping. ⚠️ Ogni run si paga a risultato |
 
 ⚠️ **Composio non è un server MCP**, anche se all'inizio l'avevamo chiamato così. È la CLI
 `composio` installata in `~/.composio`, più la skill `composio-cli` che Claude Code carica
@@ -59,7 +60,7 @@ all'avvio: gli strumenti si usano dal terminale — `composio search`, `composio
 
 Sull'account Composio risultano collegati anche GitHub, Calendar, Docs, Drive, Notion e TickTick.
 **Non si usano da lì.** Per quei servizi la via sono i connettori attivi qui sopra: Composio
-serve solo per Gmail e Sheets, e non è un secondo modo di fare le stesse cose.
+serve solo per Gmail, Sheets e Apify, e non è un secondo modo di fare le stesse cose.
 
 ## La regola sulle scritture
 

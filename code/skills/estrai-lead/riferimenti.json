@@ -1,0 +1,122 @@
+{
+  "_nota": "I dati che cambiano senza che la procedura cambi: lo scraper scelto, i suoi prezzi, gli slug dei tool Composio, le soglie e le liste di domini. Compilato il 25/08/2026 leggendo l'API Apify vera (/v2/store e /v2/acts) e le schede tool di Composio. Se un prezzo o uno slug smette di tornare, la skill lo dice e chiede — non tira a indovinare.",
+
+  "scraper": {
+    "actor_id": "compass/crawler-google-places",
+    "actor_id_interno": "nwua9Gu5YrADL7ZDj",
+    "titolo": "Google Maps Scraper",
+    "modello_prezzo": "PAY_PER_EVENT",
+    "_nota_scelta": "Scelto il 25/08/2026 fra i quindici Google Maps scraper dello store: 34.351 utenti in 30 giorni, il più usato di tutti, e il più economico per posto estratto. È a consumo puro, senza canone di noleggio mensile. L'alternativa compass/google-maps-extractor fa lo stesso lavoro a 0.005 $ per posto, il 25% in più.",
+
+    "prezzo_per_posto_usd": {
+      "FREE": 0.004,
+      "BRONZE": 0.003,
+      "SILVER": 0.002,
+      "GOLD": 0.0015,
+      "PLATINUM": 0.00126,
+      "DIAMOND": 0.000756
+    },
+    "prezzo_avvio_run_usd": 0.00005,
+    "_nota_prezzo": "Il prezzo per posto dipende dal piano Apify dell'account. Il piano si legge con APIFY_USERS_ME_GET, campo plan.tier. Il 25/08/2026 l'account emanueleboccia era FREE, quindi 0.004 $ a posto. Se il piano cambia, cambia la riga da usare — non si aggiorna niente qui, si legge il tier e si prende il valore giusto.",
+
+    "add_on_da_tenere_spenti": {
+      "scrapeContacts": 0.002,
+      "scrapePlaceDetailPage": 0.002,
+      "maximumLeadsEnrichmentRecords": 0.1
+    },
+    "_nota_add_on": "Sono eventi a pagamento che si sommano al prezzo per posto. La skill non li usa: estrarre i contatti dal sito costerebbe la metà di nuovo, e l'arricchimento lead 25 volte tanto. Vanno passati esplicitamente spenti, non lasciati al default, così l'input dice cosa si sta comprando.",
+
+    "input_run": {
+      "searchStringsArray": ["<nicchia>"],
+      "locationQuery": "<zona>",
+      "maxCrawledPlacesPerSearch": "<numero massimo di lead>",
+      "language": "it",
+      "skipClosedPlaces": true,
+      "scrapeContacts": false,
+      "scrapePlaceDetailPage": false,
+      "maximumLeadsEnrichmentRecords": 0
+    },
+    "filtro_opzionale_senza_sito": {
+      "website": "withoutWebsite"
+    },
+    "_nota_filtro": "L'actor sa filtrare all'origine: 'withoutWebsite' estrae solo attività senza sito, cioè solo lead a priorità ALTA. Si usa quando Emanuele lo chiede, non di default: normalmente la lista completa serve anche a vedere quanto è coperta una zona. I valori ammessi sono allPlaces, withWebsite, withoutWebsite.",
+
+    "campi_output_attesi": {
+      "nome": "title",
+      "indirizzo": "address",
+      "telefono": "phone",
+      "sito": "website",
+      "rating": "totalScore",
+      "recensioni": "reviewsCount"
+    },
+    "_nota_campi": "Questi sono i nomi con cui l'actor restituisce i sei campi che servono. NON sono stati verificati su un run vero: il 25/08/2026 la skill è stata costruita senza lanciare niente. Al primo run si controllano contro le chiavi reali del primo elemento del dataset, e se una non c'è si dice quale — non si scrive una colonna vuota facendo finta di niente."
+  },
+
+  "tool_composio": {
+    "account_apify": "APIFY_USERS_ME_GET",
+    "lancia_run": "APIFY_RUN_ACTOR_SYNC_GET_DATASET_ITEMS",
+    "recupera_dataset_run": "APIFY_GET_RUN_DATASET_ITEMS",
+    "stato_run": "APIFY_ACTOR_RUN_GET",
+    "crea_foglio": "GOOGLESHEETS_CREATE_GOOGLE_SHEET1",
+    "scrivi_righe": "GOOGLESHEETS_SPREADSHEETS_VALUES_APPEND",
+    "_nota_tetto": "APIFY_RUN_ACTOR_SYNC_GET_DATASET_ITEMS non espone maxTotalChargeUsd, il tetto di spesa nativo di Apify. Il parametro maxItems vale per gli actor pay-per-result, non per questo che è pay-per-event. L'unico freno effettivo è maxCrawledPlacesPerSearch dentro l'input dell'actor.",
+    "_nota_attesa": "Il tool aspetta al massimo 300 secondi (waitForFinish). Oltre quelli risponde comunque, ma il run su Apify continua per conto suo: i risultati si recuperano con APIFY_GET_RUN_DATASET_ITEMS sull'id del run. Non si rilancia."
+  },
+
+  "soglie": {
+    "tetto_lead_per_run": 50,
+    "_nota_tetto_lead": "Mai più di 50 lead per run senza un ok esplicito di Emanuele, chiesto per quel run e ottenuto. Non è un default modificabile: è il freno della procedura, e la piattaforma non ne ha uno che lo sostituisca."
+  },
+
+  "priorita": {
+    "valori": ["ALTA", "CON SITO"],
+    "_nota_regola": "Deciso il 25/08/2026. Due soli valori, entrambi ricavabili dal solo URL: nessuna visita ai siti, nessun giudizio di qualità. Il criterio 'sito generico o datato' è stato scartato perché da Google Maps arriva l'URL e nient'altro, e una valutazione estetica sarebbe stata inventata. La qualità la giudica Emanuele scorrendo la lista.",
+
+    "domini_social": [
+      "facebook.com",
+      "m.facebook.com",
+      "fb.me",
+      "fb.com",
+      "instagram.com",
+      "linktr.ee",
+      "linktree.com",
+      "tiktok.com",
+      "youtube.com",
+      "twitter.com",
+      "x.com",
+      "wa.me",
+      "sites.google.com",
+      "business.site"
+    ],
+    "domini_gratuiti": [
+      ".wordpress.com",
+      ".wixsite.com",
+      ".blogspot.com",
+      ".weebly.com",
+      ".jimdosite.com",
+      ".jimdo.com",
+      ".webnode.it",
+      ".webnode.com",
+      ".altervista.org",
+      ".godaddysites.com",
+      ".square.site",
+      ".webador.it",
+      ".flazio.com",
+      ".netsons.org"
+    ],
+    "_nota_liste": "Due liste che cresceranno: ogni volta che in una lista di lead compare un host che è social o costruttore gratuito e qui non c'è, si aggiunge qui invece di trattarlo a mano. Il confronto si fa sull'host dell'URL, non sulla stringa intera: un dominio proprio che contiene 'facebook' nel percorso non è un profilo Facebook."
+  },
+
+  "output": {
+    "nome_foglio": "lead-<nicchia>-<YYYY-MM-DD>",
+    "intestazione": [
+      "Attività",
+      "Indirizzo",
+      "Telefono",
+      "Sito web",
+      "Rating",
+      "Recensioni",
+      "Priorità"
+    ]
+  }
+}
