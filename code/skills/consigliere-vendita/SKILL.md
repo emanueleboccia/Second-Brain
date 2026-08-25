@@ -132,10 +132,14 @@ lista morta.
      cambio. Se non c'è, dirlo.
    - **Cosa NON dire.** Le frasi che peggiorano la posizione, e perché.
 
-   **Ogni consiglio si aggancia a un principio, nominato col wikilink**:
-   `[[docs/vendita/prezzo-d-inazione|il prezzo d'inazione]]`. Non è pedanteria da vault — è il modo
-   in cui Emanuele verifica che il consiglio venga dal suo metodo e non da un'invenzione ben
-   scritta. Il percorso è completo dalla radice: i nomi corti puntano al file sbagliato.
+   **Ogni consiglio si aggancia a un principio, e il principio si nomina per esteso**: «il prezzo
+   d'inazione», «le colonne della fiducia», «isolare e sradicare». È il modo in cui Emanuele
+   verifica che il consiglio venga dal suo metodo e non da un'invenzione scritta bene.
+
+   **Niente sintassi wikilink nella risposta.** Le doppie parentesi quadre sono una convenzione dei
+   file del vault, dove tengono insieme il grafo e le controlla il gate di qualità. In una risposta
+   da leggere sono rumore, e Emanuele l'ha detto il 24/08/2026. Se serve un riferimento cliccabile
+   si usa un link markdown normale al file.
 
 9. **Quello che gli appunti non coprono, si dichiara.** Se un pezzo della situazione non ha un
    principio dietro, la frase è: **«questo i tuoi appunti non lo coprono»**, e si dice quale pezzo.

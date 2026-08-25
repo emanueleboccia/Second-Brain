@@ -7,7 +7,7 @@ tags:
   - offerta
 status: attivo
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-08-24
 related:
   - "[[docs/definizioni-di-fatto]]"
   - "[[docs/brief-cliente]]"
@@ -116,3 +116,7 @@ per questa vendita, non per vendere altri siti.
      Il massimo è due attivi contemporaneamente.
      Se qui non c'è scritto niente, o le righe sono ambigue, si chiede a Emanuele
      invece di dedurre. -->
+
+- 24/08/2026 · Lampion Square (Giorgio) · menù digitale + menù TV + foto + hosting con assistenza ·
+  prezzo mai presentato · **perso prima del pitch**: fermato dal fornitore dell'app del cliente,
+  che gli ha sconsigliato il menù web. Caso studio proposto ma mai discusso, quindi non attivo.
