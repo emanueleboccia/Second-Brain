@@ -17,6 +17,11 @@
       "DIAMOND": 0.000756
     },
     "prezzo_avvio_run_usd": 0.00005,
+    "prezzo_filtro_per_posto_usd": {
+      "FREE": 0.001
+    },
+    "_nota_filtri": "Verificato sul run vero del 25/08/2026: ogni filtro attivo costa 0.001 $ IN PIÙ per ogni posto estratto, e i filtri si sommano fra loro. skipClosedPlaces È un filtro, anche se sembra un'opzione di igiene: da solo aggiunge il 25% al costo di un run su piano FREE. Anche website: withoutWebsite è un filtro, quindi i due insieme fanno 0.002 $ a posto sopra al prezzo base. La stima va fatta come (posti × prezzo_per_posto) + (posti × prezzo_filtro × numero di filtri attivi) + avvio.",
+    "_nota_avvio": "L'evento apify-actor-start può scattare più di una volta per run: sul run del 25/08/2026 è scattato 4 volte per 10 posti. Sono 0.0002 $, ininfluenti, ma la stima non deve darlo per uno.",
     "_nota_prezzo": "Il prezzo per posto dipende dal piano Apify dell'account. Il piano si legge con APIFY_USERS_ME_GET, campo plan.tier. Il 25/08/2026 l'account emanueleboccia era FREE, quindi 0.004 $ a posto. Se il piano cambia, cambia la riga da usare — non si aggiorna niente qui, si legge il tier e si prende il valore giusto.",
 
     "add_on_da_tenere_spenti": {
@@ -39,7 +44,7 @@
     "filtro_opzionale_senza_sito": {
       "website": "withoutWebsite"
     },
-    "_nota_filtro": "L'actor sa filtrare all'origine: 'withoutWebsite' estrae solo attività senza sito, cioè solo lead a priorità ALTA. Si usa quando Emanuele lo chiede, non di default: normalmente la lista completa serve anche a vedere quanto è coperta una zona. I valori ammessi sono allPlaces, withWebsite, withoutWebsite.",
+    "_nota_filtro": "L'actor sa filtrare all'origine: 'withoutWebsite' estrae solo attività senza sito, cioè solo lead a priorità ALTA. Si usa quando Emanuele lo chiede, non di default: normalmente la lista completa serve anche a vedere quanto è coperta una zona. I valori ammessi sono allPlaces, withWebsite, withoutWebsite. ⚠️ È un filtro a pagamento: vedi _nota_filtri.",
 
     "campi_output_attesi": {
       "nome": "title",
@@ -49,7 +54,7 @@
       "rating": "totalScore",
       "recensioni": "reviewsCount"
     },
-    "_nota_campi": "Questi sono i nomi con cui l'actor restituisce i sei campi che servono. NON sono stati verificati su un run vero: il 25/08/2026 la skill è stata costruita senza lanciare niente. Al primo run si controllano contro le chiavi reali del primo elemento del dataset, e se una non c'è si dice quale — non si scrive una colonna vuota facendo finta di niente."
+    "_nota_campi": "Verificati sul run vero del 25/08/2026: tutti e sei i nomi tornano. ⚠️ Con clean: true la chiave website NON c'è affatto quando l'attività non ha un sito — non è null, manca proprio. Vale per ogni campo vuoto: si legge col get, mai con l'accesso diretto, altrimenti il run si rompe sul primo lead senza sito. Nel dataset c'è anche categoryName, che dice come Google ha classificato l'attività: utile per accorgersi che una ricerca ha pescato largo."
   },
 
   "tool_composio": {

@@ -79,12 +79,20 @@ Nicchia interpretata:  <termine di ricerca esatto che verrà usato>
 Zona:                  <locationQuery esatta>
 Numero di lead:        <n>
 Scraper:               compass/crawler-google-places (a consumo, nessun canone)
-Costo stimato:         <n × prezzo per posto> + 0.00005 di avvio = ~<totale> $
+Costo stimato:         <n × prezzo per posto> + <n × 0.001 × filtri attivi> + avvio = ~<totale> $
 ```
 
 Il prezzo per posto si prende da `riferimenti.json` alla riga del piano letto con
-`APIFY_USERS_ME_GET`. Su FREE sono 0.004 $ a posto: 50 lead vengono circa 0,20 $. Se il piano non
-si riesce a leggere, dillo e usa la riga FREE, che è la più cara — meglio una stima in eccesso.
+`APIFY_USERS_ME_GET`. Su FREE sono 0.004 $ a posto.
+
+**I filtri si pagano a parte, e sono la voce che si dimentica.** Ogni filtro attivo costa 0.001 $
+in più per ogni posto estratto, e si sommano fra loro. `skipClosedPlaces` **è un filtro**, anche se
+sembra un'opzione di igiene: da solo aggiunge il 25% al costo su piano FREE. Anche
+`website: withoutWebsite` lo è. Con entrambi accesi il conto per posto passa da 0.004 a 0.006 $.
+Cinquanta lead col solo `skipClosedPlaces` vengono circa 0,25 $, non 0,20.
+
+Se il piano non si riesce a leggere, dillo e usa la riga FREE, che è la più cara — meglio una stima
+in eccesso.
 
 Nella stessa schermata dichiara che l'ok copre **due scritture**: il run su Apify e il foglio nuovo
 su Google Drive. Il foglio non richiede una seconda conferma perché il suo contenuto non lo componi
@@ -129,7 +137,12 @@ l'input costruito da `input_run` di `riferimenti.json`:
 
 I tre add-on vanno passati spenti **esplicitamente**, anche se il default è già quello: sono
 eventi a pagamento che si sommano al prezzo per posto, e scriverli rende leggibile cosa si sta
-comprando. Se Emanuele ha chiesto solo attività senza sito, aggiungi `"website": "withoutWebsite"`.
+comprando. Se Emanuele ha chiesto solo attività senza sito, aggiungi `"website": "withoutWebsite"`
+— ricordando che è un secondo filtro e che il costo per posto sale di conseguenza.
+
+`skipClosedPlaces` resta acceso: un'attività chiusa non è un lead, e pagarla per poi scartarla a
+mano costa più del filtro. Ma è una scelta, non un default gratuito, e il suo prezzo va dentro la
+stima del passaggio 3.
 
 Sulla chiamata usa `clean: true` e `fields` con i sei campi che servono: il dataset di questo actor
 è largo e non serve portarsi dietro il resto.
@@ -146,6 +159,11 @@ facendo finta che il dato non ci fosse: sono due cose diverse, e in una lista da
 differenza fra «non ha il telefono» e «non l'abbiamo letto» conta.
 
 Un campo che davvero manca resta vuoto. Non si inventa un indirizzo, non si deduce un telefono.
+
+Attenzione a **come** manca: con `clean: true` un campo vuoto non arriva come `null`, la chiave non
+c'è proprio. Sul run del 25/08/2026 cinque lead su dieci non avevano la chiave `website`. Si legge
+sempre in modo tollerante alla chiave assente, altrimenti il lavoro si rompe sul primo lead senza
+sito — che poi è esattamente il lead che interessa di più.
 
 ### 7 · Calcola la priorità
 

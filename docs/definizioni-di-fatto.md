@@ -174,6 +174,9 @@ consegnare il foglio: se una non torna, si corregge e si riverifica.
   stata usata la riga FREE ed è **detto** che la stima è al massimo.
 - Gli add-on a pagamento sono passati **spenti in modo esplicito** nell'input: `scrapeContacts`,
   `scrapePlaceDetailPage`, `maximumLeadsEnrichmentRecords`.
+- La stima **conta anche i filtri**: ogni filtro attivo costa 0.001 $ per posto e si somma agli
+  altri. `skipClosedPlaces` è un filtro, e `website: withoutWebsite` è il secondo. Una stima che
+  moltiplica solo il prezzo per posto è sbagliata per difetto.
 - La zona è **una sola per run** ed è quella che Emanuele ha confermato. Se era ambigua, è stata
   fatta la domanda: nessun comune aggiunto per iniziativa.
 - **È partito un run solo.** Un run fallito o scaduto non è stato rilanciato da solo.
