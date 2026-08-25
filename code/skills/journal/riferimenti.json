@@ -88,8 +88,9 @@
     "_nota_formato": "Formato sicuro su qualsiasi piano. I bitrate alti sono riservati ai piani a pagamento: se un giorno il piano sale, qui si può passare a mp3_44100_128 e si sente la differenza.",
 
     "voce": {
-      "scelta": null,
-      "_nota_scelta": "La sceglie Emanuele una volta sola, poi si scrive qui il voice_id e non si chiede più. Finché è null, la skill propone le candidate e usa la prima come provvisoria dichiarandolo.",
+      "scelta": "EXAVITQu4vr4xnSDxMaL",
+      "scelta_nome": "Sarah - Mature, Reassuring, Confident",
+      "_nota_scelta": "Scelta da Emanuele il 25/08/2026 dopo aver ascoltato le maschili e tre femminili. La domanda non si rifà: se un giorno cambia idea lo dirà lui. È una premade, quindi funziona anche sul piano free — ma è nata in inglese e in italiano l'accento si sente. Non è la voce migliore possibile, è la migliore che questo piano permetta.",
       "candidate": [
         {
           "nome": "Eric - Smooth, Trustworthy",
