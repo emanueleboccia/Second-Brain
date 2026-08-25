@@ -29,6 +29,9 @@ Tre comandi, tre momenti della giornata.
   abbiamo fatto». Non aspettare la formula esatta — riconosci l'intenzione.
 - **«fine giornata»** — quando la giornata è finita. Riassume tutte le sessioni del giorno in
   una nota sola. Vale anche come «chiudiamo la giornata», «riassunto di oggi».
+- **«buongiorno audio»** — lo stesso briefing, da ascoltare invece che da leggere. Vale anche
+  quando la richiesta audio arriva dopo: «buongiorno, me lo leggi?», «fammelo sentire»,
+  «mandamelo in vocale». È il comando 1 più una voce sopra, non un briefing diverso.
 
 ## Input
 
@@ -43,6 +46,9 @@ Tre comandi, tre momenti della giornata.
 | Le sessioni di oggi | `workspace/journal/sessions/sessione-<oggi>.md` | sì per «fine giornata» |
 | I template | `workspace/journal/_templates/` | sì per chi scrive |
 | Cosa è successo nella sessione | la conversazione in corso | sì per «chiudi sessione» |
+| Voce, modello e formato audio | `code/skills/journal/riferimenti.json`, sezione `audio` | sì per «buongiorno audio» |
+| Il piano ElevenLabs | da `ELEVENLABS_GET_USER_SUBSCRIPTION_INFO` | sì per «buongiorno audio» |
+| La sigla, se c'è | `code/skills/journal/assets/sigla.mp3` | no |
 
 TickTick e Notion si leggono **dai connettori attivi**, non da Composio: è la divisione scritta
 nel `CLAUDE.md` di radice. Composio serve per Gmail e Sheets, che qui non c'entrano.
@@ -182,6 +188,77 @@ inventare una gerarchia per far tornare il numero tre.
    su cosa è stata.
 7. Se il daily di oggi esiste già, non sovrascriverlo al buio: si va ai casi limite.
 
+### Comando 4 — «buongiorno audio»
+
+**Prima si fa il comando 1 per intero.** Il briefing scritto esce sempre, ed è la fonte: l'audio
+è una vista di quel testo, non un secondo briefing. Se le due versioni dicono cose diverse, quella
+sbagliata è l'audio — perché è la copia.
+
+**1 · Riscrivi per l'orecchio.** Il briefing scritto letto ad alta voce è rumore: una tabella
+diventa un elenco di parole senza colonne, un percorso di file diventa una sigla incomprensibile,
+un numero di giorni fra parentesi diventa un inciso che perde il filo. Va riscritto, non
+convertito.
+
+La versione parlata sta in **60-90 secondi** — dai mille ai millecinquecento caratteri — ed è
+discorsiva, come se qualcuno gliela raccontasse entrando in ufficio:
+
+> «Buongiorno Emanuele. Ieri hai chiuso con la trattativa Lampion Square persa e il metodo
+> messo nel correction log. Oggi hai l'appuntamento con Karim in ufficio, in mattinata, e non ha
+> un'ora: se non l'hai già fatto, è la prima cosa da fissare…»
+
+Le regole della riscrittura:
+
+- **Niente percorsi di file, niente id, niente nomi di database.** Nessuno ascolta
+  `docs/vendita/problema-bruciante`. Si dice «gli appunti di vendita».
+- **Niente formattazione parlata.** Non si legge «trattino», non si annuncia «prima voce»,
+  non si dice «due punti».
+- **Le date si dicono come si dicono a voce**: «fra tre settimane», non «16/09/2026». La data
+  esatta sta nel testo, che resta lì da leggere.
+- **I numeri si arrotondano quando non cambiano niente**: «una decina di lead», non «dieci lead
+  con priorità alta e quattro con sito».
+- **Le tre priorità chiudono**, nell'ordine del testo, una frase ciascuna. È l'ultima cosa che
+  sente e la sola che deve ricordare.
+
+**2 · Sintetizza.** Con `ELEVENLABS_TEXT_TO_SPEECH`, voce, modello e formato dalla sezione `audio`
+di [`riferimenti.json`](riferimenti.json).
+
+Se `voce.scelta` è `null`, **non scegliere in silenzio**: proponi le candidate con una riga sul
+perché, di' quale useresti, e salva la scelta in `riferimenti.json` quando Emanuele risponde. Si
+chiede una volta sola nella vita della skill.
+
+**Al primo giro di' quanto costa prima di sintetizzare**: i caratteri del testo, la durata che ne
+esce, e quanto resta del piano letto con `ELEVENLABS_GET_USER_SUBSCRIPTION_INFO`. Il piano free
+sta sui 10.000 caratteri al mese, cioè circa otto briefing: è un tetto che si tocca davvero, e
+scoprirlo a metà mese è peggio che saperlo adesso. **Dai giri successivi non si chiede più**,
+perché un avviso quotidiano su una cosa nota smette di essere letto.
+
+**3 · La musica, se c'è.** Se esiste `code/skills/journal/assets/sigla.mp3`, va sotto la voce con
+ffmpeg: apre da sola per due o tre secondi, scende quando entra la voce, risale in coda.
+
+```bash
+ffmpeg -i sigla.mp3 -i voce.mp3 -filter_complex \
+  "[0:a]atrim=0:<durata voce + 5>,asetpts=N/SR/TB[m]; \
+   [1:a]adelay=3000|3000[v]; \
+   [m][v]sidechaincompress=threshold=0.02:ratio=8:attack=200:release=1200[mix]" \
+  -map "[mix]" briefing.mp3
+```
+
+**Se la sigla non c'è, esce la voce sola e non si dice niente.** L'assenza di una cosa mai
+esistita non è una notizia, e un avviso che si ripete ogni mattina viene ignorato — insieme a
+quelli che contano.
+
+**ffmpeg si controlla solo se c'è una sigla da mixare.** Se la sigla c'è e ffmpeg manca, fermati e
+di' come si installa — `brew install ffmpeg` — invece di consegnare la voce nuda facendo finta che
+fosse quello che aveva chiesto.
+
+**4 · Consegna.** Salva in `workspace/journal/audio/briefing-<YYYY-MM-DD>.mp3` e aprilo. Poi
+cancella gli mp3 in quella cartella più vecchi di **sette giorni**: sono usa e getta, si ascoltano
+una volta e non si riascoltano. La memoria è il diario scritto, non l'audio.
+
+**Se ElevenLabs non risponde, il briefing scritto è già uscito e la giornata è salva.** Dillo in
+una riga e chiudi lì. Non riprovare in loop e non rimandare il testo: l'audio è la comodità, il
+briefing è il lavoro.
+
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Journal** di
@@ -218,6 +295,19 @@ per cui esiste la regola: senza aggancio la nota non si scrive.
 sovrascrivere: leggi quello che c'è, mostra a Emanuele cosa aggiungeresti e chiedi se va **unito**
 alla nota esistente o se serve un secondo file. Se serve il secondo, il nome è
 `sessione-<YYYY-MM-DD>-2.md`.
+
+**ElevenLabs non risponde, o il piano è esaurito.** Il briefing scritto è già uscito: dillo in
+una riga — «l'audio non si è fatto, ElevenLabs non risponde» oppure «il piano è finito, si azzera
+il tale giorno» — e chiudi. L'audio che fallisce non blocca mai il briefing, e non si riprova in
+loop: ogni tentativo che parte consuma caratteri.
+
+**Il testo parlato non sta nei 90 secondi.** Non è un problema di sintesi, è un problema di
+scrittura: vuol dire che nella versione parlata è finito qualcosa che andava lasciato al testo.
+Taglia dalla riscrittura, non dal briefing.
+
+**Emanuele chiede l'audio quando il briefing scritto non è stato fatto.** Si fa prima il comando 1
+per intero. Non esiste un audio senza il testo dietro: sarebbe un briefing di cui non resta niente
+di verificabile.
 
 **Non ricordi con precisione cosa è stato fatto.** Scrivi solo quello di cui sei sicuro e chiedi
 il resto. Una nota di diario incompleta si completa; una inventata avvelena il briefing di domani.

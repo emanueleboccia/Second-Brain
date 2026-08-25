@@ -78,6 +78,59 @@
       }
     }
   },
+  "audio": {
+    "_nota": "Il comando «buongiorno audio». Compilato il 25/08/2026 leggendo l'API ElevenLabs vera: modelli, voci condivise, piano dell'account.",
+
+    "modello": "eleven_multilingual_v2",
+    "_nota_modello": "Multilingue, italiano incluso. Su ElevenLabs esistono anche eleven_v3 e i flash/turbo: il multilingual v2 è quello con la resa più naturale sul parlato lungo, e la latenza qui non conta perché non stiamo facendo una conversazione.",
+
+    "formato": "mp3_22050_32",
+    "_nota_formato": "Formato sicuro su qualsiasi piano. I bitrate alti sono riservati ai piani a pagamento: se un giorno il piano sale, qui si può passare a mp3_44100_128 e si sente la differenza.",
+
+    "voce": {
+      "scelta": null,
+      "_nota_scelta": "La sceglie Emanuele una volta sola, poi si scrive qui il voice_id e non si chiede più. Finché è null, la skill propone le candidate e usa la prima come provvisoria dichiarandolo.",
+      "candidate": [
+        {
+          "nome": "Jorgos",
+          "voice_id": "cZnszeg34SZlRe30AcrQ",
+          "perche": "voce calda e professionale, accento standard, pensata per contenuti informativi: è la più vicina a un assistente che racconta la giornata"
+        },
+        {
+          "nome": "Luigi - Natural Italian",
+          "voice_id": "KUqzTMhYFYqnFWfMUjfX",
+          "perche": "calda e rassicurante, taglio da narrazione: più morbida, meno da ufficio"
+        },
+        {
+          "nome": "Valentino - Warm & Confident",
+          "voice_id": "lJylpTXX0sNdqq5EUv4M",
+          "perche": "baritono basso e calmo, consegna non forzata: la più autorevole delle tre"
+        }
+      ]
+    },
+
+    "tool_composio": {
+      "sintesi": "ELEVENLABS_TEXT_TO_SPEECH",
+      "voci_condivise": "ELEVENLABS_GET_SHARED_VOICES",
+      "modelli": "ELEVENLABS_GET_MODELS",
+      "piano": "ELEVENLABS_GET_USER_SUBSCRIPTION_INFO"
+    },
+
+    "percorsi": {
+      "audio": "workspace/journal/audio/briefing-<YYYY-MM-DD>.mp3",
+      "sigla": "code/skills/journal/assets/sigla.mp3"
+    },
+
+    "durata_target_secondi": [60, 90],
+    "caratteri_per_minuto": 1000,
+    "_nota_durata": "A ritmo di racconto calmo un minuto di italiano parlato sta intorno ai mille caratteri. Serve a stimare prima di sintetizzare: 60-90 secondi sono all'incirca 1000-1500 caratteri.",
+
+    "giorni_conservazione": 7,
+    "_nota_conservazione": "I briefing audio sono usa e getta: si ascoltano la mattina e non si riascoltano più. A ogni giro si cancellano quelli più vecchi di sette giorni. Il diario scritto resta, quello è la memoria.",
+
+    "_nota_quota": "Il 25/08/2026 il piano era free: 10.000 caratteri al mese, azzerati a ogni rinnovo. Un briefing ne consuma circa 1.200, quindi il piano free regge circa otto briefing al mese. Il piano si rilegge con ELEVENLABS_GET_USER_SUBSCRIPTION_INFO: non si dà per buono questo numero, che invecchia."
+  },
+
   "soglie": {
     "giorni_proposta_ferma": 7,
     "giorni_settimana_in_arrivo": 7,

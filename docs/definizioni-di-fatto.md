@@ -63,6 +63,29 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - **Non è stato scritto né modificato niente**: né file, né task, né pagine Notion. Questo
   comando legge e basta.
 
+**«buongiorno audio» — il briefing da ascoltare**
+
+- Il **briefing scritto è stato fatto per intero prima**, e l'audio dice **le stesse cose**:
+  stessi fatti, stesse scadenze, stesse tre priorità nello stesso ordine. Niente che sia solo
+  nell'audio, niente che sia solo nel testo.
+- Il parlato è stato **riscritto**, non letto: nessun percorso di file, nessun id, nessun nome di
+  database, nessuna formattazione detta a voce.
+- Sta nella finestra dei **60-90 secondi**. Se sfora, si è tagliato dalla riscrittura e non dal
+  briefing.
+- Le **tre priorità chiudono** l'audio, una frase ciascuna.
+- La voce è quella scelta da Emanuele e salvata in `riferimenti.json`. Se non era ancora scelta,
+  le candidate gli sono state **proposte** e la sua risposta è stata **scritta nel file**: la
+  domanda non si rifà il giorno dopo.
+- Al primo giro sono stati detti **caratteri, durata stimata e quota residua** prima di
+  sintetizzare. Dai giri successivi non si è chiesto niente.
+- La sigla è stata mixata **se esisteva**. Se non esisteva, l'audio è a voce sola e **non è stata
+  scritta nessuna riga** per dirlo.
+- Il file è in `workspace/journal/audio/briefing-<YYYY-MM-DD>.mp3`, con la data vera di oggi, ed è
+  stato **aperto**.
+- Gli mp3 più vecchi di **sette giorni** sono stati cancellati.
+- Se ElevenLabs non ha risposto, **il briefing scritto è uscito lo stesso** e il fallimento è
+  stato detto in una riga. In nessun caso un problema sull'audio ha trattenuto il testo.
+
 **«chiudi sessione» e «fine giornata» — le note di diario**
 
 - Il nome del file è esatto: `sessione-<YYYY-MM-DD>.md` oppure `<YYYY-MM-DD>.md`, con la data
