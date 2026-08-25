@@ -54,3 +54,14 @@ la skill `consigliere-vendita` me lo imponeva. Gli spezza la lettura.
 **La prossima volta:** dentro i file del vault i wikilink restano obbligatori, li controlla il gate.
 In chat il principio si nomina per esteso, e se serve un riferimento cliccabile si usa un link
 markdown normale.
+
+## 25/08/2026 — La sintesi vocale si paga a ogni chiamata
+
+Al primo collaudo del buongiorno audio ho lanciato `ELEVENLABS_TEXT_TO_SPEECH` due volte sullo
+stesso testo: la prima per vedere se funzionava, la seconda per rileggere l'URL del file, che avevo
+già ricevuto e buttato via. Sono 1.444 caratteri sprecati su 10.000 al mese, il 14% della quota di
+agosto per zero audio in più.
+
+**La prossima volta:** ogni chiamata a un servizio che consuma quota si salva **alla prima
+esecuzione** — risposta intera su file — e si riusa. Vale per ElevenLabs come per Apify: se
+l'output serve due volte, si rilegge, non si rigenera.

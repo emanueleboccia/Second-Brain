@@ -199,8 +199,11 @@ diventa un elenco di parole senza colonne, un percorso di file diventa una sigla
 un numero di giorni fra parentesi diventa un inciso che perde il filo. Va riscritto, non
 convertito.
 
-La versione parlata sta in **60-90 secondi** — dai mille ai millecinquecento caratteri — ed è
-discorsiva, come se qualcuno gliela raccontasse entrando in ufficio:
+La versione parlata sta in **60-90 secondi**. Misurato: il modello legge a circa **896 caratteri
+al minuto**, quindi il testo va scritto fra i 900 e i 1.290 caratteri — i valori stanno in
+`caratteri_target` dentro [`riferimenti.json`](riferimenti.json). Non si stima a occhio e non ci si
+fida della stima: **si misura la durata del file** prima di consegnarlo, con `afinfo` che su macOS
+c'è sempre. È discorsiva, come se qualcuno gliela raccontasse entrando in ufficio:
 
 > «Buongiorno Emanuele. Ieri hai chiuso con la trattativa Lampion Square persa e il metodo
 > messo nel correction log. Oggi hai l'appuntamento con Karim in ufficio, in mattinata, e non ha
@@ -225,6 +228,15 @@ di [`riferimenti.json`](riferimenti.json).
 Se `voce.scelta` è `null`, **non scegliere in silenzio**: proponi le candidate con una riga sul
 perché, di' quale useresti, e salva la scelta in `riferimenti.json` quando Emanuele risponde. Si
 chiede una volta sola nella vita della skill.
+
+**Le candidate devono essere voci che il piano permette davvero.** Sul piano free le voci della
+libreria condivisa sono vietate — ElevenLabs risponde `free_users_not_allowed` — e restano solo le
+premade, che sono nate in inglese e in italiano si sentono. È una limitazione del piano, non della
+skill: va detta a Emanuele invece di consegnargli una voce con l'accento senza spiegare perché.
+
+**La risposta della sintesi si salva alla prima chiamata e si riusa.** Contiene l'URL da cui si
+scarica l'mp3, e rilanciare la sintesi per rileggere quell'URL vuol dire pagare due volte lo stesso
+audio.
 
 **Al primo giro di' quanto costa prima di sintetizzare**: i caratteri del testo, la durata che ne
 esce, e quanto resta del piano letto con `ELEVENLABS_GET_USER_SUBSCRIPTION_INFO`. Il piano free
