@@ -1,0 +1,86 @@
+[
+  {
+    "text": " sempre",
+    "startMs": 0,
+    "endMs": 410,
+    "timestampMs": 340,
+    "confidence": 0.991974
+  },
+  {
+    "text": " più",
+    "startMs": 410,
+    "endMs": 690,
+    "timestampMs": 560,
+    "confidence": 0.996489
+  },
+  {
+    "text": " grandi",
+    "startMs": 690,
+    "endMs": 1120,
+    "timestampMs": 1100,
+    "confidence": 0.996115
+  },
+  {
+    "text": " sempre",
+    "startMs": 1120,
+    "endMs": 1630,
+    "timestampMs": 1680,
+    "confidence": 0.978051
+  },
+  {
+    "text": " più",
+    "startMs": 1630,
+    "endMs": 1970,
+    "timestampMs": 1920,
+    "confidence": 0.999916
+  },
+  {
+    "text": " belli",
+    "startMs": 1970,
+    "endMs": 2400,
+    "timestampMs": 2380,
+    "confidence": 0.999697
+  },
+  {
+    "text": " ma",
+    "startMs": 2400,
+    "endMs": 2580,
+    "timestampMs": 3240,
+    "confidence": 0.998563
+  },
+  {
+    "text": " l'attenzione",
+    "startMs": 2580,
+    "endMs": 3700,
+    "timestampMs": 3460,
+    "confidence": 0.999462
+  },
+  {
+    "text": " è",
+    "startMs": 3700,
+    "endMs": 3880,
+    "timestampMs": 4400,
+    "confidence": 0.995072
+  },
+  {
+    "text": " sempre",
+    "startMs": 3880,
+    "endMs": 4440,
+    "timestampMs": 4660,
+    "confidence": 0.999685
+  },
+  {
+    "text": " più",
+    "startMs": 4440,
+    "endMs": 4810,
+    "timestampMs": 4860,
+    "confidence": 0.9991
+  },
+  {
+    "text": " scarsa",
+    "startMs": 4810,
+    "endMs": 5420,
+    "timestampMs": 5060,
+    "confidence": 0.995027
+  }
+]

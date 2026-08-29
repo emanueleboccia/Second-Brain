@@ -1,0 +1,44 @@
+[
+  {
+    "text": " con",
+    "startMs": 0,
+    "endMs": 360,
+    "timestampMs": 810,
+    "confidence": 0.958205
+  },
+  {
+    "text": " un",
+    "startMs": 360,
+    "endMs": 600,
+    "timestampMs": 1270,
+    "confidence": 0.978103
+  },
+  {
+    "text": " buon",
+    "startMs": 600,
+    "endMs": 1080,
+    "timestampMs": 1450,
+    "confidence": 0.96027
+  },
+  {
+    "text": " piano",
+    "startMs": 1080,
+    "endMs": 1690,
+    "timestampMs": 1830,
+    "confidence": 0.990156
+  },
+  {
+    "text": " di",
+    "startMs": 1690,
+    "endMs": 1990,
+    "timestampMs": 2010,
+    "confidence": 0.991073
+  },
+  {
+    "text": " allenamento",
+    "startMs": 1990,
+    "endMs": 2670,
+    "timestampMs": 2210,
+    "confidence": 0.981243
+  }
+]

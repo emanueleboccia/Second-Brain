@@ -1,0 +1,114 @@
+[
+  {
+    "text": " non",
+    "startMs": 0,
+    "endMs": 310,
+    "timestampMs": -30,
+    "confidence": 0.978967
+  },
+  {
+    "text": " è",
+    "startMs": 310,
+    "endMs": 520,
+    "timestampMs": 130,
+    "confidence": 0.998603
+  },
+  {
+    "text": " quello",
+    "startMs": 520,
+    "endMs": 1140,
+    "timestampMs": 510,
+    "confidence": 0.998253
+  },
+  {
+    "text": " che",
+    "startMs": 1140,
+    "endMs": 1450,
+    "timestampMs": 650,
+    "confidence": 0.997685
+  },
+  {
+    "text": " fai",
+    "startMs": 1450,
+    "endMs": 1750,
+    "timestampMs": 910,
+    "confidence": 0.957877
+  },
+  {
+    "text": " mentre",
+    "startMs": 1750,
+    "endMs": 2370,
+    "timestampMs": 2550,
+    "confidence": 0.991719
+  },
+  {
+    "text": " ti",
+    "startMs": 2370,
+    "endMs": 2650,
+    "timestampMs": 2690,
+    "confidence": 0.876858
+  },
+  {
+    "text": " alleni",
+    "startMs": 2650,
+    "endMs": 3110,
+    "timestampMs": 2910,
+    "confidence": 0.93306
+  },
+  {
+    "text": " ma",
+    "startMs": 3110,
+    "endMs": 3290,
+    "timestampMs": 3330,
+    "confidence": 0.948905
+  },
+  {
+    "text": " è",
+    "startMs": 3290,
+    "endMs": 3410,
+    "timestampMs": 3470,
+    "confidence": 0.712387
+  },
+  {
+    "text": " chi",
+    "startMs": 3410,
+    "endMs": 3590,
+    "timestampMs": 3630,
+    "confidence": 0.822218
+  },
+  {
+    "text": " ti",
+    "startMs": 3590,
+    "endMs": 3730,
+    "timestampMs": 3770,
+    "confidence": 0.959018
+  },
+  {
+    "text": " guarda",
+    "startMs": 3730,
+    "endMs": 4150,
+    "timestampMs": 4070,
+    "confidence": 0.994615
+  },
+  {
+    "text": " mentre",
+    "startMs": 4150,
+    "endMs": 4310,
+    "timestampMs": 4470,
+    "confidence": 0.955929
+  },
+  {
+    "text": " lo",
+    "startMs": 4310,
+    "endMs": 4610,
+    "timestampMs": 4670,
+    "confidence": 0.878534
+  },
+  {
+    "text": " fai",
+    "startMs": 4610,
+    "endMs": 4830,
+    "timestampMs": 4850,
+    "confidence": 0.923696
+  }
+]

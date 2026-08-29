@@ -68,6 +68,8 @@ def note_di(cartella):
             relativo = os.path.relpath(completo, VAULT)
             if relativo.startswith("code/skills"):
                 continue          # le skill hanno il loro elenco, sotto
+            if relativo.startswith("code/remotion-test"):
+                continue          # progetto di prova: node_modules e whisper.cpp, non note
             with open(completo, encoding="utf-8") as fh:
                 testo = nfc(fh.read())
             if not testo.startswith("---\n"):

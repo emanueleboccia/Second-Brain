@@ -11,3 +11,6 @@ _local/
 # stato locale di Obsidian (non è contenuto)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# skills di terze parti installate con `npx skills add`: le ripristina skills-lock.json
+.claude/skills/

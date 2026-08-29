@@ -1,0 +1,121 @@
+[
+  {
+    "text": " Sistema Evolve",
+    "startMs": 0,
+    "endMs": 760,
+    "timestampMs": 700,
+    "confidence": 0.970379
+  },
+  {
+    "text": " nasce",
+    "startMs": 760,
+    "endMs": 1380,
+    "timestampMs": 1180,
+    "confidence": 0.878692
+  },
+  {
+    "text": " da",
+    "startMs": 1380,
+    "endMs": 1630,
+    "timestampMs": 1620,
+    "confidence": 0.991507
+  },
+  {
+    "text": " una",
+    "startMs": 1630,
+    "endMs": 2020,
+    "timestampMs": 2060,
+    "confidence": 0.991001
+  },
+  {
+    "text": " mia",
+    "startMs": 2020,
+    "endMs": 2230,
+    "timestampMs": 2360,
+    "confidence": 0.970742
+  },
+  {
+    "text": " particolare",
+    "startMs": 2230,
+    "endMs": 3040,
+    "timestampMs": 2720,
+    "confidence": 0.997591
+  },
+  {
+    "text": " esigenza",
+    "startMs": 3040,
+    "endMs": 3840,
+    "timestampMs": 3220,
+    "confidence": 0.973898
+  },
+  {
+    "text": " allenarmi",
+    "startMs": 3840,
+    "endMs": 5620,
+    "timestampMs": 5240,
+    "confidence": 0.869252
+  },
+  {
+    "text": " in",
+    "startMs": 5620,
+    "endMs": 5860,
+    "timestampMs": 5960,
+    "confidence": 0.97613
+  },
+  {
+    "text": " una",
+    "startMs": 5860,
+    "endMs": 6080,
+    "timestampMs": 6100,
+    "confidence": 0.91374
+  },
+  {
+    "text": " comunità",
+    "startMs": 6080,
+    "endMs": 6830,
+    "timestampMs": 6380,
+    "confidence": 0.92816
+  },
+  {
+    "text": " pulita",
+    "startMs": 6830,
+    "endMs": 7340,
+    "timestampMs": 7140,
+    "confidence": 0.98127
+  },
+  {
+    "text": " fatta",
+    "startMs": 7340,
+    "endMs": 7840,
+    "timestampMs": 7740,
+    "confidence": 0.901462
+  },
+  {
+    "text": " di",
+    "startMs": 7840,
+    "endMs": 7960,
+    "timestampMs": 7940,
+    "confidence": 0.88583
+  },
+  {
+    "text": " persone",
+    "startMs": 7960,
+    "endMs": 8820,
+    "timestampMs": 8400,
+    "confidence": 0.964201
+  },
+  {
+    "text": " per",
+    "startMs": 8820,
+    "endMs": 9180,
+    "timestampMs": 8680,
+    "confidence": 0.987123
+  },
+  {
+    "text": " bene",
+    "startMs": 9180,
+    "endMs": 9670,
+    "timestampMs": 9020,
+    "confidence": 0.934427
+  }
+]

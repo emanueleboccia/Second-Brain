@@ -37,4 +37,8 @@ di Da Mamma Rosaria elenca ancora la fattoria didattica come attività propria �
 Nasce l'area. I `reference/` erano scheletri vuoti, poi riempiti il 21/07/2026 (vedi sopra).
 
 ⚠️ **Precedente da non dimenticare:** su questo sito, durante un build, **gli accenti si sono
-corrotti**. Cautele in `_sistema/tecnica/novamira.md`. Verifica post-deploy sempre.
+corrotti**. Verifica post-deploy sempre: si rilegge la pagina pubblicata e si controllano testi,
+accenti e link.
+
+> Aggiornato il 26/08/2026: il vecchio sistema che documentava le cautele non si usa più, e il
+> rimando è stato tolto. La regola è in `docs/web-design/verifica-post-deploy.md`.

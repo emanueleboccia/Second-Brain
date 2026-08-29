@@ -22,7 +22,10 @@ CARTELLE_ESCLUSE = {"sources", "workspace"}
 FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 # Gli alberi che non contengono note: dentro una skill ci sono procedure, script
 # e materiale importato da fuori. Si giudicano da come funzionano, non col gate.
-ALBERI_ESCLUSI = ("code/skills",)
+# code/remotion-test/ è un progetto di prova con dentro node_modules e un checkout
+# di whisper.cpp: 470 file .md che non sono note del vault, e uno non è nemmeno in
+# UTF-8. Escluso il 26/08/2026 perché faceva morire il gate prima di partire.
+ALBERI_ESCLUSI = ("code/skills", "code/remotion-test")
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300
@@ -37,7 +40,8 @@ DEROGHE_MIN_LINK = {
     "areas/tenuta-don-gaetano/reference/tono.md":
         "il terzo rimando naturale era anti-ai.md, eliminato con _sistema/",
     "areas/tenuta-don-gaetano/knowledge/sito/workflow-sito.md":
-        "il terzo rimando naturale era novamira.md, eliminato per decisione del 21/08/2026",
+        "il terzo rimando naturale era alla procedura di deploy del vecchio sistema, "
+        "che dal 26/08/2026 non si usa più",
 }
 
 # I grappoli in cui il grafo può legittimamente dividersi. Il vault ha due

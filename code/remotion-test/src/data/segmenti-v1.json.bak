@@ -1,0 +1,7 @@
+[
+  { "id": "s1-domanda",  "sorgente": "IMG_7665.MOV", "da": 59.90,  "durata": 2.70 },
+  { "id": "s2-problema", "sorgente": "IMG_7666.MOV", "da": 0.00,   "durata": 20.60 },
+  { "id": "s3-ponte",    "sorgente": "IMG_7666.MOV", "da": 23.76,  "durata": 5.10 },
+  { "id": "s4-risposta", "sorgente": "IMG_7665.MOV", "da": 136.50, "durata": 20.80 },
+  { "id": "s5-chiusura", "sorgente": "IMG_7665.MOV", "da": 162.17, "durata": 4.83 }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "text": " l'allenamento",
+    "startMs": 0,
+    "endMs": 1430,
+    "timestampMs": 1380,
+    "confidence": 0.991225
+  },
+  {
+    "text": " non",
+    "startMs": 1430,
+    "endMs": 1760,
+    "timestampMs": 2000,
+    "confidence": 0.999914
+  },
+  {
+    "text": " è",
+    "startMs": 1760,
+    "endMs": 1980,
+    "timestampMs": 2140,
+    "confidence": 0.999973
+  },
+  {
+    "text": " un",
+    "startMs": 1980,
+    "endMs": 2200,
+    "timestampMs": 2260,
+    "confidence": 0.999838
+  },
+  {
+    "text": " lusso",
+    "startMs": 2200,
+    "endMs": 2760,
+    "timestampMs": 2420,
+    "confidence": 0.999418
+  },
+  {
+    "text": " ma",
+    "startMs": 2760,
+    "endMs": 2870,
+    "timestampMs": 3080,
+    "confidence": 0.995074
+  },
+  {
+    "text": " non",
+    "startMs": 2870,
+    "endMs": 3040,
+    "timestampMs": 3180,
+    "confidence": 0.999226
+  },
+  {
+    "text": " per",
+    "startMs": 3040,
+    "endMs": 3210,
+    "timestampMs": 3360,
+    "confidence": 0.999832
+  },
+  {
+    "text": " questo",
+    "startMs": 3210,
+    "endMs": 3560,
+    "timestampMs": 3700,
+    "confidence": 0.999666
+  },
+  {
+    "text": " deve",
+    "startMs": 3560,
+    "endMs": 3790,
+    "timestampMs": 3900,
+    "confidence": 0.997655
+  },
+  {
+    "text": " essere",
+    "startMs": 3790,
+    "endMs": 4140,
+    "timestampMs": 4140,
+    "confidence": 0.99992
+  },
+  {
+    "text": " di",
+    "startMs": 4140,
+    "endMs": 4250,
+    "timestampMs": 4280,
+    "confidence": 0.999828
+  },
+  {
+    "text": " scarsa",
+    "startMs": 4250,
+    "endMs": 4590,
+    "timestampMs": 4460,
+    "confidence": 0.997506
+  },
+  {
+    "text": " qualità",
+    "startMs": 4590,
+    "endMs": 5110,
+    "timestampMs": 4900,
+    "confidence": 0.999527
+  }
+]

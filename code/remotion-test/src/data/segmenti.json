@@ -1,0 +1,38 @@
+[
+  {
+    "id": "s1-dolore",
+    "sorgente": "IMG_7666.MOV",
+    "da": 3.36,
+    "durata": 5.42
+  },
+  {
+    "id": "s2-risposta",
+    "sorgente": "IMG_7665.MOV",
+    "da": 136.92,
+    "durata": 9.67
+  },
+  {
+    "id": "s3-valore",
+    "sorgente": "IMG_7666.MOV",
+    "da": 23.76,
+    "durata": 5.11
+  },
+  {
+    "id": "s4-come-1",
+    "sorgente": "IMG_7665.MOV",
+    "da": 146.83,
+    "durata": 2.82
+  },
+  {
+    "id": "s4-come-2",
+    "sorgente": "IMG_7665.MOV",
+    "da": 149.89,
+    "durata": 7.41
+  },
+  {
+    "id": "s5-picco",
+    "sorgente": "IMG_7665.MOV",
+    "da": 162.17,
+    "durata": 4.83
+  }
+]

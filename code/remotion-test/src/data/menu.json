@@ -1,0 +1,23 @@
+{
+  "insegna": "Trattoria del Vicolo",
+  "sottotitolo": "La cucina di oggi",
+  "valuta": "€",
+  "piatti": [
+    {
+      "nome": "Paccheri alla Genovese",
+      "descrizione": "Cipolla ramata stufata otto ore, scottona, pecorino romano.",
+      "prezzo": "14,00"
+    },
+    {
+      "nome": "Baccalà in cassuola",
+      "descrizione": "Pomodorino del piennolo, olive di Gaeta, capperi e origano.",
+      "prezzo": "18,00"
+    },
+    {
+      "nome": "Babà al rum",
+      "descrizione": "Lievitato di ventiquattro ore, bagna al rum, crema al limone.",
+      "prezzo": "7,00"
+    }
+  ],
+  "piede": "Coperto e servizio inclusi"
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "text": " ed",
+    "startMs": 0,
+    "endMs": 450,
+    "timestampMs": 490,
+    "confidence": 0.934801
+  },
+  {
+    "text": " essere",
+    "startMs": 450,
+    "endMs": 810,
+    "timestampMs": 790,
+    "confidence": 0.942368
+  },
+  {
+    "text": " seguito",
+    "startMs": 810,
+    "endMs": 1350,
+    "timestampMs": 1050,
+    "confidence": 0.843906
+  },
+  {
+    "text": " durante",
+    "startMs": 1350,
+    "endMs": 2070,
+    "timestampMs": 2010,
+    "confidence": 0.903859
+  },
+  {
+    "text": " tutto",
+    "startMs": 2070,
+    "endMs": 2370,
+    "timestampMs": 2350,
+    "confidence": 0.683154
+  },
+  {
+    "text": " il",
+    "startMs": 2370,
+    "endMs": 2430,
+    "timestampMs": 2490,
+    "confidence": 0.680049
+  },
+  {
+    "text": " percorso",
+    "startMs": 2430,
+    "endMs": 2730,
+    "timestampMs": 2710,
+    "confidence": 0.808564
+  },
+  {
+    "text": " iniziale",
+    "startMs": 2730,
+    "endMs": 3500,
+    "timestampMs": 3450,
+    "confidence": 0.987161
+  },
+  {
+    "text": " della",
+    "startMs": 3500,
+    "endMs": 3990,
+    "timestampMs": 4050,
+    "confidence": 0.979557
+  },
+  {
+    "text": " valutazione",
+    "startMs": 3990,
+    "endMs": 5060,
+    "timestampMs": 4270,
+    "confidence": 0.977182
+  },
+  {
+    "text": " e",
+    "startMs": 5060,
+    "endMs": 5160,
+    "timestampMs": 6050,
+    "confidence": 0.936186
+  },
+  {
+    "text": " durante",
+    "startMs": 5160,
+    "endMs": 5850,
+    "timestampMs": 6290,
+    "confidence": 0.991796
+  },
+  {
+    "text": " ogni",
+    "startMs": 5850,
+    "endMs": 6240,
+    "timestampMs": 6690,
+    "confidence": 0.998001
+  },
+  {
+    "text": " allenamento",
+    "startMs": 6240,
+    "endMs": 7410,
+    "timestampMs": 6930,
+    "confidence": 0.989083
+  }
+]
