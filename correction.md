@@ -100,3 +100,18 @@ Il diario continua a raccontare *com'è andata*, TickTick registra *che è succe
 
 Vale anche la seconda metà: se dice «già fatto» senza dire cosa, si chiede. «Grandi modifiche»
 dentro una task fra un mese non dice più niente a nessuno.
+
+## 29/08/2026 — Le task su TickTick si scrivono come le scrive lui
+
+Avevo scritto task con titoli lunghi e note strutturate — «Sistema di task condiviso su TickTick,
+per operatore e per progetto» con sotto tre righe di spiegazione, date messe dentro il testo,
+grassetti. Le sue task non sono così: sono minuscole, dirette, una riga sola, senza punto finale.
+«creare pagine legali», «comprare posacenere in legno», «aggiustare impianto musica nelle sale
+tufo e legno».
+
+**La prossima volta:** una task la scrivo come l'avrebbe scritta lui. Minuscolo, semplice, corta,
+niente formattazione, niente note lunghe, niente date ripetute nel testo quando c'è già il campo
+data. La nota si mette solo se contiene un dato che serve davvero e che il titolo non regge —
+un id, un prezzo, un vincolo — non per spiegare quello che il titolo dice già.
+
+Il posto dove si scrive per esteso è il diario, non la lista delle cose da fare.

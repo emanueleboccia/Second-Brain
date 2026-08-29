@@ -53,10 +53,8 @@
         "colonne": {
           "non-iniziato": "6a4fd13e9568116ba459d4b8",
           "appuntamenti": "68991cfa4a6d911f0d9792bb",
-          "scadenze": "68a581c08c3cd1030f473fd5",
-          "obiettivi-q3": "6a5bcb54ce15d11a3e09c113"
+          "scadenze": "68a581c08c3cd1030f473fd5"
         },
-        "_nota_obiettivi_q3": "Colonna trovata su TickTick il 29/08/2026 e non presente nella mappa che Emanuele ha dettato. Il briefing non la legge: gli obiettivi ora hanno una lista loro. Resta qui perché esiste, non perché serva.",
         "_nota_privacy": "⚠️ Di questa lista il briefing dice SOLO titolo e ora. Mai il contenuto, mai le note: sono cose sue e possono essere private."
       },
       "digitale": [
@@ -116,7 +114,7 @@
       "esclusa_sempre": true
     },
 
-    "ultimo_briefing": null,
+    "ultimo_briefing": "2026-08-29T10:43:18Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
 
