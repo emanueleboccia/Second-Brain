@@ -1,5 +1,125 @@
 {
   "_nota": "Quali liste Notion legge il comando «buongiorno». Compilato il 21/08/2026 leggendo lo schema vero dei database. Se un id smette di rispondere, la skill lo dice e chiede quello — non cerca a tentoni un database che somigli. Per interrogare una lista si usa il data_source (collection://...), non il database_id.",
+  "ticktick": {
+    "_nota": "La mappa delle liste. Riorganizzata da Emanuele il 29/08/2026 in quattro mondi — il suo, e i tre brand di famiglia — e verificata lo stesso giorno leggendo TickTick: id di cartelle, liste e colonne sono quelli veri, non ricopiati a mano. Se un id smette di rispondere, la skill lo dice e chiede quello nuovo: non cerca a tentoni una lista che somigli.",
+
+    "cartelle": {
+      "emanuele": "6a92a1238f087e0df40331ea",
+      "da-mamma-rosaria": "6a9298358f0861e0f0cb2292",
+      "la-masseria-di-mezzautunno": "6a9298378f087e0df401c7bb",
+      "tenuta-don-gaetano": "6a92983a8f0869c151528c59"
+    },
+
+    "liste": {
+      "inbox": {
+        "id": "6a4533c6aced51c2fb2d08e0",
+        "nome": "📥 Inbox",
+        "cartella": "emanuele",
+        "vista": "lista",
+        "uso": "Solo il conteggio: «hai N cose da smistare». Mai l'elenco."
+      },
+      "obiettivi": {
+        "id": "6a92b1c68f0861e0f0cd5b9a",
+        "nome": "🎯 Obiettivi",
+        "cartella": "emanuele",
+        "vista": "lista",
+        "uso": "Fuori dal briefing quotidiano. Entra solo il lunedì, nella sezione «La settimana e gli obiettivi»."
+      },
+      "personal-brand": {
+        "id": "68b70be1efe8111cc4fd915e",
+        "nome": "💼 Personal Brand",
+        "cartella": "emanuele",
+        "vista": "kanban",
+        "colonne": {
+          "idee": "6a92a5e88f08defd957ad8cd",
+          "non-iniziato": "68bb0cfcbd9a916cac87e072",
+          "in-corso": "68bb0d01a998116cac87e07e",
+          "appuntamenti": "6a84cb3a57cc18aae0cfed72",
+          "scadenze": "6a4540645b8451816c74c18b"
+        }
+      },
+      "formazione": {
+        "id": "698064cdc480112ca3b577a0",
+        "nome": "📖 Formazione",
+        "cartella": "emanuele",
+        "vista": "lista",
+        "uso": "Una riga sola, e solo se c'è qualcosa con una data entro la settimana."
+      },
+      "personale": {
+        "id": "687129001842110e3f300cdb",
+        "nome": "🌱 Personale",
+        "cartella": "emanuele",
+        "vista": "kanban",
+        "colonne": {
+          "non-iniziato": "6a4fd13e9568116ba459d4b8",
+          "appuntamenti": "68991cfa4a6d911f0d9792bb",
+          "scadenze": "68a581c08c3cd1030f473fd5",
+          "obiettivi-q3": "6a5bcb54ce15d11a3e09c113"
+        },
+        "_nota_obiettivi_q3": "Colonna trovata su TickTick il 29/08/2026 e non presente nella mappa che Emanuele ha dettato. Il briefing non la legge: gli obiettivi ora hanno una lista loro. Resta qui perché esiste, non perché serva.",
+        "_nota_privacy": "⚠️ Di questa lista il briefing dice SOLO titolo e ora. Mai il contenuto, mai le note: sono cose sue e possono essere private."
+      },
+      "digitale": [
+        {
+          "id": "6a452a50a06d11c2fb2cfec9",
+          "nome": "💻 DMR · Digitale (Emanuele)",
+          "brand": "da-mamma-rosaria",
+          "colonne": {
+            "idee": "6a92a5ec8f087e0df403f928",
+            "non-iniziato": "6a452a632934d1c2fb2cfecb",
+            "in-corso": "6a47f842b4c6514ccb67c9b0"
+          }
+        },
+        {
+          "id": "6a452a88acd191c2fb2cff51",
+          "nome": "💻 MMA · Digitale (Emanuele)",
+          "brand": "la-masseria-di-mezzautunno",
+          "colonne": {
+            "idee": "6a92a5ee8f0869c15153a40f",
+            "non-iniziato": "6a452a8e2a7211c2fb2cff64",
+            "in-corso": "6a47f858b4f0114ccb67c9de"
+          }
+        },
+        {
+          "id": "6a452a6ecc6491c2fb2cff03",
+          "nome": "💻 TDG · Digitale (Emanuele)",
+          "brand": "tenuta-don-gaetano",
+          "colonne": {
+            "idee": "6a92a5f48f08defd957ad9a6",
+            "non-iniziato": "6a452a7e290d91c2fb2cff14",
+            "in-corso": "6a47f866b4fa114ccb67ca0b"
+          }
+        }
+      ]
+    },
+
+    "ignora_sempre": {
+      "_nota": "Liste di Raffaele dentro le cartelle dei brand. Il briefing non le legge e non le nomina MAI, nemmeno per dire che sono vuote. La regola non è «leggile con prudenza»: è che non esistono per il briefing.",
+      "id": [
+        "6a9298c98f08defd9579c5a4",
+        "6a9298cc8f087e0df401deed",
+        "6a9298cf8f0861e0f0cb30bd",
+        "6a9298d28f087e0df401e066",
+        "6a9298d88f0869c151529a68",
+        "6a9298db8f087e0df401e257",
+        "6a9298de8f080f71bb9c8326",
+        "6a9298e18f0869c151529b5b",
+        "6a9298e48f080f71bb9c83b5",
+        "6a9298ea8f08defd9579c8a4"
+      ],
+      "_nota_regola": "Vale anche per le liste che nasceranno dopo: dentro le tre cartelle dei brand, l'unica lista di Emanuele è quella che si chiama «Digitale (Emanuele)». Tutto il resto è di Raffaele.",
+      "_nota_default": "Una lista nuova che non compare in nessuna delle due liste qui sopra non si legge: si segnala a Emanuele e si chiede dove va. Il silenzio è più sicuro di un'ipotesi."
+    },
+
+    "colonna_idee": {
+      "_nota": "La colonna 💡 Idee non entra MAI nel briefing, in nessuna lista. Un'idea non è un impegno, e metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è.",
+      "esclusa_sempre": true
+    },
+
+    "ultimo_briefing": null,
+    "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
+  },
+
   "notion": {
     "proposte": {
       "database_id": "95420431-64e4-4f32-a68c-c2fab0356995",

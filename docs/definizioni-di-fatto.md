@@ -47,24 +47,21 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 
 **«buongiorno» — il briefing di inizio sessione**
 
-- Ci sono tutte e quattro le parti, in ordine: diario, TickTick, Notion, le tre cose di oggi.
-- Il briefing sta in una schermata. Se le task di oggi sono quindici, nel briefing ci sono
-  quelle che contano: è una sintesi, non un inventario.
-- TickTick è riportato nell'ordine giusto — oggi, poi le scadute, poi i sette giorni in arrivo —
-  con gli orari dove ci sono.
-- Per ogni proposta aperta su Notion è scritto **da quanti giorni** è ferma, e quelle oltre i
-  sette giorni sono marcate come da sollecitare. Le proposte «Pronta per l'invio» non sono
-  marcate da sollecitare: sono ferme su Emanuele, non sul cliente.
-- Le scadenze dei siti entro trenta giorni ci sono tutte, ordinate dalla più vicina, e quelle
-  sotto i quattordici giorni sono marcate urgenti. Nessuna scadenza dentro la finestra è stata
-  omessa: è fatturato ricorrente.
-- Un servizio che non risponde è **dichiarato**, non omesso: «TickTick non raggiungibile». Il
-  briefing esce comunque.
-- Le tre priorità sono presentate come proposta, non come decisione presa.
-- Ogni cosa nominata esiste davvero: la sessione citata è un file che è stato letto, le note
-  citate sono in `llms.txt`, le task e le proposte vengono da una lettura fatta adesso.
-- **Non è stato scritto né modificato niente**: né file, né task, né pagine Notion. Questo
-  comando legge e basta.
+- Sezioni in ordine — diario, giornata, Personal Brand, Famiglia, Formazione, Inbox, tre priorità —
+  col lunedì che apre su «La settimana e gli obiettivi». Le vuote non compaiono, e sta in una schermata.
+- La giornata mette 🌱 Personale e 💼 Personal Brand in un elenco solo per ora, poi quello in ritardo.
+  **Di 🌱 Personale escono solo titolo e ora**, mai contenuto o note.
+- **La 💡 Idee non compare mai**, e **nessuna lista di Raffaele è stata letta o nominata**: della
+  famiglia si leggono solo le tre `Digitale (Emanuele)`.
+- Le novità delle Digitale sono quelle create o modificate dopo `ticktick.ultimo_briefing`, marcate
+  **nuove da Raffaele**. Se era `null`, è il primo giro e non si inventa una finestra.
+- 🎯 Obiettivi solo il lunedì, 📖 Formazione solo se ha una data entro la settimana, 📥 Inbox solo se piena e **col solo numero**.
+- Ogni proposta Notion aperta dice **da quanti giorni** è ferma; oltre i sette è da sollecitare, ma
+  le «Pronta per l'invio» no: sono ferme su Emanuele, non sul cliente.
+- Le scadenze siti entro trenta giorni ci sono **tutte**, dalla più vicina, urgenti sotto i
+  quattordici. È fatturato ricorrente: nessuna omissione dentro la finestra.
+- Le tre priorità sono **trasversali** e proposte, non decise. Un servizio muto è **dichiarato**.
+- Ogni cosa nominata esiste, letta adesso, e **fuori da sé non è stato scritto niente**: l'unica scrittura ammessa è `ticktick.ultimo_briefing`, a briefing uscito.
 
 **«buongiorno audio» — il briefing da ascoltare**
 
@@ -91,6 +88,9 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 
 **«chiudi sessione» e «fine giornata» — le note di diario**
 
+- Il check di uscita ha chiesto, **per ogni task emersa**, in quale delle cinque destinazioni va —
+  Personal Brand, Personale, Formazione, una Digitale, o la colonna Idee — e nessuna è finita in
+  una lista di Raffaele.
 - Il nome del file è esatto: `sessione-<YYYY-MM-DD>.md` oppure `<YYYY-MM-DD>.md`, con la data
   vera di oggi.
 - Il frontmatter ha tutte e sette le chiavi: `title`, `summary`, `tags`, `status`, `created`,

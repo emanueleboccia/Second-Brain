@@ -87,3 +87,16 @@ il lavoro su Remotion e sul reel — è sparito, ed è stato riunito a mano il g
 **e se è cambiato da quando l'hai letto**. Se c'è, non si sovrascrive: si legge, si mostra a
 Emanuele cosa si aggiungerebbe e si chiede se unire o fare il secondo file. Vale anche quando il
 file l'hai scritto tu dieci minuti prima: un'altra sessione può averci scritto sopra nel frattempo.
+
+## 29/08/2026 — Una cosa già fatta è una task da spuntare
+
+Emanuele aveva detto «aggiungi che ho già fatto grandi modifiche all'applicazione gestionale» e io
+l'avevo scritto come nota dentro una task aperta, ragionando che TickTick tiene le azioni e la
+cronaca sta nel diario. Sbagliato: così il lavoro fatto non compare da nessuna parte come fatto.
+
+**La prossima volta:** quando Emanuele dice che una cosa è **già fatta**, su TickTick si crea la
+task e si spunta. Il completato è un dato suo, non rumore: gli serve per vedere cosa ha chiuso.
+Il diario continua a raccontare *com'è andata*, TickTick registra *che è successo*.
+
+Vale anche la seconda metà: se dice «già fatto» senza dire cosa, si chiede. «Grandi modifiche»
+dentro una task fra un mese non dice più niente a nessuno.

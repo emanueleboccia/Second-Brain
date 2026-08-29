@@ -42,7 +42,10 @@ Tre comandi, tre momenti della giornata.
 | L'ultima nota di sessione | `workspace/journal/sessions/`, la più recente per nome file | sì per «buongiorno» |
 | Task, appuntamenti e scadenze | TickTick, dal connettore attivo | sì per «buongiorno» |
 | Proposte e contatti | Notion, dal connettore attivo | sì per «buongiorno» |
-| Quali database Notion leggere | `code/skills/journal/riferimenti.json` | sì per «buongiorno» |
+| Quali liste TickTick leggere, e quali ignorare | `riferimenti.json`, sezione `ticktick` | sì per «buongiorno» |
+| Quali database Notion leggere | `riferimenti.json`, sezione `notion` | sì per «buongiorno» |
+| Quando è stato l'ultimo briefing | `riferimenti.json`, `ticktick.ultimo_briefing` | sì per «buongiorno» |
+| Che giorno della settimana è oggi | dal sistema | sì per «buongiorno»: il lunedì è diverso |
 | Le sessioni di oggi | `workspace/journal/sessions/sessione-<oggi>.md` | sì per «fine giornata» |
 | I template | `workspace/journal/_templates/` | sì per chi scrive |
 | Cosa è successo nella sessione | la conversazione in corso | sì per «chiudi sessione» |
@@ -59,14 +62,37 @@ Se `workspace/journal/sessions/` è vuota, non è un errore: si va ai casi limit
 
 ### Comando 1 — «buongiorno»
 
-**Questo comando non scrive niente.** Legge e basta — e leggere non richiede conferma, né sui
-file né sui servizi. Se ti viene voglia di aggiornare qualcosa, non è questo il momento.
+**Questo comando non scrive niente fuori da sé.** Legge — e leggere non richiede conferma, né sui
+file né sui servizi. L'unica cosa che scrive è `ticktick.ultimo_briefing` dentro
+[`riferimenti.json`](riferimenti.json), alla fine e solo se il briefing è uscito: serve al briefing
+di domani per sapere cosa è cambiato nel frattempo. Non è una deroga alla regola sulle scritture,
+perché non esce dal vault. Se ti viene voglia di aggiornare qualcos'altro, non è questo il momento.
 
 Il briefing deve stare **in una schermata**. È una sintesi, non un inventario: se le task di oggi
 sono quindici, quelle che contano sono tre. Un briefing che si scrolla non viene letto, e un
 briefing non letto è tempo perso due volte.
 
-**1 · Il diario.** Leggi `llms.txt` per sapere quali entità esistono e come si chiamano. Poi
+**Le quattro sezioni di TickTick corrispondono ai quattro mondi** in cui Emanuele ha riorganizzato
+le liste il 29/08/2026: il suo, dentro la cartella *Emanuele*, e i tre brand di famiglia, dove
+l'unica lista sua è quella che si chiama *Digitale (Emanuele)*. Gli id stanno in
+[`riferimenti.json`](riferimenti.json) e si leggono da lì, sempre.
+
+Due regole valgono su tutto il comando, e non hanno eccezioni:
+
+- **La colonna 💡 Idee non entra mai nel briefing, in nessuna lista.** Un'idea non è un impegno.
+  Metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è, e per difendersi da quella
+  sensazione si smette di leggere il briefing.
+- **Le liste di Raffaele non si leggono e non si nominano.** Sono quelle elencate in
+  `ticktick.ignora_sempre` — manutenzione, lavori, elettricista, le inbox dei brand, le liste
+  progetto della Masseria. Non compaiono nemmeno per dire che sono vuote. Una lista nuova che non
+  sta né fra le sue né fra quelle da ignorare **non si indovina**: si nomina a Emanuele e si chiede
+  dove va.
+
+**Le sezioni vuote non si scrivono.** Niente righe «niente da segnalare», niente sezioni con dentro
+un trattino. Se oggi non c'è formazione in scadenza, la sezione Formazione non esiste. Il valore di
+una sezione è che quando compare vuol dire qualcosa.
+
+**1 · Il saluto e il filo del diario.** Leggi `llms.txt` per sapere quali entità esistono. Poi
 l'ultima nota in `workspace/journal/sessions/`: i nomi sono `sessione-<YYYY-MM-DD>.md`, quindi
 l'ordine alfabetico è già quello cronologico. Leggi anche l'ultimo daily in
 `workspace/journal/daily/`, se è più recente. Apri le note citate nel loro `related`, **solo
@@ -74,44 +100,82 @@ quelle**: non rileggere il vault intero.
 
 Riporta: dove eravamo rimasti, con la data, e cosa era rimasto nella sezione `## Aperto`.
 
-**2 · TickTick.** Leggi e riporta, in quest'ordine:
+**1-bis · Solo il lunedì — «La settimana e gli obiettivi».** Il lunedì, e solo il lunedì, il
+briefing apre con questa sezione, subito dopo il saluto. Leggi la lista **🎯 Obiettivi** e riporta
+quelli attivi, poi di' **come le cose della settimana ci si agganciano**: quale task porta avanti
+quale obiettivo, e soprattutto quale obiettivo non ha niente che lo muova. Un obiettivo senza
+nessuna task che lo tocchi è la cosa più utile che questa sezione può dire.
 
-- **oggi** — task e appuntamenti di oggi, con gli orari;
-- **in ritardo** — task scadute, le più urgenti in cima;
-- **la settimana** — appuntamenti e scadenze dei prossimi sette giorni.
+Negli altri sei giorni **🎯 Obiettivi non si legge e non si nomina**. Un obiettivo ripetuto ogni
+mattina diventa arredamento.
 
-Le scadute vanno sopra la settimana anche se sono poche: una cosa in ritardo pesa più di una che
-deve ancora arrivare.
+**2 · 📆 La giornata.** Appuntamenti e scadenze di **oggi**, presi da **🌱 Personale** e
+**💼 Personal Brand** insieme e mescolati in un'unica lista in ordine di ora: la giornata è una
+sola, e spezzarla in due elenchi costringe a ricomporla a mente.
 
-**3 · Notion.** Le liste da leggere, coi loro id e i nomi esatti dei campi, stanno in
-`code/skills/journal/riferimenti.json`: si interrogano dal `data_source`, non dal `database_id`,
-e si escludono le righe con `Archivia` spuntata. Riporta le proposte con stato **aperto** —
-`stati_aperti` nel file — e **da quanti giorni** sono ferme, contando da `Creato`.
+Poi, sotto, **quello che è in ritardo** — scadenze passate e non chiuse, le più urgenti in cima.
+Una cosa in ritardo pesa più di una che deve ancora arrivare.
 
-- Per ognuna, chiedi se c'è un aggiornamento da registrare.
-- Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
-  aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
+⚠️ **Delle task di 🌱 Personale si dicono solo il titolo e l'ora.** Mai il contenuto, mai le note.
+Sono cose sue: dentro una task personale può esserci materiale privato, e il briefing viene letto
+ad alta voce, ascoltato in macchina, guardato con qualcuno accanto. Il titolo dice quanto basta per
+organizzare la giornata. Se il titolo da solo non si capisce, si lascia com'è: non si va a cercare
+il contesto nelle note.
 
-Poi le **scadenze dei siti**. In `Siti Clienti` ci sono tre date per ogni sito — hosting,
-assistenza, dominio. Riporta quelle che scadono **entro trenta giorni**, ordinate dalla più
-vicina, e marca come **urgenti** quelle sotto i quattordici. Una riga per scadenza: sito, cosa
-scade, fra quanti giorni.
+**3 · 💼 Personal Brand.** Il lavoro suo. Nell'ordine:
 
-Questa è la parte del briefing che vale più delle altre. È **fatturato ricorrente**: un rinnovo
-che scade nel silenzio non è una task dimenticata, è un cliente che se ne va senza che nessuno
-se ne accorga. Se non scade niente nei trenta giorni, non scrivere una riga per dirlo: si nota
-l'assenza solo quando c'è qualcosa.
+- **in corso** — cosa c'è nella colonna ⏳ In corso;
+- **in scadenza entro la settimana** — appuntamenti e scadenze dei prossimi sette giorni, presi
+  dalle colonne 📆 Appuntamenti e 🔔 Scadenze;
+- **le proposte aperte su Notion**, con **da quanti giorni** sono ferme, contando da `Creato`. Le
+  liste, gli id e i nomi dei campi stanno in `riferimenti.json`, sezione `notion`: si interrogano
+  dal `data_source`, non dal `database_id`, e si escludono le righe con `Archivia` spuntata. Gli
+  stati aperti sono in `stati_aperti`.
+  - Per ognuna, chiedi se c'è un aggiornamento da registrare.
+  - Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
+    aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
+- **le scadenze dei siti.** In `Siti Clienti` ci sono tre date per ogni sito — hosting, assistenza,
+  dominio. Riporta quelle che scadono **entro trenta giorni**, ordinate dalla più vicina, e marca
+  come **urgenti** quelle sotto i quattordici. Una riga per scadenza: sito, cosa scade, fra quanti
+  giorni.
 
-Poi la lista Contatti, per **una riga sola**: un contatto in `stati_caldi` — lead o in
-trattativa — con la relazione `Proposte` vuota è qualcuno a cui hai parlato e non hai mai mandato
-niente. Non fare il censimento dei contatti: quello non è un briefing.
+  Questa è la parte del briefing che vale più delle altre. È **fatturato ricorrente**: un rinnovo
+  che scade nel silenzio non è una task dimenticata, è un cliente che se ne va senza che nessuno se
+  ne accorga. Se non scade niente nei trenta giorni, non scrivere una riga per dirlo.
+- **una riga sola sui contatti**: un contatto in `stati_caldi` con la relazione `Proposte` vuota è
+  qualcuno a cui hai parlato e non hai mai mandato niente. Non fare il censimento dei contatti.
 
-**4 · Le tre cose di oggi.** Chiudi proponendo tre priorità, incrociando le tre fonti: cosa era
-aperto ieri, cosa scade oggi, cosa è fermo da troppo. Per ognuna mezza frase sul perché — cosa
-blocca cos'altro, o cosa scade.
+**4 · 👨‍👩‍👦 Famiglia.** Solo dalle tre liste **Digitale (Emanuele)** — DMR, MMA, TDG. Nient'altro
+dentro quelle cartelle esiste per il briefing.
+
+- **in corso** — la colonna ⏳ In corso delle tre liste, con il brand davanti;
+- **in scadenza** — quello che ha una data entro la settimana;
+- **novità** — le task **create o modificate dopo `ticktick.ultimo_briefing`**. Sono le mosse che
+  Raffaele ha fatto mentre Emanuele non guardava, e vanno segnalate come **«nuove da Raffaele»**:
+  è l'unico posto del briefing dove compare qualcosa che non ha deciso lui.
+
+  Se `ultimo_briefing` è `null` — prima esecuzione dopo il cambio di struttura — **non inventare una
+  finestra**. Dillo in una riga: è il primo giro, da domani le novità si vedono. Una finestra
+  scelta a caso il primo giorno segnala come nuovo tutto l'archivio.
+
+**5 · 📖 Formazione.** Una riga sola, e **solo se** c'è qualcosa con una data entro la settimana.
+Se non c'è, la sezione non compare.
+
+**6 · 📥 Inbox.** Se non è vuota: «hai N cose da smistare». **Senza elenco.** L'inbox è il posto
+dove si mette quello che non si è ancora deciso dove va: elencarla vuol dire fare due volte il
+lavoro di smistamento, una a vuoto. Se è vuota, la sezione non compare.
+
+**7 · Le tre cose di oggi.** Chiudi proponendo tre priorità, **trasversali su tutti i contesti**:
+il lavoro suo, la famiglia, il personale e la formazione competono per le stesse ore, e una
+classifica che vive dentro una sezione sola non serve a niente. Per ognuna mezza frase sul perché —
+cosa blocca cos'altro, o cosa scade.
 
 **È una proposta, non un ordine.** Decide Emanuele. Se due cose pesano uguale dillo, invece di
 inventare una gerarchia per far tornare il numero tre.
+
+**8 · Aggiorna `ultimo_briefing`.** Alla fine, e solo se il briefing è uscito davvero, scrivi in
+`riferimenti.json` il timestamp di adesso. Se una fonte non ha risposto, scrivilo lo stesso: il
+briefing è uscito, e la sezione mancante era dichiarata.
 
 ### Comando 2 — «chiudi sessione»
 
@@ -148,6 +212,21 @@ inventare una gerarchia per far tornare il numero tre.
    Elenca quello che hai trovato e chiedi a Emanuele se vuoi scriverlo ora. **Mostra sempre il
    testo esatto prima di scriverlo** — titolo della task con data e ora, o riga di Notion con
    campo e valore nuovo — e scrivi solo dopo il suo ok, una cosa alla volta.
+
+   **Per ogni task che esce di qui, chiedi in quale lista va.** Con quattro mondi la domanda «dove»
+   non ha più una risposta ovvia, e indovinare vuol dire seppellire una cosa dove non la cerca
+   nessuno. Le destinazioni possibili sono cinque:
+
+   - **💼 Personal Brand** — il suo lavoro da freelance;
+   - **🌱 Personale** — la sua vita;
+   - **📖 Formazione** — quello che studia;
+   - **una lista Digitale** — DMR, MMA o TDG, se la cosa riguarda il digitale di un brand di
+     famiglia. Le altre liste dei brand sono di Raffaele e **non sono una destinazione**;
+   - **💡 Idee** — la colonna, dentro la lista giusta, quando è uno spunto e non un impegno. Da lì
+     il briefing non la ripescherà, ed è esattamente quello che deve succedere a un'idea.
+
+   Se nessuna delle cinque torna, la destinazione è **📥 Inbox**: è il posto per quello che non si
+   è ancora deciso dove va, e mettercelo è una risposta, non una resa.
 
    Se non è emerso niente, dillo in una riga e chiudi. Un check di uscita che inventa due task
    per sembrare utile fa più danno di uno che dice «niente da registrare».
@@ -296,6 +375,25 @@ esistono davvero in quel workspace, e leggere quella sbagliata è peggio che non
 **Le proposte «Pronta per l'invio» non si sollecitano.** Sono aperte, ma sono ferme su Emanuele,
 non sul cliente. Nel briefing vanno nominate per quello che sono — da mandare, non da sollecitare
 — e i sette giorni non c'entrano.
+
+**Una lista TickTick non è nella mappa.** Non si legge e non si indovina: si nomina a Emanuele e
+si chiede se è sua o di Raffaele. Dentro le cartelle dei brand il default è che sia di Raffaele,
+perché è vero per tutte tranne una. Leggere una lista di Raffaele non è un errore di forma: è
+mettere nel briefing di Emanuele delle cose che non deve fare lui.
+
+**Un id di `ticktick` non risponde più.** Lista rinominata, spostata o cancellata: dillo e chiedi
+quello nuovo. Non cercare a tentoni una lista dal nome simile — dal 29/08/2026 i nomi si somigliano
+per costruzione, «DMR · Digitale» e «DMR · Inbox» stanno nella stessa cartella, e prendere quella
+sbagliata è peggio che non leggere niente.
+
+**`ultimo_briefing` è null o è vecchio di settimane.** Se è null, è il primo giro: dillo e non
+segnalare novità. Se è vecchio, la finestra è vera lo stesso — le novità sono davvero tutte quelle,
+e vanno dette, non tagliate per far stare il briefing in una schermata. In quel caso raggruppa:
+«sette task nuove sulle liste della Masseria», e l'elenco solo se lo chiede.
+
+**È lunedì e 🎯 Obiettivi è vuota.** La sezione della settimana non si scrive lo stesso con dentro
+una scusa. Si dice in una riga che non ci sono obiettivi attivi e si va avanti: è un'informazione,
+ed è anche un promemoria.
 
 **La cartella delle sessioni è vuota** (prima volta che si usa la skill). «Buongiorno» non ha
 diario da leggere: dillo in una riga e vai avanti con TickTick e Notion, che ci sono comunque.
