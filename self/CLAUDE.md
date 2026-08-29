@@ -22,14 +22,21 @@ Non si mescolano: **il tono del personal brand non si applica a un preventivo**.
 
 ## Le cose da sapere prima di scrivere
 
-> Da compilare.
+- **Il confine sulla famiglia è una regola editoriale permanente.** Le dinamiche familiari non
+  entrano nella narrazione del personal brand; il lavoro nei brand di famiglia sì. Sta in
+  `reference/tono.md` ed è la prima cosa da leggere prima di scrivere qualcosa che nomini la
+  famiglia.
+- **Tre buchi sono dichiarati e non si riempiono da soli:** le citazioni vere dei clienti, i
+  tentativi falliti, e i dettagli di Sistema Evolve. Dove servono, si nominano come mancanti.
 
 ## Mappa
 
 ### `reference/` — la fonte di verità (leggi sempre)
 
-- `brand.md` · `target.md` · `offerta.md` · `tono.md` · `caption.md` · `design.md`
-  — **tutti da compilare.**
+- `brand.md` · `target.md` · `offerta.md` · `tono.md` · `caption.md` — scritti il 27/08/2026
+  distillando l'intervista in `sources/brain-dump-personal-brand.md`.
+- `design.md` — **ancora da compilare.** L'intervista non ha toccato l'identità visiva; nel file
+  c'è l'elenco di cosa manca.
 
 ### Il resto del lavoro operativo
 

@@ -1,0 +1,74 @@
+{
+  "_nota": "Le regole degli appunti che hanno un numero dentro, in forma leggibile da uno script. La fonte resta la nota citata in `nota`: se i due divergono, vince la nota. Compilato il 27/08/2026 distillando `sources/video-social/appunti social media manager.pdf`. Le regole senza numero — quelle di gusto — non stanno qui: stanno solo nelle note, taggate `regola/gusto`.",
+
+  "hook": {
+    "finestra_secondi": [3, 5],
+    "limite_duro_secondi": 3,
+    "_nota": "«Se i primi 3 secondi non funzionano, il video è perso.» La finestra 3-5 è quella entro cui l'hook deve aver agganciato; i 3 secondi sono il limite oltre il quale gli appunti danno il video per perso.",
+    "nota": "docs/video-social/anatomia-dell-hook.md"
+  },
+
+  "attenzione": {
+    "decisione_interazione_secondi": 1.7,
+    "presenti_a_10_secondi_percentuale": 33,
+    "completamento_sotto_15_secondi_percentuale": 80,
+    "soglia_completamento_secondi": 15,
+    "_nota": "1,7 secondi per decidere se interagire da mobile. Su Instagram Reels resta il 33% del pubblico dopo 10 secondi. Su TikTok i video sotto i 15 secondi arrivano all'80% di completamento.",
+    "nota": "docs/video-social/soglia-di-attenzione.md"
+  },
+
+  "carico_utile": {
+    "entro_secondi": 10,
+    "derivata": true,
+    "_nota": "REGOLA DERIVATA, non scritta negli appunti: se al decimo secondo resta un terzo del pubblico, quello che il video deve far arrivare va prima dei 10 secondi. Si segnala come derivazione, non come regola degli appunti.",
+    "nota": "docs/video-social/hook-sviluppo-cta.md"
+  },
+
+  "cta": {
+    "frazione_video_se_abbandoni_finali": 0.5,
+    "condizionata": true,
+    "_nota": "La CTA va a metà video SOLO se le analitiche mostrano abbandoni finali. Senza quel dato la regola non si applica e non si inventa: si chiede a Emanuele cosa dice il grafico di retention. Il vincolo non negoziabile è l'altro: la CTA sta in un punto non skippabile.",
+    "nota": "docs/video-social/posizione-della-cta.md"
+  },
+
+  "export": {
+    "risoluzione_altezza": 1080,
+    "fps": 30,
+    "rapporto_verticale": "9:16",
+    "rapporto_feed": "1:1",
+    "dimensioni_verticale": [1080, 1920],
+    "_nota": "1080p a 30 fps è lo standard di Reel e TikTok. Il 9:16 vale per verticale e storie, l'1:1 per il feed.",
+    "nota": "docs/video-social/formato-ed-export.md"
+  },
+
+  "ripresa": {
+    "risoluzione": "4K",
+    "fps_parlato": [24, 30],
+    "fps_broll": 60,
+    "hdr": false,
+    "griglia": true,
+    "_nota": "I 60 fps solo sui b-roll da rallentare. L'HDR va spento in ripresa, non corretto dopo.",
+    "nota": "docs/video-social/impostazioni-di-ripresa.md"
+  },
+
+  "audio": {
+    "voce_db": -6,
+    "musica_db": -17,
+    "distacco_db": 11,
+    "_nota": "Livelli in montaggio. Il distacco è la cosa che conta: la musica si sente e non copre mai il parlato.",
+    "nota": "docs/video-social/audio-prima-del-video.md"
+  },
+
+  "leggibilita": {
+    "tempo_di_lettura_secondi": 0.5,
+    "_nota": "Se una scritta non si legge in mezzo secondo mentre si scorre, non è servita a niente. È un numero che si verifica guardando un fotogramma, non contando frame.",
+    "nota": "docs/video-social/leggibilita-del-testo-a-schermo.md"
+  },
+
+  "frame_estratti_in_revisione": {
+    "minimo": 4,
+    "massimo": 6,
+    "_nota": "Quanti fotogrammi si tirano fuori da un render per giudicarlo a occhio. I momenti sono elencati nel passaggio 3 del modo revisione.",
+    "nota": "docs/video-social/leggibilita-del-testo-a-schermo.md"
+  }
+}

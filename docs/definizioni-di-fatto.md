@@ -1,13 +1,13 @@
 ---
 title: "Definizioni di fatto"
-summary: "Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal, Preventivo, Consigliere vendita ed Estrai lead già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding."
+summary: "Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal, Preventivo, Consigliere vendita, Estrai lead, Web design e Regia video già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding."
 tags:
   - docs
   - processi
   - qualita
 status: da-compilare
 created: 2026-08-21
-updated: 2026-08-25
+updated: 2026-08-27
 related:
   - "[[code/skills/README]]"
   - "[[docs/checklist-sito]]"
@@ -17,6 +17,8 @@ related:
   - "[[code/skills/genera-preventivo/SKILL]]"
   - "[[code/skills/consigliere-vendita/SKILL]]"
   - "[[code/skills/estrai-lead/SKILL]]"
+  - "[[code/skills/web-design/SKILL]]"
+  - "[[code/skills/regia-video/SKILL]]"
 ---
 
 # Definizioni di fatto
@@ -34,8 +36,9 @@ Come si usa:
 Le skill in [[code/skills/README|code/skills]] richiamano queste definizioni: la sezione «Definizione di fatto» di uno
 `SKILL.md` punta qui.
 
-> Impalcatura creata il 21/08/2026. Le voci **Journal**, **Preventivo**, **Consigliere vendita**
-> ed **Estrai lead** sono scritte; **Sito**, **Brief cliente** e **Onboarding** sono da compilare.
+> Impalcatura creata il 21/08/2026. Le voci **Journal**, **Preventivo**, **Consigliere vendita**,
+> **Estrai lead**, **Web design** e **Regia video** sono scritte; **Sito**, **Brief cliente** e
+> **Onboarding** sono da compilare.
 
 ## Journal
 
@@ -178,6 +181,86 @@ prima di rispondere: se una non torna, si corregge e si riverifica.
   esteso, non descritte.
 - **Non è stato scritto né modificato niente**: né file del vault, né Notion, né TickTick. Questa
   skill legge e basta.
+
+## Web design
+
+Valgono per la skill [[code/skills/web-design/SKILL|web-design]]. Si verificano prima di rispondere:
+se una non torna, si corregge e si riverifica.
+
+- **Ogni consiglio è agganciato a un principio** di `docs/web-design/`, nominato per esteso nel
+  testo. Nessun consiglio senza fonte.
+- Le note citate sono state **aperte davvero**, non ricostruite dal riassunto in `llms.txt`.
+  L'indice serve a scegliere quali aprire, non a rispondere.
+- **Nessuna sintassi wikilink nella risposta.** Le doppie parentesi quadre valgono dentro i file del
+  vault, non in un testo che Emanuele legge.
+- Quello che gli appunti non coprono è **dichiarato con la formula esatta** — «questo i tuoi appunti
+  non lo coprono» — e si dice quale pezzo della situazione è scoperto. Nessun consiglio generico
+  messo lì a chiudere il buco, nessun principio allargato per farcelo entrare.
+- **Regola e gusto sono distinti.** Quello che le note dichiarano come preferenza — «la sua
+  preferita», «consigliato», «tendenzialmente» — è presentato come preferenza, non come obbligo. Un
+  giudizio estetico è detto per quello che è.
+- **La scelta di uno stile è data come proposta**, con il perché, mai come la risposta corretta: i
+  siti non hanno uno stile definito a priori e lo stile è soggettivo. Le regole di design che valgono
+  dentro qualunque stile — gerarchia, allineamento, tre colori, pesi dei media — sono invece date
+  come regole.
+- La scheda in `entities/` e la cartella in `projects/` sono state **cercate**. Se non ci sono, è
+  detto — e sono state chieste le tre cose che servono: settore, target, materiale disponibile.
+- Se il progetto è di un brand di famiglia, sono stati letti il suo `CLAUDE.md`, il suo `MEMORY.md`
+  e i `reference/`, con `design.md` e `tono.md` per primi. **Il design system del brand vince sui
+  principi generali**, e se c'è un contrasto è nominato.
+- **La traccia del progetto è stata stabilita** — custom caricato sull'hosting, oppure WordPress —
+  o è stata chiesta se dalla richiesta non si capiva. **Elementor non è stato consigliato.** In tutte
+  e due le tracce la fonte di verità dichiarata è il sorgente, mai il sito pubblicato.
+- Delle regole recuperate da `stile-siti.md`, **solo «i media passano da Drive» è data come
+  specifica dei brand di famiglia**. Sorgente contro live e verifica post-deploy valgono ovunque, e
+  sui formati vale la regola generale: la maggior parte in WebP, PNG e JPEG sotto i 200 KB, SVG per
+  loghi e icone.
+- Se la situazione tocca una delle **due** contraddizioni ancora aperte — animazioni, uso dell'AI —
+  sono presentate **entrambe le versioni** ed è detto quale si sta seguendo. Nessuna scelta fatta in
+  silenzio. Le tre chiuse il 26/08/2026 **non sono state riaperte**: dove una nota degli appunti dice
+  il contrario di una decisione, vince la decisione.
+- La risposta dice **cosa togliere**, non solo cosa mettere, ogni volta che la domanda riguarda una
+  pagina che esiste già.
+- Il tono è quello di una persona che parla, non di un documento. Le strutture sono concrete —
+  quali sezioni, in che ordine — e le frasi da mettere in pagina sono scritte per esteso, non
+  descritte.
+- **Ogni cifra viene da [[self/tariffario|tariffario]].** Nessun numero calcolato o stimato, costo
+  di temi e licenze compreso.
+- **Non è stato scritto né modificato niente**: né file del vault, né un sito, né Notion, né
+  TickTick. Questa skill legge e basta.
+
+
+## Regia video
+
+Per i due modi della skill [[code/skills/regia-video/SKILL|regia video]]. **Tutti e due i modi:**
+
+- Ogni affermazione si aggancia a una nota di `docs/video-social/` che **esiste** ed è stata letta
+  adesso. Quello che gli appunti non coprono è stato **detto**, senza il consiglio generico attaccato
+  subito dopo, e **nessun prezzo è stato nominato**.
+- Le regole **con un numero** sono contestate col numero — «l'hook entra a 4,1 secondi, la regola
+  dice entro 3», mai «l'hook è un po' lento». Quelle **di gusto** sono date come opinioni e si
+  distinguono; quelle **derivate**, come il carico utile entro i 10 secondi, sono dichiarate tali.
+
+**«facciamo un reel su X» — creazione**
+
+- Le tre domande che decidono il video — centro, tipo di contenuto, dolore — hanno una risposta prima
+  che venga proposto un hook, e l'hook proposto è una **frase vera** col tipo dichiarato.
+- La struttura è stata proposta **in secondi** ed **approvata da Emanuele prima** che venisse scritto
+  codice, con l'hook dentro la finestra e la CTA in un punto non skippabile.
+- La composizione esce a **1080×1920 e 30 fps**, fascia dei sottotitoli libera sotto il volto, tempi
+  in **un file solo** in frame coi secondi nel commento, colori e font del brand — e se il vault non
+  li ha, la mancanza è stata **detta**. Prima di consegnare è stato eseguito il modo revisione.
+
+**«controlla questo video» — revisione**
+
+- I tempi vengono dal **codice**, come `secondi = frame ÷ fps`. Se il codice non c'era, è stato
+  **detto** che sono a occhio; se `ffmpeg` mancava, la revisione si è **fermata**.
+- Sono stati estratti da **4 a 6 fotogrammi** nei momenti chiave e **guardati**: il giudizio sulla
+  leggibilità viene da lì. Stanno nella cartella temporanea, non nel progetto.
+- Il verdetto dice cosa **rispetta** le regole prima di cosa le viola, e se non viola niente lo dice
+  in due righe senza cercare tre correzioni per sembrare utile.
+- La **CTA a metà** è stata contestata solo con le analitiche in mano: senza, è «da verificare sui
+  dati», non una violazione.
 
 ## Estrai lead
 

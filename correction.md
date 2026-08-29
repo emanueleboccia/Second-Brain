@@ -12,6 +12,17 @@ Si legge prima di eseguire una skill.
 `_sistema/tecnica/stile-siti.md` è stato eliminato con la cartella `_sistema/`. Le regole di
 stile-siti si recuperano da git quando costruiremo la skill `crea-sito`.
 
+> **Fatto il 26/08/2026**, costruendo la skill `web-design` invece di `crea-sito`. Il file è stato
+> ripreso da `72cc996^` e le sue quattro regole sono diventate tre note in `docs/web-design/` —
+> `sorgente-e-live`, `verifica-post-deploy`, `media-da-drive` — più la regola sulle
+> scritture, che era già nel `CLAUDE.md` alla radice. La sezione «Convenzioni di stile» del file
+> originale era vuota di proposito e non ha prodotto niente.
+>
+> **`_sistema/tecnica/novamira.md` non si recupera.** Emanuele ha chiuso il punto il 26/08/2026:
+> era il vecchio sistema, non si usa più. I riferimenti sono stati tolti da `verifica-post-deploy`,
+> dal `MEMORY.md` de La Masseria e dal commento della deroga nel gate. Il precedente sugli accenti
+> corrotti resta, la procedura no.
+
 ## 21/08/2026 — Le scadenze dei clienti non vanno su TickTick
 
 Avevo proposto di segnare in **🔔 Scadenze** di TickTick la scadenza hosting di un cliente.
@@ -65,3 +76,14 @@ agosto per zero audio in più.
 **La prossima volta:** ogni chiamata a un servizio che consuma quota si salva **alla prima
 esecuzione** — risposta intera su file — e si riusa. Vale per ElevenLabs come per Apify: se
 l'output serve due volte, si rilegge, non si rigenera.
+
+## 27/08/2026 — Due sessioni, lo stesso file di diario
+
+La nota `workspace/journal/sessions/sessione-2026-08-26.md` è stata scritta da una sessione e poi
+sovrascritta da un'altra che lavorava in parallelo sullo stesso vault. Il contenuto della prima —
+il lavoro su Remotion e sul reel — è sparito, ed è stato riunito a mano il giorno dopo.
+
+**La prossima volta:** prima di scrivere una nota di sessione si controlla se il file esiste già
+**e se è cambiato da quando l'hai letto**. Se c'è, non si sovrascrive: si legge, si mostra a
+Emanuele cosa si aggiungerebbe e si chiede se unire o fare il secondo file. Vale anche quando il
+file l'hai scritto tu dieci minuti prima: un'altra sessione può averci scritto sopra nel frattempo.
