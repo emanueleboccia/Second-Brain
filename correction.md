@@ -115,3 +115,73 @@ data. La nota si mette solo se contiene un dato che serve davvero e che il titol
 un id, un prezzo, un vincolo — non per spiegare quello che il titolo dice già.
 
 Il posto dove si scrive per esteso è il diario, non la lista delle cose da fare.
+
+## 30/08/2026 — Il buongiorno non è partito perché la skill non esisteva per Claude Code
+
+Emanuele ha aperto la sessione con un saluto e il briefing non è uscito: ha dovuto scrivere
+«parti con la skill journal». La causa non era la formula usata — era che le skill in
+`code/skills/` sono documenti del vault, non skill che Claude Code carica all'avvio. Nessuna di
+loro può «partire da sola», e per il journal questo è fatale: è la skill che deve arrivare
+*prima* che Emanuele chieda qualcosa.
+
+**La prossima volta:** l'innesco di una skill che deve partire da sola non si scrive solo nel suo
+`SKILL.md` — quel file nessuno lo legge finché non gli si dice di leggerlo. Va nel `CLAUDE.md` di
+radice, che è l'unico sempre in contesto. La sezione «Come si apre e come si chiude una sessione»
+ora ce l'ha: qualsiasi forma di saluto in apertura fa partire il buongiorno.
+
+Vale in generale: **se una regola deve valere prima che io la invochi, sta nel `CLAUDE.md`.**
+Tutto il resto sta nel file della skill.
+
+## 30/08/2026 — «Contattare» è setting, non l'appuntamento
+
+Nel briefing avevo letto «Contattare Andrea Costante» come un incontro con Andrea, e avevo
+proposto di preparare la traccia di discovery per il giorno dopo. Sbagliato.
+
+**Quando Emanuele scrive «contattare Tizio» su TickTick intende una cosa sola:** mandargli un
+messaggio o chiamarlo per **prendere l'appuntamento**. «Ciao, come stai? Quando ci vediamo?».
+Non è l'incontro, è il passo che porta all'incontro. Vale per tutte: contattare Andrea Costante,
+contattare Anna, contattare Pierluigi Ammirati.
+
+**La prossima volta:** una task che comincia con «contattare» è **setting**, e si prepara come
+setting. Quello che serve non è la traccia delle domande di discovery — serve la domanda di
+trasformazione, l'agenda a scelta chiusa, il decision maker chiesto adesso e non dopo, e la
+cementificazione una volta fissata l'ora. La discovery si prepara quando l'appuntamento esiste.
+
+**La dicitura scelta il 30/08/2026 è «Setting».** Le task si chiamano `Setting <Nome> (Azienda)`
+e stanno in ⏳ In corso, non in 📆 Appuntamenti — un setting non è un appuntamento, e tenerlo
+nella colonna degli appuntamenti è quello che me l'ha fatto leggere male. La parola viene dal suo
+stesso vocabolario di vendita e dice a che punto del funnel si è: setting, poi appuntamento, poi
+proposta. «Contattare» non si usa più.
+
+Il messaggio da mandare si scrive **nella descrizione della task**, così il giorno che la apre lo
+manda e basta. Con dentro i promemoria che il messaggio non può contenere: chiedere dei soci prima
+di bloccare l'ora, e mandare materiale appena l'ora è fissata.
+
+## 31/08/2026 — La voce pagata e il file che non è mai atterrato
+
+Il 30/08 la quota ElevenLabs era a 1.297 caratteri. La mattina del 31/08 un briefing ne ha
+consumati circa 1.227 e in `workspace/journal/audio/` non è comparso nessun mp3: l'ultimo audio del
+mese è stato pagato e non esiste. Il buco è saltato fuori solo incrociando il residuo della quota
+con il contenuto della cartella, ore dopo.
+
+**La prossima volta:** una sintesi è finita quando **il file esiste su disco e ha una durata**, non
+quando l'API risponde. Il download e la verifica con `afinfo` stanno nello stesso passo della
+chiamata, non in un passo dopo che può non arrivare mai. E se la quota è scesa ma la cartella è
+vuota, si dice subito: un caratteri-consumati-senza-file scoperto il giorno dopo non si recupera.
+
+## 01/09/2026 — «Simile a quello che abbiamo» non è una tabella di valori
+
+Chiesto un registro lavori simile a quello dei brand di famiglia, ho letto l'originale con
+`GOOGLESHEETS_BATCH_GET` e ne ho ricostruito colonne, righe e totali. Il risultato è corretto nei
+dati e brutto da guardare: non somiglia al suo. `BATCH_GET` restituisce **solo i valori** —
+formati valuta, grassetti, colori, bordi, larghezze delle colonne, righe bloccate e altezze non
+compaiono in quella risposta. Ho copiato lo scheletro credendo di aver copiato il foglio.
+
+**La prossima volta:** quando un artefatto deve assomigliare a uno che esiste già, l'aspetto va
+letto insieme ai dati, non dedotto da essi. Su Sheets si legge con `GOOGLESHEETS_GET_SPREADSHEET_INFO`
+chiedendo la grid data, che porta con sé i formati. Se gli strumenti disponibili leggono i valori ma
+non sanno scrivere i formati, **si dice prima di creare**, non dopo: un foglio nuovo e nudo accanto
+a uno curato non è un punto di partenza, è una cosa da rifare.
+
+Vale oltre i fogli. «Fammelo come quell'altro» parla di com'è fatto e di come si vede, e la seconda
+metà è quella che si nota per prima.

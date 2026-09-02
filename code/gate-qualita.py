@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Gate di qualità del Vault.
+"""Gate di qualità del Second Brain.
 
 Controlla ogni nota di contenuto contro sei regole. Esce con codice 1 se trova
 anche un solo errore, 0 se il vault è pulito.
@@ -69,6 +69,11 @@ GRAPPOLI_DICHIARATI = {
 DEROGHE_ISOLAMENTO = {
     # self/tariffario.md stava qui: la deroga è caduta il 21/08/2026, quando il primo
     # preventivo e la prima scheda cliente hanno cominciato a citarlo davvero.
+    "docs/registro-strumenti.md":
+        "nata il 01/09/2026. Le note che la citeranno sono docs/procedure/ e il quadro "
+        "di areas/finanza/, che oggi sono impalcature: la prima è vuota, la seconda è "
+        "da-compilare e quindi fuori dal grafo. La deroga cade quando la prima procedura "
+        "vera nomina uno strumento",
 }
 
 # Le note ancora da compilare non partecipano alle regole sul grafo: non hanno

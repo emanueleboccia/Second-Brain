@@ -33,7 +33,7 @@ CARTELLE = [
 
 FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 
-INTESTAZIONE = """# Company Brain di Emanuele
+INTESTAZIONE = """# Second Brain di Emanuele
 
 <!-- FILE DERIVATO — NON MODIFICARE A MANO.
      Si rigenera da capo con `python3 code/genera-llms.py` ogni volta che il vault cambia.
@@ -66,6 +66,12 @@ def note_di(cartella):
                 continue
             completo = os.path.join(percorso, nome)
             relativo = os.path.relpath(completo, VAULT)
+            if relativo.startswith("areas/finanza"):
+                continue          # dati finanziari personali: esclusi da git (.gitignore) e
+                                  # quindi anche da qui. llms.txt è un file committato, e
+                                  # indicizzarli farebbe uscire titoli e summary di note che
+                                  # non devono lasciare questo disco. Escluso il 01/09/2026,
+                                  # lo stesso giorno in cui l'area è nata.
             if relativo.startswith("code/skills"):
                 continue          # le skill hanno il loro elenco, sotto
             if relativo.startswith("code/remotion-test"):

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collaudo — fondale firma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,600..900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --nero:#000000;
+    --fondo:#0E0E0C;
+    --card:#191915;
+    --bordo:#2A2A24;
+    --griglia:#1A1A16;
+    --spento:#75746A;
+    --intermedio:#B5B2A4;
+    --crema:#EEEBDA;
+    --punta:#FFFFFF;
+    --cella:72px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--nero);
+    color:var(--crema);
+    font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:18px;
+  }
+  .tecnico{font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:700}
+
+  /* ============ CORNICE ============ */
+  .cornice{
+    position:relative;
+    border:1px solid var(--bordo);
+    border-radius:26px;
+    overflow:hidden;
+    background:var(--fondo);
+    min-height:calc(100vh - 36px);
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* ============ FONDALE FIRMA ============ */
+  .griglia{position:absolute;inset:0;
+    background-image:
+      linear-gradient(to right,var(--griglia) 1px,transparent 1px),
+      linear-gradient(to bottom,var(--griglia) 1px,transparent 1px);
+    background-size:var(--cella) var(--cella)}
+  .glow{position:absolute;left:50%;top:46%;width:110vw;height:105vh;transform:translate(-50%,-50%);
+    pointer-events:none;
+    background:radial-gradient(circle at center,
+      rgba(238,235,218,.10) 0%,
+      rgba(238,235,218,.065) 26%,
+      rgba(238,235,218,0) 58%)}
+  .vignetta{position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse 80% 72% at 50% 46%,
+      rgba(0,0,0,0) 38%,rgba(0,0,0,.5) 76%,var(--nero) 100%)}
+
+  /* ============ BARRA ALTA ============ */
+  .barra{position:relative;display:flex;align-items:center;justify-content:space-between;
+    padding:18px 30px;gap:24px}
+  .marchio{font-family:"Archivo",Helvetica,Arial,sans-serif;font-weight:700;font-stretch:125%;
+    font-size:.86rem;letter-spacing:.16em;text-transform:uppercase;color:var(--crema)}
+  .menu{display:flex;gap:38px}
+  .menu a{color:var(--intermedio);text-decoration:none;font-size:.82rem;letter-spacing:.04em}
+  .menu a:hover{color:var(--crema)}
+
+  /* ============ BOTTONI ============ */
+  .btn{display:inline-flex;align-items:center;gap:.7rem;border-radius:999px;
+    padding:.85rem 1.9rem;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+    text-decoration:none;border:1px solid transparent;white-space:nowrap}
+  .btn-primario{background:var(--crema);color:var(--fondo);font-weight:700}
+  .btn-secondario{background:transparent;color:var(--crema);border-color:var(--crema)}
+
+  /* ============ RIGA TECNICA ============ */
+  .riga-tecnica{position:relative;display:flex;justify-content:space-between;
+    padding:6px 32px 0;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--spento)}
+
+  /* ============ SCENA ============ */
+  .scena{position:relative;flex:1;display:flex;flex-direction:column;justify-content:center;
+    padding:0 32px 28px}
+
+  .nome{
+    font-family:"Archivo",Helvetica,Arial,sans-serif;font-weight:900;font-stretch:125%;
+    font-size:clamp(2.6rem,12.6vw,11rem);line-height:.82;letter-spacing:-.035em;
+    text-align:center;text-transform:uppercase;color:var(--crema);
+    white-space:nowrap}
+
+  /* il soggetto è il DATO, e si sovrappone alle lettere */
+  .soggetto{position:relative;margin-top:-.30em;text-align:center}
+  .soggetto .numero{
+    font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:700;
+    font-size:clamp(3rem,11.4vw,9.6rem);line-height:.86;letter-spacing:-.03em;
+    color:var(--punta)}
+  .soggetto .didascalia{margin-top:.5rem;font-family:"JetBrains Mono",ui-monospace,monospace;
+    font-weight:700;font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--intermedio)}
+
+  /* ============ TRE COLONNE SOTTO ============ */
+  .basso{position:relative;display:grid;grid-template-columns:1.05fr .95fr .95fr;gap:34px;
+    align-items:end;margin-top:clamp(18px,3.4vh,44px)}
+  h1{font-family:"Archivo",Helvetica,Arial,sans-serif;font-weight:900;font-stretch:125%;
+    font-size:clamp(1.1rem,1.95vw,1.75rem);line-height:1.12;letter-spacing:-.012em;color:var(--crema)}
+  .sottotesto{margin-top:1rem;font-size:.84rem;line-height:1.65;color:var(--spento);max-width:34ch}
+  .azioni{display:flex;gap:.7rem;margin-top:1.3rem;flex-wrap:wrap}
+
+  .prima-dopo{font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:700;
+    font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;line-height:1.9}
+  .prima-dopo .prima{color:var(--spento)}
+  .prima-dopo .dopo{color:var(--crema)}
+  .prima-dopo hr{border:0;border-top:1px solid var(--bordo);margin:.6rem 0}
+
+  .scheda{background:var(--card);border:1px solid var(--bordo);border-radius:20px;padding:1.5rem}
+  .scheda h2{font-family:"Archivo",Helvetica,Arial,sans-serif;font-weight:700;font-stretch:125%;font-size:1rem;
+    color:var(--crema);margin-bottom:.5rem}
+  .scheda p{font-size:.78rem;line-height:1.6;color:var(--spento);margin-bottom:1.2rem}
+  .campo{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+    border:1px solid var(--bordo);border-radius:999px;padding:.7rem .8rem .7rem 1.2rem}
+  .campo span{font-size:.82rem;color:var(--spento)}
+  .campo .freccia{width:34px;height:34px;border-radius:999px;background:var(--crema);color:var(--fondo);
+    display:grid;place-items:center;font-size:.9rem;flex:none}
+
+  .nota{max-width:1100px;margin:2.4rem auto 1rem;padding:0 8px;color:var(--spento);
+    font-size:.8rem;line-height:1.75}
+  .nota strong{color:var(--intermedio);font-weight:400}
+  .nota code{font-family:"JetBrains Mono",ui-monospace,monospace;color:var(--crema)}
+
+  @media (max-width:900px){
+    .menu{display:none}
+    .basso{grid-template-columns:1fr;gap:26px;align-items:start}
+    .nome{font-size:clamp(2.4rem,17vw,6rem)}
+  }
+</style>
+</head>
+<body>
+
+<div class="cornice">
+  <div class="griglia"></div>
+  <div class="glow"></div>
+  <div class="vignetta"></div>
+
+  <header class="barra">
+    <div class="marchio">Emanuele Boccia</div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Chi sono</a>
+      <a href="#">Servizi</a>
+      <a href="#">Lavori</a>
+    </nav>
+    <a class="btn btn-primario" href="#">Contatti <span>&#8594;</span></a>
+  </header>
+
+  <div class="riga-tecnica tecnico">
+    <span>01 / 04</span>
+    <span>Marketing · Codice · AI</span>
+  </div>
+
+  <main class="scena">
+    <div class="nome">Emanuele</div>
+
+    <div class="soggetto">
+      <div class="numero">+214</div>
+      <div class="didascalia">Contatti nel primo mese · Girarrosto Liberti</div>
+    </div>
+
+    <div class="basso">
+      <div>
+        <h1>Siti che portano<br>contatti, non complimenti.</h1>
+        <p class="sottotesto">Marketing, codice e design nella stessa mano. Quello che costruisco
+          funziona, è bello, ed è facile da usare per chi ci lavora dentro.</p>
+        <div class="azioni">
+          <a class="btn btn-primario" href="#">Vedi come lavoro</a>
+          <a class="btn btn-secondario" href="#">Parliamone</a>
+        </div>
+      </div>
+
+      <div class="prima-dopo">
+        <span class="prima">Prima — quaderno a mano</span>
+        <hr>
+        <span class="dopo">Dopo — registro che si compila da solo</span>
+      </div>
+
+      <div class="scheda">
+        <h2>Partiamo dal problema</h2>
+        <p>Scrivimi cosa non funziona adesso. Rispondo entro 24 ore, e la prima call serve a
+          capire se ha senso.</p>
+        <div class="campo">
+          <span>La tua email</span>
+          <div class="freccia">&#8594;</div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="nota">
+  <p><strong>Font liberi, licenza OFL.</strong> <code>Archivo</code> alla larghezza massima
+  (Expanded, asse wdth 125) con peso 900 sul nome gigante e sull'H1, peso 700 sul marchio e sui
+  titoletti; <code>JetBrains Mono Bold</code> per il dato, le etichette tecniche e il prima/dopo;
+  <code>Helvetica</code> per il testo corrente. Uso commerciale e incorporamento liberi, nessun
+  canone. Qui arrivano da Google Fonts: su un sito vero si scaricano i .woff2 e si mettono
+  sull'hosting.</p>
+  <p><strong>Cosa cambia rispetto ai riferimenti.</strong> La al centro della scena c'e una
+  persona; qui c'e il dato, perche il design dice che il soggetto e sempre il prodotto o il
+  numero, mai una figura decorativa. Il rosso dei riferimenti non e stato preso: la scala resta
+  nero, crema, bianco. Il marchio e solo testuale, perche se esista un simbolo non e deciso.</p>
+  <p><strong>Contenuti di prova.</strong> Il +214 e il caso Girarrosto Liberti riempiono la scena:
+  non sono numeri verificati.</p>
+</div>
+
+</body>
+</html>

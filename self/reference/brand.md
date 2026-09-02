@@ -90,6 +90,7 @@ Restano aperti. Non si riempiono per far tornare la narrazione.
    annotano quando arrivano.
 2. **I tentativi falliti e gli errori professionali.** Nell'intervista non sono emersi e non sono
    stati forzati. È la parte che rende credibile un arco narrativo, e per ora manca.
-3. **L'identità visiva** — vedi [[self/reference/design|design]], che è ancora tutto da compilare.
+3. **Il marchio.** Caratteri, palette e fondale sono decisi dal 29/08/2026 in
+   [[self/reference/design|design]]; se esista un logo o una firma testuale, no.
 
 Come si dicono queste cose, e cosa non si dice mai, sta in [[self/reference/tono|tono di voce]].

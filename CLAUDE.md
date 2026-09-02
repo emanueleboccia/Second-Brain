@@ -1,4 +1,4 @@
-# Company Brain di Emanuele
+# Second Brain di Emanuele
 
 Questo non è un archivio di appunti: è il cervello dell'azienda. Le regole, le decisioni e
 l'identità dei brand vivono qui, e qui sono vere. Se una cosa conta, finisce in un file —
@@ -18,17 +18,50 @@ Le chat operative sono usa e getta. Il contesto sta nei file, non nelle conversa
 
 ## La mappa
 
-- `self/` — chi sono io: identità, tono, offerta, tariffario del mio lavoro.
-- `areas/` — i tre brand di famiglia, ognuno con la sua sottocartella completa.
+- `self/` — chi sono io: identità, tono, offerta, tariffario e mappa delle competenze.
+- `areas/` — i mondi che non finiscono mai: i tre brand di famiglia, la finanza, la formazione.
+  - `areas/finanza/` — ⚠️ **esclusa da git e da `llms.txt`.** Reddito, patrimonio, spese,
+    investimenti, regime forfettario. Ragiona e collega, non duplica i registri.
+  - `areas/formazione/` — libri, corsi, articoli. Ogni nota dichiara dove le serve.
 - `projects/` — lavori con un inizio e una fine.
-- `sources/` — materiale grezzo in entrata, ancora da elaborare.
+- `sources/` — materiale grezzo in entrata, mai modificato.
+  - `sources/call/` — trascrizioni delle call (Granola).
+  - `sources/riunioni/` — trascrizioni delle riunioni.
+  - `sources/riferimenti/` — lo scaffale: campagne, siti, esempi, ispirazioni.
 - `concepts/` — definizioni.
 - `docs/` — procedure, checklist, definizioni di fatto.
+  - `docs/procedure/` — le procedure operative ripetibili.
+  - `docs/vendita/` — il metodo di vendita, con la biblioteca delle obiezioni.
+  - `docs/casi/` — il ricettario: situazione → brief → soluzione → esito.
+  - `docs/registro-strumenti.md` — cosa è attivo, in test, scartato o da rivalutare.
 - `entities/` — clienti e fornitori.
-- `data/` — numeri e KPI.
+  - `entities/clienti/<nome>/` — quattro file per cliente: scheda, brand book, storico,
+    recensioni. Il modello sta in `entities/clienti/_modello/`.
+- `data/` — la memoria dei risultati: contenuti pubblicati, campagne, recensioni sui sistemi.
 - `code/` — automazioni e skills.
-- `outputs/` — deliverable prodotti.
-- `workspace/` — journal delle sessioni.
+- `outputs/` — deliverable prodotti: preventivi, proposte, fatture, report, presentazioni.
+- `workspace/` — journal delle sessioni e review settimanale.
+
+## Cosa entra e cosa no
+
+**Il test d'ingresso.** Un contenuto entra se ci tornerò più di una volta, se lo cercherò
+per contenuto, e se il suo valore cresce collegandosi ad altro. Non entra se si usa una
+volta e si butta, o se sta già benissimo dov'è.
+
+Le tre condizioni valgono insieme. Una nota che si rilegge ma non si collega a niente è un
+appunto; una che si collega ma non si rilegge è arredamento.
+
+**Il principio delle aree.** Un'area si apre solo quando c'è un uso reale che la richiede.
+Non si predispone una cartella perché un giorno servirà: una cartella vuota che aspetta
+insegna a non guardare dentro le cartelle.
+
+**Fuori perimetro.** Diario personale, morning coffee, memorie di famiglia e percorso
+psicoterapeutico **non entrano qui**: vivono su Day One. Le cose personali operative —
+casa, appuntamenti, commissioni — vivono su TickTick, non qui.
+
+Non è una questione di riservatezza, è che questo posto è fatto per essere interrogato da
+un'AI e collegato a un grafo. Un pensiero privato non guadagna niente a stare in un grafo,
+e ci perde il fatto di essere privato.
 
 ## Servizi collegati
 
@@ -44,6 +77,14 @@ funziona o duplica una connessione che c'è già.
 | TickTick | task, progetti, abitudini |
 | Google Calendar | eventi, disponibilità |
 | Google Drive | file finiti e media, creare e cercare documenti |
+| Trello | le task di Sistema Evolve, board *Marketing*. ⚠️ **solo lettura** |
+
+⚠️ **Trello è l'eccezione alla regola sulle scritture, ed è più stretta, non più larga.**
+Il board è di Sistema Evolve, condiviso con Vincenzo e Karim: da qui **si guarda e basta**.
+Non si creano card, non si spostano, non si commentano, non si spuntano. Le modifiche le
+faccio io dal loro cervello aziendale. Una card scritta da qui arriva a loro col mio nome
+sopra, e non c'è modo di spiegare da dove è uscita. Se serve davvero scrivere, si chiede
+prima ed esplicitamente — «mostra e aspetta l'ok» qui non basta.
 
 **Da Composio** — collegato il 21/08/2026, serve per quello che ai connettori manca:
 
@@ -83,12 +124,57 @@ ho cambiato idea, è se hai capito bene — e va fatta prima, non dopo.
 Nel dubbio su quale dei due casi sia, mostra. Un giro a vuoto costa dieci secondi, una riga
 sbagliata su un servizio esterno costa molto di più.
 
+## La regola di cattura
+
+**Quando Emanuele riferisce che un cliente ha chiesto qualcosa, la task si propone subito.**
+Non a fine sessione, non quando ci si ricorda: nel momento in cui la frase viene detta.
+Una richiesta di un cliente raccontata a voce e non scritta da nessuna parte è la cosa che
+si perde più spesso, e quando si perde lo scopre il cliente.
+
+Si propone la task **nella lista giusta**, e si chiede conferma prima di scrivere:
+
+- **le liste Digitale** — DMR, MMA, TDG — se riguarda un brand di famiglia;
+- **💼 Personal Brand** se riguarda un cliente esterno.
+
+Il testo si mostra prima di scriverlo, come vuole la regola sulle scritture: qui il
+contenuto lo componi tu, e la domanda non è se ha cambiato idea, è se hai capito bene.
+
+## La regola di design
+
+**Ogni deliverable del personal brand segue [`self/reference/design.md`](self/reference/design.md).**
+Report, presentazioni, proposte, dashboard: tutto quello che esce con il suo nome sopra ha
+lo stesso aspetto, o non è un brand.
+
+I brand di famiglia hanno il loro design, ognuno nel proprio `reference/`. Questa regola
+riguarda quello che è suo.
+
 ## Come si legge
 
 Quando lavoriamo su un brand in `areas/`, leggi in quest'ordine: il suo `CLAUDE.md`, poi il suo
 `MEMORY.md`, poi TUTTI i file in `reference/`. `knowledge/` non lo leggi se non te lo chiedo.
 
+`areas/finanza/` e `areas/formazione/` non sono brand e non hanno `reference/`: si leggono il
+`CLAUDE.md` e il `MEMORY.md`, e poi solo le note che servono a quello che stiamo facendo.
+
 Non leggere mai l'intero vault. Ti intasi e lavori peggio.
+
+## Come si apre e come si chiude una sessione
+
+Le skill in `code/skills/` sono procedure scritte, non strumenti che Claude Code carica da solo:
+nessuna parte da sé, e va invocata leggendo il suo `SKILL.md`. Per il journal questo non basta,
+perché è la skill che deve partire **prima** che io chieda qualcosa.
+
+**Se il mio primo messaggio della sessione è un saluto, esegui il comando «buongiorno» di
+[`code/skills/journal/SKILL.md`](code/skills/journal/SKILL.md).** Vale per qualunque forma:
+«buongiorno», «buongiornissimo», «ciao», «ehi», «iniziamo», «si parte», «eccomi», «dove eravamo
+rimasti». Vale anche se al saluto è attaccata un'altra richiesta: prima il briefing, poi quella.
+Non aspettare che dica il nome della skill — se lo devo dire io, la skill non serve a niente.
+
+Non è un saluto un primo messaggio che parte con un lavoro preciso — «sistemami questo file»,
+«che ore ho libere giovedì». Lì si fa quello che chiedo e basta.
+
+Allo stesso modo, quando faccio capire che per oggi ho finito — comunque lo dica — parte il
+comando «chiudi sessione» della stessa skill.
 
 ## Come non si scrive mai
 

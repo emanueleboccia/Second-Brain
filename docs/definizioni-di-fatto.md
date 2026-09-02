@@ -61,9 +61,13 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - Le scadenze siti entro trenta giorni ci sono **tutte**, dalla più vicina, urgenti sotto i
   quattordici. È fatturato ricorrente: nessuna omissione dentro la finestra.
 - Le tre priorità sono **trasversali** e proposte, non decise. Un servizio muto è **dichiarato**.
-- Ogni cosa nominata esiste, letta adesso, e **fuori da sé non è stato scritto niente**: l'unica scrittura ammessa è `ticktick.ultimo_briefing`, a briefing uscito.
+- Chiude **una frase per la giornata** nata da quello che è appena uscito nel briefing, non una
+  massima buona per chiunque. Una riga, due al massimo.
+- È partito **da un saluto**, senza che la skill fosse nominata, e **l'audio è stato fatto** senza
+  che lo chiedesse.
+- Ogni cosa nominata esiste, letta adesso, e **fuori dal vault non è stato scritto niente**: le sole scritture ammesse sono `ticktick.ultimo_briefing` e l'mp3 in `workspace/journal/audio/`.
 
-**«buongiorno audio» — il briefing da ascoltare**
+**L'audio del buongiorno — il passo 9, non un comando**
 
 - Il **briefing scritto è stato fatto per intero prima**, e l'audio dice **le stesse cose**:
   stessi fatti, stesse scadenze, stesse tre priorità nello stesso ordine. Niente che sia solo
@@ -72,12 +76,14 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
   database, nessuna formattazione detta a voce.
 - Sta nella finestra dei **60-90 secondi**. Se sfora, si è tagliato dalla riscrittura e non dal
   briefing.
-- Le **tre priorità chiudono** l'audio, una frase ciascuna.
+- Le **tre priorità** stanno in fondo, una frase ciascuna, e **la frase della giornata chiude**:
+  dopo di lei non è stato aggiunto niente.
 - La voce è quella scelta da Emanuele e salvata in `riferimenti.json`. Se non era ancora scelta,
   le candidate gli sono state **proposte** e la sua risposta è stata **scritta nel file**: la
   domanda non si rifà il giorno dopo.
-- Al primo giro sono stati detti **caratteri, durata stimata e quota residua** prima di
-  sintetizzare. Dai giri successivi non si è chiesto niente.
+- La **quota è stata letta prima di sintetizzare**. Sotto i tre briefing residui è stata detta in
+  una riga, con la data del rinnovo; sopra, non se n'è parlato. A quota finita **non è partita
+  nessuna chiamata**.
 - La sigla è stata mixata **se esisteva**. Se non esisteva, l'audio è a voce sola e **non è stata
   scritta nessuna riga** per dirlo.
 - Il file è in `workspace/journal/audio/briefing-<YYYY-MM-DD>.mp3`, con la data vera di oggi, ed è

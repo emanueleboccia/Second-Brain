@@ -56,7 +56,7 @@ verrà mai usata.
 
 ### Input
 
-Cosa serve per partire, elencato. Per ogni voce: dov'è, se sta in un file del Vault, e se è
+Cosa serve per partire, elencato. Per ogni voce: dov'è, se sta in un file del Second Brain, e se è
 obbligatoria o no. Se manca un input obbligatorio la skill non parte — si va ai casi limite.
 
 ### Passaggi

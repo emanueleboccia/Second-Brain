@@ -1,6 +1,6 @@
 # Emanuele Boccia
 
-**Il mio personal brand e il mio lavoro da freelance.** Quarta area del Vault, allo stesso
+**Il mio personal brand e il mio lavoro da freelance.** Quarta area del Second Brain, allo stesso
 livello dei tre brand di famiglia.
 
 ## L'area ha due nature
