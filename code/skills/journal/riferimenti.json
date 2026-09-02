@@ -114,8 +114,41 @@
       "esclusa_sempre": true
     },
 
-    "ultimo_briefing": "2026-08-29T10:43:18Z",
+    "ultimo_briefing": "2026-09-02T05:48:31Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
+  },
+
+  "trello": {
+    "_nota": "Le task di Sistema Evolve. Verificato il 01/09/2026 leggendo Trello: workspace, board, liste e member id sono quelli veri. Evolve non sta su TickTick e non ci deve stare: il lavoro del reparto vive sul loro board, e questo è l'unico punto da cui il briefing lo guarda.",
+
+    "_REGOLA_SOLA_LETTURA": "⚠️ Da qui Trello si LEGGE e basta. Non si creano card, non si spostano, non si commenta, non si spunta niente — nemmeno se sembra ovvio e nemmeno se Emanuele lo dice di sfuggita mentre parla d'altro. Le modifiche le fa lui dal cervello aziendale di Evolve. Il board è condiviso con Vincenzo e Karim: una card scritta da qui compare a loro come se l'avesse scritta Emanuele, e non c'è modo di spiegare da dove è arrivata. Se serve davvero scrivere, si chiede prima ed esplicitamente.",
+
+    "workspace": {
+      "id": "ari:cloud:trello::workspace/6a8e9b0656c18f396012bc8d",
+      "nome": "Sistema Evolve",
+      "url": "https://trello.com/w/sistemaevolve1"
+    },
+
+    "board": {
+      "id": "ari:cloud:trello::board/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7c3",
+      "nome": "Marketing",
+      "url": "https://trello.com/b/J3ASO22b/marketing"
+    },
+
+    "liste": {
+      "idee": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8ea1d8adb6650264bf911e",
+      "non-iniziato": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d5",
+      "in-corso": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d6",
+      "fatto": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d7"
+    },
+
+    "_nota_liste": "Le colonne rispecchiano quelle di TickTick, ed è un bene: valgono le stesse regole. 💡 IDEE non entra MAI nel briefing, ✅ FATTO nemmeno. Il briefing legge ⏳ IN CORSO e ⌛️ NON INIZIATO.",
+
+    "membro": {
+      "id": "ari:cloud:trello::user/618690378b2cd442badf3827",
+      "username": "emanueleboccia",
+      "_nota": "⚠️ Il briefing riporta SOLO le card assegnate a questo membro. Il board è del reparto: le card di Karim e di Vincenzo sono lavoro vero, ma non è lavoro di Emanuele, e metterlo nel suo briefing gli fa sembrare suo qualcosa che non deve fare lui. È la stessa regola delle liste di Raffaele su TickTick."
+    }
   },
 
   "notion": {
@@ -126,6 +159,7 @@
       "campo_titolo": "Proposta",
       "campo_stato": "Stato",
       "campo_data": "Creato",
+      "_nota_campo_data": "⚠️ In SQL la colonna non si chiama «Creato». I campi data di Notion arrivano scomposti in tre colonne — `date:Creato:start`, `date:Creato:end`, `date:Creato:is_datetime` — e una query su \"Creato\" fallisce con «no such column». Si seleziona `\"date:Creato:start\" AS creato` e si ordina su quello. Vale per ogni campo data di ogni database: i tre di «Siti Clienti» si leggono `date:(S) Hosting:start`, `date:(S) Assistenza:start`, `date:(S) Dominio:start`. Verificato il 01/09/2026.",
       "campo_valore": "Valore Stimato",
       "campo_note_esito": "Note esito",
       "stati_aperti": [
@@ -206,9 +240,9 @@
     "_nota_formato": "Formato sicuro su qualsiasi piano. I bitrate alti sono riservati ai piani a pagamento: se un giorno il piano sale, qui si può passare a mp3_44100_128 e si sente la differenza.",
 
     "voce": {
-      "scelta": "EXAVITQu4vr4xnSDxMaL",
-      "scelta_nome": "Sarah - Mature, Reassuring, Confident",
-      "_nota_scelta": "Scelta da Emanuele il 25/08/2026 dopo aver ascoltato le maschili e tre femminili. La domanda non si rifà: se un giorno cambia idea lo dirà lui. È una premade, quindi funziona anche sul piano free — ma è nata in inglese e in italiano l'accento si sente. Non è la voce migliore possibile, è la migliore che questo piano permetta.",
+      "scelta": "hpp4J3VqNfWAUOO0d1Us",
+      "scelta_nome": "Bella - Professional, Bright, Warm",
+      "_nota_scelta": "Scelta da Emanuele il 30/08/2026, dopo aver ascoltato i campioni di Alice, Matilda e Bella sulla stessa frase. Sostituisce Sarah EXAVITQu4vr4xnSDxMaL, scelta il 25/08 e usata fino al briefing del 30/08 compreso. È una premade, quindi funziona sul piano free — provata prima di essere impostata. Resta nata in inglese: cambia il timbro, non la pronuncia. La domanda non si rifà: se cambia idea lo dice lui.",
       "candidate": [
         {
           "nome": "Eric - Smooth, Trustworthy",
@@ -226,7 +260,12 @@
           "perche": "premade, cadenza da speaker radiofonico: la più formale delle tre"
         }
       ],
-      "_nota_piano": "⚠️ Scoperto al collaudo del 25/08/2026: le voci italiane della libreria condivisa NON si usano sul piano free. ElevenLabs risponde 400 free_users_not_allowed, «You need to be on the creator tier or above to use this voice». Sul free si possono usare solo le 22 voci premade, che sono tutte nate in inglese: con eleven_multilingual_v2 parlano italiano, ma la pronuncia resta quella di un anglofono. Le tre candidate qui sopra sono premade, quindi funzionano davvero. Se un giorno il piano sale a Creator, si torna alla libreria: le italiane vere erano Jorgos cZnszeg34SZlRe30AcrQ, Luigi KUqzTMhYFYqnFWfMUjfX e Valentino lJylpTXX0sNdqq5EUv4M."
+      
+      "scelta_quando_il_piano_sale": "G0q9AYE8QsarSbMtaIEu",
+      "scelta_quando_il_piano_sale_nome": "Elettra - Mature actress",
+      "_nota_elettra": "Aggiunta da Emanuele al suo account il 30/08/2026 e da lui indicata come voce da usare. È italiana vera — professional, accento standard, timbro profondo — ed è quello che serve a questo briefing. NON è impostata come voce attiva perché sul piano free l'API la rifiuta: provata il 30/08/2026 con una stringa di 20 caratteri, risponde 402 paid_plan_required, «Free users cannot use library voices via the API». Nell'app ElevenLabs si sente, dall'API no: sono due permessi diversi, e la skill passa dall'API. Il giorno che il piano sale a Creator si sposta questo voice_id in «scelta» e si aggiorna «scelta_nome». Nessun'altra modifica serve.",
+      "_nota_altra_italiana": "Sullo stesso account c'è anche Giusy - Sales and Customer Support, 8KInRSd4DtD5L5gK7itu, italiana con accento siciliano. Stessa categoria professional, quindi stesso blocco sul free.",
+      "_nota_piano": "⚠️ Confermato due volte, il 25/08/2026 e il 30/08/2026: sul piano free le voci di libreria — categoria «professional» o condivise — NON si usano via API, nemmeno dopo averle aggiunte al proprio account. Comparire in ELEVENLABS_GET_VOICES non vuol dire essere usabili: la lista dice cosa possiedi, non cosa l'API ti lascia sintetizzare. Gli errori sono 400 free_users_not_allowed e 402 paid_plan_required, stessa causa. Sul free restano solo le voci premade, tutte nate in inglese: con eleven_multilingual_v2 parlano italiano, ma la pronuncia resta quella di un anglofono. ⚠️ Una voce nuova non si imposta mai in «scelta» senza averla prima provata con una stringa cortissima: impostarla al buio rompe il briefing di ogni mattina seguente."
     },
 
     "tool_composio": {

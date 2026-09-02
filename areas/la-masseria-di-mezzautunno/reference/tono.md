@@ -8,12 +8,13 @@ tags:
   - tono-di-voce
 status: attivo
 created: 2026-07-13
-updated: 2026-07-21
+updated: 2026-09-02
 related:
   - "[[CLAUDE]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/README]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
   - "[[areas/da-mamma-rosaria/reference/brand]]"
+  - "[[areas/la-masseria-di-mezzautunno/reference/design]]"
 ---
 
 # Tono di voce & regole editoriali — La Masseria di Mezz'autunno
@@ -67,6 +68,30 @@ o un problema reale** già mappato in [[areas/la-masseria-di-mezzautunno/referen
   spaziatura per far respirare.
 - Si stacca, si va a capo, si lascia il vuoto dove serve.
 - Mai superlativi vuoti, mai tono da stock. Ogni promessa è ancorata a qualcosa di vero.
+
+## Le formule vietate
+
+Dal brand kit, pagina «Tono di voce». Sono formule morte: si trovano identiche sui materiali di
+qualsiasi altra attività, ed è la ragione per cui non si usano.
+
+- «esperienza indimenticabile»
+- «per tutta la famiglia»
+- «vi invitiamo a partecipare»
+- «evento unico nel suo genere»
+- «non perdere l'opportunità»
+- «ti aspettiamo numerosi»
+- «clicca qui»
+
+Al loro posto, le quattro frasi che il brand kit indica come giuste, e che funzionano perché
+descrivono una cosa vera invece di promettere un aggettivo:
+
+> «L'autunno che i tuoi figli racconteranno per mesi.»
+> «Una giornata che si vive con tutti i sensi.»
+> «Le date si riempiono in fretta.»
+> «Qui arrampicarsi sul fieno non è vietato.»
+
+Si aggiunge alla lista di [[CLAUDE#Come non si scrive mai|Come non si scrive mai]], non la
+sostituisce: quella vale su tutti i brand, questa è della Masseria.
 
 ## Emoji
 

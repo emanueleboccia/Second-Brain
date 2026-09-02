@@ -72,7 +72,7 @@ domanda è «cosa gli dico», è vendita; se è «come lo faccio», è questa.
 | L'indice del cervello | `llms.txt` alla radice, sezione `docs/` | sì |
 | I principi di web design | `docs/web-design/`, solo le note che servono | sì |
 | Le contraddizioni non risolte | `docs/web-design/contraddizioni-aperte.md` | sì, se la situazione ne tocca una |
-| La scheda cliente | `entities/<attivita>.md`, se esiste | no |
+| La scheda cliente | `entities/clienti/<nome>/scheda.md`, se esiste | no |
 | La nota di progetto | `projects/<progetto>/`, se esiste | no |
 | L'identità del brand di famiglia | `areas/<brand>/`, se il progetto è di uno dei tre | sì, in quel caso |
 | Su che traccia sta il progetto | `docs/web-design/custom-o-wordpress.md` | sì, se la domanda tocca lo strumento |
@@ -81,9 +81,11 @@ domanda è «cosa gli dico», è vendita; se è «come lo faccio», è questa.
 **Il nome del cliente non è obbligatorio.** Se manca, si va ai casi limite e si lavora sul metodo
 generale.
 
-> **Oggi `entities/` e `projects/` sono vuote.** Non è un errore ed è lo stato del 26/08/2026:
-> vuol dire che quasi ogni richiesta cadrà nel caso limite «progetto sconosciuto», che non è un
-> blocco. Si guarda comunque, perché la cartella può essersi popolata da ieri.
+> **Aggiornato il 02/09/2026: `entities/clienti/` non è più vuota.** Dal 01/09/2026 ci sono cinque
+> cartelle cliente — Sistema Evolve, Girarrosto Liberti, La Sartoria dei Piccoli, Sidel, L'Étoile —
+> quindi per quei nomi il contesto c'è e va letto. `projects/` invece **non esiste ancora**: nessun
+> lavoro l'ha richiesta, e non si crea in anticipo. Finché non c'è, il passo sulla nota di progetto
+> si salta senza che sia un caso limite.
 
 ## Passaggi
 
@@ -129,9 +131,10 @@ generale.
 
 5. **Guarda se il progetto ha un contesto.** Due posti, e sono diversi:
 
-   - **`entities/<attivita-in-minuscolo-con-trattini>.md`** — la scheda del cliente. L'entità è
-     **l'attività che paga**, non la persona: il girarrosto, non il tizio del girarrosto. Dice cosa
-     gli serve, cosa è già stato proposto, dove si è arrivati.
+   - **`entities/clienti/<nome-in-minuscolo-con-trattini>/`** — la cartella del cliente, quattro
+     file: `scheda.md`, `brand-book.md`, `storico.md`, `recensioni.md`. Per impostare un sito servono
+     la scheda e lo storico. L'entità è **l'attività che paga**, non la persona: il girarrosto, non
+     il tizio del girarrosto. Il modello sta in `entities/clienti/_modello/`.
    - **`projects/<progetto>/`** — il lavoro in corso, se ne esiste uno. Lì dentro si legge prima il
      `CLAUDE.md` se c'è, poi il `MEMORY.md`: le decisioni già prese su quel sito valgono più di
      qualsiasi principio generale, perché sono già state discusse.

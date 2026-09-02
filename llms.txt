@@ -1,4 +1,4 @@
-# Company Brain di Emanuele
+# Second Brain di Emanuele
 
 <!-- FILE DERIVATO — NON MODIFICARE A MANO.
      Si rigenera da capo con `python3 code/genera-llms.py` ogni volta che il vault cambia.
@@ -14,9 +14,10 @@ file sbagliato.
 
 ## `self/` — Chi è Emanuele: identità, tono, offerta, tariffario del suo lavoro.
 
+- [[self/competenze]] -- La mappa di cosa so fare, con il livello autovalutato, cosa vale la pena far crescere e cosa conviene delegare. Struttura pronta: i livelli li dà Emanuele, perché autovalutarsi al posto di qualcun altro non ha senso.
 - [[self/reference/brand]] -- Chi è Emanuele come professionista: il percorso a gradini inglobati dalla grafica al marketing, la tesi per cui il marketing è un ramo aziendale obbligatorio, l'arco che va dal sentirsi stretto da dipendente alla fusione di marketing, codice e design.
 - [[self/reference/caption]] -- Il formato prototipo del personal brand — problema concreto, soluzione su misura, differenza dimostrabile — nato dal primo video già individuato su Girarrosto Liberti, e le condizioni perché un contenuto possa esistere.
-- [[self/reference/design]] -- Scoperto: l'intervista del 27/08/2026 sul personal brand non ha toccato l'identità visiva, e qui c'è l'elenco di cosa manca — colori, caratteri, marchio, trattamento dei media, format grafici — da compilare partendo dalla proposta esistente.
+- [[self/reference/design]] -- L'identità visiva del personal brand: i tre caratteri liberi — Archivo, JetBrains Mono, Helvetica — la palette monocroma dark su nero, crema #EEEBDA e bianco, la gerarchia fatta di luce invece che di colore, il fondale firma a quattro strati e i quattro componenti che ne discendono.
 - [[self/reference/offerta]] -- Cosa vende il personal brand — siti, software, automazioni AI, sistemi interni e ottimizzazione dei processi — e i tre sistemi verticali in costruzione per food, palestre e auto, che restano dentro il brand finché non sono certificati.
 - [[self/reference/target]] -- A chi parla il personal brand: imprese locali della zona vesuviana e della Campania per farsi un nome sul territorio, e aziende ambiziose, con l'espansione nazionale come obiettivo dichiarato e non come punto di partenza.
 - [[self/reference/tono]] -- Come parla Emanuele quando parla di sé: pragmatico ed elementare, definito prima per esclusione — niente guru, niente motivazionale, niente tecnicismi, niente promesse numeriche — e retto dalla regola che ogni affermazione mostri una differenza prima/dopo dimostrabile.
@@ -51,7 +52,7 @@ file sbagliato.
 - [[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]] -- L'evento d'autunno da cui viene il nome della Masseria: cosa è stata l'edizione 2025 andata sold out, l'identità del progetto e cosa manca per l'edizione in corso.
 - [[areas/la-masseria-di-mezzautunno/reference/brand]] -- Cos'è la Masseria, l'unione di Da Mamma Rosaria e Funny Show da cui nasce, i quattro progetti stagionali, il doppio target famiglie/scuole e cosa la distingue dagli altri due brand di famiglia.
 - [[areas/la-masseria-di-mezzautunno/reference/caption]] -- Impalcatura vuota: come si scrivono le caption della Masseria, ancora da scrivere.
-- [[areas/la-masseria-di-mezzautunno/reference/design]] -- Impalcatura vuota: l'identità visiva della Masseria e dei suoi progetti, ancora da scrivere.
+- [[areas/la-masseria-di-mezzautunno/reference/design]] -- Logo e sue regole d'uso, i sei colori con il ruolo di ciascuno, i tre font e i loro compiti, l'anatomia di un post e il catalogo dei format: quello che il brand kit su Drive stabilisce, riportato qui perché valga anche fuori da Drive.
 - [[areas/la-masseria-di-mezzautunno/reference/offerta]] -- Il modello comune agli eventi: biglietto Clappit per le famiglie e brochure su richiesta per le scuole, chi mette cosa fra i due brand madre, com'è fatta una giornata e il plus delle feste private nel parco.
 - [[areas/la-masseria-di-mezzautunno/reference/target]] -- I due pubblici e le loro logiche opposte: Valentina e Paola & Gennaro che comprano il biglietto d'impulso, Maestra Teresa che chiede la brochure con anticipo.
 - [[areas/la-masseria-di-mezzautunno/reference/tono]] -- Le tre fasi di ogni evento invece dei mesi fissi, i due registri per famiglie e scuole, come si scrive il copy, i prezzi che qui si comunicano e la riprova sociale ammessa.
@@ -80,9 +81,11 @@ file sbagliato.
 ## `docs/` — Procedure, checklist, definizioni di fatto.
 
 - [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
+- [[docs/casi/girarrosto-liberti]] -- Dal registro degli ordini su carta a un sistema di ordinazioni digitale. Primo caso del ricettario: impalcatura pronta, i fatti e i numeri li dà Emanuele.
 - [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
 - [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal, Preventivo, Consigliere vendita, Estrai lead, Web design e Regia video già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding.
 - [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
+- [[docs/registro-strumenti]] -- Ogni strumento provato o adottato, con stato, uso e verdetto datato: cosa è attivo, cosa è in prova, cosa è stato scartato e cosa aspetta di essere rivalutato. Evita di ricominciare da zero una valutazione già fatta.
 - [[docs/vendita/agenda-a-scelta-chiusa]] -- Non si chiede «quando sei libero?»: si danno due opzioni precise di giorno e di fascia oraria, per dimostrare un'agenda piena e mantenere il controllo.
 - [[docs/vendita/ascolto-e-allineamento]] -- Non si risponde mai di petto a un'obiezione: si ascolta in silenzio, ci si mette dalla parte del cliente validando la sua preoccupazione, e solo con le difese abbassate si comincia a scavare.
 - [[docs/vendita/auto-vendita-del-venditore]] -- Nessun accordo si chiude se in cuor suo il venditore è d'accordo con la scusa del cliente: serve una convinzione totale del valore del proprio prodotto.
@@ -102,6 +105,7 @@ file sbagliato.
 - [[docs/vendita/mantenimento-clienti]] -- Un minimo giornaliero anche su chi ha già comprato: contattare via messaggio il 10% della lista clienti attivi ogni giorno, per tenere vivo il rapporto e generare referral.
 - [[docs/vendita/metriche-della-vendita]] -- Il processo commerciale è un motorino di ingranaggi consequenziali da misurare ogni giorno: contatti, chiamate, risposte, appuntamenti fissati e presentati, pitch, chiusure, incasso.
 - [[docs/vendita/micro-commitment]] -- Se il cliente non è pronto al passo grande gliene si fa fare uno piccolo — un acconto, l'ingresso nel gruppo di onboarding — che lo vincola psicologicamente ad andare fino in fondo.
+- [[docs/vendita/obiezioni]] -- Cosa chiedono davvero i clienti quando frenano, come ho risposto e com'è andata a finire. Si riempie dopo ogni trattativa, non prima: le obiezioni immaginate non somigliano a quelle vere.
 - [[docs/vendita/obiezioni-fumogeno]] -- «Ci devo pensare», «ne parlo con mia moglie», «devo valutare altre offerte» non sono quasi mai il vero blocco: sono muri difensivi che nascondono una credenza limitante.
 - [[docs/vendita/permesso-di-offerta]] -- Non si impone il pitch: si chiede l'autorizzazione a mostrare la soluzione, per dare al cliente l'illusione del controllo e predisporlo all'ascolto.
 - [[docs/vendita/pitch-panoramico]] -- Il servizio si descrive per step logici e sequenziali, come un diagramma di flusso: fa percepire al cliente una strada tracciata e una guida sicura.
@@ -226,11 +230,36 @@ file sbagliato.
 
 ## `entities/` — Clienti e fornitori.
 
-*Nessuna nota.*
+- [[entities/clienti/_modello/brand-book]] -- Modello di brand book cliente: tono di voce, colori e tipografia, e soprattutto cosa si può dire e cosa no. Serve a scrivere e progettare per lui senza richiedere ogni volta.
+- [[entities/clienti/_modello/recensioni]] -- Modello per i feedback di un cliente: citazioni testuali con data e canale, pronte da usare come riprova nelle proposte e nei contenuti, senza doverle riscrivere a memoria.
+- [[entities/clienti/_modello/scheda]] -- Modello di scheda cliente: anagrafica, stato, cosa gli è stato venduto, prezzi praticati e la catena dei referral in entrata e in uscita. Si copia e si rinomina, non si compila qui.
+- [[entities/clienti/_modello/storico]] -- Modello dello storico cliente: lavori consegnati, appuntamenti e accordi presi, compresi quelli fatti a voce o su WhatsApp. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/girarrosto-liberti/brand-book]] -- Tono, colori e limiti di Girarrosto Liberti. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
+- [[entities/clienti/girarrosto-liberti/recensioni]] -- Feedback e citazioni testuali di Girarrosto Liberti, da usare come riprova nelle proposte e nei contenuti.
+- [[entities/clienti/girarrosto-liberti/scheda]] -- Girarrosto Liberti, referente Marco Pappacena: sito attivo e sistema di ordinazioni interno costruito su misura. È il caso studio più citato e ha già prodotto due referral, una recensione e un video.
+- [[entities/clienti/girarrosto-liberti/storico]] -- Lavori, appuntamenti e accordi presi con Girarrosto Liberti, ricostruiti dalle note di sessione. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/l-etoile/brand-book]] -- Tono, colori e limiti di L'Étoile. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
+- [[entities/clienti/l-etoile/recensioni]] -- Feedback e citazioni testuali di L'Étoile, da usare come riprova nelle proposte e nei contenuti.
+- [[entities/clienti/l-etoile/scheda]] -- L'Étoile, delle cugine di Emanuele: sito su Shopify, rapporto già avviato e lavori futuri previsti. Il legame è anche familiare, e questo cambia come si trattano prezzi e tempi.
+- [[entities/clienti/l-etoile/storico]] -- Lavori, appuntamenti e accordi presi con L'Étoile, ricostruiti dalle note di sessione. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/la-sartoria-dei-piccoli/brand-book]] -- Tono, colori e limiti di La Sartoria dei Piccoli. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
+- [[entities/clienti/la-sartoria-dei-piccoli/recensioni]] -- Feedback e citazioni testuali di La Sartoria dei Piccoli, da usare come riprova nelle proposte e nei contenuti.
+- [[entities/clienti/la-sartoria-dei-piccoli/scheda]] -- La Sartoria dei Piccoli: hosting in scadenza il 18/09/2026 e sito in restyling. Cartella aperta perché la scadenza è vicina e il lavoro è in corso, non perché il vault sappia molto di loro.
+- [[entities/clienti/la-sartoria-dei-piccoli/storico]] -- Lavori, appuntamenti e accordi presi con La Sartoria dei Piccoli, ricostruiti dalle note di sessione. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/sidel/brand-book]] -- Tono, colori e limiti di Sidel srl. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
+- [[entities/clienti/sidel/recensioni]] -- Feedback e citazioni testuali di Sidel srl, da usare come riprova nelle proposte e nei contenuti.
+- [[entities/clienti/sidel/scheda]] -- Sidel srl, titolare Pierluigi Ammirati: cliente arrivato per passaparola, sito WordPress online con hosting fino al 2027 e assistenza su richiesta. Una nuova versione del sito è progettata ma non ancora mostrata.
+- [[entities/clienti/sidel/storico]] -- Lavori, appuntamenti e accordi presi con Sidel srl, ricostruiti dalle note di sessione. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/sistema-evolve/brand-book]] -- Tono, colori e limiti di Sistema Evolve. Il design system e i loghi esistono già, consegnati ad agosto 2026, ma vivono nel Drive di Evolve: qui va solo quello che serve a scrivere senza richiedere ogni volta.
+- [[entities/clienti/sistema-evolve/recensioni]] -- Feedback su Sistema Evolve. Vuoto: nessuna citazione è stata raccolta, e servirà quando il lavoro di agosto diventerà il caso studio già deciso.
+- [[entities/clienti/sistema-evolve/scheda]] -- Sistema Evolve di Vincenzo Campanino: Emanuele e Karim ne sono l'unico reparto marketing, pagato al 10% minimo sulle vendite generate da sito, campagne e social. I materiali operativi vivono nel loro Drive e nel loro Trello, non qui.
+- [[entities/clienti/sistema-evolve/storico]] -- Lavori, appuntamenti e accordi con Sistema Evolve, dalla prima proposta del 2024 all'ingresso come reparto marketing il 01/09/2026. Ricostruito dalle note di sessione e da Notion.
 
 ## `data/` — Numeri e KPI.
 
-*Nessuna nota.*
+- [[data/campagne]] -- I risultati delle campagne a pagamento: spesa, ritorno, cosa è stato cambiato in corsa. Partiranno con Sistema Evolve, dove il compenso è una percentuale sulle vendite e quindi i numeri della campagna sono anche i propri.
+- [[data/contenuti-pubblicati]] -- Cosa è stato pubblicato e come è andato: formato, canale, numeri e cosa se ne è capito. È la memoria che permetterà di rilanciare quello che ha già funzionato invece di ripartire ogni volta da un'idea nuova.
+- [[data/recensioni]] -- Feedback su lavori che non appartengono a un singolo cliente — sistemi, gestionali, il lavoro dentro Sistema Evolve. Le recensioni di un cliente specifico stanno nella sua cartella, non qui.
 
 ## `code/` — Automazioni e skills.
 

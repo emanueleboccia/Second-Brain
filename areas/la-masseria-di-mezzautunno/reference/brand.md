@@ -8,11 +8,12 @@ tags:
   - posizionamento
 status: attivo
 created: 2026-07-13
-updated: 2026-07-21
+updated: 2026-09-02
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/offerta]]"
+  - "[[areas/la-masseria-di-mezzautunno/reference/design]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/README]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/funny-farm/reference]]"
@@ -68,6 +69,8 @@ e si chiude. La comunicazione segue le stagioni degli eventi, non il calendario 
   pubblico (piattaforma **Clappit**).
 - **Scuole** — la parte didattica. La maestra (o la mamma) **richiede la brochure** dell'evento
   dalla pagina Scuole del sito, e gliela mandiamo con prezzi e informazioni.
+
+Come si veste tutto questo — logo, colori, font, format: [[areas/la-masseria-di-mezzautunno/reference/design|design]].
 
 Chi decide, cosa teme e cosa cerca, pubblico per pubblico: [[areas/la-masseria-di-mezzautunno/reference/target|target]].
 Come funziona l'acquisto e cosa c'è dentro un evento: [[areas/la-masseria-di-mezzautunno/reference/offerta|offerta]].
