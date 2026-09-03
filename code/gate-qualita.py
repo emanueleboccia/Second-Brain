@@ -19,7 +19,8 @@ VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Le cartelle di contenuto: tutto il vault tranne queste.
 CARTELLE_ESCLUSE = {"sources", "workspace"}
 # I file che non sono note: istruzioni, memoria, indici di cartella.
-FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
+# AGENTS.md è l'adattatore per Codex, gemello di CLAUDE.md: istruzioni, non una nota.
+FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md", "AGENTS.md"}
 # Gli alberi che non contengono note: dentro una skill ci sono procedure, script
 # e materiale importato da fuori. Si giudicano da come funzionano, non col gate.
 # code/remotion-test/ è un progetto di prova con dentro node_modules e un checkout
@@ -28,7 +29,14 @@ FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 # areas/finanza/_in/ è materiale grezzo in entrata — estratti conto, esportazioni,
 # appunti — che si svuota quando i numeri sono passati nel quadro. Non sono note e
 # non devono averne la forma. Escluso il 02/09/2026, alla prima consegna di dati.
-ALBERI_ESCLUSI = ("code/skills", "code/remotion-test", "areas/finanza/_in")
+# areas/formazione/corsi/ è materiale di corso importato da Notion: appunti altrui,
+# copiati e non riscritti. Non sono note del vault e non devono avere tre wikilink a
+# testa — forzarli vorrebbe dire inventare collegamenti dentro il testo di qualcun altro.
+# Restano in llms.txt, quindi trovabili; fuori dal grafo, quindi non contestati.
+# La riga DOVE MI SERVE sull'indice di ogni corso resta una regola dell'area, non del gate.
+# Escluso il 03/09/2026, alla prima importazione.
+ALBERI_ESCLUSI = ("code/skills", "code/remotion-test", "areas/finanza/_in",
+                  "areas/formazione/corsi")
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300

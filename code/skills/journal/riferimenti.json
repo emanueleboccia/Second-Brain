@@ -43,7 +43,8 @@
         "nome": "📖 Formazione",
         "cartella": "emanuele",
         "vista": "lista",
-        "uso": "Una riga sola, e solo se c'è qualcosa con una data entro la settimana."
+        "uso": "Una riga sola, e solo se c'è qualcosa con una data entro la settimana.",
+        "_nota_cosa_ci_va": "⚠️ Qui dentro ci vanno SOLO i corsi che Emanuele sta facendo e le lezioni da studiare. Precisato da lui il 03/09/2026. Il lavoro di costruzione del Second Brain — importare corsi, sistemare l'area, scrivere skill — NON è formazione: va in 🌱 Personale o in 💼 Personal Brand a seconda di cosa riguarda. Il criterio è cosa fa la task, non su quale materia insiste."
       },
       "personale": {
         "id": "687129001842110e3f300cdb",
@@ -51,10 +52,11 @@
         "cartella": "emanuele",
         "vista": "kanban",
         "colonne": {
-          "non-iniziato": "6a4fd13e9568116ba459d4b8",
+          "to-do": "6a4fd13e9568116ba459d4b8",
           "appuntamenti": "68991cfa4a6d911f0d9792bb",
           "scadenze": "68a581c08c3cd1030f473fd5"
         },
+        "_nota_todo": "La colonna 6a4fd13e9568116ba459d4b8 su TickTick si chiama «📝 To-do», rinominata il 03/09/2026. Personale non è un kanban di lavoro in corso: è una lista di to-do dove si spunta direttamente. Non ha una colonna «In corso», ed è voluto.",
         "_nota_privacy": "⚠️ Di questa lista il briefing dice SOLO titolo e ora. Mai il contenuto, mai le note: sono cose sue e possono essere private."
       },
       "digitale": [

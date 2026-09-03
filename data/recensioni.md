@@ -32,6 +32,22 @@ costruiti per la famiglia.
 La citazione si riporta come è stata detta. Ripulita suona scritta, e una riprova che
 suona scritta non è una riprova.
 
+## A chi chiederle, in ordine
+
+Segnato il 03/09/2026. Nessuna è stata ancora chiesta, e sono tutte cose già consegnate e
+funzionanti: **è credito già maturato che non si sta incassando.**
+
+1. **Raffaele**, sul **gestionale eventi** di Da Mamma Rosaria. È il primo della lista: il
+   sistema gira da mesi e ha cambiato come lavorano.
+2. **Raffaele**, sui **siti dei tre brand di famiglia** — Da Mamma Rosaria, Tenuta Don Gaetano,
+   La Masseria di Mezz'autunno.
+3. **Marco Pappacena**, sul sistema di ordinazione del Girarrosto. La sua sta nella cartella
+   cliente, non qui — ma è la stessa richiesta, e conviene farle insieme.
+
+⚠️ **Che sia famiglia non la rende meno vera.** Una recensione di Raffaele sul gestionale è la
+prova che quel sistema funziona in un'attività reale, ed è esattamente quello che serve per
+venderlo a qualcun altro. Va chiesta con le sue parole, e va detto che servirà pubblicamente.
+
 ## Recensioni
 
 > Vuoto.

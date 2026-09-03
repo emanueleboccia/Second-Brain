@@ -152,7 +152,8 @@ lista morta.
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Consigliere vendita** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/consigliere-vendita.md`](../../../docs/definizioni/consigliere-vendita.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di rispondere. Se una non torna, si corregge e si riverifica: la risposta
 si dà solo quando passano tutte.

@@ -2,28 +2,47 @@
 
 Dal AAAA-MM-GG al AAAA-MM-GG.
 
-## 1 · Cosa ha mosso davvero il business
+## 1 · Le vittorie
 
-Le cose che hanno prodotto soldi, un cliente, o una decisione che sblocca soldi.
-Non «ho lavorato su»: cosa si è mosso.
+Cosa è andato bene questa settimana, detto per nome. Non «ho lavorato su»: cosa è **successo**.
+Un cliente che ha risposto, una cosa consegnata, una decisione presa, un sistema che ora funziona
+e prima no.
 
-## 2 · Cosa era produttività finta
+**Si apre da qui, e non si sbriga.** Una settimana ha sempre qualcosa dentro, e chi lavora da solo
+non se lo sente dire da nessuno.
 
-Il tempo speso su cose che sembravano lavoro e non hanno spostato niente. Sistemare
-strumenti, riordinare, ottimizzare qualcosa che nessuno usa ancora.
+## 2 · Il giro delle aree
 
-Va scritto senza girarci intorno: è l'unica domanda che nessun altro farà.
+Un passaggio veloce su tutto, per vedere cosa si muove e cosa è fermo.
 
-## 3 · Quale decisione sto evitando
+- **Personale**
+- **Personal brand** — clienti, proposte, contenuti
+- **Da Mamma Rosaria · La Masseria · Tenuta Don Gaetano**
+- **Sistema Evolve**
+- **Formazione**
+- **Finanza**
 
-Quella che si rimanda da settimane perché ha un costo o un rischio. Si scrive il nome
-della decisione, non la spiegazione del perché è complicata.
+Per ognuna: cosa è successo, e cosa deve succedere. Se un'area è ferma, si scrive che è ferma —
+è un'informazione, non un buco da riempire.
 
-## 4 · Cosa devo smettere di fare
+⚠️ **E poi la domanda scomoda: cosa era produttività finta?** Il tempo speso su cose che
+sembravano lavoro e non hanno spostato niente — sistemare strumenti, riordinare, ottimizzare
+qualcosa che nessuno usa ancora. È l'unica domanda che nessun altro ti farà.
 
-Una cosa sola. Una lista di cose da smettere non si applica.
+## 3 · Gli obiettivi
+
+Lo stato di quelli nella lista 🎯 Obiettivi di TickTick. Per ognuno: si è mosso o no.
+
+⚠️ **Quello che conta di più: quale obiettivo non ha niente che lo muova.** Un obiettivo senza
+nessuna task che lo tocchi è la cosa più utile che questa sezione può dire.
+
+## 4 · Le tre priorità della settimana che viene
+
+Tre, non cinque. Trasversali su tutto: lavoro, famiglia, personale.
+
+Sono quelle che il **briefing del lunedì** rileggerà: qui si scrive, lì si ritrova.
 
 ---
 
-**Se una risposta è «niente», si scrive «niente».** Una review riempita per abitudine è
-la produttività finta della domanda 2.
+**Se una risposta è «niente», si scrive «niente».** Una review riempita per abitudine non serve
+a nessuno.

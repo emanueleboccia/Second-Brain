@@ -95,8 +95,13 @@ l'avevo scritto come nota dentro una task aperta, ragionando che TickTick tiene 
 cronaca sta nel diario. Sbagliato: così il lavoro fatto non compare da nessuna parte come fatto.
 
 **La prossima volta:** quando Emanuele dice che una cosa è **già fatta**, su TickTick si crea la
-task e si spunta. Il completato è un dato suo, non rumore: gli serve per vedere cosa ha chiuso.
-Il diario continua a raccontare *com'è andata*, TickTick registra *che è successo*.
+task, si sposta in **⏳ In corso** e solo da lì si spunta. Il completato è un dato suo, non
+rumore: gli serve per vedere cosa ha chiuso. Il diario continua a raccontare *com'è andata*,
+TickTick registra *che è successo*.
+
+⚠️ **Precisato da Emanuele il 03/09/2026.** In ⌛️ Non iniziato non deve esserci niente
+di completato. Il passaggio da In corso non è facoltativo e non si salta nemmeno quando la task
+nasce dopo che il lavoro è già stato fatto.
 
 Vale anche la seconda metà: se dice «già fatto» senza dire cosa, si chiede. «Grandi modifiche»
 dentro una task fra un mese non dice più niente a nessuno.
@@ -278,3 +283,76 @@ la prova del risultato.** L'audio del 31/08 «riuscito» e mai atterrato, il for
 che ha colorato di rosso quaranta righe rispondendo OK quattro volte, e adesso questa. La regola
 non è «controlla di più»: è che **la verifica si fa su quello che vede Emanuele**, non su quello
 che risponde l'API.
+
+## 03/09/2026 — Una cartella con lo stesso nome di una nota se ne mangia i link
+
+Spezzando le definizioni di fatto ho creato `docs/definizioni-di-fatto/` accanto alla nota
+`docs/definizioni-di-fatto.md`, tenendo la nota come indice. Il gate è passato da 1 errore a 6.
+Il motivo: il risolutore dei wikilink prova **prima il percorso nudo** e poi quello con `.md`,
+quindi `[[docs/definizioni-di-fatto]]` ha smesso di puntare alla nota e ha cominciato a puntare
+alla cartella — che non è una nota. Ogni collegamento a quell'indice, comprese otto note di
+diario vecchie, è diventato muto senza che nessun link risultasse rotto.
+
+**La prossima volta:** una cartella non si chiama mai come una nota che le sta accanto. Se si
+spezza una nota in più file, la cartella prende un nome diverso — qui `docs/definizioni/` — e
+l'indice resta l'unico a portare il nome originale, così i link scritti in passato continuano
+a funzionare.
+
+Il sintomo è ingannevole: **la regola sui link rotti resta verde**, perché il bersaglio esiste
+davvero. A saltare sono le regole sul grafo — collegamenti in uscita e note orfane. Un conteggio
+di link che cala di colpo dopo aver creato una cartella è quasi sempre questo.
+
+## 03/09/2026 — Una task non si spunta dalla colonna «Non iniziato»
+
+Oggi ho completato varie task direttamente mentre erano in ⌛️ Non iniziato. Il risultato è una
+colonna «Non iniziato» con dentro cose spuntate, che è una contraddizione: se è fatta non è più
+«non iniziata». Emanuele me l'ha corretto.
+
+**La prossima volta:** il giro giusto è **prima si sposta la task in ⏳ In corso, poi si spunta.**
+Nella colonna «Non iniziato» non deve esistere niente di completato. Vale per ogni lista che ha
+la colonna In corso — 💼 Personal Brand, le tre Digitale, e Trello (che però è sola lettura).
+
+⚠️ **La lista 🌱 Personale funziona in modo diverso, e va bene così.** Non è un kanban di lavoro
+in corso: è una lista di **to-do personali**, dove una cosa si spunta **direttamente** quando è
+fatta. La colonna non è un «Non iniziato» in attesa di un «In corso» — è un «To-do» e basta. Lì
+il giro In corso → spunta **non si applica**, e spuntare sul posto è corretto, non un errore.
+
+La regola dell'In corso vale solo dove si traccia il lavoro che avanza: 💼 Personal Brand, le tre
+Digitale, e Trello (in sola lettura).
+
+⚠️ **Il lavoro sul Second Brain non ha una casa fissa.** Alcune cose sono personali (vanno in
+🌱 Personale) e altre sono del personal brand (vanno in 💼 Personal Brand). Si decide caso per
+caso guardando cos'è la task, **non si manda tutto in Personal Brand per comodità.**
+
+## 03/09/2026 — Un collegamento assente dalla sessione può essere installato
+
+Passando da Claude a Codex ho trattato Notion, TickTick e Calendar come indisponibili perché non
+comparivano tra gli strumenti della sessione. Era solo lo stato iniziale di Codex: il CLI dispone
+di plugin e marketplace propri, e prima di dichiarare un servizio inutilizzabile vanno controllati.
+
+**La prossima volta:** distinguere fra «non caricato in questa sessione» e «non disponibile».
+Prima si controllano i plugin installabili, gli MCP configurabili e le connessioni già presenti;
+solo dopo si dichiara un limite. Le configurazioni aggiunte per Codex non devono modificare
+`.claude/`, `CLAUDE.md` o i collegamenti che Claude usa già.
+
+## 03/09/2026 — Una skill nuova si passa dallo skill-creator, non si scrive a mano
+
+Ho scritto la skill `crea-contenuto` partendo dal foglio bianco. Il `README.md` di `code/skills/`
+dice l'opposto, ed è una riga scritta apposta: **ogni skill nuova si costruisce invocando lo
+skill creator**, e non si scrive più a mano. L'ho notato io a cose fatte e l'ho detto a Emanuele,
+che me l'ha fatta ripassare.
+
+Ripassandola dal metro dello skill-creator, la bozza reggeva su quasi tutto — lunghezza, livelli
+di caricamento, «spiega il perché invece di imporre», le cinque sezioni del vault — ma **mancava
+del tutto la parte sugli esempi concreti**, che lo skill-creator considera centrale. Aggiunti: un
+esempio di tre hook di tipi diversi e uno di giudizio fatto bene contro uno fatto male.
+
+**La prossima volta:** prima di scrivere una skill si apre `code/skills/skill-creator/SKILL.md` e
+si segue quello. Non perché sia un obbligo formale, ma perché la parte che salta scrivendo a mano
+è sempre la stessa: **quello che non ti viene in mente da solo.** Una convenzione del vault che
+si scopre di aver violato a lavoro finito è una convenzione che non è stata letta.
+
+⚠️ **Quello che non abbiamo fatto, e va detto:** lo skill-creator prevede anche un giro di
+**test prompt e valutazione** — si fa girare la skill su casi veri e si misura. Non l'abbiamo
+fatto. La skill è scritta bene sulla carta, ma **non è ancora stata provata su un contenuto
+vero**. La prova sarà il primo script che produce.

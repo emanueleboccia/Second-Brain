@@ -39,6 +39,56 @@ file sbagliato.
 - [[areas/da-mamma-rosaria/reference/regole-editoriali]] -- Il mese tipo con la composizione dei dodici post, la checklist da passare prima di pubblicare, gli undici no del marchio e le misure di export.
 - [[areas/da-mamma-rosaria/reference/target]] -- Carmela, Lucia e Giusy: chi sono, i dolori a importanza alta con i desideri corrispondenti, e come si parla a ciascuna.
 - [[areas/da-mamma-rosaria/reference/tono]] -- Come si scrive per Da Mamma Rosaria: fase di vendita, voce di famiglia, niente napoletano e niente prezzi, le formule vietate e i temi che non si toccano ancora.
+- [[areas/formazione/corsi/customer-onboarding/02-trovare-clienti]] -- Modulo 2 del corso Customer Onboarding Strategic Pack, importato da Notion il 03/09/2026: 5 lezioni su come trovare e selezionare i clienti, la call di vendita, il pricing e il preventivo.
+- [[areas/formazione/corsi/customer-onboarding/03-gestione-della-collaborazione]] -- Modulo 3 del corso Customer Onboarding Strategic Pack, importato da Notion il 03/09/2026: 6 lezioni dal contratto alla consegna, con la call di onboarding, l'assistenza e l'up & cross sell.
+- [[areas/formazione/corsi/customer-onboarding/indice]] -- Indice del corso Customer Onboarding Strategic Pack di Luigi Nigro, importato da Notion il 03/09/2026: 11 lezioni in 2 moduli, con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/01-la-psicologia-nella-finanza-personale]] -- Modulo 1 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 4 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/02-consapevolezza-finanziaria]] -- Modulo 2 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 3 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/03-guadagno]] -- Modulo 3 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 4 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/04-risparmio]] -- Modulo 4 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 6 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/06-obiettivi-finanziari]] -- Modulo 6 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 4 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/07-freelancer-accounting]] -- Modulo 7 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 7 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/08-one-more-thing]] -- Modulo 8 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 1 lezione con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/09-modulo-zero]] -- Modulo 9 del corso Disciplina Finanziaria, importato da Notion il 03/09/2026: 3 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/disciplina-finanziaria/indice]] -- Indice del corso Disciplina Finanziaria di Luigi Nigro, importato da Notion il 03/09/2026: 32 lezioni in 8 moduli, con gli appunti originali.
+- [[areas/formazione/corsi/impossible-university/altro/01-tg-theory]] -- Sezione Altro di Impossible University: 1 lezione fuori dai moduli, con 1 blocco di appunti di Emanuele. Importata da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/branding/01-la-bibbia-del-branding]] -- Sezione Branding di Impossible University, modulo «Modulo 1: La Bibbia del Branding»: 9 lezioni, di cui 9 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/business-planning/01-business-planning]] -- Sezione Business Planning di Impossible University, modulo «Modulo 1: Business Planning»: 8 lezioni, di cui 8 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/finance/01-intelligenza-finanziaria]] -- Sezione Finance di Impossible University, modulo «Modulo 1: Intelligenza Finanziaria»: 3 lezioni. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/indice]] -- Indice di Impossible University di Alex & Frank Theory: 11 sezioni, 10 moduli studiati e importati con 51 lezioni e 34 blocchi di appunti di Emanuele. Il corso cresce nel tempo: non ha un traguardo.
+- [[areas/formazione/corsi/impossible-university/marketing/01-funnel-marketing]] -- Sezione Marketing di Impossible University, modulo «Modulo 1: Funnel Marketing»: 8 lezioni, di cui 2 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/mindset/01-mindset]] -- Sezione Mindset di Impossible University, modulo «Modulo 1: Mindset»: 4 lezioni, di cui 4 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/mindset/02-mindset-nella-storia]] -- Sezione Mindset di Impossible University, modulo «Modulo 2: Mindset nella storia»: 5 lezioni, di cui 5 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/mindset/03-billionaire-vision]] -- Sezione Mindset di Impossible University, modulo «Modulo 3: Billionaire Vision»: 3 lezioni. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/mindset/04-mindset-mentality]] -- Sezione Mindset di Impossible University, modulo «Modulo 4: Mindset Mentality»: 5 lezioni. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/impossible-university/theory-leaks/01-theory-mentality]] -- Sezione Theory Leaks di Impossible University, modulo «Theory Mentality»: 5 lezioni, di cui 5 blocchi «appunti disordinati» di Emanuele. Importate da Notion il 03/09/2026.
+- [[areas/formazione/corsi/sma-social-media-manager/01-business-planning]] -- Modulo 1 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: una lezione con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/02-corso-di-social-media-management]] -- Modulo 2 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: 22 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/03-videomaking-e-videoediting]] -- Modulo 3 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: 7 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/05-advertising-per-social-media-manager]] -- Modulo 5 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: 11 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/06-principi-di-marketing]] -- Modulo 6 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: una lezione con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/07-principi-di-vendita]] -- Modulo 7 del corso SMA · Social Media Manager, importato da Notion il 03/09/2026: una lezione con gli appunti originali.
+- [[areas/formazione/corsi/sma-social-media-manager/indice]] -- Indice del corso SMA · Social Media Manager di Alex & Frank Theory, importato da Notion il 03/09/2026: 43 lezioni in 6 moduli, con gli appunti originali modulo per modulo.
+- [[areas/formazione/corsi/sma-venditore/02-corso-di-vendita]] -- Modulo 2 del corso SMA · Venditore, importato da Notion il 03/09/2026: 6 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-venditore/indice]] -- Indice del corso SMA · Venditore di Alex & Frank Theory, importato da Notion il 03/09/2026: 6 lezioni in 1 moduli, con gli appunti originali modulo per modulo.
+- [[areas/formazione/corsi/sma-web-designer/01-business-planning]] -- Modulo 1 del corso SMA · Web Designer, importato da Notion il 03/09/2026: una lezione con gli appunti originali.
+- [[areas/formazione/corsi/sma-web-designer/02-la-teoria-del-webdesign]] -- Modulo 2 del corso SMA · Web Designer, importato da Notion il 03/09/2026: 11 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-web-designer/03-corso-pratico-di-web-design]] -- Modulo 3 del corso SMA · Web Designer, importato da Notion il 03/09/2026: 13 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/sma-web-designer/indice]] -- Indice del corso SMA · Web Designer di Alex & Frank Theory, importato da Notion il 03/09/2026: 25 lezioni in 3 moduli, con gli appunti originali modulo per modulo.
+- [[areas/formazione/corsi/web-design-starter-pack/02-introduzione-a-wordpress-e-elementor]] -- Modulo 2 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 3 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/03-hosting-e-del-dominio]] -- Modulo 3 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 5 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/04-progettazione-della-user-experience]] -- Modulo 4 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 3 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/05-personalizzazione-del-sito]] -- Modulo 5 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 5 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/06-plugin-di-wordpress-e-funzionalita-extra]] -- Modulo 6 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 1 lezione con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/07-principi-di-design-e-di-comunicazione]] -- Modulo 7 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 2 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/08-lavoro-operativo-sul-sito-con-elementor]] -- Modulo 8 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 9 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/09-creazione-del-blog-e-organizzazione-degl]] -- Modulo 9 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 3 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/10-analisi-del-traffico-web]] -- Modulo 10 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 2 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/11-seo]] -- Modulo 11 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 8 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/12-gdpr]] -- Modulo 12 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 5 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/13-pubblicazione-del-sito-sicurezza-informa]] -- Modulo 13 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 5 lezioni con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/14-one-more-thing]] -- Modulo 14 del corso Web Design Starter Pack, importato da Notion il 03/09/2026: 1 lezione con gli appunti originali.
+- [[areas/formazione/corsi/web-design-starter-pack/indice]] -- Indice del corso Web Design Starter Pack di Luigi Nigro, importato da Notion il 03/09/2026: 52 lezioni in 13 moduli, con gli appunti originali.
 - [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/dolori-desideri]] -- Le tabelle estese dolore/desiderio-specchio per Valentina, Paola & Gennaro e Maestra Teresa, con l'importanza di ciascuna riga come gancio.
 - [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/idee-reel]] -- I dolori e i desideri delle persona trasformati in idee di Reel, per famiglie e per scuole su due binari separati, con importanza e fonte di ciascuna.
 - [[areas/la-masseria-di-mezzautunno/knowledge/contenuti/pillar]] -- I quattro pilastri del profilo — meraviglia, dietro le quinte, cosa trovi & FAQ, scuole — più la modalità FOMO che è una fase e non un pilastro.
@@ -80,11 +130,23 @@ file sbagliato.
 
 ## `docs/` — Procedure, checklist, definizioni di fatto.
 
-- [[docs/brief-cliente]] -- Impalcatura vuota: la procedura del brief con un nuovo cliente, ancora da scrivere.
+- [[docs/brief-cliente]] -- Le otto sezioni di domande da fare a un cliente nuovo prima di preparare una proposta: brand, obiettivi, servizi, target, materiali, stile, vincoli ed extra. Non è una procedura, è lo strumento che si usa dentro la prima call.
 - [[docs/casi/girarrosto-liberti]] -- Dal registro degli ordini su carta a un sistema di ordinazioni digitale. Primo caso del ricettario: impalcatura pronta, i fatti e i numeri li dà Emanuele.
 - [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
-- [[docs/definizioni-di-fatto]] -- Quando un lavoro ripetibile è finito: come si usano le condizioni, le voci Journal, Preventivo, Consigliere vendita, Estrai lead, Web design e Regia video già scritte, e le tre ancora da compilare — sito, brief cliente, onboarding.
-- [[docs/onboarding]] -- Impalcatura vuota: la procedura di ingresso di un nuovo cliente, ancora da scrivere.
+- [[docs/definizioni-di-fatto]] -- L'indice delle definizioni di fatto: come si usano le condizioni che dicono quando un lavoro ripetibile è finito, e il rimando alla voce di ogni skill. Le condizioni vere stanno una per file in docs/definizioni-di-fatto/.
+- [[docs/definizioni/brief-cliente]] -- Impalcatura: le condizioni che dicono quando un brief cliente è completo non sono ancora state scritte.
+- [[docs/definizioni/consigliere-vendita]] -- Quando una consulenza di vendita è finita: la situazione riconosciuta, le note giuste citate e una mossa sola da fare.
+- [[docs/definizioni/crea-contenuto]] -- Quando un copione è consegnabile e quando un giudizio su un contenuto è finito: hook nella finestra dei cinque secondi, riprese elencate, una sola cosa da cambiare, e niente che non venga dagli appunti.
+- [[docs/definizioni/estrai-lead]] -- Quando una lista di lead è consegnabile: run pagato una volta sola, righe ripulite e priorità assegnate con un criterio scritto.
+- [[docs/definizioni/journal]] -- Quando il briefing del mattino, la nota di sessione e il daily sono finiti davvero: sezioni, privacy, audio e le scritture ammesse.
+- [[docs/definizioni/onboarding]] -- Quando l'ingresso di un nuovo cliente è concluso: soldi incassati prima di iniziare, cinque consegne fatte in call, paletti sulle modifiche detti prima, e i termini dell'assistenza scritti nella mail di consegna.
+- [[docs/definizioni/preventivo]] -- Quando un preventivo è pronto da mandare: prezzi letti dal tariffario, nessuna cifra inventata, e il file agganciato al cliente.
+- [[docs/definizioni/regia-video]] -- Quando un montaggio è finito: struttura, sottotitoli, durata e le regole numeriche verificate sul file, non sulla stima.
+- [[docs/definizioni/report-finanziario]] -- Quando la chiusura mensile è finita: totali riconciliati sugli estratti conto, quadro aggiornato e dashboard rigenerata.
+- [[docs/definizioni/sito]] -- Impalcatura: le condizioni che dicono quando un sito è consegnato non sono ancora state scritte.
+- [[docs/definizioni/web-design]] -- Quando una pagina o un componente è finito: design system rispettato, responsive verificato e prova guardata davvero.
+- [[docs/onboarding]] -- Cosa succede fra il sì del cliente e l'inizio dei lavori: contratto, fattura, bonifico, e la call di onboarding che consegna la roadmap e raccoglie tutto il materiale. Distillato dal Customer Onboarding Strategic Pack.
+- [[docs/procedure/sito-web-wordpress]] -- La checklist in quattordici fasi che Emanuele usava per costruire un sito WordPress da zero: dal primo incontro al bonifico di saldo, passando per setup, ottimizzazioni, sicurezza, design, SEO, GDPR e test. Salvata com'era, senza aggiornarla.
 - [[docs/registro-strumenti]] -- Ogni strumento provato o adottato, con stato, uso e verdetto datato: cosa è attivo, cosa è in prova, cosa è stato scartato e cosa aspetta di essere rivalutato. Evita di ricominciare da zero una valutazione già fatta.
 - [[docs/vendita/agenda-a-scelta-chiusa]] -- Non si chiede «quando sei libero?»: si danno due opzioni precise di giorno e di fascia oraria, per dimostrare un'agenda piena e mantenere il controllo.
 - [[docs/vendita/ascolto-e-allineamento]] -- Non si risponde mai di petto a un'obiezione: si ascolta in silenzio, ci si mette dalla parte del cliente validando la sua preoccupazione, e solo con le difese abbassate si comincia a scavare.
@@ -272,6 +334,8 @@ dal gate di qualità.
 
 - **consigliere-vendita** — skill · `code/skills/consigliere-vendita/SKILL.md`
   -- Quando Emanuele deve giocare una trattativa e vuole ragionarci prima, o è in mezzo e non sa come rispondere.
+- **crea-contenuto** — skill · `code/skills/crea-contenuto/SKILL.md`
+  -- Due comandi, due momenti opposti.
 - **estrai-lead** — skill · `code/skills/estrai-lead/SKILL.md`
   -- Quando Emanuele vuole una lista di potenziali clienti di un certo tipo in una certa zona.
 - **genera-preventivo** — skill · `code/skills/genera-preventivo/SKILL.md`
@@ -289,4 +353,4 @@ dal gate di qualità.
 
 ## `outputs/` — Deliverable prodotti.
 
-*Nessuna nota.*
+- [[outputs/script/2026-09-03-caso-girarrosto]] -- Copione del reel sul caso Girarrosto: il passaggio da carta e penna al sistema di ordinazione su iPad, mostrato con dati alla mano per far dire a chi guarda «lo voglio anch'io». Primo contenuto del personal brand.

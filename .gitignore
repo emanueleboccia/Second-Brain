@@ -14,6 +14,7 @@ _local/
 
 # skills di terze parti installate con `npx skills add`: le ripristina skills-lock.json
 .claude/skills/
+.agents/skills/
 
 # ⚠️ Dati finanziari personali: reddito, patrimonio, spese, investimenti.
 # Esclusi dal 01/09/2026, PRIMA che l'area esistesse e prima di qualsiasi push.

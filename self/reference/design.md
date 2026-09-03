@@ -115,6 +115,8 @@ alone crema non illumina niente.
 Lo stile di riferimento è il **big type hero**: titolo gigante in Archivo a tutta larghezza, col
 soggetto che entra dentro le lettere invece di stare accanto. I riferimenti visivi stanno in
 `sources/personalbrand/design/`, e di quelli interessa **il trattamento del fondo, non il layout**.
+I siti e i profili salvati come riferimento, col motivo per cui sono stati scelti, stanno sullo
+[[sources/riferimenti/siti-e-profili|scaffale]].
 Una cosa non si prende: **il rosso**. La scala è chiusa. Se un giorno servirà un accento vero, sarà
 una decisione nuova e va scritta qui.
 

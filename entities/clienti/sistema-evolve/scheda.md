@@ -5,9 +5,9 @@ tags:
   - entities
   - clienti
   - sistema-evolve
-status: da-compilare
+status: attivo
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-03
 related:
   - "[[self/MEMORY]]"
   - "[[data/campagne]]"
@@ -75,7 +75,7 @@ I numeri che ne escono si raccolgono in [[data/campagne|campagne]].
 |---|---|---|---|
 | 2024-04-21 | Sito Web Vetrina | 735,00 € | proposta accettata su Notion |
 | 22–28/08/2026 | Due shooting, cervello aziendale con personas, design system, loghi, organigramma | **0 €** | valeva ~3.000 €, non fatturato per scelta |
-| 2026-08-31 | Primo acconto ricevuto | 150,00 € | registrato nel registro lavori del personal brand |
+| 2026-08-31 | **Regalo** di Vincenzo — «mangiatevi una pizza» | 150,00 € | movimento di tipo `Regalo` nel registro lavori. **Non è un acconto e non è il corrispettivo di niente** |
 
 **Il lavoro di agosto non è una perdita da recuperare: è il prezzo di entrare.** In cambio
 restano un caso studio, il materiale per i reel del personal brand, e Karim.

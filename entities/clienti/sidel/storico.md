@@ -19,6 +19,14 @@ Chi è il cliente e com'è finita sta in [[entities/clienti/sidel/scheda|scheda]
 è successo, dal più recente in cima. Gli accordi presi a voce o su WhatsApp si scrivono il
 giorno stesso: è l'unico posto in cui esisteranno.
 
+### 2026-09-03 — Lo stesso giorno, Pierluigi manda un cliente
+**Gaetano Ragosta** chiama Emanuele: vuole un sito, e il numero glielo ha dato Pierluigi.
+Succede nelle stesse ore in cui la trattativa col suo sito viene chiusa per silenzio.
+
+⚠️ **Non risponde per sé, ma fa il tuo nome agli altri.** Vale la pena tenerlo a mente prima di
+trattarlo come un rapporto finito: il silenzio riguardava la sua proposta, non la stima. La
+decisione di non inseguirlo resta — quello che cambia è la lettura, non la mossa.
+
 ### 2026-09-03 — Trattativa chiusa da Emanuele
 Nessuna risposta nemmeno alle schermate del giorno prima. Emanuele decide di smettere: non lo
 ricontatta e non lo rimette in nessuna lista. Se si fa vivo lui, si riapre. È il confine oltre

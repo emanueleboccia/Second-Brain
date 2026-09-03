@@ -5,9 +5,9 @@ tags:
   - entities
   - clienti
   - girarrosto-liberti
-status: da-compilare
+status: attivo
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 # Scheda — Girarrosto Liberti
@@ -17,8 +17,8 @@ updated: 2026-09-01
 
 ## Anagrafica
 
-- **Chi è:** Marco Pappacena, referente. Su Notion risulta il referente di un sito attivo ed è
-  «il caso studio più citato». È **un amico**, e questo cambia come si tratta.
+- **Chi è:** **Marco Pappacena, titolare.** Il locale è suo, di famiglia sua — confermato il
+  03/09/2026. È **un amico**, e questo cambia come si tratta.
 - **Attività:** girarrosto. Prendeva gli ordini al telefono con carta e penna.
 
 ### Cosa gli è stato costruito
@@ -32,26 +32,38 @@ Due pezzi che sono **una cosa sola**, ed è questo il punto del lavoro.
 ⚠️ **Il menù è lo stesso.** Sito e app sono sincronizzati: si aggiorna in un posto e cambia
 in entrambi. È la parte che nessun gestionale a canone gli avrebbe dato e la ragione per cui
 questo è un caso studio invece che un lavoro.
-- **Contatti:** da compilare.
-- **Stato:** cliente attivo, con lavoro ricorrente.
+- **Contatti:** su Notion, database Contatti.
+- **Stato:** cliente attivo. Il lavoro fatto non è stato pagato, ed è una scelta.
 
 ## Cosa gli ho venduto
 
 | Data | Cosa | Prezzo praticato | A listino |
 |---|---|---|---|
-| da compilare | **App per la presa ordini**, su misura | da compilare | voce «App presa ordini» |
-| da compilare | **Sito web con il menù**, sincronizzato con l'app | da compilare | voci «Sito menù» e «Sito vetrina» |
-| 30/08/2026 | Aggiustamenti al sistema di ordinazione | da compilare | — |
+| 30/08/2026 | **App presa ordini + sito menù sincronizzato**, e i successivi aggiustamenti | **0,00 €** | voci «App presa ordini» e «Sito menù» |
 
-I prezzi vanno letti da [[self/tariffario]], ma ⚠️ **quello che gli è stato costruito non è
-una voce di listino**: è un sistema cucito su misura, e il listino da solo non lo copre.
+**Non è stato pagato, ed è voluto.** Marco è un amico e il suo locale è servito come caso
+studio: in cambio del lavoro, Emanuele gira lì il reel che mostra cosa sa fare, e Marco gli
+passa due o tre nomi facendo da garanzia.
 
-⚠️ **Nessun prezzo di questo cliente è scritto nel vault.** Il lavoro del 30/08/2026 risulta
-spuntato su TickTick e **non è nel registro lavori**: è la prima cosa da recuperare.
+Nel registro lavori del personal brand è la riga **`2026-001`, importo zero, stato
+«Non fatturato»**. A zero e non al valore di listino: un lavoro regalato non deve gonfiare il
+venduto, altrimenti falsa il margine e il conto per servizio.
+
+I prezzi vanno letti da [[self/tariffario|tariffario]], ma ⚠️ **quello che gli è stato
+costruito non è una voce di listino**: è un sistema cucito su misura, e il listino da solo non
+lo copre. Il caso completo sta in [[docs/casi/girarrosto-liberti|ricettario dei casi]], gli
+eventi in ordine in [[entities/clienti/girarrosto-liberti/storico|storico]].
 
 ## Catena referral
 
 - **Chi me l'ha mandato:** da compilare.
-- **Chi ha mandato lui:** ⚠️ **due nomi, e non si sa più chi siano.** Il vault registra che
-  Girarrosto Liberti ha dato due referral, oltre a una recensione e a un video. I nomi non
-  sono scritti da nessuna parte. È la cosa più costosa che manca in questa cartella.
+- **Chi me l'ha mandato:** nessuno — è un amico.
+- **Chi ha mandato lui:** **due o tre nomi, non ancora chiesti, e per scelta.**
+
+⚠️ **L'ordine deciso da Emanuele il 03/09/2026: prima il video, poi i nomi.** Non si chiedono
+adesso. Prima si gira e si monta il reel sul caso Girarrosto, poi Marco manda **quel video** ai
+suoi due o tre contatti: così non arriva un nome freddo da chiamare, arriva una persona che ha
+già visto cosa sai fare, presentata da qualcuno di cui si fida.
+
+**Finché il video non esiste, i referral non esistono.** È il video il collo di bottiglia, non
+la richiesta dei nomi.

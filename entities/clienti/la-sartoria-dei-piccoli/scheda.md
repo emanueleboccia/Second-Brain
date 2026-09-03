@@ -5,7 +5,7 @@ tags:
   - entities
   - clienti
   - la-sartoria-dei-piccoli
-status: da-compilare
+status: attivo
 created: 2026-09-01
 updated: 2026-09-03
 ---
@@ -17,24 +17,28 @@ updated: 2026-09-03
 
 ## Anagrafica
 
-- **Chi è:** da compilare.
-- **Attività:** da compilare.
-- **Contatti:** da compilare.
-- **Stato:** cliente attivo, sito in lavorazione.
+- **Chi è:** **Marco Augusto**, titolare.
+- **Attività:** La Sartoria dei Piccoli.
+- **Contatti:** su Notion, database Contatti.
+- **Stato:** cliente storico. **Niente di aperto al 03/09/2026**: il restyling è un'idea di
+  Emanuele, non un lavoro concordato.
 
 ## Cosa gli ho venduto
 
 | Data | Cosa | Prezzo praticato | A listino |
 |---|---|---|---|
-| in corso | Restyling sito: nuova UI/UX, backend, ottimizzazione velocità | da compilare | voce «Restyling sito» |
-| — | Hosting | da compilare | voce «Hosting siti» |
+| 2024 | Lavori passati, da proposte accettate su Notion | da compilare | — |
 
-⚠️ **L'hosting scade il 18/09/2026.** È fatturato ricorrente con una data addosso: la
-scadenza è il motivo per cui questa cartella esiste oggi invece che fra un mese.
+⚠️ **Il restyling non è in questa tabella perché non è stato venduto.** Qui ci va solo quello
+che qualcuno ha comprato.
+
+**L'hosting scade il 18/09/2026 ma lo paga il cliente.** Confermato da Emanuele il 03/09/2026:
+al momento nessun cliente esterno compra hosting da lui. Non è fatturato ricorrente, è una data
+da sapere — e semmai un motivo per farsi sentire.
 
 ## Catena referral
 
-- **Chi me l'ha mandato:** da compilare.
+- **Chi me l'ha mandato:** **passaparola** — è un **amico del fratello di Emanuele**.
 - **Chi ha mandato lui:** da compilare.
 
 ## Il restyling — ancora non proposto
@@ -47,4 +51,7 @@ manca l'appiglio da cui partire.
 colonna «In corso», ma nessuno le ha comprate.** È lavoro che Emanuele si è messo in testa, non
 lavoro concordato. Nel registro lavori non esistono, e non devono esistere finché non c'è un sì.
 
-**Chi me l'ha mandato:** passaparola — è un **amico del fratello di Emanuele**.
+Gli eventi in ordine stanno in [[entities/clienti/la-sartoria-dei-piccoli/storico|storico]], i
+prezzi da cui partire in [[self/tariffario|tariffario]]. L'appiglio da cercare è una ragione
+vera per farsi sentire, non un saluto: vale
+[[docs/vendita/problema-bruciante|il problema bruciante]].

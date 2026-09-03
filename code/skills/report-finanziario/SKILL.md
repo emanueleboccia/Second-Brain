@@ -177,7 +177,8 @@ Le regole del commento:
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Report finanziario** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/report-finanziario.md`](../../../docs/definizioni/report-finanziario.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di consegnare. Se una non torna, si corregge e si riverifica.
 
@@ -200,9 +201,11 @@ che si porta dietro tutte le medie dei mesi dopo.
 **Il mese è già stato chiuso.** Non si sovrascrive il report: si legge, si mostra a Emanuele cosa
 si aggiungerebbe, e si chiede. Vale anche se l'hai scritto tu poco prima.
 
-**Un dato fiscale manca.** Coefficienti, aliquote, soglie e scadenze **non si stimano mai**:
-si chiedono a Fiscozen. Una percentuale sbagliata qui dentro diventa un accantonamento sbagliato
-per tutto l'anno.
+**Un dato fiscale manca.** Coefficienti, aliquote, soglie e scadenze **non si stimano mai** — ma
+nemmeno si chiedono. 🚫 **Il fisco è fuori dal perimetro di questa skill, deciso il 03/09/2026:**
+lo gestisce il commercialista di Emanuele e non passa da qui. Se in un mese manca un dato
+fiscale, il report lo dichiara mancante in una riga e va avanti. Non si apre una domanda, non si
+mette una task, non si torna sopra il mese dopo.
 
 **Un lavoro emerge parlando ma non si sa in quale registro va.** Non si indovina. Il criterio è
 uno: **chi ha pagato.** Un brand di famiglia va nel suo registro, chiunque altro in quello del

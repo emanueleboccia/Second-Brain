@@ -189,6 +189,44 @@ Non è un saluto un primo messaggio che parte con un lavoro preciso — «sistem
 Allo stesso modo, quando faccio capire che per oggi ho finito — comunque lo dica — parte il
 comando «chiudi sessione» della stessa skill.
 
+## La chiusura della sessione e il backup
+
+**Quando si chiude una sessione, il lavoro si committa e si pusha. Da solo.** Non si chiede il
+permesso, non si propone, non si mostrano i comandi: si fa, e poi si dice cosa è stato fatto.
+Fa parte del comando «chiudi sessione», come la nota di diario.
+
+**Durante la sessione non si nomina.** Ricordare il push ogni mezz'ora è rumore, e il rumore
+insegna a non ascoltare. L'unico momento in cui se ne parla è la chiusura.
+
+Il giro è: `git add -A`, un commit con un messaggio che dice cosa è cambiato — non «aggiornamenti
+vari» — e il push sul branch corrente. **Poi si verifica sul remote**, non sulla risposta del
+comando: il 03/09/2026 un push è «andato» lasciando fuori tutta la giornata, perché mancava il
+commit in mezzo.
+
+Se il push fallisce o è bloccato, si dice **nel messaggio di chiusura** e si dà il comando da
+lanciare a mano. Una sessione che finisce senza backup deve finire dicendolo.
+
+## La review settimanale
+
+**La domenica, nella prima sessione della giornata, dopo il briefing, parte la review
+settimanale.** Non aspetta che sia io a chiederla: si annuncia.
+
+Quattro blocchi — le vittorie, il giro delle aree, gli obiettivi, le tre priorità della settimana
+che viene — e si fa una domanda alla volta, non tutte insieme. Prima però mi si portano **i fatti
+della settimana**: le note di sessione, le task chiuse, lo stato delle proposte, le righe nuove
+dei registri. La domenica non mi ricordo cosa ho fatto martedì, e una review a memoria racconta
+solo l'ultima cosa successa.
+
+Si scrive in `workspace/review/<AAAA>-W<nn>.md`. Il come sta nel comando 5 di
+[`code/skills/journal/SKILL.md`](code/skills/journal/SKILL.md).
+
+**Se la domenica salta**, perché non apro una sessione o non ne ho voglia, si ripropone il lunedì
+e il martedì. Poi si lascia perdere: una settimana senza review si chiude da sola, e insistere il
+mercoledì vuol dire farmi scrivere una review su una settimana che non ricordo più.
+
+Vale la stessa ragione del buongiorno e della chiusura del mese: **se una regola deve valere prima
+che io la invochi, sta qui.**
+
 ## La chiusura del mese
 
 **Il primo di ogni mese, nella prima sessione della giornata, parte la skill
@@ -227,6 +265,17 @@ Vietato:
 **Regola finale:** se un testo potrebbe essere stato scritto per qualsiasi altra attività, è
 sbagliato. Deve poter essere scritto **solo per questa**.
 
+⚠️ **Una deroga, e una sola: quello che leggo io.** Il divieto sulle chiusure motivazionali
+riguarda i testi che leggono i clienti. Nei briefing, nelle chiusure di sessione e nella review
+settimanale voglio invece essere **incoraggiato**: motivazione, sostegno, un po' di umanità.
+Chiesto il 03/09/2026.
+
+Ma vale la stessa regola finale, girata: **un incoraggiamento che potrebbe essere detto a
+chiunque non vale niente.** «Sei un grande» non gasa nessuno. «Hai chiuso agosto al centesimo
+quando due giorni fa non sapevi quanto avevi in banca» sì, perché è vero e riguarda me. Come si
+fa sta nella sezione «Come si parla a Emanuele» di
+[`code/skills/journal/SKILL.md`](code/skills/journal/SKILL.md).
+
 Questa sezione è viva: ogni volta che ti dico che un testo suona artificiale, aggiungi la riga qui.
 
 ## Prezzi
@@ -236,7 +285,9 @@ voce non c'è, chiedimela invece di riempire il buco.
 
 ## Definizione di fatto
 
-Per i lavori ripetibili, in `docs/definizioni-di-fatto.md` c'è scritto quando una cosa è finita.
+Per i lavori ripetibili c'è scritto **quando una cosa è finita**. L'indice sta in
+`docs/definizioni-di-fatto.md`, le condizioni vere una per file in `docs/definizioni/` —
+una voce per skill. Spezzate il 03/09/2026: in un file solo erano 348 righe.
 
 Quando esegui una skill, verifica le condizioni prima di darmi l'output. Se una non torna,
 correggi e riverifica. Dammi il risultato solo quando passano tutte. Le condizioni devono essere

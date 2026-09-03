@@ -226,7 +226,8 @@ generale.
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Web design** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/web-design.md`](../../../docs/definizioni/web-design.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di rispondere. Se una non torna, si corregge e si riverifica: la risposta si
 dà solo quando passano tutte.

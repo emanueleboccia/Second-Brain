@@ -278,6 +278,12 @@ uscito, il timestamp si scrive: il briefing è il testo.
    parlando e non è finito da nessuna parte:
 
    - **per TickTick** — task nuove, appuntamenti presi, scadenze nominate;
+
+   ⚠️ **Una task fatta non si completa mai da ⌛️ Non iniziato.** Prima si sposta in
+   **⏳ In corso**, poi si spunta. I due passaggi stanno nella stessa operazione di chiusura.
+   Vale anche per una task retroattiva creata per registrare qualcosa che era già stato fatto.
+   Se è una sotto-task, si controlla anche la card padre: nella vista kanban è la sua colonna
+   a governare quello che Emanuele vede.
    - **per Notion** — stati da cambiare, proposte inviate, esiti arrivati.
 
    Elenca quello che hai trovato e chiedi a Emanuele se vuoi scriverlo ora. **Mostra sempre il
@@ -302,7 +308,15 @@ uscito, il timestamp si scrive: il briefing è il testo.
    Se non è emerso niente, dillo in una riga e chiudi. Un check di uscita che inventa due task
    per sembrare utile fa più danno di uno che dice «niente da registrare».
 
-8. **Il messaggio di chiusura.** Una giornata deve finire in modo riconoscibile, altrimenti non
+8. **Il commit e il push, senza chiedere.** Prima del messaggio di chiusura, e **senza proporlo**:
+   `git add -A`, un commit che dice cosa è cambiato davvero, e il push sul branch corrente. Poi
+   **si verifica sul remote** — `git rev-list --count @{u}..HEAD` deve dare zero e il working tree
+   deve essere pulito — non ci si fida della risposta del comando.
+
+   Durante la sessione il push **non si nomina mai**: è la regola del `CLAUDE.md` di radice. Se
+   fallisce o è bloccato, lo si dice nel messaggio di chiusura col comando da lanciare a mano.
+
+9. **Il messaggio di chiusura.** Una giornata deve finire in modo riconoscibile, altrimenti non
    finisce: resta la sensazione di aver lasciato qualcosa a metà. L'ultimo messaggio quindi si
    scrive così, e ha una forma sua:
 
@@ -442,10 +456,72 @@ una volta e non si riascoltano. La memoria è il diario scritto, non l'audio.
 una riga e chiudi lì. Non riprovare in loop e non rimandare il testo: l'audio è la comodità, il
 briefing è il lavoro.
 
+### Comando 5 — «review settimanale»
+
+**Si fa la domenica**, e non aspetta che Emanuele la chieda: l'innesco sta nel `CLAUDE.md` di
+radice, come per la chiusura del mese. Dopo il briefing, si annuncia.
+
+**Non si comincia facendo domande a vuoto.** Chi lavora da solo, la domenica, non si ricorda cosa
+ha fatto martedì — e una review fatta a memoria è una review che racconta solo l'ultima cosa
+successa. Quindi **prima si portano i fatti**, poi si chiede.
+
+**1 · I fatti della settimana.** Si raccolgono e si mettono in fila, prima di aprire bocca:
+
+- le **note di sessione** in `workspace/journal/sessions/` degli ultimi sette giorni;
+- le **task completate** su TickTick nella settimana, per lista;
+- lo **stato delle proposte** su Notion: aperte, chiuse, nuove;
+- le **righe nuove** nei due registri lavori;
+- gli **obiettivi** nella lista 🎯 Obiettivi.
+
+**2 · Le quattro domande**, una alla volta, nell'ordine del template. Non tutte insieme in un
+blocco: si aspetta la risposta prima di passare alla successiva, altrimenti risponde a tre su
+quattro e la quarta si perde.
+
+1. **Le vittorie.** Si apre da qui, e si apre proponendogliele: dai fatti raccolti, gliele si
+   nomina. Non «cosa è andato bene questa settimana?» a freddo — quello mette in difficoltà.
+2. **Il giro delle aree**, con dentro la domanda su cosa era produttività finta.
+3. **Gli obiettivi**, e quale non ha niente che lo muova.
+4. **Le tre priorità** della settimana che viene.
+
+**3 · Si scrive.** `workspace/review/<AAAA>-W<nn>.md`, dal template. Il numero di settimana è
+quello ISO: `date +"%G-W%V"`.
+
+**4 · Le tre priorità diventano azioni.** Se una delle tre non ha una task che la regge, si
+propone di crearla, chiedendo in quale lista va. Una priorità scritta solo nella review è una
+priorità che lunedì non esiste.
+
+## Come si parla a Emanuele in questi momenti
+
+Vale per **tutti e quattro i comandi**: buongiorno, chiusura, fine giornata, review.
+
+**Emanuele ha chiesto esplicitamente, il 03/09/2026, di essere incoraggiato.** Motivazione,
+sostegno, un po' di umanità. Lavora da solo, e nessuno gli dice mai che una cosa gli è venuta
+bene. Non è un vezzo: è la differenza fra un sistema che apre la giornata e un sistema che la
+registra e basta.
+
+Come si fa, perché il modo sbagliato è peggio del silenzio:
+
+- **Si nomina la cosa vera.** «Hai chiuso agosto sui dati veri, al centesimo, quando due giorni
+  fa non sapevi nemmeno quanto avevi in banca» gasa. «Sei un grande» no, perché vale per
+  chiunque e lui lo sa.
+- **Si dice cosa è costato.** Il complimento che arriva è quello che riconosce la difficoltà:
+  una cosa fatta facile non è un merito, una cosa fatta mentre era complicata sì.
+- **Non si gonfia una giornata storta.** Se la settimana è andata male, si dice — e si trova la
+  cosa vera da salvarci dentro, che c'è quasi sempre. Fingere slancio quando non c'è brucia la
+  frase per il giorno in cui serve davvero.
+- **Non si mette in ogni messaggio.** Sta nei momenti del rito — l'apertura, la chiusura, le
+  vittorie della review. Un incoraggiamento a ogni risposta diventa rumore, e il rumore insegna
+  a non ascoltare.
+
+⚠️ **Il divieto sulle «chiusure motivazionali» del `CLAUDE.md` di radice non vale qui.** Quello
+riguarda i testi che leggono i clienti, dove una frase da poster è finta. Questi li legge solo
+lui, e li ha chiesti.
+
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Journal** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/journal.md`](../../../docs/definizioni/journal.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di consegnare l'output, comando per comando. Se una non torna, si
 corregge e si riverifica: il risultato si dà solo quando passano tutte.

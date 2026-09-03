@@ -206,7 +206,8 @@ cose da correggere per sembrare utile è un verdetto di cui non ci si fida più.
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Regia video** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/regia-video.md`](../../../docs/definizioni/regia-video.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di consegnare l'output, modo per modo. Se una non torna, si corregge e si
 riverifica.

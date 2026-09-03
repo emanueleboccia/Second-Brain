@@ -5,9 +5,9 @@ tags:
   - entities
   - clienti
   - sistema-evolve
-status: da-compilare
+status: attivo
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 # Storico — Sistema Evolve
@@ -16,6 +16,10 @@ updated: 2026-09-01
 Emanuele e Karim sono l'unico reparto marketing: sito, sponsorizzate, campagne, reel.
 Compenso al 10% minimo sulle vendite. Il lavoro di agosto non si fattura.
 ⚠️ **Accordo preso a voce.** Non esiste niente di scritto e controfirmato.
+
+I termini e cosa si applica stanno in [[entities/clienti/sistema-evolve/scheda|scheda]]; le
+voci di listino di riferimento in [[self/tariffario|tariffario]]; i numeri delle campagne in
+[[data/campagne|campagne]].
 
 ### 2026-09-03 — L'accordo non si mette per iscritto
 Decisione di Emanuele. Non è un rinvio: è la forma che prende questa relazione. I pagamenti

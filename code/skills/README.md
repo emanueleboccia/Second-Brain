@@ -40,9 +40,10 @@ produce va riportato alle nostre regole, e la verifica è di chi lo invoca:
 - **Le cinque sezioni qui sotto**, in quest'ordine. Lo skill creator usa una struttura sua, con un
   frontmatter `name`/`description`: quella è la sua convenzione, non la nostra.
 - **I percorsi veri del vault.** Il tariffario è [`../../self/tariffario.md`](../../self/tariffario.md),
-  le definizioni di fatto sono [`../../docs/definizioni-di-fatto.md`](../../docs/definizioni-di-fatto.md),
-  il correction log è [`../../correction.md`](../../correction.md) alla radice. Un percorso
-  inventato è un percorso morto, e qui dentro è già successo.
+  il correction log è [`../../correction.md`](../../correction.md) alla radice. Le definizioni di
+  fatto sono **una per skill** in [`../../docs/definizioni/`](../../docs/definizioni/) —
+  `docs/definizioni-di-fatto.md` è solo l'indice, spezzato il 03/09/2026. Un percorso inventato è
+  un percorso morto, e qui dentro è già successo.
 
 ## Le cinque sezioni
 
@@ -67,7 +68,7 @@ quello che serve**. Niente passaggi che ne contengono altri tre dentro.
 ### Definizione di fatto
 
 Le condizioni verificabili che dicono quando il lavoro è finito. Non si riscrivono qui: si
-richiamano da [`../../docs/definizioni-di-fatto.md`](../../docs/definizioni-di-fatto.md),
+richiamano dal file della skill in [`../../docs/definizioni/`](../../docs/definizioni/),
 che è la fonte. Si verificano **prima** di consegnare l'output. Se una non torna, si corregge e
 si riverifica.
 

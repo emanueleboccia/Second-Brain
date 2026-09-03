@@ -221,7 +221,8 @@ un errore da nascondere: è un'informazione sulla zona.
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Estrai lead** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/estrai-lead.md`](../../../docs/definizioni/estrai-lead.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di consegnare il foglio. Se una non torna, si corregge e si riverifica: il
 link si dà a Emanuele solo quando passano tutte.

@@ -123,7 +123,8 @@ indovinare.
 ## Definizione di fatto
 
 Le condizioni non si riscrivono qui: stanno nella voce **Preventivo** di
-[`../../../docs/definizioni-di-fatto.md`](../../../docs/definizioni-di-fatto.md), che è la fonte.
+[`../../../docs/definizioni/preventivo.md`](../../../docs/definizioni/preventivo.md), che è la fonte.
+L'indice di tutte le voci sta in `docs/definizioni-di-fatto.md`.
 
 Si verificano **prima** di consegnare l'output. Se una non torna, si corregge e si riverifica: il
 preventivo si dà a Emanuele solo quando passano tutte.

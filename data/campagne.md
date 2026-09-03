@@ -15,6 +15,16 @@ related:
 
 > **Impalcatura.** Nessuna campagna ancora girata. Le prime partiranno con Sistema Evolve.
 
+## Una cartella per brand
+
+Deciso il 03/09/2026. Le campagne **non sono solo di Sistema Evolve**: ci saranno quelle del
+personal brand, dei tre brand di famiglia e di altri clienti. Quando una campagna parte davvero,
+nasce `data/campagne/<brand>/` e i suoi numeri vivono lì dentro.
+
+**Le sottocartelle si aprono quando serve, non prima.** Vale il principio delle aree del
+`CLAUDE.md`: una cartella vuota che aspetta insegna a non guardare dentro le cartelle. Questo
+file resta l'indice e la regola di come si scrive una riga.
+
 ⚠️ **Su Evolve questi numeri non sono un rendiconto per il cliente: sono il proprio
 compenso.** L'accordo è il 10% minimo sulle vendite generate da sito, campagne e social.
 Una campagna mal misurata lì dentro è una fattura sbagliata, non un report sbagliato.
