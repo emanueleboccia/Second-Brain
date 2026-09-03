@@ -25,7 +25,10 @@ FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
 # code/remotion-test/ è un progetto di prova con dentro node_modules e un checkout
 # di whisper.cpp: 470 file .md che non sono note del vault, e uno non è nemmeno in
 # UTF-8. Escluso il 26/08/2026 perché faceva morire il gate prima di partire.
-ALBERI_ESCLUSI = ("code/skills", "code/remotion-test")
+# areas/finanza/_in/ è materiale grezzo in entrata — estratti conto, esportazioni,
+# appunti — che si svuota quando i numeri sono passati nel quadro. Non sono note e
+# non devono averne la forma. Escluso il 02/09/2026, alla prima consegna di dati.
+ALBERI_ESCLUSI = ("code/skills", "code/remotion-test", "areas/finanza/_in")
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300

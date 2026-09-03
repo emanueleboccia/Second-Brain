@@ -179,9 +179,102 @@ compaiono in quella risposta. Ho copiato lo scheletro credendo di aver copiato i
 
 **La prossima volta:** quando un artefatto deve assomigliare a uno che esiste già, l'aspetto va
 letto insieme ai dati, non dedotto da essi. Su Sheets si legge con `GOOGLESHEETS_GET_SPREADSHEET_INFO`
-chiedendo la grid data, che porta con sé i formati. Se gli strumenti disponibili leggono i valori ma
-non sanno scrivere i formati, **si dice prima di creare**, non dopo: un foglio nuovo e nudo accanto
-a uno curato non è un punto di partenza, è una cosa da rifare.
+chiedendo la grid data, che porta con sé i formati.
+
+⚠️ **Corretto il 03/09/2026.** Qui c'era scritto che gli strumenti Sheets disponibili scrivono i
+valori ma non i formati. **Non è vero, e non l'avevo verificato:** avevo dedotto il limite dello
+strumento di scrittura dal fatto che quello di lettura non me li restituiva. Esistono
+`GOOGLESHEETS_FORMAT_CELL`, `GOOGLESHEETS_UPDATE_DIMENSION_PROPERTIES` e
+`GOOGLESHEETS_UPDATE_SHEET_PROPERTIES`, e con `composio proxy` si arriva direttamente a
+`spreadsheets.batchUpdate`, che fa tutto in una chiamata. **Un limite non si dichiara per
+deduzione: si cerca lo strumento e si prova.** Dichiarare un limite falso è peggio che non
+saperlo, perché chiude la domanda.
 
 Vale oltre i fogli. «Fammelo come quell'altro» parla di com'è fatto e di come si vede, e la seconda
 metà è quella che si nota per prima.
+
+## 02/09/2026 — Una fonte si legge tutta prima di cancellarla
+
+Emanuele mi ha dato la dashboard del vecchio sistema di finanze, un HTML da 67 KB, e gli ho
+proposto di estrarne la serie mensile e poi cancellarla. Ho estratto quello che mi serviva —
+i mesi, i conti, gli investimenti, gli abbonamenti — e ho cancellato. Poco dopo mi ha chiesto
+dell'assicurazione Revolut che aveva comunicato in quel file: dentro c'era almeno una variabile
+`note` che non ho mai aperto, e il file non è più recuperabile perché stava in una cartella
+esclusa da git.
+
+**La prossima volta:** quando una fonte va eliminata, prima si legge **per intero**, non solo le
+parti che servono alla domanda di adesso. Estrarre non è cancellare con un backup: è decidere
+cosa sopravvive, e quella decisione si prende avendo visto tutto. Se il file è grosso, si elenca
+prima cosa contiene e si mostra l'elenco — così è Emanuele a dire cosa tenere, non io a
+indovinarlo.
+
+## 03/09/2026 — Una cosa fatta non si registra creando una task
+
+Chiudendo la sessione del 02/09 ho registrato sei lavori appena finiti creandone altrettante task
+su TickTick. Le ho create e basta: sono nate in ⌛️ Non iniziato e ci sono rimaste. La mattina dopo
+il briefing le ha lette come sono scritte — lavoro da fare — e Emanuele ha dovuto chiedermi dove
+fossero finite le cose fatte. Due erano anche nella lista sbagliata: la skill del report
+finanziario e la dashboard sono costruzione del Second Brain, non vita personale, e stavano in
+🌱 Personale.
+
+**La prossima volta:** una cosa già fatta si registra **creandola e chiudendola nello stesso passo**,
+mai in due momenti. Una task aperta non è un archivio di quello che è successo: è una promessa, e
+il giorno dopo torna indietro come lavoro in arretrato. E la domanda «in quale lista va» si fa
+anche per le task retroattive, non solo per quelle da fare: il posto dove una cosa è registrata
+è quello dove la si cercherà.
+
+## 03/09/2026 — In Sheets il testo vuoto è più grande di qualsiasi numero
+
+Nel registro lavori del personal brand la regola di colore del foglio Clienti era
+`=$E8>0` — «colora di rosso chi mi deve dei soldi». Risultato: **tutte e quaranta le righe
+rosse**, comprese le vuote. La colonna E è una formula che sulle righe vuote restituisce testo
+vuoto, e in Sheets il testo si ordina **sopra** i numeri: `"">0` è vero. L'ha visto Emanuele
+aprendo il foglio, non io scrivendolo.
+
+**La prossima volta:** una regola di formato condizionale che punta a una colonna di formule si
+scrive sempre ancorata alla riga vera — `=E($A8<>"";VAL.NUMERO($E8);$E8>0)` — mai al solo
+confronto numerico. E dopo aver applicato un formato condizionale **si guarda cosa colora,
+non solo se l'API risponde OK**: qui l'API ha risposto OK quattro volte su quattro.
+
+Nello stesso giro, seconda svista: avevo messo le celle in `CLIP`, che taglia il testo al bordo
+della colonna, e i titoli in A1 e A2 risultavano mozzati su tutti e quattro i fogli. Il default
+utile è `OVERFLOW_CELL`, con `WRAP` solo sulle colonne di descrizione — è quello che fa il
+registro dei brand di famiglia, che avevo letto e non copiato fino in fondo.
+
+## 03/09/2026 — I nomi erano su Notion, e li ho chiesti a lui
+
+Chiudendo il registro lavori ho consegnato a Emanuele una lista di «cosa mi manca», e dentro
+c'era: «di Sartoria, L'Étoile, Difendo Alarm, Ciao Naples e Room84 non ho nome e cognome».
+Erano **tutti e cinque** nel database Contatti di Notion, con azienda, ruolo e origine —
+Marco Augusto, Maria Grazia Massa, Pasquale Iossa, Davide Lombardo, Antonio Vorraro. Uno di
+questi, Marco Augusto, era perfino in una proposta che avevo letto io stesso mezz'ora prima.
+Avevo interrogato Contatti **con un filtro sui soli lead caldi** e avevo trattato quel
+sottoinsieme come se fosse tutto il database.
+
+**La prossima volta:** prima di chiedere un dato a Emanuele, si guarda dove quel dato vive per
+convenzione. Il `CLAUDE.md` lo dice: **Notion tiene lo stato — contatti e lead, proposte, siti
+dei clienti.** Una domanda su un contatto si fa solo dopo aver letto Contatti **per intero**,
+non una query filtrata fatta per un altro scopo.
+
+E vale in generale: **una query scritta per rispondere a una domanda non è una lettura della
+fonte.** Il filtro che serviva al briefing — solo gli stati caldi — mi ha lasciato in mano un
+terzo dei contatti, e ho scambiato quel terzo per l'archivio. Far fare a lui il lavoro che la
+fonte aveva già fatto è il modo più veloce di rendere inutile il cervello.
+
+## 03/09/2026 — Una sotto-task su TickTick vive dentro la card del padre
+
+Ho spostato in 💡 Idee le otto sotto-task di Cesco e della Sartoria, l'API ha risposto bene, e
+rileggendole risultavano davvero in `columnId` Idee. Sullo schermo di Emanuele però non si era
+mosso niente, e me l'ha detto lui. Il motivo: **erano sotto-task, e le due task padre — «sito
+cesco» e «sito la sartoria dei piccoli» — erano rimaste in ⌛️ Non iniziato.** In vista kanban
+una sotto-task si disegna dentro la card del padre, quindi la sua colonna non conta.
+
+**La prossima volta:** su TickTick, spostare di colonna vuol dire **spostare la card**, cioè la
+task senza `parentId`. Se una task ha un padre, o si sposta il padre, o non si è spostato niente.
+Prima di dire «fatto», si controlla il `parentId`, non solo il `columnId` tornato nella risposta.
+
+Ed è la terza volta oggi che sbaglio lo stesso modo: **ho preso la risposta OK di un servizio per
+la prova del risultato.** L'audio del 31/08 «riuscito» e mai atterrato, il formato condizionale
+che ha colorato di rosso quaranta righe rispondendo OK quattro volte, e adesso questa. La regola
+non è «controlla di più»: è che **la verifica si fa su quello che vede Emanuele**, non su quello
+che risponde l'API.

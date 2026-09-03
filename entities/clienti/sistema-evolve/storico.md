@@ -17,9 +17,16 @@ Emanuele e Karim sono l'unico reparto marketing: sito, sponsorizzate, campagne, 
 Compenso al 10% minimo sulle vendite. Il lavoro di agosto non si fattura.
 ⚠️ **Accordo preso a voce.** Non esiste niente di scritto e controfirmato.
 
-### 2026-08-31 — Primo acconto, 150 €
-Dati da Vincenzo «come bonus». Registrati come acconto ricevuto nel registro lavori del
-personal brand.
+### 2026-09-03 — L'accordo non si mette per iscritto
+Decisione di Emanuele. Non è un rinvio: è la forma che prende questa relazione. I pagamenti
+arriveranno lavorando, diretti o a cadenza settimanale, e la forma si aggiusterà su quello che
+succede davvero. La riga «l'accordo va messo per iscritto» del 31/08 resta come cronaca di
+quel giorno, ma **non è più una cosa da fare**.
+
+### 2026-08-31 — 150 € da Vincenzo, e non sono un acconto
+Precisato da Emanuele il 03/09/2026: è **un regalo**, non un pagamento — «mangiatevi una
+pizza». Non è il corrispettivo di niente e non va chiamato acconto: agosto non si fattura per
+scelta. Nel registro lavori del personal brand è un movimento di tipo `Regalo`.
 
 ### 2026-08-31 — Preparata la conversazione con Vincenzo
 Impostata al telefono anziché di persona, scelta di Emanuele contro la raccomandazione

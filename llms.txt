@@ -234,6 +234,10 @@ file sbagliato.
 - [[entities/clienti/_modello/recensioni]] -- Modello per i feedback di un cliente: citazioni testuali con data e canale, pronte da usare come riprova nelle proposte e nei contenuti, senza doverle riscrivere a memoria.
 - [[entities/clienti/_modello/scheda]] -- Modello di scheda cliente: anagrafica, stato, cosa gli è stato venduto, prezzi praticati e la catena dei referral in entrata e in uscita. Si copia e si rinomina, non si compila qui.
 - [[entities/clienti/_modello/storico]] -- Modello dello storico cliente: lavori consegnati, appuntamenti e accordi presi, compresi quelli fatti a voce o su WhatsApp. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/clharem/brand-book]] -- Modello di brand book cliente: tono di voce, colori e tipografia, e soprattutto cosa si può dire e cosa no. Serve a scrivere e progettare per lui senza richiedere ogni volta.
+- [[entities/clienti/clharem/recensioni]] -- Modello per i feedback di un cliente: citazioni testuali con data e canale, pronte da usare come riprova nelle proposte e nei contenuti, senza doverle riscrivere a memoria.
+- [[entities/clienti/clharem/scheda]] -- Clharem, di Claudio Salemme: un sito costruito da Emanuele anni fa ma consegnato tramite un'intermediaria che poi è sparita, e un rapporto riaperto dal nulla nel 2026 da Anna, collaboratrice. Il cliente non l'ha mai conosciuto direttamente.
+- [[entities/clienti/clharem/storico]] -- Cosa è successo con Clharem: un sito consegnato a un'intermediaria e mai arrivato al cliente, e la riapertura del rapporto nel 2026 per iniziativa di Anna.
 - [[entities/clienti/girarrosto-liberti/brand-book]] -- Tono, colori e limiti di Girarrosto Liberti. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
 - [[entities/clienti/girarrosto-liberti/recensioni]] -- Feedback e citazioni testuali di Girarrosto Liberti, da usare come riprova nelle proposte e nei contenuti.
 - [[entities/clienti/girarrosto-liberti/scheda]] -- Girarrosto Liberti, referente Marco Pappacena: sito attivo e sistema di ordinazioni interno costruito su misura. È il caso studio più citato e ha già prodotto due referral, una recensione e un video.
@@ -276,6 +280,8 @@ dal gate di qualità.
   -- Tre comandi, tre momenti della giornata.
 - **regia-video** — skill · `code/skills/regia-video/SKILL.md`
   -- Quando Emanuele progetta un video social da zero, o ne ha uno già fatto e vuole sapere se funziona.
+- **report-finanziario** — skill · `code/skills/report-finanziario/SKILL.md`
+  -- Parte da sola il primo del mese.** È la regola principale: nella prima sessione del giorno 1, dopo il briefing del [[code/skills/journal/SKILL|journal]], la…
 - **skill-creator** — skill · `code/skills/skill-creator/SKILL.md`
   -- Create new skills, modify and improve existing skills, and measure skill performance.
 - **web-design** — skill · `code/skills/web-design/SKILL.md`

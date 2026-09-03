@@ -139,6 +139,19 @@ Si propone la task **nella lista giusta**, e si chiede conferma prima di scriver
 Il testo si mostra prima di scriverlo, come vuole la regola sulle scritture: qui il
 contenuto lo componi tu, e la domanda non è se ha cambiato idea, è se hai capito bene.
 
+## La regola del registro lavori
+
+**Quando Emanuele racconta un lavoro fatto, un acconto ricevuto o un costo pagato, la riga del
+registro si scrive nella stessa sessione.** Non gliela si chiede come compito: la compone lui
+parlando, e la mano sul foglio la metto io.
+
+Il giro è uno solo: mostro la riga come la scriverei — cliente, referente, servizio, importo,
+motivo — lui conferma o corregge, e scrivo. **Una conferma sola, poi si procede**: chiedere due
+volte la stessa cosa è il modo di far smettere di raccontare.
+
+Quale dei due registri, e com'è fatto quello del personal brand, sta in
+`areas/finanza/riferimenti-lettura.md`. Il criterio di smistamento è secco: **chi ha pagato.**
+
 ## La regola di design
 
 **Ogni deliverable del personal brand segue [`self/reference/design.md`](self/reference/design.md).**
@@ -175,6 +188,25 @@ Non è un saluto un primo messaggio che parte con un lavoro preciso — «sistem
 
 Allo stesso modo, quando faccio capire che per oggi ho finito — comunque lo dica — parte il
 comando «chiudi sessione» della stessa skill.
+
+## La chiusura del mese
+
+**Il primo di ogni mese, nella prima sessione della giornata, parte la skill
+[`code/skills/report-finanziario/SKILL.md`](code/skills/report-finanziario/SKILL.md).**
+Viene dopo il briefing del journal, non al posto suo.
+
+Non aspetta che sia io a chiederla: si annuncia e mi chiede i dati del mese appena finito —
+l'estratto conto di Revolut e la lista movimenti di Intesa dentro `areas/finanza/_in/`, e le
+spese in contanti dalle note. Poi legge, trova quello che non torna, mi fa le domande in blocco
+e mi chiede i saldi. Alla fine scrive il report, aggiorna il quadro, rigenera la dashboard e mi
+dice com'è andato il mese.
+
+**Se il primo del mese salta**, perché non apro una sessione o non ho i dati pronti, si richiede
+il giorno dopo e quello dopo ancora, finché il mese non è chiuso. Una chiusura che dipende dal
+fatto che me ne ricordi io è una chiusura che si salta.
+
+Vale la stessa ragione del buongiorno: **se una regola deve valere prima che io la invochi, sta
+qui.** Il file della skill dice come si fa, non quando parte.
 
 ## Come non si scrive mai
 

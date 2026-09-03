@@ -7,7 +7,7 @@ tags:
   - la-sartoria-dei-piccoli
 status: da-compilare
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 # Scheda — La Sartoria dei Piccoli
@@ -36,3 +36,15 @@ scadenza è il motivo per cui questa cartella esiste oggi invece che fra un mese
 
 - **Chi me l'ha mandato:** da compilare.
 - **Chi ha mandato lui:** da compilare.
+
+## Il restyling — ancora non proposto
+
+Aggiornato il 03/09/2026. Emanuele vuole proporre a **Marco Augusto** un restyling del sito e
+delle cose nuove, ma **non l'ha ancora contattato**: non c'è nessuna conversazione aperta, e
+manca l'appiglio da cui partire.
+
+⚠️ **Le task «restyling completo», «nuova UI e UX», «restyling backend» su TickTick sono in
+colonna «In corso», ma nessuno le ha comprate.** È lavoro che Emanuele si è messo in testa, non
+lavoro concordato. Nel registro lavori non esistono, e non devono esistere finché non c'è un sì.
+
+**Chi me l'ha mandato:** passaparola — è un **amico del fratello di Emanuele**.

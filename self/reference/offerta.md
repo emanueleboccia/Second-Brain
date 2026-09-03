@@ -55,6 +55,13 @@ soci; del sistema auto non c'è niente oltre l'intenzione. Sono progetti documen
 finché quei dettagli non sono scritti **non si nominano in un contenuto pubblico**: sbagliare il
 proprio ruolo dentro un progetto con altri è l'errore che non si recupera.
 
+## Chi la consegna
+
+Ogni voce di questa offerta poggia su una competenza, e non tutte stanno allo stesso livello:
+la mappa, con quello che si fa crescere e quello che si passa a qualcun altro, sta in
+[[self/competenze|competenze]]. Serve a sapere quali di queste voci si vendono senza pensarci
+e quali costano più tempo di quello che valgono.
+
 ## Cosa non c'è
 
 ⚠️ Nell'intervista non è emerso **come sono impacchettate** queste voci: cosa è un progetto una

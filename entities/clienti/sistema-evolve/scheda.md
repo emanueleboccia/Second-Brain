@@ -34,6 +34,16 @@ Sistema Evolve. Nessun fisso mensile, nessun calcolo sul fatturato annuale.
 discorso compenso, si riparte dal 10% sulle vendite. Il ragionamento completo, con le
 ragioni, sta in [[self/MEMORY|memory del personal brand]].
 
+⚠️ **L'accordo resta a voce, ed è una scelta — non una cosa in sospeso.** Deciso da Emanuele
+il 03/09/2026: non si mette per iscritto. Non si ripropone di scriverlo, non compare più fra
+le cose aperte, e la task su TickTick è stata chiusa. I pagamenti arriveranno lavorando —
+diretti o settimanali, la forma si vedrà strada facendo e si adatterà il registro a quello che
+succede, non il contrario.
+
+**Cosa vuol dire in pratica:** senza un documento, l'unica traccia dei termini è quella scritta
+qui e nel [[entities/clienti/sistema-evolve/storico|storico]], e l'unica prova di cosa è stato
+prodotto è il registro lavori. Diventano loro il contratto: si tengono aggiornati apposta.
+
 ### Su cosa si applica
 
 Il 10% vale su **ogni servizio di Evolve venduto dal reparto marketing**, cioè a ogni cliente

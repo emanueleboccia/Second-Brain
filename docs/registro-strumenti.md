@@ -7,7 +7,7 @@ tags:
   - registro
 status: attivo
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-02
 related:
   - "[[docs/definizioni-di-fatto]]"
   - "[[self/tariffario]]"
@@ -113,6 +113,57 @@ esclude già lo stato locale di Obsidian, il che vuol dire che qualcuno ci aveva
 Il verdetto si dà dopo una settimana d'uso vero, non dopo l'installazione.
 
 **Data:** 01/09/2026.
+
+## Claude — attivo
+
+**A cosa serve:** è lo strumento con cui questo vault viene scritto, letto e interrogato, e
+con cui girano le skill. Piano Max.
+
+**Verdetto:** è la spina dorsale del sistema, e va detto che **non ha un costo fisso**: il
+piano cambia mese per mese col carico di lavoro, quindi si legge a consuntivo come Apify e
+non si mette a budget. È la voce più pesante dello stack professionale.
+
+**Data:** censito il 02/09/2026, alla prima chiusura contabile.
+
+## ChatGPT — attivo
+
+**A cosa serve:** generazione di immagini e testi fuori dal vault, seconda opinione.
+
+**Verdetto:** convive con Claude senza sovrapporsi del tutto, ma è il primo posto da guardare
+il giorno che si vuole tagliare lo stack: due assistenti generalisti pagati insieme sono la
+domanda che il registro esiste per far nascere.
+
+**Data:** censito il 02/09/2026.
+
+## CapCut — attivo
+
+**A cosa serve:** montaggio video veloce, sottotitoli, formati verticali.
+
+**Verdetto:** è lo strumento di montaggio in uso oggi. Va guardato insieme a
+[[docs/registro-strumenti|Remotion]], che sta in test sullo stesso lavoro: se Remotion regge,
+la domanda su CapCut si riapre.
+
+**Data:** censito il 02/09/2026.
+
+## Lovable — in test
+
+**A cosa serve:** costruzione rapida di interfacce e prototipi web da prompt.
+
+**Verdetto:** non ancora dato. Primo mese pagato ad agosto 2026, e il rinnovo di settembre
+non è deciso. Il verdetto si dà dopo averlo usato su un lavoro vero, non su una prova.
+
+**Data:** primo mese ad agosto 2026.
+
+## Superwhisper, ManageWP, Command X — attivi
+
+**A cosa servono:** dettatura vocale, manutenzione dei WordPress dei clienti, gestione
+finestre sul Mac. Sono utilità, non strumenti che cambiano come si lavora.
+
+**Verdetto:** nessuno da dare. Stanno qui perché comparivano sugli estratti conto senza che
+nessun file del vault dicesse cosa fossero, ed è esattamente il buco che questo registro
+serve a chiudere.
+
+**Data:** censiti il 02/09/2026.
 
 ---
 

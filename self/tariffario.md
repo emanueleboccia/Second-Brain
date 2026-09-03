@@ -117,6 +117,11 @@ per questa vendita, non per vendere altri siti.
      Se qui non c'è scritto niente, o le righe sono ambigue, si chiede a Emanuele
      invece di dedurre. -->
 
+- 03/09/2026 · Sidel srl (Pierluigi Ammirati) · restyling del sito · prezzo mai presentato ·
+  **abbandonata da Emanuele**: inseguito molte volte perché fissasse un appuntamento, nessuna
+  risposta; il 02/09 gli sono state mandate anche le schermate della nuova versione, e nemmeno
+  a quelle ha risposto. Non è un no del cliente, è una rinuncia di Emanuele. Cliente storico,
+  resta tale: si riapre solo se si fa vivo lui.
 - 24/08/2026 · Lampion Square (Giorgio) · menù digitale + menù TV + foto + hosting con assistenza ·
   prezzo mai presentato · **perso prima del pitch**: fermato dal fornitore dell'app del cliente,
   che gli ha sconsigliato il menù web. Caso studio proposto ma mai discusso, quindi non attivo.
