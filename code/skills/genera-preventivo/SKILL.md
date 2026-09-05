@@ -24,7 +24,7 @@ vetrina più l'hosting per il bar di Salvatore».
 | Cosa gli serve | da Emanuele, anche informale: «menù, TV, foto panini» | sì |
 | I prezzi | `self/tariffario.md` | sì |
 | Gli errori da non ripetere | `correction.md` alla radice | sì |
-| La nota del cliente, se esiste | `entities/<cliente>.md` | no |
+| La scheda del cliente, se esiste | `entities/clienti/<cliente>/scheda.md` | no |
 | Se è un caso studio | da Emanuele, oppure si chiede | no |
 | Il tono con cui scrivere | `self/reference/tono.md` se compilato | no |
 | La data di oggi, in `YYYY-MM-DD` | dal sistema | sì |
@@ -47,7 +47,8 @@ indovinare.
    non include. Se una voce richiesta non è a tariffario, **fermati e chiedi**: non riempire il
    buco con una cifra plausibile.
 
-4. **Guarda se il cliente ha già una nota** in `entities/`. Se c'è, leggila: dice cosa gli serve,
+4. **Guarda se il cliente ha già una cartella** in `entities/clienti/`. Se c'è, leggi la
+   `scheda.md`: dice cosa gli serve,
    cosa gli è già stato venduto, com'è andata. Se non c'è, la crei al passaggio 8.
 
 5. **Se è un caso studio, conta quelli attivi.** La fonte è lo *Storico trattative* in fondo al
@@ -90,27 +91,33 @@ indovinare.
    `self/reference/tono.md` è compilato, quello è il tono; finché è vuoto, scrivi come parlerebbe
    Emanuele — niente «restiamo a disposizione», niente «in allegato troverà».
 
-8. **Se il cliente non ha una nota in `entities/`, creala.** Su Notion la fonte è la lista
-   **Contatti** (riferimenti in `code/skills/journal/riferimenti.json`): è l'unica lista di
+8. **Se il cliente non ha una cartella in `entities/clienti/`, creala.** Su Notion la fonte è la
+   lista **Contatti** (riferimenti in `code/skills/journal/riferimenti.json`): è l'unica lista di
    persone e clienti, e le proposte ci si agganciano col campo `Referente`. Il campo `Azienda`
    del contatto è **testo**, non una relazione.
 
-   Nel vault invece l'entità è **il cliente che paga**, cioè l'attività: il file si chiama
-   `entities/<attivita-in-minuscolo-con-trattini>.md` e la persona di riferimento si scrive
-   dentro. Un'attività può cambiare referente senza diventare un altro cliente, e due persone
-   della stessa attività non sono due clienti. La corrispondenza è quindi: **una nota in
-   `entities/` ↔ il contatto Notion che ha quell'azienda nel campo `Azienda`.**
+   Nel vault invece l'entità è **il cliente che paga**, cioè l'attività: la cartella si chiama
+   `entities/clienti/<attivita-in-minuscolo-con-trattini>/` e la persona di riferimento si scrive
+   dentro la scheda. Un'attività può cambiare referente senza diventare un altro cliente, e due
+   persone della stessa attività non sono due clienti. La corrispondenza è quindi: **una cartella
+   in `entities/clienti/` ↔ il contatto Notion che ha quell'azienda nel campo `Azienda`.**
 
-   La nota è minima e onesta: nome, attività, data del primo contatto, cosa gli serve. **Non
+   ⚠️ **Si copia `entities/clienti/_modello/` e si rinomina.** Dal 01/09/2026 un cliente non è un
+   file solo: sono quattro — `scheda.md`, `brand-book.md`, `storico.md`, `recensioni.md` — e ci
+   sono sempre tutti e quattro anche quando all'inizio sono quasi vuoti, perché è la costanza a
+   rendere leggibile un cliente accanto a un altro. Le regole stanno in
+   `entities/clienti/README.md`.
+
+   La scheda è minima e onesta: nome, attività, data del primo contatto, cosa gli serve. **Non
    chiedere i dati che non hai**: metti quello che si ricava dalla richiesta e lascia il resto da
-   compilare — l'intervista al cliente non si fa mentre si preventiva. Il file è
-   `entities/<cliente-in-minuscolo-con-trattini>.md`, con frontmatter completo — le note in
-   `entities/` passano dal gate di qualità come tutte le altre.
+   compilare — l'intervista al cliente non si fa mentre si preventiva. I file che restano
+   impalcatura si lasciano `status: da-compilare`: il gate di qualità li esenta dalle regole sul
+   grafo, mentre quelli con contenuto vero passano dal gate come tutte le altre note.
 
 9. **Salva il preventivo** in `outputs/preventivi/<anno>-<cliente>.md`, col cliente in
-   minuscolo-con-trattini: `2026-bar-salvatore.md`. Aggancialo alla nota del cliente con un
-   wikilink, e linka la nota del cliente al preventivo: un preventivo che non si sa a chi è stato
-   mandato non serve a niente fra sei mesi.
+   minuscolo-con-trattini: `2026-bar-salvatore.md`. Aggancialo alla scheda del cliente con un
+   wikilink, e linka la scheda al preventivo: un preventivo che non si sa a chi è stato mandato
+   non serve a niente fra sei mesi.
 
 10. **Ricorda a Emanuele di aggiornare lo Storico trattative** nel tariffario quando arriva
     l'esito. Non scriverlo tu adesso: l'esito non esiste ancora, il preventivo è appena nato.
@@ -119,6 +126,17 @@ indovinare.
     e basta**. Si scrive su Notion solo quando Emanuele dice che il preventivo è **partito
     davvero**: un preventivo generato e mai mandato non è una proposta, e su Notion ci va lo stato
     delle cose, non le intenzioni.
+
+    **Il codice della proposta si scrive così:** `EB<anno>-<SERVIZIO>-<CLIENTE>-<progressivo>`.
+    `EB26-WEB-RAGOSTA-0001` è il primo. Il servizio è la sigla di tre lettere della famiglia di
+    tariffario — `WEB` per i siti, e le altre si guardano nelle proposte già in archivio prima di
+    coniarne una nuova. Il cliente è l'azienda, in maiuscolo e senza spazi. Il progressivo è a
+    quattro cifre e conta le proposte fatte, non quelle dell'anno.
+
+    ⚠️ **La sigla è `EB`, e la numerazione riparte da `0001`.** Deciso da Emanuele il 04/09/2026:
+    `GS` era la vecchia sigla e non si usa più. Le proposte in archivio la portano ancora e si
+    lasciano com'erano — riscrivere codici già mandati a un cliente crea due nomi per la stessa
+    cosa. Il vecchio schema aveva anche una `G` davanti al progressivo: quella è caduta col resto.
 
 ## Definizione di fatto
 
@@ -139,8 +157,8 @@ brief», ed è una scelta: quel prezzo si aggancia al valore del problema del cl
 Produci la bozza **senza prezzo**, con le voci e le condizioni, e segnala chiaramente che va
 quotata a mano dopo aver capito il problema.
 
-**Il cliente non ha una nota in `entities/`.** Procedi: fai il preventivo, crea la nota al
-passaggio 8, e dillo a Emanuele. Non è un blocco, è un'informazione.
+**Il cliente non ha una cartella in `entities/clienti/`.** Procedi: fai il preventivo, crea la
+cartella al passaggio 8, e dillo a Emanuele. Non è un blocco, è un'informazione.
 
 **È un caso studio.** La riduzione standard è **20%, arrotondata alla decina** — sta scritta nel
 tariffario, non si chiede e non si ricontratta da soli. La condizione è il permesso **scritto** di

@@ -15,7 +15,10 @@ updated: 2026-09-03
 > ⚠️ **Salvata il 03/09/2026 esattamente com'era**, dalla versione che Emanuele usava prima.
 > Non è stata aggiornata, corretta né riordinata: alcune voci sono quasi certamente superate —
 > PHP 7.4, il tema Hello Elementor, Elementor stesso, che dal 31/05/2027 non si rinnova più.
-> **Si aggiorna il primo sito che si fa davvero**, segnando cosa è cambiato mentre lo si fa.
+> **Aggiornata il 04/09/2026, ma non qui.** Il modo di lavorare di oggi sta in
+> [[docs/checklist-sito|checklist sito]], che è quella da seguire: sceglie fra custom e WordPress,
+> mette la progettazione prima della costruzione e ha tolto Elementor. Questo file resta come
+> storia e come dettaglio operativo di un progetto WordPress vero.
 
 Le quattordici fasi coprono tutto il ciclo, non solo la costruzione: comincia con la call
 conoscitiva e finisce col bonifico di saldo. È il suo pregio — un sito non è finito quando è

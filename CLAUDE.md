@@ -139,6 +139,20 @@ Si propone la task **nella lista giusta**, e si chiede conferma prima di scriver
 Il testo si mostra prima di scriverlo, come vuole la regola sulle scritture: qui il
 contenuto lo componi tu, e la domanda non è se ha cambiato idea, è se hai capito bene.
 
+## La regola del perimetro
+
+**Quando Emanuele racconta che gli hanno chiesto qualcosa per i brand di famiglia, e la richiesta
+cade fuori dalle sue cinque aree, glielo si dice.** Le aree sono grafica, social, foto e video,
+siti, sistemi e organizzazione: stanno in [`self/ruolo-famiglia.md`](self/ruolo-famiglia.md).
+
+Non si discute e non si rifiuta al posto suo. Si nomina in una riga — «questa sta fuori dal tuo
+perimetro» — e si va avanti. Decide lui se farla lo stesso.
+
+Chiesto il 04/09/2026, e serve per una ragione precisa: **le richieste fuori perimetro non
+arrivano mai come richieste.** Arrivano come favori, una alla volta, e si accumulano senza che
+nessuno le abbia mai contate. Quando poi diventano un conflitto, non c'è niente di scritto da
+guardare.
+
 ## La regola del registro lavori
 
 **Quando Emanuele racconta un lavoro fatto, un acconto ricevuto o un costo pagato, la riga del

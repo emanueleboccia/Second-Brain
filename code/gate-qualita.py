@@ -55,21 +55,23 @@ DEROGHE_MIN_LINK = {
         "che dal 26/08/2026 non si usa più",
 }
 
-# I grappoli in cui il grafo può legittimamente dividersi. Il vault ha due
-# mondi che non si toccano, e non esiste un collegamento onesto che li unisca:
-# inventarne uno per far tornare il conto sarebbe peggio della divisione. Ogni
-# grappolo si riconosce da una nota àncora. Un grappolo senza àncora non è
-# dichiarato, ed è un errore: vuol dire che qualcosa si è staccato.
+# I grappoli in cui il grafo può legittimamente dividersi. Ogni grappolo si
+# riconosce da una nota àncora. Un grappolo senza àncora non è dichiarato, ed è
+# un errore: vuol dire che qualcosa si è staccato.
+#
+# Dal 04/09/2026 ce n'è uno solo, e non è una resa. Fino a ieri i brand di
+# famiglia e il lavoro da freelance erano due mondi separati, perché non
+# esisteva un collegamento onesto: il listino dei clienti esterni non c'entrava
+# niente con i tre brand. Poi è nato self/tariffario-famiglia.md — i prezzi che
+# Emanuele fa alla famiglia — e quel file è per sua natura il ponte fra i due:
+# cita il tariffario freelance da cui si distingue e le regole editoriali del
+# brand che deve rispettare. Il collegamento c'è, ed è vero.
 GRAPPOLI_DICHIARATI = {
-    "brand-famiglia": {
-        "ancora": "areas/da-mamma-rosaria/reference/brand.md",
-        "motivo": "i tre brand di famiglia si citano tra loro; col listino freelance "
-                  "non hanno niente da spartire",
-    },
-    "lavoro-freelance": {
+    "vault": {
         "ancora": "self/tariffario.md",
-        "motivo": "il tariffario, i clienti in entities/ e i preventivi in outputs/: "
-                  "il lavoro da freelance non tocca i brand di famiglia",
+        "motivo": "dal 04/09/2026 il grafo è uno solo: il tariffario dei brand di "
+                  "famiglia unisce il listino freelance e i tre brand, ed è un ponte "
+                  "vero e non inventato",
     },
 }
 

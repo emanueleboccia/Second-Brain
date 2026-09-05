@@ -23,11 +23,23 @@ related:
 
 ## Il mese tipo
 
-**Dodici post al mese.** La composizione non è libera:
+**Otto post al mese, più otto storie.** È quello che rientra nel canone: il perimetro sta in
+[[self/tariffario-famiglia|tariffario dei brand di famiglia]], 250 € al mese per brand, e dentro
+gli otto post ci stanno **al massimo due reel**.
+
+La composizione non è libera:
 
 - **Massimo 4 post grafici.**
-- **Almeno 8 post fotografici** — un mix di food, atmosfera, allestimenti e momenti umani, tutti
-  con soggetti diversi tra loro.
+- **Il resto fotografici** — un mix di food, atmosfera, allestimenti e momenti umani, tutti con
+  soggetti diversi tra loro.
+
+⚠️ **Quello che si pubblica sopra gli otto è contenuto extra**, e si conta a listino: reel 35 €,
+carosello 15 €, post singolo 10 €, pacchetto di 5 storie 15 €. Si registra man mano durante il
+mese, non si ricostruisce a memoria il 30.
+
+> **Corretto il 04/09/2026.** Qui c'era scritto «dodici post al mese», e non corrispondeva a
+> quello che la famiglia ha in mano: la proposta di collaborazione ne prevede otto. Quattro post
+> al mese erano regalati senza che nessuno lo sapesse.
 
 ## La checklist prima di pubblicare
 

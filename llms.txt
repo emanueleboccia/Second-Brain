@@ -21,7 +21,9 @@ file sbagliato.
 - [[self/reference/offerta]] -- Cosa vende il personal brand — siti, software, automazioni AI, sistemi interni e ottimizzazione dei processi — e i tre sistemi verticali in costruzione per food, palestre e auto, che restano dentro il brand finché non sono certificati.
 - [[self/reference/target]] -- A chi parla il personal brand: imprese locali della zona vesuviana e della Campania per farsi un nome sul territorio, e aziende ambiziose, con l'espansione nazionale come obiettivo dichiarato e non come punto di partenza.
 - [[self/reference/tono]] -- Come parla Emanuele quando parla di sé: pragmatico ed elementare, definito prima per esclusione — niente guru, niente motivazionale, niente tecnicismi, niente promesse numeriche — e retto dalla regola che ogni affermazione mostri una differenza prima/dopo dimostrabile.
+- [[self/ruolo-famiglia]] -- Cosa fa Emanuele per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno: le cinque aree di cui risponde, cosa è dentro il canone e cosa si conta a parte, e come ogni lavoro diventa una riga di registro col servizio e il prezzo giusto.
 - [[self/tariffario]] -- I prezzi di partenza della versione 1 — siti, menù, contenuti, hosting, automazioni e AI — con le regole trasversali su revisioni e casi studio e la nota strategica sui due piani.
+- [[self/tariffario-famiglia]] -- I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 250 € al mese per brand con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata e i costi fissi girati al costo.
 
 ## `areas/` — I tre brand di famiglia, ognuno con la sua sottocartella completa.
 
@@ -132,7 +134,7 @@ file sbagliato.
 
 - [[docs/brief-cliente]] -- Le otto sezioni di domande da fare a un cliente nuovo prima di preparare una proposta: brand, obiettivi, servizi, target, materiali, stile, vincoli ed extra. Non è una procedura, è lo strumento che si usa dentro la prima call.
 - [[docs/casi/girarrosto-liberti]] -- Dal registro degli ordini su carta a un sistema di ordinazioni digitale. Primo caso del ricettario: impalcatura pronta, i fatti e i numeri li dà Emanuele.
-- [[docs/checklist-sito]] -- Impalcatura vuota: la checklist di consegna di un sito, ancora da scrivere.
+- [[docs/checklist-sito]] -- La procedura pratica per costruire un sito dall'inizio alla fine: dieci fasi e centoventi spunte, dalla prima call al saldo incassato, con dentro cosa si fa e come si verifica che sia fatto.
 - [[docs/definizioni-di-fatto]] -- L'indice delle definizioni di fatto: come si usano le condizioni che dicono quando un lavoro ripetibile è finito, e il rimando alla voce di ogni skill. Le condizioni vere stanno una per file in docs/definizioni-di-fatto/.
 - [[docs/definizioni/brief-cliente]] -- Impalcatura: le condizioni che dicono quando un brief cliente è completo non sono ancora state scritte.
 - [[docs/definizioni/consigliere-vendita]] -- Quando una consulenza di vendita è finita: la situazione riconosciuta, le note giuste citate e una mossa sola da fare.
@@ -312,6 +314,10 @@ file sbagliato.
 - [[entities/clienti/la-sartoria-dei-piccoli/recensioni]] -- Feedback e citazioni testuali di La Sartoria dei Piccoli, da usare come riprova nelle proposte e nei contenuti.
 - [[entities/clienti/la-sartoria-dei-piccoli/scheda]] -- La Sartoria dei Piccoli: hosting in scadenza il 18/09/2026 e sito in restyling. Cartella aperta perché la scadenza è vicina e il lavoro è in corso, non perché il vault sappia molto di loro.
 - [[entities/clienti/la-sartoria-dei-piccoli/storico]] -- Lavori, appuntamenti e accordi presi con La Sartoria dei Piccoli, ricostruiti dalle note di sessione. Le trascrizioni non si copiano qui, si linkano.
+- [[entities/clienti/ragosta/brand-book]] -- Come si scrive e si progetta per Ragosta SRL: il gusto dichiarato da Gaetano — moderno che pesca nell'antico, niente icone nel logo — e cosa non si può dire, a partire dalla divisione col fratello e dal cambio di nome dell'azienda.
+- [[entities/clienti/ragosta/recensioni]] -- Le citazioni testuali di Gaetano Ragosta, da usare come riprova. Vuoto finché il sito non è consegnato: la recensione si chiede alla consegna, ed è anche la moneta con cui si paga lo sconto ancora aperto.
+- [[entities/clienti/ragosta/scheda]] -- Gaetano Ragosta, titolare unico di Ragosta SRL: arredo negozi, arredo casa ed edilizia chiavi in mano dal 1989, con falegnameria propria e clientela alta fra Napoli, Roma e i cantieri Terna. Venduto il 04/09/2026 un sito vetrina con logo a 1.500 €.
+- [[entities/clienti/ragosta/storico]] -- Gli accordi con Gaetano Ragosta, dal primo appuntamento del 04/09/2026: cosa è stato venduto, a che prezzo, cosa deve consegnare lui e la questione aperta del dominio ragosta.eu su Hostinger.
 - [[entities/clienti/sidel/brand-book]] -- Tono, colori e limiti di Sidel srl. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
 - [[entities/clienti/sidel/recensioni]] -- Feedback e citazioni testuali di Sidel srl, da usare come riprova nelle proposte e nei contenuti.
 - [[entities/clienti/sidel/scheda]] -- Sidel srl, titolare Pierluigi Ammirati: cliente arrivato per passaparola, sito WordPress online con hosting fino al 2027 e assistenza su richiesta. Una nuova versione del sito è progettata ma non ancora mostrata.
@@ -325,6 +331,7 @@ file sbagliato.
 
 - [[data/campagne]] -- I risultati delle campagne a pagamento: spesa, ritorno, cosa è stato cambiato in corsa. Partiranno con Sistema Evolve, dove il compenso è una percentuale sulle vendite e quindi i numeri della campagna sono anche i propri.
 - [[data/contenuti-pubblicati]] -- Cosa è stato pubblicato e come è andato: formato, canale, numeri e cosa se ne è capito. È la memoria che permetterà di rilanciare quello che ha già funzionato invece di ripartire ogni volta da un'idea nuova.
+- [[data/interventi-siti-famiglia]] -- Il registro delle piccole modifiche ai tre siti di famiglia: si annota ogni intervento con i minuti, e quando la somma di un brand supera l'ora si apre una riga nel registro lavori e il contatore riparte da zero.
 - [[data/recensioni]] -- Feedback su lavori che non appartengono a un singolo cliente — sistemi, gestionali, il lavoro dentro Sistema Evolve. Le recensioni di un cliente specifico stanno nella sua cartella, non qui.
 
 ## `code/` — Automazioni e skills.

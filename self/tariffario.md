@@ -9,6 +9,7 @@ status: attivo
 created: 2026-08-21
 updated: 2026-08-24
 related:
+  - "[[self/tariffario-famiglia]]"
   - "[[docs/definizioni-di-fatto]]"
   - "[[docs/brief-cliente]]"
   - "[[docs/onboarding]]"
@@ -18,8 +19,13 @@ related:
 
 # Tariffario
 
-Questa è l'unica fonte dei prezzi. I prezzi si leggono da qui:
-mai calcolati, mai stimati, mai inventati.
+Questa è l'unica fonte dei prezzi **per i clienti esterni**. I prezzi si
+leggono da qui: mai calcolati, mai stimati, mai inventati.
+
+⚠️ **I tre brand di famiglia hanno un listino tutto loro**, molto sotto
+questi numeri, in [[self/tariffario-famiglia|tariffario dei brand di
+famiglia]]. Non si mescolano: applicare a un cliente che paga il prezzo
+fatto alla famiglia è un errore che non si recupera, e viceversa.
 
 **Versione 1 — prezzi di partenza.** Si aggiornano a ogni trattativa
 chiusa. Ogni sì / no / trattato si annota nello Storico trattative
@@ -117,6 +123,11 @@ per questa vendita, non per vendere altri siti.
      Se qui non c'è scritto niente, o le righe sono ambigue, si chiede a Emanuele
      invece di dedurre. -->
 
+- 04/09/2026 · Ragosta SRL (Gaetano Ragosta) · sito vetrina + logo + ritocco foto · 1.500 € ·
+  **venduta**, accordo a voce e recap scritto su WhatsApp lo stesso giorno. Acconto 750 € alla
+  consegna del materiale, saldo alla consegna. Nessun caso studio concordato. ⚠️ **Sconto chiesto
+  tre volte e non concesso**: la risposta è stata «va bene, vediamo». Se lo richiede si scambia
+  con recensione scritta più due nomi, non si regala. Lead da Pierluigi Ammirati.
 - 03/09/2026 · Sidel srl (Pierluigi Ammirati) · restyling del sito · prezzo mai presentato ·
   **abbandonata da Emanuele**: inseguito molte volte perché fissasse un appuntamento, nessuna
   risposta; il 02/09 gli sono state mandate anche le schermate della nuova versione, e nemmeno
