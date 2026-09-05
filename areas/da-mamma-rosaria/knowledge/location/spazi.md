@@ -34,7 +34,11 @@ sta — ed è il motivo per cui **non si comunica un numero di invitati** (vedi 
   dicitura *work in progress*.
 - **Instagram** → l'[[areas/da-mamma-rosaria/knowledge/contenuti/storie-evidenza|evidenza]] **LA LOCATION**: una grafica statica per sala.
 
-## ⚠️ Da confermare
+## Quali sono attive
 
-**Quali sale sono inattive?** Emanuele ha detto che alcune vanno marcate *work in progress*, ma non
-ha detto quali. Finché non lo sappiamo, non si pubblica la pagina Ambienti.
+**Confermato da Emanuele il 05/09/2026.** Cinque sale su sei sono attive e si comunicano:
+**Sala Tufo**, **Sala Legno**, **L'Uliveto**, **La Serra**, **Sala Ombrelloni**.
+
+⚠️ **Solo La Cantina non è attiva.** Sul sito porta la dicitura *work in progress*, e **fuori dal
+sito non si comunica affatto**: non entra nei post, non entra nelle storie, non entra nell'evidenza
+LA LOCATION. Una sala mostrata e non prenotabile è una richiesta che arriva e va rifiutata.

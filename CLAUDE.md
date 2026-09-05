@@ -275,6 +275,12 @@ Vietato:
 - Aggettivi a coppie: «elegante e raffinato», «unico e speciale»
 - Chiusure motivazionali
 - Emoji nei testi istituzionali
+- **La battuta in chiusura per ammorbidire.** Aggiunta il 05/09/2026, su un messaggio a un
+  potenziale cliente che finiva con «tanto il caffè me lo fai pagare». Un messaggio che ha già
+  detto la sua cosa si chiude quando è finito: la battuta appiccicata in fondo serve a chi scrive
+  per non sembrare troppo diretto, e a chi legge suona come una strizzata d'occhio che non ha
+  chiesto. Se una battuta viene da sé dentro il testo va bene; se serve a chiudere, è un
+  riempitivo.
 
 **Regola finale:** se un testo potrebbe essere stato scritto per qualsiasi altra attività, è
 sbagliato. Deve poter essere scritto **solo per questa**.
