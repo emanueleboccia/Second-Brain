@@ -1,6 +1,6 @@
 ---
 title: "Formati"
-summary: "I quattro stampi di contenuto del personal brand — «Il conto», «La stanza non finita», «L'ho chiesto a lui», «Stesso gesto» — con struttura, hook, caption, quanto montaggio richiedono davvero, l'ordine di partenza e la cadenza sostenibile per uno che gira da solo e non monta."
+summary: "I quattro stampi di contenuto del personal brand — «Il conto», «La stanza non finita», «L'ho chiesto a lui», «Stesso gesto» — con struttura secondo per secondo, hook, caption e quanto montaggio richiedono davvero; più il quinto che manca, il carosello, e dove ne sta il metodo."
 tags:
   - self
   - reference
@@ -247,70 +247,26 @@ il «prima» esiste ancora e si può riprendere davvero.
 
 ---
 
-## La cadenza
+## 5 · Il carosello — il formato che manca
 
-> **Un video a settimana per sei settimane. Non due, non tre.**
+⚠️ **Non è ancora progettato**, ed è il buco più grosso: **cinque temi su nove non hanno un
+formato che li porti**, e sono tutti quelli che vendono l'offerta alta — la visibilità che
+moltiplica, il bello che comunica male, la pagina Facebook usata come sito, l'AI senza coscienza,
+le agenzie che non scavano.
 
-La variabile non è quante idee ci sono — ce ne sono una decina. È se uno che non ha mai
-pubblicato niente, non sa montare, ha clienti attivi e tre brand di famiglia riesce a chiudere
-un ciclo completo senza saltarne uno. **Sei uscite di fila valgono più di diciotto pianificate e
-nove fatte.**
+**Il motivo è tecnico:** quei cinque sono **argomenti, non gesti.** Un gesto vecchio contro un
+gesto nuovo si riprende; «questo sito è bello ma comunica male» no. Si mostra affiancando due
+cose e spiegando la differenza — che è esattamente cos'è un carosello.
 
-**Settimana 0 — il setup, una volta per tutti e quattro.** Circa due ore e mezza: **un solo
-preset di sottotitoli per tutto il profilo** (non uno per formato), il cartoncino nei tre toni,
-l'angolo col muro delle schede segnato col nastro, le prime tre schede da correction.md. **E il
-profilo: handle, bio, foto, cosa c'è in cima.** Un formato pubblicato su un profilo vuoto butta
-via metà del proprio lavoro.
+**Il metodo sta in `docs/caroselli/`**, quattordici note scritte il 06/09/2026 — a partire da
+[[docs/caroselli/prima-slide-decide-tutto|la prima slide]]. Le due che cambiano di più come si
+scrive: [[docs/caroselli/seconda-slide-e-una-copertina|la slide 2 è una seconda copertina]], e
+[[docs/caroselli/audio-sul-carosello|l'audio apre un canale in più]] — che per un profilo a zero
+follower è la differenza fra parlare a nessuno e parlare a qualcuno.
 
-**Settimane 1-6 — un pezzo a settimana, giorno fisso.** Quattro «Il conto», due «La stanza non
-finita». Sono i due che non dipendono da nessuno.
+## Come si producono
 
-⚠️ **Si gira a lotti, non a episodi.** «Il conto» ha lo stesso set ogni volta: tre episodi in
-una seduta da novanta minuti coprono tre settimane. Girare uno alla volta significa pagare il
-setup sette volte per sette video, ed è il modo esatto in cui una serie muore alla terza puntata.
-
-**Settimane 7-12 — due a settimana, e solo se le prime sei sono uscite tutte e sei.** Se anche
-una sola è saltata, si resta a uno.
-
-**«Stesso gesto» non entra nella cadenza.** È un evento, non una serie: un episodio per lavoro
-consegnato.
-
-**Il totale onesto: 40-45 pezzi nel primo anno, non 150.** Chiunque prometta di più a uno che
-gira da solo e non monta sta contando le idee invece delle serate.
-
-> **La regola che tiene su tutto: si salta, non si recupera.** Una settimana persa si chiude,
-> non si compensa pubblicandone due dopo. Stessa logica della review settimanale che salta la
-> domenica.
-
-## Cosa manca perché questo parta davvero
-
-1. **Il profilo non esiste.** Handle, bio, foto, dove atterra chi clicca sul nome. È il buco più
-   stupido, ed è mezza giornata.
-2. **Il sì di Emanuele sulle convinzioni.** Tre formati su quattro ci si appoggiano. «Il conto»
-   si regge sui nemici, che sono già suoi: per questo può partire prima del verdetto.
-3. **Il permesso scritto di Marco.** Il tariffario lo esige per i casi studio, il Girarrosto è a
-   zero euro come caso studio, e non risulta scritto da nessuna parte. Si chiede **prima di
-   girare**, non prima di pubblicare.
-4. **Le prime righe di `data/contenuti-pubblicati.md`**, che oggi è vuoto. Tutte le regole che
-   dipendono dalle analitiche — dove sta la CTA, quale hook ruota — oggi non si possono
-   applicare, e non si inventano.
-5. **Un formato per l'offerta alta.** Cervello aziendale, posizionamento, i sistemi da
-   3.000-4.000 €: le voci più care del listino, e nessuno dei quattro le tocca. Così com'è, il
-   sistema insegna al pubblico che Emanuele fa gestionali per ristoranti. **È il quinto formato
-   da progettare, non una rifinitura.**
-6. **Il montatore**, che serve a un formato solo su quattro.
-
-⚠️ **E una cosa da mettere subito in [[docs/onboarding|onboarding]], che vale più di tutti e
-quattro i formati: al prossimo sopralluogo, prima di costruire qualsiasi cosa, si riprendono
-tre minuti del gesto vecchio.** Costa niente, non impegna a fare nessun video, e produce il
-materiale che nel caso del Girarrosto è andato perso per sempre.
-
-## Un avvertimento sul sistema
-
-**Tutti e quattro sono formati di prova.** Nessuno è informativo puro, nessuno è
-intrattenimento — e la platea più larga è l'intrattenimento. Un profilo di sola riprova, da zero
-follower, **cresce lentissimo**: la riprova convince chi ti sta già valutando, non chi non ti
-conosce. «Il conto» è l'unico con una porta larga, ed è anche per questo che parte per primo.
-
-**E quattro formati sono più di quanti se ne possano alimentare oggi.** Due formati vivi e sei
-uscite valgono più di quattro progettati benissimo e zero pubblicati.
+**La cadenza, l'ordine di partenza e cosa manca perché questi formati escano davvero non stanno
+qui:** stanno in [[projects/personal-brand/lancio|il lancio]], perché sono decisioni di
+produzione e cambiano con il progetto. Questo file dice **come sono fatti i formati**, che è una
+cosa che non cambia.

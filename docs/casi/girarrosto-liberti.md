@@ -103,8 +103,9 @@ sistema davvero, e chiede di integrare o togliere qualcosa. Emanuele continua a 
 e va detta quando si vende.
 
 **Quello che ha già prodotto:** due referral non ancora chiesti, una recensione e un video da
-girare. La riga di registro è `2026-001`, importo zero, non fatturato per scelta — il locale è
-il caso studio.
+girare — tutto tracciato in [[entities/clienti/girarrosto-liberti/scheda|la scheda di Marco
+Pappacena]]. La riga di registro è `2026-001`, importo zero, non fatturato per scelta: il locale
+è il caso studio.
 
 ## Dove serve
 

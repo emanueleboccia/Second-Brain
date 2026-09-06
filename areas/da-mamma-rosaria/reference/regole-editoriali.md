@@ -52,13 +52,33 @@ mese, non si ricostruisce a memoria il 30.
 - Il post non ripete il soggetto di quello prima o di quello dopo?
 - Il testo **non** promette «tutto incluso», «un solo prezzo» o «coltivati da noi» ([[areas/da-mamma-rosaria/reference/tono|tono di voce]])?
 
+## Gli hashtag di zona
+
+**Letti dai post veri di agosto 2026**, non decisi a tavolino. Lo schema in uso è costante e si
+continua così:
+
+1. **`#DaMammaRosaria`** — fisso, sempre primo.
+2. **Due o tre tematici** sul soggetto di quel post.
+3. **I tre di zona:** `#poggiomarino` `#napoli` `#zonavesuviana`.
+
+⚠️ **«Catering» non si usa nemmeno negato.** Il post del 10/08/2026 portava `#niencatering`:
+refuso a parte, «catering» è una delle formule vietate da
+[[areas/da-mamma-rosaria/reference/tono|tono di voce]], e un hashtag la mette sulla pagina lo
+stesso.
+
 ## Gli undici no del marchio
 
 1. Non usiamo un terzo carattere: solo D-DIN e Regular Brush.
 2. Non usiamo il marrone come sfondo pieno di un post.
 3. Non mettiamo il Brush dentro un pulsante o dentro un paragrafo.
 4. Non scriviamo punti, virgole o numeri dentro una parola in Brush.
-5. **Non pubblichiamo immagini generate dall'intelligenza artificiale.**
+5. **Non spacciamo per vero quello che non lo è.** ⚠️ **Riscritta il 06/09/2026.** Diceva «non
+   pubblichiamo immagini generate dall'intelligenza artificiale», ed era una regola sbagliata:
+   *«l'AI è uno strumento, il problema è quando le cose sono fatte male»* — parole di Emanuele.
+   Il criterio non è **con cosa** è fatta un'immagine, è **cosa promette**. Una texture, uno
+   sfondo, un elemento grafico o un'animazione generati vanno benissimo. **Il piatto, la sala,
+   l'allestimento e l'evento no**: quelli il cliente viene a vederli di persona, e se non
+   corrispondono la foto non è uno stile, è una promessa rotta.
 6. Non ripubblichiamo la stessa foto o lo stesso soggetto a distanza ravvicinata.
 7. Non promettiamo «tutto incluso» o «un solo prezzo».
 8. **Non promettiamo l'intera location: promettiamo uno spazio dedicato.**

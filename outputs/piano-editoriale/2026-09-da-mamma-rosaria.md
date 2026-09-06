@@ -284,21 +284,11 @@ mese si inciampa più facilmente:
 - Nessun prezzo, nessuna fascia, nessun numero di invitati.
 - La parola in Brush è una sola, senza punti, virgole, numeri o «&».
 - Niente emoji dentro le grafiche. Nelle caption sì, col contagocce.
-- Nessuna immagine generata dall'intelligenza artificiale.
+- Il piatto, la sala e l'allestimento sono **fotografati**, non generati. Grafica e sfondi liberi.
 - La storia di Mamma Rosaria **non entra**: non è ancora un tema attivo.
 - Export: post 1080 × 1350, storie 1080 × 1920, JPG qualità 95.
 
-**Gli hashtag di zona esistono già**, contrariamente a quello che dice il vault. Letti dai post di
-agosto, lo schema in uso è: **#DaMammaRosaria** fisso, poi due o tre tematici sul soggetto del post,
-poi i tre di zona — **#poggiomarino #napoli #zonavesuviana**. Si continua così.
-
-⚠️ Il buco non è negli hashtag, è nel vault: [[areas/da-mamma-rosaria/reference/design|design system]]
-li dà come «da definire» e [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]]
-li dà per fatti. Vanno scritti una volta, così smettono di essere ricostruiti a memoria a ogni post.
-
-⚠️ **E «catering» non si usa nemmeno negato.** Il post del 10/08 porta `#niencatering` — refuso a
-parte, «catering» è una delle formule vietate da [[areas/da-mamma-rosaria/reference/tono|tono di
-voce]], e un hashtag la mette sulla pagina lo stesso.
+**Gli hashtag** stanno in [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]] dal 06/09/2026, letti dai post veri di agosto: qui non si ricopiano.
 
 ## I contenuti extra
 

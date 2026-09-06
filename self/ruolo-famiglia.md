@@ -58,6 +58,12 @@ il giorno che si produce, altrimenti a fine mese si ricostruisce a memoria e si 
 
 **Servizio nel registro:** `Gestione social`.
 
+**Dove vive il lavoro:** il piano editoriale di ogni mese sta in `outputs/piano-editoriale/`, un
+file per brand e per mese. L'ultimo scritto è
+[[outputs/piano-editoriale/2026-09-da-mamma-rosaria|settembre 2026 di Da Mamma Rosaria]], ed è
+anche il modello per gli altri: spina del mese, calendario, i post uno per uno, le storie, e la
+tabella dei contenuti extra da riempire man mano.
+
 ## 2 · Grafica
 
 Brochure, grafiche pubblicitarie, locandine, materiale stampato, qualsiasi grafica che serva a

@@ -39,8 +39,10 @@ un'obiezione da manuale, e le risposte da manuale funzionano solo su quelle.
 **Com'è andata.** Una risposta brillante a cui è seguito un no è una risposta che non
 funziona, e senza l'esito questa nota diventa una raccolta di battute pronte.
 
-Il metodo per smontarle sta nelle note di `docs/vendita/`: qui c'è il materiale grezzo su
-cui quel metodo si applica.
+Il metodo per smontarle sta nelle note di `docs/vendita/` — soprattutto
+[[docs/vendita/prevenire-le-obiezioni|prevenire le obiezioni]] e
+[[docs/vendita/isolare-e-sradicare|isolare e sradicare]]. Qui c'è il materiale grezzo su cui
+quel metodo si applica.
 
 ## Obiezioni
 
@@ -72,7 +74,7 @@ Gli era stato chiesto un parere sul prototipo, e il parere non è arrivato. **No
 piaciuto.** Il feedback, che era l'obiettivo dichiarato del messaggio, è andato perso dietro
 un'obiezione su una vendita immaginaria.
 
-⚠️ **E il problema non l'ha mai dichiarato lui.** Che non avere il menù online gli costi qualcosa,
+⚠️ **E il [[docs/vendita/problema-bruciante|problema]] non l'ha mai dichiarato lui.** Che non avere il menù online gli costi qualcosa,
 lo pensa Emanuele. Fernando non l'ha detto, e anzi ha detto che il lavoro va. È lo stesso schema
 del [[correction|correction log del 24/08]] su Lampion Square, in forma più leggera: **il prototipo
 è arrivato prima che ci fosse un problema dichiarato.** Mostrare il lavoro fatto è generoso e

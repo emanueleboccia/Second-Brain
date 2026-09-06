@@ -406,3 +406,23 @@ regola. Si elencano le date con `RDATE` per qualche anno, e nella descrizione si
 **E la regola sopra le due:** una ricorrenza si verifica **sul secondo anno**, non sul primo.
 Il primo anno è la data che hai scritto tu e torna sempre; è l'anno dopo che dice se la regola
 è giusta. Vale per qualsiasi cosa si ripeta.
+
+## 06/09/2026 — Una misura può essere zero perché non l'hai fatta
+
+Cercavo le pause in diciassette video di Mamma Rosaria per capire se SmartCut ci servisse, e ho
+riportato a Emanuele **«0 pause su 17»**. Non era vero: avevo lanciato `ffmpeg` con `-v error`,
+e `silencedetect` scrive i suoi risultati al livello `info`. Il filtro girava e il suo output
+veniva buttato via. Il comando finiva senza errori, il conteggio dava zero, e uno zero pulito
+sembra un risultato.
+
+Nello stesso giro il secondo errore: sui video di Vincenzo la soglia `-30dB` non trovava niente
+perché il **rumore di fondo della stanza stava a -22dB**. Sotto il rumore di fondo, il silenzio
+non esiste per definizione.
+
+**La prossima volta:** prima di dare per buono un conteggio a zero, si verifica che lo strumento
+stia parlando — un solo caso di controllo dove il risultato deve essere diverso da zero. E una
+soglia di silenzio si calibra sul rumore vero del file (`volumedetect`), mai a memoria.
+
+**La regola sopra:** **uno zero non è un risultato finché non hai visto lo strumento produrre
+un non-zero.** Vale per qualsiasi misura, non solo per l'audio: grep che non trova, query che
+non torna righe, test che non falliscono.

@@ -81,15 +81,32 @@ deliverable. Serve un test su materiale proprio prima di dire se regge.
 
 **Data:** in prova dal 27/08/2026.
 
-## Higgsfield — da rivalutare
+## Higgsfield — attivo
 
-**A cosa serve:** generazione video con AI.
+**A cosa serve:** **animare le foto vere che già esistono.** Una foto di un evento passato
+più un movimento di camera è un video da feed senza aver girato niente. Genera anche
+immagini, ma non è lì che serve.
 
-**Verdetto:** **non scartato.** Costo alto e zero crediti sul piano free, quindi oggi non
-si può nemmeno provare sul serio. La condizione che riapre la valutazione è economica: se
-il prezzo scende o se un lavoro pagato lo giustifica, si riprende da qui.
+**Verdetto:** **regge, con due limiti misurati.** Provato il 06/09/2026 su una foto vera
+della sala Uliveto di [[areas/da-mamma-rosaria/CLAUDE|Da Mamma Rosaria]]: dolly-in di
+cinque secondi, e nella scena **non si è mosso niente** — stessi palloncini, stessa posa
+dell'orso, stessi piatti. Nessuna persona entrata, nessuna foglia mossa. È esattamente il
+confine che la regola sull'AI impone: *si muove la camera, non il soggetto*.
 
-**Data:** 01/09/2026.
+⚠️ **Il rapporto d'aspetto richiesto lo ignora.** Chiesto 9:16, uscito 4:5 — lo stesso
+della foto di partenza. Quindi produce **video da feed, non storie né reel a schermo
+pieno**: per il verticale si parte da una foto già ritagliata, o si passa dal reframe dopo.
+
+⚠️ **Il dettaglio fine si ridisegna.** Il muso dell'orso all'arrivo è leggermente
+ricostruito. A dimensione feed non si vede; su un volto riconoscibile sarebbe un problema,
+e per quello vale il divieto di sempre.
+
+**Il carosello intero no.** Due run dello stesso prompt divergono su griglia, margini e
+font: sa fare una slide, non otto coerenti. Per i caroselli l'impianto è ibrido — modello
+HTML/CSS per testo e impaginato, Higgsfield per le immagini.
+
+**Data:** valutato «da rivalutare» il 01/09/2026 per il costo, **abbonato al piano Ultra e
+promosso ad attivo il 06/09/2026**, dopo il primo test su materiale proprio.
 
 ## GoHighLevel — da rivalutare
 
@@ -145,7 +162,7 @@ la domanda su CapCut si riapre.
 
 **Data:** censito il 02/09/2026.
 
-## SmartCut (MCP per CapCut) — in test, non ancora provato su progetto reale
+## SmartCut (MCP per CapCut) — in test, provato su un progetto reale
 
 **A cosa serve:** togliere silenzi e riprese ripetute da un video parlato, dentro il
 progetto CapCut. Legge i sottotitoli che CapCut genera da solo (`Testo → Sottotitoli
@@ -153,12 +170,48 @@ automatici`) per capire dov'è il parlato: i buchi sopra un secondo li taglia, e
 frasi ripetute tiene l'ultima. Non analizza l'audio — senza sottotitoli generati prima,
 non fa niente. Otto strumenti, di cui due leggono e sei scrivono sul progetto.
 
-**Verdetto:** non ancora dato, e la ragione è che **su questo Mac non c'è nessun progetto
-CapCut**: le tre cartelle sotto `~/Movies/CapCut/User Data/Projects/` sono vuote, e i
-715 MB lì dentro sono cache. Il server è installato in `~/Developer/capcut-ai-editor`,
-registrato come MCP `smartcut` con scope user, e risponde all'handshake con tutti e otto
-gli strumenti. Ma non ha mai letto un progetto vero, quindi non è ancora «in test» nel
-senso che questo registro dà alla parola.
+**Verdetto:** **il meccanismo funziona, le impostazioni di serie no.** Provato il
+06/09/2026 su un progetto vero: 5:13 di Vincenzo che parla, tre clip da iPhone, 94
+sottotitoli generati da CapCut.
+
+⚠️ **Con i parametri di serie ha distrutto il video: 5:13 → 0:42.** I buchi veri fra i
+sottotitoli erano 34 per circa 113 secondi; ne ha tolti 271. La differenza è tutta nella
+rilevazione dei doppioni, che di serie sta a **`similarity_threshold` 0.6**: su un parlato
+italiano continuo, mezze frasi come «quindi» o «quello che» si somigliano abbastanza da far
+collassare blocchi interi — un taglio solo andava da 104 a 251 secondi.
+
+**Con `similarity_threshold` a 0.95 e `silence_threshold_sec` a 1.2 il risultato regge:**
+5:13 → 3:19, 29 buchi e un doppione, 27 segmenti. **Questi sono i valori da usare**, e la
+soglia di serie non si lascia mai su un parlato in italiano.
+
+⚠️ **I «buchi» non sono silenzi.** Sono spazi fra due frasi trascritte: dentro ci finiscono
+respiri, esitazioni e rumore di fondo, che si sentono. Misurato sull'audio, il silenzio vero
+in quei cinque minuti era una decina di secondi; i sottotitoli ne dichiaravano 113. Quindi
+il taglio va **ascoltato**, non solo contato: la macchina non sa se lo stacco suona.
+
+**Cosa serve prima di lanciarlo**, in ordine: un progetto con dentro il girato, i
+sottotitoli generati dentro CapCut (`Testo → Sottotitoli automatici`, italiano — gratis, non
+serve il piano Pro), CapCut **chiuso**, e una copia della cartella del progetto messa da
+parte.
+
+**Il vero guadagno però sta un passo più in là: `draft_info.json` si scrive a mano.** Provato
+il 06/09/2026 costruendo da zero un montaggio di 50 secondi — dieci clip scelte sulla
+trascrizione, 43 sottotitoli corti, zoom su ogni clip — e CapCut lo ha aperto senza storie.
+Quello che serve sapere:
+
+- **I sottotitoli automatici contengono il tempo di ogni singola parola**, in
+  `materials.texts[].words`: da lì si spezzano le battute in schede da due o tre parole, che è
+  quello che tiene l'attenzione. ⚠️ I tempi delle parole possono **sforare la durata del
+  sottotitolo**: vanno limitati al suo intervallo, o due schede finiscono sovrapposte.
+- ⚠️ **`use_effect_default_color` va messo a `false`**, o il colore scritto viene ignorato e il
+  testo esce tutto del colore del bordo. È l'unico motivo per cui il bianco non si vedeva.
+- **Lo zoom si fa con `common_keyframes`** sul segmento video, due voci `KFTypeScaleX` e
+  `KFTypeScaleY` con due keyframe ciascuna. Funziona, e non serve nessuna risorsa scaricata.
+- ⚠️ **Le transizioni no.** Sono effetti con una risorsa da scaricare, e su questo Mac non ce
+  n'è nessuna: scriverne una punterebbe al vuoto. Si trascinano a mano in CapCut.
+- Ogni segmento vuole i suoi `extra_material_refs` — canvas, speed, sound_channel_mapping,
+  placeholder_info, material_color, vocal_separation: **si clonano con id nuovi**, non si
+  riusano fra segmenti diversi.
 
 ⚠️ **La dipendenza `mcp` è bloccata alla 1.x** (1.29.1) dentro il venv del repo. Il
 `pyproject.toml` dichiara `mcp>=1.0.0` senza limite superiore, e con la 2.1.1 il server
@@ -176,7 +229,7 @@ volta**, non solo la prima. E CapCut va chiuso prima, o il salvataggio automatic
 riscrive sopra le modifiche appena fatte. ⚠️ I riferimenti a riga valgono per il commit
 `c2cb647`, che è la versione clonata: se il repo si aggiorna, vanno riverificati.
 
-**Data:** installato il 06/09/2026, mai eseguito su un progetto.
+**Data:** installato ed eseguito su un progetto reale il 06/09/2026.
 
 ## Lovable — in test
 

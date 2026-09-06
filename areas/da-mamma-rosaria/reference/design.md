@@ -132,8 +132,13 @@ contrasto morbido, vignettatura appena accennata.
 **Cosa fotografiamo:** il cibo da vicino (è il materiale più forte che abbiamo), gli angoli vivi in
 azione, gli allestimenti e le scenografie, i momenti umani.
 
-**Cosa non pubblichiamo:** foto sfocate, girate al buio, con persone non consenzienti, o **generate
-dall'intelligenza artificiale**. E mai lo stesso soggetto due volte di fila.
+**Cosa non pubblichiamo:** foto sfocate, girate al buio, o con persone non consenzienti. E mai
+lo stesso soggetto due volte di fila.
+
+⚠️ **Riscritta il 06/09/2026.** Qui c'era anche «o generate dall'intelligenza artificiale», tolto
+da Emanuele: l'AI è uno strumento e usata bene va benissimo. Resta un solo limite, ed è sul
+soggetto e non sullo strumento — **il piatto, la sala, l'allestimento e l'evento si fotografano**,
+perché il cliente viene a vederli. Grafica, texture, sfondi e animazioni si generano liberamente.
 
 ## Pulsanti
 
@@ -287,7 +292,8 @@ servizio**: il claim si legge sul sito. I nomi ufficiali stanno in [[areas/da-ma
 - **Nove evidenze su undici non hanno un template.** Esistono solo *storia recensione* e *storia
   servizio* (che è l'evidenza «I nostri angoli»). Eventi, La Location, Dove siamo, Chi siamo, La
   Dispensa, Allestimenti, Voi, In fattoria, Il Menu: da disegnare.
-- **Gli hashtag di zona.** La checklist li dà per esistenti, ma non sono definiti da nessuna parte.
+- ~~**Gli hashtag di zona.**~~ **Chiuso il 06/09/2026:** lo schema esisteva già nei post veri ed
+  è stato scritto in [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]].
 
 ## Un errore dentro la guideline
 

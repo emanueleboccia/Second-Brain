@@ -56,14 +56,26 @@ automazioni con l'AI per aziende ambiziose»* — **coincide parola per parola c
 
 ### La bio di Instagram
 
+✅ **Scelta da Emanuele il 06/09/2026** fra sette versioni. 142 caratteri sui 150 disponibili.
+
 ```
-Siti, software e automazioni AI per le attività della mia zona
-Prima capisco cosa vendi. Poi lo costruisco.
-👇
+Il lavoro che ti pesa non si organizza. Si toglie.
+Siti, software e AI su misura.
+Tra Napoli e il Vesuvio, di persona.
+👇 Guarda un lavoro vero
 ```
 
-⚠️ **Nome visualizzato: `Emanuele Boccia`**, separato dall'handle `@bocciaworks`. Instagram
-cerca su tutti e due, e chi lo incontra di persona digita il suo nome.
+**Perché questa e non le altre.** Apre sulla convinzione 2, che è l'unica con una storia
+completa, e soprattutto **parla del problema che fa guadagnare di più**: «chi ti trova capisce
+cosa vendi» porta gente che vuole un sito da 1.500 €, «il lavoro che ti pesa si toglie» porta
+gente con un problema di processo, cioè i sistemi da 2.500 € in su.
+
+⚠️ **Nome visualizzato: `Emanuele Boccia | Siti e sistemi`**, separato dall'handle
+`@bocciaworks`. Instagram cerca su tutti e due, e chi lo incontra di persona digita il suo nome.
+
+⚠️ **La riga 4 è una promessa, e vincola il link.** «Guarda un lavoro vero» impegna a mettere
+dall'altra parte **un lavoro**, non una homepage e non WhatsApp. O il link porta a un caso, o la
+riga 4 cambia.
 
 ### Come è costruita, e perché regge
 
