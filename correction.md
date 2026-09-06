@@ -356,3 +356,53 @@ si scopre di aver violato a lavoro finito è una convenzione che non è stata le
 **test prompt e valutazione** — si fa girare la skill su casi veri e si misura. Non l'abbiamo
 fatto. La skill è scritta bene sulla carta, ma **non è ancora stata provata su un contenuto
 vero**. La prova sarà il primo script che produce.
+
+## 06/09/2026 — La produttività finta si chiede, non si deduce
+
+Prima review settimanale. Alla domanda «cosa era produttività finta» ho portato tre candidati e
+**due erano sbagliati**. I sette corsi importati da Notion li avevo chiamati tempo perso perché
+la formazione è congelata fino a ottobre: in realtà non servivano a essere studiati, servivano a
+estrarre procedure e prendere decisioni, e importarli *era* il lavoro. Il registro lavori rifatto
+due volte in quattro giorni l'avevo contato come spreco: è il posto dove finiscono i soldi, e si
+rifà finché non è giusto.
+
+L'errore è sempre lo stesso: **ho dedotto lo scopo di un'attività dallo stato dell'area che
+tocca.** «Formazione congelata» non vuol dire che ogni cosa che passa da un corso sia rimandata.
+
+**La prossima volta:** un candidato a produttività finta si porta come **domanda**, non come
+verdetto — «a cosa ti è servito importare i corsi?» prima di «quello era tempo perso». La terza
+osservazione ha retto proprio perché era una domanda vera: la mappa delle competenze esiste e
+non ha ancora prodotto una decisione, e quello l'ha confermato lui.
+
+Vale oltre la review: **quando giudico una cosa che ha fatto Emanuele, il giudizio si mostra
+come ipotesi.** Se ho ragione lo conferma in una riga; se ho torto, senza la domanda gli sto
+solo dicendo che ha buttato tre giorni.
+
+## 06/09/2026 — Su Google Calendar due trappole: il fuso e le regole di ricorrenza
+
+Scrivendo il calendario `Date commerciali` ho sbagliato due volte, e in entrambi i casi l'API
+aveva risposto OK.
+
+**1. Gli eventi tutto-il-giorno slittano di un giorno.** Passando `2026-09-27T00:00:00+02:00`
+con `allDay: true`, Google converte in UTC — che è il 26 alle 22:00 — e tiene la data UTC:
+l'evento è atterrato il **26 settembre**. Se ne accorge solo chi guarda il calendario, non chi
+legge la risposta.
+
+**La prossima volta:** per un evento tutto-il-giorno si passa l'offset `+00:00` e **non** si
+passa `timeZone`, perché quel parametro sovrascrive l'offset e riporta il problema. `startTime`
+la data vera, `endTime` il giorno dopo.
+
+**2. In una RRULE, `BYMONTH` e `BYMONTHDAY` non fanno una finestra continua.** Per il Cyber
+Monday — il lunedì dopo il Black Friday, che cade fra il 26/11 e il 2/12 — avevo scritto
+`BYMONTH=11,12;BYMONTHDAY=26,27,28,29,30,1,2;BYDAY=MO`, ragionando su un intervallo. Google
+incrocia i due criteri: prende i lunedì che cadono nei giorni 1, 2 e 26-30 **di novembre e di
+dicembre**. Nel 2027 il Cyber Monday compariva **tre volte** — 1 novembre, 29 novembre e 27
+dicembre. Il Black Friday invece regge, perché `BYMONTH=11;BYMONTHDAY=23..29;BYDAY=FR` sta
+davvero dentro un mese solo.
+
+**La prossima volta:** una ricorrenza che attraversa il confine fra due mesi non si scrive come
+regola. Si elencano le date con `RDATE` per qualche anno, e nella descrizione si scrive perché.
+
+**E la regola sopra le due:** una ricorrenza si verifica **sul secondo anno**, non sul primo.
+Il primo anno è la data che hai scritto tu e torna sempre; è l'anno dopo che dice se la regola
+è giusta. Vale per qualsiasi cosa si ripeta.

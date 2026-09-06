@@ -17,12 +17,14 @@ file sbagliato.
 - [[self/competenze]] -- La mappa di cosa so fare, con il livello autovalutato, cosa vale la pena far crescere e cosa conviene delegare. Struttura pronta: i livelli li dà Emanuele, perché autovalutarsi al posto di qualcun altro non ha senso.
 - [[self/reference/brand]] -- Chi è Emanuele come professionista: il percorso a gradini inglobati dalla grafica al marketing, la tesi per cui il marketing è un ramo aziendale obbligatorio, l'arco che va dal sentirsi stretto da dipendente alla fusione di marketing, codice e design.
 - [[self/reference/caption]] -- Il formato prototipo del personal brand — problema concreto, soluzione su misura, differenza dimostrabile — nato dal primo video già individuato su Girarrosto Liberti, e le condizioni perché un contenuto possa esistere.
+- [[self/reference/convinzioni]] -- La spina dorsale di cosa dice il personal brand: le convinzioni che cambiano la testa a chi ascolta e i nemici — che sono idee, mai persone. Ogni contenuto è una di queste righe raccontata attraverso una storia vera.
 - [[self/reference/design]] -- L'identità visiva del personal brand: i tre caratteri liberi — Archivo, JetBrains Mono, Helvetica — la palette monocroma dark su nero, crema #EEEBDA e bianco, la gerarchia fatta di luce invece che di colore, il fondale firma a quattro strati e i quattro componenti che ne discendono.
+- [[self/reference/formati]] -- I quattro stampi di contenuto del personal brand — «Il conto», «La stanza non finita», «L'ho chiesto a lui», «Stesso gesto» — con struttura, hook, caption, quanto montaggio richiedono davvero, l'ordine di partenza e la cadenza sostenibile per uno che gira da solo e non monta.
 - [[self/reference/offerta]] -- Cosa vende il personal brand — siti, software, automazioni AI, sistemi interni e ottimizzazione dei processi — e i tre sistemi verticali in costruzione per food, palestre e auto, che restano dentro il brand finché non sono certificati.
 - [[self/reference/target]] -- A chi parla il personal brand: imprese locali della zona vesuviana e della Campania per farsi un nome sul territorio, e aziende ambiziose, con l'espansione nazionale come obiettivo dichiarato e non come punto di partenza.
 - [[self/reference/tono]] -- Come parla Emanuele quando parla di sé: pragmatico ed elementare, definito prima per esclusione — niente guru, niente motivazionale, niente tecnicismi, niente promesse numeriche — e retto dalla regola che ogni affermazione mostri una differenza prima/dopo dimostrabile.
 - [[self/ruolo-famiglia]] -- Cosa fa Emanuele per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno: le cinque aree di cui risponde, cosa è dentro il canone e cosa si conta a parte, e come ogni lavoro diventa una riga di registro col servizio e il prezzo giusto.
-- [[self/tariffario]] -- I prezzi di partenza della versione 1 — siti, menù, contenuti, hosting, automazioni e AI — con le regole trasversali su revisioni e casi studio e la nota strategica sui due piani.
+- [[self/tariffario]] -- I prezzi per i clienti esterni, in fasce e non in numeri secchi: il cervello aziendale, i siti, i sistemi su misura, i contenuti e il ricorrente — con la regola che li governa tutti, stare sotto mercato ma non troppo, e i riferimenti di mercato su cui è stata tarata.
 - [[self/tariffario-famiglia]] -- I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 250 € al mese per brand con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata e i costi fissi girati al costo.
 
 ## `areas/` — I tre brand di famiglia, ognuno con la sua sottocartella completa.
@@ -124,7 +126,7 @@ file sbagliato.
 
 ## `projects/` — Lavori con un inizio e una fine.
 
-*Nessuna nota.*
+- [[projects/personal-brand/piano]] -- La strategia di lancio e posizionamento su Instagram e TikTok: il benchmark dei due profili di riferimento, il posizionamento che li evita, la strategia per piattaforma, il piano di autorità, la rete locale, la reputazione, le metriche che contano davvero e le tre azioni dei primi novanta giorni.
 
 ## `concepts/` — Definizioni.
 
@@ -133,7 +135,7 @@ file sbagliato.
 ## `docs/` — Procedure, checklist, definizioni di fatto.
 
 - [[docs/brief-cliente]] -- Le otto sezioni di domande da fare a un cliente nuovo prima di preparare una proposta: brand, obiettivi, servizi, target, materiali, stile, vincoli ed extra. Non è una procedura, è lo strumento che si usa dentro la prima call.
-- [[docs/casi/girarrosto-liberti]] -- Dal registro degli ordini su carta a un sistema di ordinazioni digitale. Primo caso del ricettario: impalcatura pronta, i fatti e i numeri li dà Emanuele.
+- [[docs/casi/girarrosto-liberti]] -- Dal registro degli ordini su carta e penna, con gli evidenziatori per distinguere pollo e tacchino, a un gestionale su iPad più un sito menù sincronizzato: non il CRM del secolo, ma il gesto di prima fatto venti volte più in fretta. Primo caso del ricettario.
 - [[docs/checklist-sito]] -- La procedura pratica per costruire un sito dall'inizio alla fine: dieci fasi e centoventi spunte, dalla prima call al saldo incassato, con dentro cosa si fa e come si verifica che sia fatto.
 - [[docs/definizioni-di-fatto]] -- L'indice delle definizioni di fatto: come si usano le condizioni che dicono quando un lavoro ripetibile è finito, e il rimando alla voce di ogni skill. Le condizioni vere stanno una per file in docs/definizioni-di-fatto/.
 - [[docs/definizioni/brief-cliente]] -- Impalcatura: le condizioni che dicono quando un brief cliente è completo non sono ancora state scritte.
@@ -360,4 +362,5 @@ dal gate di qualità.
 
 ## `outputs/` — Deliverable prodotti.
 
+- [[outputs/piano-editoriale/2026-09-da-mamma-rosaria]] -- Gli otto post e le otto storie di settembre: la spina del mese è la primavera che si prenota adesso, con le cerimonie religiose nominate per esteso e la risposta al dolore di Carmela, che è la solitudine di chi organizza.
 - [[outputs/script/2026-09-03-caso-girarrosto]] -- Copione del reel sul caso Girarrosto: il passaggio da carta e penna al sistema di ordinazione su iPad, mostrato con dati alla mano per far dire a chi guarda «lo voglio anch'io». Primo contenuto del personal brand.

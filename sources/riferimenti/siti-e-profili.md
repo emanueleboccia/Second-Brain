@@ -23,7 +23,8 @@ diceva solo il nome, il motivo è segnato **da confermare** invece che dedotto.
 | Riferimento | Cosa | Perché sta qui |
 |---|---|---|
 | [shamelesspub.it](https://shamelesspub.it/) | sito di un pub | Il modello scelto per il sito di Cesco: «fallo uguale ma con i colori di Cesco». Di questo interessa la **struttura e l'atmosfera** di un sito per una paninoteca, non la palette. |
-| **@stopidesign** | profilo Instagram | «È proprio quello che voglio fare io.» È il riferimento per il **personal brand**: come si presenta un designer che si mette in mezzo al proprio lavoro. |
+| **@stopidesign** | profilo Instagram | «È proprio quello che voglio fare io.» Il riferimento per il **personal brand**. ⚠️ **Letto il 06/09/2026: non è un riferimento, è il concorrente diretto.** Stefano Pistoni, 4.222 follower, e la sua bio è l'offerta di Emanuele parola per parola — «Siti Web, Software e Automazioni AI per Aziende Ambiziose». Da qui è nata la decisione di posizionarsi **locale e verticale** invece che sulla sua posizione. Vedi [[projects/personal-brand/piano]]. |
+| **@ayzz.thedesigner** | profilo Instagram | Indicato da Emanuele il 06/09/2026 come benchmark. ⚠️ **Non è un concorrente:** 267.000 follower, in inglese, vende **formazione ad altri designer** — le sue storie in evidenza sono *Get Clients*, *Roadmap*, *Motion Tuts*. I suoi follower sono designer, non clienti. Si guarda per la **qualità visiva e il motion**, mai per la strategia: copiarne i formati costruisce un pubblico che non compra siti. |
 | [giuseppecastagna.it](https://giuseppecastagna.it) | sito personale | Riferimento per il **proprio sito**, dentro il progetto di lancio del personal brand di ottobre. Cosa guardarci esattamente: **da confermare.** |
 | **Girasole.co** | competitor | Da analizzare come **struttura dei siti**: è un concorrente diretto, e serve capire come impagina e cosa promette. |
 

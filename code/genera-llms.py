@@ -31,7 +31,10 @@ CARTELLE = [
 ]
 # sources/ e workspace/ restano fuori: materiale grezzo e journal di sessione.
 
-FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md"}
+# AGENTS.md è l'adattatore per Codex, gemello di CLAUDE.md: istruzioni, non una nota.
+# Escluso il 06/09/2026 — senza summary finiva ogni volta fra le segnalazioni,
+# e una segnalazione che si ignora sempre insegna a ignorarle tutte.
+FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md", "AGENTS.md"}
 
 INTESTAZIONE = """# Second Brain di Emanuele
 

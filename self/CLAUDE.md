@@ -34,13 +34,23 @@ Non si mescolano: **il tono del personal brand non si applica a un preventivo**.
 ### `reference/` — la fonte di verità (leggi sempre)
 
 - `brand.md` · `target.md` · `offerta.md` · `tono.md` · `caption.md` — scritti il 27/08/2026
-  distillando l'intervista in `sources/brain-dump-personal-brand.md`.
-- `design.md` — **ancora da compilare.** L'intervista non ha toccato l'identità visiva; nel file
-  c'è l'elenco di cosa manca.
+  distillando l'intervista in `sources/brain-dump-personal-brand.md`. ⚠️ **`brand.md` contiene
+  dal 06/09/2026 il messaging core**, che è la versione operativa e sostituisce la definizione
+  del 27/08.
+- `design.md` — compilato il 29/08/2026: caratteri, palette, componenti, fondale firma.
+- `convinzioni.md` — **cosa dice**: quattro convinzioni e cinque nemici, confermati da Emanuele
+  il 06/09/2026. È la spina dorsale di ogni contenuto.
+- `formati.md` — **in che forma lo dice**: i quattro stampi di contenuto, la cadenza e l'ordine
+  di partenza.
+
+Il piano per lanciare il personal brand entro il Q4 non sta qui: sta in
+`projects/personal-brand/`, perché è un lavoro con un inizio e una fine. Qui resta l'identità,
+che non finisce.
 
 ### Il resto del lavoro operativo
 
 - `tariffario.md` — qui in `self/`. I prezzi, l'unica fonte: non se ne inventano altrove.
 - `docs/definizioni-di-fatto.md` — quando un lavoro ripetibile è finito davvero.
 - `docs/` — come si lavora: `checklist-sito.md`, `brief-cliente.md`, `onboarding.md`.
-- `entities/` — una cartella per cliente. Ancora vuota.
+- `entities/clienti/` — una cartella per cliente. Popolata: Girarrosto Liberti, Ragosta,
+  Clharem, Sistema Evolve e gli altri.

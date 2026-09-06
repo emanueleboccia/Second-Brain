@@ -79,6 +79,29 @@ funziona o duplica una connessione che c'è già.
 | Google Drive | file finiti e media, creare e cercare documenti |
 | Trello | le task di Sistema Evolve, board *Marketing*. ⚠️ **solo lettura** |
 
+⚠️ **TickTick e Google Calendar non sono due mondi separati: il calendario `Personale` è
+sincronizzato con la lista 🌱 Personale.** Quello che finisce su quel calendario compare
+anche fra le task. Quindi **`Personale` non è il posto dove si parcheggia una data**: una
+ricorrenza, un compleanno, un anniversario non sono cose da spuntare, e messi lì diventano
+task. Per quelle esistono i due calendari fatti apposta il 06/09/2026:
+
+- **`Ricorrenze`** — compleanni e anniversari, notifica la sera prima alle 20. Il titolo si
+  scrive **`Nome (compleanno)`**, con le parentesi e mai col trattino, e il nome davanti: sul
+  telefono il titolo si taglia, e la metà che deve sopravvivere è il nome. L'anno di nascita,
+  se c'è, sta nella **descrizione** — mai l'età nel titolo, che sarebbe sbagliata dall'anno
+  dopo. ⚠️ **Il test
+  d'ingresso: ci entra solo chi, quel giorno, riceve qualcosa da te** — un messaggio, una
+  chiamata, un regalo. Se il giorno arriva e non fai niente, quella data non doveva starci.
+  Non è una lista di compleanni, è la lista delle relazioni che tieni in piedi: sono dieci o
+  quindici nomi, non sessanta. La ragione è la stessa del test d'ingresso del vault — un
+  promemoria che si ignora otto volte su dieci insegna a ignorarli tutti;
+- **`Date commerciali`** — le date che nel mondo significano qualcosa, **generico e non
+  legato a un brand**, senza notifiche: si guarda, non suona. Contiene solo quello che
+  «Festività in Italia» non ha già.
+
+Le festività italiane restano sull'abbonamento pubblico: si aggiorna da solo e sa dove cade
+Pasqua, che una ricorrenza annuale scritta a mano sbaglierebbe dal secondo anno.
+
 ⚠️ **Trello è l'eccezione alla regola sulle scritture, ed è più stretta, non più larga.**
 Il board è di Sistema Evolve, condiviso con Vincenzo e Karim: da qui **si guarda e basta**.
 Non si creano card, non si spostano, non si commentano, non si spuntano. Le modifiche le

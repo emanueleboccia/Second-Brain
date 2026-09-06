@@ -6,10 +6,12 @@ tags:
   - competenze
 status: attivo
 created: 2026-09-01
-updated: 2026-09-02
+updated: 2026-09-06
 related:
   - "[[self/reference/offerta]]"
   - "[[self/tariffario]]"
+  - "[[self/tariffario-famiglia]]"
+  - "[[workspace/review/2026-W36]]"
 ---
 
 # Competenze
@@ -47,14 +49,66 @@ competenza o si tiene o si passa. Riempirle tutte e due vuol dire non aver decis
 | Social e contenuti | **3** | | | |
 | Automazioni e AI | **3** | | | |
 | Sistemi e gestionali | **3** | | | |
-| Video: ripresa | **3** | | sì | da decidere |
+| Video: ripresa | **3** | | dipende | vedi sotto |
 | Vendita e trattativa | **2** | sì | | |
 | Campagne a pagamento | **2** | sì | | |
-| Video: montaggio | **2** | | sì | da decidere |
+| Video: montaggio | **2** | | sì | video editor da trovare |
 | Foto | **2** | | sì | da decidere |
 | Amministrazione e fisco | **2** | | sì | Fiscozen |
 
 Ordinata per livello, non per mestiere: la riga che conta è dove finisce la soglia.
+
+## La ripresa non è una riga sola
+
+**Sciolto il 06/09/2026, nell'intervista dentro la review settimanale.** La ripresa non si
+delega e non si tiene: dipende da chi è il committente, e i quattro casi non si somigliano.
+
+| Dove | Chi gira | Perché |
+|---|---|---|
+| Personal brand | **Emanuele** | la faccia è la sua, non è delegabile a nessuno |
+| Sistema Evolve | **Karim** | Emanuele non ne ha girata una e non è una cosa da far crescere |
+| Brand di famiglia | **Umberto Prisco**, a chiamata sugli eventi | Emanuele solo l'occasionale, iPhone o fotocamera |
+| Clienti esterni | **nessuno** | non è un servizio che vuole vendere |
+
+⚠️ **L'unica eccezione sui clienti esterni è il drone.** È l'unica ripresa che gli va di fare,
+ha il DJI Mini 4 Pro, e non è a listino. Da valutare come voce a sé:
+[[self/tariffario|tariffario]] oggi non la prevede.
+
+**Gli strumenti non sono il vincolo:** fotocamera Sony, DJI Ronin, DJI Mic 2, DJI Mini 4 Pro.
+Quello che manca alla ripresa del personal brand non è l'attrezzatura, è il metodo — «non sono
+per niente bravo, non ho ancora strutturato come farlo», parole sue del 06/09/2026.
+
+## Il montaggio si delega, e la persona non c'è
+
+**Deciso il 06/09/2026.** Il montaggio è la competenza che Emanuele non vuole far crescere, e
+la ragione è netta: sa come deve venire il video — script, sottotitoli, composizione — ma
+l'esecuzione è la cosa che rimanda sempre. Su Sistema Evolve lo fa già Karim.
+
+**Karim e Umberto sono esclusi**: fanno altro, e i video di Emanuele non li monta nessuno dei
+due. Serve un **video editor vero**, e serve su tre fronti insieme:
+
+- **Da Mamma Rosaria** — il più grosso, sono gli eventi;
+- **Tenuta Don Gaetano**;
+- **il personal brand**.
+
+⚠️ **Non è un lavoretto una tantum, è un collaboratore.** Un montaggio si compra; una persona
+che monta gli eventi di DMR tutti i mesi e i reel parlati si sceglie, le si insegna il tono, e
+ci si lavora. Cercare la prima cosa quando serve la seconda vuol dire rifare la ricerca ogni
+volta.
+
+⚠️ **Remotion non è l'alternativa.** Genera video da codice, quindi copre il montato
+ripetibile e grafico — sigle, titoli animati, sottotitoli, template mensili. Non guarda
+quaranta minuti di girato e sceglie i dodici secondi che valgono: quella è una decisione. Le
+due cose convivono, non si sostituiscono.
+
+⚠️ **La domanda di soldi, ancora aperta.** I brand di famiglia pagano 250 € al mese ciascuno
+con dentro fino a due reel — vedi [[self/tariffario-famiglia|tariffario-famiglia]]. Il costo
+del montatore o entra lì e mangia il margine, o esce come voce a parte. Va deciso **prima** di
+cercare la persona, non dopo.
+
+**Perché conta più di quanto sembri:** Emanuele gira il personal brand per forza, e il
+montaggio è quello che rimanda. Il collo di bottiglia del lancio non è girare, è montare — ed
+è probabilmente il motivo per cui il personal brand è fermo da anni.
 
 ## Cosa dice questa tabella
 
@@ -73,9 +127,10 @@ confusi:
   correction log, che dice esattamente cosa è andato storto.
 - **Video, foto e fisco si passano.** Il fisco è già passato, a Fiscozen. Video e foto no.
 
-⚠️ **Il buco dichiarato: ripresa, montaggio e foto sono da delegare e non hanno un nome.**
-La delega è decisa, la persona no. Finché resta così, quel lavoro continua a farlo lui —
-e la ragione per cui l'ha messo in delega, cioè il tempo, resta esattamente dov'era.
+⚠️ **Il buco dichiarato, aggiornato il 06/09/2026.** Ripresa e montaggio hanno una risposta:
+la ripresa dipende dal contesto e i quattro nomi ci sono, il montaggio si delega e la persona
+va cercata. **Resta senza nome la riga foto**, e restano da decidere *come* far crescere
+vendita e campagne: la colonna dice «sì», ma non esiste ancora nessuna azione che le muova.
 
 **Ripresa a 3 non è come montaggio e foto a 2.** Una cosa che sai consegnare la deleghi per
 comprare tempo, e sai giudicare il risultato; una che fai lento la deleghi anche per la resa,
@@ -86,9 +141,14 @@ Le righe si aggiungono: questa lista viene da quello che c'è già in
 
 ## Chi c'è intorno
 
-Delegare richiede qualcuno a cui delegare. **Karim**, collaboratore su Sistema Evolve, può
-girare video anche per i brand di famiglia e per il personal brand: è una risorsa arrivata
-dal 01/09/2026 e va tenuta in conto quando si compila la colonna «delego».
+Delegare richiede qualcuno a cui delegare.
+
+- **Karim**, collaboratore su Sistema Evolve: gira e monta i video di Evolve. ⚠️ Il 06/09/2026
+  Emanuele ha escluso di fargli girare o montare i propri: su Evolve sì, altrove no.
+- **Umberto Prisco**, videomaker, già in rete: **gira gli eventi dei brand di famiglia, a
+  chiamata.** È il nome che copre la ripresa di Da Mamma Rosaria e degli altri due. Escluso
+  anche lui dal montaggio dei video di Emanuele.
+- **Il video editor**, che non c'è ancora. È la casella vuota che pesa di più.
 
 ## Cosa non va qui
 

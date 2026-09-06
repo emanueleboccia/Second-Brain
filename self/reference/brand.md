@@ -32,6 +32,54 @@ Parole sue, dall'intervista del 27/08/2026:
 Questa è la frase di partenza, non un claim finito. Cosa vende nel dettaglio sta in
 [[self/reference/offerta|offerta]], a chi in [[self/reference/target|target]].
 
+## Il messaging core
+
+**Fissato il 06/09/2026**, e confermato da Emanuele con «la sento». È la frase da cui discendono
+la bio di Instagram, la prima riga del sito e come si presenta a voce. Non è uno slogan: è la
+risposta a *«di cosa ti occupi?»*.
+
+⚠️ **Sostituisce come versione operativa la definizione del 27/08 qui sopra**, che resta come
+fonte grezza. Il motivo è nel benchmark del 06/09: quella definizione — *«siti web, software e
+automazioni con l'AI per aziende ambiziose»* — **coincide parola per parola con la bio di
+@stopidesign**, un concorrente italiano con quattromila follower. Vedi
+[[projects/personal-brand/piano|il piano del personal brand]].
+
+### La frase intera, quella che si dice a voce
+
+> **Costruisco siti, software e automazioni AI per le attività della mia zona — comprese quelle
+> della mia famiglia. Ma prima di costruire capisco cosa vendono, a chi e cosa devono dire: se
+> quella parte non è chiara, il sito mette online la confusione.**
+
+### La riga sola, per la home e per aprire un incontro
+
+> **Prima capisco cosa vendi. Poi lo costruisco.**
+
+### La bio di Instagram
+
+```
+Siti, software e automazioni AI per le attività della mia zona
+Prima capisco cosa vendi. Poi lo costruisco.
+👇
+```
+
+⚠️ **Nome visualizzato: `Emanuele Boccia`**, separato dall'handle `@bocciaworks`. Instagram
+cerca su tutti e due, e chi lo incontra di persona digita il suo nome.
+
+### Come è costruita, e perché regge
+
+**Il motore della frase è il «ma prima».** La prima metà la potrebbe dire chiunque faccia questo
+mestiere; la seconda è il posizionamento, ed è l'unica parte che i concorrenti veri — le agenzie
+che seguono i trend senza scavare, nemico 5 di [[self/reference/convinzioni|convinzioni]] — non
+possono rivendicare.
+
+**«Le attività della mia zona» è deliberato** e sostituisce «aziende ambiziose». Ambizioso è un
+aggettivo, non un posto. Il vantaggio di Emanuele è l'unico che non si replica da remoto: ci va
+di persona, conosce le attività e ha i loro numeri.
+
+**«Comprese quelle della mia famiglia» si dichiara, non si nasconde.** Un pubblico che scopre da
+solo che il cliente è suo fratello smette di credere anche agli altri casi. Detto, invece,
+diventa l'angolo più forte che ha: dove gli errori li paga lui.
+
 ## Il percorso: gradini inglobati
 
 Nato nell'informatica. **Grafico pubblicitario dai 14 anni**, poi **web designer**, poi

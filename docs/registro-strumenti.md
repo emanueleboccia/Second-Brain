@@ -7,7 +7,7 @@ tags:
   - registro
 status: attivo
 created: 2026-09-01
-updated: 2026-09-02
+updated: 2026-09-06
 related:
   - "[[docs/definizioni-di-fatto]]"
   - "[[self/tariffario]]"
@@ -144,6 +144,39 @@ domanda che il registro esiste per far nascere.
 la domanda su CapCut si riapre.
 
 **Data:** censito il 02/09/2026.
+
+## SmartCut (MCP per CapCut) — in test, non ancora provato su progetto reale
+
+**A cosa serve:** togliere silenzi e riprese ripetute da un video parlato, dentro il
+progetto CapCut. Legge i sottotitoli che CapCut genera da solo (`Testo → Sottotitoli
+automatici`) per capire dov'è il parlato: i buchi sopra un secondo li taglia, e delle
+frasi ripetute tiene l'ultima. Non analizza l'audio — senza sottotitoli generati prima,
+non fa niente. Otto strumenti, di cui due leggono e sei scrivono sul progetto.
+
+**Verdetto:** non ancora dato, e la ragione è che **su questo Mac non c'è nessun progetto
+CapCut**: le tre cartelle sotto `~/Movies/CapCut/User Data/Projects/` sono vuote, e i
+715 MB lì dentro sono cache. Il server è installato in `~/Developer/capcut-ai-editor`,
+registrato come MCP `smartcut` con scope user, e risponde all'handshake con tutti e otto
+gli strumenti. Ma non ha mai letto un progetto vero, quindi non è ancora «in test» nel
+senso che questo registro dà alla parola.
+
+⚠️ **La dipendenza `mcp` è bloccata alla 1.x** (1.29.1) dentro il venv del repo. Il
+`pyproject.toml` dichiara `mcp>=1.0.0` senza limite superiore, e con la 2.1.1 il server
+non parte proprio — `AttributeError: 'Server' object has no attribute 'list_tools'`,
+perché la 2.x ha rimosso l'API a decoratori su cui il codice è scritto. **Mai
+`pip install -U` in quel venv:** rimetterebbe la 2.x e lo romperebbe di nuovo. Il blocco
+si toglie il giorno che l'autore aggiorna il codice, non prima.
+
+⚠️ **`smart_cut_project` non fa backup e non scrive in modo atomico.** Il commento nel
+sorgente è letterale — `capcut_projects.py:171`, «Step 7: Save directly (no backup)» — e
+il salvataggio apre `draft_info.json` in modalità `w`, senza file temporaneo né rename.
+Se il processo muore a metà, il progetto non è modificato male: è corrotto e CapCut non
+lo riapre. Quindi **si duplica il progetto dentro CapCut e si lavora sulla copia, ogni
+volta**, non solo la prima. E CapCut va chiuso prima, o il salvataggio automatico
+riscrive sopra le modifiche appena fatte. ⚠️ I riferimenti a riga valgono per il commit
+`c2cb647`, che è la versione clonata: se il repo si aggiorna, vanno riverificati.
+
+**Data:** installato il 06/09/2026, mai eseguito su un progetto.
 
 ## Lovable — in test
 
