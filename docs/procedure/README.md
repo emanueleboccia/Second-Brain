@@ -32,6 +32,13 @@ esegue a memoria e si salta il passo scomodo.
 Quando una procedura ha una definizione di fatto stabile, la si porta in
 [[docs/definizioni-di-fatto|definizioni di fatto]].
 
+## Le procedure scritte
+
+- [[docs/procedure/produzione-contenuti|produzione contenuti]] — come un contenuto va dalla
+  scheda della macchina fino a pubblicato, per i tre brand di famiglia e il personal brand.
+- [[docs/procedure/sito-web-wordpress|sito web WordPress]] — la vecchia checklist in quattordici
+  fasi, tenuta com'era. Il modo di lavorare di oggi sta in [[docs/checklist-sito|checklist sito]].
+
 ---
 
 > **Stato al 01/09/2026:** cartella creata, contenuti da scrivere. Nessuna procedura è

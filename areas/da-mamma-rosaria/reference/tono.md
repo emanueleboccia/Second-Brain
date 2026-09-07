@@ -77,7 +77,12 @@ Le parole nostre, invece: «su misura», «spazio dedicato», «angoli vivi», �
 
 ## Emoji
 
-**Mai dentro le grafiche. Nelle caption sì.**
+**Mai dentro le grafiche. Nelle caption sì, e servono.**
+
+Non sono decorazione: spezzano il testo e danno al pollice un punto dove fermarsi. Una caption
+tutta grigia si salta. Ci vanno con generosità — una per blocco, non una per riga.
+⚠️ **Riscritto il 07/09/2026 da Emanuele**, che ha tolto il «col contagocce»: le emoji rendono il
+testo più leggibile e più piacevole, ed è quello il lavoro che devono fare.
 
 ## Il numero di invitati — non si comunica
 
@@ -102,8 +107,11 @@ Non ancora definiti. **Da fare.**
 
 ## Rispetto & consenso
 
-Recensioni reali e autorizzate. Consenso per foto e video con persone identificabili, e per i
-minori — che qui sono la norma: comunioni, battesimi e cresime sono il cuore del lavoro.
+Recensioni reali e autorizzate.
+
+**Sul materiale fotografico e video non c'è niente da verificare.** Regola di Emanuele, 07/09/2026:
+tutto quello che consegna è già materiale da pubblicare, e si può montare e mostrare. Il permesso
+si raccoglie prima, all'evento, e non è una cosa che si ridiscute contenuto per contenuto.
 
 **Non si pubblicano numeri che non abbiamo.** Nei materiali vecchi girava un «100+ famiglie hanno
 già festeggiato qui»: nessuno sa da dove venga. I nostri numeri li comunicheremo quando li avremo

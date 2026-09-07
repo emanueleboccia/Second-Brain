@@ -48,18 +48,18 @@ mese, non si ricostruisce a memoria il 30.
 - La parola in Brush è una sola, senza punti, virgole, numeri o «&»?
 - Nessun paragrafo finisce con una parola sola sull'ultima riga?
 - La copertina non viene tagliata nell'anteprima della griglia?
-- La [[areas/da-mamma-rosaria/reference/caption|caption]] chiude con un invito chiaro e con gli hashtag di zona?
+- La [[areas/da-mamma-rosaria/reference/caption|caption]] chiude con un invito chiaro, poi **la firma**, poi **quattro hashtag**?
 - Il post non ripete il soggetto di quello prima o di quello dopo?
 - Il testo **non** promette «tutto incluso», «un solo prezzo» o «coltivati da noi» ([[areas/da-mamma-rosaria/reference/tono|tono di voce]])?
 
-## Gli hashtag di zona
+## Gli hashtag — quattro, non uno di più
 
-**Letti dai post veri di agosto 2026**, non decisi a tavolino. Lo schema in uso è costante e si
-continua così:
+⚠️ **Cambiato il 07/09/2026 da Emanuele.** Fino a ieri erano sei o sette, letti dai post di
+agosto. Da adesso sono **quattro in tutto**:
 
 1. **`#DaMammaRosaria`** — fisso, sempre primo.
-2. **Due o tre tematici** sul soggetto di quel post.
-3. **I tre di zona:** `#poggiomarino` `#napoli` `#zonavesuviana`.
+2. **Due tematici** sul soggetto di quel post.
+3. **`#poggiomarino`** — l'unico di zona che resta. Via `#napoli` e `#zonavesuviana`.
 
 ⚠️ **«Catering» non si usa nemmeno negato.** Il post del 10/08/2026 portava `#niencatering`:
 refuso a parte, «catering» è una delle formule vietate da
@@ -88,6 +88,13 @@ stesso.
 
 > **Se hai un dubbio:** chiediti se un cliente, leggendo il contenuto, si farebbe un'idea che poi
 > dovremmo correggere. Se la risposta è sì, il contenuto va rifatto.
+
+## Dove stanno i file
+
+Questo file dice **quando e come** si pubblica. **Dove vivono i file** — l'SSD, Drive, i quattro
+stati che un contenuto attraversa e il gesto che chiude il giro — sta in
+[[docs/procedure/produzione-contenuti|procedura produzione contenuti]], che vale uguale per tutti
+e quattro i brand.
 
 ## Export
 

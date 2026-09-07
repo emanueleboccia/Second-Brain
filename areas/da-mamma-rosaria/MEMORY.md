@@ -253,3 +253,46 @@ aperta in [[areas/da-mamma-rosaria/knowledge/location/spazi|spazi]] dal 13/07/20
 
 Delle cinque attive, **L'Uliveto e Sala Ombrelloni non hanno mai avuto un post**. Sono all'aperto:
 vanno fotografate finché il verde regge, non a novembre.
+
+## 07/09/2026 — La voce si riscrive partendo dai post veri, non dalle regole
+
+Provato sul campo: seguendo `reference/caption.md` sono uscite due caption che Emanuele ha
+bocciato — *«il modo in cui scrivi le descrizioni è da rifare completamente»*. La causa non era
+la singola caption: **quel file era stato scritto a tavolino il 19/07, e le caption che funzionano
+sono dal 22/07 in poi.** Le regole descrivevano un modo di scrivere che non era più suo.
+
+`caption.md` è stato **riscritto al contrario**, leggendo sette caption vere pubblicate fra il
+16/07 e il 27/08. Quello che ne è uscito, e che prima non era scritto da nessuna parte:
+
+- **Si apre sulla cosa fisica**, senza preamboli. Il tell dell'errore è aprire con una trovata e
+  spiegarla nella riga dopo.
+- **Si descrive il meccanismo, non l'emozione.** «Il coltello apre la crosta e quello comincia a
+  colare», non «un'atmosfera indimenticabile».
+- **L'emoji sta attaccata all'oggetto** — 🔥 sulla brace, 🍕 sulla pizza — non a fine blocco come
+  punteggiatura.
+- **Empatia vuol dire nominare la fatica di chi legge**, con una frase che vale solo per lei.
+- ⚠️ **Le frasi da riunione sono il nemico**: «ti risponde uno di noi» è stata bocciata per prima.
+  Il posizionamento dell'interlocutore unico è vero, ma detto così suona scritto da un'agenzia.
+
+**La firma esisteva già** ed era nel post del 16/07: WhatsApp, preventivo gratuito, poi indirizzo,
+telefono e sito. Era al voi, è stata convertita al tu e ora chiude ogni caption.
+
+## 07/09/2026 — Tre regole cambiate da Emanuele
+
+- **Le emoji servono, e si usano.** Il «col contagocce» è tolto da `caption.md` e da `tono.md`:
+  rendono il testo leggibile, e questo pubblico non è una platea di design.
+- **I punti esclamativi ci vanno**, dove una persona alzerebbe davvero la voce. Prima ne era
+  ammesso uno.
+- **Gli hashtag scendono da sei o sette a quattro:** `#DaMammaRosaria`, due tematici,
+  `#poggiomarino`. Via `#napoli` e `#zonavesuviana`.
+
+## 07/09/2026 — Il consenso non si verifica più contenuto per contenuto
+
+Tolta da `tono.md` la regola che chiedeva il consenso per le persone identificabili e per i minori.
+**Regola di Emanuele:** tutto quello che consegna è già materiale da pubblicare, si può montare e
+mostrare. Il permesso si raccoglie prima, all'evento.
+
+Nello stesso giro è emerso che **laser tag e gonfiabili si vendono tramite l'animazione**, ma in
+`reference/offerta.md` non compaiono: i servizi a catalogo sono ventidue e l'animazione non è fra
+quelli. Non blocca la pubblicazione — serve il giorno che si scrive un preventivo o una pagina del
+sito.
