@@ -296,3 +296,16 @@ Nello stesso giro è emerso che **laser tag e gonfiabili si vendono tramite l'an
 `reference/offerta.md` non compaiono: i servizi a catalogo sono ventidue e l'animazione non è fra
 quelli. Non blocca la pubblicazione — serve il giorno che si scrive un preventivo o una pagina del
 sito.
+
+## 10/09/2026 — Il sito passa a damammarosaria.it
+
+Emanuele ha trasferito hosting e dominio e ottimizzato la SEO di tutte le pagine sul nuovo
+**damammarosaria.it**. Il vecchio `damammarosaria.com` resta in piedi e **fa redirect** sul nuovo.
+
+⚠️ **La riga del sito nel template caption è stata cambiata lo stesso giorno.** Stava scritta
+`www.damammarosaria.com` e finiva in fondo a ogni post: il reel del 07/09 è uscito così. Da qui in
+avanti i contenuti portano il `.it`.
+
+**Le caselle email non sono state toccate**: `info@damammarosaria.com` resta com'era, perché
+nessuno ha ancora detto se si spostano.
+

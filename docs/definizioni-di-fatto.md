@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-03
+updated: 2026-09-10
 ---
 
 # Definizioni di fatto
@@ -48,6 +48,7 @@ non si scorre.
 | [[docs/definizioni/estrai-lead|Estrai lead]] | ✅ scritta |
 | [[docs/definizioni/report-finanziario|Report finanziario]] | ✅ scritta |
 | [[docs/definizioni/crea-contenuto|Crea contenuto]] | ✅ scritta |
+| [[docs/definizioni/pubblicare-un-post|Pubblicare un post]] | ✅ scritta |
 
 Le tre impalcature — sito, brief cliente, onboarding — restano `da-compilare` finché non c'è un
 lavoro vero da cui ricavarle. **Non si inventano a tavolino**: una condizione che non nasce da un

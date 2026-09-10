@@ -23,7 +23,8 @@ related:
 > accumulati nei mesi precedenti. Dove un file in `knowledge/` contraddice questo, vince questo.
 
 **Da Mamma Rosaria** — agriturismo per **eventi privati in esclusiva**. Via Passanti Flocco 217,
-Poggiomarino (NA). Attivo dal **2021**. Sito: damammarosaria.com.
+Poggiomarino (NA). Attivo dal **2021**. Sito: **damammarosaria.it**
+(il `.com` fa redirect al `.it` dal 10/09/2026).
 
 Non c'è ristorazione ordinaria, non ci sono camere. **Solo eventi privati, su misura.**
 

@@ -108,7 +108,7 @@ posto. Nasce dal post del 16/07/2026, convertita al tu.
 Da Mamma Rosaria — Eventi Privati in Agriturismo
 📍 Via Passanti Flocco 217, Poggiomarino (NA)
 📞 +39 351 616 5734
-🌐 www.damammarosaria.com
+🌐 www.damammarosaria.it
 ```
 
 ## Hashtag: quattro, non uno di più

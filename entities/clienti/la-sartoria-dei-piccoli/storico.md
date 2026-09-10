@@ -7,7 +7,7 @@ tags:
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-07
+updated: 2026-09-10
 ---
 
 # Storico — La Sartoria dei Piccoli
@@ -17,6 +17,35 @@ updated: 2026-09-07
 
 Chi è il cliente sta in [[entities/clienti/la-sartoria-dei-piccoli/scheda|scheda]]. Qui c'è
 cosa è successo, dal più recente in cima.
+
+### 2026-09-09 — L'incontro in negozio, il sì a voce, e il prezzo che arriva dopo
+Incontro alle 9:30 in negozio con **Marco Augusto** e **Francesco Miranda**, registrato con
+Granola: la trascrizione grezza sta in `sources/call/2026-09-09-marco-augusto.md`.
+
+**Il problema l'ha dichiarato Marco**, non Emanuele: una cliente gli aveva scritto il sabato
+sera che il sito non funzionava. Da lì è uscito il resto — la lentezza, i plugin fermi, Jetpack
+obsoleto che conta le visite due volte, e il fatto che quello che Francesco usa davvero è una
+cosa sola, **caricare i prodotti**.
+
+**Cosa è stato deciso al tavolo:** un refresh, non un terzo restyling. Staging già avviato, due
+o tre giorni di lavoro. La collezione autunno-inverno — circa **200 prodotti** — si prepara
+offline con foto e descrizioni in un file, e si importa quando il sito torna su; nel frattempo
+la home va in manutenzione con l'annuncio della collezione in arrivo. Fuori Jetpack, GA4 come
+unica fonte, Search Console collegata. Gruppo WhatsApp da rifare, perché Emanuele ha cambiato
+numero.
+
+⚠️ **La data di venerdì 11/09 l'ha proposta Marco**, non Emanuele: *«Se tu dici che per venerdì
+ce la fai…»*. E Marco ha chiuso l'incontro con un sì detto a voce: *«Allora facciamolo, va
+bene»*.
+
+⚠️ **Nell'incontro il prezzo non è stato nominato una sola volta.** La cifra è comparsa la sera,
+dentro la proposta mandata su WhatsApp: **350 €**, riga `EB26-WEB-SARTORIA-0002` su Notion, stato
+Inviata. Il piano tecnico in PDF, sei pagine, **non è stato consegnato**: a un non tecnico due
+documenti diventano zero documenti letti.
+
+**Al 10/09 non è arrivata nessuna risposta.** Vale la pena leggerla per quello che è: Marco ha
+già detto sì al lavoro e ha in testa venerdì, e quello che sta guardando adesso è un numero che
+al tavolo non era mai stato fatto.
 
 ### 2026-09-07 — Loro chiamano, e saltano fuori due scadenze
 **Francesco Miranda**, collaboratore di Marco, ha scritto segnalando problemi sul sito e

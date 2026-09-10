@@ -164,6 +164,15 @@ Si propone la task **nella lista giusta**, e si chiede conferma prima di scriver
 Il testo si mostra prima di scriverlo, come vuole la regola sulle scritture: qui il
 contenuto lo componi tu, e la domanda non è se ha cambiato idea, è se hai capito bene.
 
+⚠️ **Non si aprono task «rispondere a Tizio».** Precisato il 10/09/2026. Si cattura **la cosa da
+fare** — un preventivo, una consegna, una verifica — non il fatto di rispondere a un messaggio.
+Mentre una conversazione è aperta, e a maggior ragione mentre è in corso, ricordarmi di
+rispondere è rumore: sto già rispondendo.
+
+L'unica forma che ha senso è **`Setting <Nome> (Azienda)`**, cioè ricontattare qualcuno più
+avanti quando adesso non c'è niente da dirsi. Quella la chiedo io: se non te l'ho chiesta, non
+c'è.
+
 ## Come si scrive una task su TickTick
 
 Stabilito il 09/09/2026, dopo una giornata passata a scriverle male.
@@ -181,6 +190,16 @@ riga, non un capitolo. Sulla task madre al massimo un puntatore ai file del vaul
 riassunti di riunione, niente «aggiornata il…», niente emoji: il contesto sta nel vault, qui
 stanno le azioni.
 
+⚠️ **Gli appuntamenti sono l'eccezione, e non è una deroga: è lo stesso criterio applicato
+bene.** Precisato il 10/09/2026. Su un appuntamento la descrizione **è** lo strumento — le
+domande da fare, il brief preimpostato per un cliente nuovo, le domande iniziali. Quella roba
+serve **mentre** faccio quella cosa, e averla altrove vuol dire non averla. Quindi ci va per
+esteso, anche se è lunga.
+
+Quello che resta fuori è il contesto: la storia del cliente, i prezzi, le decisioni prese. Quelli
+stanno nel vault, e nella descrizione ci va semmai il puntatore. **Il taglio è questo: se lo leggo
+durante l'incontro ci va, se mi serve per prepararmi sta nel vault.**
+
 **Le priorità sono quasi sempre nessuna.**
 
 - **rossa** solo in due casi: me lo dici tu, oppure **se non succede se ne accorge qualcun
@@ -189,6 +208,16 @@ stanno le azioni.
   non urgenza;
 - **blu** non la metto mai. Una cosa meno importante del normale sta in 💡 Idee o in
   ⌛️ Non iniziato: la priorità bassa è un modo di dire «non la farò» senza ammetterlo.
+
+⚠️ **Nella colonna 📆 Appuntamenti i colori vogliono dire un'altra cosa, e vincono su quello
+scritto qui sopra.** Deciso il 10/09/2026. Lì il colore non dice l'urgenza, dice **con chi è**:
+
+- **gialla** — appuntamento con un **cliente nuovo**;
+- **blu** — appuntamento con un **collaboratore**.
+
+Il blu qui non è una priorità bassa, è un'etichetta. Su un appuntamento la domanda utile non è
+quanto è urgente — la data ce l'ha già — ma **chi c'è dall'altra parte**, perché un cliente nuovo
+e un collaboratore si preparano in modo diverso e si vedono nella stessa colonna.
 
 **La scadenza non si raddoppia col colore.** Se una task ha una data, il briefing la porta su
 da sola quando si avvicina e in ritardo se sfora: metterci sopra anche il rosso è la stessa

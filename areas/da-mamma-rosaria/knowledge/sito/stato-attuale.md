@@ -18,7 +18,8 @@ related:
 
 > Fotografato il 13/07/2026. **Il sito è da rifare**, l'ha deciso Emanuele.
 
-**damammarosaria.com** — WordPress.
+**damammarosaria.it** — WordPress. Dominio nuovo dal 10/09/2026, con il vecchio
+`damammarosaria.com` che ci fa redirect. Le email restano su `.com`, non sono state toccate.
 
 ## Cosa c'è che non va
 

@@ -449,6 +449,58 @@ ricostruito le pagine, non prima»), un valore da avere sotto mano, una condizio
 verifica. Una riga, non un capitolo. Se il titolo basta, la descrizione resta vuota. Sul
 task madre ci va al massimo un puntatore ai file del vault dove sta il contesto vero.
 
+⚠️ **Precisato da Emanuele il 10/09/2026, e questa riga da sola si legge storta.** Il divieto
+vale sul **contesto**, non sulla lunghezza. Sugli **appuntamenti** la descrizione è lo strumento
+dell'incontro — le domande da fare, il brief preimpostato per un cliente nuovo — e lì ci va per
+esteso, anche lunga: quella roba serve mentre l'incontro succede, e tenerla nel vault vuol dire
+non averla. Il criterio sta nel `CLAUDE.md`: **se lo legge durante l'incontro ci va, se gli serve
+per prepararsi sta nel vault.**
+
 **La regola sopra:** **ogni informazione ha un posto solo.** Se la scrivo in due posti, uno
 dei due mentirà, e sarà quello che ho sottomano nel momento sbagliato.
 
+
+## 10/09/2026 — Le sottotask non hanno priorità, e l'ordine si guarda sullo schermo
+
+Le ventisei sottotask del refresh della Sartoria sono nate numerate — `01 ·`, `02 ·`, fino a
+`26 ·` — ma sullo schermo di Emanuele comparivano in disordine, con la 26 in cima. E due
+avevano una priorità: rossa sulla 05, gialla sulla 01.
+
+**Due errori.** Il primo: **una sottotask non prende mai una priorità.** Il numero davanti al
+titolo dice già in che ordine si fa, e un colore che dice la stessa cosa è la stessa
+informazione due volte — è la regola delle priorità del `CLAUDE.md`, applicata dove non ci
+avevo pensato. La priorità sta sulla task madre, che è la card che Emanuele vede in colonna.
+
+Il secondo: **avevo verificato l'ordine leggendo il `sortOrder` dall'API invece che guardando
+com'era disegnato.** I valori erano già crescenti da 01 a 26 e sembravano a posto, ma
+l'`childIds` della task madre era mescolato e la sottotask già completata aveva un `sortOrder`
+di sette ordini di grandezza fuori scala. È la terza volta che prendo la risposta di un
+servizio per la prova del risultato.
+
+**La prossima volta:** quando creo una checklist su TickTick, le sottotask nascono **senza
+priorità** e con un `sortOrder` scritto a mano in sequenza pulita, spaziata, tutta nella stessa
+scala — compresa quella che si completa subito. E poi **chiedo a Emanuele di
+guardarla**, perché l'ordine in cui l'app le disegna non si legge dall'API.
+
+⚠️ **Corretto lo stesso giorno, e vale più della riga sopra.** Avevo scritto che il disordine
+veniva dall'elenco `childIds` della task madre, che risultava mescolato. **Non è vero.** Provato
+staccando e riattaccando la sottotask `26 ·`: è tornata nella stessa identica posizione, la
+tredicesima. `childIds` non è un ordine, è un **insieme** che l'API serializza sempre nello stesso
+modo a partire dagli id — non lo si riordina, e non c'entra con quello che si vede.
+
+Quindi l'unico campo che ordina è il `sortOrder`, ed era già crescente da 01 a 26 **prima** che lo
+toccassi. Se l'app mostra comunque disordine, non lo comanda il dato: lo comanda
+**l'impostazione di ordinamento della lista** — con «Ordina per» diverso da «Personalizzato» il
+`sortOrder` viene ignorato del tutto. Con la 26 in cima, l'ordine era per data di creazione
+decrescente, ed è esattamente l'ordine in cui le avevo create la sera prima.
+
+**Verificato guardando lo schermo** il 10/09/2026, dopo che Emanuele ha dato l'accesso a
+TickTick: sulla lista 💼 Personal Brand c'era «Ordina per → **Data**», e le ventisei sottotask
+non hanno una data. Emanuele l'ha portata a «Personalizzato» e da lì il `sortOrder` viene letto.
+⚠️ Le tre liste Digitale non sono state controllate: se un giorno una checklist numerata ci
+finisce dentro, si guarda prima com'è ordinata la lista.
+
+**La regola vera:** prima di riscrivere un dato per aggiustare quello che si vede, si controlla
+**se quel dato viene letto**. Ho riscritto ventisette `sortOrder` per rimetterli nell'ordine in
+cui già erano, e il risultato non poteva che essere identico. Un rimedio che non cambia niente
+costa più di non averlo tentato, perché sembra fatto.

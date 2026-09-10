@@ -7,7 +7,7 @@ tags:
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-07
+updated: 2026-09-10
 ---
 
 # Scheda — La Sartoria dei Piccoli
@@ -49,7 +49,13 @@ basso, e ogni lavoro nuovo consolida quel prezzo o lo corregge.
 
 ⚠️ **La scadenza del dominio è stata trovata il 07/09/2026 leggendo il registro, e su Notion
 il campo era vuoto.** Se scade l'hosting il sito va giù; se scade il dominio va giù tutto,
-sito e mail, e il negozio sparisce da Google. **Su Notion la data va ancora scritta.**
+sito e mail, e il negozio sparisce da Google. **Su Notion le due date ci sono dalla sessione
+del 09/09/2026** — verificate il 10/09.
+
+⚠️ **Le due scadenze cadono dentro il refresh, ed è il rischio che nessuno ha nominato in
+riunione.** Il lavoro parte con lo staging e passa per la disinstallazione di Elementor; se
+l'hosting non viene rinnovato il 18/09, quel lavoro si ferma a metà su un sito spento. Va
+chiesto a Marco che sia rinnovato **prima** di toccare qualsiasi cosa, non dopo.
 
 ## Com'è fatto il sito, misurato
 

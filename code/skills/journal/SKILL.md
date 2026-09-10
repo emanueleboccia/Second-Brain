@@ -279,7 +279,7 @@ uscito, il timestamp si scrive: il briefing è il testo.
 
    ⚠️ **Prima di ripassare, guarda Granola.** Emanuele i clienti li incontra di persona, e
    quello che si dicono in una riunione non passa da questa chat: se non lo si va a prendere,
-   sparisce. Con `GRANOLA_MCP_LIST_MEETINGS` su `time_range: "today"` — o `last_30_days` se la
+   sparisce. Con `GRANOLA_MCP_LIST_MEETINGS` su `time_range: "this_week"` — o `last_30_days` se la
    sessione copre più giorni — guarda quali riunioni ci sono e confrontale con i file già in
    `sources/call/`. Per ognuna che manca, `GRANOLA_MCP_GET_MEETING_TRANSCRIPT` e si scrive
    `sources/call/AAAA-MM-GG-interlocutore.md`: intestazione breve con dove, quando e chi sono

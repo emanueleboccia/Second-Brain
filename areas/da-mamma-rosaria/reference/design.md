@@ -287,8 +287,9 @@ servizio**: il claim si legge sul sito. I nomi ufficiali stanno in [[areas/da-ma
 
 # Quello che il design system non copre ancora
 
-- **I reel.** La guideline normativa solo i cinque format del feed e le due storie. Su reel brevi,
-  lunghi e parlati non dice niente: copertine, testi a schermo e sigle sono da definire.
+- ~~**I reel.**~~ **Chiuso a metà il 10/09/2026:** le regole di montaggio — durata, colore,
+  musica, testi, logo e consegna — stanno in [[areas/da-mamma-rosaria/reference/reel|reel]],
+  scritte per darle a un montatore esterno. **Restano da definire le copertine** e i reel parlati.
 - **Nove evidenze su undici non hanno un template.** Esistono solo *storia recensione* e *storia
   servizio* (che è l'evidenza «I nostri angoli»). Eventi, La Location, Dove siamo, Chi siamo, La
   Dispensa, Allestimenti, Voi, In fattoria, Il Menu: da disegnare.

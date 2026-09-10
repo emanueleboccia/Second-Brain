@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-10
 related:
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
   - "[[areas/da-mamma-rosaria/reference/caption]]"
@@ -66,8 +66,11 @@ sbagliato è il motivo per cui ci finiva dentro di tutto: lì non si lavora, si 
 
 ## Drive
 
-Dentro la cartella Social di ogni brand — `97 Social` per Mamma Rosaria, `04 Social` per la
-Tenuta, `98 Social` per la Masseria, `Social` dentro `02 AREE / 04 Personal Brand`:
+Dentro la cartella Social di ogni brand — **`98 Social` per tutti e tre i brand di famiglia**,
+`Social` dentro `02 AREE / 04 Personal Brand`:
+
+⚠️ **Corretto il 10/09/2026.** Qui c'era scritto «`97 Social` per Mamma Rosaria, `04 Social` per
+la Tenuta»: erano sbagliati due su tre. Su Drive si chiamano tutti `98 Social`.
 
 ```
 01 pubblicati/     per anno-mese, la copia di quello che è uscito
@@ -79,6 +82,69 @@ Tenuta, `98 Social` per la Masseria, `Social` dentro `02 AREE / 04 Personal Bran
 che sta sul profilo è uno solo alla volta.
 
 Il grezzo su Drive non sale mai: sono terabyte e non li apre nessuno.
+
+## Buffer — la pubblicazione si verifica, non si dà per fatta
+
+I passaggi per mandare online un contenuto pronto — controlli, immagini, creazione del post e
+verifica — stanno in [[docs/procedure/pubblicare-un-post|pubblicare un post]]. Qui sotto c'è solo
+la trappola che ha reso necessaria quella procedura.
+
+⚠️ **Scoperto il 10/09/2026 su un carosello di Mamma Rosaria.** Il post era programmato su
+Instagram e Facebook. Facebook è uscito, Instagram no — ma **su Buffer risultavano tutti e due
+`sent`**, con la stessa spunta verde e la stessa ora.
+
+**Il segnale che distingue un post davvero pubblicato da uno fantasma** non è lo stato: è il
+**link al post**. Un post arrivato davvero ha `externalLink` valorizzato e fra le azioni
+disponibili «vedi post», «condividi link» e «copia link». Quello mai atterrato non ha nessuna
+delle quattro, pur dicendo `sent`.
+
+Il fantasma nasce dai post in modalità **notifica** — il badge «Notified» nel calendario: Buffer
+manda l'avviso sul telefono e considera chiuso il suo compito, che tu poi pubblichi o no.
+**Un post in modalità notifica non è un post programmato: è un promemoria.**
+
+**Come si rimedia:** il fantasma non si può rilanciare, perché per Buffer è già andato. Se ne
+crea uno nuovo sullo stesso canale, in modalità **automatica** e non a notifica.
+
+⚠️ **E qui c'è la scorciatoia che vale la pena sapere.** Le API di pubblicazione — Buffer come
+la Graph API di Instagram — non accettano file dal disco: vogliono un **URL pubblico** da cui
+scaricare l'immagine. Ma un'immagine già caricata su Buffer una volta **resta sui suoi server
+con un indirizzo pubblico**, leggibile dal post esistente. Quindi per rifare un post con le
+stesse immagini non serve ricaricare niente: si riusano quegli indirizzi.
+
+## Il Brand kit — dove stanno font, sfondi e template
+
+⚠️ **Scritto il 10/09/2026, dopo aver perso un'ora a cercarlo.** Il vault diceva che «Drive tiene
+il finito» e si fermava lì: non diceva che esiste un Brand kit, né cosa contiene. Risultato: una
+slide da rifare è stata dichiarata impossibile perché i font non si trovavano — mentre erano su
+Drive da luglio.
+
+Accanto alla cartella Social di ogni brand c'è il **Brand kit**: `04 Brand kit` per Mamma Rosaria,
+`03 Brand kit` per la Tenuta e per la Masseria. Dentro, sempre la stessa forma:
+
+```
+01 LOGHI/            tutte le versioni del marchio
+02 COLORI/
+03 FONT/             i font veri, più COME-USARLI.txt
+04 SFONDI/           foglie arancio, bianco e marrone, nei tre formati
+05 PULSANTI/
+06 TEMPLATE/
+07 ESEMPI POST/      com'è fatto un post giusto
+08 ESEMPI STORIE/
+10 ELEMENTI GRAFICI/
+Design-System-DMR.pdf
+LEGGIMI.md
+```
+
+**Gli sfondi sono già tagliati nei tre formati** — `_post_1080x1350`, `_quadrato_1080x1080`,
+`_storia_1080x1920` — più l'originale in PNG.
+
+⚠️ **Non fidarsi dei font che si trovano sull'SSD.** In
+`2-libreria/progetti/2026-08-generatore-inviti/to-delete/assets-vuoti/` ci sono `D-DIN-Bold.ttf`,
+`Regular Brush.otf` e gli sfondi con i nomi giusti e **zero byte dentro**. Sono segnaposto di un
+progetto abbandonato, e sembrano veri finché non li si apre. **La fonte sono i file su Drive.**
+
+**Drive è montato in locale**, quindi si leggono da disco senza passare dall'API:
+`~/Library/CloudStorage/GoogleDrive-<account>/.shortcut-targets-by-id/<id-cartella-brand>/`.
 
 ## I nomi
 

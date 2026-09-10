@@ -2,7 +2,8 @@
 
 **Agriturismo per eventi privati in esclusiva.** Poggiomarino (NA), attivo dal 2021.
 Gestito da Emanuele con i suoi due fratelli, Raffaele e Domenico.
-Sito: damammarosaria.com (**da rifare**). Canale principale: Instagram.
+Sito: damammarosaria.it (**da rifare**), col vecchio `.com` che ci fa redirect da
+settembre 2026. Canale principale: Instagram.
 
 Niente ristorazione ordinaria, niente camere: **solo eventi privati, cuciti su misura**.
 
