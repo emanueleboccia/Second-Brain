@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Postazione di pesatura</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --fondo:#12141a; --pannello:#1b1e27; --bordo:#2c313e;
+    --testo:#f2f4f8; --spento:#8b93a7;
+    --ok:#2fd07a; --attesa:#f2b134; --male:#ef5a5a;
+  }
+  html,body{height:100%}
+  body{
+    background:var(--fondo); color:var(--testo);
+    font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+
+  header{
+    display:flex; align-items:center; gap:16px;
+    padding:14px 20px; border-bottom:1px solid var(--bordo); background:var(--pannello);
+  }
+  header h1{font-size:15px; letter-spacing:.16em; text-transform:uppercase; color:var(--spento); font-weight:700}
+  .spia{margin-left:auto; display:flex; align-items:center; gap:10px; font-size:13px; color:var(--spento)}
+  .pallina{width:11px;height:11px;border-radius:50%;background:var(--male)}
+  .pallina.on{background:var(--ok)}
+
+  .passi{display:flex; gap:8px; padding:12px 20px; border-bottom:1px solid var(--bordo)}
+  .passo{
+    flex:1; padding:10px 14px; border-radius:8px; background:var(--pannello);
+    border:1px solid var(--bordo); color:var(--spento); font-size:13px; font-weight:600;
+    letter-spacing:.04em;
+  }
+  .passo.attivo{background:#252a36; color:var(--testo); border-color:#3d4455}
+  .passo.fatto{color:var(--ok)}
+
+  main{flex:1; overflow:auto; padding:20px}
+  .schermata{display:none}
+  .schermata.visibile{display:block}
+
+  /* passo 1 */
+  .griglia{display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:14px}
+  .articolo{
+    background:var(--pannello); border:2px solid var(--bordo); border-radius:12px;
+    padding:20px; text-align:left; color:var(--testo); font-size:19px; font-weight:700;
+    min-height:110px; cursor:pointer; line-height:1.25;
+  }
+  .articolo:active{border-color:var(--ok)}
+  .articolo small{display:block; margin-top:8px; font-size:13px; font-weight:400; color:var(--spento)}
+
+  /* passo 2 */
+  .campi{max-width:640px; display:grid; gap:18px}
+  .campo label{display:block; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:var(--spento); margin-bottom:8px}
+  .campo input,.campo select{
+    width:100%; padding:18px; font-size:22px; font-weight:700;
+    background:var(--pannello); border:2px solid var(--bordo); border-radius:10px; color:var(--testo);
+  }
+
+  /* passo 3 */
+  .peso{
+    background:var(--pannello); border:2px solid var(--bordo); border-radius:14px;
+    padding:28px; text-align:center; margin-bottom:18px;
+  }
+  .peso .netto{font-size:96px; font-weight:800; line-height:1; letter-spacing:-.03em; font-variant-numeric:tabular-nums}
+  .peso .unita{font-size:30px; color:var(--spento); margin-left:10px}
+  .peso .dettagli{display:flex; justify-content:center; gap:34px; margin-top:18px; font-size:15px; color:var(--spento); font-variant-numeric:tabular-nums}
+  .stato{margin-top:16px; font-size:15px; font-weight:700; letter-spacing:.08em; text-transform:uppercase}
+  .stato.ok{color:var(--ok)} .stato.attesa{color:var(--attesa)} .stato.male{color:var(--male)}
+
+  .riepilogo{display:flex; gap:26px; flex-wrap:wrap; padding:16px 20px; background:var(--pannello);
+    border:1px solid var(--bordo); border-radius:12px; margin-bottom:18px; font-size:15px}
+  .riepilogo b{display:block; font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--spento); font-weight:600; margin-bottom:4px}
+
+  .bottoni{display:flex; gap:14px; flex-wrap:wrap}
+  button.grosso{
+    flex:1; min-width:200px; padding:26px; font-size:24px; font-weight:800; border-radius:12px;
+    border:2px solid var(--bordo); background:var(--pannello); color:var(--testo); cursor:pointer;
+    letter-spacing:.02em;
+  }
+  button.stampa{background:var(--ok); color:#08140d; border-color:var(--ok)}
+  button.stampa:disabled{background:var(--pannello); color:#565e70; border-color:var(--bordo); cursor:not-allowed}
+  button.indietro{flex:0 0 auto; min-width:150px; font-size:18px; padding:26px 22px}
+
+  .banner{padding:16px 20px; border-radius:10px; font-size:17px; font-weight:700; margin-bottom:16px; display:none}
+  .banner.mostra{display:block}
+  .banner.buono{background:#123322; color:var(--ok); border:1px solid #1f6640}
+  .banner.brutto{background:#3a1a1a; color:var(--male); border:1px solid #7a2f2f}
+
+  .interruttore{display:flex; align-items:center; gap:12px; margin-top:18px; color:var(--spento); font-size:14px}
+  .interruttore input{width:22px;height:22px}
+  pre.anteprima{margin-top:18px; padding:18px; background:#0c0e13; border:1px solid var(--bordo);
+    border-radius:10px; font-size:12px; color:var(--spento); white-space:pre-wrap; max-height:230px; overflow:auto}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Postazione di pesatura</h1>
+  <div class="spia">
+    <span class="pallina" id="pallina"></span>
+    <span id="collegamento">bilancia scollegata</span>
+  </div>
+</header>
+
+<div class="passi">
+  <div class="passo attivo" id="p1">1 · Articolo</div>
+  <div class="passo" id="p2">2 · Lotto e scadenza</div>
+  <div class="passo" id="p3">3 · Pesatura</div>
+</div>
+
+<main>
+  <!-- passo 1 -->
+  <section class="schermata visibile" id="s1">
+    <div class="griglia" id="griglia"></div>
+  </section>
+
+  <!-- passo 2 -->
+  <section class="schermata" id="s2">
+    <div class="campi">
+      <div class="campo">
+        <label>Lotto</label>
+        <input id="lotto" type="text">
+      </div>
+      <div class="campo">
+        <label>Da consumarsi entro</label>
+        <input id="scadenza" type="text">
+      </div>
+      <div class="campo">
+        <label>Operatore</label>
+        <select id="operatore"></select>
+      </div>
+      <div class="bottoni">
+        <button class="grosso indietro" onclick="vaiA(1)">Indietro</button>
+        <button class="grosso stampa" onclick="vaiA(3)">Avanti</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- passo 3 -->
+  <section class="schermata" id="s3">
+    <div class="banner" id="banner"></div>
+
+    <div class="riepilogo" id="riepilogo"></div>
+
+    <div class="peso">
+      <div><span class="netto" id="netto">0.000</span><span class="unita">kg</span></div>
+      <div class="dettagli">
+        <span>Lordo <b id="lordo">0.000</b></span>
+        <span>Tara <b id="tara">0.000</b></span>
+      </div>
+      <div class="stato male" id="stato">in attesa</div>
+    </div>
+
+    <div class="bottoni">
+      <button class="grosso indietro" onclick="vaiA(2)">Indietro</button>
+      <button class="grosso stampa" id="bottoneStampa" disabled onclick="stampa()">Stampa etichetta</button>
+    </div>
+
+    <label class="interruttore">
+      <input type="checkbox" id="automatica" onchange="cambiaAutomatica()">
+      Stampa automatica appena il peso è fermo
+    </label>
+
+    <pre class="anteprima" id="anteprima" style="display:none"></pre>
+  </section>
+</main>
+
+<script>
+let articoli = [], scelto = null, ultimo = {}, occupato = false;
+
+async function avvia(){
+  articoli = await (await fetch('/api/articoli')).json();
+  const griglia = document.getElementById('griglia');
+  griglia.innerHTML = '';
+  articoli.forEach(a => {
+    const b = document.createElement('button');
+    b.className = 'articolo';
+    b.innerHTML = a.Descrizione + '<small>tara ' + a.Tara_Grammi + ' g · scade dopo ' + a.Giorni_Scadenza + ' giorni</small>';
+    b.onclick = () => scegli(a);
+    griglia.appendChild(b);
+  });
+
+  const operatori = await (await fetch('/api/operatori')).json();
+  document.getElementById('operatore').innerHTML =
+    operatori.map(o => '<option>' + o + '</option>').join('');
+
+  setInterval(leggiPeso, 250);
+}
+
+function scegli(a){
+  scelto = a;
+  const oggi = new Date();
+  document.getElementById('lotto').value =
+    String(oggi.getFullYear()).slice(2) +
+    String(oggi.getMonth()+1).padStart(2,'0') +
+    String(oggi.getDate()).padStart(2,'0');
+  const s = new Date(oggi.getTime() + (a.Giorni_Scadenza||0)*86400000);
+  document.getElementById('scadenza').value =
+    String(s.getDate()).padStart(2,'0') + '/' +
+    String(s.getMonth()+1).padStart(2,'0') + '/' + s.getFullYear();
+  vaiA(2);
+}
+
+function vaiA(n){
+  [1,2,3].forEach(i => {
+    document.getElementById('s'+i).classList.toggle('visibile', i===n);
+    const p = document.getElementById('p'+i);
+    p.classList.toggle('attivo', i===n);
+    p.classList.toggle('fatto', i<n);
+  });
+  if (n===3 && scelto){
+    document.getElementById('riepilogo').innerHTML =
+      '<div><b>Articolo</b>' + scelto.Descrizione + '</div>' +
+      '<div><b>Lotto</b>' + document.getElementById('lotto').value + '</div>' +
+      '<div><b>Scadenza</b>' + document.getElementById('scadenza').value + '</div>' +
+      '<div><b>Operatore</b>' + document.getElementById('operatore').value + '</div>';
+  }
+}
+
+async function leggiPeso(){
+  let s;
+  try { s = await (await fetch('/api/peso')).json(); } catch(e){ return; }
+  ultimo = s;
+
+  document.getElementById('pallina').classList.toggle('on', s.collegata);
+  document.getElementById('collegamento').textContent =
+    s.collegata ? 'bilancia collegata' : 'bilancia scollegata';
+  document.getElementById('automatica').checked = s.stampa_automatica;
+
+  const tara = scelto ? (scelto.Tara_Grammi||0)/1000 : 0;
+  const netto = Math.max(0, s.peso - tara);
+  document.getElementById('netto').textContent = netto.toFixed(3);
+  document.getElementById('lordo').textContent = s.peso.toFixed(3);
+  document.getElementById('tara').textContent  = tara.toFixed(3);
+
+  // l'idea di Antonio: appoggi il prodotto e la schermata di pesatura si apre da sola
+  if (scelto && s.peso > 0.02 && !document.getElementById('s3').classList.contains('visibile')){
+    vaiA(3);
+  }
+
+  const stato = document.getElementById('stato');
+  const bottone = document.getElementById('bottoneStampa');
+  let pronto = false;
+
+  if (!s.collegata)      { stato.textContent='bilancia scollegata'; stato.className='stato male'; }
+  else if (s.bloccato)   { stato.textContent='togli il collo dal piatto'; stato.className='stato attesa'; }
+  else if (s.peso <= 0)  { stato.textContent='appoggia il prodotto'; stato.className='stato male'; }
+  else if (!s.fermo)     { stato.textContent='peso in assestamento'; stato.className='stato attesa'; }
+  else                   { stato.textContent='peso fermo'; stato.className='stato ok'; pronto = true; }
+
+  bottone.disabled = !(pronto && scelto);
+
+  if (pronto && scelto && s.stampa_automatica && !occupato) stampa();
+}
+
+async function stampa(){
+  if (occupato || !scelto) return;
+  occupato = true;
+  const banner = document.getElementById('banner');
+  try {
+    const r = await fetch('/api/stampa', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({
+        id_articolo: scelto.ID_Articolo,
+        lotto: document.getElementById('lotto').value,
+        scadenza: document.getElementById('scadenza').value,
+        operatore: document.getElementById('operatore').value
+      })
+    });
+    const d = await r.json();
+    banner.className = 'banner mostra ' + (d.ok ? 'buono' : 'brutto');
+    banner.textContent = d.ok
+      ? 'Etichetta stampata — ' + d.peso_netto.toFixed(3) + ' kg netti, lotto ' + d.lotto + ' → ' + d.dove
+      : d.messaggio;
+    if (d.ok){
+      const a = document.getElementById('anteprima');
+      a.style.display = 'block';
+      a.textContent = d.anteprima;
+    }
+  } catch(e){
+    banner.className = 'banner mostra brutto';
+    banner.textContent = 'Errore di collegamento al sistema';
+  }
+  setTimeout(()=>{ occupato = false; }, 600);
+}
+
+async function cambiaAutomatica(){
+  await fetch('/api/automatica', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({attiva: document.getElementById('automatica').checked})
+  });
+}
+
+avvia();
+</script>
+</body>
+</html>

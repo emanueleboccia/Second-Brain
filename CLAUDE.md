@@ -116,6 +116,8 @@ prima ed esplicitamente — «mostra e aspetta l'ok» qui non basta.
 | Gmail | tra i connettori attivi non c'è nessuna email: senza Composio non si manda niente |
 | Google Sheets | Drive arriva al file, non alla cella: crea e sostituisce un foglio intero, ma non scrive righe e colonne. Per aggiornare un foglio esistente serve l'API vera |
 | Apify | collegato il 25/08/2026: gli scraper di Google Maps, da cui la skill `estrai-lead` tira fuori le liste di potenziali clienti. Nessun connettore attivo fa scraping. ⚠️ Ogni run si paga a risultato |
+| Granola | collegato il 09/09/2026: le trascrizioni delle riunioni. Nessun connettore attivo le legge, e finché non c'era andavano copiate a mano — una call su due non arrivava mai. ⚠️ **Sola lettura**: il toolkit ha solo elenco, dettaglio e transcript, e una nota si cancella dall'app |
+| ElevenLabs | la voce del briefing del mattino, dalla skill `journal` |
 
 ⚠️ **Composio non è un server MCP**, anche se all'inizio l'avevamo chiamato così. È la CLI
 `composio` installata in `~/.composio`, più la skill `composio-cli` che Claude Code carica
@@ -124,7 +126,7 @@ all'avvio: gli strumenti si usano dal terminale — `composio search`, `composio
 
 Sull'account Composio risultano collegati anche GitHub, Calendar, Docs, Drive, Notion e TickTick.
 **Non si usano da lì.** Per quei servizi la via sono i connettori attivi qui sopra: Composio
-serve solo per Gmail, Sheets e Apify, e non è un secondo modo di fare le stesse cose.
+serve solo per quelli elencati nella tabella, e non è un secondo modo di fare le stesse cose.
 
 ## La regola sulle scritture
 
@@ -161,6 +163,39 @@ Si propone la task **nella lista giusta**, e si chiede conferma prima di scriver
 
 Il testo si mostra prima di scriverlo, come vuole la regola sulle scritture: qui il
 contenuto lo componi tu, e la domanda non è se ha cambiato idea, è se hai capito bene.
+
+## Come si scrive una task su TickTick
+
+Stabilito il 09/09/2026, dopo una giornata passata a scriverle male.
+
+**Il titolo lo scrivo come lo scriveresti tu**: iniziale minuscola, verbo davanti, secco.
+«trovare un video editor», non «Ricerca e selezione di un video editor». I nomi dei prodotti
+restano maiuscoli — FoodOS, PalestreOS — perché li scrivi così tu.
+
+**Una task è un'azione sola.** Se dentro ce ne stanno due, sono due task. Un progetto è una
+task madre con sotto la checklist dei passaggi, numerati e in ordine.
+
+**La descrizione di solito è vuota.** Ci va solo quello che serve a fare quella cosa e non sta
+scritto altrove: una trappola, un valore da avere sotto mano, una condizione di verifica. Una
+riga, non un capitolo. Sulla task madre al massimo un puntatore ai file del vault. Niente
+riassunti di riunione, niente «aggiornata il…», niente emoji: il contesto sta nel vault, qui
+stanno le azioni.
+
+**Le priorità sono quasi sempre nessuna.**
+
+- **rossa** solo in due casi: me lo dici tu, oppure **se non succede se ne accorge qualcun
+  altro** — un cliente che aspetta, un servizio che si spegne, una consegna promessa a voce;
+- **gialla** solo se **blocca altro**: finché non è fatta, altre non partono. È dipendenza,
+  non urgenza;
+- **blu** non la metto mai. Una cosa meno importante del normale sta in 💡 Idee o in
+  ⌛️ Non iniziato: la priorità bassa è un modo di dire «non la farò» senza ammetterlo.
+
+**La scadenza non si raddoppia col colore.** Se una task ha una data, il briefing la porta su
+da sola quando si avvicina e in ritardo se sfora: metterci sopra anche il rosso è la stessa
+informazione scritta due volte. Il rosso serve alle cose urgenti **senza** data, che sono
+quelle che spariscono davvero.
+
+La ragione è sempre la stessa: un rosso su venti task non è una priorità, è un colore.
 
 ## La regola del perimetro
 

@@ -116,7 +116,7 @@
       "esclusa_sempre": true
     },
 
-    "ultimo_briefing": "2026-09-08T07:43:31Z",
+    "ultimo_briefing": "2026-09-09T06:25:17Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
 

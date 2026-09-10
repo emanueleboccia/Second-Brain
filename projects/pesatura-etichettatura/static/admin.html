@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ufficio — anagrafiche e storico</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#f6f5f1; color:#15171c;
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:32px}
+  .guscio{max-width:1100px; margin:0 auto}
+  h1{font-size:21px; margin-bottom:6px}
+  p.sotto{color:#6b7080; margin-bottom:28px}
+  h2{font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:#6b7080;
+     border-top:1px solid #d8d6cf; padding-top:14px; margin:34px 0 14px}
+  table{width:100%; border-collapse:collapse; background:#fff; border:1px solid #e2e0d9; border-radius:8px; overflow:hidden}
+  th{text-align:left; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#6b7080;
+     padding:11px 14px; border-bottom:1px solid #e2e0d9; background:#faf9f6}
+  td{padding:11px 14px; border-bottom:1px solid #eeece6; vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  td.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .ing{color:#6b7080; font-size:13px}
+  .vuoto{padding:22px 14px; color:#6b7080; background:#fff; border:1px solid #e2e0d9; border-radius:8px}
+  .nota{margin-top:30px; padding:16px 18px; background:#fff; border:1px solid #e2e0d9;
+        border-radius:8px; color:#6b7080; font-size:14px}
+</style>
+</head>
+<body>
+<div class="guscio">
+  <h1>Ufficio — anagrafiche e storico</h1>
+  <p class="sotto">La stessa macchina che serve la postazione in reparto serve questa pagina.
+     Da qualsiasi computer, digitando il suo indirizzo. Nessun programma da installare.</p>
+
+  <h2>Articoli</h2>
+  <div id="articoli"></div>
+
+  <h2>Storico pesate</h2>
+  <div id="storico"></div>
+
+  <div class="nota">
+    In questo scheletro le tabelle si leggono e basta. La modifica degli articoli,
+    degli ingredienti e dei modelli di etichetta è la parte da costruire: è lavoro
+    conosciuto, sono maschere su tre tabelle.
+  </div>
+</div>
+
+<script>
+function tabella(colonne, righe, cella){
+  if (!righe.length) return '<div class="vuoto">Ancora niente.</div>';
+  return '<table><thead><tr>' + colonne.map(c=>'<th>'+c+'</th>').join('') +
+         '</tr></thead><tbody>' + righe.map(cella).join('') + '</tbody></table>';
+}
+
+async function carica(){
+  const a = await (await fetch('/api/articoli')).json();
+  document.getElementById('articoli').innerHTML = tabella(
+    ['Descrizione','Ingredienti','Scadenza','Tara','Prezzo/kg','EAN'], a, r =>
+    '<tr><td><b>'+r.Descrizione+'</b></td>'+
+    '<td class="ing">'+r.Testo_Ingredienti+'</td>'+
+    '<td class="num">'+r.Giorni_Scadenza+' gg</td>'+
+    '<td class="num">'+r.Tara_Grammi+' g</td>'+
+    '<td class="num">'+(r.Prezzo_Kg??'').toFixed?.(2)+' €</td>'+
+    '<td class="num">'+(r.Prefisso_EAN||'')+'</td></tr>');
+
+  const s = await (await fetch('/api/storico')).json();
+  document.getElementById('storico').innerHTML = tabella(
+    ['Quando','Operatore','Articolo','Lotto','Netto'], s, r =>
+    '<tr><td class="num">'+r.Timestamp.replace('T',' ')+'</td>'+
+    '<td>'+r.Operatore+'</td><td>'+r.Descrizione+'</td>'+
+    '<td class="num">'+r.Lotto+'</td>'+
+    '<td class="num">'+r.Peso_Netto.toFixed(3)+' kg</td></tr>');
+}
+carica();
+setInterval(carica, 3000);
+</script>
+</body>
+</html>

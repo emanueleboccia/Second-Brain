@@ -3,6 +3,16 @@
 Le trascrizioni delle call, prese da **Granola**. Un file per call:
 `AAAA-MM-GG-interlocutore.md`.
 
+Dal 09/09/2026 Granola è collegato a Composio e i file arrivano da lì, senza copiare e
+incollare: la chiusura di sessione confronta le riunioni del giorno con quelle già in questa
+cartella e scrive quelle che mancano. Il come sta nel comando «chiudi sessione» di
+[[code/skills/journal/SKILL|journal]].
+
+**Il nome del file lo fa l'interlocutore, non Granola.** I titoli che genera lui sono in
+inglese e descrivono l'argomento — «Website functionality review» — quindi fra un mese non
+dicono con chi eri. Il titolo originale si annota nell'intestazione, dove serve a ritrovare
+la nota nell'app.
+
 ## Regola unica
 
 **Questi file non si modificano mai.** Sono la registrazione di cosa è stato detto, non

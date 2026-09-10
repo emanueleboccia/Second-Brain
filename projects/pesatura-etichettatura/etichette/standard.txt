@@ -1,0 +1,32 @@
+========================================
+  LA BOTTEGA DEI PREPARATI
+========================================
+
+  [DESCRIZIONE]
+
+  Peso netto . . . . [PESO_NETTO] kg
+  Lotto  . . . . . . [LOTTO]
+  Da consumarsi entro  [SCADENZA]
+
+  Ingredienti:
+  [INGREDIENTI]
+
+  Operatore: [OPERATORE]
+  Confezionato il [DATA_CONF] alle [ORA_CONF]
+
+  [EAN]
+  ||| || |||| | ||| || | |||| ||| | ||
+========================================
+
+# ------------------------------------------------------------------
+# Questo e un modello leggibile, fatto apposta per vedere la
+# sostituzione mentre si prova senza stampante attaccata.
+#
+# Quello vero lo prepara Antonio col software Toshiba: disegna
+# l'etichetta, stampa su file, e ne esce il codice della stampante
+# (TPCL) con dentro gli stessi segnaposto fra parentesi quadre.
+#
+# Per il programma non cambia niente: legge un file di testo,
+# sostituisce i segnaposto e lo manda alla stampante. Che dentro ci
+# sia questo disegno o il codice TPCL, il codice non se ne accorge.
+# ------------------------------------------------------------------

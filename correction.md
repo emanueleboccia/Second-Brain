@@ -426,3 +426,29 @@ soglia di silenzio si calibra sul rumore vero del file (`volumedetect`), mai a m
 **La regola sopra:** **uno zero non è un risultato finché non hai visto lo strumento produrre
 un non-zero.** Vale per qualsiasi misura, non solo per l'audio: grep che non trova, query che
 non torna righe, test che non falliscono.
+
+## 09/09/2026 — Le descrizioni di TickTick non sono il posto del contesto
+
+Creando le task del refresh della Sartoria ho scritto dentro ogni descrizione il contesto
+del lavoro: chi ha deciso cosa, il prezzo e il perché, la storia del cliente, gli avvisi
+marcati con l'emoji del pericolo. Sul task padre erano quaranta righe. Emanuele le ha
+chiamate «scomode», ed è la parola giusta: aprire una task per fare una cosa e trovarci
+un riassunto di riunione è rumore.
+
+**Due errori in uno.** Il primo è di architettura, ed è scritto nel `CLAUDE.md` di radice:
+le regole e le decisioni stanno nel vault, **TickTick tiene le azioni**. Ci avevo messo le
+regole. E una copia del contesto dentro TickTick non è solo inutile: invecchia, perché
+quando il prezzo cambia lo cambio nel vault e la descrizione resta a dire una cosa vecchia.
+
+Il secondo è l'emoji ⚠️ usata come marcatore. Il divieto sulle emoji ce l'ho già scritto in
+`CLAUDE.md`, l'avevo applicato ai testi dei clienti e ignorato qui.
+
+**La prossima volta:** nella descrizione di una task ci va **solo quello che serve a fare
+quella cosa e non sta scritto altrove** — una trappola («Elementor si disinstalla dopo aver
+ricostruito le pagine, non prima»), un valore da avere sotto mano, una condizione di
+verifica. Una riga, non un capitolo. Se il titolo basta, la descrizione resta vuota. Sul
+task madre ci va al massimo un puntatore ai file del vault dove sta il contesto vero.
+
+**La regola sopra:** **ogni informazione ha un posto solo.** Se la scrivo in due posti, uno
+dei due mentirà, e sarà quello che ho sottomano nel momento sbagliato.
+
