@@ -7,7 +7,7 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-11
 related:
   - "[[self/MEMORY]]"
   - "[[data/campagne]]"
@@ -29,6 +29,31 @@ related:
 
 **Il 10% minimo sulle vendite** generate da sito, campagne e social, su tutti i servizi di
 Sistema Evolve. Nessun fisso mensile, nessun calcolo sul fatturato annuale.
+
+**Il 10% è del reparto, non a testa.** Precisato da Emanuele l'11/09/2026: lui e Karim sono un
+reparto solo, e la percentuale si divide fra i due. **La percentuale reale di ciascuno è il 5%.**
+È sotto il pavimento di ogni fascia di mercato: il 5-10% che si dà a chi porta vendite su un
+business avviato presuppone **un** fornitore, non due che se lo dividono.
+
+Le altre risposte, date lo stesso giorno:
+
+- **vale anche sui rinnovi** — ma «teoricamente». Non è stato concordato con Vincenzo, e con un
+  accordo a voce un «teoricamente» non regge il giorno che si conta. È la voce che vale di più
+  nel tempo: il Recovery mensile si rinnova dodici volte l'anno;
+- **dura finché dura il rapporto**, senza scadenza;
+- **il lavoro di agosto sparisce dentro la percentuale**, «per ora»: nessun pagamento a parte e
+  nessuna data di recupero. Al 5% servono **60.000 € di vendite attribuite** perché quei 3.000 €
+  tornino indietro.
+
+**Il fatturato di Evolve è 250-300.000 € l'anno**, dato di Emanuele. ⚠️ Non è la base della
+percentuale: la base sono le sole vendite attribuite al reparto, e quanta parte del fatturato
+siano non lo sa ancora nessuno.
+
+**La struttura è il problema, non la cifra.** Deciso l'11/09/2026: se si riapre, la percentuale
+non si tocca e si chiede il resto, nell'ordine — **un fisso mensile**, **il 15% sullo speso
+pubblicitario**, **una scala al 15% sopra i 50.000 € attribuiti**. Il fisso vale otto volte la
+scala. Gli scenari sono nello [[entities/clienti/sistema-evolve/storico|storico]], voce
+dell'11/09.
 
 ⚠️ **L'ipotesi della baseline sui 250.000 € è caduta e non va ripescata.** Se si riapre il
 discorso compenso, si riparte dal 10% sulle vendite. Il ragionamento completo, con le
@@ -53,21 +78,38 @@ arrivato da:
 - **il sito web**;
 - **le campagne advertising**.
 
-### Come si misura — il sistema lead sul loro CRM
+### Come si misura — la regola dei due sistemi
 
-Si sta impostando un **sistema di gestione lead dentro il CRM che Evolve già usa**, in modo
-da sapere in ogni momento quali lead sono arrivati dal reparto e se si sono convertiti.
+⚠️ **Riscritto l'11/09/2026: la strada del CRM è caduta.** Il piano era portare i lead dentro
+Managify. Dal 07/09/2026 non è più così, e quello che stava scritto qui prima non vale.
 
-Il giro è mensile: si apre il CRM, si guardano i lead portati e quanti hanno acquistato o si
-sono iscritti, e da lì esce il recap. **Quel recap è la base del compenso**, non un report di
-cortesia per il cliente.
+Vale la **regola dei due sistemi**:
 
-⚠️ **Il sistema lead non è ancora finito.** Finché non lo è, non esiste un modo condiviso di
-contare, e ogni mese passato senza tracciamento è un mese di percentuale che non si potrà più
-ricostruire. È la cosa più urgente di questa relazione — più della scrittura dell'accordo,
-perché l'accordo si può firmare a posteriori, i lead di agosto no.
+- **la provenienza è del reparto** — i lead dei moduli e delle campagne arrivano in una
+  dashboard sul sito di Evolve;
+- **la conversione è di Managify** — chi ha pagato, e quando, sta lì;
+- **il compenso nasce dall'incrocio fra i due.**
+
+⚠️ **L'incrocio non funziona ancora.** La richiesta a Managify — poter esportare o interrogare
+gli iscritti — è partita il 07/09/2026 e potrebbe non avere risposta. Senza, si vedono i lead
+ma non le vendite, e una percentuale *sulle vendite* che non può contare le vendite non è
+misurabile: è una promessa.
+
+È la cosa più urgente di questa relazione, più della scrittura dell'accordo: l'accordo si firma
+a posteriori, i lead di settembre no.
 
 I numeri che ne escono si raccolgono in [[data/campagne|campagne]].
+
+### Le campagne: la carta è loro, la spesa la fanno loro
+
+Precisato l'11/09/2026. **Vincenzo dà la carta e il reparto spende** — circa 1.000 € al mese di
+budget ads. È il caso da manuale della commissione di agenzia, che sul mercato sta fra il 10% e
+il 20% dello speso, mediana 12%, standard storico 15%. **Oggi il reparto lo fa gratis**, e per
+di più ha il compenso legato ai risultati di un budget che non decide.
+
+⚠️ **E lo fa senza niente di scritto.** Nessun tetto mensile, nessuno che ha detto chi approva
+un aumento, nessuno che ha detto chi risponde di un mese speso male. Un tetto concordato per
+iscritto protegge Emanuele e Karim molto più di Vincenzo.
 
 ## Cosa gli ho venduto
 

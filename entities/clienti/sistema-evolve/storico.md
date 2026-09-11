@@ -7,10 +7,25 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-11
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-09-11 — Le cinque domande hanno una risposta, e il 10% è un 5%
+Riaperta la discussione sul compenso. Emanuele ha risposto alle cinque domande preparate il
+30/08 e mai portate al tavolo: il 10% si divide con Karim, vale anche sui rinnovi
+«teoricamente», dura finché dura il rapporto, il fatturato è 250-300.000 €, e il consegnato di
+agosto sparisce dentro la percentuale.
+
+Costruito un calcolatore degli scenari per Emanuele e Karim, con dentro il listino di Evolve —
+che nel vault non si copia, perché sta nel loro Drive:
+https://claude.ai/code/artifact/396c2274-e3de-4be2-829b-6686bf3d6b71
+
+Dal confronto col mercato: il 10% è in fascia, il problema è che è diviso in due ed è l'unica
+voce. Deciso di non riaprire la percentuale e di chiedere struttura, nell'ordine — fisso, fee
+del 15% sullo speso pubblicitario, scala al 15% sopra i 50.000 € attribuiti. I termini stanno in
+[[entities/clienti/sistema-evolve/scheda|scheda]].
 
 ### 2026-09-01 — Entrato nel progetto come reparto
 Emanuele e Karim sono l'unico reparto marketing: sito, sponsorizzate, campagne, reel.
