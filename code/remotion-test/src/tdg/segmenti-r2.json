@@ -1,0 +1,72 @@
+[
+  {
+    "id": "r2-01-zucchero",
+    "sorgente": "tdg/r2-01-zucchero.mp4",
+    "durata": 2.5,
+    "origine": "C0325.MP4 da 0.82s",
+    "lento": true
+  },
+  {
+    "id": "r2-02-sac-a-poche",
+    "sorgente": "tdg/r2-02-sac-a-poche.mp4",
+    "durata": 1.5,
+    "origine": "C0318.MP4 da 0.88s",
+    "lento": true
+  },
+  {
+    "id": "r2-03-chef",
+    "sorgente": "tdg/r2-03-chef.mp4",
+    "durata": 1.5,
+    "origine": "C0319.MP4 da 3.52s",
+    "lento": true
+  },
+  {
+    "id": "r2-04-granella",
+    "sorgente": "tdg/r2-04-granella.mp4",
+    "durata": 1.25,
+    "origine": "C0321.MP4 da 2.64s",
+    "lento": true
+  },
+  {
+    "id": "r2-05-cannoli",
+    "sorgente": "tdg/r2-05-cannoli.mp4",
+    "durata": 1.25,
+    "origine": "C0323.MP4 da 1.44s",
+    "lento": true
+  },
+  {
+    "id": "r2-06-sfogliatelle",
+    "sorgente": "tdg/r2-06-sfogliatelle.mp4",
+    "durata": 2.5,
+    "origine": "C0316.MP4 da 2.02s",
+    "lento": true
+  },
+  {
+    "id": "r2-07-pastiera",
+    "sorgente": "tdg/r2-07-pastiera.mp4",
+    "durata": 2.5,
+    "origine": "C0331.MP4 da 3.23s",
+    "lento": true
+  },
+  {
+    "id": "r2-08-fragole",
+    "sorgente": "tdg/r2-08-fragole.mp4",
+    "durata": 1.5,
+    "origine": "C0335.MP4 da 1.12s",
+    "lento": true
+  },
+  {
+    "id": "r2-09-fontana",
+    "sorgente": "tdg/r2-09-fontana.mp4",
+    "durata": 1.5,
+    "origine": "C0334.MP4 da 1.12s",
+    "lento": true
+  },
+  {
+    "id": "r2-10-buffet",
+    "sorgente": "tdg/r2-10-buffet.mp4",
+    "durata": 4.0,
+    "origine": "C0328.MP4 da 3.74s",
+    "lento": true
+  }
+]

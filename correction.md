@@ -518,3 +518,15 @@ referral, un appuntamento chiesto da qualcun altro. Il lavoro fatto va nel giro 
 si guarda cosa si muove. Se la settimana non ha risultati si dice, e si nomina la cosa che ci va
 più vicino senza gonfiarla. Il template della review mette fra gli esempi «una decisione presa, un
 sistema che ora funziona»: si legge alla luce di questa riga.
+
+## 14/09/2026 — Prima una bozza, poi le domande
+
+Emanuele ha chiesto di lavorare ai post di settembre di Tenuta Don Gaetano. Prima di dargli
+qualcosa ho fatto una dozzina di giri di letture — reference, skill, procedure, TickTick, Buffer,
+SSD, Drive, il profilo Instagram — e il primo messaggio vero è stato un elenco di domande. Le
+letture servivano quasi tutte, il ritmo no: «che cazzo ci metti tutto sto tempo oggi?».
+
+**La prossima volta:** quando chiede di lavorare su una cosa, il primo risultato concreto arriva
+presto, anche con i buchi dichiarati. Le letture che servono si lanciano insieme in un giro solo,
+non una alla volta. Si chiede solo quello che blocca davvero: il resto si decide con la scelta
+ovvia, detta in una riga, e se non va la corregge lui.

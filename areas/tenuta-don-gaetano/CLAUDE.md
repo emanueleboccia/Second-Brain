@@ -28,6 +28,10 @@ Poggiomarino (NA), territorio vesuviano. Canale principale: Instagram. Sito web 
   anatomia, e i vincoli provvisori per i reel.
 - `target.md` — le tre buyer persona (Martina, Anna, Giuseppe & Rosa) in sintesi,
   con i soli dolori a importanza Alta.
+- `caption.md` — come si scrive una caption, ricavato dalle caption vere di luglio e agosto 2026.
+- `regole-editoriali.md` — il mese tipo, la checklist prima di pubblicare, i no del marchio,
+  l'export. Stesso impianto di Mamma Rosaria, dal 14/09/2026.
+- `offerta.md` — impalcatura, da compilare.
 
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 

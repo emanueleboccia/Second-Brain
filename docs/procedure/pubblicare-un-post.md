@@ -40,7 +40,7 @@ Se una di queste tre manca, si chiede. Non si sceglie l'ora al posto suo.
 [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]]: format, colori, una
 sola parola in Brush, copertina non tagliata, nessun soggetto ripetuto, nessuna formula vietata.
 
-**La caption** deve chiudere con l'invito, poi **la firma**, poi **quattro hashtag** — lo schema
+**La caption** deve chiudere con l'invito, poi **la firma**, **senza hashtag** (tolti da Emanuele il 14/09/2026 per tutti i brand) — lo schema
 sta in [[areas/da-mamma-rosaria/reference/caption|caption]].
 
 ⚠️ **Guardare la data in cima al `caption.md`.** Se è stata scritta prima dell'ultimo cambio di
@@ -121,6 +121,58 @@ Il link si riporta a Emanuele. È la prova, e gli serve per guardarlo.
 | `sent` senza pubblicazione | si controlla `externalLink`, non lo stato |
 | Immagini «da caricare» ogni volta | stanno già su Buffer, si riusa l'indirizzo |
 | `3-in-produzione` che mente | si sposta la cartella lo stesso giorno |
+
+## Tenuta Don Gaetano: da Meta Business Suite
+
+> Scritto il 14/09/2026, programmando i primi sei post di settembre. Il Buffer dei connettori è
+> quello di Mamma Rosaria, ed Emanuele ha deciso di programmare i post della Tenuta da Business
+> Suite: la si usa dal suo Chrome, con l'estensione di Claude. I reel invece passano dal Buffer della
+> Tenuta, nella sezione qui sotto. Le regole del brand stanno in
+> [[areas/tenuta-don-gaetano/reference/regole-editoriali|regole editoriali della Tenuta]].
+
+- **L'account.** Il portfolio è «Tenuta Don Gaetano - Business», con la pagina Facebook e il
+  profilo Instagram insieme. Business Suite si apre spesso su un altro portfolio, per esempio
+  Sistema Evolve: si controlla prima di creare il post.
+- **Canali e ora.** Facebook e Instagram insieme, alle 19:30, come i post di agosto.
+- **La storia di Facebook** è accesa per tutti i post, come impostazione dell'account. Si lascia
+  così. L'opzione «Non condividere più tutti i post» cambia l'impostazione per sempre, e non si
+  tocca senza chiedere.
+- **Le immagini.** «Aggiungi foto/video» apre la finestra di sistema, che da qui non si può usare.
+  Prima di cliccare si intercetta il campo file con uno script, e poi si carica col comando di
+  upload dell'estensione: al massimo 10 MB per volta, e l'ordine dei file è l'ordine del carosello.
+- **La caption si scrive una volta sola, a pagina carica.** ⚠️ Il 14/09/2026 due tentativi e un
+  inserimento via script hanno lasciato il testo giusto nel campo e uno corrotto in memoria, con la
+  prima lettera persa e gli hashtag triplicati. **Il controllo si fa sull'anteprima**, che legge la
+  memoria, non sul campo di testo. Se la memoria è sporca non si corregge sopra: si butta la bozza
+  e si riparte da una finestra pulita.
+- **Il pulsante è «Programma», mai «Pubblica».** Poi deve comparire «Il tuo post è programmato»
+  con data e ora. Alla proposta di sponsorizzare si risponde «Forse più tardi».
+- **La verifica finale è il calendario del mese**, non la conferma: se il collegamento con Chrome
+  cade a metà, solo il calendario dice se il post c'è. ⚠️ Nel calendario non si clicca sulle zone
+  vuote di un giorno: aprono un post nuovo per quella data.
+- **Dopo**, come per gli altri brand: la cartella passa in `4-pubblicati/<anno-mese>/` con la data
+  davanti e si copia in `98 Social/01 pubblicati/` su Drive.
+
+## Tenuta Don Gaetano: i reel da Buffer
+
+> Scritto il 14/09/2026, programmando i due reel di settembre. I reel escono anche su TikTok, che
+> Business Suite non ha, e passano dall'account Buffer della Tenuta: non quello dei connettori, che
+> è di Mamma Rosaria, ma uno suo, aperto nel Chrome di Emanuele.
+
+- **Il video lo carica Emanuele.** Un reel pesa sugli 80 MB e l'upload dell'estensione si ferma a
+  10 MB. Si carica **prima** di «Customize for each network», così vale per tutti e tre i canali:
+  dopo, ogni canale ha il suo video e andrebbe caricato tre volte.
+- **La copertina è un fotogramma.** Buffer non accetta un'immagine: sceglie un momento del video, e
+  parte da 0 secondi. La copertina si incolla quindi sui primi due fotogrammi del reel con ffmpeg
+  (`overlay` con `enable='lt(n,2)'`), e il file si chiama `<nome>-copertina.mp4`. In «Edit Media» di
+  ogni canale si controlla che il tempo sia 0.
+- **Canale per canale**, dopo «Customize for each network»: Instagram su **Reel** con «Share to
+  Feed» acceso; Facebook su **Reel**, col titolo del reel al posto del nome del file; TikTok con la
+  sola caption e «AI-Generated» spento.
+- **Data e ora** da «Set Date and Time», alle 19:30 Europe/Rome. Prima di «Schedule Posts» si
+  controlla che il pulsante dica la data giusta: il primo clic sul calendario appena aperto può non
+  prendere. Il titolo del reel Facebook si legge solo a sezione aperta.
+- **La verifica** è la vista List: tre post per reel, con la copertina come anteprima.
 
 ## Definizione di fatto
 

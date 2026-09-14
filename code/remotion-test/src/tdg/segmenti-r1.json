@@ -1,0 +1,58 @@
+[
+  {
+    "id": "r1-01-vesuvio",
+    "sorgente": "tdg/r1-01-vesuvio.mp4",
+    "durata": 3.0,
+    "origine": "dji_fly_20250610_161658_0010_1749565755520_video.mp4 da 0.50s",
+    "lento": false
+  },
+  {
+    "id": "r1-02-cortile",
+    "sorgente": "tdg/r1-02-cortile.mp4",
+    "durata": 3.0,
+    "origine": "dji_fly_20250610_161034_0003_1749565847982_video.mp4 da 1.00s",
+    "lento": false
+  },
+  {
+    "id": "r1-03-lampadario",
+    "sorgente": "tdg/r1-03-lampadario.mp4",
+    "durata": 2.5,
+    "origine": "C0208.MP4 da 1.06s",
+    "lento": true
+  },
+  {
+    "id": "r1-04-sala-verde",
+    "sorgente": "tdg/r1-04-sala-verde.mp4",
+    "durata": 2.5,
+    "origine": "C0207.MP4 da 2.50s",
+    "lento": true
+  },
+  {
+    "id": "r1-05-fiori",
+    "sorgente": "tdg/r1-05-fiori.mp4",
+    "durata": 1.5,
+    "origine": "C0199.MP4 da 3.28s",
+    "lento": true
+  },
+  {
+    "id": "r1-06-orologio",
+    "sorgente": "tdg/r1-06-orologio.mp4",
+    "durata": 1.5,
+    "origine": "C0202.MP4 da 2.32s",
+    "lento": true
+  },
+  {
+    "id": "r1-07-ritratto",
+    "sorgente": "tdg/r1-07-ritratto.mp4",
+    "durata": 1.5,
+    "origine": "C0210.MP4 da 1.36s",
+    "lento": true
+  },
+  {
+    "id": "r1-08-tetti",
+    "sorgente": "tdg/r1-08-tetti.mp4",
+    "durata": 4.0,
+    "origine": "dji_fly_20250610_161600_0009_1749565775082_video.mp4 da 1.00s",
+    "lento": false
+  }
+]

@@ -368,6 +368,9 @@ Vietato:
   per non sembrare troppo diretto, e a chi legge suona come una strizzata d'occhio che non ha
   chiesto. Se una battuta viene da sé dentro il testo va bene; se serve a chiudere, è un
   riempitivo.
+- **Gli hashtag nelle caption.** Aggiunta il 14/09/2026: dai post programmati da quel giorno,
+  nessuna caption di nessun brand ha hashtag. Vale per tutti, anche per quelli che non hanno una
+  regola scritta nel proprio `reference/`. I post già programmati prima restano come sono.
 
 **Regola finale:** se un testo potrebbe essere stato scritto per qualsiasi altra attività, è
 sbagliato. Deve poter essere scritto **solo per questa**.

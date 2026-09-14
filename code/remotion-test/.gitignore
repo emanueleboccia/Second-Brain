@@ -8,3 +8,6 @@ out
 
 # Whisper: si riscarica da solo, non sta in git
 whisper.cpp
+
+# Musica dei reel TDG: file di Pixabay, si riscaricano
+public/tdg/*.mp3

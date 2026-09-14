@@ -4,6 +4,8 @@ import { DISTANZA, PAUSA, RIGA, TESTATA, type MenuProps } from "./menu";
 import { MenuTv } from "./MenuTv";
 import { Reel } from "./reel/Reel";
 import { FPS, durataTotale } from "./reel/tempi";
+import { ReelTdg } from "./tdg/ReelTdg";
+import { REEL as REEL_TDG, durataTotale as durataTdg } from "./tdg/tempi";
 
 // La durata segue il numero di piatti: se il JSON ne guadagna uno,
 // il video si allunga da solo e non c'è niente da ricalcolare a mano.
@@ -33,6 +35,24 @@ export const MyComposition = () => {
         fps={FPS}
         width={1080}
         height={1920}
+      />
+      <Composition
+        id="TdgDalCortileAiSaloni"
+        component={ReelTdg}
+        durationInFrames={durataTdg(REEL_TDG.cortile.segmenti)}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ reel: "cortile" as const }}
+      />
+      <Composition
+        id="TdgLeManiInCucina"
+        component={ReelTdg}
+        durationInFrames={durataTdg(REEL_TDG.cucina.segmenti)}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ reel: "cucina" as const }}
       />
     </>
   );

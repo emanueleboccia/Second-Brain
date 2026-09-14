@@ -54,10 +54,11 @@ Sul sito, le keyword geografiche restano libere nella SEO.
 
 Sempre come **fascia indicativa**, mai una cifra secca.
 
-## Hashtag base
+## Hashtag
 
-`#TenutaDonGaetano` `#DimoraStorica` `#Poggiomarino` `#TerritorioVesuviano`
-`#EventiEsclusivi` `#UsoEsclusivo` `#VillaStorica`
+**Niente hashtag nelle caption**, deciso da Emanuele il 14/09/2026. Fino ad allora i fissi erano
+`#TenutaDonGaetano` `#DimoraStorica` `#Poggiomarino` `#TerritorioVesuviano` `#EventiEsclusivi`
+`#UsoEsclusivo` `#VillaStorica`: restano scritti qui solo per sapere cosa c'era.
 
 ## Rispetto & consenso
 

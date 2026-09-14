@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 
 # Definizione di fatto — pubblicare un post
@@ -18,9 +18,9 @@ Valgono per [[docs/procedure/pubblicare-un-post|la procedura di pubblicazione]].
 - La **checklist del brand** è stata fatta prima di pubblicare, non dopo — format, colori, Brush,
   copertina, nessun soggetto ripetuto, nessuna formula vietata. Per Mamma Rosaria le condizioni
   stanno in [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]].
-- La **caption** chiude con l'invito, poi la firma, poi **quattro hashtag**. La data in cima al
-  `caption.md` è stata guardata: se precede l'ultimo cambio di regole, la caption è stata
-  ricontrollata riga per riga.
+- La **caption** chiude con l'invito, poi la firma, e **non ha hashtag** (regola del 14/09/2026, per
+  tutti i brand). La data in cima al `caption.md` è stata guardata: se precede l'ultimo cambio di
+  regole, la caption è stata ricontrollata riga per riga.
 - Per i grafici, **l'alternanza dei fondi** è stata verificata **aprendo la copertina dell'ultimo
   grafico uscito**, non ricordata.
 - Il post non finisce su un canale che ha **già ricevuto** quel contenuto.
