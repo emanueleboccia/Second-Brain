@@ -7,7 +7,7 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-11
+updated: 2026-09-13
 related:
   - "[[self/MEMORY]]"
   - "[[data/campagne]]"
@@ -39,7 +39,9 @@ Le altre risposte, date lo stesso giorno:
 
 - **vale anche sui rinnovi** — ma «teoricamente». Non è stato concordato con Vincenzo, e con un
   accordo a voce un «teoricamente» non regge il giorno che si conta. È la voce che vale di più
-  nel tempo: il Recovery mensile si rinnova dodici volte l'anno;
+  nel tempo: il Recovery mensile si rinnova dodici volte l'anno. ⚠️ **Deciso il 13/09/2026 cosa
+  si chiede**: i rinnovi di chi arriva dal reparto pagano il 10% finché il socio resta, e
+  restano fuori dalla soglia della scala. Quelli dei soci che c'erano prima non contano;
 - **dura finché dura il rapporto**, senza scadenza;
 - **il lavoro di agosto sparisce dentro la percentuale**, «per ora»: nessun pagamento a parte e
   nessuna data di recupero. Al 5% servono **60.000 € di vendite attribuite** perché quei 3.000 €
@@ -49,11 +51,16 @@ Le altre risposte, date lo stesso giorno:
 percentuale: la base sono le sole vendite attribuite al reparto, e quanta parte del fatturato
 siano non lo sa ancora nessuno.
 
-**La struttura è il problema, non la cifra.** Deciso l'11/09/2026: se si riapre, la percentuale
-non si tocca e si chiede il resto, nell'ordine — **un fisso mensile**, **il 15% sullo speso
-pubblicitario**, **una scala al 15% sopra i 50.000 € attribuiti**. Il fisso vale otto volte la
-scala. Gli scenari sono nello [[entities/clienti/sistema-evolve/storico|storico]], voce
-dell'11/09.
+**La struttura è il problema, non la cifra.** Deciso l'11/09/2026 e rivisto il 13/09/2026: la
+percentuale non si tocca e si chiede il resto, nell'ordine — **un fisso mensile**, poi **una
+scala al 15%** sulle vendite nuove portate dal reparto **sopra i 4.200 € al mese**. La soglia è
+mensile, e 4.200 € sono l'equivalente dei 50.000 € l'anno decisi l'11/09: segue il ritmo del
+fisso e del report di fine mese, e scatta nei mesi in cui le campagne rendono invece che a fine
+anno. I rinnovi non contano per la soglia. **La fee sullo speso pubblicitario non si chiede**,
+deciso da Emanuele il 13/09/2026. Il fisso resta la voce che conta: nello scenario realistico
+dell'11/09 valeva otto volte la scala. Gli scenari sono nello
+[[entities/clienti/sistema-evolve/storico|storico]], voce dell'11/09. Emanuele contatta
+Vincenzo il 14/09/2026.
 
 ⚠️ **L'ipotesi della baseline sui 250.000 € è caduta e non va ripescata.** Se si riapre il
 discorso compenso, si riparte dal 10% sulle vendite. Il ragionamento completo, con le
@@ -107,9 +114,32 @@ budget ads. È il caso da manuale della commissione di agenzia, che sul mercato 
 il 20% dello speso, mediana 12%, standard storico 15%. **Oggi il reparto lo fa gratis**, e per
 di più ha il compenso legato ai risultati di un budget che non decide.
 
+⚠️ **La fee non si chiede.** Deciso da Emanuele il 13/09/2026: la trattativa si fa sul fisso e
+sulla scala, e la gestione del budget resta dentro il rapporto.
+
 ⚠️ **E lo fa senza niente di scritto.** Nessun tetto mensile, nessuno che ha detto chi approva
 un aumento, nessuno che ha detto chi risponde di un mese speso male. Un tetto concordato per
 iscritto protegge Emanuele e Karim molto più di Vincenzo.
+
+## Oltre Evolve
+
+Detto da Emanuele il 13/09/2026. **Vincenzo vuole portare fuori da Evolve il lavoro fatto dal
+reparto** — il cervello aziendale, il sito, l'advertising — e rifarlo per altre palestre, più
+avanti per altri business. E vuole continuare a lavorare con Emanuele e Karim in modo stabile.
+
+**Deciso il 13/09/2026: i clienti che Vincenzo porta fuori da Evolve sono lavori a parte, con
+un prezzo loro**, fuori dal fisso e dalla percentuale. Si dice nella trattativa di settembre,
+prima che arrivi il primo: il primo lavoro fatto senza regole diventa la regola.
+
+⚠️ **Il resto, per il primo cliente, non è deciso**, e se ne parla con Vincenzo. Le domande
+emerse in sessione:
+
+- **di chi è il cliente**: lo vende Evolve e il reparto lavora dietro, oppure Vincenzo lo
+  presenta e il cliente è di Emanuele e Karim. Da lì dipende chi fattura;
+- **quanto resta al reparto**, e in che forma;
+- **di chi è il metodo**: il cervello aziendale l'ha costruito e chiamato così Emanuele;
+- **se le palestre restano aperte anche a Emanuele** quando non passano da Vincenzo, visto che
+  sono uno dei verticali dell'[[self/reference/offerta|offerta del personal brand]].
 
 ## Cosa gli ho venduto
 
@@ -141,5 +171,13 @@ qui: il briefing del mattino legge le card assegnate a Emanuele e non ne scrive 
 ## Catena referral
 
 - **Chi me l'ha mandato:** da compilare. Il rapporto esiste almeno dal 2024.
-- **Chi ha mandato lui:** da compilare. Con una seconda sede e dei franchise in vista, è la
+- **Chi ha mandato lui:**
+  - **13/09/2026 — l'attività di famiglia della sua fidanzata** (nomi da compilare). Un grafico
+    si è appena licenziato, e il suo lavoro era tradurre in italiano le etichette dei prodotti
+    — giocattoli, casalinghi — che arrivano in cinese o in inglese. Chiedono un sistema con
+    l'intelligenza artificiale che lo faccia in automatico. Prima di decidere, Emanuele si fa
+    mandare degli esempi e le risposte che servono: chi decide e paga, quante etichette al
+    mese, se va bene un controllo umano prima della stampa.
+
+  Con una seconda sede, i franchise e l'idea di portare il servizio ad altre palestre, è la
   riga che può valere più del 10%.

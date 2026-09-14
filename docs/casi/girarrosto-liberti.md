@@ -7,7 +7,7 @@ tags:
   - girarrosto-liberti
 status: in-lavorazione
 created: 2026-09-01
-updated: 2026-09-06
+updated: 2026-09-13
 related:
   - "[[docs/casi/README]]"
   - "[[entities/clienti/girarrosto-liberti/scheda]]"
@@ -102,10 +102,10 @@ sistema davvero, e chiede di integrare o togliere qualcosa. Emanuele continua a 
 **finché l'abito non veste in modo eccezionale**. È la differenza con un prodotto a scaffale,
 e va detta quando si vende.
 
-**Quello che ha già prodotto:** due referral non ancora chiesti, una recensione e un video da
-girare — tutto tracciato in [[entities/clienti/girarrosto-liberti/scheda|la scheda di Marco
-Pappacena]]. La riga di registro è `2026-001`, importo zero, non fatturato per scelta: il locale
-è il caso studio.
+**Quello che ha già prodotto:** tre referral, arrivati il 13/09/2026 senza che fossero chiesti e
+prima ancora del reel, che resta da girare. Chi sono e chi li ha mandati sta in
+[[entities/clienti/girarrosto-liberti/scheda|la scheda di Marco Pappacena]]. La riga di registro
+è `2026-001`, importo zero, non fatturato per scelta: il locale è il caso studio.
 
 ## Dove serve
 

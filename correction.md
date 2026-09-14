@@ -504,3 +504,17 @@ finisce dentro, si guarda prima com'è ordinata la lista.
 **se quel dato viene letto**. Ho riscritto ventisette `sortOrder` per rimetterli nell'ordine in
 cui già erano, e il risultato non poteva che essere identico. Un rimedio che non cambia niente
 costa più di non averlo tentato, perché sembra fatto.
+
+## 13/09/2026 — Una vittoria è un risultato, non lavoro fatto
+
+Nella review della W37 ho aperto proponendo cinque vittorie: il metodo di vendita tenuto sulla
+Sartoria, il montatore sentito, i numeri veri su Evolve, lo scheletro della pesatura, l'archivio
+di Da Mamma Rosaria. Emanuele: «chiamarle vittorie è un parlone, non ho alcun risultato». Aveva
+ragione. Erano tutte cose costruite da lui, e nessuna era arrivata da fuori. La vittoria vera
+l'ha detta lui: Marco del Girarrosto gli ha passato tre referral senza che li chiedesse.
+
+**La prossima volta:** fra le vittorie va quello che è successo fuori: un sì, un incasso, un
+referral, un appuntamento chiesto da qualcun altro. Il lavoro fatto va nel giro delle aree, dove
+si guarda cosa si muove. Se la settimana non ha risultati si dice, e si nomina la cosa che ci va
+più vicino senza gonfiarla. Il template della review mette fra gli esempi «una decisione presa, un
+sistema che ora funziona»: si legge alla luce di questa riga.

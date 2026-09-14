@@ -54,6 +54,12 @@ cifre sono vecchie — il sito vetrina dice 800 € quando la fascia vera dichia
 1.500–2.500 € — e la forma è sbagliata, perché Emanuele quota a **fasce** guardando il cliente
 che ha davanti, non a prezzo fisso.
 
+**13/09/2026 — Il primo che vuole rivenderlo è Vincenzo.** Vuole portare il lavoro fatto per
+Evolve ad altre palestre, e poi ad altri business. È una strada per vendere il cervello aziendale
+a qualcun altro, ma passa da un intermediario: restano da decidere di chi è il metodo, di chi è il
+cliente e quanto resta a chi fa il lavoro. Le domande stanno in
+[[entities/clienti/sistema-evolve/scheda|la scheda di Sistema Evolve]].
+
 ### La fase di lancio, dichiarata
 
 **Quello che sta regalando o scontando adesso non è debolezza di prezzo: è una fase, e ha uno

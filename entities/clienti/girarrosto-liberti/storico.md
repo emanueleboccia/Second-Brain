@@ -7,7 +7,7 @@ tags:
   - girarrosto-liberti
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-13
 ---
 
 # Storico — Girarrosto Liberti
@@ -19,6 +19,17 @@ Chi è il cliente e cosa gli è stato costruito sta in
 [[entities/clienti/girarrosto-liberti/scheda|scheda]]; il caso, con la situazione di partenza e
 l'esito, in [[docs/casi/girarrosto-liberti|ricettario]]. Qui c'è solo cosa è successo, dal più
 recente in cima.
+
+### 2026-09-13 — Tre referral, prima del reel e senza chiederli
+Marco ha passato a Emanuele tre contatti di sua iniziativa:
+
+- **Girarrosto La Signora**, due locali degli stessi proprietari, interessati allo stesso sistema
+  costruito qui;
+- **Pasquale**, rivenditore Amadori per quanto Emanuele ha capito. Ha chiamato lui, non ha voluto
+  parlarne al telefono e ha chiesto di vedersi: incontro il 14/09/2026 alle 15:30.
+
+È la metà dello scambio che spettava a Marco nella riga `2026-001` del registro lavori, lavoro a
+zero in cambio di due o tre nomi. È arrivata prima del reel che doveva aprirla.
 
 ### 2026-09-03 — Scritto lo script del reel
 Il copione del caso studio è pronto in

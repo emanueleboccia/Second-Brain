@@ -1,13 +1,13 @@
 ---
 title: "Scheda — La Sartoria dei Piccoli"
-summary: "La Sartoria dei Piccoli di Marco Augusto: e-commerce WooCommerce comprato nel 2022 e già rifatto una volta nel 2024, sempre a 600 €. Dal 07/09/2026 c'è una conversazione aperta e un incontro chiesto da lui, con hosting e dominio in scadenza nella stessa settimana."
+summary: "La Sartoria dei Piccoli di Marco Augusto: e-commerce WooCommerce comprato nel 2022 e già rifatto una volta nel 2024, sempre a 600 €. A settembre 2026 ha chiesto un incontro, ha lasciato cadere il preventivo del refresh e non ha più risposto: dal 13/09/2026 non si insegue."
 tags:
   - entities
   - clienti
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # Scheda — La Sartoria dei Piccoli
@@ -52,10 +52,8 @@ il campo era vuoto.** Se scade l'hosting il sito va giù; se scade il dominio va
 sito e mail, e il negozio sparisce da Google. **Su Notion le due date ci sono dalla sessione
 del 09/09/2026** — verificate il 10/09.
 
-⚠️ **Le due scadenze cadono dentro il refresh, ed è il rischio che nessuno ha nominato in
-riunione.** Il lavoro parte con lo staging e passa per la disinstallazione di Elementor; se
-l'hosting non viene rinnovato il 18/09, quel lavoro si ferma a metà su un sito spento. Va
-chiesto a Marco che sia rinnovato **prima** di toccare qualsiasi cosa, non dopo.
+⚠️ **Dal 13/09/2026 non c'è nessun lavoro in corso.** Le due date restano del cliente, che le
+paga direttamente, e non sono più un motivo per scrivergli.
 
 ## Com'è fatto il sito, misurato
 
@@ -76,7 +74,12 @@ cache che funziona parte sotto il mezzo secondo. Primo sospetto, da verificare d
 - **Chi me l'ha mandato:** **passaparola** — è un **amico del fratello di Emanuele**.
 - **Chi ha mandato lui:** da compilare.
 
-## Il restyling — la conversazione è aperta dal 07/09/2026
+## Il restyling — aperto il 07/09/2026, fermo dal 13/09/2026
+
+⚠️ **Fermo per scelta di Emanuele.** Il 10/09/2026 Marco ha chiesto di sistemare il guasto e
+ha lasciato cadere il preventivo da 350 €; dopo, su WhatsApp non ha più risposto. Deciso il
+13/09/2026: **non si insegue.** Non si sollecita e non si propone niente. Si rivaluta solo se
+si rifà vivo lui.
 
 Fino al 03/09/2026 il restyling era un'idea di Emanuele e mancava l'appiglio. **L'appiglio non
 è più servito:** il 07/09 ha scritto Francesco Miranda segnalando un problema sul sito, e dopo

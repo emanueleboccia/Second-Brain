@@ -1,13 +1,13 @@
 ---
 title: "Scheda — Girarrosto Liberti"
-summary: "Girarrosto Liberti, referente Marco Pappacena: sito attivo e sistema di ordinazioni interno costruito su misura. È il caso studio più citato e ha già prodotto due referral, una recensione e un video."
+summary: "Girarrosto Liberti, referente Marco Pappacena: sito attivo e sistema di ordinazioni interno costruito su misura. È il caso studio più citato, e il 13/09/2026 ha portato tre referral senza che fossero chiesti."
 tags:
   - entities
   - clienti
   - girarrosto-liberti
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-13
 ---
 
 # Scheda — Girarrosto Liberti
@@ -56,14 +56,13 @@ eventi in ordine in [[entities/clienti/girarrosto-liberti/storico|storico]].
 
 ## Catena referral
 
-- **Chi me l'ha mandato:** da compilare.
 - **Chi me l'ha mandato:** nessuno — è un amico.
-- **Chi ha mandato lui:** **due o tre nomi, non ancora chiesti, e per scelta.**
+- **Chi ha mandato lui:** **tre contatti, il 13/09/2026, senza che gli fossero chiesti.**
+  - **Girarrosto La Signora**, due locali degli stessi proprietari, interessati allo stesso
+    sistema costruito qui.
+  - **Pasquale**, rivenditore Amadori per quanto Emanuele ha capito. Ha chiamato lui, non ha
+    voluto parlarne al telefono e ha chiesto di vedersi: incontro il 14/09/2026 alle 15:30.
 
-⚠️ **L'ordine deciso da Emanuele il 03/09/2026: prima il video, poi i nomi.** Non si chiedono
-adesso. Prima si gira e si monta il reel sul caso Girarrosto, poi Marco manda **quel video** ai
-suoi due o tre contatti: così non arriva un nome freddo da chiamare, arriva una persona che ha
-già visto cosa sai fare, presentata da qualcuno di cui si fida.
-
-**Finché il video non esiste, i referral non esistono.** È il video il collo di bottiglia, non
-la richiesta dei nomi.
+⚠️ **L'ordine deciso il 03/09/2026, prima il video e poi i nomi, l'ha scavalcato Marco.** I nomi
+sono arrivati prima del reel e senza nessuna richiesta, quindi la sua metà dello scambio è già
+arrivata. Il reel resta da girare, ma non è più il collo di bottiglia dei referral.

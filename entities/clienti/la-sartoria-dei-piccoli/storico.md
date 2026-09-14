@@ -7,7 +7,7 @@ tags:
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # Storico — La Sartoria dei Piccoli
@@ -17,6 +17,13 @@ updated: 2026-09-10
 
 Chi è il cliente sta in [[entities/clienti/la-sartoria-dei-piccoli/scheda|scheda]]. Qui c'è
 cosa è successo, dal più recente in cima.
+
+### 2026-09-13 — Marco non risponde, e la Sartoria esce dai radar
+Il 10/09 Marco aveva scritto chiedendo di sistemare il guasto, e lasciando cadere il preventivo
+da 350 € mandato la sera del 09/09. Dopo, su WhatsApp non ha più risposto.
+
+**Deciso da Emanuele il 13/09/2026: non si insegue.** Non si sollecita e non si propone niente,
+nemmeno per le scadenze del 18 e del 19, che paga lui. Si rivaluta solo se si rifà vivo Marco.
 
 ### 2026-09-09 — L'incontro in negozio, il sì a voce, e il prezzo che arriva dopo
 Incontro alle 9:30 in negozio con **Marco Augusto** e **Francesco Miranda**, registrato con

@@ -7,10 +7,28 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-11
+updated: 2026-09-13
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-09-13 — La struttura si stringe, e Vincenzo guarda oltre Evolve
+Emanuele ha deciso che **la fee sullo speso pubblicitario non si chiede**. La scala al 15%
+guarda le vendite nuove portate dal reparto **mese per mese**, sopra i 4.200 € al mese: è
+l'equivalente mensile dei 50.000 € l'anno decisi l'11/09. **I rinnovi entrano nella stessa
+trattativa**: quelli di chi arriva dal reparto pagano il 10% finché il socio resta, e restano
+fuori dalla soglia della scala. Emanuele contatta Vincenzo il 14/09.
+
+Nello stesso discorso Vincenzo ha detto di voler portare il servizio del reparto ad altre
+palestre, e poi ad altri business, continuando a lavorare con Emanuele e Karim in modo stabile.
+Deciso che **i clienti che porta fuori da Evolve sono lavori a parte, con un prezzo loro**, e
+che va detto prima che arrivi il primo. Le domande ancora aperte stanno in
+[[entities/clienti/sistema-evolve/scheda|scheda]], sezione «Oltre Evolve».
+
+E ha portato Emanuele e Karim dalla sua fidanzata, nell'attività di famiglia: un grafico si è
+appena licenziato, e il suo lavoro era tradurre in italiano le etichette dei prodotti che
+arrivano in cinese o in inglese. Chiedono un sistema con l'AI che lo faccia in automatico.
+Prima di decidere, Emanuele si fa mandare degli esempi di etichette.
 
 ### 2026-09-11 — Le cinque domande hanno una risposta, e il 10% è un 5%
 Riaperta la discussione sul compenso. Emanuele ha risposto alle cinque domande preparate il
