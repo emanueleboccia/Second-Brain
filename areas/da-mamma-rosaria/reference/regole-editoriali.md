@@ -8,7 +8,7 @@ tags:
   - design
 status: attivo
 created: 2026-07-13
-updated: 2026-08-21
+updated: 2026-09-14
 related:
   - "[[areas/da-mamma-rosaria/reference/design]]"
   - "[[areas/da-mamma-rosaria/reference/caption]]"
@@ -23,9 +23,12 @@ related:
 
 ## Il mese tipo
 
-**Otto post al mese, più otto storie.** È quello che rientra nel canone: il perimetro sta in
-[[self/tariffario-famiglia|tariffario dei brand di famiglia]], 250 € al mese per brand, e dentro
+**Otto post al mese.** È quello che rientra nel canone: il perimetro sta in
+[[self/tariffario-famiglia|tariffario dei brand di famiglia]], 300 € al mese da settembre 2026, e dentro
 gli otto post ci stanno **al massimo due reel**.
+
+⚠️ **Le storie non sono nel canone**, deciso da Emanuele il 14/09/2026: si fanno sul posto e le
+pubblicano loro. Da qui al massimo escono clip pronte da far girare nelle storie.
 
 La composizione non è libera:
 
@@ -48,18 +51,17 @@ mese, non si ricostruisce a memoria il 30.
 - La parola in Brush è una sola, senza punti, virgole, numeri o «&»?
 - Nessun paragrafo finisce con una parola sola sull'ultima riga?
 - La copertina non viene tagliata nell'anteprima della griglia?
-- La [[areas/da-mamma-rosaria/reference/caption|caption]] chiude con un invito chiaro, poi **la firma**, poi **quattro hashtag**?
+- La [[areas/da-mamma-rosaria/reference/caption|caption]] chiude con un invito chiaro, poi **la firma**, e **nessun hashtag**?
 - Il post non ripete il soggetto di quello prima o di quello dopo?
 - Il testo **non** promette «tutto incluso», «un solo prezzo» o «coltivati da noi» ([[areas/da-mamma-rosaria/reference/tono|tono di voce]])?
 
-## Gli hashtag — quattro, non uno di più
+## Gli hashtag — nessuno
 
-⚠️ **Cambiato il 07/09/2026 da Emanuele.** Fino a ieri erano sei o sette, letti dai post di
-agosto. Da adesso sono **quattro in tutto**:
+⚠️ **Tolti da Emanuele il 14/09/2026.** Dai post successivi le caption non hanno hashtag: finiscono
+con la firma.
 
-1. **`#DaMammaRosaria`** — fisso, sempre primo.
-2. **Due tematici** sul soggetto di quel post.
-3. **`#poggiomarino`** — l'unico di zona che resta. Via `#napoli` e `#zonavesuviana`.
+> Prima valevano due regole: sei o sette hashtag letti dai post di agosto, poi dal 07/09/2026
+> quattro in tutto, `#DaMammaRosaria` fisso e primo, due tematici e `#poggiomarino`.
 
 ⚠️ **«Catering» non si usa nemmeno negato.** Il post del 10/08/2026 portava `#niencatering`:
 refuso a parte, «catering» è una delle formule vietate da

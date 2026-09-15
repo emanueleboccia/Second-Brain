@@ -20,6 +20,26 @@ Chi è il cliente e cosa gli è stato costruito sta in
 l'esito, in [[docs/casi/girarrosto-liberti|ricettario]]. Qui c'è solo cosa è successo, dal più
 recente in cima.
 
+### 2026-09-14 — Pasquale non è un cliente adatto
+Incontro di persona alle 15:30, registrato su Granola:
+[[sources/call/2026-09-14-pasquale-amadori|trascrizione]]. Giudizio di Emanuele: **non è un cliente
+adatto, assolutamente no.**
+
+Cosa è emerso, per quanto la trascrizione si lascia leggere:
+
+- Pasquale fa due lavori. Il principale è la vendita per Amadori; il secondo è un progetto di
+  un'altra azienda, per cui cerca clienti da 10.000 € in su.
+- Per il secondo ha già comprato, insieme a un collega, una campagna sponsorizzata da un'agenzia:
+  **840 € IVA compresa, con 40 appuntamenti garantiti per contratto**. Per ora è arrivato un solo
+  contatto, fuori target.
+- Cercava qualcuno in zona che gli gestisse le sponsorizzate. È una nicchia in cui Meta non accetta
+  il marchio né la pagina di atterrazione, e l'agenzia lavora con degli espedienti.
+- Emanuele gli ha detto che segue solo brand, che su un caso così non può garantire niente e che
+  intanto conviene vedere se l'agenzia rispetta i 40 appuntamenti. **Si è offerto di chiedere a un
+  amico specializzato in pubblicità.**
+
+Dei tre referral di Marco, questo è il primo chiuso. Resta Girarrosto La Signora.
+
 ### 2026-09-13 — Tre referral, prima del reel e senza chiederli
 Marco ha passato a Emanuele tre contatti di sua iniziativa:
 

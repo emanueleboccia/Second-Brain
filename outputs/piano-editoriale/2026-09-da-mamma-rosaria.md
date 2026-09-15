@@ -7,7 +7,7 @@ tags:
   - brand/da-mamma-rosaria
 status: attivo
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-14
 related:
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
   - "[[areas/da-mamma-rosaria/reference/design]]"
@@ -21,9 +21,13 @@ related:
 
 # Piano editoriale settembre 2026 — Da Mamma Rosaria
 
-**Otto post e otto storie**, che è il canone di [[self/tariffario-famiglia|tariffario dei brand di
-famiglia]]. Dentro gli otto: **due reel, tre grafici, tre fotografici**. Tutto quello che si
-pubblica sopra è extra a listino, e si segna man mano nella tabella in fondo.
+**Otto post**, che è il canone di [[self/tariffario-famiglia|tariffario dei brand di famiglia]].
+Dentro gli otto: **due reel, tre grafici, tre fotografici**. Tutto quello che si pubblica sopra è
+extra a listino, e si segna man mano nella tabella in fondo.
+
+⚠️ **Dal 14/09/2026 le storie non sono più nel canone.** La sezione «Le otto storie» qui sotto è il
+piano vecchio e resta come materiale. Quelle uscite davvero stanno in «Le storie di settembre, come
+sono uscite»: le storie servizio de I Nostri Angoli e il pacchetto di storie clip, che è a parte.
 
 ## La spina del mese
 
@@ -91,14 +95,47 @@ Non è un piano solo per Instagram: si pubblica da **Buffer**, e i canali attivi
 - **Instagram e Facebook** — ogni post, con la stessa caption. È la prassi di agosto, otto post su
   otto.
 - **TikTok** — **solo i video**. A settembre sono i post 2 e 7, i due reel.
+  ⚠️ **Superato il 14/09/2026:** da Il Primo Brindisi in avanti anche i caroselli escono su TikTok,
+  deciso da Emanuele.
 
-⚠️ **Il piano gratuito di Buffer tiene 10 post in coda alla volta**, e otto post per due o tre
-canali fanno venti invii. Il mese **non si carica tutto insieme**: si programmano due settimane per
-volta, e si ricarica a metà mese. Al 5 settembre la coda è vuota.
+⚠️ **Il piano gratuito di Buffer tiene 10 post in coda per canale**, non 10 in tutto: corretto da
+Emanuele il 14/09/2026. Con otto post al mese nessun canale arriva al limite, quindi **il mese si
+carica tutto insieme**. Al 5 settembre la coda era vuota.
 
 ## Il calendario
 
-Un post ogni tre giorni, dall'8 al 29. Le storie si infilano nei giorni scoperti.
+⚠️ **Rifatto il 14/09/2026.** A metà mese erano usciti due post su otto, e il calendario qui sotto
+del 05/09 non è stato seguito. Quello che vale da qui in avanti è questo, su Instagram, Facebook e
+TikTok. **Gli orari vengono dalle metriche di Buffer**, lette il 14/09: foto e grafici alle 20:00,
+il reel della domenica alle 12:00.
+
+| Data | Post | Format | Stato |
+|---|---|---|---|
+| dom 7 | Reel degli angoli a vista | reel | uscito, fuori dal piano del 05/09 |
+| gio 10 | Quando si prenota una comunione | grafico carosello | uscito |
+| lun 14 | Il Primo Brindisi | fotografico carosello | programmato |
+| gio 17 | Il dizionario della festa | grafico carosello, fondo bianco | programmato |
+| dom 20 | Il Banco del Territorio | reel, ore 12:00 | programmato |
+| mer 23 | L'Uliveto | fotografico carosello | programmato |
+| sab 26 | Gli allestimenti | grafico carosello, fondo arancio | programmato |
+| mar 29 | Il Cannolo | fotografico carosello | programmato |
+
+**Cosa è cambiato e perché.** «Le domande giuste» e «Una festa si vede» sono stati tolti: col
+carosello sulla comunione dicevano tutti la stessa cosa, prima di prenotare ecco perché noi. Al loro
+posto tre grafici scelti da Emanuele fra otto proposte. **Il Cannolo passa a ottobre**, per tenere
+la base a otto post con quattro grafici, che è il massimo. La Serata Napoletana resta fuori perché
+dura 17 secondi. Le storie non sono più nel canone.
+
+**Dopo la cena passa a ottobre**, deciso da Emanuele il 14/09: con gli allestimenti il 23 i
+caroselli del mese erano troppi. Resta come idea per i post di ottobre, coi testi già approvati a
+metà.
+
+**L'ordine finale l'ha dato Emanuele il 14/09**, e sono troppi grafici anche quattro: dopo Il
+Primo Brindisi, il dizionario e il reel vengono L'Uliveto, Gli allestimenti, e per ultimo un
+fotografico come Il Primo Brindisi. Il mese chiude con due reel, tre grafici e tre fotografici.
+
+La versione del 05/09, superata: un post ogni tre giorni, dall'8 al 29. Le storie si infilano nei
+giorni scoperti.
 
 Le foto e i reel escono tutti da `OFFICINA/in lavorazione`: niente riprese. I tre grafici si
 disegnano, ed è l'unico lavoro di produzione del mese.
@@ -245,6 +282,34 @@ Il taglio a vista: prosciutto steso sui taglieri, i piatti pronti accanto. Il no
 location invece che sul menù, che è già stato fatto il 23/08.
 
 ---
+
+## Le storie di settembre, come sono uscite
+
+**Le storie servizio de I Nostri Angoli**, programmate il 14/09/2026 da Meta Business Suite, tutte
+alle 13:00 su Instagram e Facebook: 15 Il Cannolo, 16 Il Salotto Buono, 18 La Confettata, 19 La
+Pentola Grande, 21 Il Granitore, 22 La Friggitoria, 24 La Torta a Quattro Mani, 25 Il Caciocavallo,
+27 Il Gran Buffet dei Dolci.
+
+**Le storie clip**, il pacchetto a parte nato il 14/09/2026: 10 secondi, tre clip, musica
+mediterranea dentro il file, niente logo e niente testo. Le storie e l'elenco con clip e tracce
+stanno sull'SSD in `4-pubblicati/2026-09/storie/`, e le storie sono copiate su Drive in
+`01 pubblicati/2026-09/Storie/`.
+
+| Data | Storia | Musica | Stato |
+|---|---|---|---|
+| lun 14, 20:34 | Il caciocavallo alla brace | Italian Summer | pubblicata |
+| sab 19, 13:00 | Le frittelle | Italian Trip | programmata |
+| dom 20, 13:00 | La pasta nel pentolone | The Heart of Italy | programmata |
+| gio 17, 13:00 | I bambini a tavola e ai giochi | Italian | programmata |
+| mer 23, 13:00 | Il bar e lo spritz | Brief Maltase Serenade | programmata |
+| sab 26, 13:00 | I mini burger colorati | Bella Italia | programmata |
+| lun 28, 13:00 | Il carretto dei popcorn | Peaceful Italian countryside | programmata |
+| mar 29, 13:00 | Salame e crudo | The Heart of Italy | programmata |
+| mer 30, 13:00 | Gli ospiti che festeggiano | Italian Trip | programmata |
+
+**Il mese è pieno:** dal 14 al 30 settembre ogni giorno ha almeno una storia, contando anche le storie
+servizio. La seconda serie, dal 17 al 30, è stata approvata da Emanuele e programmata il 14/09/2026,
+poi verificata nel calendario del mese.
 
 ## Le otto storie
 

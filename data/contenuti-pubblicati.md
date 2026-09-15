@@ -13,8 +13,8 @@ related:
 
 # Contenuti pubblicati
 
-> **Impalcatura.** Nessuna riga scritta: il profilo del personal brand non è ancora
-> partito, e i numeri li dà Emanuele.
+> Le prime righe sono del 14/09/2026 e vengono dai brand di famiglia: il profilo del personal
+> brand non è ancora partito. I numeri li dà Emanuele.
 
 **A cosa serve:** un contenuto che ha funzionato è materiale da rifare, non da archiviare.
 Senza questo file, fra tre mesi non si saprà quale dei venti post pubblicati valeva la
@@ -36,4 +36,7 @@ Qui entra solo quello che è uscito davvero.
 
 ## Contenuti
 
-> Vuoto.
+| Data | Canale | Formato | Argomento | Numeri | Cosa ho capito |
+|---|---|---|---|---|---|
+| 14/09/2026 | Da Mamma Rosaria · Instagram, Facebook, TikTok | carosello fotografico, 4 foto | Il Primo Brindisi, l'aperitivo di benvenuto · [Instagram](https://www.instagram.com/p/DdRu21CiSyy/) · [Facebook](https://www.facebook.com/303931159061307/posts/1074592118661870) · [TikTok](https://tiktok.com/@damammarosaria/video/7685452637289975072) | da leggere | |
+| 14/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo alla brace, tre clip dalla festa dei 40 anni, musica Italian Summer · la prima del pacchetto storie | da leggere | |

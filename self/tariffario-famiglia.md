@@ -1,13 +1,13 @@
 ---
 title: "Tariffario — brand di famiglia"
-summary: "I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 250 € al mese per brand con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata e i costi fissi girati al costo."
+summary: "I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 300 € al mese per Da Mamma Rosaria e 250 € per Tenuta Don Gaetano, con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata, i costi fissi girati al costo, la manutenzione e assistenza annuale dei siti: 150 € per Da Mamma Rosaria, 200 € per la Tenuta e 250 € per La Masseria, queste due col server compreso."
 tags:
   - self
   - prezzi
   - famiglia
 status: attivo
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-14
 related:
   - "[[self/tariffario]]"
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
@@ -39,9 +39,13 @@ voce per voce. Qui c'è il listino, là c'è l'argomentazione.
 
 ## 1 · Gestione social
 
-**250 € al mese per brand.** L'offerta è modulare: vale per un singolo marchio — profilo Instagram
-più Facebook dello stesso brand — e si applica a ogni brand attivo. Oggi sono due, Da Mamma
-Rosaria e Tenuta Don Gaetano, quindi **500 € al mese in tutto**.
+**300 € al mese per Da Mamma Rosaria, 250 € per Tenuta Don Gaetano.** L'offerta è modulare: vale
+per un singolo marchio — profilo Instagram più Facebook dello stesso brand — e si applica a ogni
+brand attivo. Oggi sono due, quindi **550 € al mese in tutto**.
+
+⚠️ **Mamma Rosaria sale da 250 a 300 € al mese da settembre 2026.** Deciso da Emanuele il
+14/09/2026, lo stesso giorno in cui la base di settembre è stata segnata a 300 € sul registro
+lavori. La Tenuta resta a 250 €.
 
 ### Cosa comprende la base, ogni mese
 
@@ -49,14 +53,20 @@ Rosaria e Tenuta Don Gaetano, quindi **500 € al mese in tutto**.
 |---|---|
 | Post totali — reel, caroselli, post singoli | fino a 8 |
 | di cui reel | fino a 2 |
-| Storie | fino a 8 |
 | Piano editoriale e programmazione | incluso |
 | Pubblicazione e gestione ordinaria del profilo | incluso |
 | Piccoli interventi grafici ricorrenti | inclusi |
 
-Con due brand attivi la base garantita è **16 contenuti feed e 16 storie** al mese. Nel
-[[areas/finanza/quadro|quadro finanziario]] questi 500 € sono l'unica entrata segnata come
+Con due brand attivi la base garantita è **16 contenuti feed** al mese. Nel
+[[areas/finanza/quadro|quadro finanziario]] questi 550 € sono l'unica entrata segnata come
 ricorrente e contrattualizzata, ed è la ragione per cui il perimetro qui sopra va difeso.
+
+⚠️ **Le storie non sono nella base.** Deciso da Emanuele il 14/09/2026, togliendo le «fino a 8
+storie» della proposta. La mattina la regola era che le facessero loro sul posto; **lo stesso giorno,
+dopo l'incontro con Raffaele, è nato un pacchetto a parte**: una storia al giorno da 10 secondi,
+tre clip dal materiale sull'SSD, con la musica dentro il file, senza logo e senza testo. Le prepara
+Emanuele. ⚠️ **Il prezzo: Emanuele pensa a 200 € al mese**, detto il 14/09/2026 scartando i 120 €
+proposti. Il pacchetto si riprende in mano più avanti, e finché non si chiude non si registra niente.
 
 ### Contenuti oltre la base
 
@@ -106,8 +116,9 @@ di nuovo.
 
 **Il gestionale è entrato in funzione il 02/09/2026**, il giorno della presentazione allo staff e
 agli chef. Era in uso da qualche mese e continuava a ricevere aggiornamenti, ma la data di
-riferimento è quella: **il primo anno di assistenza scade il 02/09/2027**, ed è da lì che parte il
-rinnovo a 300 €.
+riferimento è quella. **Il rinnovo a 300 € parte il 16/09/2027**, e non il 02/09: il 14/09/2026
+Emanuele l'ha spostato di due settimane per pagarlo insieme a hosting e domini, con una data sola
+all'anno.
 
 Copre correzioni e piccoli aggiustamenti dell'esistente. **Le funzionalità nuove sono un progetto
 nuovo**, e si preventivano a parte man mano che emergono con l'uso.
@@ -147,7 +158,7 @@ senza cadenza, e valgono per tutti e tre i brand.
 
 **La domanda è una sola: esce dai social, o va in stampa?**
 
-- **No a tutte e due** → è dentro il canone dei 250 €, per i due brand che lo pagano. Storie,
+- **No a tutte e due** → è dentro il canone mensile, per i due brand che lo pagano. Storie,
   post, banner rifatti su un modello che esiste già.
 - **Sì a una delle due** → si paga a listino. Tutto quello che va in tipografia o che vive fuori
   da Instagram.
@@ -182,15 +193,38 @@ proposta: agenzie e freelance ci mettono sopra un ricarico, spesso il doppio o i
 
 | Sito | Hosting | Domini | Scadenza |
 |---|---|---|---|
-| Da Mamma Rosaria | Ergonet, esterno, al costo | .it + .com | **16/09/2026** |
-| La Masseria di Mezz'autunno | Hostinger — 100 €/anno | .it (.com da valutare) | 14/05/2027 |
-| Tenuta Don Gaetano | Hostinger — 100 €/anno | .it (.com da valutare) | 14/05/2027 |
+| Da Mamma Rosaria | Ergonet, esterno, al costo | .it + .com | **16/09/2027** — rinnovato il 14/09/2026 |
+| La Masseria di Mezz'autunno | Hostinger — 250 €/anno con manutenzione e assistenza | .it (.com da valutare) | 14/05/2027 |
+| Tenuta Don Gaetano | Hostinger — 200 €/anno con manutenzione e assistenza | .it (.com da valutare) | 14/05/2027 |
 | Gestionale eventi | da definire | — | in funzione dal **02/09/2026** |
 
 Domini al costo reale: circa **12 €/anno il .it**, circa **15 €/anno il .com**.
 
-I 100 €/anno di Hostinger comprendono spazio server e gestione tecnica — aggiornamenti, sicurezza,
-backup — e sono sotto il costo reale di ripartizione del piano personale.
+⚠️ **Per Da Mamma Rosaria c'è una data sola: il 16/09 di ogni anno.** Hosting, domini e assistenza
+del gestionale si rinnovano e si pagano insieme, invece che in due momenti a due settimane di
+distanza. Deciso da Emanuele il 14/09/2026, rinnovando l'hosting su Ergonet: l'assistenza del
+gestionale, che doveva partire il 02/09/2027, parte il **16/09/2027**. ⚠️ **Vale solo per Da Mamma
+Rosaria**: la Tenuta e La Masseria restano alla loro scadenza del 14/05, confermato lo stesso giorno.
+
+### La manutenzione annuale dei siti
+
+Deciso da Emanuele il 14/09/2026. **Il prezzo dipende da dove sta il sito**, perché cambia cosa c'è
+dentro:
+
+| Sito | Quanto | Cosa comprende | Si paga |
+|---|---|---|---|
+| Da Mamma Rosaria | **150 €/anno** | manutenzione e assistenza del sito, pagate a Emanuele. Hosting e domini non ci sono: si pagano a Ergonet, a parte | il **16/09**, insieme a hosting e domini. Il primo anno, dal 16/09/2026, è già nel registro |
+| Tenuta Don Gaetano | **200 €/anno** | spazio sul server Hostinger, manutenzione e assistenza: aggiornamenti, sicurezza e backup basici | il **14/05**, dal 14/05/2027 |
+| La Masseria di Mezz'autunno | **250 €/anno** | come la Tenuta: su questo sito serve più lavoro | il **14/05**, dal 14/05/2027 |
+
+**Per la Tenuta e La Masseria è un prezzo solo**, e sostituisce i 100 €/anno di hosting che c'erano
+prima: non si sommano 100 € di server e 150 € di manutenzione. **La Masseria paga 250 €** perché su
+quel sito serve più lavoro, detto da Emanuele. Nello stesso pomeriggio la cifra è passata da 150 €
+per tutti e tre, a 200 € per Tenuta e Masseria, a questa tabella.
+
+⚠️ **Non è l'assistenza del gestionale**, confermato lo stesso giorno: quella resta a 300 €/anno per
+conto suo, sezione 3. Gli anticipi su hosting e domini, quando li paga Emanuele, sono una riga di
+anticipo nel registro.
 
 ### Le modifiche ai siti dopo la consegna
 
@@ -210,8 +244,9 @@ Il conto lo tiene il cervello, non Emanuele: gli interventi si annotano in
 `data/interventi-siti-famiglia.md` man mano che si fanno, e quando la somma supera l'ora si apre
 la riga di registro e il contatore riparte.
 
-⚠️ **L'assistenza sui tre siti di famiglia non si fa pagare**, ed è una scelta. Questa soglia non
-è un canone di assistenza: è il modo di non regalare le mezze giornate.
+⚠️ **Questa soglia non è un canone**: è il modo di non regalare le mezze giornate. Fino al
+14/09/2026 qui c'era scritto che l'assistenza sui siti di famiglia non si faceva pagare. Da quel
+giorno esiste la manutenzione annuale, qui sopra.
 
 ### Il canone hosting non è mai stato incassato
 
@@ -219,8 +254,8 @@ la riga di registro e il contatore riparte.
 100 €/anno a sito non sono mai stati pagati.** Si considerano **inclusi nel prezzo iniziale del
 sito**, e la questione si chiude lì: non si va a chiedere l'arretrato.
 
-**Dal rinnovo del 14/05/2027 si comincia a incassarli**, e il prezzo va detto prima, non alla
-scadenza.
+**Dal rinnovo del 14/05/2027 si incassano 200 € l'anno per la Tenuta e 250 € per La Masseria**, con
+dentro server, manutenzione e assistenza. Il prezzo va detto prima, non alla scadenza.
 
 ⚠️ **Dal prossimo rinnovo l'hosting si centralizza sul piano personale**, per gestire hosting,
 domini e assistenza come servizio unico. La scadenza di Da Mamma Rosaria è la prima da coprire.
@@ -232,12 +267,13 @@ all'attivazione.
 
 | Voce | Modalità |
 |---|---|
-| Mensile social + contenuti extra | entro il **giorno 5 del mese successivo** |
+| Mensile social + contenuti extra | **dal 5 al 10 del mese successivo** |
 | Siti web | saldo alla consegna e messa online di ciascuno |
 | Gestionale eventi | 50% alla messa in funzione, 50% dopo un mese di uso reale |
 | Linea La Dispensa | saldo alla consegna dei file definitivi |
 | Interventi su chiamata | insieme al mensile, nel conteggio di fine mese |
-| Assistenza gestionale, dal 2° anno | rinnovo annuale anticipato, **dal 02/09/2027** |
+| Assistenza gestionale, dal 2° anno | rinnovo annuale anticipato, **dal 16/09/2027**, insieme a hosting e domini |
+| Manutenzione dei siti | anticipata: Da Mamma Rosaria 150 € il 16/09; Tenuta 200 € e Masseria 250 €, con server e assistenza, il 14/05 |
 | Costi fissi e rinnovi | al costo, cadenza annuale |
 
 ## I servizi foto e video ai clienti — non li fa Emanuele

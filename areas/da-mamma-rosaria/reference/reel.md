@@ -73,14 +73,18 @@ Instagram non si può aggiungere dopo: se non è dentro il file, il reel esce mu
 
 **Un brano solo per video.**
 
-Il mood è **acustico, caldo, allegro senza essere frenetico**. Le parole da cercare nella
-libreria — CapCut e simili indicizzano in inglese:
+Il mood è **caldo, atmosferico, mediterraneo, mai elegante**. ⚠️ Corretto da Emanuele il
+14/09/2026: con le parole di prima (acoustic, feel good, handclaps, ukulele) erano uscite tracce folk
+allegre da pubblicità, e ascoltandole ha detto che «fanno abbastanza schifo». Con le parole qui
+sotto sono uscite otto tracce d'esempio, e **lui ne ha tenute sette**: stanno in `2-libreria/musica/`
+sull'SSD e sono il riferimento per le prossime. La libreria indicizza in inglese:
 
-`acoustic` · `folk` · `feel good` · `uplifting` · `warm` · `family` · `celebration` ·
-`summer` · `handclaps` · `ukulele`
+`mediterranean` · `italian acoustic guitar` · `mandolin` · `warm` · `atmospheric` ·
+`summer evening` · `sunset`
 
 Da evitare, e sono altrettanto importanti:
 
+`happy` · `ukulele` · `handclaps` · `kids` · `corporate` · `elegant` · `luxury` · `lounge` ·
 `cinematic` · `epic` · `wedding` · `emotional piano` · `sad` · `lo-fi` · `EDM` · `drop` · `trap`
 
 **Niente brani con voce inglese in primo piano:** la voce si porta via l'attenzione dalle

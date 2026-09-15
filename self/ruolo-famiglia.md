@@ -39,12 +39,17 @@ fatto da Emanuele ma non ha gestione social, e non paga canone.
 
 ## 1 · Social
 
-**Solo Da Mamma Rosaria e Tenuta Don Gaetano.** È l'unica area con un canone fisso: 250 € al mese
-per brand, 500 € in tutto, incassati **entro il giorno 5 del mese successivo**.
+**Solo Da Mamma Rosaria e Tenuta Don Gaetano.** È l'unica area con un canone fisso: 300 € al mese
+per Da Mamma Rosaria e 250 € per la Tenuta, 550 € in tutto, incassati **dal 5 al 10 del mese successivo**.
 
-**Dentro il canone, per brand, ogni mese:** fino a 8 post — di cui massimo 2 reel — fino a 8
-storie, il piano editoriale, la programmazione, la pubblicazione, la gestione ordinaria del
-profilo e i piccoli interventi grafici ricorrenti.
+**Dentro il canone, per brand, ogni mese:** fino a 8 post — di cui massimo 2 reel — il piano
+editoriale, la programmazione, la pubblicazione, la gestione ordinaria del profilo e i piccoli
+interventi grafici ricorrenti.
+
+⚠️ **Le storie non ci sono**, deciso da Emanuele il 14/09/2026. Lo stesso giorno sono diventate un
+pacchetto a parte: una storia al giorno, montata da lui col materiale sull'SSD. Per il prezzo pensa a
+200 € al mese, da chiudere quando si riprende in mano il pacchetto; come sono fatte sta nella memoria
+di Mamma Rosaria.
 
 **Fuori dal canone**, e si conta a listino: reel 35 €, carosello 15 €, post singolo 10 €,
 pacchetto di 5 storie 15 €.
@@ -113,11 +118,19 @@ spesso, soprattutto su Da Mamma Rosaria e La Masseria.
 contatore sta in [[data/interventi-siti-famiglia|interventi sui siti di famiglia]] e lo tiene il
 cervello, non Emanuele.
 
-**Hosting e domini si girano al costo**, ogni anno: 100 €/anno a sito su Hostinger per La Masseria
-e la Tenuta, Ergonet al costo per Da Mamma Rosaria. I domini circa 12 €/anno il .it e 15 € il .com.
+**Hosting e domini, ogni anno:** Ergonet al costo per Da Mamma Rosaria; per la Tenuta
+200 €/anno e per La Masseria 250 €/anno su Hostinger, con dentro manutenzione e assistenza. I domini circa 12 €/anno il .it
+e 15 € il .com.
 
-⚠️ **Il rinnovo di Da Mamma Rosaria scade il 16/09/2026** ed è il primo da coprire. Dal prossimo
-rinnovo l'hosting si centralizza sul piano personale.
+⚠️ **Il rinnovo di Da Mamma Rosaria è coperto fino al 16/09/2027**: rinnovato su Ergonet il
+14/09/2026, anticipato da Emanuele. Il 16/09 è da allora la data unica di hosting, domini e
+assistenza del gestionale. Dal prossimo rinnovo l'hosting si centralizza sul piano personale.
+
+**La manutenzione dei siti è pagata**, dal 14/09/2026. Da Mamma Rosaria 150 € l'anno il 16/09, per
+manutenzione e assistenza del sito: hosting e domini si pagano a Ergonet, a parte. La Tenuta 200 € e
+La Masseria 250 € l'anno il 14/05, tutto compreso:
+spazio server, aggiornamenti, sicurezza e backup basici. È una voce diversa dall'assistenza del
+gestionale, che resta a parte.
 
 **Servizio nel registro:** `Siti` per le modifiche, `Hosting e assistenza` per i rinnovi.
 
@@ -128,7 +141,7 @@ costruiti sui processi reali dell'attività. È l'area con il valore più alto e
 bassa: **ogni sistema è un progetto a corpo con preventivo dedicato**.
 
 Quello che esiste oggi: il **gestionale eventi di Da Mamma Rosaria**, 850 €, in funzione dal
-02/09/2026, con assistenza inclusa il primo anno e **300 €/anno dal 02/09/2027**.
+02/09/2026, con assistenza inclusa il primo anno e **300 €/anno dal 16/09/2027**, insieme a hosting e domini.
 
 ⚠️ **L'assistenza copre correzioni e piccoli aggiustamenti. Le funzioni nuove sono un progetto
 nuovo**, e si preventivano man mano che emergono con l'uso. È la regola che impedisce al gestionale
@@ -168,9 +181,11 @@ riguarda il confine con Raffaele.
 
 Sono i buchi che oggi impediscono di scrivere una riga senza chiedere.
 
-1. **Il prezzo dell'hosting di Tenuta Don Gaetano e La Masseria dal rinnovo del 14/05/2027.** I
-   100 €/anno a sito non sono mai stati incassati e si considerano dentro il prezzo iniziale: dal
-   rinnovo si comincia, e il prezzo va detto prima della scadenza.
+1. ~~**Il prezzo dell'hosting di Tenuta Don Gaetano e La Masseria dal rinnovo del 14/05/2027.**~~
+   **Chiuso il 14/09/2026:** 200 €/anno la Tenuta e 250 €/anno La Masseria, con spazio server,
+   manutenzione e assistenza. I 100 €
+   di prima non sono mai stati incassati e restano dentro il prezzo iniziale del sito. Il prezzo va
+   detto prima della scadenza.
 2. **Come si divide l'incasso** dei pacchetti foto e video fra l'attività e Umberto Prisco.
 3. **Le regole editoriali di Tenuta Don Gaetano**: la cadenza c'è, i controlli prima di pubblicare
    e i divieti del marchio no.

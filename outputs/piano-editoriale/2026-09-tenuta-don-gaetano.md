@@ -43,8 +43,10 @@ nessun invito al sopralluogo, nessuna data, chiusure soft.
   connettori è quello di Mamma Rosaria; la Tenuta ne ha uno suo, piano gratuito, con TikTok,
   Facebook e Instagram, aperto nel Chrome di Emanuele. Come si fa sta in
   [[docs/procedure/pubblicare-un-post|pubblicare un post]].
-- **Cosa è uscito si legge solo dal profilo.** Senza login si vedono i dodici post dal 21/07 al
-  29/08, quelli prima no.
+- **Cosa è uscito sta nei pubblicati**, dal 14/09/2026: il primo reel del 20 gennaio, dieci post di
+  luglio e nove di agosto, in `4-pubblicati` sull'SSD e in `01 pubblicati` su Drive, con le date lette
+  dallo storico di Business Suite e controllate sulla griglia di Instagram. Prima si leggeva solo dal
+  profilo, che senza login mostra i dodici post dal 21/07 al 29/08.
 
 ## Il filo del mese
 

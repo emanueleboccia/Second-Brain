@@ -83,3 +83,22 @@ Precisato da Emanuele il 06/09/2026.
 
 La differenza conta quando si racconta: uno è un regalo con una contropartita di fiducia,
 l'altro è una scommessa con una clausola.
+
+## 14/09/2026 — Il personal brand ha la sua cartella madre su Drive
+
+**Deciso da Emanuele:** il personal brand non sta più in `02 AREE/04 Personal Brand`, perché è un
+brand come gli altri e non un'area come la formazione o la finanza. Ora c'è `PERSONAL BRAND` nella
+radice di Drive, accanto alle cartelle dei brand di famiglia, con la stessa numerazione:
+
+- `01 Amministrazione` — **tutti e due i registri lavori**, quello del personal brand e quello dei
+  brand di famiglia: sono le sue fatture, chiunque sia il cliente. Gli id dei fogli non cambiano
+  con lo spostamento;
+- `02 Clienti` — il template e gli archiviati, prima in `02 AREE/03 Clienti`;
+- `03 Brand kit` — per ora solo i font, Termina Test e Foundry Monoline;
+- `04 Risorse lavoro` — tutto quello che stava in `03 RISORSE/Lavoro`;
+- `98 Social` — `01 pubblicati`, `02 profilo` con la foto profilo tonda, `03 report`;
+- `99 Archivio`.
+
+In `02 AREE` restano Formazione, Finanza e Backup. ⚠️ In `04 Risorse lavoro` c'è
+`credenziali.pdf`, spostato senza aprirlo: se contiene password va tolto da Drive e messo in un
+password manager.

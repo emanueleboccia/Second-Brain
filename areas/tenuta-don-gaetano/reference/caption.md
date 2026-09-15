@@ -76,9 +76,9 @@ ancora.
   solo a fine frase.
 - **La formula «non un X, ma Y».** «Non un buffet, ma un'esperienza» il 29/07, «Non una sala, ma
   uno scenario» il 31/07. È vietata dal `CLAUDE.md` di radice.
-- **Le CTA di luglio.** I `Caption.txt` preparati a luglio in `2-libreria/progetti/` chiudono con
-  «scrivici in DM» o «prenota una visita privata»: sono della fase di conversione, e non si
-  riusano nemmeno quando la grafica sì.
+- **Le CTA di luglio.** Le caption preparate a luglio, che stavano in `2-libreria/progetti/` e sono
+  finite nel Cestino il 14/09/2026, chiudevano con «scrivici in DM» o «prenota una visita privata»:
+  sono formule della fase di conversione, e non si riusano.
 
 ## Regola finale
 

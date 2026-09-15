@@ -62,6 +62,9 @@ eventi in ordine in [[entities/clienti/girarrosto-liberti/storico|storico]].
     sistema costruito qui.
   - **Pasquale**, rivenditore Amadori per quanto Emanuele ha capito. Ha chiamato lui, non ha
     voluto parlarne al telefono e ha chiesto di vedersi: incontro il 14/09/2026 alle 15:30.
+    **Non è un cliente adatto**, giudizio di Emanuele dopo l'incontro: cercava qualcuno per le
+    sponsorizzate di un'attività in cui Meta non accetta il marchio, non un sistema come quello di
+    Marco. Dettagli in [[entities/clienti/girarrosto-liberti/storico|storico]].
 
 ⚠️ **L'ordine deciso il 03/09/2026, prima il video e poi i nomi, l'ha scavalcato Marco.** I nomi
 sono arrivati prima del reel e senza nessuna richiesta, quindi la sua metà dello scambio è già

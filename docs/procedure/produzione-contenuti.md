@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-07
-updated: 2026-09-10
+updated: 2026-09-14
 related:
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
   - "[[areas/da-mamma-rosaria/reference/caption]]"
@@ -66,8 +66,9 @@ sbagliato è il motivo per cui ci finiva dentro di tutto: lì non si lavora, si 
 
 ## Drive
 
-Dentro la cartella Social di ogni brand — **`98 Social` per tutti e tre i brand di famiglia**,
-`Social` dentro `02 AREE / 04 Personal Brand`:
+Dentro la cartella Social di ogni brand — **`98 Social` per tutti e quattro**, compreso il
+personal brand, che dal 14/09/2026 ha la sua cartella madre `PERSONAL BRAND` nella radice di Drive
+invece di stare in `02 AREE`:
 
 ⚠️ **Corretto il 10/09/2026.** Qui c'era scritto «`97 Social` per Mamma Rosaria, `04 Social` per
 la Tenuta»: erano sbagliati due su tre. Su Drive si chiamano tutti `98 Social`.
@@ -82,6 +83,11 @@ la Tenuta»: erano sbagliati due su tre. Su Drive si chiamano tutti `98 Social`.
 che sta sul profilo è uno solo alla volta.
 
 Il grezzo su Drive non sale mai: sono terabyte e non li apre nessuno.
+
+⚠️ **Quando si smista, duplicati, file inutili e bozze vecchie non si archiviano: si cestinano**,
+detto da Emanuele il 14/09/2026. Prima si verifica che la copia buona resti nel sistema, con
+l'impronta dei file e non col nome; poi la copia in più va nel Cestino di Drive o del Mac, che si
+possono ancora recuperare. Un archivio pieno di doppioni è un altro posto dove cercare la cosa sbagliata.
 
 ## Buffer — la pubblicazione si verifica, non si dà per fatta
 
@@ -174,7 +180,8 @@ Dal scarico a `<brand>/1-eventi/nome-evento/`, con le sottocartelle per argoment
 
 **3 · Si sceglie il buono.**
 Quello che vale si copia in `2-libreria/`, ordinato per soggetto — `servizi/`, `sale/`, `reel/`.
-Non tutto il girato: solo quello che riuseresti.
+Non tutto il girato: solo quello che riuseresti. La musica libera da diritti per storie e reel sta
+in `2-libreria/musica/`, col nome del file com'è stato scaricato: dice già autore e numero del brano.
 → *È fatto quando* in libreria c'è materiale che si può pescare senza riaprire l'evento.
 
 **4 · Si produce.**
@@ -185,9 +192,23 @@ che porta data di uscita, formato, tema, la caption e la tabella delle slide.
 [[areas/da-mamma-rosaria/reference/regole-editoriali|regole editoriali]].
 
 **5 · Si pubblica, e si archivia nello stesso momento.**
-Si programma su Buffer. **Poi, subito**, la cartella passa da `3-in-produzione` a
-`4-pubblicati/AAAA-MM/` con la data davanti, e si copia nel `01 pubblicati` di Drive.
+Si programma su Buffer o su Business Suite. **Poi, subito**, la cartella passa da
+`3-in-produzione` a `4-pubblicati/AAAA-MM/` con la data davanti, e si copia nel `01 pubblicati` di
+Drive.
 → *È fatto quando* la cartella non sta più in produzione e sta in tutti e due i posti.
+
+⚠️ **Le storie fanno lo stesso giro dei post**, deciso da Emanuele il 14/09/2026: le clip, le
+storie servizio, tutte. Appena sono programmate o pubblicate escono da `3-in-produzione` e vanno in
+`4-pubblicati/AAAA-MM/storie/` sull'SSD e in `01 pubblicati/AAAA-MM/Storie/` su Drive. Una storia è
+un file solo, quindi non ha una cartella sua: è il file ad avere la data davanti, col formato e il
+soggetto, come `2026-09-14-storia-clip-caciocavallo.mp4`. Accanto stanno i file che dicono cosa c'è
+dentro ogni storia: `storie-clip.md` e `storie-servizio.md`.
+
+⚠️ **I reel di Mamma Rosaria e della Tenuta hanno una copia in più**, chiesta da Emanuele il
+14/09/2026: serve a suo fratello per far vedere i video ai clienti. Su Drive va solo il video, col
+nome che comincia dalla data (`2026-09-20-il-banco-del-territorio.mov`): per Mamma Rosaria in
+`02 Foto e video/01 Eventi/2026/VIDEO PUBBLICATI`, per la Tenuta in `02 Foto e video/VIDEO PUBBLICATI`.
+Si copia appena il reel è programmato, nello stesso momento in cui la cartella passa nei pubblicati.
 
 ⚠️ **Il quinto passo è quello che si salta, ed è quello che costa.** Prima del 07/09/2026 la
 cartella dei pubblicati conteneva otto reel e nient'altro: per sapere cosa era già uscito
@@ -198,4 +219,5 @@ pubblicazione, non un cassetto dove si mettono le cose.** Appena diventa un cass
 
 Quello che esce oltre il canone si segna **il giorno che esce**, nel piano editoriale del mese.
 Il canone e le cifre stanno in [[self/tariffario-famiglia|tariffario dei brand di famiglia]]:
-otto post e otto storie per brand, dentro cui al massimo due reel.
+otto post per brand, dentro cui al massimo due reel. **Le storie non sono nel canone** dal
+14/09/2026: per Mamma Rosaria sono un pacchetto a parte, una storia al giorno.

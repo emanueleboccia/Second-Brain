@@ -519,6 +519,20 @@ si guarda cosa si muove. Se la settimana non ha risultati si dice, e si nomina l
 più vicino senza gonfiarla. Il template della review mette fra gli esempi «una decisione presa, un
 sistema che ora funziona»: si legge alla luce di questa riga.
 
+## 14/09/2026 — I grafici di Mamma Rosaria dicevano tutti la stessa cosa
+
+Per settembre avevo messo in fila tre grafici sullo stesso argomento: il carosello sulla comunione
+del 10/09, «le domande giuste» e «una festa si vede». Tutti e tre giravano intorno a «prima di
+prenotare, ecco perché noi»: spazio dedicato, un fornitore solo, vieni a vedere. E prima c'erano
+già «quattro cose che da noi non troverai» e «quattro errori sul menù» di agosto. Emanuele: «punti
+sempre sulle stesse cose». Li avevo presi dal piano del 05/09 senza guardarli uno dopo l'altro.
+
+**La prossima volta:** prima di mettere un grafico in calendario si leggono in fila gli ultimi
+grafici usciti e quelli in coda. Se l'argomento è lo stesso, anche detto con altre parole, si
+cambia argomento, non formula. Il materiale per variare sta già in
+[[areas/da-mamma-rosaria/reference/offerta|offerta]]: ventidue servizi, i cinque momenti della
+serata, La Dispensa, gli allestimenti.
+
 ## 14/09/2026 — Prima una bozza, poi le domande
 
 Emanuele ha chiesto di lavorare ai post di settembre di Tenuta Don Gaetano. Prima di dargli
@@ -530,3 +544,43 @@ letture servivano quasi tutte, il ritmo no: «che cazzo ci metti tutto sto tempo
 presto, anche con i buchi dichiarati. Le letture che servono si lanciano insieme in un giro solo,
 non una alla volta. Si chiede solo quello che blocca davvero: il resto si decide con la scelta
 ovvia, detta in una riga, e se non va la corregge lui.
+
+## 14/09/2026 — Il limite di Buffer è per canale
+
+Ho ragionato su una coda da 10 post in tutto e ho rimandato a stasera Gli allestimenti e a dopo il 17 L'Uliveto, che invece ci stavano: il piano gratuito tiene **10 post per canale**. Prima di rimandare una programmazione per «coda piena», guardare quanti post ha in coda **ogni singolo canale**.
+
+## 14/09/2026 — Il colore delle storie tirava al giallo
+
+Per le prime tre storie del pacchetto di Mamma Rosaria ho preso il colore da
+[[areas/da-mamma-rosaria/reference/reel|reel]], che chiede una dominante calda su rossi e gialli, e
+l'ho spinto: bilanciamento verso l'arancio, blu tolti, saturazione a 1,5. Emanuele ha trovato le
+clip bellissime e il colore sbagliato: «troppo calde», tendenti al giallo. Le vuole naturali, con
+una resa da professionista.
+
+**La prossima volta:** il grade parte dal bianco neutro, dà contrasto con una curva e alza poco la
+saturazione. Il caldo lo portano la scena, le luci e il cibo, e sopra non se ne aggiunge altro.
+Prima di mandare un video si mette un fotogramma accanto all'originale e si guarda se i bianchi e
+la pelle hanno cambiato colore.
+
+## 14/09/2026 — Tre tracce montate senza che nessuno le avesse sentite
+
+Per le prime storie di Mamma Rosaria ho scelto le musiche dai tag di Pixabay, con le parole di
+[[areas/da-mamma-rosaria/reference/reel|reel]]: folk allegro, ukulele, battimani. Non potendole
+ascoltare, le ho montate e mandate direttamente. Emanuele le ha sentite: «fanno abbastanza schifo,
+non sono nel mood adatto». Per Mamma Rosaria la musica è calda, atmosferica, mediterranea, mai
+elegante.
+
+**La prossima volta:** una traccia che non posso ascoltare non si monta per prima. Si mandano alcune
+tracce d'esempio, già tagliate sul pezzo che userei, e si monta quella che sceglie lui. I tag
+«happy», «ukulele», «kids» e «corporate» qui hanno portato a musica da pubblicità: si scartano.
+
+## 14/09/2026 — Lo storico degli ultimi 90 giorni presentato come completo
+
+Ho archiviato i post vecchi della Tenuta leggendo le date dallo storico di Meta Business Suite, che
+parte filtrato sugli ultimi 90 giorni, e ho presentato quella lista come l'intero storico del profilo.
+Emanuele ha chiesto se avevo ordinato tutti i post: il confronto con la griglia di Instagram ha trovato
+il primo reel del profilo, del 20 gennaio, rimasto fuori dal filtro.
+
+**La prossima volta:** prima di dire che un archivio è completo si contano i post del profilo e si
+confrontano con le cartelle. Nello storico di Business Suite si toglie il filtro dei 90 giorni, o si
+ordina per data crescente per vedere il primo post.

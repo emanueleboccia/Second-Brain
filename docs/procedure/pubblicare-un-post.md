@@ -152,6 +152,61 @@ Il link si riporta a Emanuele. È la prova, e gli serve per guardarlo.
   vuote di un giorno: aprono un post nuovo per quella data.
 - **Dopo**, come per gli altri brand: la cartella passa in `4-pubblicati/<anno-mese>/` con la data
   davanti e si copia in `98 Social/01 pubblicati/` su Drive.
+- **Lo storico di quello che è uscito** sta in Business Suite, Contenuti → Post e reel → Pubblicati,
+  con data, ora e canale veri. Per la Tenuta l'indirizzo è
+  `business.facebook.com/latest/posts/published_posts?asset_id=244821739267805&business_id=1499248393538079`,
+  per Mamma Rosaria cambiano `asset_id=104507862196317` e `business_id=2883775528597802`. Da lì il
+  14/09/2026 sono state lette le date dei post di luglio e agosto dei due brand.
+- ⚠️ **Lo storico parte filtrato sugli ultimi 90 giorni.** Il 14/09/2026 il primo reel della Tenuta, del
+  20 gennaio, è rimasto fuori. Prima di dire che un archivio è completo si confronta col numero di post
+  del profilo Instagram; per sapere se prima di una data non è uscito niente si ordina per data di
+  pubblicazione crescente.
+- ⚠️ **Con la finestra di Chrome nascosta lo storico non carica altre righe scorrendo.** Si sblocca con
+  uno screenshot dopo ogni scorrimento, che obbliga la pagina a disegnarsi.
+
+### Le storie da Business Suite
+
+> Scritto il 14/09/2026, programmando nove storie servizio di Da Mamma Rosaria. Vale per qualunque
+> brand, perché il composer delle storie è lo stesso.
+
+- **Una storia per volta.** Il composer ne accetta fino a dieci, ma escono tutte insieme alla stessa
+  ora: per spargerle nel mese ogni storia è un composer nuovo.
+- **Il portfolio si sceglie prima**, dal selettore in alto a sinistra: Business Suite si riapre
+  sull'ultimo usato, e il 14/09 era la Tenuta.
+- **Il campo file non esiste finché non si clicca «Aggiungi foto/video»**, e cliccandolo parte la
+  finestra di sistema. Si installa prima uno script che intercetta `click`, `showPicker` e
+  `dispatchEvent` sugli `input[type=file]`, e poi **il pulsante si preme dallo script**, cercandolo
+  per testo. Il clic a coordinate subito dopo il caricamento della pagina ha aperto due volte la
+  finestra di sistema, bloccando le schermate.
+- **Mai coordinate fisse.** A metà lavoro la finestra è cambiata di dimensione e i clic a posizione
+  sono finiti nel vuoto. Si clicca sugli elementi trovati con `find`.
+- **Data e ora non prendono se si scrivono nello stesso giro in cui si cercano i campi.** Si
+  cercano, e si compilano nel giro dopo. Il passaggio da «Condividi ora» a «Programma» si fa dallo
+  script, sul pulsante col testo «Programma».
+- **La verifica è il calendario in vista mese**, non l'avviso «La tua storia è stata programmata»:
+  le storie ci compaiono con qualche minuto di ritardo.
+- **L'evidenza non si imposta da qui.** Una storia servizio va aggiunta a mano all'evidenza dall'app,
+  il giorno che esce.
+- **La musica non si mette da qui.** In «Modifica» ci sono Ritaglia, Testo, Menziona e Altri adesivi,
+  e gli altri adesivi sono il link e le emoji: verificato il 14/09/2026 con un fotogramma di prova. La
+  musica di Instagram si aggiunge solo pubblicando dall'app, quindi in una storia programmata **va
+  incorporata nel file** prima di caricarlo.
+- ⚠️ **Con un video, la finestra di Chrome deve stare davanti.** Il 14/09/2026 un video di 10 secondi
+  è rimasto più di dieci minuti su «Elaborazione del contenuto multimediale», con la scheda nascosta
+  dietro le altre finestre, e alla fine il composer l'ha perso. Con la finestra in primo piano,
+  ricaricato, si è elaborato in mezzo minuto. Prima di caricare un video si controlla
+  `document.visibilityState`: se è `hidden`, si chiede a Emanuele di portare la finestra davanti.
+- **Dopo «Condividi» si finisce nel calendario**, con l'avviso «Stiamo pubblicando la tua storia».
+  Si aspetta che l'avviso sparisca prima di cambiare pagina.
+- **Dopo «Programma» si finisce nel calendario aperto sul giorno e sull'ora scelti**, con l'avviso «La
+  tua storia è stata programmata per la pubblicazione». L'avviso a volte sparisce in pochi secondi: il
+  calendario aperto su quel momento, con `focus_time` nell'indirizzo, vale come conferma. Il controllo
+  vero resta il conteggio nel calendario, alla fine.
+- **Quando si programmano più storie di fila, i riferimenti dei campi di data e ora cambiano da un
+  giro all'altro.** Si cercano ogni volta, e prima di premere «Programma» si rilegge cosa c'è scritto:
+  data, ore e minuti, su Facebook e su Instagram.
+- **I video sopra i 10 MB non passano dal caricamento del browser.** Una storia di 10 secondi si
+  ricomprime con crf 24, e il file archiviato è quello caricato.
 
 ## Tenuta Don Gaetano: i reel da Buffer
 

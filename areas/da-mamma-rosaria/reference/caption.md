@@ -1,6 +1,6 @@
 ---
 title: "Caption — come si scrivono"
-summary: "Le regole della didascalia ricavate dalle caption vere di luglio e agosto 2026, non decise a tavolino: si apre sulla cosa fisica, righe corte, il meccanismo invece dell'emozione, il tu e il calore di chi parla a una famiglia, l'emoji attaccata all'oggetto, la firma in fondo e quattro hashtag."
+summary: "Le regole della didascalia ricavate dalle caption vere di luglio e agosto 2026, non decise a tavolino: si apre sulla cosa fisica, righe corte, il meccanismo invece dell'emozione, il tu e il calore di chi parla a una famiglia, l'emoji attaccata all'oggetto, la firma in fondo e nessun hashtag dal 14/09/2026."
 tags:
   - areas
   - brand/da-mamma-rosaria
@@ -8,7 +8,7 @@ tags:
   - tono-di-voce
 status: attivo
 created: 2026-07-19
-updated: 2026-09-07
+updated: 2026-09-14
 related:
   - "[[areas/da-mamma-rosaria/reference/tono]]"
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
@@ -111,10 +111,13 @@ Da Mamma Rosaria — Eventi Privati in Agriturismo
 🌐 www.damammarosaria.it
 ```
 
-## Hashtag: quattro, non uno di più
+## Hashtag: nessuno
 
-**Deciso il 07/09/2026.** `#DaMammaRosaria` fisso e primo, due tematici sul soggetto del post,
-e `#poggiomarino`. Via `#napoli` e `#zonavesuviana`: su quattro slot ognuno si guadagna il posto.
+**Deciso da Emanuele il 14/09/2026:** dai post successivi le caption non hanno hashtag. La caption
+finisce con la firma.
+
+> Fino al 13/09/2026 valeva la regola del 07/09: quattro hashtag, `#DaMammaRosaria` fisso e primo,
+> due tematici e `#poggiomarino`.
 
 ## Come suona quando è scritta male
 
