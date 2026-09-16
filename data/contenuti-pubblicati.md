@@ -6,7 +6,7 @@ tags:
   - contenuti
 status: da-compilare
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-15
 related:
   - "[[self/reference/caption]]"
 ---
@@ -40,3 +40,10 @@ Qui entra solo quello che è uscito davvero.
 |---|---|---|---|---|---|
 | 14/09/2026 | Da Mamma Rosaria · Instagram, Facebook, TikTok | carosello fotografico, 4 foto | Il Primo Brindisi, l'aperitivo di benvenuto · [Instagram](https://www.instagram.com/p/DdRu21CiSyy/) · [Facebook](https://www.facebook.com/303931159061307/posts/1074592118661870) · [TikTok](https://tiktok.com/@damammarosaria/video/7685452637289975072) | da leggere | |
 | 14/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo alla brace, tre clip dalla festa dei 40 anni, musica Italian Summer · la prima del pacchetto storie | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | La frittura, due clip dalla serata della pizza, musica Sol En La Guitarra · la prima delle quattro uscite insieme da Business Suite | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | L'impasto e il sugo, tre clip del pizzaiolo, musica Café Soul | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | La margherita, due clip, musica Sunset Bossa | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il forno, tre clip rallentate al 90%, musica Jazzy Wanderer | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | I salumi, due clip appena rallentate, musica Sidewalk Sway · la prima delle tre uscite da Buffer, per provarlo coi video | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo, due clip rallentate all'84%, musica Hot And Humid · un giorno dopo quello della festa dei 40 anni | da leggere | |
+| 15/09/2026 | Da Mamma Rosaria · storia Instagram | storia video, 10 secondi | I formaggi, tre clip, musica Everyday Is Sunday · l'ha pubblicata Emanuele da Buffer, solo su Instagram | da leggere | |

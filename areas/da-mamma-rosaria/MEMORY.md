@@ -560,3 +560,68 @@ settembre ogni giorno ha almeno una storia**, e il calendario del mese lo confer
 - ⚠️ Il video degli ospiti pesava 14 MB e il caricamento dal browser si ferma a 10: è stato ricompresso
   a 8 MB, e il file archiviato è quello caricato.
 - Archiviate come i post, in `4-pubblicati/2026-09/storie/` e su Drive in `01 pubblicati/2026-09/Storie/`.
+
+## 15/09/2026 — Sette storie dalla serata della pizza, e la musica cambia
+
+Dalle clip girate con l'iPhone la sera del 15/09 sono uscite **sette storie**: la frittura,
+l'impasto, la margherita, il forno, il caciocavallo, i salumi e i formaggi. Stesso stampo del
+pacchetto, 10 secondi e due o tre clip. Il forno ha tre clip rallentate al 90%, dopo che Emanuele ha
+trovato il finale ripetuto due volte; il caciocavallo ha due clip rallentate un po' per arrivare a 10
+secondi.
+
+- ⚠️ **Le clip dell'iPhone sono HDR.** Si convertono col motore di Apple (`avconvert`) e sopra si dà
+  solo una curva leggera e un po' di nitidezza. La ricetta delle storie di settembre, col
+  bilanciamento automatico del bianco, davanti al muro arancione faceva diventare blu i piatti e la
+  giacca del pizzaiolo.
+- ⚠️ **La musica cambia riferimento: sottofondi alla Pino Daniele**, chitarra calda e groove morbido,
+  oppure solo chitarra calda. Dopo due giri di stili fuori target, le otto tracce sono state scelte
+  dalla Raccolta di audio di Meta col filtro Strumentale. La regola ora sta in
+  [[areas/da-mamma-rosaria/reference/reel|reel]].
+
+## 15/09/2026 — Buffer carica anche i video, se Chrome sta davanti
+
+Le prime quattro storie della serata sono uscite da Business Suite, le ultime tre **da Buffer**, per
+provarlo coi video. Supera in parte la nota del 14/09 per cui i video li doveva trascinare Emanuele.
+
+- **Salumi e caciocavallo li ha caricati Claude** nel composer, con la finestra di Chrome dietro le altre,
+  in un minuto e mezzo. Le storie di Instagram e Facebook sono state create dall'API con l'indirizzo del
+  file, e sono uscite tutte e quattro col link.
+- ⚠️ **I formaggi sono rimasti allo 0%** per più di cinque minuti, in due schede, senza nessuna richiesta di
+  rete: lo stesso sintomo del reel del Banco il 14/09, forse per la stessa ragione. Appena Emanuele ha
+  portato Chrome davanti il file si è caricato in pochi secondi, e la storia l'ha pubblicata lui dal
+  composer, **solo su Instagram**.
+- Resta il limite dell'estensione, 10 MB per file: una storia passa, un reel solo se sta sotto. Il come
+  sta in [[docs/procedure/pubblicare-un-post|pubblicare un post]].
+
+## 15/09/2026 — Le storie clip si fanno a pacchetti, tre o quattro per tema
+
+**Direzione data da Emanuele la sera del 15/09:** stanno pensando di far uscire **tre o quattro storie
+al giorno, coerenti fra loro, un tema per giorno**. Mette in discussione la «una storia al giorno» del
+14/09. Il calendario si decide dopo: per ora si preparano i pacchetti, prendendo più clip possibile da
+ogni evento dell'SSD.
+
+- **Ogni storia ha clip e musica diverse.** Dopo un tot si possono riusare, ma non sempre le stesse.
+- **Le dieci storie montate la sera del 15 non sono state programmate**: sono diventate i primi tre
+  pacchetti, «Il battesimo di Angela», «Dolci e dopocena» e «Prima della festa».
+- I pacchetti in lavorazione stanno sull'SSD in `3-in-produzione/storie-clip/`, una cartella per tema.
+  Per ogni storia si dice da quale cartella di `1-eventi/` vengono le clip: l'ha chiesto Emanuele.
+- **Si montano poche storie alla volta, una dopo l'altra**, perché il MacBook si scalda.
+
+## 16/09/2026 — Gli eventi si ordinano da soli, e i 40 anni erano in S-Log2
+
+**Deciso da Emanuele:** ogni evento che gira il videomaker arriva sull'SSD con le clip spoglie, e a
+sistemarle è Claude, sempre allo stesso modo. Il metodo sta in
+[[docs/procedure/ordinare-un-evento|ordinare un evento]]: sette cartelle numerate, sottocartelle in
+`02-cibo-e-servizio` solo dove ci sono più angoli, nomi dei file mai toccati.
+
+- **Riordinati 560 file** in cinque eventi che erano alla rinfusa: il compleanno di Maria Rosaria, i 30
+  anni di Pasquale, il compleanno di Isaia, la serata di beneficenza e il compleanno di Raffaele William.
+  I nomi fuori standard sono stati allineati: `compleanno-wiliam` è diventato `compleanno-raffaele-william`,
+  `feste-di-laurea-gaetano` è diventato `festa-di-laurea-gaetano`, e `03-ospiti-e-famiglia` ora si chiama
+  così in tutti gli eventi.
+- ⚠️ **La festa dei 40 anni è girata in S-Log2.** La «ricetta di settembre» non convertiva niente: per
+  quello le storie di quell'evento sembravano spente. La conversione vera sta in
+  `2-libreria/lut/da-slog2-a-rec709.cube` e si è scelta confrontando i fotogrammi con le foto del
+  fotografo che stanno nelle stesse cartelle.
+- **Le storie dei 40 anni già programmate dal 17 al 30 settembre hanno ancora il colore vecchio.**
+

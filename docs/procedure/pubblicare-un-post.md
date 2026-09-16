@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-15
 related:
   - "[[docs/procedure/produzione-contenuti]]"
   - "[[docs/definizioni/pubblicare-un-post]]"
@@ -228,6 +228,32 @@ Il link si riporta a Emanuele. È la prova, e gli serve per guardarlo.
   controlla che il pulsante dica la data giusta: il primo clic sul calendario appena aperto può non
   prendere. Il titolo del reel Facebook si legge solo a sezione aperta.
 - **La verifica** è la vista List: tre post per reel, con la copertina come anteprima.
+
+## Le storie video da Buffer
+
+> Scritto il 15/09/2026, pubblicando tre storie di Da Mamma Rosaria da Buffer per provarlo coi video:
+> il 14/09 il reel del Banco era rimasto allo 0% e i video li doveva trascinare Emanuele.
+
+- **Il video lo carica Claude nel composer**, con l'upload dell'estensione: un file per volta e sotto i
+  10 MB, quindi una storia di 10 secondi sì, un reel no. Il composer serve solo a mettere il file sui
+  server di Buffer: il post non si crea da lì.
+- **L'indirizzo si legge dal `<video>` del composer**, quando non è più un `blob:`. Prima di usarlo si
+  controlla con `curl -I` che risponda 200 e che il peso sia quello del file.
+- **Il post si crea dall'API**, un canale per volta, con `mode: shareNow` e `schedulingType: automatic`:
+  per Instagram `{ type: "story", shouldShareToFeed: false }`, per Facebook `{ type: "story" }`. Facebook
+  è uscito in una decina di secondi, Instagram in un minuto. La verifica è quella di sempre,
+  `externalLink` e `viewPost`.
+- ⚠️ **Con la finestra di Chrome nascosta il caricamento può non partire.** Il 15/09/2026 due storie si
+  sono caricate in un minuto e mezzo con la finestra dietro le altre. La terza è rimasta allo 0% per più
+  di cinque minuti, in due schede diverse, senza nessuna richiesta di rete; con Chrome davanti si è
+  caricata in pochi secondi. Se dopo un minuto è ancora allo 0% e `document.visibilityState` è `hidden`,
+  non si aspetta: si chiede a Emanuele di portare la finestra davanti.
+- **Si ricarica la pagina solo dopo aver letto l'indirizzo.** Ricaricando prima, il caricamento in corso
+  si perde e il file va rimesso.
+- **Un composer chiuso con dentro un file resta come bozza**, e al «New Post» successivo Buffer chiede
+  «Resume Unfinished Post?». Si risponde «Discard».
+- **Le schede si chiudono alla fine, tutte insieme.** Chiudendo quella di Business Suite con Buffer ancora
+  aperto, il gruppo di schede dell'estensione si è sciolto e Buffer ne è rimasto fuori, irraggiungibile.
 
 ## Definizione di fatto
 

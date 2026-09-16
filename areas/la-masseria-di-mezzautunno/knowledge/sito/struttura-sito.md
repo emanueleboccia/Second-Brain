@@ -18,7 +18,7 @@ related:
 
 # Struttura del sito — La Masseria di Mezz'autunno
 
-> Materiale di lavoro per il sito WordPress (masseriadimezzautunno.it), dalla specifica di Emanuele
+> Materiale di lavoro per il sito WordPress (lamasseriadimezzautunno.it), dalla specifica di Emanuele
 > del 21/07/2026. **Sostituisce il vecchio `sitemap.md` e `copy-home.md`.** Non è fonte di verità:
 > dove tocca identità, tono o offerta vincono i `../../reference/`.
 > ⚠️ Su questo sito gli accenti si sono già corrotti durante un build: **verifica sempre

@@ -46,6 +46,15 @@
     },
     "_nota_filtro": "L'actor sa filtrare all'origine: 'withoutWebsite' estrae solo attività senza sito, cioè solo lead a priorità ALTA. Si usa quando Emanuele lo chiede, non di default: normalmente la lista completa serve anche a vedere quanto è coperta una zona. I valori ammessi sono allPlaces, withWebsite, withoutWebsite. ⚠️ È un filtro a pagamento: vedi _nota_filtri.",
 
+    "zona_a_raggio": {
+      "customGeolocation": {
+        "type": "Point",
+        "coordinates": ["<longitudine>", "<latitudine>"],
+        "radiusKm": "<km>"
+      }
+    },
+    "_nota_raggio": "Quando Emanuele dà un raggio invece di un comune, la zona è un cerchio: customGeolocation al posto di locationQuery, in un run solo. Le coordinate vanno longitudine prima e latitudine dopo, e i valori sono numeri. Verificato sul run del 15/09/2026: Poggiomarino [14.5399, 40.8041] con radiusKm 5 ha portato attività di Poggiomarino, Striano, Terzigno, Boscoreale, Ottaviano, San Giuseppe Vesuviano, San Gennaro Vesuviano, Scafati e San Marzano sul Sarno.",
+
     "campi_output_attesi": {
       "nome": "title",
       "indirizzo": "address",
@@ -64,7 +73,7 @@
     "stato_run": "APIFY_ACTOR_RUN_GET",
     "crea_foglio": "GOOGLESHEETS_CREATE_GOOGLE_SHEET1",
     "scrivi_righe": "GOOGLESHEETS_SPREADSHEETS_VALUES_APPEND",
-    "_nota_tetto": "APIFY_RUN_ACTOR_SYNC_GET_DATASET_ITEMS non espone maxTotalChargeUsd, il tetto di spesa nativo di Apify. Il parametro maxItems vale per gli actor pay-per-result, non per questo che è pay-per-event. L'unico freno effettivo è maxCrawledPlacesPerSearch dentro l'input dell'actor.",
+    "_nota_tetto": "Dallo schema del 02/09/2026 APIFY_RUN_ACTOR_SYNC_GET_DATASET_ITEMS espone maxTotalChargeUsd, il tetto di spesa nativo di Apify, ma non serve: il 15/09/2026 un run con 0.30 è stato rifiutato prima di partire, perché Apify non accetta un tetto sotto 0.50 $, il doppio di quanto costano 50 lead. Il messaggio d'errore di Composio parla di maxItems, ma a farlo scattare è maxTotalChargeUsd. Il parametro maxItems vale per gli actor pay-per-result, non per questo che è pay-per-event. L'unico freno effettivo resta maxCrawledPlacesPerSearch dentro l'input dell'actor.",
     "_nota_attesa": "Il tool aspetta al massimo 300 secondi (waitForFinish). Oltre quelli risponde comunque, ma il run su Apify continua per conto suo: i risultati si recuperano con APIFY_GET_RUN_DATASET_ITEMS sull'id del run. Non si rilancia."
   },
 
@@ -91,7 +100,9 @@
       "x.com",
       "wa.me",
       "sites.google.com",
-      "business.site"
+      "business.site",
+      "subito.it",
+      "soloist.ai"
     ],
     "domini_gratuiti": [
       ".wordpress.com",
@@ -109,10 +120,15 @@
       ".flazio.com",
       ".netsons.org"
     ],
-    "_nota_liste": "Due liste che cresceranno: ogni volta che in una lista di lead compare un host che è social o costruttore gratuito e qui non c'è, si aggiunge qui invece di trattarlo a mano. Il confronto si fa sull'host dell'URL, non sulla stringa intera: un dominio proprio che contiene 'facebook' nel percorso non è un profilo Facebook."
+    "_nota_liste": "Due liste che cresceranno: ogni volta che in una lista di lead compare un host che è social o costruttore gratuito e qui non c'è, si aggiunge qui invece di trattarlo a mano. Il confronto si fa sull'host dell'URL, non sulla stringa intera: un dominio proprio che contiene 'facebook' nel percorso non è un profilo Facebook. Il 15/09/2026, sulle concessionarie intorno a Poggiomarino, sono entrati subito.it e soloist.ai: cinque concessionarie avevano come sito la vetrina Impresa Più di Subito, una la homepage di Subito e una una pagina su soloist.ai. Sono pagine dentro il dominio di un altro, non un sito proprio."
   },
 
   "output": {
+    "cartella_drive": {
+      "nome": "PERSONAL BRAND",
+      "id": "1dCLfEhLcvgSe7i3Wu9YRa2RVgJ6OKKRF"
+    },
+    "_nota_cartella": "Deciso da Emanuele il 15/09/2026: i fogli su Drive vanno sempre nella cartella del personal brand, mai nella radice. GOOGLESHEETS_CREATE_GOOGLE_SHEET1 accetta folder_id e ci sposta il foglio appena creato.",
     "nome_foglio": "lead-<nicchia>-<YYYY-MM-DD>",
     "intestazione": [
       "Attività",

@@ -102,3 +102,10 @@ radice di Drive, accanto alle cartelle dei brand di famiglia, con la stessa nume
 In `02 AREE` restano Formazione, Finanza e Backup. ⚠️ In `04 Risorse lavoro` c'è
 `credenziali.pdf`, spostato senza aprirlo: se contiene password va tolto da Drive e messo in un
 password manager.
+
+## 15/09/2026 — I fogli nuovi su Drive nascono in PERSONAL BRAND
+
+**Deciso da Emanuele:** i fogli Google che creo per il suo lavoro vanno sempre nella cartella
+`PERSONAL BRAND` di Drive, mai nella radice. È la cartella madre del 14/09 qui sopra, e il suo id
+sta in `code/skills/estrai-lead/riferimenti.json`. La skill
+[[code/skills/estrai-lead/SKILL|estrai-lead]] è la prima che crea fogli nuovi, e ce li mette da sola.

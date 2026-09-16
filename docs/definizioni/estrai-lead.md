@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-03
+updated: 2026-09-15
 ---
 
 # Definizione di fatto — Estrai lead
@@ -22,7 +22,8 @@ consegnare il foglio: se una non torna, si corregge e si riverifica.
   un'interpretazione data per buona.
 - Il numero di lead del run è **50 o meno**, oppure Emanuele ha confermato esplicitamente un
   numero più alto per quel run. Il tetto è della procedura e non della piattaforma: nessun
-  parametro di Composio lo garantisce al posto nostro.
+  parametro di Composio lo garantisce al posto nostro, e `maxTotalChargeUsd` non accetta tetti sotto
+  0,50 $.
 - Il costo stimato viene dal **piano Apify letto adesso** — `APIFY_USERS_ME_GET`, campo
   `plan.tier` — e dal prezzo corrispondente in `riferimenti.json`. Se il piano non si è letto, è
   stata usata la riga FREE ed è **detto** che la stima è al massimo.
@@ -31,14 +32,16 @@ consegnare il foglio: se una non torna, si corregge e si riverifica.
 - La stima **conta anche i filtri**: ogni filtro attivo costa 0.001 $ per posto e si somma agli
   altri. `skipClosedPlaces` è un filtro, e `website: withoutWebsite` è il secondo. Una stima che
   moltiplica solo il prezzo per posto è sbagliata per difetto.
-- La zona è **una sola per run** ed è quella che Emanuele ha confermato. Se era ambigua, è stata
-  fatta la domanda: nessun comune aggiunto per iniziativa.
+- La zona è **una sola per run** ed è quella che Emanuele ha confermato: un comune, oppure il raggio
+  che ha dato lui. Se era ambigua, è stata fatta la domanda: nessun comune aggiunto per iniziativa.
 - **È partito un run solo.** Un run fallito o scaduto non è stato rilanciato da solo.
 
 **Il foglio**
 
 - Il nome è `lead-<nicchia>-<YYYY-MM-DD>`, con la nicchia in minuscolo-con-trattini e la data vera
   di oggi.
+- Il foglio sta nella cartella **PERSONAL BRAND** di Drive, non nella radice. Deciso da Emanuele il
+  15/09/2026.
 - L'intestazione è quella, in quest'ordine: Attività, Indirizzo, Telefono, Sito web, Rating,
   Recensioni, Priorità.
 - Il numero di righe scritte **coincide** con il numero di lead arrivati dal dataset. Nessuna riga

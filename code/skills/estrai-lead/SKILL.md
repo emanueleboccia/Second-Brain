@@ -65,6 +65,12 @@ secondo tiene lo scraper, i prezzi, gli slug dei tool e le liste di domini.
 La nicchia diventa il termine di ricerca (`searchStringsArray`), la zona diventa `locationQuery`.
 Sono due campi separati e vanno tenuti separati: l'actor vuole **una sola località per run**.
 
+**Se Emanuele dà un raggio, la zona è un cerchio.** «Da Poggiomarino fino a 5 km» non si traduce in
+un elenco di comuni scelti da te: si passa `customGeolocation` al posto di `locationQuery`, in un run
+solo, con le coordinate del centro e `radiusKm`. Il formato sta in `zona_a_raggio` di
+`riferimenti.json`. ⚠️ Le coordinate vanno **longitudine prima**: invertite, il cerchio cade
+dall'altra parte del mondo e la lista torna vuota o sbagliata. Verificato il 15/09/2026.
+
 Se la zona è ambigua — «i comuni vesuviani», «qui intorno», «la zona di Napoli est» — **chiedi
 quali comuni**, uno per uno. Non allargare per conto tuo: un raggio più largo costa di più, porta
 lead fuori zona, e nessuno se ne accorge finché la lista non è già pagata. Se i comuni sono più
@@ -95,7 +101,7 @@ Se il piano non si riesce a leggere, dillo e usa la riga FREE, che è la più ca
 in eccesso.
 
 Nella stessa schermata dichiara che l'ok copre **due scritture**: il run su Apify e il foglio nuovo
-su Google Drive. Il foglio non richiede una seconda conferma perché il suo contenuto non lo componi
+nella cartella PERSONAL BRAND di Google Drive. Il foglio non richiede una seconda conferma perché il suo contenuto non lo componi
 tu — sono i dati del run messi in colonna — ma il fatto che nasca va detto prima, non scoperto
 dopo.
 
@@ -106,10 +112,15 @@ dopo.
 **Mai più di 50 lead per run senza un ok esplicito di Emanuele per quel run.**
 
 Questo freno è della procedura, non della piattaforma, e va trattato come non negoziabile proprio
-per quello. Il tool Composio `APIFY_RUN_ACTOR_SYNC_GET_DATASET_ITEMS` **non espone
-`maxTotalChargeUsd`**, il tetto di spesa nativo di Apify; `maxItems` vale per gli actor
-pay-per-result e questo è pay-per-event, quindi non frena niente. L'unica cosa che limita davvero
-la spesa è il numero che scrivi in `maxCrawledPlacesPerSearch`.
+per quello. `maxItems` vale per gli actor pay-per-result e questo è pay-per-event, quindi non
+frena niente. L'unica cosa che limita davvero la spesa è il numero che scrivi in
+`maxCrawledPlacesPerSearch`.
+
+⚠️ **`maxTotalChargeUsd`, il tetto di spesa nativo di Apify, oggi c'è ma qui non serve.** Il tool
+Composio non lo esponeva il 25/08/2026, lo schema del 02/09 sì. Il 15/09/2026 un run con
+`maxTotalChargeUsd: 0.30` è stato **rifiutato prima di partire**: Apify non accetta un tetto sotto
+0,50 $, cioè il doppio di quanto costano 50 lead. Non si passa. E il messaggio d'errore inganna:
+parla di `maxItems`, ma a farlo scattare è `maxTotalChargeUsd`.
 
 Se Emanuele ne chiede di più, non è un no: è una domanda. Digli quanto verrebbe — cento lead sono
 il doppio, non un ordine di grandezza — e aspetta che confermi quel numero. Confermato, si va.
@@ -190,7 +201,12 @@ lista lo saprà già.
 ### 8 · Crea il foglio e scrivilo
 
 Con `GOOGLESHEETS_CREATE_GOOGLE_SHEET1`, titolo `lead-<nicchia>-<YYYY-MM-DD>`, la nicchia in
-minuscolo-con-trattini e la data di oggi: `lead-ristoranti-2026-08-25`.
+minuscolo-con-trattini e la data di oggi: `lead-ristoranti-2026-08-25`. Nella stessa chiamata
+`folder_id` è l'id della cartella `PERSONAL BRAND` di Drive, che sta in `riferimenti.json` alla voce
+`output.cartella_drive`.
+
+**Il foglio non nasce mai nella radice di Drive.** Deciso da Emanuele il 15/09/2026: i fogli vanno
+sempre nella cartella del personal brand.
 
 Poi `GOOGLESHEETS_SPREADSHEETS_VALUES_APPEND` sull'id restituito, con l'intestazione come prima
 riga e i dati sotto:

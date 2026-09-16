@@ -31,7 +31,7 @@ Si controllano tre cose:
 - **Gli accenti.**
 - **I link.**
 
-**Gli accenti non sono un dettaglio.** Su masseriadimezzautunno.it si sono già corrotti una volta
+**Gli accenti non sono un dettaglio.** Su lamasseriadimezzautunno.it si sono già corrotti una volta
 durante un build. Le cautele stavano in un file del vecchio sistema, che non si usa più e non è
 stato recuperato: **resta il precedente, e resta il controllo**. Se ricapita, il modo di scoprirlo è
 rileggere la pagina, non fidarsi dell'esito del comando.

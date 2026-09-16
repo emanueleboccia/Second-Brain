@@ -1,7 +1,7 @@
 # La Masseria di Mezz'autunno
 
 **Brand madre di eventi esperienziali stagionali** per **famiglie** e **scuole**.
-Sito: **masseriadimezzautunno.it** — WordPress. Poggiomarino (NA).
+Sito: **lamasseriadimezzautunno.it** — WordPress. Poggiomarino (NA).
 
 Nasce dall'unione di due brand di famiglia: **Da Mamma Rosaria** (la location e il cibo genuino) e
 **Funny Show** (l'agenzia di eventi e spettacoli). Sotto la Masseria vivono i suoi **progetti

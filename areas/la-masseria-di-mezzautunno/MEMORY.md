@@ -2,6 +2,38 @@
 
 Aperto il 13/07/2026.
 
+## 16/09/2026 — Zucche in Masseria nell'app di Slesh
+
+Rachele Vitarelli di **Slesh** ha condiviso un foglio per configurare l'evento nella loro app:
+«Zucche in Masseria - Configurazione Evento App», un Excel su Drive, con accanto la cartella
+«Zucche in Masseria - Immagini Caricamento in App». Compilati tutti e due con l'ok di Emanuele:
+
+- **i testi**: descrizione, link Clappit, Instagram, Facebook, TikTok, pagina dell'evento sul sito,
+  nome del brand e nome dell'evento. La descrizione apre con la frase del sito, «Scegli la tua zucca.
+  Al resto pensa l'autunno.»;
+- **le immagini**: `la masseria di mezz'autunno.png` come immagine del brand, perché su fondo crema
+  si legge anche sullo sfondo scuro dell'app; `logo-trasparente.png` di Zucche come logo orizzontale;
+  `GRS01302.JPG` e `GRS01293.JPG` del 2025 come copertine, scelte fra quelle senza persone.
+
+⚠️ **Da controllare quando Slesh manda l'anteprima:** il logo orizzontale ha le scritte verde oliva
+su fondo trasparente, e sullo sfondo scuro dell'app potrebbe leggersi poco. Se succede, serve una
+versione chiara.
+
+⚠️ **Il foglio non ha un campo per le date**, che nell'app compaiono sotto il nome dell'evento: per
+ora stanno dentro la descrizione.
+
+## 15/09/2026 — Il sito sta su lamasseriadimezzautunno.it
+
+Il vault scriveva **masseriadimezzautunno.it**, senza «la»: nel `CLAUDE.md` di quest'area, in
+[[areas/la-masseria-di-mezzautunno/reference/brand|brand]], nella
+[[areas/la-masseria-di-mezzautunno/knowledge/sito/struttura-sito|struttura del sito]] e nella
+[[docs/web-design/verifica-post-deploy|verifica post-deploy]]. **Quel dominio non esiste**: il DNS
+risponde NXDOMAIN. Il sito vero, con le date 2026 di Zucche in Masseria, è
+**lamasseriadimezzautunno.it**. Corretto in tutti e quattro i file; il diario del 26/08 resta com'era,
+perché racconta quel giorno.
+
+Emerso compilando il foglio con cui Slesh configura Zucche in Masseria nella sua app.
+
 ## 21/07/2026 — Smistato l'`_inbox`, riempiti i reference
 
 Sessione di audit + costruzione, smistando i sei file di lavoro dell'`_inbox` (poi cancellato).

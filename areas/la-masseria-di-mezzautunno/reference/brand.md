@@ -29,7 +29,7 @@ related:
 > accumulati nell'`_inbox`. Dove un file in `knowledge/` contraddice questo, vince questo.
 
 **La Masseria di Mezz'autunno** — **brand madre** di eventi esperienziali **stagionali**, per
-**famiglie** e **scuole**. Poggiomarino (NA). Sito: masseriadimezzautunno.it (WordPress).
+**famiglie** e **scuole**. Poggiomarino (NA). Sito: lamasseriadimezzautunno.it (WordPress).
 
 ## Da dove nasce
 

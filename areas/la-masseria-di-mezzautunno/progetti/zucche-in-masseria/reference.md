@@ -7,7 +7,7 @@ tags:
   - progetti
 status: in-lavorazione
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-09-16
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/brand]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
@@ -41,8 +41,17 @@ spettacoli/allestimenti di Funny Show. Dettaglio completo del modello in
 Il registro dell'autunno caldo: zucche, fieno, luce dorata, il profumo di stagione. Emotivo per le
 famiglie, con la lettura didattica (il ciclo della zucca, le stagioni) pronta per le scuole.
 
-## Da definire per l'edizione in corso
+## Edizione 2026
 
-- Date e programma nuovi (escono quando escono).
-- Prezzo biglietto su Clappit.
+Dal sito, letto il 16/09/2026: **dal 26 settembre al 31 ottobre**, tutti i weekend **10–18**, con il
+gran finale **sabato 31 ottobre, la sera di Halloween, 18–22**. I biglietti si vendono su Clappit, nel
+[negozio di Funny Show](https://www.clappit.com/biglietti-funny-show/homePage.html), che è anche il
+link del pulsante sul sito. I bambini entrano gratis fino al compimento dei 3 anni.
+
+L'evento è anche nell'app di **Slesh**, configurata il 16/09/2026: cosa abbiamo mandato e cosa resta
+da controllare sta in [[areas/la-masseria-di-mezzautunno/MEMORY|memory della Masseria]].
+
+## Ancora da definire
+
+- Prezzo del biglietto: il sito non lo dice ancora.
 - Novità rispetto al 2025.

@@ -8,7 +8,7 @@ tags:
   - contenuti
 status: in-lavorazione
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-15
 related:
   - "[[areas/da-mamma-rosaria/reference/design]]"
   - "[[areas/da-mamma-rosaria/reference/tono]]"
@@ -86,6 +86,22 @@ Da evitare, e sono altrettanto importanti:
 
 `happy` · `ukulele` · `handclaps` · `kids` · `corporate` · `elegant` · `luxury` · `lounge` ·
 `cinematic` · `epic` · `wedding` · `emotional piano` · `sad` · `lo-fi` · `EDM` · `drop` · `trap`
+
+⚠️ **Aggiornato da Emanuele il 15/09/2026: il riferimento sono i sottofondi alla Pino Daniele.**
+Dopo le prime storie ha chiesto un altro stile, dentro il perimetro e non fuori. Il riferimento che
+ha dato è quello: chitarra calda e un groove morbido fra soul, jazz e blues, oppure un sottofondo più
+neutro, solo chitarra calda. Le otto tracce scelte quel giorno vengono dalla Raccolta di audio di Meta
+e si tengono in `2-libreria/musica/` sull'SSD come le altre.
+
+**Provati e scartati lo stesso giorno, perché fuori target:** rumba flamenca, jazz manouche, funk,
+italo disco, pop anni '60, tropical house, indie rock, blues rock e reggae. Com'è andata sta nel
+[[correction|correction log]].
+
+**Per le storie la fonte è la Raccolta di audio di Meta**, su facebook.com/sound/collection col filtro
+Voce su Strumentale. È gratuita, vale anche per un account business ed evita che Instagram tolga
+l'audio dopo la pubblicazione. Vale però solo sulle app di Meta: quello che esce anche su TikTok,
+come i reel, la musica la prende altrove. Canzoni vere e remix «no copyright» di canzoni vere non si
+usano.
 
 **Niente brani con voce inglese in primo piano:** la voce si porta via l'attenzione dalle
 immagini, e la gente finisce ad ascoltare il testo invece di guardare la festa.

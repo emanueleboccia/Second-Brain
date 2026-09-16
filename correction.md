@@ -584,3 +584,17 @@ il primo reel del profilo, del 20 gennaio, rimasto fuori dal filtro.
 **La prossima volta:** prima di dire che un archivio è completo si contano i post del profilo e si
 confrontano con le cartelle. Nello storico di Business Suite si toglie il filtro dei 90 giorni, o si
 ordina per data crescente per vedere il primo post.
+
+## 15/09/2026 — «Cambia stile» non vuol dire uscire dal brand
+
+Emanuele ha chiesto di cambiare lo stile delle musiche per le storie di Mamma Rosaria, e io ho
+proposto due giri di stili che col brand non c'entrano: prima rumba flamenca, jazz manouche e funk,
+poi italo disco, pop anni '60, tropical house, indie rock, blues rock e reggae. Scartati tutti: «non
+sono in target con il nostro brand, conosci già il nostro stile». Il perimetro era scritto in
+[[areas/da-mamma-rosaria/reference/reel|reel]], calda, atmosferica, mediterranea e mai elegante, e
+l'ho trattato come un limite da superare invece che come il campo in cui cercare.
+
+**La prossima volta:** cambiare stile vuol dire cambiare canzoni e sonorità dentro il perimetro del
+brand. Si varia quello che il perimetro lascia libero, cioè il ritmo, gli strumenti e la tradizione
+del Sud da cui pesca il pezzo. Uno stile che contraddice una regola scritta non si porta come
+esempio: se il perimetro sembra stretto, si chiede prima di uscirne.
