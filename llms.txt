@@ -25,7 +25,7 @@ file sbagliato.
 - [[self/reference/tono]] -- Come parla Emanuele quando parla di sé: pragmatico ed elementare, definito prima per esclusione — niente guru, niente motivazionale, niente tecnicismi, niente promesse numeriche — e retto dalla regola che ogni affermazione mostri una differenza prima/dopo dimostrabile.
 - [[self/ruolo-famiglia]] -- Cosa fa Emanuele per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno: le cinque aree di cui risponde, cosa è dentro il canone e cosa si conta a parte, e come ogni lavoro diventa una riga di registro col servizio e il prezzo giusto.
 - [[self/tariffario]] -- I prezzi per i clienti esterni, in fasce e non in numeri secchi: il cervello aziendale, i siti, i sistemi su misura, i contenuti e il ricorrente — con la regola che li governa tutti, stare sotto mercato ma non troppo, e i riferimenti di mercato su cui è stata tarata.
-- [[self/tariffario-famiglia]] -- I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 250 € al mese per brand con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata e i costi fissi girati al costo.
+- [[self/tariffario-famiglia]] -- I prezzi che valgono solo per Da Mamma Rosaria, Tenuta Don Gaetano e La Masseria di Mezz'autunno, dalla proposta di collaborazione del 2026: 300 € al mese per Da Mamma Rosaria e 250 € per Tenuta Don Gaetano, con perimetro definito, il listino dei contenuti extra, i progetti chiusi a corpo, gli interventi su chiamata, i costi fissi girati al costo, la manutenzione e assistenza annuale dei siti: 150 € per Da Mamma Rosaria, 200 € per la Tenuta e 250 € per La Masseria, queste due col server compreso.
 
 ## `areas/` — I tre brand di famiglia, ognuno con la sua sottocartella completa.
 
@@ -37,7 +37,7 @@ file sbagliato.
 - [[areas/da-mamma-rosaria/knowledge/sito/sitemap]] -- L'impianto del sito nuovo pagina per pagina — Home, La Storia, Contatti, Ambienti, Angoli, La Dispensa, Eventi, Blog — con il riepilogo dei nodi ancora aperti.
 - [[areas/da-mamma-rosaria/knowledge/sito/stato-attuale]] -- Cosa non va nel sito attuale — la fattoria didattica che non è più nostra, Antonio dato come figlio, la pagina «Chi siamo» orfana — e i dati di contatto veri.
 - [[areas/da-mamma-rosaria/reference/brand]] -- Cos'è Da Mamma Rosaria, la storia da cui nasce, il posizionamento sull'evento cucito su misura e i confini con Tenuta Don Gaetano e La Masseria di Mezz'autunno.
-- [[areas/da-mamma-rosaria/reference/caption]] -- Le regole della didascalia ricavate dalle caption vere di luglio e agosto 2026, non decise a tavolino: si apre sulla cosa fisica, righe corte, il meccanismo invece dell'emozione, il tu e il calore di chi parla a una famiglia, l'emoji attaccata all'oggetto, la firma in fondo e quattro hashtag.
+- [[areas/da-mamma-rosaria/reference/caption]] -- Le regole della didascalia ricavate dalle caption vere di luglio e agosto 2026, non decise a tavolino: si apre sulla cosa fisica, righe corte, il meccanismo invece dell'emozione, il tu e il calore di chi parla a una famiglia, l'emoji attaccata all'oggetto, la firma in fondo e nessun hashtag dal 14/09/2026.
 - [[areas/da-mamma-rosaria/reference/design]] -- Palette, caratteri, logo, sfondi, trattamento delle foto, pulsanti, i cinque format del feed e i due template delle storie, con quello che il design system non copre ancora.
 - [[areas/da-mamma-rosaria/reference/offerta]] -- Il catalogo definitivo del 21/07/2026: gli eventi che si fanno, i nomi ufficiali dei servizi nelle cinque categorie dell'arco della serata, e per ciascuno il testo per il sito e quello per il catalogo di vendita.
 - [[areas/da-mamma-rosaria/reference/reel]] -- Cosa deve rispettare un reel di Da Mamma Rosaria montato da fuori: durata, colore, musica con le parole per cercarla, testi, logo e consegna. Nato il 10/09/2026 dal primo brief mandato a un montatore esterno.
@@ -119,9 +119,10 @@ file sbagliato.
 - [[areas/tenuta-don-gaetano/knowledge/sito/workflow-sito]] -- Come si lavora sul sito: il repo è la fonte di verità per il codice, il server si aggiorna solo via deploy, e il titolo SEO va verificato a ogni rilascio perché vive nel database.
 - [[areas/tenuta-don-gaetano/knowledge/target/persona]] -- Il documento esteso delle tre persona: contesto del mercato locale, pain point, desideri, ricerche su Google, tono e contenuti Instagram per ciascuna.
 - [[areas/tenuta-don-gaetano/reference/brand]] -- Cos'è la Tenuta, gli eventi su cui si comunica, la fascia di spesa del lusso accessibile e cosa resta fuori target.
-- [[areas/tenuta-don-gaetano/reference/caption]] -- Impalcatura vuota: come si scrivono le caption della Tenuta, ancora da scrivere.
+- [[areas/tenuta-don-gaetano/reference/caption]] -- Le regole della didascalia della Tenuta ricavate dalle caption vere uscite fra il 21/07 e il 29/08/2026: il nome della cosa in apertura, due o tre righe su cosa si vede, «Continua a seguirci.», niente hashtag e niente CTA come vuole la fase Vetrina. Più i difetti usciti da non ripetere.
 - [[areas/tenuta-don-gaetano/reference/design]] -- Palette, tipografia Cinzel, logo, trattamento immagine e i cinque formati del feed con la loro anatomia; per i reel valgono solo i vincoli certi.
 - [[areas/tenuta-don-gaetano/reference/offerta]] -- Impalcatura vuota: cosa vende la Tenuta e con quali testi, ancora da scrivere.
+- [[areas/tenuta-don-gaetano/reference/regole-editoriali]] -- Il mese tipo della Tenuta con otto post e senza storie, la checklist da passare prima di pubblicare, i no del marchio in fase Vetrina e le misure di export, sullo stesso impianto di Mamma Rosaria.
 - [[areas/tenuta-don-gaetano/reference/target]] -- Martina, Anna e Giuseppe & Rosa in sintesi operativa: budget mentale, dolori a importanza alta, desideri, tono e format per ciascuna.
 - [[areas/tenuta-don-gaetano/reference/tono]] -- La fase Vetrina e cosa comporta, la voce elegante e sobria, come si nomina la località, il prezzo solo a fascia, gli hashtag base e le regole di consenso.
 
@@ -165,9 +166,11 @@ file sbagliato.
 - [[docs/definizioni/pubblicare-un-post]] -- Quando un post è davvero online: i controlli fatti prima, la modalità automatica, la verifica sul link e non sullo stato, e i due gesti di chiusura che tengono onesto l'archivio.
 - [[docs/definizioni/regia-video]] -- Quando un montaggio è finito: struttura, sottotitoli, durata e le regole numeriche verificate sul file, non sulla stima.
 - [[docs/definizioni/report-finanziario]] -- Quando la chiusura mensile è finita: totali riconciliati sugli estratti conto, quadro aggiornato e dashboard rigenerata.
+- [[docs/definizioni/report-social]] -- Quando il report mensile dei social di un brand è finito: numeri con la fonte, contatti contati senza nomi, contenuti usciti tutti in elenco con clip e grafiche separate, PDF su Drive e riga del mese nel vault.
 - [[docs/definizioni/sito]] -- Impalcatura: le condizioni che dicono quando un sito è consegnato non sono ancora state scritte.
 - [[docs/definizioni/web-design]] -- Quando una pagina o un componente è finito: design system rispettato, responsive verificato e prova guardata davvero.
 - [[docs/onboarding]] -- Cosa succede fra il sì del cliente e l'inizio dei lavori: contratto, fattura, bonifico, e la call di onboarding che consegna la roadmap e raccoglie tutto il materiale. Distillato dal Customer Onboarding Strategic Pack.
+- [[docs/procedure/ordinare-un-evento]] -- Come si sistema il girato di un evento appena scaricato sull'SSD: le sette cartelle fisse, quando si aprono le sottocartelle, cosa si tocca dei nomi e la verifica finale. Serve perché il videomaker consegna le clip alla rinfusa e la ricerca la fa Claude.
 - [[docs/procedure/produzione-contenuti]] -- Come un contenuto va dalla scheda della macchina fino a pubblicato, per i tre brand di famiglia e il personal brand: cosa tiene l'SSD, cosa Drive, cosa Buffer e cosa il vault, i quattro stati che un contenuto attraversa e il gesto che chiude il giro.
 - [[docs/procedure/pubblicare-un-post]] -- Come un contenuto pronto va online da qui: i controlli prima, le due strade per le immagini, la creazione su Buffer in modalità automatica, e la verifica che distingue un post pubblicato davvero da uno che dice solo di esserlo.
 - [[docs/procedure/sito-web-wordpress]] -- La checklist in quattordici fasi che Emanuele usava per costruire un sito WordPress da zero: dal primo incontro al bonifico di saldo, passando per setup, ottimizzazioni, sicurezza, design, SEO, GDPR e test. Salvata com'era, senza aggiornarla.
@@ -324,6 +327,10 @@ file sbagliato.
 - [[entities/clienti/clharem/recensioni]] -- Modello per i feedback di un cliente: citazioni testuali con data e canale, pronte da usare come riprova nelle proposte e nei contenuti, senza doverle riscrivere a memoria.
 - [[entities/clienti/clharem/scheda]] -- Clharem, di Claudio Salemme: un sito costruito da Emanuele anni fa ma consegnato tramite un'intermediaria che poi è sparita, e un rapporto riaperto dal nulla nel 2026 da Anna, collaboratrice. Il cliente non l'ha mai conosciuto direttamente.
 - [[entities/clienti/clharem/storico]] -- Cosa è successo con Clharem: un sito consegnato a un'intermediaria e mai arrivato al cliente, e la riapertura del rapporto nel 2026 per iniziativa di Anna.
+- [[entities/clienti/girarrosto-la-signora/brand-book]] -- Brand book di Girarrosto La Signora: tono, colori e cosa si può dire e cosa no. Aperto vuoto il 16/09/2026 col primo incontro, si riempie quando si lavora al sito e al menù.
+- [[entities/clienti/girarrosto-la-signora/recensioni]] -- Feedback e citazioni testuali di Girarrosto La Signora, con data e canale. Aperto vuoto il 16/09/2026 col primo incontro.
+- [[entities/clienti/girarrosto-la-signora/scheda]] -- Girarrosto La Signora, titolare Salvatore, due locali: mandati da Marco Pappacena del Girarrosto Liberti. Vogliono lo stesso sistema di presa ordini con sito e menù; il 16/09/2026 hanno detto una specie di sì ai due sistemi a 1.100 €, senza fattura.
+- [[entities/clienti/girarrosto-la-signora/storico]] -- Gli incontri e gli accordi con Girarrosto La Signora, dal primo incontro del 16/09/2026: cosa hanno chiesto per i due locali, il prezzo proposto a voce e le cose rimaste da chiarire.
 - [[entities/clienti/girarrosto-liberti/brand-book]] -- Tono, colori e limiti di Girarrosto Liberti. Impalcatura vuota: nessun elemento di identità di questo cliente è oggi scritto nel vault.
 - [[entities/clienti/girarrosto-liberti/recensioni]] -- Feedback e citazioni testuali di Girarrosto Liberti, da usare come riprova nelle proposte e nei contenuti.
 - [[entities/clienti/girarrosto-liberti/scheda]] -- Girarrosto Liberti, referente Marco Pappacena: sito attivo e sistema di ordinazioni interno costruito su misura. È il caso studio più citato, e il 13/09/2026 ha portato tre referral senza che fossero chiesti.
@@ -355,6 +362,7 @@ file sbagliato.
 - [[data/contenuti-pubblicati]] -- Cosa è stato pubblicato e come è andato: formato, canale, numeri e cosa se ne è capito. È la memoria che permetterà di rilanciare quello che ha già funzionato invece di ripartire ogni volta da un'idea nuova.
 - [[data/interventi-siti-famiglia]] -- Il registro delle piccole modifiche ai tre siti di famiglia: si annota ogni intervento con i minuti, e quando la somma di un brand supera l'ora si apre una riga nel registro lavori e il contatore riparte da zero.
 - [[data/recensioni]] -- Feedback su lavori che non appartengono a un singolo cliente — sistemi, gestionali, il lavoro dentro Sistema Evolve. Le recensioni di un cliente specifico stanno nella sua cartella, non qui.
+- [[data/social-mensile]] -- I numeri di fine mese dei profili social, una tabella per brand e una riga per mese. È da qui che il report del mese dopo fa il confronto, perché Business Suite il mese prima lo mostra solo in percentuale.
 
 ## `code/` — Automazioni e skills.
 
@@ -375,6 +383,8 @@ dal gate di qualità.
   -- Quando Emanuele progetta un video social da zero, o ne ha uno già fatto e vuole sapere se funziona.
 - **report-finanziario** — skill · `code/skills/report-finanziario/SKILL.md`
   -- Parte da sola il primo del mese.** È la regola principale: nella prima sessione del giorno 1, dopo il briefing del [[code/skills/journal/SKILL|journal]], la…
+- **report-social** — skill · `code/skills/report-social/SKILL.md`
+  -- Parte da sola l'ultimo giorno del mese**, nella prima sessione della giornata, dopo il briefing del journal.
 - **skill-creator** — skill · `code/skills/skill-creator/SKILL.md`
   -- Create new skills, modify and improve existing skills, and measure skill performance.
 - **web-design** — skill · `code/skills/web-design/SKILL.md`
@@ -382,6 +392,8 @@ dal gate di qualità.
 
 ## `outputs/` — Deliverable prodotti.
 
-- [[outputs/piano-editoriale/2026-09-da-mamma-rosaria]] -- Gli otto post e le otto storie di settembre: la spina del mese è la primavera che si prenota adesso, con le cerimonie religiose nominate per esteso e la risposta al dolore di Carmela, che è la solitudine di chi organizza.
+- [[outputs/piano-editoriale/2026-09-da-mamma-rosaria]] -- Gli otto post e le storie di settembre: la spina del mese è la primavera che si prenota adesso, con le cerimonie religiose nominate per esteso e la risposta al dolore di Carmela, che è la solitudine di chi organizza.
+- [[outputs/piano-editoriale/2026-09-da-mamma-rosaria-prima-versione]] -- Il piano di settembre come era stato scritto il 05/09/2026, prima che il calendario venisse rifatto il 14/09: un post ogni tre giorni dall'8 al 29, il perché di quell'ordine, i post uno per uno e le otto storie. Superato, resta come materiale.
+- [[outputs/piano-editoriale/2026-09-tenuta-don-gaetano]] -- Gli otto post della seconda metà di settembre: il filo del mese sono le occasioni che il profilo non ha mai nominato, comunione, promessa, anniversario e compleanno, portate dai grafici e dalle prime righe delle caption. Sei post programmati il 14/09/2026 da Meta Business Suite, di cui due caroselli, e i due reel programmati lo stesso giorno da Buffer, anche su TikTok.
 - [[outputs/piano-editoriale/2026-10-personal-brand]] -- Il mese del lancio: sette post fra reel e caroselli, tre nei primi tre giorni e poi uno a settimana, quattro pilastri che coprono tutte e nove le convinzioni e i nemici, i ganci di stagione presi dal calendario Date commerciali e le tre metriche che si guardano davvero.
 - [[outputs/script/2026-09-03-caso-girarrosto]] -- Copione del reel sul caso Girarrosto: il passaggio da carta e penna al sistema di ordinazione su iPad, mostrato con dati alla mano per far dire a chi guarda «lo voglio anch'io». Primo contenuto del personal brand.

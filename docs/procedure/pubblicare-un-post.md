@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-10
-updated: 2026-09-15
+updated: 2026-09-16
 related:
   - "[[docs/procedure/produzione-contenuti]]"
   - "[[docs/definizioni/pubblicare-un-post]]"
@@ -124,7 +124,8 @@ Il link si riporta a Emanuele. È la prova, e gli serve per guardarlo.
 
 ## Tenuta Don Gaetano: da Meta Business Suite
 
-> Scritto il 14/09/2026, programmando i primi sei post di settembre. Il Buffer dei connettori è
+> Scritto il 14/09/2026, programmando
+> [[outputs/piano-editoriale/2026-09-tenuta-don-gaetano|i primi sei post di settembre]]. Il Buffer dei connettori è
 > quello di Mamma Rosaria, ed Emanuele ha deciso di programmare i post della Tenuta da Business
 > Suite: la si usa dal suo Chrome, con l'estensione di Claude. I reel invece passano dal Buffer della
 > Tenuta, nella sezione qui sotto. Le regole del brand stanno in

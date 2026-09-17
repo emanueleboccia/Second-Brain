@@ -347,6 +347,21 @@ fatto che me ne ricordi io è una chiusura che si salta.
 Vale la stessa ragione del buongiorno: **se una regola deve valere prima che io la invochi, sta
 qui.** Il file della skill dice come si fa, non quando parte.
 
+## Il report dei social a fine mese
+
+**L'ultimo giorno di ogni mese, nella prima sessione della giornata, parte la skill
+[`code/skills/report-social/SKILL.md`](code/skills/report-social/SKILL.md) per Da Mamma Rosaria.**
+Viene dopo il briefing del journal. Chiesto il 16/09/2026: il primo è quello di settembre.
+
+Ne esce un PDF nella cartella `03 report` del brand su Drive, con i numeri di Instagram e Facebook,
+**le persone che ci hanno contattato** e tutto quello che è uscito nel mese — post, reel, storie
+clip e storie grafiche contate separate — più la riga del mese in `data/social-mensile.md`, che serve
+al confronto del mese dopo.
+
+**Se l'ultimo giorno salta**, si ripropone il giorno dopo e quello dopo ancora, finché il report
+non c'è. Se coincide col primo del mese, viene prima della chiusura della finanza: è quella che
+chiede i dati a me, questo li legge da solo.
+
 ## Come non si scrive mai
 
 Vale **sempre**, per qualsiasi testo destinato a essere letto da altri, su qualsiasi brand.

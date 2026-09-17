@@ -7,10 +7,42 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-16
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-09-16 — Il primo mese in numeri, e la collaborazione «a 360 gradi»
+**Il primo mese del reparto**, partito il 01/09: circa 23 lead e 7 iscritti. Quanto hanno pagato
+davvero quei sette non si sa ancora, e senza quel dato **le fasce del compenso non si fissano**:
+Emanuele voleva ragionare su quando si passa dal 10 al 15 e dal 15 al 20, ma su un mese solo i
+numeri sarebbero inventati. Il dato si ricava al contrario: con 7 iscritti, la soglia dei
+4.200 €/mese si supera solo se ognuno vale 600 €. Sette nomi si riconciliano a mano con
+Managify, senza aspettare l'export chiesto il 07/09.
+
+**Cosa ha consegnato il reparto nel primo mese**, detto da Emanuele: il cervello aziendale con
+l'organigramma, gli shooting del personale e delle sale, la brand identity — ora da rifare
+perché il logo era quello vecchio di Vincenzo —, il sito da oltre nove pagine con il copy, tre
+video per le campagne montati da Karim, i primi organici, la mappatura di servizi e offerta.
+**A listino vale fra 3.200 e 5.600 €**, più vicino al bordo alto: senza i tre video e gli
+organici, che nel [[self/tariffario|tariffario]] non hanno ancora un prezzo, e senza logo e
+rifacimento. Contro un fisso di zero.
+
+**Vincenzo parla di una collaborazione a 360 gradi.** Dentro ci mette tre cose: il reparto,
+**PalestreOS** — idea di Emanuele, nel suo Personal Brand dal 07/09 — e la rivendita del
+servizio, soprattutto le ads, alle palestre con cui ha a che fare lui. Tre economie diverse
+dentro un «noi» solo.
+
+Emanuele ha deciso di **non affrontarla adesso**: se ne riparla quando ci sono aggiornamenti.
+Quando si riapre, le domande sono tre, e la seconda e la terza hanno già un punto fermo:
+
+1. **PalestreOS** — Evolve è cliente, pilota o socio? È la sottotask *decidere se evolve è
+   cliente, pilota o vetrina*, mai risposta. Vincenzo non sa che il progetto è di Emanuele.
+2. **Le palestre che porta Vincenzo** — sono lavori a parte col loro prezzo, deciso il 13/09.
+   Resta da fissare cosa prende lui per portarle.
+3. **Il reparto** — fisso più variabile, con le tre domande preparate per il tavolo: il 10% è
+   per il reparto o a persona, quanto vale un iscritto, chi fa il servizio quando arriva la
+   seconda palestra.
 
 ### 2026-09-13 — La struttura si stringe, e Vincenzo guarda oltre Evolve
 Emanuele ha deciso che **la fee sullo speso pubblicitario non si chiede**. La scala al 15%

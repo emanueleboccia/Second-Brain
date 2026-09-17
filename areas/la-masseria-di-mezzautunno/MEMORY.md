@@ -2,6 +2,23 @@
 
 Aperto il 13/07/2026.
 
+## 16/09/2026 — Il conto alla rovescia a Zucche in Masseria, prime decisioni
+
+**Chiesti dalla Masseria:** video, backstage e storie prima dell'apertura del 26 settembre. **Idea di
+Emanuele:** un format «meno 9 giorni», un video al giorno a partire dal 17/09, col lavoro che si fa in
+quei giorni. Il piano giorno per giorno è ancora da decidere insieme. Quello che è già deciso:
+
+- **Esce sui profili di tutte e tre le pagine.**
+- **Gira Emanuele**, con l'iPhone e con gli occhiali Ray-Ban.
+- **Video parlati**, non solo testi e musica: interviste e momenti con chi lavora, fatti spiegare in modo
+  attivo e divertente. Semplici e veri, con gli operai e le zone ancora in lavorazione: si deve vedere il
+  lavoro che c'è dietro.
+- **I biglietti sono già in vendita su Clappit**, quindi la fase è «in vendita» del
+  [[areas/la-masseria-di-mezzautunno/reference/tono|tono di voce]]: la CTA va ai biglietti.
+
+⚠️ Coi video parlati vale la regola sul consenso: chi viene intervistato è d'accordo, e i bambini non
+compaiono senza liberatoria.
+
 ## 16/09/2026 — Zucche in Masseria nell'app di Slesh
 
 Rachele Vitarelli di **Slesh** ha condiviso un foglio per configurare l'evento nella loro app:
@@ -74,3 +91,11 @@ accenti e link.
 
 > Aggiornato il 26/08/2026: il vecchio sistema che documentava le cautele non si usa più, e il
 > rimando è stato tolto. La regola è in `docs/web-design/verifica-post-deploy.md`.
+
+## 16/09/2026 — Il parco delle zucche dall'alto
+
+Smistando il drone di `00-SCARICO/DJI` sull'SSD, **le undici clip del 19/10/2025** sono finite in
+`2-libreria/riprese-drone/2025-10-19-parco-delle-zucche/`: il parcheggio pieno, le balle di fieno, le zucche,
+i laboratori coi bambini. **Confermato da Emanuele: è il parco delle zucche della Masseria.** Il drone decolla
+dallo stesso punto di Mamma Rosaria, quindi a deciderlo sono state le immagini, non la posizione. Il
+metodo sta in [[docs/procedure/ordinare-un-evento|ordinare un evento]].

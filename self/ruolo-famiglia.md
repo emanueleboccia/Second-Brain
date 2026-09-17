@@ -7,7 +7,7 @@ tags:
   - ruolo
 status: attivo
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-17
 related:
   - "[[self/tariffario-famiglia]]"
   - "[[self/tariffario]]"
@@ -95,13 +95,19 @@ montaggio dei reel.
 |---|---|
 | Uscita serale o evento con fotocamera | 70 € |
 | Uscita serale o evento con fotocamera e drone | 90 € |
-| Montaggio reel da riprese | 30 € |
+| Montaggio reel da riprese | 35 € |
 | Pacchetto: uscita con fotocamera + montaggio di 2 reel | 120 € |
 
 ⚠️ **Cosa NON fa: i servizi foto e video venduti ai clienti dell'agriturismo.** I tre pacchetti
 fotografici li fa **Umberto Prisco**, videomaker esterno — riprese, montaggi e, dal 04/09/2026,
 anche gli album stampati. Deciso perché portavano via troppo tempo. Se una richiesta di questo
 tipo arriva a Emanuele, **la gira a Umberto**: non è lavoro suo.
+
+Su questo punto la proposta di collaborazione è superata. Il PDF diceva che Emanuele si sarebbe
+occupato personalmente dei tre pacchetti: riprese, montaggio e album stampato via Photosi. Gli
+album li aveva fatti lui, gli ultimi due, e portano via troppo tempo per quello che valgono. La
+ragione è la stessa che vale per tutto il resto: **prendersi la palla di un servizio che qualcun
+altro fa meglio e più in fretta vuol dire riempirsi di cose e sbagliarne qualcuna.**
 
 **Servizio nel registro:** `Contenuti e media`.
 

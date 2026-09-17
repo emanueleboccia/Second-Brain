@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--
+  Template del report social mensile. Scritto il 16/09/2026 per la prova di agosto di Da Mamma Rosaria.
+
+  Come si monta, ogni mese:
+  1. in una cartella di lavoro si copiano questo file come index.html, la cartella assets/ (font e logo
+     dal Brand kit del brand, sfondo a foglie bianco ridotto a 1240 px come foglie-bianco.jpg) e
+     la cartella img/ con le copertine dei tre contenuti migliori;
+  2. accanto si scrive dati.js, che definisce window.DATI con i numeri del mese: la forma è quella
+     del mese prima, e i campi che il template legge sono tutti qui sotto nello script;
+  3. si stampa con Chrome headless:
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu
+       --no-pdf-header-footer --virtual-time-budget=5000 --print-to-pdf=report.pdf file://…/index.html
+  Per guardare le pagine prima della stampa: stessa riga con --screenshot e --window-size=794,<1123 × pagine>,
+  aggiungendo ?schermo al file, che mette le pagine una sotto l'altra senza margini.
+  D-DIN non ha il segno meno (U+2212): nei numeri negativi si scrive il trattino breve «–», altrimenti
+  Chrome stampa quel carattere in Helvetica e nel PDF compare un font che non è del brand.
+-->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Report social</title>
+<style>
+  @font-face { font-family: 'DDIN'; src: url('assets/D-DIN.otf'); font-weight: 400; font-style: normal; }
+  @font-face { font-family: 'DDIN'; src: url('assets/D-DIN-Bold.otf'); font-weight: 700; font-style: normal; }
+  @font-face { font-family: 'DDIN'; src: url('assets/D-DIN-Italic.otf'); font-weight: 400; font-style: italic; }
+  @font-face { font-family: 'Brush'; src: url('assets/Regular Brush.otf'); }
+
+  :root {
+    --arancio: #F09D28;
+    --marrone: #774F03;
+    --crema: #FBF1DD;
+    --bianco: #FFFFFF;
+    --filo: rgba(119, 79, 3, 0.18);
+    --tenue: rgba(119, 79, 3, 0.62);
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bianco); }
+  body { font-family: 'DDIN', sans-serif; color: var(--marrone); font-size: 10.5pt; line-height: 1.38;
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .pagina { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 17mm 16mm 20mm;
+            page-break-after: always; break-after: page; background: var(--bianco); }
+  .pagina:last-child { page-break-after: auto; break-after: auto; }
+  .piede { position: absolute; left: 16mm; right: 16mm; bottom: 9mm; display: flex; justify-content: space-between;
+           font-size: 8pt; color: var(--tenue); border-top: 0.4pt solid var(--filo); padding-top: 2.5mm; }
+
+  /* titolo di pagina: occhiello in D-DIN Italic, una sola parola in Brush */
+  .testata { margin-bottom: 7mm; }
+  .testata .occhiello { font-style: italic; font-size: 13pt; display: block; margin-bottom: -2mm; }
+  .testata .brush { font-family: 'Brush'; color: var(--arancio); font-size: 46pt; line-height: 1; display: inline-block; padding-bottom: 3.5mm; }
+  .testata .sotto { font-size: 10pt; color: var(--tenue); margin-top: 0; }
+
+  h3 { font-weight: 700; font-size: 11pt; letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 3mm; }
+  p { margin: 0 0 2.5mm; }
+  .fonte { font-style: italic; font-size: 8pt; color: var(--tenue); margin-top: 2mm; }
+  .var { font-size: 8.5pt; color: var(--tenue); white-space: nowrap; }
+  .var b { color: var(--marrone); }
+
+  /* copertina */
+  .copertina { padding: 0; background: url('assets/foglie-bianco.jpg') center / cover no-repeat; }
+  .copertina .dentro { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 26mm 20mm 22mm; }
+  .copertina .logo { width: 105mm; height: 70mm; object-fit: contain; }
+  .copertina .centro { margin-top: 26mm; }
+  .copertina .occhiello { font-style: italic; font-size: 17pt; }
+  .copertina .mese { font-family: 'Brush'; color: var(--arancio); font-size: 104pt; line-height: 1.05; margin: 2mm 0 0; }
+  .copertina .anno { font-weight: 700; font-size: 30pt; letter-spacing: 0.08em; margin-top: -2mm; }
+  .copertina .periodo { font-size: 13pt; margin-top: 8mm; }
+  .copertina .lettura { position: absolute; bottom: 24mm; left: 30mm; right: 30mm; font-size: 9.5pt; color: var(--tenue); }
+  .copertina .canali { font-weight: 700; font-size: 9pt; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 2mm; color: var(--marrone); }
+
+  /* cinque numeri */
+  .cinque { display: grid; grid-template-columns: 1fr 1fr; gap: 11mm 8mm; margin-top: 4mm; }
+  .cinque .scheda:first-child { grid-column: 1 / -1; }
+  .scheda { border-top: 1.4mm solid var(--arancio); padding-top: 4mm; }
+  .scheda .numero { font-weight: 700; font-size: 46pt; line-height: 1; }
+  .cinque .scheda:first-child .numero { font-size: 70pt; }
+  .scheda .etichetta { font-weight: 700; font-size: 12.5pt; margin-top: 3mm; }
+  .scheda .dettaglio { font-size: 10.5pt; margin-top: 1.5mm; }
+
+  /* contatti */
+  .tre { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-bottom: 4mm; }
+  .grande { font-weight: 700; font-size: 34pt; line-height: 1; }
+  .blocco { border-top: 0.6pt solid var(--filo); padding-top: 5mm; margin-top: 6mm; }
+  .nd { font-weight: 700; font-size: 15pt; color: var(--arancio); }
+  .riquadro { background: var(--crema); padding: 4mm 5mm; margin-top: 6mm; font-size: 9.5pt; }
+
+  /* canali */
+  .metriche { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm 6mm; }
+  .metrica .valore { font-weight: 700; font-size: 24pt; line-height: 1.05; }
+  .metrica .nome { font-size: 9.5pt; }
+  .grafico { margin-top: 7mm; }
+  .grafico svg { width: 100%; height: 30mm; display: block; }
+  .grafico .titolo { font-size: 9pt; margin-bottom: 2mm; }
+  .grafico .giorni { display: flex; justify-content: space-between; font-size: 8pt; color: var(--tenue); margin-top: 1mm; }
+  .due { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; }
+  .barre .riga { display: grid; grid-template-columns: 17mm 1fr 12mm; align-items: center; gap: 2mm; font-size: 9pt; margin-bottom: 1.4mm; }
+  .barre .riga .b { height: 3mm; background: var(--arancio); }
+  .barre .riga .n { text-align: right; }
+  .elenco { font-size: 9.5pt; }
+  .elenco div { display: flex; justify-content: space-between; border-bottom: 0.4pt solid var(--filo); padding: 1mm 0; }
+  .follower { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; }
+  .follower .valore { font-weight: 700; font-size: 20pt; }
+
+  /* tabelle */
+  table { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+  th { text-align: left; font-weight: 700; font-size: 7.8pt; letter-spacing: 0.04em; text-transform: uppercase; padding: 1.4mm 1.2mm; border-bottom: 0.8pt solid var(--marrone); vertical-align: bottom; }
+  td { padding: 1.3mm 1.2mm; border-bottom: 0.4pt solid var(--filo); vertical-align: top; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  th.gruppo { text-align: center; border-bottom: 0.4pt solid var(--filo); }
+
+  /* migliori */
+  .migliori { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+  .migliore .foto { width: 100%; height: 62mm; object-fit: cover; display: block; }
+  .migliore .pos { font-weight: 700; font-size: 26pt; color: var(--arancio); line-height: 1; margin-top: 3mm; }
+  .migliore .titolo { font-weight: 700; font-size: 11pt; margin-top: 1mm; }
+  .migliore .quando { font-style: italic; font-size: 9pt; }
+  .migliore .numeri { font-size: 9pt; margin-top: 2mm; }
+  .frasi { margin-top: 8mm; font-size: 10.5pt; }
+  .frasi p { margin-bottom: 3.5mm; }
+
+  /* a schermo, per il controllo: pagine una sotto l'altra */
+  body.schermo .pagina { page-break-after: auto; }
+</style>
+</head>
+<body>
+<script src="dati.js"></script>
+<script>
+(function () {
+  if (location.search.indexOf('schermo') >= 0) document.body.classList.add('schermo');
+  const D = window.DATI;
+  const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const piede = n => `<div class="piede"><span>${esc(D.brand)} · Report social · ${esc(D.mese)} ${D.anno}</span><span>${n}</span></div>`;
+  const testata = (occhiello, brush, sotto) =>
+    `<div class="testata"><span class="occhiello">${esc(occhiello)}</span><span class="brush">${esc(brush)}</span>${sotto ? `<div class="sotto">${esc(sotto)}</div>` : ''}</div>`;
+  const variazione = v => v ? `<span class="var">${esc(v)}</span>` : '';
+  let n = 0, html = '';
+  const pagina = (classe, corpo, conPiede = true) => { n++; html += `<section class="pagina ${classe}">${corpo}${conPiede ? piede(n) : ''}</section>`; };
+
+  // 1. copertina
+  pagina('copertina', `<div class="dentro">
+      <img class="logo" src="assets/logo-orizzontale_colori.png" alt="">
+      <div class="centro">
+        <div class="occhiello">${esc(D.copertina.occhiello)}</div>
+        <div class="mese">${esc(D.mese)}</div>
+        <div class="anno">${D.anno}</div>
+        <div class="periodo">${esc(D.copertina.periodo)}</div>
+      </div>
+      <div class="lettura"><div class="canali">${esc(D.copertina.canali)}</div>${esc(D.copertina.lettura)}</div>
+    </div>`, false);
+
+  // 2. il mese in cinque numeri
+  pagina('', testata('il mese in cinque', 'numeri', D.cinque.sotto) +
+    `<div class="cinque">${D.cinque.schede.map(s => `<div class="scheda"><div class="numero">${esc(s.numero)}</div>
+       <div class="etichetta">${esc(s.etichetta)}</div><div class="dettaglio">${esc(s.dettaglio)}</div></div>`).join('')}</div>
+     <div class="fonte" style="margin-top:9mm">${esc(D.cinque.fonte)}</div>`);
+
+  // 3. chi ci ha contattato
+  const C = D.contatti;
+  pagina('', testata('chi ci ha', 'contattato', C.sotto) +
+    `<h3>${esc(C.google.titolo)}</h3>
+     <div class="tre">${C.google.voci.map(v => `<div><div class="grande">${esc(v.valore)}</div><div><b>${esc(v.nome)}</b></div>${variazione(v.var)}</div>`).join('')}</div>
+     <p>${esc(C.google.visti)}</p>
+     <div class="fonte">${esc(C.google.fonte)}</div>
+     <div class="blocco"><h3>${esc(C.messaggi.titolo)}</h3><div class="nd">${esc(C.messaggi.valore)}</div><p>${esc(C.messaggi.testo)}</p></div>
+     <div class="blocco"><h3>${esc(C.link.titolo)}</h3>${C.link.voci.map(v => `<p><b>${esc(v.canale)}:</b> ${esc(v.valore)}. ${esc(v.nota)}</p>`).join('')}</div>
+     <div class="riquadro">${esc(C.nota)}</div>`);
+
+  // 4 e 5. i canali
+  const barre = (valori, titolo) => {
+    const max = Math.max(...valori), w = 1000, h = 170, passo = w / valori.length, ba = passo * 0.72;
+    const rects = valori.map((v, i) => { const bh = max ? Math.max(2, v / max * h) : 2;
+      return `<rect x="${(i * passo + (passo - ba) / 2).toFixed(1)}" y="${(h - bh).toFixed(1)}" width="${ba.toFixed(1)}" height="${bh.toFixed(1)}" fill="#F09D28"/>`; }).join('');
+    return `<div class="titolo">${esc(titolo)}</div><svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">${rects}</svg>
+      <div class="giorni"><span>1</span><span>${Math.ceil(valori.length / 2)}</span><span>${valori.length}</span></div>`;
+  };
+  const canale = (K, brush) => pagina('', testata(K.occhiello, brush, K.sotto) +
+    `<div class="metriche">${K.metriche.map(m => `<div class="metrica"><div class="valore">${esc(m.valore)}</div><div class="nome">${esc(m.nome)}</div>${variazione(m.var)}</div>`).join('')}</div>
+     <div class="grafico">${barre(K.giornaliero.valori, K.giornaliero.titolo)}</div>
+     <div class="blocco"><h3>${esc(K.follower.titolo)}</h3><div class="follower">${K.follower.voci.map(v => `<div><div class="valore">${esc(v.valore)}</div><div class="nome">${esc(v.nome)}</div></div>`).join('')}</div></div>
+     <div class="blocco"><h3>${esc(K.pubblico.titolo)}</h3><p>${esc(K.pubblico.genere)}</p>
+       <div class="due"><div class="barre">${K.pubblico.eta.map(e => `<div class="riga"><span>${esc(e.fascia)}</span><span class="b" style="width:${(e.pct / Math.max(...K.pubblico.eta.map(x => x.pct)) * 100).toFixed(1)}%"></span><span class="n">${esc(e.testo)}</span></div>`).join('')}</div>
+       <div class="elenco">${K.pubblico.citta.map(c => `<div><span>${esc(c.nome)}</span><span>${esc(c.pct)}</span></div>`).join('')}</div></div></div>
+     <div class="fonte">${esc(K.fonte)}</div>`);
+  canale(D.instagram, 'instagram');
+  canale(D.facebook, 'facebook');
+
+  // 6. cosa abbiamo pubblicato
+  const P = D.pubblicato;
+  pagina('', testata('cosa abbiamo', 'pubblicato', P.sotto) +
+    `<h3>${esc(P.post.titolo)}</h3>
+     <table><thead><tr><th rowspan="2">Data</th><th rowspan="2">Contenuto</th><th rowspan="2">Formato</th><th colspan="3" class="gruppo">Instagram</th><th colspan="3" class="gruppo">Facebook</th></tr>
+       <tr><th class="n">Visualizz.</th><th class="n">Account</th><th class="n">Interaz.</th><th class="n">Visualizz.</th><th class="n">Account</th><th class="n">Interaz.</th></tr></thead>
+       <tbody>${P.post.righe.map(r => `<tr><td>${esc(r.data)}</td><td><b>${esc(r.titolo)}</b></td><td>${esc(r.formato)}</td>
+         <td class="n">${esc(r.ig[0])}</td><td class="n">${esc(r.ig[1])}</td><td class="n">${esc(r.ig[2])}</td><td class="n">${esc(r.fb[0])}</td><td class="n">${esc(r.fb[1])}</td><td class="n">${esc(r.fb[2])}</td></tr>`).join('')}</tbody></table>
+     <div class="fonte">${esc(P.post.fonte)}</div>
+     <div class="blocco"><h3>${esc(P.collaborazioni.titolo)}</h3><p>${esc(P.collaborazioni.testo)}</p>
+     <table><thead><tr><th>Data</th><th>Contenuto</th><th>Formato</th><th class="n">Visualizz.</th><th class="n">Account</th><th class="n">Interaz.</th></tr></thead>
+       <tbody>${P.collaborazioni.righe.map(r => `<tr><td>${esc(r.data)}</td><td>${esc(r.titolo)}</td><td>${esc(r.formato)}</td><td class="n">${esc(r.ig[0])}</td><td class="n">${esc(r.ig[1])}</td><td class="n">${esc(r.ig[2])}</td></tr>`).join('')}</tbody></table></div>
+     <div class="blocco"><h3>${esc(P.storie.titolo)}</h3>${P.storie.righe.map(t => `<p>${esc(t)}</p>`).join('')}</div>`);
+
+  // 7. cosa ha funzionato
+  const M = D.migliori;
+  pagina('', testata('cosa ha', 'funzionato', M.sotto) +
+    `<div class="migliori">${M.schede.map((s, i) => `<div class="migliore"><img class="foto" src="${esc(s.img)}" alt="">
+       <div class="pos">${i + 1}</div><div class="titolo">${esc(s.titolo)}</div><div class="quando">${esc(s.quando)}</div>
+       <div class="numeri">${s.numeri.map(x => `<div>${esc(x)}</div>`).join('')}</div></div>`).join('')}</div>
+     <div class="frasi">${M.frasi.map(f => `<p>${esc(f)}</p>`).join('')}</div>`);
+
+  // 8. il confronto
+  const K = D.confronto;
+  pagina('', testata('i numeri a', 'confronto', K.sotto) +
+    `${K.testo.map(t => `<p>${esc(t)}</p>`).join('')}
+     <table style="margin-top:5mm"><thead><tr><th>Numero</th><th class="n">${esc(K.colonne[0])}</th><th class="n">${esc(K.colonne[1])}</th><th>Rispetto a</th></tr></thead>
+       <tbody>${K.righe.map(r => `<tr><td>${esc(r[0])}</td><td class="n"><b>${esc(r[1])}</b></td><td class="n">${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join('')}</tbody></table>
+     <div class="blocco"><h3>Note sulle fonti</h3>${K.note.map(t => `<p class="elenco" style="display:block">${esc(t)}</p>`).join('')}</div>`);
+
+  document.body.insertAdjacentHTML('beforeend', html);
+})();
+</script>
+</body>
+</html>

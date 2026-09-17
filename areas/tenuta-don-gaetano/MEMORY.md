@@ -99,3 +99,11 @@ Controllati con l'impronta dei file e, per le immagini, pixel per pixel:
 - **`01 LOGHI/1.png` e `2.png` restano.** Sono lo stesso logo su oro e su marrone, coi colori esatti
   della palette, ma impaginato diversamente dai file col nome: non sono doppioni. Il Leggimi della
   cartella non li cita.
+
+## 16/09/2026 — Nove riprese col drone in libreria
+
+Smistando il drone di `00-SCARICO/DJI` sull'SSD sono uscite **nove clip della Tenuta**, girate il 10/06/2025:
+la facciata, il giardino, il tetto dall'alto e la vista sul Vesuvio. Stanno in `2-libreria/riprese-drone/`,
+accanto alle esportazioni dell'app DJI Fly dello stesso giorno. ⚠️ **Due sono lo stesso girato**: `0014` e
+`0015` ci sono sia originali sia esportati dall'app. Il metodo sta in
+[[docs/procedure/ordinare-un-evento|ordinare un evento]].

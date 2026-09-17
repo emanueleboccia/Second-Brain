@@ -37,3 +37,14 @@ compra siti.
 - **Il personal brand non si ripaga in clienti diretti nel primo anno.** Aspettarselo è il modo
   di dichiararlo fallito a gennaio. Il primo segnale vero è un cliente che dice «ho visto il
   video».
+
+## Il sito vecchio si registra prima di rifarlo — 16/09/2026
+
+**Deciso da Emanuele:** quando rifà un sito, le registrazioni dello schermo di quello vecchio si
+fanno finché si può, e si tengono tutte. Il «prima» di un sito sparisce il giorno in cui va online
+il nuovo: senza, non c'è né il confronto sezione per sezione né un numero da mettere accanto al
+dopo. È la regola dei tre minuti del gesto vecchio di [[projects/personal-brand/lancio|il lancio]],
+applicata a uno schermo.
+
+Il primo è Difendo Alarm. I file vanno sull'SSD in `04-PERSONAL-BRAND/1-girato/<progetto>/`, come
+il resto del girato di [[docs/procedure/produzione-contenuti|produzione contenuti]].

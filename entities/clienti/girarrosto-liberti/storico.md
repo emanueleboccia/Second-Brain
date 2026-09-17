@@ -7,7 +7,7 @@ tags:
   - girarrosto-liberti
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-16
 ---
 
 # Storico — Girarrosto Liberti
@@ -19,6 +19,11 @@ Chi è il cliente e cosa gli è stato costruito sta in
 [[entities/clienti/girarrosto-liberti/scheda|scheda]]; il caso, con la situazione di partenza e
 l'esito, in [[docs/casi/girarrosto-liberti|ricettario]]. Qui c'è solo cosa è successo, dal più
 recente in cima.
+
+### 2026-09-16 — Incontrato Girarrosto La Signora
+Il secondo referral di Marco è diventato una trattativa: primo incontro di persona e proposta a voce per un
+sistema come questo in ciascuno dei loro due locali. Tutto in
+[[entities/clienti/girarrosto-la-signora/storico|storico di La Signora]].
 
 ### 2026-09-14 — Pasquale non è un cliente adatto
 Incontro di persona alle 15:30, registrato su Granola:

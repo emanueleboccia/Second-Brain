@@ -625,3 +625,87 @@ sistemarle è Claude, sempre allo stesso modo. Il metodo sta in
   fotografo che stanno nelle stesse cartelle.
 - **Le storie dei 40 anni già programmate dal 17 al 30 settembre hanno ancora il colore vecchio.**
 
+
+## 16/09/2026 — Il drone smistato, e la musica delle storie è finita
+
+**Il drone di `00-SCARICO/DJI` è stato smistato**, 146 file fra Mamma Rosaria, Tenuta e Masseria più 20 doppioni, col metodo
+scritto in [[docs/procedure/ordinare-un-evento|ordinare un evento]]. A Mamma Rosaria sono entrate le riprese
+dall'alto di nove feste, fra giugno 2025 e luglio 2026, più la location di giorno e di notte e venti foto
+aeree della proprietà.
+
+- **Stanno tutte in `2-libreria/riprese-drone/`**, deciso da Emanuele: quando serve una ripresa dal drone si
+  va lì. Una cartella per sessione, e le feste hanno il nome `AAAA-MM-GG-descrizione`, che Emanuele ha
+  approvato così: la festa con l'arco di palloncini del 19/06/2025, lo spettacolo di sera del 20/06/2025 e del
+  24/06/2026, la festa al tramonto del 28/06/2025, la passerella rosa e blu del 05/07/2025, la festa unicorno
+  del 04/08/2025, la sirenetta del 09/09/2025, i gonfiabili del 18/04/2026, la festa in giardino del 28/07/2026.
+- **Venti file erano doppioni** di quelli già archiviati, quasi tutti le riprese della serata di beneficenza:
+  stanno in `00-SCARICO/DJI/_doppioni-gia-archiviati` e li cancella Emanuele. Le sedici clip rimaste in
+  `00-SCARICO/DJI` — Pasquetta 2026, l'incendio sul Vesuvio, tre decolli — le archivia lui.
+
+**Montato il pacchetto «La laurea di Gaetano»**, quattro storie dal cibo: il crudo appeso, la mozzarella filata,
+il pentolone di notte, gli amari col cartello «'O meglio vene sempe 'a fine». Il dettaglio sta in
+`pacchetti.md` sull'SSD.
+
+⚠️ **Delle otto tracce di Meta non resta abbastanza musica per un altro pacchetto.** Restano sei pezzi mai
+usati, tutti di due tracce sole, e un pacchetto ne vuole tre o quattro diverse. Già in questo, due storie
+riprendono pezzi assegnati ad altre non ancora uscite. Servono tracce nuove, scelte da Emanuele.
+
+**Due regole nuove per le storie clip, dette da Emanuele lo stesso giorno:**
+
+- **Si usa tutto il girato, una clip una volta sola.** Da ogni evento escono tante clip veloci, e dal 40 anni di
+  Consiglia e dal battesimo di Angela ce ne sono ancora molte: nessuna clip già usata in una storia, pubblicata,
+  programmata o in un pacchetto, si riprende.
+- **La musica la sceglie Claude, sempre diversa.** «Lo stile ormai lo conosci, è quello»: sottofondi alla Pino
+  Daniele dalla Raccolta audio di Meta, come in [[areas/da-mamma-rosaria/reference/reel|reel]]. Supera la regola
+  del 14/09 per cui le tracce le sceglieva Emanuele fra gli esempi, ma solo per le storie.
+
+## 16/09/2026 — Le storie clip sono la base, le grafiche un di più
+
+**Detto da Emanuele:** le storie clip sono la base delle storie, «sono stupende». Le storie grafiche — servizio
+e recensione — sono un plus, e vanno messe **in mezzo alle clip**, non al loro posto. Da qui si tengono sempre
+distinte: nei registri, nel calendario e quando se ne parla. Un giorno coperto solo da una grafica non è un
+giorno coperto.
+
+- I due registri restano separati in `4-pubblicati/2026-09/storie/`: `storie-clip.md` per le clip,
+  `storie-servizio.md` e `storie-recensione.md` per le grafiche.
+- **Sette storie recensione nuove**, da recensioni Google vere accorciate e mai riscritte, sul template del
+  Brand kit. Si programmano alle 20:00 nei giorni che hanno già una storia clip alle 13:00: 17, 20, 23, 26,
+  28, 29 e 30 settembre. Il dettaglio, con le esclusioni, sta in `storie-recensione.md`.
+
+## 16/09/2026 — Il report dei social a fine mese
+
+**Chiesto da Emanuele:** ogni fine mese un report generale in PDF, salvato su Drive in
+`98 Social/03 report/AAAA-MM/`, con le analitiche dei profili, tutto quello che è stato pubblicato — post,
+storie, tutto — e i dati più pratici, a partire da **quante persone ci hanno contattato**. Il primo è quello di
+settembre 2026.
+
+- **Il come sta nella skill** `code/skills/report-social/`, **il quando nel `CLAUDE.md` di radice**: l'ultimo
+  giorno del mese, dopo il briefing. La definizione di fatto è
+  [[docs/definizioni/report-social|report social]].
+- **I contatti si possono contare**, da tre fonti: le conversazioni nuove in Posta di Business Suite, divise fra
+  Instagram e Messenger; chiamate, indicazioni e clic sul sito dal «Rendimento» del profilo Google, che il
+  16/09 diceva 4.996 interazioni e aveva pronto il report di agosto; i clic sul link del profilo. **WhatsApp e
+  le telefonate dirette non si misurano** da nessuno strumento collegato.
+- Nel report non entrano nomi né testi di chi ha scritto: si contano le conversazioni.
+- Il riferimento di cosa si guardava prima è `03 report/2026-03`, dieci schermate delle statistiche di
+  Instagram prese dal telefono: visualizzazioni, account raggiunti, follower guadagnati e persi, visite al
+  profilo, clic sul link e sull'indirizzo, città ed età.
+- Il 16/09/2026 i follower erano **6.830 su Instagram e 3.015 su Facebook**.
+
+## 16/09/2026 — La prova del report su agosto
+
+**Chiesta da Emanuele** per vedere il report prima del primo vero di fine settembre. Il PDF di otto pagine è su
+Drive in `98 Social/03 report/2026-08/`, coi CSV in `dati/`, e la riga del mese è in
+[[data/social-mensile|social mensile]].
+
+- **Ad agosto il contatto che si misura è Google:** 69 chiamate (+176% su agosto 2025), 123 richieste di
+  indicazioni e 79 clic sul sito dal profilo.
+- **I messaggi non si sono potuti contare.** Le statistiche dei messaggi di Business Suite danno zero su
+  Instagram e Messenger, e non è vero; l'elenco della Posta con Chrome in secondo piano non carica. Per
+  contarli serve Chrome davanti per qualche minuto.
+- **I cinque post in collaborazione per Zucche in Masseria**, pubblicati da Agenzia di Eventi e Spettacoli,
+  hanno 47.412 visualizzazioni al 16/09: più del doppio degli otto post nostri messi insieme, 21.324. I giorni
+  in cui sono usciti sono i cinque con più visualizzazioni e interazioni di agosto su Instagram.
+- I tre post nostri più visti: Sala Legno, il tavolo dei dolci, il reel della laurea di Gaetano.
+- **Approvato da Emanuele lo stesso giorno: «il report va benissimo».** Da settembre si parte da questo
+  template, con le stesse otto pagine, senza ridisegnarlo.

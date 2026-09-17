@@ -23,7 +23,8 @@ related:
 ## Dove arriva il materiale
 
 Sull'SSD, in `1-eventi/<tipo-evento>-<nome>/`: `battesimo-angela`, `compleanno-maria-rosaria`,
-`30-anni-pasquale-boccia`. Minuscolo, parole separate da trattini, il nome della persona per ultimo.
+`30-anni-pasquale-boccia`. Minuscolo, parole separate da trattini, il nome della persona per ultimo. È il primo
+dei quattro stati di [[docs/procedure/produzione-contenuti|produzione contenuti]]: qui il girato è ancora crudo.
 
 ## Le cartelle
 
@@ -63,7 +64,9 @@ clip non si rinominano, non si convertono e non si ricomprimono: l'SSD tiene il 
    se una scelta è sbagliata si torna indietro senza cercare a mano.
 3. **Si contano i file prima e dopo.** Il totale deve tornare: nessuna clip persa, nessuna duplicata.
 4. **Si aggiornano i riferimenti** nelle note che citano i percorsi: `storie-clip.md` e `pacchetti.md`
-   sull'SSD, e i `caption.md` dei contenuti già pubblicati.
+   sull'SSD, e i `caption.md` dei contenuti già pubblicati, quelli archiviati come dice
+   [[docs/procedure/pubblicare-un-post|pubblicare un post]]. Le storie montate da queste cartelle seguono
+   [[areas/da-mamma-rosaria/reference/reel|le regole dei reel]] per musica e colore.
 
 ## Il colore, che dipende dall'evento
 
@@ -96,6 +99,29 @@ neutra era spenta: quella giusta è la via di mezzo.
 
 **Per tutti gli altri eventi basta la nitidezza**, `cas=strength=0.4`, e `0.2` sulle clip di notte,
 dove la nitidezza tira fuori il rumore.
+
+## Il drone
+
+Il girato del DJI Mini 4 Pro arriva in `00-SCARICO/DJI` sull'SSD, spesso di più brand insieme. I nomi sono
+`DJI_<data e ora>_<numero>_D.MP4`, quindi la data di ripresa sta già nel nome. Si smista così, ed è il metodo
+usato il 16/09/2026 su 182 file:
+
+1. **Prima i doppioni.** Un file con lo stesso nome e la stessa dimensione già archiviato dentro un brand va in
+   `00-SCARICO/DJI/_doppioni-gia-archiviati`. Non si cancella: lo decide Emanuele.
+2. **Il brand dalla posizione.** Nei video il flusso «DJI meta» contiene latitudine e longitudine **in
+   radianti**, come double a 9 byte di distanza; nelle foto sta nell'EXIF. ⚠️ **Da solo non basta:** la
+   Tenuta decolla a circa 450 metri da Mamma Rosaria, ma Mamma Rosaria e la Masseria decollano dallo stesso
+   punto. Il GPS separa la Tenuta, il resto lo decide il fotogramma.
+3. **Un provino per giorno di ripresa**, con un fotogramma a metà di ogni clip.
+4. **Tutto in `2-libreria/riprese-drone/`**, in ogni brand. Deciso da Emanuele il 16/09/2026: quando serve una
+   ripresa dal drone, si va a prenderla in un posto solo. Dentro, una cartella per sessione: le feste col
+   nome `AAAA-MM-GG-descrizione`, la location in `location-di-giorno` e `location-di-notte`, le foto in
+   `foto-aeree`. ⚠️ **Fa eccezione il drone di un evento che ha già la sua cartella in `1-eventi`**, col girato
+   della camera: quello resta in `06-dall-alto` dentro l'evento, perché fa parte di quella serata.
+5. **Quello che non appartiene a nessun brand resta in `00-SCARICO/DJI`**, e si chiede: le prove di volo, le
+   riprese personali, quello che non si capisce.
+
+Il manifesto dello spostamento sta in `00-SCARICO/DJI/_manifesti/`, come per gli eventi.
 
 ## Definizione di fatto
 

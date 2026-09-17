@@ -175,7 +175,8 @@ il materiale: si scarica e basta.
 userai mai.
 
 **2 · Si smista per evento.**
-Dal scarico a `<brand>/1-eventi/nome-evento/`, con le sottocartelle per argomento se sono tante.
+Dal scarico a `<brand>/1-eventi/nome-evento/`, con le sottocartelle per argomento se sono tante. Come si
+dividono le cartelle, e come si smista il drone, sta in [[docs/procedure/ordinare-un-evento|ordinare un evento]].
 → *È fatto quando* `00-SCARICO` è di nuovo vuoto e ogni file ha un brand.
 
 **3 · Si sceglie il buono.**

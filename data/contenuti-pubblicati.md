@@ -6,7 +6,7 @@ tags:
   - contenuti
 status: da-compilare
 created: 2026-09-01
-updated: 2026-09-15
+updated: 2026-09-16
 related:
   - "[[self/reference/caption]]"
 ---
@@ -15,6 +15,9 @@ related:
 
 > Le prime righe sono del 14/09/2026 e vengono dai brand di famiglia: il profilo del personal
 > brand non è ancora partito. I numeri li dà Emanuele.
+>
+> Le tre righe di agosto sono i contenuti migliori del primo [[data/social-mensile|report social mensile]],
+> del 16/09/2026: da lì in avanti ogni report porta qui i suoi tre.
 
 **A cosa serve:** un contenuto che ha funzionato è materiale da rifare, non da archiviare.
 Senza questo file, fra tre mesi non si saprà quale dei venti post pubblicati valeva la
@@ -38,6 +41,9 @@ Qui entra solo quello che è uscito davvero.
 
 | Data | Canale | Formato | Argomento | Numeri | Cosa ho capito |
 |---|---|---|---|---|---|
+| 07/08/2026 | Da Mamma Rosaria · Instagram, Facebook | reel, 1 minuto e 14 secondi | La festa di laurea di Gaetano · [Instagram](https://www.instagram.com/reel/Dbv4rsODLOZ/) | Instagram 3.064 visualizzazioni, 1.716 account raggiunti, 22 interazioni · Facebook 1.376 visualizzazioni, 464 account, 1 interazione · letti il 16/09/2026, terzo del report di agosto per visualizzazioni e primo dei nostri per account raggiunti | |
+| 15/08/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello fotografico | Il tavolo dei dolci · [Instagram](https://www.instagram.com/p/DcEfDaUoNix/) | Instagram 3.231 visualizzazioni, 1.382 account raggiunti, 25 interazioni · Facebook 660 visualizzazioni, 404 account, 4 interazioni · letti il 16/09/2026, secondo del report di agosto | |
+| 27/08/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello fotografico | Sala Legno · [Instagram](https://www.instagram.com/p/DcjYxB5j0xr/) | Instagram 3.516 visualizzazioni, 1.516 account raggiunti, 29 interazioni · Facebook 1.135 visualizzazioni, 664 account, 8 interazioni · letti il 16/09/2026, primo del report di agosto | |
 | 14/09/2026 | Da Mamma Rosaria · Instagram, Facebook, TikTok | carosello fotografico, 4 foto | Il Primo Brindisi, l'aperitivo di benvenuto · [Instagram](https://www.instagram.com/p/DdRu21CiSyy/) · [Facebook](https://www.facebook.com/303931159061307/posts/1074592118661870) · [TikTok](https://tiktok.com/@damammarosaria/video/7685452637289975072) | da leggere | |
 | 14/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo alla brace, tre clip dalla festa dei 40 anni, musica Italian Summer · la prima del pacchetto storie | da leggere | |
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | La frittura, due clip dalla serata della pizza, musica Sol En La Guitarra · la prima delle quattro uscite insieme da Business Suite | da leggere | |

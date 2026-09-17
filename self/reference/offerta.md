@@ -7,7 +7,7 @@ tags:
   - offerta
 status: attivo
 created: 2026-08-21
-updated: 2026-08-27
+updated: 2026-09-16
 related:
   - "[[self/tariffario]]"
   - "[[self/reference/brand]]"
@@ -54,6 +54,14 @@ Evolve non sono ancora chiari il ruolo esatto di Emanuele, lo stato del progetto
 soci; del sistema auto non c'è niente oltre l'intenzione. Sono progetti documentati dal brand, ma
 finché quei dettagli non sono scritti **non si nominano in un contenuto pubblico**: sbagliare il
 proprio ruolo dentro un progetto con altri è l'errore che non si recupera.
+
+**Sul sistema per l'auto, il 16/09/2026.** Emanuele ci sta lavorando, e ha guardato il mercato in zona:
+**una concessionaria ogni cento metri e nessuna con un sito fatto bene**, e da fuori non si capisce come
+gestiscano il lavoro. Nessun concorrente forte in vista. Il modo di comunicarlo lo prende da un
+gestionale per palestre, [Golee](../../sources/riferimenti/golee-gestionale-sportivo.md). Cosa fa il sistema
+resta da scrivere, ed è la condizione per nominarlo. **I tre sistemi hanno la stessa base**, detto da Emanuele lo stesso giorno: food, palestre e auto usano
+lo stesso linguaggio di programmazione e più o meno lo stesso impianto. Il codice del sistema per l'auto lo
+fa leggere lui, e da lì si parte per la brand identity.
 
 ## Chi la consegna
 

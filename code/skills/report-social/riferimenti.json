@@ -1,0 +1,55 @@
+{
+  "_nota": "I dati che cambiano per la skill report-social. Compilato il 16/09/2026 leggendo Business Suite, il profilo Google e Drive dal Chrome e dal Mac di Emanuele. Se un id smette di rispondere, la skill lo dice e chiede quello nuovo: non cerca a tentoni.",
+  "brand": {
+    "da-mamma-rosaria": {
+      "nome": "Da Mamma Rosaria",
+      "meta_business_suite": {
+        "asset_id": "104507862196317",
+        "business_id": "2883775528597802",
+        "insights_risultati": "https://business.facebook.com/latest/insights/results?asset_id=104507862196317&business_id=2883775528597802",
+        "_nota_insights": "La piattaforma si cambia dal selettore in alto a sinistra (Facebook / Instagram), il periodo dal selettore delle date. Le schede sono Panoramica, Risultati, Pubblico, Contenuti. Accanto a ogni grafico c'è «Esporta». Il 16/09/2026, ultimi 28 giorni: Instagram 142.944 visualizzazioni, 4.674 account raggiunti, 1.721 interazioni, 1.675 visite al profilo, 130 follow.",
+        "_nota_csv_risultati": "Provato il 16/09/2026. Chrome blocca i download multipli da business.facebook.com, e dopo il primo gli «Esporta come csv» delle schede non arrivano in Download. Il CSV però lo genera la pagina: si aggancia URL.createObjectURL da console, si fa clic su Esporta → Esporta come csv, e il blob si legge in UTF-16. Si riscrive in dati/ e si controlla che i byte e la somma dei giorni tornino con la scheda. La copertura giornaliera non si somma: il numero del mese è quello unico della scheda.",
+        "_nota_pubblico": "Pubblico → Dati demografici è sempre «in totale», non si filtra per mese. Pubblico → Tendenze col mese scorso dà follow e persone che hanno smesso di seguire.",
+        "_nota_clic_link": "Il 16/09/2026 i clic sul link di Instagram segnavano zero ad agosto e a luglio: si scrive non disponibile. Quelli di Facebook a luglio c'erano, quindi uno zero lì è vero.",
+        "pubblicati": "https://business.facebook.com/latest/posts/published_posts?asset_id=104507862196317&business_id=2883775528597802",
+        "esporta_contenuti": "https://business.facebook.com/latest/insights/content?business_id=2883775528597802&asset_id=104507862196317&time_range=%2522LAST_MONTH%2522&platform=Instagram",
+        "_nota_esporta_contenuti": "Insights → Contenuti → «Esporta dati». Scheda Instagram: account damammarosaria, una volta livello Post e una Storie. Scheda Facebook: Pagina Da Mamma Rosaria, livello Post, metriche Pubblicazione e Prestazioni. «Genera», poi «Scarica esportazione»: il file arriva dal CDN e Chrome lo lascia passare. Gli orari sono sull'ora del Pacifico, nove ore indietro d'estate. I post in collaborazione compaiono con il nome utente dell'altro account (ad agosto 2026 funnyshow_spettacoli, Zucche in Masseria): si elencano a parte. Le storie di Facebook non hanno insight: il banner «Attiva insight sulle storie» è un'impostazione della Pagina e non si tocca senza Emanuele.",
+        "_nota_pubblicati": "Lo storico parte filtrato sugli ultimi 90 giorni, e con Chrome nascosto non carica altre righe scorrendo: si sblocca con una schermata dopo ogni scorrimento.",
+        "calendario": "https://business.facebook.com/latest/content_calendar?asset_id=104507862196317&business_id=2883775528597802",
+        "home": "https://business.facebook.com/latest/home?asset_id=104507862196317&business_id=2883775528597802",
+        "_nota_home": "I follower totali dei due profili stanno in cima alla Home. Il 16/09/2026: Facebook 3.015, Instagram 6.830.",
+        "insights_messaggi": "https://business.facebook.com/latest/insights/messaging/?business_id=2883775528597802&asset_id=104507862196317&time_range=%2522LAST_MONTH%2522&platform=Instagram",
+        "_nota_messaggi": "Il 16/09/2026 le Prestazioni dei messaggi segnavano zero conversazioni ad agosto su Instagram e Messenger, mentre nella Posta di Instagram le conversazioni c'erano: quel numero non vale. Si contano dalla Posta: ogni riga dell'elenco ha un abbr.timestamp con data-utime, l'ultima attività della conversazione. Con Chrome in secondo piano l'elenco non carica oltre la prima pagina nemmeno scorrendo: serve Chrome davanti, e aprendo la Posta la prima conversazione si apre da sola e risulta letta. L'Instagram web di questo Chrome è collegato a bocciaworks: non si usa per Mamma Rosaria."
+      },
+      "google": {
+        "id_profilo": "4430868132793612629",
+        "recensioni": "https://www.google.com/local/business/4430868132793612629/customers/reviews?hl=it",
+        "rendimento": "https://www.google.com/local/business/4430868132793612629/promote/performance?from=AAAA-MM&to=AAAA-MM&tab=1&hl=it — funziona aperto direttamente, anche con Chrome nascosto. tab=1 panoramica (interazioni, persone che hanno visto il profilo, piattaforme), tab=2 chiamate, tab=5 indicazioni stradali, tab=6 clic sul sito. Ogni scheda ha la tabella giorno per giorno nel testo della pagina.",
+        "_nota": "Provato il 16/09/2026. Il vecchio indirizzo /performance risponde 404, e dal riquadro della ricerca le schede non cambiano con Chrome nascosto: si usa l'indirizzo qui sopra. I numeri grandi si animano: si leggono dopo quattro secondi, o si legge 171 invece di 271. Il confronto che Google mostra è con lo stesso mese dell'anno prima."
+      },
+      "drive": {
+        "cartella_report": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/DA MAMMA ROSARIA/98 Social/03 report",
+        "_nota_cartella": "Una sottocartella per mese, AAAA-MM. C'è già 2026-03, con le schermate delle statistiche di Instagram prese dal telefono: sono il riferimento di cosa si guardava prima di questa skill. Dal 16/09/2026 c'è 2026-08, la prova: PDF e CSV in dati/, più letture-dalle-schede.csv per i numeri letti a schermo.",
+        "font": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/DA MAMMA ROSARIA/04 Brand kit/03 FONT",
+        "loghi": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/DA MAMMA ROSARIA/04 Brand kit/01 LOGHI"
+      },
+      "ssd": {
+        "pubblicati": "/Volumes/SSD-MANU/01-DA-MAMMA-ROSARIA/4-pubblicati",
+        "registri_storie": [
+          "storie/storie-clip.md",
+          "storie/storie-servizio.md",
+          "storie/storie-recensione.md"
+        ],
+        "_nota_storie": "Dentro 4-pubblicati/AAAA-MM/. Le clip sono la base, servizio e recensione le grafiche: nel report si contano separate."
+      },
+      "design": "areas/da-mamma-rosaria/reference/design.md",
+      "canone_post_mese": 8,
+      "_nota_canone": "Dal tariffario dei brand di famiglia, 300 € al mese da settembre 2026. Il conteggio rispetto al canone va nel messaggio a Emanuele, non nel PDF.",
+      "template": "code/skills/report-social/template.html, con prepara_dati.py accanto: lo script di agosto 2026 che legge i CSV di dati/ e scrive dati.js. I titoli dei post e le frasi cambiano ogni mese, i controlli restano."
+    }
+  },
+  "vault": {
+    "numeri_mensili": "data/social-mensile.md",
+    "_nota_numeri": "Una tabella per brand, una riga per mese. Si crea al primo report, col frontmatter del vault."
+  }
+}

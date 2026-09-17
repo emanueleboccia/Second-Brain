@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-16
 related:
   - "[[entities/clienti/ragosta/scheda]]"
   - "[[sources/call/2026-09-04-gaetano-ragosta]]"
@@ -80,3 +80,16 @@ Incontro fra il 15 e il 17 settembre — data da confermare, proposta a scelta c
 Lì: intervista sui lavori migliori, consegna del materiale, fattura di acconto. Lui parte per
 la Sicilia intorno all'8 per chiudere la contabilità dei cantieri Terna e Siemens, e sta fuori
 fino a una settimana.
+
+## 2026-09-14 — Sentito al rientro, incontro non fissato
+
+Prima risposta dopo la Sicilia. Dice di aggiornarsi per fissare l'inizio del progetto, e che se si
+parte questo mese lo tiene come prioritario. Poi «sì sì», e da lì non risponde più.
+
+Non è un no, ed è lo stesso schema della questione dominio: conferma a voce e non muove il pezzo.
+Il lavoro resta venduto e confermato per iscritto il 04/09 — quello che manca non è la decisione,
+è il materiale e una data.
+
+### Prossimo passo — aggiorna quello del 04/09
+
+La finestra 15–17 settembre si chiude il 17 senza che l'incontro sia stato fissato.

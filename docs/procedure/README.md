@@ -43,3 +43,5 @@ Quando una procedura ha una definizione di fatto stabile, la si porta in
 
 > **Stato al 01/09/2026:** cartella creata, contenuti da scrivere. Nessuna procedura è
 > stata inventata: si scriveranno una alla volta, partendo da quelle già fatte due volte.
+- [[docs/procedure/ordinare-un-evento|ordinare un evento]] — come si sistema il girato di un evento
+  sull'SSD, e come si smista il drone fra i brand.

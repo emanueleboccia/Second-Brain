@@ -138,6 +138,27 @@ Girarrosto 0 € (caso studio). Entrambi stavano nella seconda riga della tabell
 - **Prezzo:** ⚠️ **mai messo a listino, da definire.** Il mercato freelance sta a 300–500 €.
   Venduto dentro il pacchetto Ragosta senza una voce sua.
 
+### Brand identity completa
+- **Prezzo:** **400 €** — deciso da Emanuele il 16/09/2026, «intera, fatta bene».
+- **Cosa contiene:** il sistema visivo del brand — colori, caratteri, regole d'uso.
+- ⚠️ **Sta sotto il prezzo del solo logo**, che il mercato freelance mette a 300–500 €, e
+  l'identity di solito il logo lo contiene. Il numero è suo e vale: la nota serve perché la
+  prossima volta che si guarda questa riga si sappia che è sotto, e sia una scelta.
+- **Consegnata a Sistema Evolve** nel primo mese di reparto, senza una voce a preventivo.
+
+### Video per le campagne
+- **Prezzo:** ⚠️ **da definire.** Chiesto a Emanuele il 16/09/2026, non lo sa ancora.
+- **Il dato che serve per fissarlo:** quanto costa il collaboratore che li monta. È lo stesso
+  numero che manca alla task *trovare un video editor*, dove la domanda aperta è se il costo
+  entra nei 250 €/mese dei brand di famiglia o esce come voce a listino. Una risposta chiude
+  tutte e due.
+- **Riferimento reale:** tre video girati per le campagne di Sistema Evolve, montati da Karim.
+
+### Contenuti organici
+- **Prezzo:** ⚠️ **da definire.** Chiesto a Emanuele il 16/09/2026, non lo sa ancora.
+- Si prezza al pezzo o a pacchetto mensile, e la scelta va fatta prima del lancio di ottobre:
+  è la voce che il personal brand venderà più spesso.
+
 ## Hosting e assistenza
 
 ### Hosting siti

@@ -7,7 +7,7 @@ tags:
   - girarrosto-liberti
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-16
 ---
 
 # Scheda — Girarrosto Liberti
@@ -59,7 +59,8 @@ eventi in ordine in [[entities/clienti/girarrosto-liberti/storico|storico]].
 - **Chi me l'ha mandato:** nessuno — è un amico.
 - **Chi ha mandato lui:** **tre contatti, il 13/09/2026, senza che gli fossero chiesti.**
   - **Girarrosto La Signora**, due locali degli stessi proprietari, interessati allo stesso
-    sistema costruito qui.
+    sistema costruito qui. **Incontrati il 16/09/2026**, con proposta a voce per i due sistemi: il
+    seguito sta nella loro [[entities/clienti/girarrosto-la-signora/scheda|scheda]].
   - **Pasquale**, rivenditore Amadori per quanto Emanuele ha capito. Ha chiamato lui, non ha
     voluto parlarne al telefono e ha chiesto di vedersi: incontro il 14/09/2026 alle 15:30.
     **Non è un cliente adatto**, giudizio di Emanuele dopo l'incontro: cercava qualcuno per le

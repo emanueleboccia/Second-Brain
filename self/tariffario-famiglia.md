@@ -7,7 +7,7 @@ tags:
   - famiglia
 status: attivo
 created: 2026-09-04
-updated: 2026-09-14
+updated: 2026-09-16
 related:
   - "[[self/tariffario]]"
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
@@ -278,18 +278,9 @@ all'attivazione.
 
 ## I servizi foto e video ai clienti — non li fa Emanuele
 
-⚠️ **Su questo punto la proposta è superata, e la decisione è del 04/09/2026.** Il PDF diceva che
-Emanuele si sarebbe occupato personalmente dei tre pacchetti fotografici venduti ai clienti
-dell'agriturismo — riprese, montaggio e album stampato via Photosi. **Non è così.**
-
-Le riprese e i montaggi li fa **Umberto Prisco**, videomaker esterno: viene lui e li fa lui.
-Gli **album** li aveva fatti Emanuele — gli ultimi due — e portano via troppo tempo per quello
-che valgono: passano anche quelli a Umberto.
-
-La ragione è la stessa che vale per tutto il resto: **prendersi la palla di un servizio che
-qualcun altro fa meglio e più in fretta vuol dire riempirsi di cose e sbagliarne qualcuna.**
-
-Resta aperto solo **come si divide l'incasso** di quei pacchetti fra l'attività e Umberto.
+⚠️ **Su questo punto la proposta è superata, e la decisione è del 04/09/2026.** I tre pacchetti
+fotografici venduti ai clienti, album compresi, li fa **Umberto Prisco**. Il perché e la divisione
+dell'incasso, ancora aperta, stanno in [[self/ruolo-famiglia|il ruolo nei brand di famiglia]].
 
 ## Cosa resta da definire
 
