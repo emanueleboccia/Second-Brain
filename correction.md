@@ -598,3 +598,26 @@ l'ho trattato come un limite da superare invece che come il campo in cui cercare
 brand. Si varia quello che il perimetro lascia libero, cioè il ritmo, gli strumenti e la tradizione
 del Sud da cui pesca il pezzo. Uno stile che contraddice una regola scritta non si porta come
 esempio: se il perimetro sembra stretto, si chiede prima di uscirne.
+
+## 17/09/2026 — Una clip dove il telefono scende era finita in una storia
+
+Nella prima storia del Braciere, fra il quarto e il sesto secondo, c'era IMG_4939: il telefono scende di colpo
+verso la griglia. L'ha vista Emanuele nell'anteprima e ha chiesto di toglierla. Il controllo della sera prima
+guardava quattro fotogrammi, a 0,3, 2, 6,9 e 8,5 secondi, e il movimento durava meno di un secondo in mezzo.
+
+**La prossima volta:** prima di mandare una storia si misura il movimento della camera **su tutta la durata**,
+non su pochi fotogrammi: si estraggono i fotogrammi a 15 al secondo, piccoli e in grigio, e si confrontano a
+coppie con la correlazione di fase. Un tratto dove l'immagine scorre di parecchi pixel per più fotogrammi di
+fila, fuori dai tagli, si taglia o si cambia clip prima di montare. Quattro fotogrammi dicono com'è il colore,
+non se la camera sta ferma.
+
+## 17/09/2026 — Nell'email alle scuole c'erano i prezzi e il link al video
+
+La prima email della campagna alle scuole di Zucche in Masseria diceva le due quote, 14 e 20 euro, e
+portava alla pagina del video sul sito. Emanuele: «non devi dire i prezzi nella email», e nemmeno il link.
+Prima che l'invio si fermasse era già partita una scuola, La Scuola di Alice di Poggiomarino.
+
+**La prossima volta:** un'email alle scuole annuncia il progetto, ricorda il sold out dell'anno scorso e
+invita a scaricare la brochure allegata. I prezzi stanno nella brochure, come dice il tono di voce della
+Masseria, e nell'email non vanno link. E dopo la prova il primo gruppo non parte finché Emanuele non ha
+visto l'email arrivata nella sua Gmail e ha detto di sì: mail-tester controlla lo spam, non il testo.

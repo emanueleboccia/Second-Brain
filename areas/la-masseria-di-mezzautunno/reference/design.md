@@ -8,7 +8,7 @@ tags:
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-09-02
+updated: 2026-09-17
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/brand]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
@@ -143,3 +143,9 @@ Fatti che il PDF riporta e che nel vault non erano scritti da nessuna parte:
 - **Il luogo si chiama Portone di Boccapianola**, Poggiomarino (NA) — Via Passanti Flocco 217.
 - **WhatsApp:** +39 351 616 5734 · `wa.me/+393516165734`.
 - **Fattoria didattica certificata Regione Campania, Sez. A n. 520.**
+
+⚠️ **Il numero della Masseria è il 348 591 65 81, anche su WhatsApp.** Confermato da Emanuele il
+17/09/2026: è quello della proposta per le scuole di Zucche in Masseria. Il WhatsApp qui sopra lo
+riporta il brand kit, e di chi sia resta da capire. L'email della Masseria è
+**lamasseriadimezzautunno@gmail.com**. Su Instagram e TikTok è **@lamasseriadimezzautunno**; la pagina
+Facebook non ha un nome breve, e dal sito ci si arriva col link numerico.

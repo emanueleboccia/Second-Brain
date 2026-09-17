@@ -8,7 +8,7 @@ tags:
   - tono-di-voce
 status: attivo
 created: 2026-07-13
-updated: 2026-09-02
+updated: 2026-09-17
 related:
   - "[[CLAUDE]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/README]]"
@@ -103,6 +103,9 @@ le scuole). Un'emoji buttata a caso no. Non sostituiscono le parole: le accompag
 - **Famiglie:** il prezzo del biglietto **si comunica** (Clappit). «Tutto incluso» qui è un pregio,
   non un divieto — e lo si dice chiaro per sciogliere il dubbio «poi si paga tutto a parte».
 - **Scuole:** i prezzi **non stanno sul sito**: vivono nella **brochure** che mandiamo su richiesta.
+  **E non stanno nemmeno nelle email.** Deciso da Emanuele il 17/09/2026: un'email alle scuole annuncia
+  il progetto, ricorda il sold out dell'anno scorso e invita a scaricare la brochure allegata, senza
+  link al sito.
 
 ⚠️ Attenzione: questa apertura sui prezzi vale **solo per la Masseria**. Da Mamma Rosaria e la
 Tenuta non pubblicano mai prezzi. Non confondere i registri.

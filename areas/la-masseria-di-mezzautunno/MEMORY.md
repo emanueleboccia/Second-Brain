@@ -2,6 +2,71 @@
 
 Aperto il 13/07/2026.
 
+## 17/09/2026 — La proposta per le scuole di Zucche in Masseria
+
+Prima del conto alla rovescia è arrivata una cosa urgente: un'**email marketing alle scuole**, e prima
+ancora la brochure da mandare. È `Zucche-in-Masseria-Proposta-Scuole.pdf`, otto pagine esportate da una
+pagina web la mattina del 17/09. Letta contro i reference è coerente: tono professionale, prezzi chiari,
+finalità educative, la fattoria didattica usata come garanzia. Font e colori sono quelli del brand kit di
+Zucche, in `03 Brand kit/08 Zucche in masseria`. Le formule e le quote sono passate nel
+[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference|reference di Zucche in Masseria]].
+
+Deciso da Emanuele:
+
+- **Il numero della Masseria è il 348 591 65 81**, quello della brochure, e risponde anche su WhatsApp. Il
+  brand kit dà come WhatsApp il 351 616 5734, e di chi sia resta da capire: segnato in
+  [[areas/la-masseria-di-mezzautunno/reference/design|design]].
+- **Il pranzo delle scuole lo cucina Da Mamma Rosaria**, e nella brochure si scrive.
+- **Le foto delle gite 2025 coi bambini riconoscibili restano.** Alla domanda sulle liberatorie: «non fa
+  niente».
+- **Il video delle gite va messo in sola visualizzazione.** Sta su Drive nell'account
+  `selezionianimatori.funnyshow`, condiviso come «chiunque abbia il link può modificare», e il QR della
+  brochure lo manda a chiunque la riceva. Lo cambia chi ha quell'account.
+- **Le ombre delle foto si fanno correggere.** Nel PDF sono maschere che Anteprima, e quindi l'iPhone, non
+  sfuma: sulle pagine 2, 3 e 4 escono come fasce marroni squadrate sopra il piè di pagina.
+- **Le foto più adatte si pescano dall'archivio 2025**, su Drive in `02 Foto e video/2025 Zucche in
+  Masseria`.
+
+⚠️ **Nell'archivio 2025 non ci sono classi di scuola.** Sono 365 foto: gli allestimenti vuoti e un
+servizio con quattro bambine in posa, scattati il 30/09/2025 prima dell'apertura, poi i weekend con le
+famiglie. Le foto delle gite coi cappellini che stanno nella brochure vengono da un'altra parte, e per
+le scuole valgono più di qualsiasi foto bella: restano. Per la brochure proposte **GRS01787** in
+copertina, un bambino che raccoglie la zucca davanti al fienile rosso, e **GRS01841** a pagina 3, due
+bambine sui gradini di fieno con l'operatrice in arancione che le guarda. Le alternative sono GRS01766
+e GRS01882. Tagliate per lo spazio e ritoccate appena, stanno su Drive in
+`02 Foto e video/2025 Zucche in Masseria/06 - Brochure scuole 2026`.
+
+**La brochure nuova l'ha rifatta Claude da capo**, perché il file di partenza non era sul Mac: il PDF
+del mattino era uscito da un servizio online. Stessa grafica, le diciotto modifiche della lista e le
+due foto nuove. Il sorgente, una pagina HTML con le immagini e i font, sta sull'SSD in
+`03-LA-MASSERIA-DI-MEZZ'AUTUNNO/3-in-produzione/brochure-scuole-zucche/`, e il comando per ristamparla
+è scritto in cima al file. Due scelte grafiche in più: in copertina la seconda frase del titolo è
+arancio, e al posto dei numeri 01–04 le schede di pagina 2 hanno una tacca arancio.
+
+Emanuele l'ha approvata («molto più bella») chiedendo tre cose, fatte:
+
+- **La firma in fondo mette in evidenza La Masseria**, col suo logo grande, e accanto dice «Un progetto
+  realizzato da Funny Show e Da Mamma Rosaria» coi due loghi.
+- **Il logo di Mamma Rosaria è quello nuovo**, con «eventi in agriturismo»: `logo-orizzontale_colori.png`
+  del brand kit. La brochure del mattino aveva quello vecchio.
+- **La mappa è grande**, 14 centimetri, con la legenda sotto su tre colonne e dentro anche WC e
+  parcheggio.
+
+⚠️ **Su Drive non c'è un file del logo di Funny Show.** Quello della brochure è ritagliato dal PDF del
+mattino: basta per un PDF, non per una stampa grande.
+
+**Il QR e il pulsante play portano al sito, non più a Drive**: alla pagina
+`lamasseriadimezzautunno.it/video-gite-scolastiche/`. Deciso da Emanuele: il video su Drive «è buggato e
+non tutti lo vedono», e quello sul sito porta traffico. Così il problema della condivisione del file su
+Drive non riguarda più le scuole. Il PDF finale si chiama **«Zucche in Masseria - Proposta per le scuole
+2026.pdf»** e sta nei Download.
+
+Anche la cartella della brochure sull'SSD ha la versione finale, aggiornata appena l'SSD è stato
+ricollegato: il sorgente col link al sito e il PDF col nome giusto.
+
+**L'email alle scuole parte da lamasseriadimezzautunno@gmail.com**, con l'Excel delle email che ha
+Emanuele, e si scrive dopo aver definito la brochure.
+
 ## 16/09/2026 — Il conto alla rovescia a Zucche in Masseria, prime decisioni
 
 **Chiesti dalla Masseria:** video, backstage e storie prima dell'apertura del 26 settembre. **Idea di

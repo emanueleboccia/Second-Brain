@@ -58,6 +58,13 @@ Ognuno ha la sua cartella e il suo `reference.md`. Le regole stanno in `progetti
 Zucche in Masseria e Funny Farm hanno un'edizione fatta; Il Borgo Infestato è in lineup; Il Presepe
 di una volta è nuovo (prima edizione dicembre 2026, sul sito è un «coming soon»).
 
+### `email-marketing/` — le campagne email
+
+- `scuole.csv` — la lista delle scuole della zona, con email, telefono e distanza da Poggiomarino.
+  Si riusa per ogni campagna: la colonna `email_utilizzabile` dice a chi si può scrivere.
+- Una cartella per campagna, con `campagna.md` (cosa, a chi, come, andamento), `email.txt` (il testo
+  esatto) e `invii.csv` (il registro). Lo script che manda sta in `code/email-marketing/`.
+
 ### `knowledge/` — materiale di lavoro (leggi su richiesta)
 
 - `contenuti/` — `dolori-desideri.md`, `pillar.md` (consolidati), `idee-reel.md`.

@@ -7,7 +7,7 @@ tags:
   - progetti
 status: in-lavorazione
 created: 2026-07-21
-updated: 2026-09-16
+updated: 2026-09-17
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/brand]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
@@ -51,7 +51,33 @@ link del pulsante sul sito. I bambini entrano gratis fino al compimento dei 3 an
 L'evento è anche nell'app di **Slesh**, configurata il 16/09/2026: cosa abbiamo mandato e cosa resta
 da controllare sta in [[areas/la-masseria-di-mezzautunno/MEMORY|memory della Masseria]].
 
+### Le scuole
+
+Dalla proposta per le scuole del 17/09/2026, un PDF di otto pagine che si fa correggere prima di
+mandarlo. Cosa si corregge sta nella [[areas/la-masseria-di-mezzautunno/MEMORY|memory della Masseria]].
+
+| formula | orari | quota |
+|---|---|---|
+| **Intera giornata** | 9:00–14:00, pranzo alle 12:30 | **20 €** a bambino |
+| **Mezza giornata** | 9:00–12:30 | **14 €** a bambino |
+
+La colazione è inclusa in tutte e due le formule, il pranzo solo nella giornata intera: lo cucina Da
+Mamma Rosaria e si serve in masseria. Qui il progetto si scosta dall'[[areas/la-masseria-di-mezzautunno/reference/offerta|offerta]],
+che per le scuole parlava di pranzo al sacco. È per bambini **dai 3 ai 10 anni**, e le date si
+concordano col calendario della scuola. Docenti e accompagnatori entrano gratis, i bambini con
+disabilità pagano metà, i menù per allergie e intolleranze si fanno su richiesta, e il giro sul pony
+costa 2 € in più a bambino.
+
+La giornata ha quattro momenti: l'accoglienza con la colazione e gli animali, il raccolto della zucca
+che ogni bambino porta a casa, un laboratorio concordato con l'insegnante e il gioco nel fieno. Si
+prenota al **348 591 65 81**, anche su WhatsApp. Il video delle gite dell'anno scorso sta sul sito, in
+[una pagina sua](https://lamasseriadimezzautunno.it/video-gite-scolastiche/), ed è lì che portano il QR
+e il pulsante play della brochure.
+
+Dal 17/09/2026 la proposta viaggia anche per email, a cento scuole dell'infanzia della zona: come e a
+chi sta nella [[areas/la-masseria-di-mezzautunno/email-marketing/2026-09-zucche-scuole/campagna|campagna email alle scuole]].
+
 ## Ancora da definire
 
-- Prezzo del biglietto: il sito non lo dice ancora.
+- Prezzo del biglietto per le famiglie: il sito non lo dice ancora.
 - Novità rispetto al 2025.

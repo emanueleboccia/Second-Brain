@@ -1,0 +1,214 @@
+codice,tipo,nome,comune,provincia,indirizzo,telefono,email,email_utilizzabile,distanza_km
+NAEE15800G,primaria statale,,Poggiomarino,NA,"VIA G. IERVOLINO, 80040 POGGIOMARINO (NA)",0813381043,naee15800g@istruzione.it,sì,0.0
+NAAA863011,infanzia statale,Ic E De Filippo,Poggiomarino,NA,"VIA NUOVA SAN MARZANO, 2, 80040 POGGIOMARINO (NA)",0815281103,naic863004@istruzione.it,sì,0.0
+NA1A0E500U,infanzia paritaria,Il Nido Della Maestra Maria Teresa Forno,Poggiomarino,NA,"VIA R. VASTOLA 55, 80040 POGGIOMARINO (NA)",0813381068,mtforno@libero.it,no: indirizzo personale,0.0
+NA1A58500Q,infanzia paritaria,La Scuola Di Alice Sas Impresa Sociale,Poggiomarino,NA,"VIA XXV APRILE - CASE SPARSE, 80040 POGGIOMARINO (NA)",081 8651933,lascuoladialice@libero.it,"no: indirizzo inesistente, rimbalzato il 17/09/2026",0.0
+NA1A58600G,infanzia paritaria,La Sirenetta Sas Di Boccia Raffaele Impresa Social,Poggiomarino,NA,"VIA XXIV MAGGIO 541, 80040 POGGIOMARINO (NA)",0815284276,lasirenettascuola@gmail.com,sì,0.0
+NAAA8F901X,infanzia statale,Poggiomarino I Ic Via Roma,Poggiomarino,NA,"VIA ROMA 38, 80040 POGGIOMARINO (NA)",0818651166,naic8f9003@istruzione.it,sì,0.0
+NAAA15802C,infanzia statale,Poggiomarino Tortorelle,Poggiomarino,NA,"VIA G. IERVOLINO 335, 80040 POGGIOMARINO (NA)",0818651167,naee15800g@istruzione.it,sì,0.0
+NA1ALS500Q,infanzia paritaria,Il Paese Delle Meraviglie,Striano,NA,"VIA DIFESA 6, 80040 STRIANO (NA)",3318204530,,no: manca,3.5
+NA1AGG500U,infanzia paritaria,Miele,Striano,NA,"VIA PIANO 78, 80040 STRIANO (NA)",08119259312,,no: manca,3.5
+NAAA855012,infanzia statale,Scuola Infanzia,Striano,NA,"PIAZZA D'ANNA, 80040 STRIANO (NA)",3355481466,naic855005@istruzione.it,sì,3.5
+NAAA855023,infanzia statale,Scuola Infanzia,Striano,NA,"VIA RISORGIMENTO, 80040 STRIANO (NA)",3356673983,naic855005@istruzione.it,sì,3.5
+NA1A65500R,infanzia paritaria,Associazione Fantasylandia,Terzigno,NA,"VIA VANVITELLI, 141, 80040 TERZIGNO (NA)",081 5297290,scuolafantasylandia@alice.it,"no: indirizzo inesistente, rimbalzato il 17/09/2026",3.7
+NA1A16600V,infanzia paritaria,Ente Religioso Maria Ss Immacolata,Terzigno,NA,"VIA SAN GIOVANNI BOSCO, 80040 TERZIGNO (NA)",081 8271934,direttrice.terzigno@fma-imr.it,"no: indirizzo inesistente, rimbalzato il 17/09/2026",3.7
+NA1A4P500P,infanzia paritaria,Percorsiper Societa Coop Sociale,Terzigno,NA,"VIA PANORAMICA 2, 80040 TERZIGNO (NA)",0813388516,,no: manca,3.7
+NA1A165003,infanzia paritaria,Santantonio,Terzigno,NA,"VIA S.ANTONIO,39, 80040 TERZIGNO (NA)",081 8271800,,no: manca,3.7
+NAAA18705G,infanzia statale,Terzigno Boccia Al Mauro,Terzigno,NA,"CORSO ALESSANDRO VOLTA, TERZIGNO (NA)",,naee18700g@istruzione.it,sì,3.7
+NAAA18701B,infanzia statale,Terzigno Capoluogo,Terzigno,NA,"VIA GIONTI 11, 80040 TERZIGNO (NA)",0818271941,naee18700g@istruzione.it,sì,3.7
+NAAA8C3015,infanzia statale,Terzigno Ic Giusti Santonio,Terzigno,NA,"VIA S.ANTONIO, TERZIGNO (NA)",,naic8c3008@istruzione.it,sì,3.7
+NAAA18703D,infanzia statale,Terzigno Palazzo Allocca,Terzigno,NA,"VIA GIONTI 6, TERZIGNO (NA)",,naee18700g@istruzione.it,sì,3.7
+NAAA18702C,infanzia statale,Terzigno Rosamiranda,Terzigno,NA,"VIA LEONCAVALLO, 80040 TERZIGNO (NA)",,naee18700g@istruzione.it,sì,3.7
+NAAA18706L,infanzia statale,Terzigno Viale Bifulco,Terzigno,NA,TERZIGNO (NA),,naee18700g@istruzione.it,sì,3.7
+NA1A03500A,infanzia paritaria,Ente Religioso La Scuola Del Bambino,San Giuseppe Vesuviano,NA,"- VIA PASSANTI N. 280 RIONE CASILLI, 80047 SAN GIUSEPPE VESUVIANO (NA)",081 8271310,lascuoladelbambino@libero.it,sì,4.2
+NA1A36000N,infanzia paritaria,Ente Religioso Piccole Ancelle Di Cristo Re,San Giuseppe Vesuviano,NA,"VIA MARCIOTTI 4, 80047 SAN GIUSEPPE VESUVIANO (NA)",081 8271630,cristoreportici@libero.it,sì,4.2
+NA1A653005,infanzia paritaria,Fate E Folletti Srl Impresa Sociale,San Giuseppe Vesuviano,NA,"VIA LAVINAIO II TRATTO 23, 80047 SAN GIUSEPPE VESUVIANO (NA)",081 8283278,madsmads@virgilio.it,sì,4.2
+NA1A74100Q,infanzia paritaria,I Cuccioli Associazione,San Giuseppe Vesuviano,NA,"VIA PARCO AMBROSIO 54, 80047 SAN GIUSEPPE VESUVIANO (NA)",0812241609,i.cuccioli@libero.it,sì,4.2
+NA1A69100X,infanzia paritaria,Lalbero Azzurro Societa Coop Di Lavoro,San Giuseppe Vesuviano,NA,"VIA DEL TULIPANO, 6, 80040 SAN GIUSEPPE VESUVIANO (NA)",0815294223,,no: manca,4.2
+NA1A49300T,infanzia paritaria,Primo Incontro Di Raggio Rosa C Sas Impresa Social,San Giuseppe Vesuviano,NA,"VIA ROSSILLI, 11, 80047 SAN GIUSEPPE VESUVIANO (NA)",3393366917,primoincontro1969@libero.it,sì,4.2
+NAAA17807V,infanzia statale,San Giuseppe Ii Caramagni,San Giuseppe Vesuviano,NA,"VIA SAN LEONARDO, 2, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818271988,naee17800r@istruzione.it,sì,4.2
+NAAA17804Q,infanzia statale,San Giuseppe Ii Rione Mattiuli,San Giuseppe Vesuviano,NA,"VIA MATTIULI,, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818271988,naee17800r@istruzione.it,sì,4.2
+NAAA17803P,infanzia statale,San Giuseppe Ii Rione Nappi,San Giuseppe Vesuviano,NA,"VIA NAPPI TRAV.I, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818271988,naee17800r@istruzione.it,sì,4.2
+NAAA8FJ019,infanzia statale,San Giuseppe Ves Pace,San Giuseppe Vesuviano,NA,"VIA SCUDIERI, SAN GIUSEPPE VESUVIANO (NA)",,naic8fj00c@istruzione.it,sì,4.2
+NAAA17703V,infanzia statale,San Giuseppe Vesi Ceschelli,San Giuseppe Vesuviano,NA,"VIA CESCHELLI, SAN GIUSEPPE VESUVIANO (NA)",,naee177001@istruzione.it,sì,4.2
+NAAA177129,infanzia statale,San Giuseppe Vesi Rione Ionna,San Giuseppe Vesuviano,NA,"VIA BOCCIA, 80047 SAN GIUSEPPE VESUVIANO (NA)",,naee177001@istruzione.it,sì,4.2
+NAAA177129,infanzia statale,San Giuseppe Vesi Rione Ionna,San Giuseppe Vesuviano,NA,"VIA BOCCIA, 80047 SAN GIUSEPPE VESUVIANO (NA)",,naee177001@istruzione.it,sì,4.2
+NA1A02600G,infanzia paritaria,Santa Maria La Scala Fondazione Monsguerino Bosson,San Giuseppe Vesuviano,NA,"VIA SALVATI 2, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818273934,scuola.infanzialascala@virgilio.it,sì,4.2
+NAAA17801L,infanzia statale,Sgiuseppe Iis Maria La Scala,San Giuseppe Vesuviano,NA,"S.MARIA LA SCALA, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818271988,naee17800r@istruzione.it,sì,4.2
+NAAA178103,infanzia statale,Sgiuseppe V Scopari Catapano,San Giuseppe Vesuviano,NA,"VIA SCOPARI, 80047 SAN GIUSEPPE VESUVIANO (NA)",0818271988,naee17800r@istruzione.it,sì,4.2
+NAAA17702T,infanzia statale,Via Ceci,San Giuseppe Vesuviano,NA,80047 SAN GIUSEPPE VESUVIANO (NA),,naee177001@istruzione.it,sì,4.2
+SAAA8A9019,infanzia statale,Ccollodi,San Marzano Sul Sarno,SA,"VIA CENISIO, 84010 SAN MARZANO SUL SARNO (SA)",081955898,saic8a900c@istruzione.it,sì,5.1
+SAAA8A902A,infanzia statale,Ssgiovanni Paolo Ii,San Marzano Sul Sarno,SA,"PIAZZA AMENDOLA, 84010 SAN MARZANO SUL SARNO (SA)",081957682,saic8a900c@istruzione.it,sì,5.1
+SAAA899016,infanzia statale,Capoluogovia Annunziata,San Valentino Torio,SA,"VIA ANNUNZIATA, 84010 SAN VALENTINO TORIO (SA)",081957700,saic899009@istruzione.it,sì,5.1
+SAAA899027,infanzia statale,Casatori,San Valentino Torio,SA,"VIA S.MARIA DELLE GRAZIE, 84010 SAN VALENTINO TORIO (SA)",081939347,saic899009@istruzione.it,sì,5.1
+SA1AOV500O,infanzia paritaria,Miele,San Valentino Torio,SA,"Via Cesina Pugliano, 6/B, 84010 SAN VALENTINO TORIO (SA)",08119259312,,no: manca,5.1
+SAAA899038,infanzia statale,Russolillo,San Valentino Torio,SA,"VIA RUSSOLILLO, 84010 SAN VALENTINO TORIO (SA)",,saic899009@istruzione.it,sì,5.1
+SA1A14800Q,infanzia paritaria,Scuola Dellinfan Non Statmiss Baby School Societa,San Valentino Torio,SA,"VIA ZECCAGNUOLO 15, 84010 SAN VALENTINO TORIO (SA)",081939527,missbabysschool@gmail.com,sì,5.1
+SA1A090009,infanzia paritaria,Scuola Dellinfanzia Non Stprincipe Di Piemonteente,San Valentino Torio,SA,"VIA SOTTOSANTI 37, 84010 SAN VALENTINO TORIO (SA)",081 955087,scuolap.dipiemonte@alice.it,sì,5.1
+SAAA16103Q,infanzia statale,Abenante,Scafati,SA,"VIA DELLA RESISTENZA, 84018 SCAFATI (SA)",0818562619,,no: manca,6.0
+SAAA16310Q,infanzia statale,Alberto Manzi Ex Contrada,Scafati,SA,"VIA MICHELANGELO NAPPI, 84018 SCAFATI (SA)",0818506783,,no: manca,6.0
+SAAA163019,infanzia statale,Berardinetti,Scafati,SA,"VIA LO PORTO, 84018 SCAFATI (SA)",0818504616,saee16300d@istruzione.it,sì,6.0
+SA1A525007,infanzia paritaria,Eureka,Scafati,SA,"VIA SANT'ANTONIO ABATE, 95, 84018 SCAFATI (SA)",08119252619,,no: manca,6.0
+SAAA16309N,infanzia statale,Ex Eca Via Passanti,Scafati,SA,"VIA CORBISIERO, 84018 SCAFATI (SA)",0818592181,saee16300d@istruzione.it,sì,6.0
+SAAA16311R,infanzia statale,Franca E Vincenzo Marra,Scafati,SA,"VIA POGGIOMARINO, 84018 SCAFATI (SA)",0818593207,,no: manca,6.0
+SA1A18100B,infanzia paritaria,Il Nido Dei Puffi,Scafati,SA,"via M.Nappi 73, 84018 SCAFATI (SA)",0810128946,,no: manca,6.0
+SA1ABL500B,infanzia paritaria,Lalbero Della Vita,Scafati,SA,"Via A. Ferrara, 3, 84018 SCAFATI (SA)",0818507692,,no: manca,6.0
+SAAA88201R,infanzia statale,Maria Cristina Di Savoia,Scafati,SA,"VIA GENOVA, 84018 SCAFATI (SA)",0818508820,,no: manca,6.0
+SAAA161104,infanzia statale,Mariconda,Scafati,SA,"VIA G.L.BERNINI, 84018 SCAFATI (SA)",0818506435,saee16100t@istruzione.it,sì,6.0
+SAAA16312T,infanzia statale,Marra Zaffaranelli,Scafati,SA,"VIA ZAFFARANELLI 27, 84018 SCAFATI (SA)",0818592187,,no: manca,6.0
+SAAA161159,infanzia statale,Purgatorio,Scafati,SA,"VIA DANTE ALIGHIERI, 84018 SCAFATI (SA)",0818599444,saee16100t@istruzione.it,sì,6.0
+SAAA16302A,infanzia statale,S Vincenzo,Scafati,SA,"VIA CORBISIERO, 84018 SCAFATI (SA)",0818592181,saee16300d@istruzione.it,sì,6.0
+SAAA16105T,infanzia statale,Santonio Abate,Scafati,SA,"VIA S.ANTONIO ABATE, 84018 SCAFATI (SA)",0818631737,saee16100t@istruzione.it,sì,6.0
+SAAA16116A,infanzia statale,Scafatibagni,Scafati,SA,"VIA A. MANZONI, 84018 SCAFATI (SA)",0818599442,saee16100t@istruzione.it,sì,6.0
+SA1A18500P,infanzia paritaria,Scuola Dell Inf Non Stlalbero Della Vita Coopmutpr,Scafati,SA,"VIA CORSO NAZIONALE, 171, 84018 SCAFATI (SA)",081 8507692,pinad1970@libero.it,no: indirizzo personale,6.0
+SA1A182007,infanzia paritaria,Scuola Dellinf Non Stat Associazione Piccolo Mondo,Scafati,SA,"VIA PASQUALE VITIELLO 77, 84018 SCAFATI (SA)",3272839389,istituto.piccolomondo@gmail.com,sì,6.0
+SA1A18600E,infanzia paritaria,Scuola Dellinf Non Statla Fabbrica Dei Sognicoopso,Scafati,SA,"VIA AQUINO, SNC, 84018 SCAFATI (SA)",0818591748,,no: manca,6.0
+SA1A10100E,infanzia paritaria,Scuola Dellinf Non Statsan Francesco Dassisi,Scafati,SA,"VIA LO PORTO 82, 84018 SCAFATI (SA)",3490827213,sanfrancesco.alca@libero.it,sì,6.0
+SA1A183003,infanzia paritaria,Scuola Dellinfanzia Non Stale Baby Hyland Soccoop,Scafati,SA,"VIA F. COZZOLINO 36 SOSP.ATT. 2008/09 DECR17857 DR, 84018 SCAFATI (SA)",081 8630783,pinad1970@libero.it,no: indirizzo personale,6.0
+SAAA16104R,infanzia statale,Smaria Delle Grazie,Scafati,SA,"VIA DELLA RESISTENZA, 84018 SCAFATI (SA)",08118752102,,no: manca,6.0
+SAAA16307G,infanzia statale,Spietro,Scafati,SA,"VIA DELLA RESISTENZA, 84018 SCAFATI (SA)",0818562619,saee16300d@istruzione.it,sì,6.0
+SAAA16107X,infanzia statale,Via Della Resistenza,Scafati,SA,"VIA DELA RESITENZA, 84018 SCAFATI (SA)",0818562619,,no: manca,6.0
+SAAA8CA01X,infanzia statale,Via Martiri Dungheria,Scafati,SA,"VIA MARTIRI D'UNGHERIA,110, 84018 SCAFATI (SA)",0818630367,,no: manca,6.0
+SAAA8CA021,infanzia statale,Via Tenente Iorio,Scafati,SA,"VIA MARTIRI D'UNGHERIA, 75, 84018 SCAFATI (SA)",0818562864,,no: manca,6.0
+NA1A42800P,infanzia paritaria,Associazione Cappuccetto Rosso,Boscoreale,NA,"VIA MEROLLA 21, 80041 BOSCOREALE (NA)",081 8591517,smcappuccettorosso@libero.it,sì,6.1
+NAAA8ED016,infanzia statale,Boscoreale Ic Castaldi Cangia,Boscoreale,NA,"VIA CANGIANI, 80041 BOSCOREALE (NA)",0818594650,naic8ed009@istruzione.it,sì,6.1
+NAAA8ED027,infanzia statale,Boscoreale Ic Castaldi Marche,Boscoreale,NA,"VIA MARCHESA 172, 80041 BOSCOREALE (NA)",0818594649,naic8ed009@istruzione.it,sì,6.1
+NAAA8ED05A,infanzia statale,Boscoreale Ic Castaldi Pluni,Boscoreale,NA,"VIA PASSANTI SCAFATI, 80041 BOSCOREALE (NA)",0815371841,naic8ed009@istruzione.it,sì,6.1
+NAAA8ED049,infanzia statale,Boscoreale Ic Castaldi Rodari,Boscoreale,NA,"VIA PASSANTI, 80041 BOSCOREALE (NA)",0818594094,naic8ed009@istruzione.it,sì,6.1
+NAAA8D2021,infanzia statale,Boscoreale Ic Corpo Aggiunto,Boscoreale,NA,"VIA LUIGI OLIVA, 80041 BOSCOREALE (NA)",0818581295,naic8d2003@istruzione.it,sì,6.1
+NAAA8D301Q,infanzia statale,Boscoreale Ic Dati Pzza Varg,Boscoreale,NA,"PIAZZA VARGAS, BOSCOREALE (NA)",0815373900,naic8d300v@istruzione.it,sì,6.1
+NAAA8D302R,infanzia statale,Boscoreale Ic Dati Settembri,Boscoreale,NA,"BOSCOREALE, 80041 BOSCOREALE (NA)",0815372802,naic8d300v@istruzione.it,sì,6.1
+NAAA8D201X,infanzia statale,Boscoreale Ic Plesso Salome,Boscoreale,NA,"VIA GIOVANNI XXIII ,64, 80041 BOSCOREALE (NA)",0815373888,naic8d2003@istruzione.it,sì,6.1
+NA1A492002,infanzia paritaria,Associazione Don Bosco,San Gennaro Vesuviano,NA,"VIA SARNO,24, 80040 SAN GENNARO VESUVIANO (NA)",0815286381,donboscobaby@libero.it,sì,6.4
+NA1A135007,infanzia paritaria,Associazione Mary Poppins,San Gennaro Vesuviano,NA,"VIA NUOVA SAVIANO, 167, 80040 SAN GENNARO VESUVIANO (NA)",081 8656849,marypoppins2005@libero.it,sì,6.4
+NA1ANL500T,infanzia paritaria,Il Sentiero Delle Favole,San Gennaro Vesuviano,NA,"VIA BIAGIO COZZOLINO 89, 80040 SAN GENNARO VESUVIANO (NA)",3914629727,,no: manca,6.4
+NAAA8GK02R,infanzia statale,San Gennaro Vescapferrovia,San Gennaro Vesuviano,NA,"VIA FERROVIA, 80036 SAN GENNARO VESUVIANO (NA)",0818656294,naic8gk00v@istruzione.it,sì,6.4
+NAAA8GK03T,infanzia statale,Sgennaro Ves Ragni,San Gennaro Vesuviano,NA,"VIA RAGNI, SAN GENNARO VESUVIANO (NA)",,naic8gk00v@istruzione.it,sì,6.4
+NAAA8GK01Q,infanzia statale,Sgennaro Vesuviano Nappo,San Gennaro Vesuviano,NA,"VIA BOSCO, 80040 SAN GENNARO VESUVIANO (NA)",0815286570,naic8gk00v@istruzione.it,sì,6.4
+NA1A35700T,infanzia paritaria,Asilo Del Sorriso Sas Mele Francesco Sa C Impresa,Ottaviano,NA,"VIA R. CAUSA 2, 80044 OTTAVIANO (NA)",081 5288286,asilodelsorriso@gmail.com,sì,6.6
+NA1A362009,infanzia paritaria,Associazione Le Favole,Ottaviano,NA,"VIA VECCHIA SARNO, 36, 80040 OTTAVIANO (NA)",081 5292482,infanzialefavole@libero.it,sì,6.6
+NA1A356002,infanzia paritaria,Ente Religioso Maria Ausiliatrice,Ottaviano,NA,"VIA CARMINE N. 58, 80044 OTTAVIANO (NA)",0818278090,scuola.ma.ottaviano@fma-imr.it,sì,6.6
+NA1A364001,infanzia paritaria,Ente Religioso Pier Giorgio Frassati,Ottaviano,NA,"VIA SARNO, 20, 80040 OTTAVIANO (NA)",081 8273974,sangennarello@istitutosuorevisitazione.it,sì,6.6
+NAAA8CJ02E,infanzia statale,Ic M Beneventano Lucci,Ottaviano,NA,"VIA LUCCI, 80044 OTTAVIANO (NA)",0818278509,naic8cj00l@istruzione.it,sì,6.6
+NAAA8BF034,infanzia statale,Ic S Gennarello Zabatta,Ottaviano,NA,"VIA ZABATTA, 80044 OTTAVIANO (NA)",0818278509,naic8bf005@istruzione.it,sì,6.6
+NAAA8BF023,infanzia statale,Ic Sgennarello Casa Comunale,Ottaviano,NA,"VIA LUIGI CARBONE,1, 80044 OTTAVIANO (NA)",0813385230,naic8bf005@istruzione.it,sì,6.6
+NAAA8BF012,infanzia statale,Ic Sgennarello Pozini,Ottaviano,NA,"VIA POZINI, 80044 OTTAVIANO (NA)",0815292186,naic8bf005@istruzione.it,sì,6.6
+NA1A36100D,infanzia paritaria,Mondo Sereno Sas Di Ambrosio Giovanni C Imprsoc,Ottaviano,NA,"VIA LAVINAIO I TRATTO, 27, 80040 OTTAVIANO (NA)",081 8271530,mondosereno1975@libero.it,sì,6.6
+NAAA8CG04G,infanzia statale,Ottav Ic Daosta Margherita,Ottaviano,NA,"VIA G.MILITARE, 80044 OTTAVIANO (NA)",0818278509,naic8cg00g@istruzione.it,sì,6.6
+NAAA8CG03E,infanzia statale,Ottaviano Ic Daosta Trappite,Ottaviano,NA,"VIA TRAPPITELLA, 80044 OTTAVIANO (NA)",0818278289,naic8cg00g@istruzione.it,sì,6.6
+NA1A355006,infanzia paritaria,San Francesco Dassisi,Ottaviano,NA,"VIA SAN MICHELE N.6, 80044 OTTAVIANO (NA)",0818278066,scuolamaternafrancescana@virgilio.it,sì,6.6
+NA1A48500V,infanzia paritaria,Baby House Sas Di Legorano Nicola C Impresa Social,Pompei,NA,"VIA CASONE N. 14, 80045 POMPEI (NA)",081 8567172,smbabyhouse@libero.it,sì,6.8
+NA1A05900V,infanzia paritaria,Ente Religioso Assunta Ponzo,Pompei,NA,"VIA SACRA N. 39, 80045 POMPEI (NA)",0818577329,uff.scuola.b.longo@tiscali.it,sì,6.8
+NA1A057007,infanzia paritaria,Ente Religioso Bartolo Longo,Pompei,NA,"VIA SACRA N. 39, 80045 POMPEI (NA)",0818577329,uff.scuola.b.longo@tiscali.it,sì,6.8
+NA1A060003,infanzia paritaria,Ente Religioso Orfanotrofio Femminile,Pompei,NA,"VIA SACRA N. 39, 80045 POMPEI (NA)",0818577329,uff.scuola.b.longo@tiscali.it,sì,6.8
+NA1A540006,infanzia paritaria,Ente Religioso San Domenico,Pompei,NA,"VIA NOLANA 448, 80045 POMPEI (NA)",081 8577329,principia.47@libero.it,sì,6.8
+NAAA8B5027,infanzia statale,Ic A Maiuri Capone,Pompei,NA,"VIA LEPANTO, TRAV. CAMPO SPORTIVO, 80045 POMPEI (NA)",08119664272,naic8b5009@istruzione.it,sì,6.8
+NA1A04700L,infanzia paritaria,Il Piccolo College Srl Impresa Sociale,Pompei,NA,"via San Giovanni Battista De La Salle n. 47/49, 80045 POMPEI (NA)",0818504397,angelo2727@libero.it,no: indirizzo personale,6.8
+NA1A484003,infanzia paritaria,La Mongolfiera Gestione Scuole Laboratori Societa,Pompei,NA,"VIA S.ABBONDIO 69, 80045 POMPEI (NA)",0818562568,lamongolfiera2@gmail.com,sì,6.8
+NAAA22017G,infanzia statale,Pompei Fontanelle,Pompei,NA,"TRAVERSA GESUITI, 80045 POMPEI (NA)",0818505142,naee220002@istruzione.it,sì,6.8
+NAAA8B402B,infanzia statale,Pompei Ic Ecelentano,Pompei,NA,"VIA ASTOLELLE, I TRAVERSA, 80045 POMPEI (NA)",0818502602,naic8b400d@istruzione.it,sì,6.8
+NAAA8B401A,infanzia statale,Pompei Ic Pontenuovo,Pompei,NA,"VIA STATALE ,145, 80045 POMPEI (NA)",08155361956,naic8b400d@istruzione.it,sì,6.8
+NAAA22018L,infanzia statale,Pompei Mariconda,Pompei,NA,"VIA MARICONDA, 80045 POMPEI (NA)",0818561458,naee220002@istruzione.it,sì,6.8
+NAAA220074,infanzia statale,Pompei Messigno,Pompei,NA,"VIA MESSIGNO, TRAV. SS.CUORI, 80045 POMPEI (NA)",0818501705,naee220002@istruzione.it,sì,6.8
+NAAA22001T,infanzia statale,Pompei Treponti,Pompei,NA,"VIA TREPONTI, 80045 POMPEI (NA)",0818630114,naee220002@istruzione.it,sì,6.8
+NAAA162013,infanzia statale,Pompei Via Colle Sbartolomeo,Pompei,NA,"VIA COLLE SAN BARTOLOMEO, POMPEI (NA)",,naee162007@istruzione.it,sì,6.8
+NAAA22002V,infanzia statale,Pompei Via Nolana,Pompei,NA,"VIA NOLANA, 80045 POMPEI (NA)",0818505816,naee220002@istruzione.it,sì,6.8
+SAAA8BX03A,infanzia statale,Episcopio Infanzia,Sarno,SA,"VIA CASAMONICA, 84080 SARNO (SA)",0815136346,saic8bx00b@istruzione.it,sì,6.9
+SAAA8BX04B,infanzia statale,Foce Infanzia,Sarno,SA,"VIA MARIA SS. DELLA FOCE, 84087 SARNO (SA)",081965660,saic8bx00b@istruzione.it,sì,6.9
+SA1A835000,infanzia paritaria,La Casa Dei Folletti Societa Cooperativa,Sarno,SA,"Via M. Abignente 39, 84087 SARNO (SA)",081968267,,no: manca,6.9
+SAAA15803X,infanzia statale,Lavorate,Sarno,SA,"VIA LAVORATE, 84087 SARNO (SA)",081950961,saee158002@istruzione.it,sì,6.9
+SAAA8BX029,infanzia statale,Masseria Della Corte Infanzia,Sarno,SA,"VIA SARNO STRIANO, 84087 SARNO (SA)",081966539,saic8bx00b@istruzione.it,sì,6.9
+SA1A80500I,infanzia paritaria,Piccoli Passi,Sarno,SA,"Via Volturno, 2, 84087 SARNO (SA)",08118067786,scuolapiccolipassi@hotmail.com,sì,6.9
+SAAA8BB015,infanzia statale,Prolungamento Matteotti,Sarno,SA,"VIA ROMA, 4, 84087 SARNO (SA)",081966543,saic8bb008@istruzione.it,sì,6.9
+SAAA158063,infanzia statale,Sarno Cappella Vecchia,Sarno,SA,"VIA PIOPPAZZE, SNC, 84087 SARNO (SA)",0815136370,saee158002@istruzione.it,sì,6.9
+SA1A09500C,infanzia paritaria,Scuola Dellinf Non Stat Giardini Dinfanzia Coop Mu,Sarno,SA,"VIA Lavorate trav. Papa Giovanni XXIII, 84087 SARNO (SA)",081 942207,,no: manca,6.9
+SA1A09300R,infanzia paritaria,Scuola Dellinf Non Stat La Valle Incantatacoopmutp,Sarno,SA,"VIA NUNZIANTE 27, 84087 SARNO (SA)",081 941658,la_valle_incantata@libero.it,sì,6.9
+SAAA158041,infanzia statale,Serrazeta,Sarno,SA,"VIA SERRAZETA, 84087 SARNO (SA)",081944435,saee158002@istruzione.it,sì,6.9
+SAAA8BX018,infanzia statale,Via Sodano Infanzia,Sarno,SA,"VIA SODANO, 84087 SARNO (SA)",081945610,saic8bx00b@istruzione.it,sì,6.9
+SAAA8BW01C,infanzia statale,Via Ticino Infanzia,Sarno,SA,"VIA TICINO, 84087 SARNO (SA)",081943838,saic8bw00g@istruzione.it,sì,6.9
+NAAA8EJ01P,infanzia statale,Boscotrecase Ic Prisco Capo,Boscotrecase,NA,"VIA ANNUNZIATELLA, 80042 BOSCOTRECASE (NA)",0818581283,naic8ej00t@istruzione.it,sì,7.2
+NA1A9L500Z,infanzia paritaria,Il Sole,Boscotrecase,NA,"VIA NAPODANO 19, 80042 BOSCOTRECASE (NA)",3347339691,ilsole.deibambini@libero.it,sì,7.2
+NA1A616006,infanzia paritaria,Ente Religioso Madre Agostina Cassi,Palma Campania,NA,"VIA FERRARI, 143, 80036 PALMA CAMPANIA (NA)",0818247107,agostinacassi@libero.it,no: indirizzo personale,7.2
+NAAA8CQ04B,infanzia statale,Ic A De Curtis Palma Campa,Palma Campania,NA,"VIA VECCHIA S. GENNARO, 80036 PALMA CAMPANIA (NA)",0818241104,naic8cq00b@istruzione.it,sì,7.2
+NAAA8CR014,infanzia statale,Palma Ic V Russo Macello,Palma Campania,NA,"VIA MACELLO, 80036 PALMA CAMPANIA (NA)",0815101690,naic8cr007@istruzione.it,sì,7.2
+NAAA8CR036,infanzia statale,Palma Ic V Russo Poz Romo,Palma Campania,NA,,0818241874,naic8cr007@istruzione.it,sì,7.2
+NA1A48100G,infanzia paritaria,Parilandia Srl Impresa Sociale,Palma Campania,NA,"VIA NUOVA SARNO 401, 80036 PALMA CAMPANIA (NA)",0815101067,scuolaparilandia@gmail.com,sì,7.2
+SAAA01001X,infanzia statale,Angri Isanto Alfonso M Fusco,Angri,SA,"VIA ADRIANA, 84012 ANGRI (SA)",081940941,saee010004@istruzione.it,sì,7.8
+SA1A31500P,infanzia paritaria,Giovanni Paolo Ii,Angri,SA,"Viale Europa, 84012 ANGRI (SA)",081968310,solcoagro@gmail.com,sì,7.8
+SA1AN85004,infanzia paritaria,Larcobaleno Dei Sogni,Angri,SA,"Via Nazionale 317/2, 84012 ANGRI (SA)",3664496460,,no: manca,7.8
+SA1A03000N,infanzia paritaria,Scuola Dellinfan Non S S Benedetto Piccola Coop Mu,Angri,SA,"VIA ARDINGHI 83, 84012 ANGRI (SA)",081 948441,giuseppetedesco10@alice.it,no: indirizzo personale,7.8
+SA1A02900D,infanzia paritaria,Scuola Dellinfanzia Non Statale Am Fusco Ente Rel,Angri,SA,"ISTITUTO ALFONSO MARIA FUSCO VIA M.CAPUTO 17, 84012 ANGRI (SA)",0813768737,s.battistine@libero.it,sì,7.8
+SA1A020003,infanzia paritaria,Scuola Dellinfanzia Non Statale Casa Del Padre Ent,Angri,SA,"VIA CANONICO FUSCO 23, 84012 ANGRI (SA)",081948421,allfonsomf@virgilio.it,no: indirizzo personale,7.8
+SA1A190006,infanzia paritaria,Scuola Dellinfanzia Non Statale Mondobabyditta Ind,Angri,SA,"VIA ALVEO SANT'ALFONSO 3, 84012 ANGRI (SA)",338 8088862,info@staffpadovano.191.it,sì,7.8
+SA1A005001,infanzia paritaria,Scuola Dellinfanzia Non Statale Sgiulianaente Rel,Angri,SA,"VIA RISI 27, 84012 ANGRI (SA)",0812132578,suorecompassioniste@inwind.it,sì,7.8
+SA1A15700E,infanzia paritaria,Scuola Dellinfanzia Non Statalela Casa Dei Puffi S,Angri,SA,"VIA STABIA 1, 84012 ANGRI (SA)",081940908,,no: manca,7.8
+SA1A20100B,infanzia paritaria,Scuola Dellinfnon Statlaccademia Dei Piccolicoopso,Angri,SA,"VIA NAZIONALE CONDOMINIO P.CO FERRAIOLI, 84012 ANGRI (SA)",081961493,accademiapiccoli@libero.it,sì,7.8
+SAAA18302G,infanzia statale,Scuola Infanzia Di Via Lazio,Angri,SA,"VIA LAZIO, 84012 ANGRI (SA)",081940335,saee18300p@istruzione.it,sì,7.8
+SAAA18301E,infanzia statale,Scuola Infanzia Via Alighieri,Angri,SA,"VIA DANTE ALIGHIERI N.15, 84012 ANGRI (SA)",0815134328,saee18300p@istruzione.it,sì,7.8
+SAAA18303L,infanzia statale,Scuola Infanzia Via Nazionale,Angri,SA,"VIA NAZIONALE, 84012 ANGRI (SA)",0815131605,saee18300p@istruzione.it,sì,7.8
+SAAA8BN01L,infanzia statale,Via Europa,Angri,SA,"VIA EUROPA, 1, 84012 ANGRI (SA)",0815132129,saic8bn00q@istruzione.it,sì,7.8
+NAAA8CQ03A,infanzia statale,Palma Ic De Curtis Carbnol,Carbonara Di Nola,NA,"VIA RAINONE, 80030 CARBONARA DI NOLA (NA)",0818253014,naic8cq00b@istruzione.it,sì,8.6
+SAAA10401D,infanzia statale,Barbazzano,Pagani,SA,"VIA S. ERASMO, 84016 PAGANI (SA)",081915523,saee10400n@istruzione.it,sì,8.6
+SAAA10201T,infanzia statale,Carducci,Pagani,SA,"VIA GIUSEPPE MAZZINI, 84016 PAGANI (SA)",081914305,saee102002@istruzione.it,sì,8.6
+SAAA10405N,infanzia statale,Collodi,Pagani,SA,"VIA FILETTINE, 84016 PAGANI (SA)",815152641,saee10400n@istruzione.it,sì,8.6
+SAAA10202V,infanzia statale,Corso Ettore Padovano,Pagani,SA,"C/SO E. PADOVANO, 84016 PAGANI (SA)",081916000,saee102002@istruzione.it,sì,8.6
+SAAA10403G,infanzia statale,Flaucinola,Pagani,SA,"VIA FLAUCINOLA, 84016 PAGANI (SA)",081910230,saee10400n@istruzione.it,sì,8.6
+SA1A00100N,infanzia paritaria,Istituto Suore Francescane Di Santonio Infanzia Ca,Pagani,SA,"VIA MATTEOTTI 39, 84016 PAGANI (SA)",081 5151902,,no: manca,8.6
+SA1A12100Q,infanzia paritaria,Istituto Suore Francescane Di Santonio Infanzia Im,Pagani,SA,"VIA CESARANO N.75, 84016 PAGANI (SA)",081917435,direzione@paritariaimmacolata.it,sì,8.6
+SAAA10402E,infanzia statale,Mangioni,Pagani,SA,"VIA MANGIONI, 84016 PAGANI (SA)",081910439,saee10400n@istruzione.it,sì,8.6
+SAAA10406P,infanzia statale,Plesso Forteco,Pagani,SA,"VIA S. ERASMO, 84016 PAGANI (SA)",081910166,saee10400n@istruzione.it,sì,8.6
+SA1A12800E,infanzia paritaria,Scuola Dellinfanz Non Statpreziosissimo Sangueente,Pagani,SA,"VIA SAN FRANCESCO 107, 84016 PAGANI (SA)",081 916240,,no: manca,8.6
+SA1A161006,infanzia paritaria,Scuola Dellinfanzia Non Statale Baby Clubcoop,Pagani,SA,"VIA C.TRAMONTANO 77, 84016 PAGANI (SA)",081 5154813,darco.raffaella@libero.it,no: indirizzo personale,8.6
+SAAA8A5023,infanzia statale,Via Acalifano,Pagani,SA,"VIA A.CALIFANO, 84016 PAGANI (SA)",0081916838,saic8a5005@istruzione.it,sì,8.6
+SAAA8A5034,infanzia statale,Via Criscuolo,Pagani,SA,"VIA CRISCUOLO, 84016 PAGANI (SA)",0081910737,saic8a5005@istruzione.it,sì,8.6
+SAAA102041,infanzia statale,Via Repubblica,Pagani,SA,"PIAZZA S. ALFONSO, 84016 PAGANI (SA)",0815153013,saee102002@istruzione.it,sì,8.6
+NAAA85304D,infanzia statale,A De Curtis Cesano,Sant'Antonio Abate,NA,"CESANO, 80057 SANT'ANTONIO ABATE (NA)",0818738076,,no: manca,8.9
+NA1A136003,infanzia paritaria,Ente Religioso Congregazione Suore Gerardine Mose,Sant'Antonio Abate,NA,"VIA CASA D'AURIA,N.46, 80057 SANT'ANTONIO ABATE (NA)",818796559,sgscuolamosemascolo@gmail.com,sì,8.9
+NA1AQP500V,infanzia paritaria,La Polesana,Sant'Antonio Abate,NA,"VIA DANTE ALIGHIERI 62, 80057 SANT'ANTONIO ABATE (NA)",0848796011,,no: manca,8.9
+NA1AC65008,infanzia paritaria,La Sirenetta Cooperativa Sociale,Sant'Antonio Abate,NA,"VIA ROMA 554, 80057 SANT'ANTONIO ABATE (NA)",0818744151,admin183291@lasirenetta.191.it,no: dominio che non riceve posta,8.9
+NAAA8B701T,infanzia statale,Plesso Buonconsiglio,Sant'Antonio Abate,NA,"VIA BUONCONSIGLIO, 80057 SANT'ANTONIO ABATE (NA)",0818738074,naic8b7001@istruzione.it,sì,8.9
+NAAA85301A,infanzia statale,Santonio Abate Dauria,Sant'Antonio Abate,NA,"VIA CASA D'AURIA, 80057 SANT'ANTONIO ABATE (NA)",0818735657,naic85300d@istruzione.it,sì,8.9
+NAAA85302B,infanzia statale,Santonio Abate Pontone,Sant'Antonio Abate,NA,"VIA S.MARIA LA CARITA, 80057 SANT'ANTONIO ABATE (NA)",0818744039,naic85300d@istruzione.it,sì,8.9
+NAAA85303C,infanzia statale,Santonio Abate Salette,Sant'Antonio Abate,NA,"VIA SALETTE 18, 80057 SANT'ANTONIO ABATE (NA)",0818736278,naic85300d@istruzione.it,sì,8.9
+NA1A576001,infanzia paritaria,Associazione Primavera Di Bimbi,Torre Annunziata,NA,"VIA AVALLONE 7, 80058 TORRE ANNUNZIATA (NA)",0810489137,castiant1@virgilio.it,sì,9.0
+NA1A144002,infanzia paritaria,Centro Comunicazione Espressione Sas Impresa Socia,Torre Annunziata,NA,"VIA L. IACONO, 8, 80058 TORRE ANNUNZIATA (NA)",0818613174,centrocomunicazionee@libero.it,sì,9.0
+NA1AIN500A,infanzia paritaria,Le Magiche Fiabe,Torre Annunziata,NA,"VIA E. ERCIOLI 153, 80058 TORRE ANNUNZIATA (NA)",0814617560,connysangiovanni@gmail.com,no: indirizzo personale,9.0
+NAAA8FZ054,infanzia statale,Tannta Ic Parini Ferriera,Torre Annunziata,NA,"TORRETTA FERRIERA, 80058 TORRE ANNUNZIATA (NA)",0818623788,naic8fz003@istruzione.it,sì,9.0
+NAAA8FZ043,infanzia statale,Tannta Ic Parini Pascoli,Torre Annunziata,NA,"VIA PASCOLI, 80058 TORRE ANNUNZIATA (NA)",,naic8fz003@istruzione.it,sì,9.0
+NAAA8FZ01X,infanzia statale,Tannta Ic Piombiera,Torre Annunziata,NA,"VIA PIOMBIERA 1, 80058 TORRE ANNUNZIATA (NA)",0815358295,naic8fz003@istruzione.it,sì,9.0
+NAAA8FY025,infanzia statale,Tannunziata Leopardi Via Murat,Torre Annunziata,NA,"VIA MURAT, 91, 80058 TORRE ANNUNZIATA (NA)",0818612464,naic8fy007@istruzione.it,sì,9.0
+NAAA191035,infanzia statale,Torre Annta Cesaro,Torre Annunziata,NA,"V. V. VENETO, 441, 80058 TORRE ANNUNZIATA (NA)",0818614727,naee191007@istruzione.it,sì,9.0
+NAAA8FY014,infanzia statale,Torre Annta I Piazza Cavour,Torre Annunziata,NA,"VIA CAVOUR 26, 80058 TORRE ANNUNZIATA (NA)",0818615253,naic8fy007@istruzione.it,sì,9.0
+NAAA189013,infanzia statale,Torre Annta Tagliamonte,Torre Annunziata,NA,"VIA TAGLIAMONTE, 80058 TORRE ANNUNZIATA (NA)",0815358280,naee189007@istruzione.it,sì,9.0
+SA1AOE500Z,infanzia paritaria,La Casa Di Topolino,Sant'Egidio Del Monte Albino,SA,"Via M.Buonarroti, 60, 84010 SANT'EGIDIO DEL MONTE ALBINO (SA)",08119176890,lacasadi_topolino@libero.it,sì,9.1
+SAAA8BA02A,infanzia statale,Orta Loreto,Sant'Egidio Del Monte Albino,SA,"VIA MAZZINI, 84010 SANT'EGIDIO DEL MONTE ALBINO (SA)",0815152560,saic8ba00c@istruzione.it,sì,9.1
+SAAA8BA03B,infanzia statale,San Lorenzo,Sant'Egidio Del Monte Albino,SA,"VIA COSCIONI,1, 84010 SANT'EGIDIO DEL MONTE ALBINO (SA)",0815151060,saic8ba00c@istruzione.it,sì,9.1
+SA1A18000G,infanzia paritaria,Scuola Dellinfanzia Non Statal Piccoli Amici Socie,Sant'Egidio Del Monte Albino,SA,"VIA KENNEDY 65, 84010 SANT'EGIDIO DEL MONTE ALBINO (SA)",081919560,piccoliamici08@libero.it,sì,9.1
+SAAA8BA019,infanzia statale,Segidio Ma Cap,Sant'Egidio Del Monte Albino,SA,"VIA PULCINELLA, 84010 SANT'EGIDIO DEL MONTE ALBINO (SA)",0815153166,saic8ba00c@istruzione.it,sì,9.1
+NA1A56900T,infanzia paritaria,Mondo Creativo,Trecase,NA,"VIA BOSCO DEL MONACO, 49, 80040 TRECASE (NA)",0815369189,marianna.sansone@virgilio.it,no: indirizzo personale,9.1
+NA1A504003,infanzia paritaria,Salvatore Bello Societa Cooperativa,Trecase,NA,"VIA CAPITANO GIUSEPPE REA, 82, 80040 TRECASE (NA)",081 8621244,ann.2001@libero.it,no: indirizzo personale,9.1
+NA1A59500A,infanzia paritaria,Scuola Dellinfanzia Anni Verdi Di Sirto Giovanni S,Trecase,NA,"VIA SESTO STAIBANO, 129, 80040 TRECASE (NA)",081 8622340,scuola.anniverdi@libero.it,sì,9.1
+NAAA8GF013,infanzia statale,Trecase Via Vesuvio,Trecase,NA,"PLESSO VIA VESUVIO, 80040 TRECASE (NA)",0818615354,naic8gf006@istruzione.it,sì,9.1
+NAAA8B6012,infanzia statale,Infanzia Ernesto Borrelli,Santa Maria La Carita',NA,"VIA LATTARO 16, 80050 SANTA MARIA LA CARITA' (NA)",0814247532,naic8b6005@istruzione.it,sì,9.4
+NA1A74200G,infanzia paritaria,Le Simpatiche Canaglie,Santa Maria La Carita',NA,"VIA CANNETO II 16, 80050 SANTA MARIA LA CARITA' (NA)",08119818517,lesimpatichecanaglie2020@gmail.com,sì,9.4
+NA1A67700N,infanzia paritaria,New Solletico Societa Cooperativa,Santa Maria La Carita',NA,"VIA MOTTA CARITA' 116, 80050 SANTA MARIA LA CARITA' (NA)",081 8703883,gargiulocarmela@virgilio.it,no: indirizzo personale,9.4
+NAAA21916A,infanzia statale,S M La Carita Cappella Bisi,Santa Maria La Carita',NA,"VIA CAPPELLA DEI BISI,171, 80050 SANTA MARIA LA CARITA' (NA)",0818741440,naee21900t@istruzione.it,sì,9.4
+NAAA219115,infanzia statale,Sm La Carita Ed Arancio,Santa Maria La Carita',NA,"VIA SCAFATI, 4, 80050 SANTA MARIA LA CARITA' (NA)",0818741506,naee21900t@istruzione.it,sì,9.4
+NAAA219159,infanzia statale,Smla Carita Edazzurro,Santa Maria La Carita',NA,"VIA SCAFATI, 4 /BIS, 80050 SANTA MARIA LA CARITA' (NA)",0818741506,naee21900t@istruzione.it,sì,9.4
+AVAA84605L,infanzia statale,Capoluogodomicella,Domicella,AV,"VIA DIAZ, 83020 DOMICELLA (AV)",0818253627,,no: manca,9.5
+SAAA8BA04C,infanzia statale,Corbara Cap,Corbara,SA,"VIA TENENTE LIGNOLA, 84010 CORBARA (SA)",081913040,saic8ba00c@istruzione.it,sì,9.8
+SA1ATZ5008,infanzia paritaria,Lape Gaia,Nocera Inferiore,SA,"via T.L.Caro, 10, 84014 NOCERA INFERIORE (SA)",0819211179,,no: manca,10.8
+SAAA8BU01R,infanzia statale,Rione Cicalesi,Nocera Inferiore,SA,"VIA PIETRACCIOLI, 84014 NOCERA INFERIORE (SA)",,saic8bu00x@istruzione.it,sì,10.8
+SAAA8BR032,infanzia statale,S Mauro Centro,Nocera Inferiore,SA,"VIA S. MAURO, 84014 NOCERA INFERIORE (SA)",081926887,saic8br003@istruzione.it,sì,10.8
+SA1A15000Q,infanzia paritaria,Scuola Dellinfanzia Non Statat Disney Clubcoop Mut,Nocera Inferiore,SA,"S. D'ALESSANDRO 9, 84014 NOCERA INFERIORE (SA)",081 5174605,disneyclub@email.it,sì,10.8
+SAAA8BR054,infanzia statale,Via Sanna,Nocera Inferiore,SA,"VIA S.ANNA, 84014 NOCERA INFERIORE (SA)",0815173155,saic8br003@istruzione.it,sì,10.8
+NAAA21404N,infanzia statale,Somma Vesuviana Ii Rne Trieste,Somma Vesuviana,NA,"VIA COSTANTINOPOLI, 80049 SOMMA VESUVIANA (NA)",0818939252,naee21400p@istruzione.it,sì,11.5
+NAAA33503E,infanzia statale,Somma Vesuviana Iii Matarazzo,Somma Vesuviana,NA,"VIA CUPA DI NOLA, 80049 SOMMA VESUVIANA (NA)",0818939235,naee33500l@istruzione.it,sì,11.5
+NAAA21401E,infanzia statale,Somma Vna Ii V Costantinopoli,Somma Vesuviana,NA,"VIA COSTANTINOPOLI 214, 80049 SOMMA VESUVIANA (NA)",0818939252,naee21400p@istruzione.it,sì,11.5
+NA1A10300Q,infanzia paritaria,Associazione La Sirenetta,Saviano,NA,"VIA TOMMASONI (MASSERIA FABIO), 80039 SAVIANO (NA)",0815123941,,no: manca,11.8
+NA1A716003,infanzia paritaria,La Nuova Ghirigori Srl Impresa Sociale,Saviano,NA,"CORSO ITALIA 58, 80039 SAVIANO (NA)",08119175641,antonella.catapano01@gmail.com,no: indirizzo personale,11.8
+NAAA8DJ014,infanzia statale,Cmare Ic Karol Wojtyla,Castellammare Di Stabia,NA,"VIA VENEZIA N.1, 80053 CASTELLAMMARE DI STABIA (NA)",0818725799,naic8dj007@istruzione.it,sì,13.1
+NAAA8DJ047,infanzia statale,Cmmare Ic Karol Wojtyla,Castellammare Di Stabia,NA,"TRAVERSA LATTARO 34, 80053 CASTELLAMMARE DI STABIA (NA)",0818743049,naic8dj007@istruzione.it,sì,13.1
+NAAA847013,infanzia statale,Icdenza Cmmare Di Stabia,Castellammare Di Stabia,NA,"VIA PONTE DELLA PERSICA, 18, 80053 CASTELLAMMARE DI STABIA (NA)",0818703101,naic847006@istruzione.it,sì,13.1
+NA1A16200G,infanzia paritaria,Ente Religioso Congregazione Delle Religiose Franc,Nola,NA,"VIA PARROCCHIA,N.142 PIAZZOLLA DI NOLA, 80035 NOLA (NA)",081 8291382,con_francescane_ant@libero.it,sì,13.1
+NAAA8AP04A,infanzia statale,Nola Ic Mameli Verdischi,Nola,NA,"VIA NOLA SA. GENNARO, 80037 NOLA (NA)",0818203503,naic8ap00v@istruzione.it,sì,13.1
