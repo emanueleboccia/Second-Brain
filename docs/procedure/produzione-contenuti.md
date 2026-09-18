@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-07
-updated: 2026-09-14
+updated: 2026-09-17
 related:
   - "[[areas/da-mamma-rosaria/reference/regole-editoriali]]"
   - "[[areas/da-mamma-rosaria/reference/caption]]"
@@ -51,7 +51,8 @@ SSD-MANU/
 Dentro ogni brand, sempre le stesse quattro:
 
 ```
-1-eventi/          il girato crudo, una cartella per evento
+1-eventi/          il girato crudo, una cartella per evento, e in momenti/
+                   quello girato al volo con l'iPhone; le clip già usate in usate/
                    (nel personal brand si chiama 1-girato)
 2-libreria/        il buono, tirato fuori dagli eventi e ordinato per soggetto
 3-in-produzione/   una cartella per contenuto, con dentro caption.md

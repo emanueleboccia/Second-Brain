@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-17
 related:
   - "[[docs/procedure/produzione-contenuti]]"
   - "[[docs/procedure/pubblicare-un-post]]"
@@ -67,6 +67,38 @@ clip non si rinominano, non si convertono e non si ricomprimono: l'SSD tiene il 
    sull'SSD, e i `caption.md` dei contenuti già pubblicati, quelli archiviati come dice
    [[docs/procedure/pubblicare-un-post|pubblicare un post]]. Le storie montate da queste cartelle seguono
    [[areas/da-mamma-rosaria/reference/reel|le regole dei reel]] per musica e colore.
+
+## I momenti girati al volo
+
+> Deciso da Emanuele il 17/09/2026, sulle clip del Braciere.
+
+**Un evento è una serata ripresa dal videomaker, Umberto**, dall'inizio alla fine: quello va in
+`1-eventi/<tipo-evento>-<nome>/` con le cartelle numerate. **Un momento è quello che Emanuele gira da solo con
+l'iPhone**: scende, riprende una cosa, risale. Non è una serata intera e non prende la struttura di un evento.
+
+I momenti arrivano in `00-SCARICO/iphone/` e, appena lavorati, vanno in **`1-eventi/momenti/<AAAA-MM-GG>-<soggetto>/`**,
+per esempio `2026-09-16-il-braciere`: la data davanti, così stanno in ordine, e il soggetto dopo. Niente cartelle
+numerate dentro: le clip stanno tutte insieme, perché sono poche e girate per una cosa sola. Il manifesto dello
+spostamento va in `1-eventi/_manifesti/`, come per gli eventi.
+
+## Le clip già usate
+
+> Deciso il 17/09/2026: Emanuele vuole vedere dalla cartella quali clip grezze sono già state usate.
+
+**Le clip grezze non si cancellano.** Il 17/09/2026 una storia già montata si è dovuta rifare partendo dagli
+originali, per togliere una clip mossa: senza il grezzo non si poteva.
+
+- **Una clip usata in una storia va in `usate/`**, una sottocartella della cartella dove sta: in un evento
+  `02-cibo-e-servizio/usate/`, in un momento `2026-09-16-il-braciere/usate/`. Si sposta quando le storie sono
+  montate e approvate da Emanuele, anche se non sono ancora uscite: una clip in un pacchetto è già presa.
+- **Una clip scartata**, mossa o inutilizzabile, va in `scartate/`.
+- **Quello che resta fuori da `usate/` e `scartate/` è girato ancora libero**: è lì che si va a prendere per le
+  storie nuove. L'elenco preciso di quale clip sta in quale storia resta in `pacchetti.md` e `storie-clip.md`.
+- **`00-SCARICO/` contiene solo quello che non è ancora stato lavorato.** Quando da uno scarico escono le storie,
+  lo scarico intero lascia `00-SCARICO`.
+
+⚠️ Gli eventi lavorati prima del 17/09/2026 — i 40 anni, il battesimo di Angela, i 30 anni — hanno ancora le clip
+usate mescolate alle libere: lì vale solo l'elenco dei registri, finché non si separano.
 
 ## Il colore, che dipende dall'evento
 

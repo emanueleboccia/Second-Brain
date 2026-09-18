@@ -156,6 +156,10 @@ il contesto nelle note.
   - Per ognuna, chiedi se c'è un aggiornamento da registrare.
   - Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
     aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
+  - ⚠️ **Una proposta «In attesa» con una decisione scritta in `Note esito` non si segnala da
+    sollecitare.** Vuol dire che Emanuele ha deciso di aspettare il cliente: si nomina in mezza riga,
+    con quello che dice la nota. Se la nota fissa un giorno per il sollecito, quel giorno la proposta
+    entra fra le cose di oggi. Deciso il 17/09/2026 su Ragosta: «mo aspettiamo lui».
 - **le scadenze dei siti.** In `Siti Clienti` ci sono tre date per ogni sito — hosting, assistenza,
   dominio. Riporta quelle che scadono **entro trenta giorni**, ordinate dalla più vicina, e marca
   come **urgenti** quelle sotto i quattordici. Una riga per scadenza: sito, cosa scade, fra quanti

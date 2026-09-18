@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-03
+updated: 2026-09-17
 ---
 
 # Definizione di fatto — Journal
@@ -27,7 +27,8 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
   **nuove da Raffaele**. Se era `null`, è il primo giro e non si inventa una finestra.
 - 🎯 Obiettivi solo il lunedì, 📖 Formazione solo se ha una data entro la settimana, 📥 Inbox solo se piena e **col solo numero**.
 - Ogni proposta Notion aperta dice **da quanti giorni** è ferma; oltre i sette è da sollecitare, ma
-  le «Pronta per l'invio» no: sono ferme su Emanuele, non sul cliente.
+  le «Pronta per l'invio» no: sono ferme su Emanuele, non sul cliente. Nemmeno le «In attesa» con una
+  decisione in `Note esito`: si riporta la decisione, e il giorno del sollecito scritto lì la proposta è fra le cose di oggi.
 - Le scadenze siti entro trenta giorni ci sono **tutte**, dalla più vicina, urgenti sotto i
   quattordici. È fatturato ricorrente: nessuna omissione dentro la finestra.
 - Le tre priorità sono **trasversali** e proposte, non decise. Un servizio muto è **dichiarato**.

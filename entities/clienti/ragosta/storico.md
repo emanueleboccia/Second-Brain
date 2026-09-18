@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-04
-updated: 2026-09-16
+updated: 2026-09-17
 related:
   - "[[entities/clienti/ragosta/scheda]]"
   - "[[sources/call/2026-09-04-gaetano-ragosta]]"
@@ -93,3 +93,17 @@ Il lavoro resta venduto e confermato per iscritto il 04/09 — quello che manca 
 ### Prossimo passo — aggiorna quello del 04/09
 
 La finestra 15–17 settembre si chiude il 17 senza che l'incontro sia stato fissato.
+
+## 2026-09-17 — Non lo si cerca più
+
+Emanuele ha deciso di non ricontattarlo: «mo aspettiamo lui, altrimenti è un caso perso». Dopo il «sì sì»
+del 14/09 non è arrivato niente, e la finestra del 15–17 settembre si è chiusa senza un incontro.
+
+Il lavoro resta quello venduto e confermato per iscritto il 04/09, sito vetrina a 1.500 € con acconto alla
+consegna del materiale. Se Gaetano si fa vivo, si riparte da lì: il materiale e l'incontro.
+
+### Prossimo passo — sostituisce quello del 14/09
+
+Si aspetta lui. **Se non risponde, sabato 19/09 mattina gli si manda un sollecito**, detto da Emanuele lo
+stesso giorno: «al massimo se non ci risponde gli mandiamo un sollecito sabato mattina». Su Notion la proposta
+è passata a «In attesa», con la decisione in «Note esito».

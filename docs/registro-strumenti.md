@@ -105,6 +105,11 @@ e per quello vale il divieto di sempre.
 font: sa fare una slide, non otto coerenti. Per i caroselli l'impianto è ibrido — modello
 HTML/CSS per testo e impaginato, Higgsfield per le immagini.
 
+⚠️ **Sul food non regge.** Il 17/09/2026 un piatto fotografato con la Sony, rimesso su un tavolo di
+legno con luce da studio da GPT Image 2.5, è uscito pulito ma col cibo ridisegnato; lo scontorno
+invece ha preso il piatto bianco per sfondo. Emanuele ha bocciato tutto: «fanno cacare». Il piatto
+resta una cosa da fotografare bene, non da rifare.
+
 **Data:** valutato «da rivalutare» il 01/09/2026 per il costo, **abbonato al piano Ultra e
 promosso ad attivo il 06/09/2026**, dopo il primo test su materiale proprio.
 

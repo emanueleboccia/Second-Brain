@@ -8,7 +8,7 @@ tags:
   - contenuti
 status: in-lavorazione
 created: 2026-09-10
-updated: 2026-09-15
+updated: 2026-09-17
 related:
   - "[[areas/da-mamma-rosaria/reference/design]]"
   - "[[areas/da-mamma-rosaria/reference/tono]]"
@@ -111,6 +111,13 @@ immagini, e la gente finisce ad ascoltare il testo invece di guardare la festa.
 **Opzionali, e li decide Emanuele volta per volta**, dettando cosa scrivere.
 
 Quando ci sono: **D-DIN Bold maiuscolo**, bianco o crema `#FBF1DD`, **mai sopra le facce**.
+
+**Se la scritta ha una parola in Regular Brush, le due parti si incastrano.** Deciso da Emanuele il
+17/09/2026 sulla prima storia del Braciere, «il nostro braciere»: «questo è proprio quello che voglio
+con le scritte, devono essere così». La parte in D-DIN entra nello spazio libero accanto all'asta alta
+della parola in Brush arancio, con la cima allineata alla cima dell'asta, e poggia sulla parola a pochi
+pixel dalle lettere. Se non ci sta, si rimpicciolisce il D-DIN, non si allarga lo spazio. I font restano
+due, ma si legge una scritta sola. Due righe impilate con l'aria in mezzo sono la versione scartata.
 
 ⚠️ **Il Regular Brush non si dà a chi monta da fuori.** È il font della firma e vale una parola
 sola, ma porta la filigrana demo su punteggiatura, cifre e simboli

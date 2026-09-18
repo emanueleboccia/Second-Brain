@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: attivo
 created: 2026-09-10
-updated: 2026-09-16
+updated: 2026-09-17
 related:
   - "[[docs/procedure/produzione-contenuti]]"
   - "[[docs/definizioni/pubblicare-un-post]]"
@@ -208,6 +208,24 @@ Il link si riporta a Emanuele. È la prova, e gli serve per guardarlo.
   data, ore e minuti, su Facebook e su Instagram.
 - **I video sopra i 10 MB non passano dal caricamento del browser.** Una storia di 10 secondi si
   ricomprime con crf 24, e il file archiviato è quello caricato.
+
+> Aggiunto il 17/09/2026, programmando sette storie del Braciere alle 21:00 da un composer solo.
+
+- **Più video nello stesso composer escono insieme e nell'ordine di caricamento.** Si caricano **uno
+  alla volta**: ognuno resta in elaborazione 25-30 secondi, e il successivo parte solo quando nella lista
+  compare la sua riga «1080 × 1920». Il terzo video caricato mentre si premeva di nuovo «Aggiungi
+  foto/video» è sparito senza errori, e al suo posto è entrato il quarto: l'ordine si controlla sulle
+  miniature prima di programmare. Dopo il primo video il file si carica direttamente sullo stesso input,
+  senza ripremere il pulsante.
+- **Il limite dei 10 MB dell'estensione vale per tutto il giro di comandi**, non per il singolo file: due
+  video da 7,8 MB nella stessa sequenza fanno fallire la seconda. Un caricamento per giro.
+- **Un video bloccato con la finestra dietro non riparte portandola davanti.** Si ricarica il composer,
+  scartando la bozza, e si ricarica il file con la finestra già davanti.
+- **Con un video solo compare «Consenti di condividere la tua storia come reel su Facebook».** È spento e
+  resta spento: acceso, la storia uscirebbe anche come reel sulla Pagina. Con più video la voce sparisce.
+- **Le ore e i minuti non si scrivono con l'inserimento dei campi:** sono spinbutton, e il valore resta
+  quello di prima. Si clicca sul campo e si digitano le cifre, su Facebook e su Instagram, e si rilegge
+  `aria-valuenow`.
 
 ## Tenuta Don Gaetano: i reel da Buffer
 

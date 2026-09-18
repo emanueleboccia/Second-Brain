@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-17
 related:
   - "[[entities/clienti/girarrosto-la-signora/scheda]]"
   - "[[entities/clienti/girarrosto-liberti/storico]]"
@@ -19,6 +19,12 @@ related:
 Chi sono e cosa vogliono sta in [[entities/clienti/girarrosto-la-signora/scheda|scheda]]. Qui c'è solo cosa
 è successo, dal più recente in cima. Come sono arrivati sta nello
 [[entities/clienti/girarrosto-liberti/storico|storico del Girarrosto Liberti]], alla data del 13/09/2026.
+
+### 2026-09-17 — Il fratello non lo vuole, resta Nocera
+Salvatore ha fatto sapere a Emanuele che il fratello il sistema non lo vuole: lo fa solo la sede di Nocera, la
+sua, e ha chiesto come ci si muove. Lo stesso giorno Emanuele ha precisato la proposta del 16/09: a 1.100 € era
+**un sistema solo con due accessi**, da dividere fra i due, non due sistemi. La lettura qui sotto, «un sistema
+per ciascuno», viene dalla trascrizione sporca ed era sbagliata. Il prezzo per Nocera da sola è da decidere.
 
 ### 2026-09-16 — Primo incontro, proposta a voce per i due locali
 Di persona, dalle 17:26, registrato su Granola:

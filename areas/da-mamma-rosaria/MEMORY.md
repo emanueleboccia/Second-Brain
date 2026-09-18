@@ -709,3 +709,25 @@ Drive in `98 Social/03 report/2026-08/`, coi CSV in `dati/`, e la riga del mese 
 - I tre post nostri più visti: Sala Legno, il tavolo dei dolci, il reel della laurea di Gaetano.
 - **Approvato da Emanuele lo stesso giorno: «il report va benissimo».** Da settembre si parte da questo
   template, con le stesse otto pagine, senza ridisegnarlo.
+
+## 17/09/2026 — La scritta si incastra, e la clip che scende esce dalla storia
+
+Sulla prima storia del Braciere Emanuele ha chiesto di avvicinare «IL NOSTRO» e «braciere» finché sembrano
+una scritta sola coi due font. Il D-DIN è entrato nello spazio accanto all'asta della «b» e poggia sulla
+parola: «questo è proprio quello che voglio con le scritte, devono essere così». La regola sta nella sezione
+Testi di [[areas/da-mamma-rosaria/reference/reel|reel]].
+
+Nella stessa storia c'era una clip, IMG_4939, dove il telefono scende: tolta, e la storia è rimasta di due
+inquadrature ferme da 4,5 e 5,5 secondi. Il movimento durava meno di un secondo e nei quattro fotogrammi di
+controllo non si vedeva: da oggi il movimento della camera si misura su tutta la storia prima di mandarla.
+
+Sette storie del Braciere sono programmate per le 21:00 dello stesso giorno, le altre sei restano pronte. Le clip
+grezze sono uscite da `00-SCARICO/iphone/` e stanno in `1-eventi/momenti/2026-09-16-il-braciere/`, con le usate in
+`usate/` e la clip mossa in `scartate/`: **un momento girato al volo con l'iPhone non è un evento**, e le clip usate
+si separano da quelle libere. La regola sta in
+[[docs/procedure/ordinare-un-evento|ordinare un evento]].
+
+**Le dodici storie proposte per le sere del 18, 19 e 20 sono state bocciate tutte.** Niente più storie della carne
+del Braciere, «basta, non le usare più»; le mascotte che ballano davanti al castello sono inquietanti e su quella
+clip la musica non c'entrava; e due storie vicine si somigliavano al punto da sembrare la stessa. Sono nelle
+cartelle `scartate/` dei pacchetti, e quelle tre sere si rifanno da capo con soggetti nuovi.

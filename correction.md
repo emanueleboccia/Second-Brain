@@ -88,6 +88,10 @@ il lavoro su Remotion e sul reel — è sparito, ed è stato riunito a mano il g
 Emanuele cosa si aggiungerebbe e si chiede se unire o fare il secondo file. Vale anche quando il
 file l'hai scritto tu dieci minuti prima: un'altra sessione può averci scritto sopra nel frattempo.
 
+⚠️ **Ricapitato il 18/09/2026.** Il controllo l'avevo fatto la sera prima, e nella notte la sessione della
+Masseria aveva scritto e committato `sessione-2026-09-17.md`: l'ho sovrascritta chiudendo la mia, e l'ho
+ripristinata subito da git. Il controllo si fa **nel momento in cui si scrive**, non all'inizio della chiusura.
+
 ## 29/08/2026 — Una cosa già fatta è una task da spuntare
 
 Emanuele aveva detto «aggiungi che ho già fatto grandi modifiche all'applicazione gestionale» e io
@@ -621,3 +625,16 @@ Prima che l'invio si fermasse era già partita una scuola, La Scuola di Alice di
 invita a scaricare la brochure allegata. I prezzi stanno nella brochure, come dice il tono di voce della
 Masseria, e nell'email non vanno link. E dopo la prova il primo gruppo non parte finché Emanuele non ha
 visto l'email arrivata nella sua Gmail e ha detto di sì: mail-tester controlla lo spam, non il testo.
+
+## 17/09/2026 — Dodici storie proposte senza guardarle in fila
+
+Per le sere del 18, 19 e 20 settembre ho proposto dodici storie già montate, pescate dai pacchetti liberi, e
+Emanuele le ha bocciate tutte. Quattro erano di carne il giorno dopo una serata tutta braciere, due vicine si
+somigliavano al punto da sembrare la stessa clip due volte, e una era la clip delle mascotte che ballano:
+inquietante, e con sotto una musica che non c'entrava niente.
+
+**La prossima volta:** prima di proporre un pacchetto di storie si monta il provino a griglia coi fotogrammi di
+tutte e si guarda la fila come la vedrà chi le scorre. Due storie vicine non mostrano la stessa scena, e il tema
+della sera prima non si ripete il giorno dopo. È lo stesso errore dei grafici del 14/09, applicato alle storie
+clip. E la musica si sceglie guardando cosa succede nella clip, non solo il mood del brand: su gente in costume
+che balla, un groove morbido suona storto.
