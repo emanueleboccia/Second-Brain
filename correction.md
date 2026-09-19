@@ -638,3 +638,14 @@ tutte e si guarda la fila come la vedrà chi le scorre. Due storie vicine non mo
 della sera prima non si ripete il giorno dopo. È lo stesso errore dei grafici del 14/09, applicato alle storie
 clip. E la musica si sceglie guardando cosa succede nella clip, non solo il mood del brand: su gente in costume
 che balla, un groove morbido suona storto.
+
+## 18/09/2026 — Nei sottotitoli una parola non capita era diventata un'altra
+
+Nella storia del playground di paglia della Masseria whisper sentiva «mi sto asosciando», e io ho scritto nel
+sottotitolo «mi sto abbronzando», che era la mia ipotesi. L'avevo segnalata come incerta, ma intanto stava già
+dentro il video. Mirko diceva «mi sto sosciando»: è dialetto, e il modello non lo conosce.
+
+**La prossima volta:** in un sottotitolo non si mette mai una parola indovinata. Se whisper sente una parola che
+in italiano non esiste, può essere dialetto: si scrive com'è stata sentita e si chiede a Emanuele prima di
+montare, non dopo. Nelle storie della Masseria e di Mamma Rosaria il dialetto è la norma, e una parola
+«corretta» in italiano cambia la battuta.

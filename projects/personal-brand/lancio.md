@@ -7,7 +7,7 @@ tags:
   - lancio
 status: in-lavorazione
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-19
 related:
   - "[[projects/personal-brand/piano]]"
   - "[[projects/personal-brand/canali-e-crescita]]"
@@ -155,6 +155,50 @@ cui nemico 4 è *«l'AI usata senza coscienza»*, e il cui `design.md` dice che 
 trucca**, è la prima cosa che un commentatore ostile indica. L'alternativa che evita il problema
 e sta meglio nel sistema: **una foto vera trattata nella sua palette** — monocroma, crema su
 nero. Stessa riconoscibilità, nessun fianco scoperto.
+
+**18/09/2026 — Lo stile, proposto e non ancora deciso.** Emanuele pensava a uno stile futuristico
+con bagliori nei colori del brand. La proposta: **il bagliore sì, i colori no**, perché la scala di
+[[self/reference/design|design]] è chiusa. L'avatar è la sua faccia sul fondale firma, in monocromo
+caldo: nero caldo, alone crema dietro la testa, un filo di luce crema sul contorno, griglia
+blueprint appena visibile. L'aria futuristica la fanno la luce e la griglia, non gli effetti.
+
+È anche il modo di chiudere la tensione qui sopra. Il ritratto al neon è l'estetica standard di chi
+vende AI, cioè il nemico 4 di [[self/reference/convinzioni|convinzioni]]: se l'AI fa solo luce e
+sfondo, l'avatar sembra uno stile e non un filtro. La bio promette «di persona», quindi chi lo
+incontra deve riconoscerlo. E Higgsfield ridisegna il dettaglio fine, come dice il
+[[docs/registro-strumenti|registro degli strumenti]]: più si stilizza, più cambiano faccia e occhiali.
+
+**Come si genera:** Nano Banana Pro su Higgsfield, formato 1:1, risoluzione 2k, almeno quattro
+varianti.
+
+```text
+Use the uploaded photo as the identity reference. Keep the subject exactly as in the photo: same face, same proportions, same skin texture, same hair and facial hair, same head angle and expression. The subject wears the exact same eyeglasses as in the photo: identical frame shape, thickness, color and bridge, clear lenses, eyes fully visible through them, only a faint natural reflection. Do not redesign the face or the glasses. Change only the lighting, the clothes and the background.
+
+Head-and-shoulders portrait, square format. Face centered and filling about 60% of the frame, the whole head inside the frame with some breathing room, so it still works cropped to a circle. Plain black crew-neck t-shirt, no logos.
+
+Low-key studio lighting. A soft warm-white key light from the front left lights the face. A thin cream rim light (#EEEBDA) traces the hair, the jawline and the shoulders, separating the subject from the background.
+
+Background: warm near-black (#0E0E0C). Directly behind the head, a soft radial glow in warm cream (#EEEBDA), subtle, fading to nothing. A faint blueprint grid of thin lines with large square cells, barely lighter than the background, visible only where the glow reaches and disappearing into the dark toward the edges. The corners fade to pure black.
+
+Warm monochrome image: only blacks, warm grays and cream, like a black-and-white photograph printed on cream paper. No other colors.
+
+Photographic realism, 85mm portrait lens, sharp focus on the eyes, natural skin with visible pores, no beauty retouching.
+
+Avoid: neon, saturated colors, blue or purple light, holograms, HUD graphics, circuit patterns, lens flares, sparkles, text, logos, airbrushed or plastic skin, 3D render or illustration look.
+```
+
+Tre varianti, se servono:
+
+- **gli occhiali**: dopo «eyeglasses» si scrive com'è la montatura, per esempio
+  `(thin black rectangular frames)`. Foto e parole insieme tengono meglio della foto da sola;
+- **a colori**: il paragrafo «Warm monochrome…» diventa
+  `Natural skin tones, slightly muted. Everything else stays within blacks, warm grays and cream.`;
+- **più deciso**: «thin cream rim light» diventa «strong cream rim light», e il glow passa da
+  «subtle» a «clearly visible».
+
+**Il controllo prima di scegliere:** la variante si guarda grande come il cerchio del profilo sul
+telefono. Se a quella misura non è lui, o la montatura è cambiata, si scarta anche se in grande è
+bella.
 
 ### Le tre storie in evidenza
 

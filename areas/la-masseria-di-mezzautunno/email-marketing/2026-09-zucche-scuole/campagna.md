@@ -82,6 +82,8 @@ quando fra i plessi di quell'indirizzo c'è una primaria.
 | 17/09 | primo | 1 | partita col testo vecchio, coi prezzi e il link al video, a La Scuola di Alice di Poggiomarino: invio fermato per cambiare il testo |
 | 17/09 | prova | 1 | testo nuovo, arriva in Principale |
 | 17/09 | primo | 19 | dalle 15:08 alle 15:58, nessun errore di invio |
+| 18/09 | secondo | 19 | dalle 12:50 alle 13:35; alle 13:38 l'SSD si è scollegato e due invii sono falliti senza partire |
+| 18/09 | secondo e terzo | 15 | dalle 14:16 alle 14:54, compresi i due falliti; fermato da Emanuele alle 14:54 |
 
 **Il primo giorno: 20 inviate, 17 arrivate.** Tre indirizzi non esistono più: La Scuola di Alice a
 Poggiomarino, la direttrice delle Figlie di Maria Ausiliatrice e Fantasyland, tutte e due a Terzigno.

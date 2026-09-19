@@ -2,6 +2,29 @@
 
 Aperto il 13/07/2026.
 
+## 18/09/2026 — Il format delle storie del conto alla rovescia
+
+Il meno 8 ha fissato come si fanno le storie di ogni giorno fino all'apertura del 26 settembre. Deciso da
+Emanuele guardando le prime versioni:
+
+- **La prima storia dice sempre «–N giorni a Zucche in Masseria»**, identica a quella del meno 9: il numero in
+  HeroLight Bold avorio, «giorni» in Niconne giallo, la riga sotto in HeroLight Bold avorio, una velatura scura
+  che scende dall'alto, e la scritta che entra fra mezzo secondo e un secondo e resta fino alla fine. È la regola
+  del [[areas/la-masseria-di-mezzautunno/reference/design|design]] su foto: testo avorio, accento giallo, scrim e ombra.
+- **Il sottofondo è ritmico.** Il folk lento del meno 9 non bastava: bluegrass, banjo e country veloce, dalla
+  libreria `2-libreria/musica/` dell'SSD, coi tagli che cadono sul battito.
+- **Le clip parlate hanno i sottotitoli** in HeroLight Bold avorio, con una velatura scura dietro che li fa
+  leggere anche sui pannelli bianchi. Le domande di Emanuele sono in giallo, così si capisce chi parla.
+- **La voce di Emanuele che dà il via non si sente mai.** La clip parte dalla prima parola di chi parla.
+- **Una battuta si sottolinea con uno zoom sul volto in bianco e nero**, che segue la persona mentre si muove: la
+  prima è stata Mirko, «mi sto sosciando».
+- **Quando qualcuno dice «Zucche in Masseria» entra il logo del progetto**, animato, su una base avorio a forma di
+  adesivo: le scritte verde oliva sulla paglia da sole non si leggono. È `logo-trasparente.png` del brand kit, in
+  `03 Brand kit/08 Zucche in masseria`.
+
+Le cinque storie del meno 8 stanno sull'SSD in `3-in-produzione/storie-clip/meno-8-giorni/`, le clip grezze in
+`00-SCARICO/iphone/giorno 2/` finché non arriva l'ok.
+
 ## 17/09/2026 — La proposta per le scuole di Zucche in Masseria
 
 Prima del conto alla rovescia è arrivata una cosa urgente: un'**email marketing alle scuole**, e prima
