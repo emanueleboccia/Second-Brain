@@ -7,7 +7,7 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-19
 related:
   - "[[self/MEMORY]]"
   - "[[data/campagne]]"
@@ -61,6 +61,11 @@ deciso da Emanuele il 13/09/2026. Il fisso resta la voce che conta: nello scenar
 dell'11/09 valeva otto volte la scala. Gli scenari sono nello
 [[entities/clienti/sistema-evolve/storico|storico]], voce dell'11/09. Emanuele contatta
 Vincenzo il 14/09/2026.
+
+⚠️ **Rivisto il 19/09/2026, dopo la riunione del 17/09: per ora la percentuale resta quella**, e si vede come
+vanno le cose. Si chiede **almeno un rimborso spese per Emanuele**; il fisso e la scala al 15% qui sopra non si
+chiedono ora. Cifra e voci del rimborso sono da definire. Il racconto sta nello
+[[entities/clienti/sistema-evolve/storico|storico]], voce del 19/09.
 
 ⚠️ **L'ipotesi della baseline sui 250.000 € è caduta e non va ripescata.** Se si riapre il
 discorso compenso, si riparte dal 10% sulle vendite. Il ragionamento completo, con le

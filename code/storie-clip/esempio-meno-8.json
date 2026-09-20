@@ -1,0 +1,249 @@
+{
+ "storia-clip-meno-8-cantiere": {
+  "video": [
+   [
+    "5008",
+    0.0,
+    2.408
+   ],
+   [
+    "5025",
+    0.2,
+    2.408
+   ],
+   [
+    "5024",
+    0.3,
+    2.408
+   ],
+   [
+    "5022",
+    0.6,
+    2.408
+   ]
+  ],
+  "musica": [
+   "caffeine_creek_band-fried-taters-bluegrass-18547",
+   40.923
+  ],
+  "titolo": 8
+ },
+ "storia-clip-playground-di-paglia": {
+  "video": [
+   [
+    "5009",
+    0.0,
+    2.35
+   ],
+   [
+    "GAG_5009",
+    0.0,
+    1.65
+   ],
+   [
+    "5009",
+    6.52,
+    1.33
+   ],
+   [
+    "5011",
+    3.7,
+    3.9
+   ]
+  ],
+  "voci": [
+   [
+    "5009",
+    0.0,
+    4.0,
+    0.0
+   ],
+   [
+    "5009",
+    6.52,
+    9.0,
+    4.0
+   ]
+  ],
+  "fine_voce": 6.5,
+  "musica": [
+   "the_mountain-country-567416",
+   57.295
+  ],
+  "sottotitoli": [
+   [
+    "Mirko, che stai facendo oggi?",
+    "giallo",
+    0.6,
+    2.35
+   ],
+   [
+    "Mi sto sosciando.",
+    "avorio",
+    2.4,
+    4.0
+   ],
+   [
+    "In realtà stiamo costruendo",
+    "avorio",
+    4.0,
+    5.0
+   ],
+   [
+    "il nostro playground di paglia.",
+    "avorio",
+    5.0,
+    6.5
+   ]
+  ],
+  "musica_sotto": 0.32
+ },
+ "storia-clip-zucche-e-allestimenti": {
+  "video": [
+   [
+    "5021",
+    0.5,
+    2.771
+   ],
+   [
+    "5018",
+    0.3,
+    2.771
+   ],
+   [
+    "5028",
+    0.1,
+    2.309
+   ]
+  ],
+  "musica": [
+   "caffeine_creek_band-banjo-romp-109570",
+   103.939
+  ]
+ },
+ "storia-clip-tavoletta-old-school": {
+  "video": [
+   [
+    "5015",
+    0.3,
+    4.006
+   ],
+   [
+    "5004",
+    1.0,
+    2.504
+   ],
+   [
+    "5016",
+    0.3,
+    2.504
+   ],
+   [
+    "5007",
+    0.3,
+    2.504
+   ]
+  ],
+  "voci": [
+   [
+    "5015",
+    0.3,
+    6.2,
+    0.0
+   ]
+  ],
+  "fine_voce": 5.9,
+  "musica": [
+   "jonasblakewood-acoustic-folk-acoustic-folk-music-580577",
+   79.946
+  ],
+  "sottotitoli": [
+   [
+    "Questo è il nostro foglio di carta",
+    "avorio",
+    0.3,
+    1.9
+   ],
+   [
+    "dove prendere appunti:",
+    "avorio",
+    1.9,
+    2.8
+   ],
+   [
+    "una tavoletta di legno.",
+    "avorio",
+    2.8,
+    4.0
+   ],
+   [
+    "Ottimo, old school.",
+    "giallo",
+    4.2,
+    5.9
+   ]
+  ],
+  "musica_sotto": 0.32
+ },
+ "storia-clip-invito": {
+  "video": [
+   [
+    "5035",
+    1.5,
+    2.676
+   ],
+   [
+    "5032",
+    3.1,
+    4.15
+   ]
+  ],
+  "voci": [
+   [
+    "5035",
+    1.5,
+    4.176,
+    0.0
+   ],
+   [
+    "5032",
+    3.1,
+    7.25,
+    2.676
+   ]
+  ],
+  "fine_voce": 6.9,
+  "musica": [
+   "the_mountain-country-567416",
+   17.325
+  ],
+  "sottotitoli": [
+   [
+    "Il 26 settembre",
+    "avorio",
+    0.2,
+    2.676
+   ],
+   [
+    "Vi aspetto",
+    "avorio",
+    2.726,
+    3.376
+   ],
+   [
+    "a Zucche in Masseria!",
+    "avorio",
+    3.376,
+    4.776
+   ],
+   [
+    "Tutte le persone, venite!",
+    "avorio",
+    5.126,
+    6.826
+   ]
+  ],
+  "musica_sotto": 0.32,
+  "logo": 3.33
+ }
+}

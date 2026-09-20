@@ -2,6 +2,29 @@
 
 Aperto il 13/07/2026.
 
+## 19/09/2026 — Il meno 7: Amin, gli zoom, e il logo non sempre
+
+Tre storie dalle dieci clip girate la sera del 19/09, approvate da Emanuele: Amin che annuncia i sette giorni
+con tre clip delle zucche, Amin davanti alla casetta con lo spaventapasseri e l'arco, gli allestimenti di sera
+col mulino. Il format del 18/09 regge, con tre cose in più:
+
+- **Chi parla ha uno zoom che segue il volto**, a colori: si stringe fra una frase e l'altra e si riallarga
+  quando serve spazio. Chiesto da Emanuele per rendere Amin più movimentato. Lo fa `code/storie-clip/zoom.py`.
+- **Se chi parla dice la frase del titolo, non ha sottotitoli**: nella prima storia Amin dice «mancano sette
+  giorni a Zucche in Masseria» e la scritta in alto lo dice già. Il logo entra sotto il volto, perché sopra
+  c'è la scritta.
+- **Il logo non entra ogni volta che qualcuno dice «Zucche in Masseria».** Alla casetta Amin lo dice, e
+  Emanuele ha chiesto di non metterlo: c'era già nella prima storia.
+
+Le storie stanno in `3-in-produzione/storie-clip/meno-7-giorni/`. Le clip sono tutte in
+`1-eventi/momenti/2026-09-19-zucche-di-sera/usate/`, e il manifesto in `1-eventi/_manifesti/` dice anche quale
+clip sta in quale storia: è il primo pezzo del registro delle storie che mancava.
+
+**Un gestionale per la Masseria, per ora no.** Lo stesso giorno Emanuele ha pensato a un gestionale su un
+sottodominio, per le gite e i compleanni nel parco di Zucche, e ha deciso di lasciar stare. Le ragioni
+emerse parlandone: il gestionale eventi di Mamma Rosaria esiste già e usa la stessa cucina e gli stessi spazi,
+e la stagione è già partita. Non si ripropone: se torna, lo riporta lui.
+
 ## 18/09/2026 — Il format delle storie del conto alla rovescia
 
 Il meno 8 ha fissato come si fanno le storie di ogni giorno fino all'apertura del 26 settembre. Deciso da

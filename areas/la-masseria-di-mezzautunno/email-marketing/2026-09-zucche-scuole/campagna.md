@@ -8,7 +8,7 @@ tags:
   - scuole
 status: in-lavorazione
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-19
 related:
   - "[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
@@ -84,6 +84,7 @@ quando fra i plessi di quell'indirizzo c'è una primaria.
 | 17/09 | primo | 19 | dalle 15:08 alle 15:58, nessun errore di invio |
 | 18/09 | secondo | 19 | dalle 12:50 alle 13:35; alle 13:38 l'SSD si è scollegato e due invii sono falliti senza partire |
 | 18/09 | secondo e terzo | 15 | dalle 14:16 alle 14:54, compresi i due falliti; fermato da Emanuele alle 14:54 |
+| 19/09 | terzo e quarto | 20 | dalle 9:41 alle 10:32, nessun errore di invio e nessun rimbalzo al controllo delle 10:34. Di sabato, su richiesta di Emanuele: il 18/09 si era deciso di aspettare lunedì |
 
 **Il primo giorno: 20 inviate, 17 arrivate.** Tre indirizzi non esistono più: La Scuola di Alice a
 Poggiomarino, la direttrice delle Figlie di Maria Ausiliatrice e Fantasyland, tutte e due a Terzigno.
@@ -91,6 +92,10 @@ Erano indirizzi privati, su libero.it, alice.it e sul dominio delle suore; le ca
 arrivate tutte. Nessun rimbalzo per spam. L'email col testo vecchio è una delle tre: non l'ha ricevuta
 nessuno. In `scuole.csv` i tre indirizzi sono segnati come inesistenti, e lo script salta anche le
 rimbalzate.
+
+**Il 18/09 un rimbalzo, trovato solo il 19/09.** La scuola Principe di Piemonte di San Valentino Torio,
+su alice.it: il server risponde che l'utente non esiste. Nel registro era rimasta `inviata`, ora è
+`rimbalzata`, e in `scuole.csv` è segnata come inesistente. **Dopo il 19/09 restano 26 scuole.**
 
 ## Dopo l'invio
 

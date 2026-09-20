@@ -7,10 +7,29 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-16
+updated: 2026-09-19
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-09-19 — La percentuale resta, e si chiede un rimborso spese
+Deciso da Emanuele dopo la riunione del 17/09: **per ora la percentuale resta quella**, il 10% sulle vendite del
+reparto, e si vede come vanno le cose. Adesso si chiede **almeno un rimborso spese per Emanuele**. Il fisso e la
+scala al 15% del 13/09 non si chiedono ora. Cifra e voci del rimborso sono ancora da definire.
+
+### 2026-09-17 — Riunione sul compenso e sulla produzione
+Granola ne ha dato solo il riassunto: [[sources/call/2026-09-17-sistema-evolve|call del 17/09]]. **Sul compenso
+non si è deciso niente.** Tre modelli sul tavolo: un fisso con una percentuale minima, una percentuale più alta,
+una scala per scaglioni. Karim trova poco il 10%, e le spese operative (abbonamenti, cloud, strumenti) andrebbero
+contate a parte.
+
+**Karim deve scegliere fra tre strade:** restare socio al 10% producendo 3 video al giorno, passare a un fisso con
+l'editing pagato a video, o uscire. Dal 1° settembre sono usciti solo 3 video. Emanuele ha chiesto di parlargli
+prima da solo, e poi di fare la riunione a tre.
+
+Sul tavolo anche il modello agenzia per le altre palestre: Vincenzo ha già una società con il codice ATECO da
+agenzia pubblicitaria, e si è parlato di una licenza di Sistema Evolve Formazione a 10.000 € l'anno per le palestre
+esterne. Gli impegni di Emanuele usciti dalla riunione stanno nella nota di sessione del 17/09.
 
 ### 2026-09-16 — Il primo mese in numeri, e la collaborazione «a 360 gradi»
 **Il primo mese del reparto**, partito il 01/09: circa 23 lead e 7 iscritti. Quanto hanno pagato
