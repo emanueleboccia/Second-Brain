@@ -48,3 +48,43 @@ applicata a uno schermo.
 
 Il primo è Difendo Alarm. I file vanno sull'SSD in `04-PERSONAL-BRAND/1-girato/<progetto>/`, come
 il resto del girato di [[docs/procedure/produzione-contenuti|produzione contenuti]].
+
+## 19/09/2026 — Il nome su Instagram e il dominio, in corso
+
+**bocciaworks è scartato da Emanuele:** è inglese, e i clienti sono imprenditori della zona
+napoletana e vesuviana, che con l'inglese non vanno d'accordo. @emanueleboccia, @emanuele.boccia
+ed @emanuele_boccia sono occupati.
+
+**Cosa fanno i concorrenti**, letti sedici profili lo stesso giorno: quasi tutti i freelance
+mettono nell'handle il nome più «web» o «design», ed è lo schema più affollato; chi lavora sul
+serio mette nome, cognome e mestiere nel nome visualizzato, anche quando l'handle è un'altra
+cosa; nessuno mette la città nell'handle; l'handle uguale al dominio lo usa chi ha un marchio,
+come @girasole.co.
+
+**La direzione:** il sito su `emanueleboccia.it`, col `.com` solo come riserva che rimanda lì, e
+su Instagram **@bocciastudio**, senza la s. «Studio» lo dicono tutti, e Emanuele ha una squadra da
+chiamare quando serve. Tutti e due risultavano liberi il 19/09/2026. Il nome visualizzato resta
+`Emanuele Boccia | Siti e sistemi`.
+
+⚠️ **Diventa definitivo quando handle e dominio sono presi.** Allora si sostituisce @bocciaworks
+in [[self/reference/brand|brand]], [[projects/personal-brand/lancio|il lancio]] e
+[[projects/personal-brand/piano|il piano]].
+
+⚠️ **Resta da decidere se Boccia Studio è solo l'handle o diventa il marchio.** Il consiglio è
+tenerlo solo handle: il marchio resta il nome, come dice [[self/reference/design|design]]. E la
+squadra va fatta vedere da qualche parte, sul sito o nella storia in evidenza «Come si lavora»,
+perché chi legge «studio» chiede chi c'è dentro.
+
+## 19/09/2026 — LinkedIn riscritto sul personal brand
+
+Approvato da Emanuele testo per testo. Il titolo, la sezione Informazioni e la descrizione dei
+servizi vengono da [[self/reference/brand|brand]]. I servizi sono cinque, con «chiedi informazioni
+sui prezzi». Groweb Studios, il vecchio nome dell'attività, è diventato «Siti, software e
+automazioni AI su misura», libero professionista da gennaio 2025. Mamma Rosaria ha perso il
+«co-fondatore» e la storia di famiglia, e dice cos'è oggi: l'agriturismo per eventi privati. La
+Masseria è entrata come esperienza nuova, da ottobre 2025. Nessun post pubblicato, condivisione con
+la rete spenta.
+
+⚠️ **LinkedIn, quando aggiungi una posizione attuale, sovrascrive il titolo del profilo** con
+«ruolo presso azienda». È successo con la Masseria, e il titolo è stato rimesso a mano. Dopo ogni
+posizione nuova si ricontrolla il titolo.

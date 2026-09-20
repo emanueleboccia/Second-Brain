@@ -143,7 +143,8 @@ prima impressione è l'unica che quella persona si porta via.
    quella riga è la più forte delle quattro.
 
 **Conseguenza operativa:** nel brief del copy del sito, **la prima cosa che si vede deve essere
-un lavoro vero**, non una presentazione.
+un lavoro vero**, non una presentazione. Sitemap e copy, dal 19/09/2026, stanno in
+[[projects/personal-brand/sito|il sito]].
 
 ### L'immagine del profilo
 
@@ -156,49 +157,51 @@ trucca**, è la prima cosa che un commentatore ostile indica. L'alternativa che 
 e sta meglio nel sistema: **una foto vera trattata nella sua palette** — monocroma, crema su
 nero. Stessa riconoscibilità, nessun fianco scoperto.
 
-**18/09/2026 — Lo stile, proposto e non ancora deciso.** Emanuele pensava a uno stile futuristico
-con bagliori nei colori del brand. La proposta: **il bagliore sì, i colori no**, perché la scala di
-[[self/reference/design|design]] è chiusa. L'avatar è la sua faccia sul fondale firma, in monocromo
-caldo: nero caldo, alone crema dietro la testa, un filo di luce crema sul contorno, griglia
-blueprint appena visibile. L'aria futuristica la fanno la luce e la griglia, non gli effetti.
+**18/09/2026 — Lo stile proposto:** monocromo caldo, la faccia sul fondale firma, lenti chiare.
+Superato dalla scelta qui sotto.
 
-È anche il modo di chiudere la tensione qui sopra. Il ritratto al neon è l'estetica standard di chi
-vende AI, cioè il nemico 4 di [[self/reference/convinzioni|convinzioni]]: se l'AI fa solo luce e
-sfondo, l'avatar sembra uno stile e non un filtro. La bio promette «di persona», quindi chi lo
-incontra deve riconoscerlo. E Higgsfield ridisegna il dettaglio fine, come dice il
-[[docs/registro-strumenti|registro degli strumenti]]: più si stilizza, più cambiano faccia e occhiali.
+✅ **19/09/2026 — Scelto.** L'avatar è la foto vera di Emanuele, ritoccata, sul fondale firma:
 
-**Come si genera:** Nano Banana Pro su Higgsfield, formato 1:1, risoluzione 2k, almeno quattro
-varianti.
+- **la faccia viene dalle sue foto**, non da una generazione: l'AI ha fatto pelle, riflessi delle
+  lenti, luce e sfondo, mai le forme;
+- **occhiali da sole scuri e colori naturali**, per scelta di Emanuele: non il monocromo e non le
+  lenti chiare della proposta;
+- **maglietta nera girocollo**, testa di tre quarti che guarda in alto;
+- **dietro, il fondale firma con la luce spostata** in alto a destra, dietro la nuca, qualche
+  cerchio sottile fuori centro e la griglia. Formato quadrato.
+
+La tensione qui sopra si è chiusa da sola: la faccia è quella vera, e la prova non si è truccata.
+
+**La luce dell'avatar è entrata nella palette.** Il bagliore caldo del ritratto teneva insieme
+avatar e post meglio del crema, e dal 19/09/2026 è la luce calda `#DAC7AB` del fondale: la regola
+sta in [[self/reference/design|design]].
+
+⚠️ **Cosa si è imparato, per il prossimo ritratto:**
+
+1. **La faccia si prende solo dalle foto vere.** Partendo da una bozza generata, il modello si
+   tiene la faccia della bozza, che non è quella di Emanuele.
+2. **Si chiede di modificare, non di rigenerare.** Il ritocco va sulla superficie, mai sulle forme.
+3. **Il bagliore centrato sulla testa fa un santino**, soprattutto con lo sguardo in alto: va
+   spostato dietro la nuca.
+4. **Il modello cambia gli occhiali** se non gli si dice com'è la montatura: la barra sopra dritta
+   e piatta è la prima cosa che perde.
+5. **Si giudica nel cerchio piccolo del telefono**, non a schermo intero.
+
+**Il prompt per rifarlo**, con quello che si è deciso. Non è quello letterale dell'ultimo
+passaggio: lì il caldo l'aveva messo il modello da solo, ed è piaciuto di più.
 
 ```text
-Use the uploaded photo as the identity reference. Keep the subject exactly as in the photo: same face, same proportions, same skin texture, same hair and facial hair, same head angle and expression. The subject wears the exact same eyeglasses as in the photo: identical frame shape, thickness, color and bridge, clear lenses, eyes fully visible through them, only a faint natural reflection. Do not redesign the face or the glasses. Change only the lighting, the clothes and the background.
+Edit my photo, don't regenerate it. It's a real photo of me: keep my face, its shapes, my hair, beard, sunglasses, pose and expression exactly as they are. Retouch the surface, never the shapes: even out the skin, clean blemishes and redness, keep the texture and the pores; tidy the beard line; remove the reflections from the lenses.
 
-Head-and-shoulders portrait, square format. Face centered and filling about 60% of the frame, the whole head inside the frame with some breathing room, so it still works cropped to a circle. Plain black crew-neck t-shirt, no logos.
+Plain black crew-neck t-shirt. Square 1:1, head and shoulders, face large enough to read inside a small circle.
 
-Low-key studio lighting. A soft warm-white key light from the front left lights the face. A thin cream rim light (#EEEBDA) traces the hair, the jawline and the shoulders, separating the subject from the background.
+Background: warm near-black #0E0E0C, a soft warm light #DAC7AB high on the right, behind the back of my head, fading to dark toward the edges; a few very thin off-center rings that never circle the head; a faint thin grid visible only where the light reaches; corners fading to pure black. Nothing circular centered on the head, no beam of light from above.
 
-Background: warm near-black (#0E0E0C). Directly behind the head, a soft radial glow in warm cream (#EEEBDA), subtle, fading to nothing. A faint blueprint grid of thin lines with large square cells, barely lighter than the background, visible only where the glow reaches and disappearing into the dark toward the edges. The corners fade to pure black.
-
-Warm monochrome image: only blacks, warm grays and cream, like a black-and-white photograph printed on cream paper. No other colors.
-
-Photographic realism, 85mm portrait lens, sharp focus on the eyes, natural skin with visible pores, no beauty retouching.
-
-Avoid: neon, saturated colors, blue or purple light, holograms, HUD graphics, circuit patterns, lens flares, sparkles, text, logos, airbrushed or plastic skin, 3D render or illustration look.
+Light on me: soft and natural on the face, a thin warm rim light on the hair and shoulders coming from the light on the right. Natural skin color.
 ```
 
-Tre varianti, se servono:
-
-- **gli occhiali**: dopo «eyeglasses» si scrive com'è la montatura, per esempio
-  `(thin black rectangular frames)`. Foto e parole insieme tengono meglio della foto da sola;
-- **a colori**: il paragrafo «Warm monochrome…» diventa
-  `Natural skin tones, slightly muted. Everything else stays within blacks, warm grays and cream.`;
-- **più deciso**: «thin cream rim light» diventa «strong cream rim light», e il glow passa da
-  «subtle» a «clearly visible».
-
-**Il controllo prima di scegliere:** la variante si guarda grande come il cerchio del profilo sul
-telefono. Se a quella misura non è lui, o la montatura è cambiata, si scarta anche se in grande è
-bella.
+⚠️ **Il file non sta ancora da nessuna parte**: va messo su Drive, in
+`PERSONAL BRAND/98 Social/02 profilo`.
 
 ### Le tre storie in evidenza
 

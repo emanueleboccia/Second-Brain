@@ -1,13 +1,13 @@
 ---
 title: "Design"
-summary: "L'identità visiva del personal brand: i tre caratteri liberi — Archivo, JetBrains Mono, Helvetica — la palette monocroma dark su nero, crema #EEEBDA e bianco, la gerarchia fatta di luce invece che di colore, il fondale firma a quattro strati e i quattro componenti che ne discendono."
+summary: "L'identità visiva del personal brand: i tre caratteri — Archivo, JetBrains Mono, Helvetica — la palette monocroma dark su nero, crema #EEEBDA e bianco, con la luce calda #DAC7AB riservata al bagliore del fondale, la gerarchia fatta di luce invece che di colore, il fondale firma a quattro strati e i quattro componenti che ne discendono."
 tags:
   - self
   - reference
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-08-29
+updated: 2026-09-19
 related:
   - "[[self/reference/brand]]"
   - "[[self/reference/tono]]"
@@ -26,6 +26,10 @@ related:
 >
 > Prima di quel giorno il file era vuoto, e l'assenza si vedeva: il reel per Sistema Evolve del
 > 26/08 usa un'ambra scelta di ripiego, perché non c'era niente da cui prendere il colore.
+>
+> ⚠️ **Dal 19/09/2026 il file e la guideline divergono su un punto**: il bagliore del fondale è
+> la luce calda `#DAC7AB`, non più il crema. La guideline resta com'era, perché in `sources/` non
+> si modifica niente, e su quel punto vale questo file.
 
 Il principio che tiene insieme tutto il resto: **la gerarchia si fa con la luce, non con il
 colore**. Non ci sono colori esterni alla scala e non ci sono gradienti colorati. Quello che conta
@@ -67,7 +71,8 @@ Termina e Foundry Monoline **non si usano più**: i file restano in
 
 ## La palette
 
-Monocroma dark, derivata da tre colori soli: nero, crema `#EEEBDA` e bianco.
+Monocroma dark, derivata da tre colori soli: nero, crema `#EEEBDA` e bianco. Dal 19/09/2026 c'è in
+più la luce calda, che non è un colore della grafica: è il colore della luce nel fondale.
 
 | ruolo | colore |
 |---|---|
@@ -77,8 +82,16 @@ Monocroma dark, derivata da tre colori soli: nero, crema `#EEEBDA` e bianco.
 | bordi e linee a 1 px | `#2A2A24` |
 | testo secondario, e il **prima** | `#75746A` |
 | intermedio | `#B5B2A4` |
+| la **luce calda** — solo il bagliore del fondale | `#DAC7AB` |
 | accento e testo principale — la **crema** | `#EEEBDA` |
 | la punta | `#FFFFFF` |
+
+**La luce calda è la temperatura della luce, non un accento.** Nessun testo, bottone, dato o
+componente la usa: i titoli restano crema e la punta resta bianca. È entrata il 19/09/2026
+dall'avatar di Instagram: accanto al ritratto, i fondali col bagliore crema sembravano freddi,
+quasi grigi, e nella prova affiancata la versione calda teneva insieme l'avatar e i post. Era
+anche già nel file del fondale: `fondale-firma-scuro.png` ha un bagliore caldo quanto questo,
+più del doppio di quanto dicesse questo file.
 
 **Il bianco pieno è una punta sola per composizione.** Il numero chiave, o la parola del dato:
 una, e non due. Un bianco usato due volte non è più una gerarchia, è un fondo chiaro.
@@ -102,8 +115,10 @@ Quattro strati, dal basso:
 1. **Base** nero caldo `#0E0E0C`.
 2. **Griglia blueprint**: linee da 1 px in `#1A1A16`, celle da 60 a 80 px. Emerge dove c'è luce e
    sparisce nel buio verso i bordi.
-3. **Glow radiale** crema `#EEEBDA` fra il 6% e il 10% di opacità, che sfuma a zero. Sta **dietro
-   il soggetto**, non sopra e non a lato.
+3. **Glow radiale** nella luce calda `#DAC7AB`, che sfuma a zero. Sta **dietro il soggetto**, non
+   sopra e non a lato. ⚠️ Fino al 19/09/2026 qui c'era scritto crema fra il 6% e il 10% di
+   opacità, ma a quei valori su un telefono non si vede: il file del fondale arriva a circa un
+   terzo al centro. Il numero si fissa sulla prima grafica vera.
 4. **Vignetta**: gli angoli vanno verso `#000000`.
 
 **Al centro della scena c'è sempre il prodotto o il dato. Mai una figura decorativa.** Se al centro
@@ -118,7 +133,9 @@ soggetto che entra dentro le lettere invece di stare accanto. I riferimenti visi
 I siti e i profili salvati come riferimento, col motivo per cui sono stati scelti, stanno sullo
 [[sources/riferimenti/siti-e-profili|scaffale]].
 Una cosa non si prende: **il rosso**. La scala è chiusa. Se un giorno servirà un accento vero, sarà
-una decisione nuova e va scritta qui.
+una decisione nuova e va scritta qui. **L'arancione è stato valutato il 19/09/2026 e lasciato
+fuori:** col nero caldo e il crema forma la palette di Claude, e i grigi di questo file sono già
+quasi i suoi.
 
 ## I componenti
 
@@ -146,6 +163,9 @@ deciso e non si deduce da qui.
   autentico: niente filtri di palette, niente virate verso il crema, solo pulizia e contrasto
   leggeri. **La coerenza la fa la cornice**, non il ritocco: fondale firma, card, bordi a 1 px,
   didascalie in monospazio.
+- **Nei ritratti il bagliore non si centra sulla testa.** Un alone tondo dietro una faccia, peggio
+  se guarda in alto, fa un santino: la luce va dietro la nuca o la spalla. Deciso sull'avatar il
+  19/09/2026.
 
 Quando si monta, la regia la fa [[code/skills/regia-video/SKILL|la skill regia video]]: questo file
 le dice di che colore, non che struttura.
@@ -155,3 +175,13 @@ le dice di che colore, non che struttura.
 - **I format grafici**: com'è fatto un post, com'è fatta una copertina, quali misure per ogni
   canale. I componenti ci sono, i formati no.
 - **La struttura dei formati video**, che arriverà da un brain dump dedicato ai contenuti.
+- **I file dei caratteri.** Archivo e JetBrains Mono non sono installati sul Mac e non stanno in
+  `03 Brand kit` su Drive, dove ci sono ancora Termina Test e Foundry Monoline, scartati. Finora
+  non si è visto perché guideline e proposte sono pagine HTML che i font li caricano da sole, ma
+  CapCut non li ha. Verificato il 19/09/2026.
+- **La griglia del fondale non si vede.** A `#1A1A16` sul telefono sparisce, e in
+  `fondale-firma-scuro.png` non c'è proprio: gli strati sono tre. O si alza finché si vede, o si
+  toglie dalla regola. Misurato il 19/09/2026.
+- **La punta bianca da sola, sul telefono, si legge poco**: crema e bianco sono vicini. Sulla
+  prima grafica vera si verifica se basta il bianco o se la punta la deve fare anche la
+  dimensione.
