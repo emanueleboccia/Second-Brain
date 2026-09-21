@@ -1,0 +1,40 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eb-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/Users/emanueleboccia/Desktop/progetti/eb-site",
+        "run",
+        "dev"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "prototipi",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8777",
+        "--directory",
+        "/private/tmp/claude-501/-Users-emanueleboccia-Second-Brain/5ab520a9-b9f6-4d6f-aa52-d54a62c81cc0/scratchpad/prototipi"
+      ],
+      "port": 8777
+    },
+    {
+      "name": "sito",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8081",
+        "--directory",
+        "/private/tmp/claude-501/-Users-emanueleboccia-Second-Brain/5ab520a9-b9f6-4d6f-aa52-d54a62c81cc0/scratchpad/sito"
+      ],
+      "port": 8081
+    }
+  ]
+}

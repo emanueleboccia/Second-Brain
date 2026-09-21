@@ -11,6 +11,10 @@ altrimenti si perde, ed è giusto così.
 - **Notion tiene lo stato.** Contatti e lead, proposte inviate, siti dei clienti: cosa è
   successo e a che punto sta. Regola pratica: se un dato cambia ogni settimana sta su Notion,
   se cambia ogni sei mesi sta qui. Prima di scrivere su Notion, mostrami cosa stai per cambiare.
+  Dal 21/09/2026 ci stanno anche **i documenti e i dati che vede il cliente** — il benvenuto, il
+  modulo di raccolta: il metodo e le procedure restano qui, quello che il cliente apre sta lì.
+  ⚠️ **Ogni pagina e ogni database che crei o modifichi su Notion prende un'icona**, coerente col
+  contenuto, sempre.
 - **TickTick tiene le azioni.** Cosa devo fare, entro quando.
 - **Google Drive tiene i file finiti e i media.**
 

@@ -89,6 +89,10 @@ Serve a due cose: dà il tono di uno che lavora in modo strutturato, e **toglie 
 post-acquisto** — quel momento in cui uno ha appena pagato e si chiede se ha fatto bene. Se quel
 dubbio non si chiude subito, diventa la cornice di tutto il resto.
 
+**Il modello sta su Notion**, nella pagina *🤝 Onboarding clienti*: si chiama *👋 Benvenuto — modello
+da duplicare*, si duplica per ogni cliente e si riempiono i segnaposto fra parentesi quadre. Scritto
+il 21/09/2026, con dentro anche tempi e fascia di reperibilità, lasciati vuoti apposta.
+
 ## Fase 4 · Il modulo di raccolta
 
 **Un solo modulo per tutto**, mandato subito dopo il benvenuto: accessi (hosting, dominio, social,
@@ -96,6 +100,11 @@ gestionali), materiali di marca (logo, foto, testi esistenti), dati aziendali (r
 contatti, orari, indirizzi), preferenze e riferimenti.
 
 **Chiedere una volta. Non rincorrere mai più.**
+
+**Il modulo è su Notion**, nella stessa pagina *🤝 Onboarding clienti*: il form *📥 Modulo di raccolta*
+scarica le risposte nel database *📥 Raccolta materiali*, una riga per cliente, con la relazione verso
+Contatti e verso Siti Clienti per non riscrivere dati che ci sono già. ⚠️ **Il link pubblico del form si
+attiva a mano da Notion** — Condividi, pubblica sul web — e fino ad allora il cliente non lo apre.
 
 ⚠️ **Si distingue a colpo d'occhio cosa deve fare lui da cosa è facoltativo.** Un cliente che non sa
 quali palle sono nel suo campo non fa niente, e poi si lamenta dei tempi.
@@ -164,10 +173,15 @@ riscattare il lavoro — accessi, PDF con le procedure di manutenzione e i costi
 **Si chiede la testimonianza**, con parole sue, meglio se registrata, e si archivia nella scheda del
 cliente: serve al caso studio, ai contenuti, e a chi verrà dopo.
 
+**Su Notion la testimonianza ha il suo campo** nel database Contatti, insieme alle due direzioni del
+referral — *Chi me l'ha mandato* e *Chi ha mandato lui* —, così la catena si legge in tutti e due i versi.
+Aggiunte il 21/09/2026.
+
 **Si registra l'esito nello storico**: data, cliente, voce, prezzo, esito. Dopo cinque o sei righe
 il tasso di chiusura dice se il prezzo è tarato giusto — intorno al **30%** è giusto, molto sopra
 vuol dire che si sta vendendo sotto, **sotto il 20%** vuol dire prezzo alto o vendita debole.
-**Chiudere tutti non è bravura: sono soldi lasciati sul tavolo.**
+**Chiudere tutti non è bravura: sono soldi lasciati sul tavolo.** Il conto si legge nella vista
+*📊 Tasso di chiusura* del database Proposte, raggruppata per stato.
 
 ## Le monete di scambio
 
