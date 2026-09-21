@@ -6,7 +6,7 @@ tags:
   - riferimenti
 status: attivo
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-20
 ---
 
 # Scaffale — siti e profili di riferimento
@@ -26,6 +26,7 @@ diceva solo il nome, il motivo è segnato **da confermare** invece che dedotto.
 | **@stopidesign** | profilo Instagram | «È proprio quello che voglio fare io.» Il riferimento per il **personal brand**. ⚠️ **Letto il 06/09/2026: non è un riferimento, è il concorrente diretto.** Stefano Pistoni, 4.222 follower, e la sua bio è l'offerta di Emanuele parola per parola — «Siti Web, Software e Automazioni AI per Aziende Ambiziose». Da qui è nata la decisione di posizionarsi **locale e verticale** invece che sulla sua posizione. Vedi [[projects/personal-brand/piano]]. |
 | **@ayzz.thedesigner** | profilo Instagram | Indicato da Emanuele il 06/09/2026 come benchmark. ⚠️ **Non è un concorrente:** 267.000 follower, in inglese, vende **formazione ad altri designer** — le sue storie in evidenza sono *Get Clients*, *Roadmap*, *Motion Tuts*. I suoi follower sono designer, non clienti. Si guarda per la **qualità visiva e il motion**, mai per la strategia: copiarne i formati costruisce un pubblico che non compra siti. |
 | [giuseppecastagna.it](https://giuseppecastagna.it) | sito personale | Riferimento per il **proprio sito**, dentro il progetto di lancio del personal brand di ottobre. Cosa guardarci esattamente: **da confermare.** |
+| [marantoweb.com](https://www.marantoweb.com/) | sito di due freelance | Segnalato da Emanuele il 20/09/2026: «mi piace come comunica». Siti vetrina a 450 € in sette giorni. ⚠️ **Non è un concorrente: è il fondo del mercato**, e vende la promessa opposta — «non devi pensare». Si guarda per **come costruisce fiducia**, non per la strategia. L'analisi sta in [[sources/riferimenti/marantoweb\|marantoweb]]. |
 | **Girasole.co** | competitor | Da analizzare come **struttura dei siti**: è un concorrente diretto, e serve capire come impagina e cosa promette. |
 
 ## Come cresce questo scaffale

@@ -36,12 +36,14 @@ La musica la prende dalla libreria dell'SSD, `03-LA-MASSERIA-DI-MEZZ'AUTUNNO/2-l
 | `finestre.py` | Cerca in ogni traccia i dodici secondi più ritmati. I nomi delle tracce del meno 8 sono scritti dentro. |
 | `movimento.py` | Misura quanto si muove la camera in ogni clip, su tutta la durata: `.` ferma, `o` media, `X` mossa. È il controllo chiesto dal correction log il 17/09/2026. |
 | `provino.py` e `strisce.py` | I provini a griglia, per guardare le clip e le storie in fila prima di mandarle. |
+| `monta_invito.py` | Monta il format **«io e te»**: clip che scorrono, scritta ferma per tutta la durata, musica sola e nessun audio delle clip. Legge una ricetta come `esempio-meno-6-invito.json`, dove ogni clip ha `ss`, `dur` e `cx` — la posizione del taglio orizzontale, che serve alle aeree 4K, di cui in verticale si vede un terzo. Scrive i tag `bt709` in uscita. |
+| `testo_invito.py` | La scritta di quel format: «Io e te a» e il nome dell'evento in Niconne in alto, il countdown e la data in basso, due bande di velatura che **lasciano libero il centro**. I due font si allineano sulla **linea di base** calcolata dalle metriche: allineando il bordo dell'inchiostro, «giorni!» scende rispetto a «Mancano 6». |
 
 ## Cosa manca
 
 Due passaggi non sono script, ma dal 19/09/2026 hanno un comando scritto:
 
-- **la conversione delle clip dell'iPhone in SDR**, che finiscono in `sdr/`. Le clip sono HDR, e si
+- **la conversione delle clip dell'iPhone in SDR**, che finiscono in `sdr/`. ⚠️ **Non è un passaggio facoltativo:** saltata il 20/09/2026, ha prodotto un file taggato HDR con dentro dati SDR, e i colori — zucche comprese — uscivano slavati, col giallo del brand virato al bruno. Si controlla `color_transfer` di ogni clip prima di montare. Le clip sono HDR, e si
   convertono col motore di Apple, una alla volta: `avconvert -s IMG_<n>.MOV -p Preset1920x1080 -o
   sdr/IMG_<n>.mov`. Esce H.264 1080×1920 in bt709, verticale, a 60 fps e con l'audio;
 - **la trascrizione per i sottotitoli**, con `whisper-cli` e il modello

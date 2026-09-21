@@ -1,13 +1,13 @@
 ---
 title: "Personal brand — il sito"
-summary: "Sitemap e copy di emanueleboccia.it: la home apre con un lavoro vero perché la bio lo promette, poi il problema, le soluzioni che non bastano, i tre passi, i prodotti e il di persona. Le altre pagine sono Lavori, Prodotti, Come lavoro e Contatti, più le legali."
+summary: "Sitemap e copy di emanueleboccia.it: la home apre con un lavoro vero perché la bio lo promette, poi il problema, le soluzioni che non bastano, i tre passi, i prodotti e il di persona. Il caso 01, i sistemi e i contatti sono scritti per esteso dal 20/09/2026, e la pagina dei sistemi non apre al lancio."
 tags:
   - projects
   - personal-brand
   - sito
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-21
 related:
   - "[[projects/personal-brand/lancio]]"
   - "[[self/reference/brand]]"
@@ -21,6 +21,10 @@ related:
 > Aperto il 19/09/2026. **Prima bozza, da rivedere con Emanuele.** L'ordine è quello del
 > [[projects/personal-brand/lancio|lancio]]: piano, sitemap, copy, sito. Il piano è chiuso, qui
 > ci sono sitemap e copy. Il sito esiste già: va riscritto su questo, non ricostruito.
+>
+> **20/09/2026 — scritte per esteso** le tre pagine che mancavano: il caso 01, i prodotti uno per
+> uno e i contatti. Nella stessa sessione sono state chiuse le due decisioni che tenevano aperti
+> due punti nella home: il confine di «Poi resto» e la squadra.
 
 **Il vincolo che decide tutto viene dalla bio.** L'ultima riga dice «Guarda un lavoro vero», quindi
 chi clicca deve trovare un lavoro, non una presentazione. Per questo la hero della home è un caso,
@@ -37,162 +41,70 @@ di [[self/reference/tono|tono]].
 ## La sitemap
 
 - **Home** — `/`
+- **Siti** — `/siti` · pagina di servizio, dal 21/09/2026
+- **Company Brain** — `/company-brain` · pagina di servizio, dal 21/09/2026
+- **Gestionali e sistemi** — `/gestionali` · pagina di servizio, dal 21/09/2026, col caso del Girarrosto dentro
 - **Lavori** — `/lavori`
   - **Caso 01** — `/lavori/girarrosto`
   - i lavori successivi, uno per pagina
-- **Prodotti** — `/prodotti`: i sistemi per settore, ognuno col suo marchio e il suo sito
-- **Come lavoro** — `/come-lavoro`: i tre passi, i due tipi di cliente, la squadra, chi sono
+- **Come lavoro** — `/come-lavoro`: i tre passi, i due tipi di cliente, chi fa il lavoro, chi sono
 - **Contatti** — `/contatti`: WhatsApp, email, il form «Partiamo dal problema»
 - **Privacy** e **Cookie** — `/privacy`, `/cookie`
+
+E una che c'è, scritta, ma **non si apre il primo ottobre**:
+
+- **Sistemi** — `/sistemi`: un sistema per settore, ognuno col suo marchio e il suo sito
 
 È la struttura minima delle [[docs/web-design/pagine-di-un-sito-locale|pagine di un sito locale]],
 con «chi siamo» dentro Come lavoro e i casi al posto dei servizi. **Niente pagina recensioni:** di
 recensioni vere non ce n'è ancora nessuna.
+
+⚠️ **Le voci del menù sono «Lavori» e «Sistemi», non «Lavori» e «Prodotti».** Deciso il
+20/09/2026. Sono le stesse due parole del nome visualizzato su Instagram, `Emanuele Boccia | Siti
+e sistemi`, ed è come ne parla Emanuele a voce. «Prodotti» aveva anche il difetto di avvicinarsi al
+nemico 3, lo strumento generico uguale per tutti.
+
+⚠️ **`/sistemi` non va online al lancio.** Deciso il 20/09/2026: al primo ottobre nessuno dei tre
+ha un nome, un sito o un cliente, quindi la pagina sarebbe tre riquadri che dicono «in costruzione»
+e non portano da nessuna parte. I tre sistemi restano nella **sezione 6 della home**, dove
+funzionano — dicono «sto costruendo anche questo» mentre uno sta leggendo il resto. Il copy della
+pagina è già scritto in [[projects/personal-brand/sito-pagine|le pagine del sito]] e aspetta lì.
+
+⚠️ **21/09/2026 — da una pagina sola a un sito con tre pagine di servizio.** Deciso da Emanuele sul
+modello di [[sources/riferimenti/marantoweb|Maranto]]: nella home solo **un assaggio** dei servizi,
+tre carte, e ogni carta porta alla sua pagina, dove il servizio si spiega per intero — il problema,
+cosa si ottiene, come funziona, il confronto, cosa c'è dentro e cosa no, cosa si garantisce, le
+domande. Cambia la scelta del 19/09 di mettere «i casi al posto dei servizi»: i casi restano, e
+accanto ci sono i servizi, ognuno col suo indirizzo. È anche la prima volta che il sito ha pagine
+che possono uscire su Google per quello che vende.
+
+**E il caso 01 non sta più nella home**, deciso lo stesso giorno: dopo la hero era troppo. Vive nel
+portfolio e nella pagina dei gestionali, dove è la prova esatta di quello che la pagina promette.
 
 ## Il percorso
 
 - **Da Instagram**, dalla riga «Guarda un lavoro vero»: home, poi il caso, poi WhatsApp.
 - **Da chi ha sentito il nome**, cercandolo su Google: home, poi Come lavoro, poi Contatti.
 
-## La home
+## Dove sta il copy
 
-**1 · Hero**
+- **La home** — nove blocchi, riscritti il 20/09/2026 sul wireframe deciso con Emanuele, in
+  [[projects/personal-brand/sito-home|la home]]. L'ordine è quello del
+  [[docs/web-design/framework-decomoditizzazione|framework della decomoditizzazione]], la hero
+  mostra i lavori invece della faccia, e ogni blocco dichiara se viene dal prototipo V1, dal V2,
+  dal copy del 19/09 o se è nuovo.
+- **Le pagine interne** — Lavori, il caso 01, Sistemi, Come lavoro e Contatti stanno in
+  [[projects/personal-brand/sito-pagine|le pagine del sito]]. Di queste, **Sistemi è l'unica che al
+  lancio non va online**.
 
-- Etichetta, in monospazio: `SITI, SOFTWARE E AI SU MISURA · TRA NAPOLI E IL VESUVIO`
-- H1: **Prima capisco cosa vendi. Poi lo costruisco.**
-- Sotto: *Costruisco siti, software e automazioni AI per le attività della mia zona, comprese
-  quelle della mia famiglia. Prima però capisco cosa vendi, a chi e cosa devi dire: se quella
-  parte non è chiara, il sito mette online la confusione.*
-- Immagine: il lavoro del caso 01, dentro le lettere del titolo. Didascalia in monospazio:
-  `CASO 01 · GIRARROSTO · ZONA VESUVIANA`
-- Bottoni: primario **Guarda il lavoro →**, che porta al caso; secondario **Parliamone**.
+Spezzati da qui il 20/09/2026 per la regola delle 300 righe, come
+[[projects/personal-brand/piano|il piano]] a suo tempo.
 
-**2 · Il lavoro, subito**
+## Il prototipo
 
-- Etichetta: `CASO 01 · PRIMA E DOPO`
-- H2: **Non gli ho insegnato a scrivere più in fretta. Gli ho tolto il foglio.**
-- Prima, in grigio: *Gli ordini presi al telefono e al banco su un foglio. Un evidenziatore per il
-  pollo, uno per il tacchino. Il conto a mente. Con venti persone in fila, per trovare un ordine
-  si rileggevano i fogli.*
-- Dopo, in crema: *Un gestionale su iPad e un sito col menù che si aggiornano insieme. L'ordine si
-  cerca invece di rileggerlo, il conto si fa da solo, e a inizio giornata si sa quanti pezzi vanno
-  consegnati.*
-- Link: **Leggi com'è andata →**
-
-**3 · Il problema**
-
-- H2: **Il lavoro che ti pesa non si organizza. Si toglie.**
-- *In quasi ogni attività c'è un pezzo di lavoro che si mangia la giornata: gli ordini, le
-  prenotazioni, i conti a fine sera, il foglio che passa di mano in mano. Di solito lo si organizza
-  meglio, con un quaderno più ordinato, un'app in più, un gestionale con cento funzioni pensate per
-  qualcun altro. Il pezzo resta lì, e intanto costa.*
-
-**4 · Le soluzioni che non bastano**
-
-- H2: **Tre soluzioni che vedo spesso, e perché non bastano.**
-- Card 1, **La pagina Facebook al posto del sito.** *Sembra gratis e costa il controllo: non decidi
-  tu il dominio, i contatti, cosa vede chi arriva.*
-- Card 2, **Il sito bellissimo che non dice niente.** *Animato, curato, e chi lo apre non capisce
-  cosa vendi. Una cosa bella che comunica male non vale niente.*
-- Card 3, **Il sito fatto fare all'AI.** *Senza niente a monte somiglia ad altri mille: non ti
-  distingue, ti allinea. L'AI la uso tutti i giorni, ma dopo aver capito cosa devi dire.*
-
-**5 · I tre passi**
-
-- H2: **Tre passi, sempre in quest'ordine.**
-- `01` **Prima capisco.** *Vengo da te, guardo come lavorate e ti faccio le domande che servono:
-  cosa vendi, a chi, cosa devi dire. Se vuoi andare a fondo, lo mettiamo per iscritto in una
-  cartella che resta a te, con strategia, offerta, clienti e concorrenti. La chiamo il cervello
-  aziendale.*
-- `02` **Poi costruisco.** *Il sito, il gestionale o l'automazione che serve, e niente di più.
-  Somiglia a come lavorate già, così nessuno deve cambiare mestiere per usarlo.*
-- `03` **Poi resto.** *Nei mesi dopo la consegna lo usate davvero, e viene fuori cosa aggiungere o
-  togliere. Ci lavoro finché l'abito non vi veste.* ⚠️ Il confine non è deciso: vedi sotto.
-- Bottone: **Vedi come lavoro →**
-
-**6 · I prodotti**
-
-- H2: **Per alcuni settori parto da una base già pronta.**
-- *Ristoranti, palestre, concessionarie: in ognuno c'è lo stesso lavoro che si ripete in ogni
-  attività. Per questi settori sto costruendo un sistema che lo toglie, e poi lo cucio sulla tua.*
-- Una card per prodotto: il suo marchio, il settore, cosa toglie in una riga, e a che punto è in
-  monospazio, per esempio `IN COSTRUZIONE`. Porta al sito del prodotto.
-- Bottone: **Vedi i prodotti →**
-
-**7 · Di persona**
-
-- H2: **Tra Napoli e il Vesuvio, di persona.**
-- *Sono Emanuele Boccia. Faccio grafica da quando avevo quattordici anni, poi sono venuti i siti,
-  poi il codice, oggi il marketing, e ogni passo contiene quelli prima. Alcuni lavori che vedi qui
-  sono per le aziende della mia famiglia: lì gli errori li pago io.*
-- *Parli sempre con me, anche quando ci lavora la squadra.* ⚠️ Chi c'è nella squadra si scrive
-  quando i nomi sono decisi.
-
-**8 · Chiusura**
-
-- Card: **Partiamo dal problema.** *Scrivimi cosa non funziona adesso. La prima chiamata serve a
-  capire se ha senso.* Una sola azione: **Scrivimi su WhatsApp →**
-
-**Footer:** `EMANUELE BOCCIA` · siti, software e AI su misura · tra Napoli e il Vesuvio · email ·
-WhatsApp · Instagram · partita IVA · privacy · cookie.
-
-## La pagina Lavori
-
-- H1: **Lavori veri, con il prima e il dopo.**
-- *Ogni lavoro qui è di un'attività della zona, e per ognuno trovi com'era prima e cosa è cambiato
-  dopo. Alcuni sono per le aziende della mia famiglia, e c'è scritto.*
-- Una card per lavoro, col settore sull'etichetta in monospazio, così chi guarda trova subito il
-  suo. Dentro, il prima in grigio e il dopo in crema, una riga ciascuno, e il link al caso:
-  - `FOOD · GESTIONALE E SITO MENÙ` — il caso 01, il girarrosto. ⚠️ Serve il permesso di Marco.
-  - `EVENTI PRIVATI · GESTIONALE DEGLI EVENTI` — Da Mamma Rosaria, di famiglia. ⚠️ Il caso è da
-    scrivere.
-  - `EVENTI PER FAMIGLIE E SCUOLE · SITO E CAMPAGNA EMAIL` — La Masseria di Mezz'Autunno, di
-    famiglia.
-  - `EVENTI · SITO` — Tenuta Don Gaetano, di famiglia.
-
-## La pagina Prodotti
-
-Chiesta da Emanuele il 19/09/2026: accanto ai lavori, una pagina per i prodotti. Ogni prodotto ha il
-suo marchio, e qui ci sta come una firma: la card porta al suo sito.
-
-- H1: **I sistemi che costruisco per settore.**
-- *Ogni settore ha un lavoro che si ripete uguale in ogni attività. Per alcuni ho costruito una base
-  che lo toglie, e poi la cucio sulla tua, come tutto il resto.*
-- Un blocco per prodotto: il marchio, per chi è, cosa toglie detto come prima e dopo, a che punto è,
-  e il link al suo sito.
-
-⚠️ **Il prodotto non deve diventare il nemico 3.** «Lo strumento generico che non risolve il tuo
-problema» è un'idea che attacca proprio i gestionali uguali per tutti. Per questo la pagina li
-presenta come una base per settore che si cuce addosso, e non come un software da comprare a
-scaffale.
-
-⚠️ **A che punto è, detto com'è.** Oggi nessuno dei tre ha un cliente: il sistema per l'auto
-funziona in locale con dati di prova, come dice [[projects/autoos/sistema|AutoOS]]. Un prodotto
-mostrato come già in uso quando non lo è rompe la regola della prova che non si trucca.
-
-## La pagina Come lavoro
-
-- H1: **Prima capisco, poi costruisco, poi resto.**
-- I tre passi della home, per esteso.
-- I due tipi di cliente: *Se ti serve solo il sito, ti faccio le domande che bastano e lo
-  facciamo. Se vuoi andare a fondo, partiamo dal cervello aziendale.*
-- La squadra, con la frase *Parli sempre con me, anche quando ci lavora la squadra.*
-- Chi sono: il percorso dalla grafica al marketing, come in [[self/reference/brand|brand]].
-- Le domande frequenti:
-  - **Quanto costa?** *Dipende da cosa serve, e lo sai prima di cominciare: nella proposta trovi
-    scritto cosa faccio, in quanto tempo e quanto costa, voce per voce. La prima chiamata serve a
-    capire se c'è qualcosa da togliere, e non ti impegna a niente.*
-  - **Quanto ci vuole?** *Anche questo dipende da cosa serve. La data di consegna sta nella
-    proposta, insieme al prezzo.*
-  - **Devo cambiare il modo in cui lavoriamo?** *No. Quello che costruisco somiglia a come lavorate
-    già, così nessuno deve imparare un mestiere nuovo.*
-  - **E dopo la consegna?** *Resto. Nei mesi dopo si vede cosa aggiungere o togliere, e ci lavoro.*
-    ⚠️ Anche qui serve il confine di «Poi resto».
-
-⚠️ **Le domande frequenti gli appunti di web design non le coprono**: vengono dal sito di un
-concorrente, letto il 19/09/2026. Rispondono alla paura del preventivo senza pubblicare un prezzo,
-che è il modo in cui chi ha un'attività in zona si difende prima ancora che il prezzo esista, come
-racconta [[docs/vendita/obiezioni|la biblioteca delle obiezioni]].
+Il sito esiste già come prototipo, fermo al 29/08/2026. Cosa c'è dentro, cosa è invecchiato e cosa
+non torna col copy di queste pagine sta in [[projects/personal-brand/prototipo|il prototipo a
+confronto]], letto il 20/09/2026.
 
 ## Le scelte già fatte
 
@@ -206,6 +118,39 @@ racconta [[docs/vendita/obiezioni|la biblioteca delle obiezioni]].
 - **Sistema Evolve non compare.** [[self/reference/offerta|L'offerta]] vieta di nominarlo in un
   contenuto pubblico finché ruolo e soci non sono scritti.
 - **«Chiamata», non «call».** I clienti sono della zona.
+- **La H1 della home è «Prima capisco cosa vendi. Poi lo costruisco.»** Scelta il 20/09/2026 fra
+  sette varianti. È la riga sola di [[self/reference/brand|brand]], cioè il posizionamento che le
+  agenzie non possono rivendicare. «Il lavoro che ti pesa non si organizza. Si toglie.» non è
+  buttata: diventa l'H2 del blocco 3, dove fa il lavoro di pain.
+- **In hero non c'è la faccia, ci sono i lavori.** Deciso il 20/09/2026 guardando i due prototipi.
+  Parole di Emanuele: la faccia non è quello che un imprenditore viene a cercare. Resta piccola nel
+  blocco 8, per chi lo incontra di persona e poi lo cerca.
+- **Il triangolo di «Come lavoro» è marketing, codice e design, con l'AI al centro.** Scelto il
+  20/09/2026 contro la versione di V2, che metteva l'AI a un vertice: lì diventava un terzo del
+  mestiere, e insegnava che Emanuele è «quello dell'AI», cioè il nemico 4.
+- **Il confronto con le alternative attacca il modo, non chi lo pratica.** Confermato il
+  20/09/2026, quando Emanuele ha chiesto il blocco «io contro le agenzie» di stopidesign: si tiene
+  la forma della tabella e si cambia il bersaglio. A sinistra c'è «come si fa di solito», e le
+  agenzie non compaiono — anche perché non sono i suoi concorrenti.
+- **Una striscia di servizi entra nella home.** Deciso il 20/09/2026. Non è la pagina servizi, che
+  resta esclusa: è il blocco 6, e serve perché oggi nessuna riga del sito può uscire su Google per
+  quello che vende.
+- **Nel menù si chiamano «Sistemi», non «Prodotti».** Deciso il 20/09/2026, per due ragioni che
+  vanno nella stessa direzione: sono le parole del nome visualizzato su Instagram, `Emanuele Boccia
+  | Siti e sistemi`, ed è come ne parla Emanuele a voce; e «prodotto» avvicinava al nemico 3, lo
+  strumento generico uguale per tutti.
+- **`/sistemi` non apre al lancio.** Deciso il 20/09/2026: restano nella sezione 6 della home
+  finché almeno uno ha un nome, un sito e qualcosa da mostrare. Di conseguenza nella sezione 6
+  spariscono il bottone e i link nelle card, che non avrebbero dove portare.
+- **«Poi resto» resta senza durata, e va bene così.** Deciso il 20/09/2026. Sul sito la promessa
+  si legge intera e non c'è nessun numero e nessun rimando: il confine, quando serve, si fa caso
+  per caso nella proposta. Scartate le versioni coi mesi o coi giri di revisione esposti, perché
+  mettevano una clausola di contratto dentro una promessa.
+- **La squadra esce dal sito.** Deciso il 20/09/2026. Niente nomi e nessun accenno a una squadra:
+  al suo posto *«il lavoro lo faccio io, e parli con me dall'inizio alla fine»*, che è la cosa che
+  un'agenzia non può dire. ⚠️ **Resta scoperto chi legge @bocciastudio e si chiede chi c'è dentro.**
+  O la squadra si vede nella storia in evidenza «Come si lavora», o «studio» resta soltanto
+  l'handle e il marchio resta il nome, come vuole [[self/reference/design|design]].
 - **Da stopidesign.com, il concorrente diretto, letto il 19/09/2026, tre cose prese:** il «parli
   direttamente con chi costruisce», il settore sull'etichetta di ogni lavoro, le domande
   frequenti su prezzi e tempi. **E quattro lasciate:** la headline che parla di sé, i numeri che
@@ -217,11 +162,19 @@ racconta [[docs/vendita/obiezioni|la biblioteca delle obiezioni]].
 - **Il permesso di Marco**, senza il quale il caso 01 non va online, e **i quattro numeri**, senza
   i quali il caso si racconta ma non si dimostra. Se il permesso non arriva, in hero va un lavoro
   di famiglia.
-- **Il confine di «Poi resto»**, che [[self/reference/convinzioni|la convinzione 4]] lascia aperto.
-  Scritto sul sito senza confine è assistenza gratuita a vita.
-- **Chi c'è nella squadra**, per la riga della sezione 7 e per Come lavoro.
 - **I nomi dei prodotti.** FoodOS, PalestreOS e AutoOS sono nomi di lavoro. Per l'auto **Quinta è
   fuori**: è un marchio registrato all'EUIPO da un'azienda di software, e
   [[projects/autoos/nome|la ricerca del nome]] dice di non riproporlo. **Sesta** ha i domini `.it`,
   `.com` e `.app` già presi e il registro dei marchi ancora da guardare.
-- **Le pagine ancora da scrivere per esteso**: il caso 01, i prodotti uno per uno, Contatti.
+- **La condizione per aprire `/sistemi`**: almeno un sistema con un nome deciso, un sito suo e
+  qualcosa da mostrare. Il copy della pagina è già pronto e non è quello che manca.
+- ✅ **Il dominio c'è**, dal 20/09/2026: `emanueleboccia.it` e `.com` su Hostinger. **L'handle no**,
+  ed è una scelta di Emanuele — non è una priorità, e finché non è preso nei file resta scritto
+  `@bocciaworks`.
+- ✅ **I dati dei contatti ci sono**, dal 20/09/2026, e stanno in
+  [[projects/personal-brand/sito-pagine|le pagine del sito]]. L'email esiste ma **non si mostra**:
+  i canali sono WhatsApp e il form.
+- **Le pagine legali**, privacy e cookie, che non sono copy ma vanno create comunque, come ricordano
+  [[docs/web-design/pagine-di-un-sito-locale|le pagine di un sito locale]].
+- **Dove si vede la squadra**, dopo che il 20/09/2026 è uscita dal sito: o la storia in evidenza
+  «Come si lavora», o da nessuna parte e «studio» resta solo l'handle.

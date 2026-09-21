@@ -649,3 +649,47 @@ dentro il video. Mirko diceva «mi sto sosciando»: è dialetto, e il modello no
 in italiano non esiste, può essere dialetto: si scrive com'è stata sentita e si chiede a Emanuele prima di
 montare, non dopo. Nelle storie della Masseria e di Mamma Rosaria il dialetto è la norma, e una parola
 «corretta» in italiano cambia la battuta.
+
+## 20/09/2026 — Le clip dell'iPhone sono HDR, e senza conversione il colore mente
+
+Nel video del meno 6 di Zucche in Masseria il giallo del brand sembrava arancione bruciato ed Emanuele
+me l'ha detto due volte. Ho cercato l'errore nel posto sbagliato: ho campionato il testo — giallo
+`241,175,29` contro il `242,176,30` di [[areas/la-masseria-di-mezzautunno/reference/design|design]],
+quindi giusto — e ho corretto l'ombra, poi il grade, senza risolvere.
+
+**La causa era un passaggio saltato.** Cinque clip su sette venivano dall'iPhone: sono **HDR, HLG in
+bt2020**, e il README di [[code/storie-clip/README|code/storie-clip]] dice di convertirle in SDR con
+`avconvert -s <clip> -p Preset1920x1080 -o sdr/<clip>` prima di montare. Non l'ho fatto. Il file
+usciva **taggato bt2020/arib-std-b67**, cioè HDR, con dentro dati trattati come SDR: i player
+sbagliano la matrice, i colori si slavano e i gialli virano al bruno. I flag `-color_primaries bt709`
+in uscita non bastano: vengono sovrascritti dai metadati degli input.
+
+**La prossima volta:** prima di montare si legge `color_transfer` di **ogni** clip; se dice
+`arib-std-b67` o `bt2020` si passa da `avconvert`, senza eccezioni. In uscita si scrivono sempre
+`-color_primaries bt709 -color_trc bt709 -colorspace bt709`, come fa `monta.py` delle storie.
+
+**La regola sopra:** quando un colore *sembra* sbagliato ma il valore del pixel è quello giusto, il
+problema non è il colore — è come il file dichiara il proprio spazio colore. Si guarda il contenitore
+prima di ritoccare la grafica.
+
+## 21/09/2026 — Café Soul risultava mai usata, ed era usata sette volte
+
+Per scegliere la musica della storia della torta ho contato quante volte ogni traccia della libreria compare nei
+registri delle storie, e ho detto a Emanuele che Café Soul e Procuro Por Você non erano mai state usate. Erano sette e
+quattro volte. I nomi dei file letti dal disco del Mac hanno le lettere accentate scomposte (NFD), il testo dei
+registri le ha composte (NFC): la «é» scritta nei due modi non combacia, e il conto dava zero.
+
+**La prossima volta:** prima di confrontare un nome con gli accenti fra disco e testo, si normalizzano tutte e due le
+parti con `unicodedata.normalize("NFC", …)`. Uno zero su un nome accentato è un sospetto, non un risultato.
+
+## 21/09/2026 — Ho raccontato un sito invece di farlo vedere
+
+Ho costruito la home e tre pagine di servizio descrivendole a parole per un'intera sessione. Le catture che provavo
+a fare uscivano nere, e me ne sono accorto tardi: il pannello del browser dell'app era nascosto, e con la pagina
+nascosta il browser non disegna. Emanuele ha dovuto dirmelo due volte, «inizia a mandarmi e a farmi capire
+qualcosa» e poi «ancora non vedo l'anteprima». Quando finalmente ho guardato le immagini, in due minuti ho trovato
+un difetto che a parole non avevo visto: la testata trasparente con i titoli che le passavano sotto.
+
+**La prossima volta:** dopo ogni modifica visiva si fa lo screenshot vero con Chrome headless — puppeteer-core
+puntato sul Google Chrome installato, che disegna anche a pannello nascosto — lo si **guarda**, e lo si manda con
+SendUserFile. Un lavoro visivo raccontato è un lavoro che non ho controllato e che lui non ha visto.

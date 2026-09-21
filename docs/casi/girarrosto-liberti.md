@@ -93,9 +93,29 @@ gestionale a canone gli avrebbe dato.
 **Stima di Emanuele, non una misura:** il processo di lavoro è ottimizzato **attorno al 90%**.
 Abbattuti insieme il costo di stress, quello di tempo e quello economico — materiale ed errori.
 
-⚠️ **I numeri veri non ci sono ancora** e sono quattro: ordini a sera, tempo per ordine prima
-e dopo, frequenza degli errori prima e dopo, e la frase testuale di Marco. Finché non
-arrivano, questo caso si racconta ma non si dimostra.
+**Il conto della sera — 20/09/2026.** Raccontato da Emanuele, e sono i numeri con cui il caso va
+online:
+
+- **Circa 120 ordini in una sera di punta.** Stima di Marco riferita da Emanuele.
+- **Per ognuno, prima, un conto a mente.** Quindi **centoventi conti in una sera**, ognuno con la
+  sua possibilità di sbagliare. Adesso il conto lo fa il sistema mentre lui parla al telefono.
+- **Un secondo conto, invisibile:** quanti pezzi servono per la giornata. Lo teneva a mente
+  rileggendo i fogli. Adesso, mentre prende l'ordine, la dashboard gli mostra quanti ne restano
+  da consegnare.
+- **Quando un ordine cambiava**, cancellava con la penna e lo riscriveva da capo.
+
+⚠️ **«Centoventi ordini, centoventi conti a mente, adesso zero» è aritmetica su un fatto, non una
+misura**, e per questo si può scrivere: chi legge la rifà da solo e per verificarla basta guardare
+il sistema.
+
+⚠️ **Quello che resta fuori, e perché.** Il **tempo per ordine** — Emanuele dice «almeno il triplo
+più veloce», ma è una stima e nessuno ha fatto partire un cronometro. La **frequenza degli errori**
+— «capitava spesso» non è un numero. Il **costo di carta, penne ed evidenziatori** — qualche decina
+di euro l'anno, e accanto a centoventi conti a mente fa sembrare piccolo un problema grosso.
+
+⚠️ **Manca la frase di Marco**, la quarta cosa, e quella non si scrive al posto suo: è l'unica riga
+del caso che non è di Emanuele. Va anche in
+[[entities/clienti/girarrosto-liberti/recensioni|recensioni]].
 
 **La coda del lavoro fa parte del lavoro.** Nei mesi dopo la consegna il cliente usa il
 sistema davvero, e chiede di integrare o togliere qualcosa. Emanuele continua a lavorarci

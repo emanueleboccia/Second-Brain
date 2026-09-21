@@ -92,6 +92,16 @@ insegnando al cliente che il logo è gratis quando compra un sito.
 - **Escluso:** contenuti nuovi, hosting
 - **Revisioni:** 2 giri inclusi
 
+### Sito one page
+- **Prezzo:** **600 €**
+- **Fissato da Emanuele il 20/09/2026**, per il sito di Patrimpresa. Prima questa voce non
+  esisteva e la domanda tornava a ogni richiesta.
+- **Incluso:** una pagina sola, design sul brand del cliente, modulo contatti, pagine legali
+- **Escluso:** contenuti, logo, hosting e dominio — si contano a parte, come sul sito vetrina
+- **Dove sta nella scala:** sopra il sito menù da 400 € e sotto il vetrina da 1.500, che ha più
+  pagine e una struttura vera. Se la one page cresce di pagine non è più una one page: si
+  riprezza, non si allunga.
+
 ### Sito menù / menù digitale
 - **Prezzo:** 400 € — ⚠️ **fascia non ancora definita, da chiedere a Emanuele.** In linea col
   mercato, che per una one-page sta a 260–500 €.

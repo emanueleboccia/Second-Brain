@@ -51,6 +51,42 @@ link del pulsante sul sito. I bambini entrano gratis fino al compimento dei 3 an
 L'evento è anche nell'app di **Slesh**, configurata il 16/09/2026: cosa abbiamo mandato e cosa resta
 da controllare sta in [[areas/la-masseria-di-mezzautunno/MEMORY|memory della Masseria]].
 
+### Pumpkin Night — sabato 17 ottobre
+
+Una serata dentro l'edizione 2026, fuori dagli orari del parco: **20:30–00:00**, **12 € a persona**.
+Il biglietto comprende l'**aperitivo** e l'**ingresso serale al parco**, con dj set, sax dal vivo e
+animazione per i bambini. L'Area Food resta aperta per chi vuole fermarsi a cena, ma **cena e
+consumazioni extra sono escluse** dal biglietto. ⚠️ **Non si compra su Clappit**: si prenota ai numeri
+della segreteria, 348 591 65 81 (Selene) e 333 536 3212 (Angela), anche su WhatsApp. Dato da Emanuele
+il 21/09/2026.
+
+Il PDF di presentazione, tre pagine, sta in `3-in-produzione/pumpkin-night/` sull'SSD.
+
+### Le feste private nel parco
+
+Dal 21/09/2026 il parco si affitta anche per **eventi privati**: compleanni, lauree, feste per bambini
+e occasioni speciali. È il «ponte» previsto dal [[areas/la-masseria-di-mezzautunno/reference/brand|brand]] —
+un pacchetto-plus insieme a [[areas/da-mamma-rosaria/reference/brand|Da Mamma Rosaria]] — e non un
+servizio su misura della Masseria.
+
+| voce | quanto |
+|---|---|
+| **Food & experience** | **30 € a persona** |
+| **Quota evento** | **500 €**, una sola per tutta la festa |
+
+⚠️ **Le due quote si scrivono sempre insieme**, «30 € a persona + 500 € quota evento»: detto da Emanuele
+il 21/09/2026, perché così si capisce al volo che i 30 € seguono il numero degli invitati e i 500 € sono
+una quota fissa, non a testa. I 500 € coprono la riserva esclusiva del parco, l'allestimento e la
+personalizzazione.
+
+Il format comprende l'uso esclusivo del parco, i photo spot e gli allestimenti, aperitivo e spumantata,
+l'Angolo della Zucca con gli assaggi della casa, dj set e musica live, più la personalizzazione di alcuni
+dettagli. **La festa è di giorno**, non di sera: detto da Emanuele il 21/09/2026, quando le prime immagini serali
+sono state rifatte col sole. La data si concorda al telefono, e nel PDF non si scrivono periodi. Si prenota alla segreteria:
+348 591 65 81 (Selene) e 333 536 3212 (Angela).
+
+Il PDF di presentazione, tre pagine, sta in `3-in-produzione/feste-nel-parco/` sull'SSD.
+
 ### Le scuole
 
 Dalla proposta per le scuole del 17/09/2026, un PDF di otto pagine che si fa correggere prima di
@@ -77,7 +113,16 @@ e il pulsante play della brochure.
 Dal 17/09/2026 la proposta viaggia anche per email, a cento scuole dell'infanzia della zona: come e a
 chi sta nella [[areas/la-masseria-di-mezzautunno/email-marketing/2026-09-zucche-scuole/campagna|campagna email alle scuole]].
 
+## Il biglietto per le famiglie
+
+**18,90 € a testa, quota unica per adulti e bambini**, gratis fino al compimento dei 3 anni. Dato da
+Emanuele il 20/09/2026 per l'informativa alle famiglie: sul sito il prezzo non compare ancora.
+
+⚠️ **Gli orari del sito e quelli dell'informativa non coincidono.** Il sito dice 10:00–18:00 e il 31
+ottobre 18:00–22:00; il testo che Emanuele ha dato il 20/09/2026 dice **10:30–18:00** e il 31 ottobre
+**18:00–21:00**. Nei due PDF sono stati messi quelli suoi, il sito non è stato toccato: ha detto che
+guarda lui quale dei due è giusto.
+
 ## Ancora da definire
 
-- Prezzo del biglietto per le famiglie: il sito non lo dice ancora.
 - Novità rispetto al 2025.

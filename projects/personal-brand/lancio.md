@@ -76,6 +76,14 @@ quattro: *il sito è l'ultima cosa che si fa, non la prima.*
 **L'ordine è: piano → sitemap → copy scritto apposta → sito.** I due prototipi restano
 riferimenti visivi da riguardare quando si arriva alla forma, non basi da riadattare.
 
+⚠️ **20/09/2026 — i prototipi sono stati aperti e fatti girare, e «estetici» non li descrive.**
+Sono **due pagine intere**, `TEMPLATE V1` e `SITO V2`, un file ciascuna, con la palette di
+[[self/reference/design|design]] rispettata senza inventare un colore e nessuna chiamata esterna.
+V1 ha le domande frequenti già scritte bene; V2 è l'unico che in hero mette il lavoro invece della
+faccia, cioè quello che la bio promette. Il confronto sta in
+[[projects/personal-brand/prototipo|i prototipi a confronto]]. Il progetto `eb-site` sul Desktop è
+quello vecchio, e ce n'è una copia identica al byte.
+
 ⚠️ **Conseguenza sul link in bio.** Se il sito non è pronto al momento del lancio, il link
 ripiega su WhatsApp Business. Peggio del sito, meglio del vuoto — e comunque meglio di un sito
 che dice una cosa diversa dal profilo.

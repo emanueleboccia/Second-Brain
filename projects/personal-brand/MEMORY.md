@@ -66,9 +66,14 @@ su Instagram **@bocciastudio**, senza la s. «Studio» lo dicono tutti, e Emanue
 chiamare quando serve. Tutti e due risultavano liberi il 19/09/2026. Il nome visualizzato resta
 `Emanuele Boccia | Siti e sistemi`.
 
-⚠️ **Diventa definitivo quando handle e dominio sono presi.** Allora si sostituisce @bocciaworks
-in [[self/reference/brand|brand]], [[projects/personal-brand/lancio|il lancio]] e
-[[projects/personal-brand/piano|il piano]].
+✅ **20/09/2026 — il dominio è comprato.** `emanueleboccia.it` ed `emanueleboccia.com` presi su
+**Hostinger**, il `.com` come riserva che rimanda al `.it`. Il sito del personal brand vive lì.
+
+**L'handle invece resta indietro, per scelta.** Parole di Emanuele lo stesso giorno: *«handle è
+bocciastudio su ig per ora, non ci interessa»*. Quindi `@bocciastudio` non è preso e non è una
+priorità: il nome visualizzato `Emanuele Boccia | Siti e sistemi` fa il lavoro di farsi trovare, e
+l'handle si sistema quando serve. ⚠️ Finché non è preso, in [[self/reference/brand|brand]], nel
+lancio e nel piano resta scritto `@bocciaworks`, che non è più vero e non è ancora sostituibile.
 
 ⚠️ **Resta da decidere se Boccia Studio è solo l'handle o diventa il marchio.** Il consiglio è
 tenerlo solo handle: il marchio resta il nome, come dice [[self/reference/design|design]]. E la
@@ -88,3 +93,45 @@ la rete spenta.
 ⚠️ **LinkedIn, quando aggiungi una posizione attuale, sovrascrive il titolo del profilo** con
 «ruolo presso azienda». È successo con la Masseria, e il titolo è stato rimesso a mano. Dopo ogni
 posizione nuova si ricontrolla il titolo.
+
+## 20/09/2026 — Il confine di «Poi resto» e la squadra fuori dal sito
+
+Due decisioni di Emanuele, prese per sbloccare il copy del sito. Tutte e due spostano una cosa
+altrove invece di deciderla sul sito, e tutte e due hanno una conseguenza da tenere d'occhio.
+
+**«Poi resto» resta senza durata.** La promessa si legge intera — *«ci lavoro finché l'abito non
+vi veste»* — e sul sito non c'è nessun numero e nessun rimando a dove il numero starebbe. Scartate
+le versioni coi mesi o coi giri di revisione esposti, perché mettevano una clausola di contratto
+dentro una promessa; scartata anche, lo stesso giorno, l'idea di fissare la durata nel
+[[self/tariffario|tariffario]] e nel modello di proposta. **Parole di Emanuele: «per quanto tempo
+mica devi scriverlo per forza».** Il confine, quando serve, si fa caso per caso.
+
+⚠️ **Resta il rischio che la [[self/reference/convinzioni|convinzione 4]] segnala da sé**, e che
+qui si scrive una volta per non riproporlo a ogni giro: senza una durata scritta da nessuna parte,
+il cliente che chiama a marzo per la quarta modifica e Emanuele che pensava di aver finito a
+dicembre non hanno un foglio da guardare. Decisione sua, presa sapendolo.
+
+**La squadra esce dal sito.** Niente nomi e nessun accenno: al suo posto *«il lavoro lo faccio io,
+e parli con me dall'inizio alla fine»*, che è la cosa che un'agenzia non può dire e che il
+concorrente diretto usa già. Le persone che ci sarebbero oggi non sono stabili — Giusy D'Amico è
+«da chiarire» e il video editor non esiste ancora — e un sito che nomina chi se ne va va rifatto.
+
+⚠️ **Resta scoperto chi legge @bocciastudio e chiede chi c'è dentro**, che era il rischio già
+segnato il 19/09/2026. I posti dove può stare sono due: la storia in evidenza «Come si lavora»,
+oppure nessuno — e allora «studio» resta soltanto l'handle e il marchio resta il nome, come vuole
+[[self/reference/design|design]].
+
+## 20/09/2026 — Da fare: il design unico dentro le skill
+
+Segnalato da Emanuele e **messo da parte, non ancora affrontato**: le skill che sfornano un
+deliverable con il suo nome sopra — `genera-preventivo`, `report-finanziario`, `report-social` —
+producono ognuna il proprio HTML, e il `CLAUDE.md` di radice chiede già che abbiano tutte lo
+stesso aspetto. Oggi ognuna cita [[self/reference/design|design]] e poi se lo reimplementa per
+conto suo, quindi la regola c'è e l'applicazione no.
+
+Quello che chiede è **l'unione**: un impianto solo — colori, caratteri, componenti — che le skill
+richiamano invece di riscrivere. Così una modifica al sistema visivo arriva su tutti i deliverable
+insieme, che è esattamente la differenza fra un brand e tre file che si somigliano.
+
+Da riprendere quando il sito è chiuso.
+

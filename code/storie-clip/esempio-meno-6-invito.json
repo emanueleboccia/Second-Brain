@@ -1,0 +1,51 @@
+{
+ "clip": [
+  {
+   "file": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/sdr/c3.mov",
+   "ss": 1.0,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/sdr/c6.mov",
+   "ss": 0.3,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/Volumes/SSD-MANU/03-LA-MASSERIA-DI-MEZZ'AUTUNNO/2-libreria/riprese-drone/2025-10-19-parco-delle-zucche/DJI_20251019145006_0261_D.MP4",
+   "ss": 7.0,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/sdr/IMG_3566.mov",
+   "ss": 1.5,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/Volumes/SSD-MANU/03-LA-MASSERIA-DI-MEZZ'AUTUNNO/2-libreria/riprese-drone/2025-10-19-parco-delle-zucche/DJI_20251019145135_0263_D.MP4",
+   "ss": 20.0,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/sdr/IMG_3497.mov",
+   "ss": 2.9,
+   "dur": 2.1654,
+   "cx": 0.5
+  },
+  {
+   "file": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/sdr/c7.mov",
+   "ss": 4.5,
+   "dur": 1.8876,
+   "cx": 0.5
+  }
+ ],
+ "testo": "/tmp/claude-501/-Users-emanueleboccia-Second-Brain/52c2cff5-e63f-4f2a-a891-ebc57309314f/scratchpad/montaggio/out/testo-meno-6.png",
+ "musica": [
+  "scartate/moonpetalmedia-autumn-on-the-farm-cozy-whimsical-fall-folk-587378",
+  52.086
+ ]
+}

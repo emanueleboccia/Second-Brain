@@ -6,7 +6,7 @@ tags:
   - processi
 status: attivo
 created: 2026-08-21
-updated: 2026-09-03
+updated: 2026-09-21
 related:
   - "[[docs/brief-cliente]]"
   - "[[docs/definizioni-di-fatto]]"
@@ -17,6 +17,11 @@ related:
 
 > **Scritto il 03/09/2026** distillando il [[areas/formazione/corsi/customer-onboarding/indice|Customer
 > Onboarding Strategic Pack]] di Luigi Nigro. Là c'è la fonte, qui c'è la regola.
+>
+> ⚠️ **Dal 21/09/2026 la regola operativa sta in [[docs/processo-cliente|il processo cliente]]**,
+> che copre tutto il percorso dal sì alla consegna e ha assorbito questa nota. Qui resta il
+> ragionamento che viene dal corso: il **perché** di ogni paletto. In trattativa si guarda il
+> processo; quando un paletto non si capisce, si torna qui.
 
 L'onboarding è la fase fra **il sì del cliente e l'inizio dei lavori**. Sembra burocrazia e invece
 è il punto in cui si decide come sarà tutta la collaborazione: chi guida, con che ritmo, e cosa

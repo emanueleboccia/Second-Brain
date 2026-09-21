@@ -2,6 +2,105 @@
 
 Aperto il 13/07/2026.
 
+## 21/09/2026 — Le feste private nel parco, e il prezzo scritto in due quote
+
+Secondo PDF della stessa giornata, stesso impianto di Pumpkin Night: tre pagine in
+`3-in-produzione/feste-nel-parco/` sull'SSD, quattro foto generate — la tavola apparecchiata tra le
+zucche, la spumantata, l'Angolo della Zucca e un photo spot. Due partono dalle foto vere del parco.
+
+⚠️ **La festa privata è di giorno.** Le prime quattro immagini erano serali, come Pumpkin Night, ed
+Emanuele le ha fatte rifare col sole: «quest'ultima è di giorno, non di sera». Le due cose si somigliano
+nel formato ma non nell'ora, e la copertina di giorno ha una fascia scura sotto la testata, altrimenti le
+scritte verdi del logo evento spariscono sul cielo chiaro.
+
+**Il prezzo si scrive «30 € a persona + 500 € quota evento», affiancati e col più in mezzo.** Parole di
+Emanuele: così si capisce subito che i 30 € variano col numero degli invitati e i 500 € sono una quota
+sola per la festa, non a testa. Nel PDF sono due riquadri gemelli con il più in mezzo, e sotto il
+riquadro che lo spiega a parole.
+
+**Nel PDF non si scrive quando si può fare**, per sua scelta: la data si concorda al telefono. I contatti
+sono quelli della segreteria di Zucche, non il WhatsApp di Mamma Rosaria.
+
+## 21/09/2026 — Pumpkin Night, e le prime foto generate
+
+Il PDF della serata del 17 ottobre è **una presentazione, non un foglio informativo**: Emanuele l'ha
+chiesta «più rappresentativa», con le foto dentro, al contrario dell'informativa del 20/09 dove le
+aveva tolte tutte. Tre pagine — copertina serale, la serata con le cinque cose incluse, e le
+informazioni pratiche — in `3-in-produzione/pumpkin-night/` sull'SSD, con lo stesso foglio di stile
+degli altri due PDF di Zucche.
+
+**Le quattro fotografie serali sono generate con Higgsfield**, modello GPT Image 2.5, ed è la prima
+volta che si fa per un materiale del brand. La ragione è quella già scritta il 20/09: dell'edizione
+2025 non esiste un fotogramma di sera, perché il parco chiudeva alle 18. Due partono da foto vere del
+parco — il campo di zucche e il fienile rosso — così il posto resta riconoscibile; le altre due, il
+sax con la gente che balla e il tavolo dell'aperitivo, sono d'atmosfera. ⚠️ **Sono immagini
+d'atmosfera, non riprova sociale**: la regola del [[areas/la-masseria-di-mezzautunno/reference/brand|brand]]
+sulle foto piene di gente vale per quelle vere, e appena ci sono gli scatti della prima serata queste
+si sostituiscono.
+
+**In copertina entrano i font del brand madre**: HeroLight Bold per «PUMPKIN NIGHT» e Niconne giallo
+per «in Masseria», sopra la foto con la velatura scura, come vuole
+[[areas/la-masseria-di-mezzautunno/reference/design|design]]. Da qui li prendono anche i titoli delle
+pagine interne: la brochure per le scuole aveva solo Poppins perché i file dei font non erano a mano.
+I font stanno in `assets/font/` dentro la cartella del PDF.
+
+## 20/09/2026 — L'informativa e il regolamento per le famiglie
+
+Due PDF separati, non uno: **informativa** (4 pagine) e **regolamento** (3 pagine), in
+`3-in-produzione/informativa-zucche/` sull'SSD, con gli HTML sorgente e un foglio di stile condiviso.
+Si stampano con Chrome headless, come la proposta per le scuole.
+
+- **Stesso design della brochure scuole, impostazione diversa.** Emanuele ha chiesto lo stile, non la
+  copia: copertina con logo e testo centrati invece che allineati a sinistra sull'immagine, e foto
+  diverse. Poi ha tolto **tutte le fotografie**: «non è una presentazione, falla semplice come il
+  regolamento». È rimasta solo l'Area Food a tessere, perché il resto sono elenchi di tappe.
+- **Niente emoji**, come nella brochure: le sostituiscono i pallini arancioni, e per Fienopoli quelli
+  verdi, così si vede che è un mondo a parte.
+- **Il regolamento non è riscritto**: i quindici punti sono quelli della pagina dell'evento sul sito,
+  letti il 20/09/2026 e solo impaginati. Se cambiano lì, vanno rifatti qui.
+- Le foto scelte e poi scartate restano in `assets/`: per una versione illustrata basta rimetterle.
+
+## 20/09/2026 — Il format «io e te», e da dove vengono le clip di Zucche
+
+Per il meno 6 nasce un **secondo format**, accanto alle storie del conto alla rovescia del 18/09:
+clip che scorrono ogni due secondi con una **scritta ferma per tutta la durata** e la sola musica
+sotto, senza parlato. Viene da un video di *Nonno Andrea* che Emanuele ha portato come riferimento.
+Approvato dopo sei giri. Com'è fatto, in ordine dall'alto:
+
+- **«Io e te a»** in HeroLight Bold avorio e **«Zucche in Masseria»** in **Niconne giallo** subito
+  sotto, più grande della riga sopra. ⚠️ **Niente logo**: provato e scartato da Emanuele il
+  20/09/2026, occupava mezzo schermo e copriva proprio quello che si voleva far vedere.
+- **«Mancano N giorni!»** in basso, col numero in avorio e *giorni!* in Niconne giallo, e sotto in
+  piccolo **«Da sabato 26 settembre»**. I due font si allineano sulla linea di base, non sul bordo
+  dell'inchiostro.
+- **Il centro dello schermo resta libero**: due bande di velatura, una in alto e una in basso, al
+  posto di una sola al centro.
+- **Musica sola**, tagli su tre battiti, 14,9 secondi per stare in una storia sola.
+
+**Le clip che funzionano sono quelle dentro la gente.** Scartate le aeree larghe sul parco vuoto e
+il parcheggio: «deve essere qualcosa che si vede — persone, tante persone, la location». Buone: la
+folla sul vialetto, i tavoli dei laboratori pieni, lo spettacolo col pubblico, i pony, il chiosco
+con la fila, e in chiusura chi torna con la zucca in braccio.
+
+**Dove sta il girato di Zucche 2025.** Le clip a terra sono **su Drive**, in `02 Foto e video /
+2025 Zucche in Masseria`, non sull'SSD. Le **aeree buone sono sull'SSD**, in
+`2-libreria/riprese-drone/2025-10-19-parco-delle-zucche/`: quelle su Drive sono del 30 settembre e
+riprendono l'allestimento **senza nessuno**.
+
+⚠️ **Materiale serale non esiste.** L'edizione 2025 apriva dalle 10 alle 18: tutto il girato ha il
+sole alto. L'unico serale con le luci è Il Borgo Infestato, che è un altro evento e dentro Zucche
+non si usa.
+
+**Il grade è quello delle storie** — contrasto 1,04 e saturazione 1,10 — e serve a far sembrare lo
+stesso girato le aeree 4K e le clip dell'iPhone. Non si aggiunge calore: il precedente sta nel
+[[correction|correction log]] del 14/09/2026.
+
+**La traccia scelta è `moonpetalmedia-autumn-on-the-farm`**, dal punto in cui entra tutta la band.
+Era fra le scartate delle storie del meno 8, dove serviva banjo veloce sotto il parlato.
+
+Gli script stanno nel vault, in [[code/storie-clip/README|code/storie-clip]]: `monta_invito.py` e
+`testo_invito.py`, con la ricetta vera in `esempio-meno-6-invito.json`.
+
 ## 19/09/2026 — Il meno 7: Amin, gli zoom, e il logo non sempre
 
 Tre storie dalle dieci clip girate la sera del 19/09, approvate da Emanuele: Amin che annuncia i sette giorni

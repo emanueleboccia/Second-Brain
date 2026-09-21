@@ -33,7 +33,20 @@ Due pezzi che sono **una cosa sola**, ed è questo il punto del lavoro.
 in entrambi. È la parte che nessun gestionale a canone gli avrebbe dato e la ragione per cui
 questo è un caso studio invece che un lavoro.
 - **Contatti:** su Notion, database Contatti.
+- **Sito menù:** **libertigirarrosto.it** — detto da Emanuele il 20/09/2026, e fino a quel giorno
+  non stava scritto da nessuna parte nel vault.
 - **Stato:** cliente attivo. Il lavoro fatto non è stato pagato, ed è una scelta.
+
+### Il permesso — 20/09/2026
+
+**Marco ha dato accesso libero a tutto**, marchio compreso: si può mostrare il lavoro, nominare il
+locale e usare il suo brand. Riferito da Emanuele.
+
+⚠️ **Manca la traccia scritta.** Il [[self/tariffario|tariffario]] esige il permesso **scritto**
+per i casi studio, e il lavoro è a 0 € proprio in cambio di quello. Non serve un contratto: basta
+un messaggio di Marco su WhatsApp che dice che va bene pubblicare, salvato nella cartella del
+cliente. Vale il giorno in cui qualcuno cambia idea, e quel giorno un «me l'aveva detto a voce»
+non vale niente — né per lui né per Marco.
 
 ## Cosa gli ho venduto
 

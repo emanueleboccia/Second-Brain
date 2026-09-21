@@ -2,6 +2,20 @@
 
 Aperto il 12/07/2026.
 
+## 20/09/2026 — La Tenuta si ferma, per ora
+
+**Stop alla Tenuta Don Gaetano.** Lo ha deciso Raffaele nell'incontro del 14/09/2026 e Emanuele l'ha
+ribadito il 20/09: per adesso non si produce e non si programma niente di nuovo. Nella trascrizione
+della call la frase è «settembre Mamma Rosaria, basta; e la Tenuta la devo togliere, non la devo
+fare a settembre».
+
+- **I post di settembre sono già programmati** e restano: quello che c'era in coda esce.
+- **Da ottobre non si pianifica**, finché Raffaele non dice il contrario. Se il briefing o una review
+  segnalano che «la Tenuta è ferma», **non è un buco da riempire**: è questa decisione.
+- ⚠️ Tocca anche i soldi: il mensile della Tenuta in [[self/tariffario-famiglia|tariffario famiglia]]
+  va rivisto quando si capisce fino a quando dura il fermo. Da chiedere a Emanuele alla chiusura del
+  mese, non prima.
+
 ## 12/07/2026 — Chiusura del cantiere sito
 
 Scoperto che **la conversione WordPress viveva solo sul server**: nessuna traccia nel repo.

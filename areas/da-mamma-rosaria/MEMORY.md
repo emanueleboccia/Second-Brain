@@ -2,6 +2,56 @@
 
 Aperto il 13/07/2026.
 
+## 21/09/2026 — Zio Savino, la prima storia su una persona
+
+Montata dalle clip girate da Emanuele il 20/09 all'angolo di zio Savino: l'impasto nelle casse, la frittura nel
+pentolone di rame, la gente intorno col telefono. **Il nome apre la storia per pochi secondi**, «zio savino» in Regular
+Brush con «oggi il suo angolo da Mamma Rosaria» in D-DIN, poi restano solo clip e musica. Emanuele voleva una canzone
+allegra, più movimentata e più divertente, e ha chiesto la tarantella: per una storia così serviva qualcosa di più
+vivace del sottofondo scritto in [[areas/da-mamma-rosaria/reference/reel|reel]]. In `2-libreria/musica/` sull'SSD ci
+sono ora tre tarantelle prese da Pixabay: per Savino quella con le chitarre dal vivo, le altre due sono libere.
+
+La battuta che zio Savino dice in una clip è stata montata coi sottotitoli e la musica abbassata, e poi tolta da
+Emanuele: «togli la battuta con sottotitolo, metti soltanto la canzone».
+
+La stessa notte, dalla torta dei 30 anni composta a vista al tavolo, è uscita una seconda storia con un taglio ogni
+quattro battiti della musica. Le clip erano arrivate da WhatsApp a 576×1024: a schermo intero si vedono morbide, e con
+gli originali la resa cambia. Il dettaglio delle due storie sta in `pacchetti.md` sull'SSD, le clip in
+`1-eventi/momenti/2026-09-20-zio-savino/` e `1-eventi/momenti/2026-09-20-la-torta-a-vista/`, come vuole
+[[docs/procedure/ordinare-un-evento|ordinare un evento]].
+
+## 20/09/2026 — Durante Zucche, i contenuti di Mamma Rosaria aspettano
+
+Zucche in Masseria è un evento in collaborazione con La Masseria di Mezz'autunno, e **occupa la
+comunicazione anche qui**: pubblicare contenuti di Mamma Rosaria scollegati dall'evento, in queste
+settimane, è sprecato. Detto da Emanuele il 20/09/2026.
+
+**Quello che si farà**: contenuti di Mamma Rosaria **legati a Zucche** — la cucina, l'area food, la
+location — ma **dopo aver registrato materiale nuovo dall'inizio dell'evento**, cioè dal 26/09. Non
+si monta niente con l'archivio del 2025 per questo scopo.
+
+Vale come risposta quando il briefing o una review segnalano che il calendario di Mamma Rosaria è
+fermo: è una scelta, non una dimenticanza.
+
+## 20/09/2026 — Il messaggio automatico di Meta parla di due cose
+
+La risposta automatica della pagina — quella che partiva solo per gli eventi, con i pacchetti e il
+WhatsApp — adesso è **divisa in due blocchi**: feste ed eventi, e Zucche in Masseria. Scritta il
+20/09/2026 e salvata da Emanuele.
+
+- **Dice apertamente che qui non si risponde.** «Qui non riusciamo a rispondere subito: su WhatsApp
+  ci siamo sempre e ti rispondiamo con tutto il cuore.» Chiesto da Emanuele, perché su Messenger e
+  Instagram non rispondono quasi mai ed è meglio dirlo che farlo scoprire.
+- **Numero e link, sempre tutti e due.** Il link `wa.me` apre WhatsApp solo se l'app c'è; il numero
+  scritto si copia da qualsiasi posto. Sono due strade per la stessa porta.
+- **Zucche porta alla segreteria** (348 591 65 81) e al sito, non al WhatsApp di Mamma Rosaria.
+- ⚠️ **Il campo ha un limite di 500 caratteri**, contati con le emoji e con la variabile del nome.
+  La versione salvata ne usa 456: per aggiungere una frase bisogna toglierne un'altra. È il motivo
+  per cui le date sono abbreviate in `26/9 al 31/10`.
+- Sta in **Business Suite → Posta → Automazioni → Risposta automatica**, e la stessa automazione
+  vale per Messenger e Instagram insieme: il testo deve stare nei limiti del più stretto dei due.
+
+
 ## 13/07/2026 — Il design system, e tre cose che ci ha corretto
 
 Dalla **Brand Guideline DMR 2026 (v2.0)** è nato `reference/design.md`: palette (arancio `#F09D28`,
