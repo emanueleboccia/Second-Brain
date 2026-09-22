@@ -2,6 +2,37 @@
 
 Aperto il 13/07/2026.
 
+## 21/09/2026 — Il gestionale torna, su un sottodominio suo
+
+Il gestionale lasciato stare il 19/09 l'ha riportato Emanuele, come diceva quella voce: ha creato
+**gestionale.lamasseriadimezzautunno.it** e ci vuole un accesso sul format del gestionale eventi di
+[[areas/da-mamma-rosaria/reference/brand|Da Mamma Rosaria]], con lo stile della Masseria. Obiettivo e
+struttura si discutono in una sessione parallela aperta lo stesso giorno.
+
+Letto quel giorno, prima di decidere qualsiasi cosa:
+
+- **Il gestionale di Mamma Rosaria è un'app Lovable.** `gestionale.damammarosaria.com` punta
+  all'indirizzo di Lovable: davanti ha una card d'accesso da amministratore su fondo arancio a foglie,
+  dietro il calendario, la vista Lista e il link staff a token. Il codice sul Mac non c'è.
+- **Il sottodominio della Masseria sta su Hostinger** e mostra la pagina di default. Anche il DNS del
+  dominio è di Hostinger: un'app Lovable ci arriva cambiando il record del sottodominio, senza toccare
+  il sito WordPress.
+- **Nella lista di Mamma Rosaria su TickTick c'è ancora** «Integrare le date de La Masseria di
+  Mezz'autunno nel gestionale». Con un gestionale della Masseria quella task cambia senso.
+
+**Deciso lo stesso giorno: è un gestionale a parte**, con dati e utenti suoi. Selene gestisce le date,
+Raffaele e Angela le vedono e le stampano. **È online dalla sera del 21/09/2026**, in Laravel su Hostinger
+e non su Lovable. Il resto delle decisioni sta nella [[projects/gestionale-masseria/MEMORY|memoria del
+gestionale]], com'è fatto in [[projects/gestionale-masseria/sistema|cosa fa il sistema]].
+
+**Il gestionale di Mamma Rosaria ha già la Masseria dentro**: il filtro «🍂 LMDM» e i tipi «Gita
+Scolastica» ed «Evento La Masseria», visti il 21/09/2026. Le date della Masseria possono arrivarci da
+sole, in sola lettura, quando si decide di collegarli.
+
+⚠️ **La domanda che il 19/09 l'aveva fermato resta**: la cucina e gli spazi sono quelli di Mamma Rosaria,
+e due calendari che non si vedono possono dare lo stesso giorno a due eventi. Per ora la risposta è che
+Raffaele vede anche questo.
+
 ## 21/09/2026 — Le feste private nel parco, e il prezzo scritto in due quote
 
 Secondo PDF della stessa giornata, stesso impianto di Pumpkin Night: tre pagine in

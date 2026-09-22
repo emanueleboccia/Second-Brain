@@ -35,6 +35,18 @@
         "/private/tmp/claude-501/-Users-emanueleboccia-Second-Brain/5ab520a9-b9f6-4d6f-aa52-d54a62c81cc0/scratchpad/sito"
       ],
       "port": 8081
+    },
+    {
+      "name": "gestionale-masseria",
+      "runtimeExecutable": "php",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Desktop/progetti/gestionale-masseria/artisan",
+        "serve",
+        "--host=127.0.0.1",
+        "--port=8010",
+        "--no-reload"
+      ],
+      "port": 8010
     }
   ]
 }

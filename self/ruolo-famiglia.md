@@ -149,6 +149,9 @@ bassa: **ogni sistema è un progetto a corpo con preventivo dedicato**.
 Quello che esiste oggi: il **gestionale eventi di Da Mamma Rosaria**, 850 €, in funzione dal
 02/09/2026, con assistenza inclusa il primo anno e **300 €/anno dal 16/09/2027**, insieme a hosting e domini.
 
+Online dal 21/09/2026: il [[projects/gestionale-masseria/sistema|gestionale della Masseria]], per le
+gite, le feste nel parco e le serate, a parte da quello di Mamma Rosaria. Il prezzo non è ancora deciso.
+
 ⚠️ **L'assistenza copre correzioni e piccoli aggiustamenti. Le funzioni nuove sono un progetto
 nuovo**, e si preventivano man mano che emergono con l'uso. È la regola che impedisce al gestionale
 di diventare un lavoro infinito pagato una volta sola.
