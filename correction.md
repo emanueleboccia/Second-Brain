@@ -713,3 +713,32 @@ cui un secondo invio della stessa campagna si ferma subito, e rilegge il registr
 
 **La regola sopra:** uno script che manda qualcosa a persone vere non deve fidarsi di essere l'unico a
 girare. Il controllo sta nello script, non nella memoria di chi lo lancia.
+
+## 22/09/2026 — Paragrafi che finivano con una parola sola, nei PDF di Zucche
+
+Rifacendo l'informativa e il regolamento di [[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference|Zucche in Masseria]]
+ho mandato le anteprime con sette paragrafi che andavano a capo per una o due parole: «zucca.», «speck.»,
+«verdurine.», «veloce.», «Food.», «18:00.» e «della struttura.». Le avevo guardate, ma guardavo se le pagine
+stavano nel foglio, non come finivano le righe. Emanuele: «sembra brutto se vai daccapo per 1 o 2 parole, è una
+regola di design».
+
+**La prossima volta:** prima di dare un PDF si elencano le righe di due parole o meno, pagina per pagina, e si
+guardano: quelle che chiudono un paragrafo si sistemano riscrivendo la frase o legando le ultime parole con
+`&nbsp;`. `text-wrap: pretty` aiuta, ma da solo trasforma una parola sola in due. La regola sta nel
+[[CLAUDE#La regola di design|CLAUDE.md di radice]].
+
+## 22/09/2026 — Tre ore per pubblicare il gestionale, e un Chrome sbagliato
+
+Emanuele ha chiesto di mettere online la versione nuova del [[projects/gestionale-masseria/MEMORY|gestionale]].
+Io ho affidato il lavoro a un agente in background, e intanto ho fatto i PDF. L'agente ha lavorato bene, ma
+un'ora e mezza; poi gli ho chiesto un secondo giro, altri quaranta minuti. Quando Emanuele ha scritto
+«muoviti, togli gli agenti e fallo tu», l'ho fermato e in dieci minuti ho caricato e aggiornato tutto.
+In mezzo ho perso altro tempo su Hostinger: l'estensione era collegata a **due Chrome**, e stavo lavorando su
+quello sbagliato, che chiedeva il login. «Ma hai sbagliato chrome, usa il chrome su questo macbook».
+
+**La prossima volta:** quando una cosa serve *adesso*, si fa a mano e si delega solo quello che può aspettare —
+un agente conviene sul lavoro lungo, non su una pubblicazione di dieci minuti. E prima di toccare il browser si
+guarda `list_connected_browsers`: se ce n'è più di uno, si sceglie quello con `onThisComputer`.
+
+**La regola sopra:** l'utente misura il tempo dalla sua richiesta, non dal mio lavoro. Se il conto dei minuti
+sale, la scelta giusta è quasi sempre fare meno cose insieme.

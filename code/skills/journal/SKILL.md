@@ -156,10 +156,19 @@ il contesto nelle note.
   - Per ognuna, chiedi se c'è un aggiornamento da registrare.
   - Se una proposta è ferma da **più di sette giorni**, segnalala come *da sollecitare o
     aggiornare*: è il punto in cui una proposta smette di essere in corso e diventa un silenzio.
-  - ⚠️ **Una proposta «In attesa» con una decisione scritta in `Note esito` non si segnala da
+  - ⚠️ **Una proposta «In attesa» con una decisione scritta in `Prossimo passo` non si segnala da
     sollecitare.** Vuol dire che Emanuele ha deciso di aspettare il cliente: si nomina in mezza riga,
     con quello che dice la nota. Se la nota fissa un giorno per il sollecito, quel giorno la proposta
-    entra fra le cose di oggi. Deciso il 17/09/2026 su Ragosta: «mo aspettiamo lui».
+    entra fra le cose di oggi. Deciso il 17/09/2026 su Ragosta: «mo aspettiamo lui». Fino al
+    22/09/2026 il campo si chiamava `Note esito`.
+- **i lavori in corso**: le proposte con `Fase` piena e diversa da «Chiuso», una riga per lavoro
+  col cliente, la fase e il `Prossimo passo`. È la risposta a «a che punto è», e dal 22/09/2026 sta
+  su Notion invece che nella memoria di Emanuele.
+- **le fatture da incassare**, dal database `Fatture` in `riferimenti.json`: le righe «Da
+  incassare» con la scadenza **entro sette giorni**, e quelle **già scadute** in cima, marcate *in
+  ritardo*. Una riga per fattura: cliente, importo, scadenza. Sono soldi che qualcuno gli deve: una
+  fattura scaduta nel silenzio è un acconto che nessuno sollecita. Se non c'è niente in scadenza,
+  la riga non si scrive.
 - **le scadenze dei siti.** In `Siti Clienti` ci sono tre date per ogni sito — hosting, assistenza,
   dominio. Riporta quelle che scadono **entro trenta giorni**, ordinate dalla più vicina, e marca
   come **urgenti** quelle sotto i quattordici. Una riga per scadenza: sito, cosa scade, fra quanti
@@ -285,8 +294,10 @@ uscito, il timestamp si scrive: il briefing è il testo.
    quello che si dicono in una riunione non passa da questa chat: se non lo si va a prendere,
    sparisce. Con `GRANOLA_MCP_LIST_MEETINGS` su `time_range: "this_week"` — o `last_30_days` se la
    sessione copre più giorni — guarda quali riunioni ci sono e confrontale con i file già in
-   `sources/call/`. Per ognuna che manca, `GRANOLA_MCP_GET_MEETING_TRANSCRIPT` e si scrive
-   `sources/call/AAAA-MM-GG-interlocutore.md`: intestazione breve con dove, quando e chi sono
+   `sources/call/` **e in `sources/riunioni/`**, cercando l'id di Granola nelle intestazioni. Per
+   ognuna che manca, `GRANOLA_MCP_GET_MEETING_TRANSCRIPT` e si scrive
+   `sources/call/AAAA-MM-GG-interlocutore.md`, o `sources/riunioni/AAAA-MM-GG-argomento.md` se è
+   una riunione di gruppo: intestazione breve con dove, quando e chi sono
    gli speaker, poi **la trascrizione grezza, mai ritoccata**, come vuole il README della
    cartella. Il nome del file lo fa l'interlocutore, non il titolo che ha messo Granola: quei
    titoli sono generati in inglese e fra un mese non dicono chi c'era.

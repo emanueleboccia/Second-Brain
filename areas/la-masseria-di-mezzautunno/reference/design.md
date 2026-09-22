@@ -8,7 +8,7 @@ tags:
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-09-17
+updated: 2026-09-22
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/brand]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
@@ -70,6 +70,10 @@ Sei colori, ognuno con un compito. Non si usano a sentimento.
 - **Su fondo scuro o su foto:** testo **avorio**, accento **giallo**.
 - **Sulle foto va sempre uno scrim scuro più un'ombra sul testo.** Non è un vezzo: senza, il testo
   sparisce sulle zone chiare della foto.
+  ⚠️ **Nei PDF l'ombra sul testo invece non si mette.** Chrome la stampa come una maschera, e Anteprima
+  e l'iPhone la disegnano come un rettangolo scuro dietro ogni riga: è successo sulle copertine della
+  Pumpkin Night e delle feste di Zucche, trovato il 22/09/2026. Nel PDF il contrasto lo fa solo la
+  velatura, più scura dove c'è il testo. Vale come per le ombre dei riquadri.
 - **Mai colore su colore simile.**
 
 ## Tipografia
@@ -146,6 +150,7 @@ Fatti che il PDF riporta e che nel vault non erano scritti da nessuna parte:
 
 ⚠️ **Il numero della Masseria è il 348 591 65 81, anche su WhatsApp.** Confermato da Emanuele il
 17/09/2026: è quello della proposta per le scuole di Zucche in Masseria. Il WhatsApp qui sopra lo
-riporta il brand kit, e di chi sia resta da capire. L'email della Masseria è
+riporta il brand kit ed è di **Raffaele**: il listino delle feste fatto su Canva a luglio 2026 lo mette
+accanto al suo nome, letto il 22/09/2026. L'email della Masseria è
 **lamasseriadimezzautunno@gmail.com**. Su Instagram e TikTok è **@lamasseriadimezzautunno**; la pagina
 Facebook non ha un nome breve, e dal sito ci si arriva col link numerico.

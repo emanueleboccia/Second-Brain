@@ -116,7 +116,7 @@
       "esclusa_sempre": true
     },
 
-    "ultimo_briefing": "2026-09-21T07:39:43Z",
+    "ultimo_briefing": "2026-09-22T13:14:39Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
 
@@ -163,7 +163,18 @@
       "campo_data": "Creato",
       "_nota_campo_data": "⚠️ In SQL la colonna non si chiama «Creato». I campi data di Notion arrivano scomposti in tre colonne — `date:Creato:start`, `date:Creato:end`, `date:Creato:is_datetime` — e una query su \"Creato\" fallisce con «no such column». Si seleziona `\"date:Creato:start\" AS creato` e si ordina su quello. Vale per ogni campo data di ogni database: i tre di «Siti Clienti» si leggono `date:(S) Hosting:start`, `date:(S) Assistenza:start`, `date:(S) Dominio:start`. Verificato il 01/09/2026.",
       "campo_valore": "Valore Stimato",
-      "campo_note_esito": "Note esito",
+      "campo_note_esito": "Prossimo passo",
+      "_nota_prossimo_passo": "Fino al 22/09/2026 il campo si chiamava «Note esito» ed era diventato un diario. Da quel giorno è una riga sola, riscritta ogni volta: la decisione o il passo di adesso, con la data davanti. La cronologia sta nello storico del cliente, nel vault.",
+      "campo_fase": "Fase",
+      "fasi": [
+        "Proposta",
+        "Accordo e acconto",
+        "Onboarding",
+        "Sviluppo",
+        "Consegna",
+        "Chiuso"
+      ],
+      "_nota_fase": "Aggiunta il 22/09/2026: la proposta segue il lavoro fino al saldo. La Fase dice a che punto è, lo Stato resta l'esito commerciale. Il briefing riporta i lavori con Fase piena e diversa da «Chiuso», uno per riga col suo Prossimo passo. Dentro la pagina c'è la checklist del processo compilata coi dati veri del cliente.",
       "stati_aperti": [
         "In attesa",
         "Inviata",
@@ -179,7 +190,25 @@
         "Archivia": true
       },
       "campo_referente": "Referente",
-      "_nota_relazioni": "Dal 21/08/2026 l'unica relazione è Referente → Contatti. I campi Cliente e Servizio non esistono più: non provare a valorizzarli."
+      "_nota_relazioni": "Dal 21/08/2026 le relazioni sono Referente → Contatti, e dal 22/09/2026 anche Fatture → Fatture e Sito → Siti Clienti. I campi Cliente e Servizio non esistono più: non provare a valorizzarli. I file: «PDF proposta», «Accordo» (quello mandato e quello firmato) e il vecchio «Fattura», nascosto dalle viste, che ha un solo file (Difendo Alarm) e si svuota nel database Fatture con l'export di Fiscozen."
+    },
+    "fatture": {
+      "database_id": "86dd7f72-0d31-4deb-9241-67f66004388b",
+      "data_source": "collection://0a39741c-ca5c-4ce8-80b1-cc1eafa5a82b",
+      "nome": "Fatture",
+      "campo_titolo": "Numero",
+      "campo_cliente": "Cliente",
+      "campo_lavoro": "Lavoro",
+      "campo_tipo": "Tipo",
+      "campo_importo": "Importo",
+      "campo_data": "Data",
+      "campo_scadenza": "Scadenza",
+      "campo_stato": "Stato",
+      "stati_aperti": [
+        "Da incassare"
+      ],
+      "_nota_uso": "Creato il 22/09/2026. Una riga per fattura, col PDF, e il numero è quello di Fiscozen. Il briefing legge le righe «Da incassare»: quelle con Scadenza entro sette giorni sono in scadenza, quelle con Scadenza passata sono in ritardo e vanno in cima. Sono soldi che qualcuno deve a Emanuele, e fanno le veci delle task «controllare l'acconto». In SQL la scadenza si legge «date:Scadenza:start».",
+      "_nota_registro": "Le fatture stanno qui, i soldi che si muovono stanno nel registro lavori su Sheets: sono due cose diverse. Quando arriva un pagamento si aggiornano tutti e due nello stesso giro."
     },
     "contatti": {
       "database_id": "70fa62ff-65e4-498a-8001-87f2b3aab424",

@@ -8,7 +8,7 @@ tags:
   - tono-di-voce
 status: attivo
 created: 2026-07-13
-updated: 2026-09-17
+updated: 2026-09-22
 related:
   - "[[CLAUDE]]"
   - "[[areas/la-masseria-di-mezzautunno/progetti/README]]"
@@ -123,6 +123,12 @@ Quello che **è vero e si può usare**:
   nulla.
 
 Le recensioni le comunicheremo quando avremo un modo per raccoglierle.
+
+## I due brand madre si nominano insieme
+
+Quando un testo dice chi fa il cibo, dice anche chi fa l'animazione: «il menù di Da Mamma Rosaria e
+**l'animazione Funny Show**», non «l'animazione per i bambini». Detto da Emanuele il 22/09/2026 sui PDF
+delle feste di Zucche: la Masseria nasce da tutti e due, e nominarne uno solo fa sparire l'altro.
 
 ## Località
 

@@ -6,7 +6,7 @@ tags:
   - processi
 status: attivo
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-22
 related:
   - "[[docs/onboarding]]"
   - "[[self/tariffario]]"
@@ -58,6 +58,17 @@ La fattura o la richiesta di acconto esce con **più modi di pagare nella stessa
 bonifico e, dove si può, un link di pagamento. Un pulsante è meno imbarazzante di una richiesta: se
 pagare è un'azione invece che una conversazione, non serve trovare il coraggio ogni volta.
 
+**La fattura porta sempre una scadenza: sette giorni dalla data di emissione**, e la data si scrive
+anche nel messaggio che la accompagna, così il cliente la vede senza aprire il PDF. Una fattura «a
+vista» non ha un giorno, e con chi conferma a voce e poi si ferma vuol dire aspettare: con la data
+scritta, ricordargliela non costa niente, perché l'ha già vista. Deciso da Emanuele il 22/09/2026,
+sulla fattura dell'acconto di [[entities/clienti/ragosta/scheda|Ragosta]].
+
+**I dati di fatturazione si chiedono al sì**, non nel modulo: ragione sociale, partita IVA, sede legale e
+codice destinatario o PEC. Senza quelli la fattura dell'acconto non parte, e con Ragosta il 22/09/2026 si è
+visto. Stanno nella scheda del contatto su Notion. **L'accordo e la fattura dell'acconto partono insieme**,
+nello stesso messaggio: il modello dell'accordo è quello di Ragosta, in `outputs/accordi/`.
+
 **Le spese anticipate per conto del cliente si dichiarano e si fatturano subito**, non a fine
 progetto. Sono soldi già usciti: chiederli indietro non è negoziare, è amministrazione.
 
@@ -89,9 +100,13 @@ Serve a due cose: dà il tono di uno che lavora in modo strutturato, e **toglie 
 post-acquisto** — quel momento in cui uno ha appena pagato e si chiede se ha fatto bene. Se quel
 dubbio non si chiude subito, diventa la cornice di tutto il resto.
 
-**Il modello sta su Notion**, nella pagina *🤝 Onboarding clienti*: si chiama *👋 Benvenuto — modello
-da duplicare*, si duplica per ogni cliente e si riempiono i segnaposto fra parentesi quadre. Scritto
-il 21/09/2026, con dentro anche tempi e fascia di reperibilità, lasciati vuoti apposta.
+**Il modello sta su Notion**, nella pagina *Onboarding clienti* dentro *Clienti*: si chiama *Benvenuto —
+modello da duplicare*, si duplica per ogni cliente e si riempiono i segnaposto fra parentesi quadre.
+Scritto il 21/09/2026, con dentro anche tempi e fascia di reperibilità, lasciati vuoti apposta.
+
+**La copia del cliente è il suo portale.** Dal 22/09/2026 la sezione «A che punto siamo» è una lista di
+spunte, dall'accordo alla consegna delle chiavi: si spunta a ogni passo, e il cliente sa sempre dov'è
+senza chiederlo. Il link della copia sta nel campo *Portale* della proposta.
 
 ## Fase 4 · Il modulo di raccolta
 
@@ -101,8 +116,8 @@ contatti, orari, indirizzi), preferenze e riferimenti.
 
 **Chiedere una volta. Non rincorrere mai più.**
 
-**Il modulo è su Notion**, nella stessa pagina *🤝 Onboarding clienti*: il form *📥 Modulo di raccolta*
-scarica le risposte nel database *📥 Raccolta materiali*, una riga per cliente, con la relazione verso
+**Il modulo è su Notion**, nella stessa pagina *Onboarding clienti*: il form *📥 Modulo di raccolta*
+scarica le risposte nel database *Raccolta materiali*, una riga per cliente, con la relazione verso
 Contatti e verso Siti Clienti per non riscrivere dati che ci sono già. ⚠️ **Il link pubblico del form si
 attiva a mano da Notion** — Condividi, pubblica sul web — e fino ad allora il cliente non lo apre.
 
@@ -182,6 +197,38 @@ il tasso di chiusura dice se il prezzo è tarato giusto — intorno al **30%** �
 vuol dire che si sta vendendo sotto, **sotto il 20%** vuol dire prezzo alto o vendita debole.
 **Chiudere tutti non è bravura: sono soldi lasciati sul tavolo.** Il conto si legge nella vista
 *📊 Tasso di chiusura* del database Proposte, raggruppata per stato.
+
+## Su Notion, fase per fase
+
+**Dal 22/09/2026 tutto quello che è un documento o uno stato di un cliente vero passa da Notion**, deciso da
+Emanuele. Sta nella pagina *Clienti*, coi database nell'ordine del processo: Contatti, Proposte, Fatture,
+Siti Clienti, Onboarding. Qui resta il metodo; lì stanno i PDF, le fatture e il punto in cui è ogni lavoro.
+
+- **La proposta è la scheda del lavoro**, dal primo contatto al saldo. *Fase* dice dov'è — Proposta,
+  Accordo e acconto, Onboarding, Sviluppo, Consegna, Chiuso — e *Prossimo passo* lo dice in una riga,
+  riscritta ogni volta. Dentro la pagina c'è la checklist di questo processo compilata coi dati veri:
+  date, importi, file. La vista *In lavorazione* mette i lavori in colonna per fase.
+- **Ogni fattura è una riga di *Fatture***, col numero di Fiscozen, il tipo, l'importo, la scadenza, lo
+  stato e il PDF, collegata al contatto e al lavoro. I soldi che si muovono restano nel registro lavori.
+- **L'accordo sta sulla proposta**, quello mandato e quello firmato, con la data della firma.
+- **I dati di fatturazione stanno sul contatto.**
+
+| Cosa succede | Cosa si aggiorna |
+|---|---|
+| Il cliente dice sì | Fase «Accordo e acconto», dati di fatturazione sul contatto, accordo dal modello |
+| Parte la fattura dell'acconto | riga in *Fatture* col PDF e la scadenza, checklist, storico |
+| Torna l'accordo firmato | file e data della firma sulla proposta |
+| Arriva l'acconto | fattura «Incassata», movimento nel registro, proposta «Accettata» in fase Onboarding, contatto 🟢 Cliente, portale dal benvenuto |
+| Consegna | sito «Online» con le scadenze, fattura del saldo, fase Consegna |
+| Arriva il saldo | fattura «Incassata», movimento nel registro, fase Chiuso, esito nello storico |
+
+Emanuele dice cosa è successo; l'aggiornamento si mostra tutto insieme e si scrive con una conferma sola.
+
+**Ordine e icone.** Ogni pagina e ogni database prende un'icona della famiglia grigia di Notion, una per
+tipo di cosa: la valigetta per *Clienti*, la faccina per i contatti, il pallino per le proposte, la
+ricevuta per le fatture, il globo per i siti, la bandiera per l'onboarding, la mano per il benvenuto,
+l'inbox per la raccolta. I PDF si chiamano `data-tipo-cliente.pdf`, e nelle viste le colonne stanno sempre
+nello stesso ordine: nome, stato, fase, date, importi.
 
 ## Le monete di scambio
 

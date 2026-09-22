@@ -28,7 +28,9 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - 🎯 Obiettivi solo il lunedì, 📖 Formazione solo se ha una data entro la settimana, 📥 Inbox solo se piena e **col solo numero**.
 - Ogni proposta Notion aperta dice **da quanti giorni** è ferma; oltre i sette è da sollecitare, ma
   le «Pronta per l'invio» no: sono ferme su Emanuele, non sul cliente. Nemmeno le «In attesa» con una
-  decisione in `Note esito`: si riporta la decisione, e il giorno del sollecito scritto lì la proposta è fra le cose di oggi.
+  decisione in `Prossimo passo`: si riporta la decisione, e il giorno del sollecito scritto lì la proposta è fra le cose di oggi.
+- Ogni lavoro con una `Fase` aperta compare con la sua fase e il suo prossimo passo. Le fatture «Da
+  incassare» in scadenza entro sette giorni ci sono **tutte**, e quelle scadute stanno in cima come *in ritardo*.
 - Le scadenze siti entro trenta giorni ci sono **tutte**, dalla più vicina, urgenti sotto i
   quattordici. È fatturato ricorrente: nessuna omissione dentro la finestra.
 - Le tre priorità sono **trasversali** e proposte, non decise. Un servizio muto è **dichiarato**.

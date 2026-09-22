@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-04
-updated: 2026-09-21
+updated: 2026-09-22
 related:
   - "[[entities/clienti/ragosta/scheda]]"
   - "[[sources/call/2026-09-04-gaetano-ragosta]]"
@@ -122,3 +122,20 @@ fattura dell'acconto**, cioè prima del materiale: il 04/09 l'acconto era legato
 Emanuele lo richiama martedì 22/09 mattina per dominio, hosting e invio del materiale. Sul dominio resta la
 questione del 04/09: `ragosta.eu`, col trasferimento su Hostinger sospeso e una verifica da completare. Per la
 fattura servono i dati di fatturazione di Ragosta SRL, che nel vault non ci sono.
+
+## 2026-09-22 — Fattura dell'acconto inviata
+
+Gaetano conferma l'acconto, ed Emanuele gli manda la fattura elettronica da Fiscozen: **750 €, il 50% dei 1.500,
+con scadenza martedì 29/09**, avvisandolo prima. L'acconto arriva quindi prima del materiale, come aveva chiesto
+lui il 21/09.
+
+La scadenza a sette giorni è diventata regola lo stesso giorno, nel [[docs/processo-cliente|processo cliente]]:
+con uno che conferma a voce e poi si ferma, la data scritta in fattura permette di ricordargliela senza chiedere
+un favore.
+
+### Prossimo passo — sostituisce quello del 21/09
+
+L'accordo da firmare, che il processo vuole prima di toccare qualsiasi cosa: parte su WhatsApp, lui lo firma e
+rimanda la foto. Quando arriva l'acconto, lo stesso giorno il benvenuto e il modulo di raccolta, poi sopralluogo
+e kickoff nella stessa visita al capannone. Se il 29/09 l'acconto non è arrivato, c'è la task «controllare
+l'acconto di Ragosta» su TickTick. Il dominio `ragosta.eu` resta la questione del 04/09, da chiudere in kickoff.

@@ -2,6 +2,67 @@
 
 Aperto il 13/07/2026.
 
+## 22/09/2026 — Si rifanno i PDF, e la mappa diventa una pagina a sé
+
+Dalla [[sources/riunioni/2026-09-22-masseria-organizzazione|riunione del 22/09]] escono le correzioni a tutti i
+PDF di Zucche, più tre cose nuove: PDF e locandina di Halloween, locandina della Pumpkin Night. I documenti che
+girano nel gruppo Emanuele li ha messi sull'SSD in `3-in-produzione/_da-rifare/`.
+
+**Si parte dalla mappa, perché serve in più PDF.** È una pagina A4 da sola, *Zucche in Masseria - Mappa del
+parco.pdf*, in `3-in-produzione/mappa-zucche/`. Il testo non parla né alle famiglie né alle scuole, perché la
+pagina finisce in tutti e due i binari.
+
+- **L'illustrazione senza numeri non esisteva**: i numeri erano disegnati dentro l'immagine. L'ha rigenerata
+  Higgsfield, GPT Image 2.5 a 2K, togliendo numeri, WC e P, come ha detto Emanuele. Controllata contro
+  l'originale: si sposta al massimo di un pixel su 1100 e non inventa niente.
+- **I numeri adesso li disegna la pagina** sopra l'immagine, con le coordinate di quelli vecchi: per spostarne
+  uno si cambiano due valori in `mappa.html`. Hanno un bordo avorio che prima non c'era, perché il 6 e l'8
+  stanno su un tetto arancio come loro.
+- **Le correzioni della riunione**: l'8 diventa Parcheggio passeggini, il 18, il Villaggio dei contadini, va
+  in **I10** (detto da Emanuele) e si aggiunge il 20, la Corsa delle zucche, ancora senza posto. Il 6 era
+  «Nursery e parcheggio passeggini»: per non dire due volte la stessa cosa è diventato solo Nursery, da
+  confermare.
+
+⚠️ **Le quattro cartelle di lavoro dei PDF sono nel Cestino dell'SSD**: scuole, informativa, Pumpkin Night e
+feste, con sorgenti, foto, loghi e immagini generate. Le ha tolte Emanuele il 22/09, e il Finder non lascia
+copiare niente da lì. Per la mappa i font vengono dal gestionale, e mappa, logo e texture dal PDF delle scuole.
+
+Dal listino delle feste fatto su Canva a luglio: **il 351 616 5734 del brand kit è di Raffaele**. Scritto in
+[[areas/la-masseria-di-mezzautunno/reference/design|design]].
+
+**I risultati finali sono otto**, detti da Emanuele lo stesso giorno: la mappa, la proposta per le scuole, l'informativa,
+il regolamento, le feste nel parco di tre ore, le feste riservate, la locandina della Pumpkin Night e quella della serata
+di Halloween. Quelli pronti stanno tutti insieme in `3-in-produzione/_da-mandare/`, da mandare nel gruppo.
+
+- **La mappa, sentita Angela**: il 20, la Corsa delle zucche, va dove stava il vecchio 18, e le casette del Villaggio
+  dei contadini si spostano in I10, un po' divise. Emanuele ha chiesto di ridisegnarle con Higgsfield: due zone rifatte
+  e rimesse sulla mappa pulita con `componi.py`, che le allinea al pixel e lascia identico tutto il resto. Le casette
+  sono tre, nel recinto in fondo al percorso di fieno, al posto della rete e delle balle rotonde. La stessa mappa, coi
+  pallini sopra, sta anche a pagina 5 della proposta per le scuole.
+- **Le feste riservate sono il secondo PDF delle feste**, gemello di quello nel parco: i cinque pacchetti da 900 a
+  2.100 €, gli extra su richiesta e le attrazioni che a parco chiuso non sono comprese. Le cose della riunione che
+  sembravano delle feste a parco aperto erano sue: corretto da Emanuele.
+
+- **Informativa e regolamento** sono rifatti sui sorgenti del 20/09, in `informativa-zucche/`: solo il numero di Selene;
+  il riquadro sui celiaci con quello che la cucina garantisce; «Per i più piccoli» con la nursery e la pastina; nel
+  regolamento il punto 5 nuovo sulle persone con disabilità, che sul sito non c'è ancora. **La sera di Halloween
+  parte alle 17:00**, detto da Emanuele.
+- **Le feste nel parco sono a pacchetto**, 700–1.300 € fino a 30–60 persone, e si rifanno **sul modello del listino
+  Canva di luglio**: Emanuele l'ha voluto «come quello», con foto, illustrazioni e icone, ma fatte da noi. Acquerelli,
+  icone e due foto sono generati con Higgsfield, più tre foto vere del 2025, in `feste-nel-parco/pacchetti.html`.
+  Il PDF «Il tuo evento tra le zucche» del 21/09, col 30 € + 500 €, è superato. Quello delle feste riservate l'ha
+  fatto un altro il 21/09 e non si rifà.
+- **La locandina della Pumpkin Night** è in `pumpkin-night/`, A4 in PDF e in PNG, dal testo scritto in Pages il
+  22/09, che aggiunge l'angolo wine e relax. ⚠️ Il PDF di tre pagine del 21/09 che gira nel gruppo ha ancora il
+  numero di Angela e i rettangoli scuri dietro il titolo.
+- **Un paragrafo non finisce mai con una o due parole sole**: regola di design di Emanuele, scritta nel `CLAUDE.md`
+  di radice e nel [[correction|correction log]].
+- **Il giro sul pony è tolto da ovunque**, e **la regola sulla disabilità del parco non si scrive**: nelle gite i
+  bambini con disabilità pagano metà quota e quello si scrive, il resto resta a voce. Detto da Emanuele il
+  22/09/2026, e il punto che era finito nel regolamento è stato tolto.
+- **«L'animazione Funny Show»**, non «l'animazione per i bambini»: nella stessa frase ci vanno tutti e due i brand
+  madre. La regola sta nel [[areas/la-masseria-di-mezzautunno/reference/tono|tono di voce]].
+
 ## 21/09/2026 — Il gestionale torna, su un sottodominio suo
 
 Il gestionale lasciato stare il 19/09 l'ha riportato Emanuele, come diceva quella voce: ha creato

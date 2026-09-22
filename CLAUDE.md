@@ -13,8 +13,13 @@ altrimenti si perde, ed è giusto così.
   se cambia ogni sei mesi sta qui. Prima di scrivere su Notion, mostrami cosa stai per cambiare.
   Dal 21/09/2026 ci stanno anche **i documenti e i dati che vede il cliente** — il benvenuto, il
   modulo di raccolta: il metodo e le procedure restano qui, quello che il cliente apre sta lì.
+  **Dal 22/09/2026 tutto quello che è un documento o uno stato di un cliente vero passa da Notion**:
+  proposte, accordi, fatture coi PDF, e il punto in cui è ogni lavoro. Sta nella pagina *Clienti*;
+  come è organizzata, e cosa si aggiorna a ogni passo, sta in `docs/processo-cliente.md`.
   ⚠️ **Ogni pagina e ogni database che crei o modifichi su Notion prende un'icona**, coerente col
-  contenuto, sempre.
+  contenuto, sempre: della famiglia grigia di Notion, `/icons/<nome>_gray.svg`. **Prima di usare un
+  nome si controlla che esista** (`curl` su `https://www.notion.so/icons/<nome>_gray.svg` deve dare
+  200): un nome sbagliato Notion lo salva lo stesso, e l'icona esce rotta.
 - **TickTick tiene le azioni.** Cosa devo fare, entro quando.
 - **Google Drive tiene i file finiti e i media.**
 
@@ -265,6 +270,14 @@ lo stesso aspetto, o non è un brand.
 
 I brand di famiglia hanno il loro design, ognuno nel proprio `reference/`. Questa regola
 riguarda quello che è suo.
+
+⚠️ **Una regola però vale per tutti i brand: un paragrafo non finisce mai con una o due parole
+sole sull'ultima riga.** Detta il 22/09/2026 sui PDF di Zucche in Masseria: «sembra brutto se vai
+daccapo per 1 o 2 parole». Si sistema riscrivendo la frase, più lunga o più corta, oppure legando le
+ultime parole con uno spazio che non va a capo. Nei PDF fatti in HTML si mette anche
+`text-wrap: pretty`, che da solo però lascia ancora righe di due parole. Lo stesso vale per date e
+orari: «31 ottobre» e «10:30 alle 18:00» non si spezzano. Prima di dare un PDF si controllano le
+righe corte, una per una.
 
 ## Come si legge
 
