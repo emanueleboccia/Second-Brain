@@ -18,10 +18,16 @@ fra i plessi di quell'indirizzo c'è una primaria.
 Le email partono da Gmail con la CLI di Composio, con una pausa a caso fra una e l'altra: un
 account nuovo che ne manda cento di fila finisce in spam, o bloccato. Dopo due errori di fila lo
 script si ferma, perché di solito vuol dire che Gmail ha messo un limite.
+
+Due invii della stessa campagna non possono girare insieme: il secondo trova il lucchetto preso e
+si ferma subito. E prima di ogni email si rilegge il registro, così un indirizzo segnato da un altro
+invio nel frattempo viene saltato. Il 21/09/2026 un invio lanciato dal terminale e uno lanciato da
+Claude hanno girato in parallelo per due minuti, e una scuola ha ricevuto l'email due volte.
 """
 
 import argparse
 import csv
+import fcntl
 import json
 import os
 import random
@@ -127,6 +133,14 @@ def main():
     if not os.path.exists(cfg["allegato"]):
         sys.exit(f"Allegato non trovato: {cfg['allegato']}. L'SSD è collegato?")
 
+    if not a.anteprima:
+        # Il lucchetto resta preso finché il processo vive, e si libera da solo anche se viene ucciso.
+        lucchetto = open(os.path.join(tempfile.gettempdir(), f"invia-gruppo-{os.path.basename(cartella)}.lock"), "w")
+        try:
+            fcntl.flock(lucchetto, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            sys.exit("Un altro invio di questa campagna è già in corso: mi fermo per non mandare email doppie.")
+
     if a.prova:
         ok, id_messaggio, errore = manda(cfg, a.prova, "dell'infanzia")
         adesso = datetime.now()
@@ -145,6 +159,9 @@ def main():
 
     errori_di_fila = 0
     for i, d in enumerate(gruppo, 1):
+        if d["email"] in gia_inviate(invii):
+            print(f"[{i}/{len(gruppo)}] saltata {d['email']}: nel registro risulta già mandata", flush=True)
+            continue
         ok, id_messaggio, errore = manda(cfg, d["email"], grado(d["tipi"]))
         adesso = datetime.now()
         registra(invii, {"data": f"{adesso:%Y-%m-%d}", "ora": f"{adesso:%H:%M}", "email": d["email"],

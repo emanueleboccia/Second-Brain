@@ -2,6 +2,17 @@
 
 Aperto il 13/07/2026.
 
+## 21/09/2026 — Zio Savino, la battuta torna come finale
+
+La battuta tolta la notte prima torna, ma in fondo: rivista la storia, Emanuele ha deciso che come finale «ci sta
+molto meglio». La scritta non è più il sottotitolo di tutta la frase: è solo **«facitv e c*** vuost!»**, in dialetto
+come l'ha scritta lui, **senza ombra e senza velatura**. Per leggersi senza ombra sta sul cielo, dove il marrone e
+l'arancio staccano: sull'impasto e sulle casse bianche non si leggeva. Entra un pezzo alla volta appena lui comincia
+a parlare, poi galleggia, e sotto «vuost!» si disegna una firma arancio; sotto la scritta, uno zoom lento verso di lui
+e l'impasto. In Regular Brush non si poteva scrivere: gli asterischi e il punto esclamativo escono con la filigrana del
+font, come dice [[areas/da-mamma-rosaria/reference/design|design]]. Il dettaglio sta in `pacchetti.md` sull'SSD, gli
+script in [[code/storie-clip/README|code/storie-clip]].
+
 ## 21/09/2026 — Zio Savino, la prima storia su una persona
 
 Montata dalle clip girate da Emanuele il 20/09 all'angolo di zio Savino: l'impasto nelle casse, la frittura nel

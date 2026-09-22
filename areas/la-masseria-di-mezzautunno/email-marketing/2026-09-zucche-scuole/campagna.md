@@ -8,7 +8,7 @@ tags:
   - scuole
 status: in-lavorazione
 created: 2026-09-17
-updated: 2026-09-19
+updated: 2026-09-21
 related:
   - "[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
@@ -85,6 +85,8 @@ quando fra i plessi di quell'indirizzo c'è una primaria.
 | 18/09 | secondo | 19 | dalle 12:50 alle 13:35; alle 13:38 l'SSD si è scollegato e due invii sono falliti senza partire |
 | 18/09 | secondo e terzo | 15 | dalle 14:16 alle 14:54, compresi i due falliti; fermato da Emanuele alle 14:54 |
 | 19/09 | terzo e quarto | 20 | dalle 9:41 alle 10:32, nessun errore di invio e nessun rimbalzo al controllo delle 10:34. Di sabato, su richiesta di Emanuele: il 18/09 si era deciso di aspettare lunedì |
+| 21/09 | quinto | 21 | dalle 9:53 alle 10:40, a 20 scuole: una l'ha ricevuta due volte, vedi sotto. Interrotto dopo l'invio delle 10:17 dal riavvio della sessione di Claude, fermo nella pausa fra due email, e ripreso alle 10:19. Nessun rimbalzo al controllo delle 10:50 |
+| 21/09 | sesto, l'ultimo | 6 | dalle 10:52 alle 11:06, anticipato da martedì su richiesta di Emanuele: con questo la lista è finita |
 
 **Il primo giorno: 20 inviate, 17 arrivate.** Tre indirizzi non esistono più: La Scuola di Alice a
 Poggiomarino, la direttrice delle Figlie di Maria Ausiliatrice e Fantasyland, tutte e due a Terzigno.
@@ -96,6 +98,22 @@ rimbalzate.
 **Il 18/09 un rimbalzo, trovato solo il 19/09.** La scuola Principe di Piemonte di San Valentino Torio,
 su alice.it: il server risponde che l'utente non esiste. Nel registro era rimasta `inviata`, ora è
 `rimbalzata`, e in `scuole.csv` è segnata come inesistente. **Dopo il 19/09 restano 26 scuole.**
+
+**Il 21/09 una scuola ha ricevuto l'email due volte.** L'invio lanciato dal terminale e quello lanciato da
+Claude sono girati insieme per due minuti, e il Plesso Buonconsiglio di Sant'Antonio Abate ha avuto la stessa
+email alle 9:53 e alle 9:55. Da quel giorno `invia-gruppo.py` ha un lucchetto e rilegge il registro prima di
+ogni email; l'errore sta nel [[correction|correction log]].
+
+**Tre consegne in ritardo, tutte su caselle Libero e 191.it.** San Francesco d'Assisi di Scafati e La Valle
+Incantata di Sarno, mandate il 18/09, e Mondobaby di Angri, mandata il 19/09: il 19 e il 20/09 Gmail ha
+avvisato che la consegna non è ancora riuscita e che riprova. Nel registro restano `inviata` finché non arriva
+un rimbalzo vero.
+
+**Il 21/09 la campagna email è finita**: tutti gli indirizzi utilizzabili di `scuole.csv` hanno ricevuto
+l'email. Il passo che resta è il telefono: le scuole vicine che non hanno risposto, e i 31 plessi senza email.
+
+**Il primo giro si chiude qui**, deciso da Emanuele il 21/09/2026: dei 213 plessi del file ne sono stati raggiunti
+164, su 96 indirizzi. Più avanti si proverà a cercare online gli indirizzi che mancano.
 
 ## Dopo l'invio
 

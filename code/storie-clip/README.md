@@ -16,6 +16,8 @@ e lì servono:
 
 - `sdr/` — le clip dell'iPhone convertite in SDR, coi nomi `IMG_<numero>.mov`;
 - `font/` — HeroLight Bold, HeroLight Regular e Niconne, dal brand kit della Masseria;
+  per Mamma Rosaria ci vanno invece D-DIN, D-DIN Bold e Regular Brush, dal Drive:
+  `DA MAMMA ROSARIA/04 Brand kit/03 FONT`;
 - `logo-zucche.png` — il logo di Zucche in Masseria, dal brand kit;
 - `storie.json` — la ricetta delle storie. Si parte da `esempio-meno-8.json`, che è quella vera del
   meno 8: tagli, titolo, sottotitoli, voci e musica di ogni storia.
@@ -38,6 +40,8 @@ La musica la prende dalla libreria dell'SSD, `03-LA-MASSERIA-DI-MEZZ'AUTUNNO/2-l
 | `provino.py` e `strisce.py` | I provini a griglia, per guardare le clip e le storie in fila prima di mandarle. |
 | `monta_invito.py` | Monta il format **«io e te»**: clip che scorrono, scritta ferma per tutta la durata, musica sola e nessun audio delle clip. Legge una ricetta come `esempio-meno-6-invito.json`, dove ogni clip ha `ss`, `dur` e `cx` — la posizione del taglio orizzontale, che serve alle aeree 4K, di cui in verticale si vede un terzo. Scrive i tag `bt709` in uscita. |
 | `testo_invito.py` | La scritta di quel format: «Io e te a» e il nome dell'evento in Niconne in alto, il countdown e la data in basso, due bande di velatura che **lasciano libero il centro**. I due font si allineano sulla **linea di base** calcolata dalle metriche: allineando il bordo dell'inchiostro, «giorni!» scende rispetto a «Mancano 6». |
+| `monta_savino.py` | Monta una storia intera a clip di Mamma Rosaria: il nome in apertura che sfuma, le clip a tempo di musica, e dove una clip ha `voce` la musica si abbassa e si sente la presa diretta, alzata di 5 dB. Una clip con `senza_grade` entra com'è, perché è già stata gradata a parte. I fotogrammi di ogni clip si contano sul tempo cumulato: prima ogni clip si allungava di una frazione di fotogramma, e in fondo alla storia l'immagine arrivava 0,19 s dopo la voce. Nato il 21/09/2026 su zio Savino. |
+| `finale_zoom.py` | Il finale di zio Savino del 21/09/2026: zoom lento verso chi parla, la battuta che entra un pezzo alla volta sul cielo, senza ombra e nei colori di Mamma Rosaria, e la firma che si disegna sotto l'ultima parola. Lavora sui fotogrammi già estratti e gradati; testo, tempi e centro dello zoom sono scritti dentro, e per un'altra battuta si cambiano lì. |
 
 ## Cosa manca
 

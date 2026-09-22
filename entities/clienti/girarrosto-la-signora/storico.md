@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-16
-updated: 2026-09-17
+updated: 2026-09-21
 related:
   - "[[entities/clienti/girarrosto-la-signora/scheda]]"
   - "[[entities/clienti/girarrosto-liberti/storico]]"
@@ -19,6 +19,11 @@ related:
 Chi sono e cosa vogliono sta in [[entities/clienti/girarrosto-la-signora/scheda|scheda]]. Qui c'è solo cosa
 è successo, dal più recente in cima. Come sono arrivati sta nello
 [[entities/clienti/girarrosto-liberti/storico|storico del Girarrosto Liberti]], alla data del 13/09/2026.
+
+### 2026-09-21 — Al telefono non risponde, su WhatsApp sì: se ne parla giovedì
+Emanuele lo chiama per chiudere sull'acconto dei 1.100 € e la linea non prende. Gli scrive su WhatsApp se possono
+sentirsi al telefono, e Salvatore risponde che sta partendo per la Turchia e torna giovedì 24/09 mattina: si sentono
+allora, e si può parlare anche di persona.
 
 ### 2026-09-17 — Il fratello non lo vuole, resta Nocera
 Salvatore ha fatto sapere a Emanuele che il fratello il sistema non lo vuole: lo fa solo la sede di Nocera, la

@@ -693,3 +693,23 @@ un difetto che a parole non avevo visto: la testata trasparente con i titoli che
 **La prossima volta:** dopo ogni modifica visiva si fa lo screenshot vero con Chrome headless — puppeteer-core
 puntato sul Google Chrome installato, che disegna anche a pannello nascosto — lo si **guarda**, e lo si manda con
 SendUserFile. Un lavoro visivo raccontato è un lavoro che non ho controllato e che lui non ha visto.
+
+## 21/09/2026 — Due invii della stessa campagna, e una scuola ha ricevuto l'email due volte
+
+Emanuele ha chiesto di mandare il gruppo di email alle scuole di Zucche. Il primo tentativo l'ha
+bloccato il permesso automatico della sessione, e gli ho dato il comando da lanciare lui. Il suo invio
+è partito dal terminale alle 9:52:54; poi mi ha scritto «fai tutto tu» e io ho rilanciato il mio alle
+9:53:37, senza guardare se ce n'era già uno in corso. Ognuno aveva la sua lista, calcolata alla
+partenza, e il Plesso Buonconsiglio di Sant'Antonio Abate ha ricevuto l'email alle 9:53 e alle 9:55.
+Ho fermato il suo invio alle 9:55:55. Il primo tentativo di fermarlo era andato a vuoto: per capire se
+stava mandando cercavo un processo figlio, e su macOS `caffeinate` ne lascia sempre uno suo.
+
+**La prossima volta:** prima di lanciare qualsiasi cosa che scrive fuori, un invio o una pubblicazione,
+si guarda con `ps` se sta già girando. Vale soprattutto dopo aver dato a Emanuele il comando da lanciare
+lui: nell'app il blocco di codice ha il bottone per eseguirlo, e il suo «fai tu» può arrivare quando
+l'ha già premuto. Da oggi `code/email-marketing/invia-gruppo.py`, lo script della
+[[areas/la-masseria-di-mezzautunno/email-marketing/2026-09-zucche-scuole/campagna|campagna delle scuole]], ha un lucchetto, per
+cui un secondo invio della stessa campagna si ferma subito, e rilegge il registro prima di ogni email.
+
+**La regola sopra:** uno script che manda qualcosa a persone vere non deve fidarsi di essere l'unico a
+girare. Il controllo sta nello script, non nella memoria di chi lo lancia.

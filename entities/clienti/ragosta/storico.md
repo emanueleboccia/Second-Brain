@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-04
-updated: 2026-09-17
+updated: 2026-09-21
 related:
   - "[[entities/clienti/ragosta/scheda]]"
   - "[[sources/call/2026-09-04-gaetano-ragosta]]"
@@ -83,8 +83,9 @@ fino a una settimana.
 
 ## 2026-09-14 — Sentito al rientro, incontro non fissato
 
-Prima risposta dopo la Sicilia. Dice di aggiornarsi per fissare l'inizio del progetto, e che se si
-parte questo mese lo tiene come prioritario. Poi «sì sì», e da lì non risponde più.
+Prima risposta dopo la Sicilia. Dice di aggiornarsi per fissare l'inizio del progetto. È Emanuele a
+dirgli che, se si parte questo mese, lo tiene come prioritario: lui risponde «sì sì», e da lì non
+risponde più. Precisato da Emanuele il 21/09/2026: la promessa della priorità è sua, non di Gaetano.
 
 Non è un no, ed è lo stesso schema della questione dominio: conferma a voce e non muove il pezzo.
 Il lavoro resta venduto e confermato per iscritto il 04/09 — quello che manca non è la decisione,
@@ -107,3 +108,17 @@ consegna del materiale. Se Gaetano si fa vivo, si riparte da lì: il materiale e
 Si aspetta lui. **Se non risponde, sabato 19/09 mattina gli si manda un sollecito**, detto da Emanuele lo
 stesso giorno: «al massimo se non ci risponde gli mandiamo un sollecito sabato mattina». Su Notion la proposta
 è passata a «In attesa», con la decisione in «Note esito».
+
+## 2026-09-21 — Sentito al telefono: si parte, e chiede già la fattura
+
+Chiamata delle 10:05, con la linea disturbata: Gaetano era fuori e rientrava in serata. Il riassunto di Granola
+sta in [[sources/call/2026-09-21-gaetano-ragosta|sources/call]]: la trascrizione, sul piano gratuito, non c'è.
+
+Dopo una settimana di silenzio ha risposto e ha dato l'ok a partire. **Ha chiesto a Emanuele di fare già la
+fattura dell'acconto**, cioè prima del materiale: il 04/09 l'acconto era legato alla consegna delle foto.
+
+### Prossimo passo — sostituisce quello del 17/09
+
+Emanuele lo richiama martedì 22/09 mattina per dominio, hosting e invio del materiale. Sul dominio resta la
+questione del 04/09: `ragosta.eu`, col trasferimento su Hostinger sospeso e una verifica da completare. Per la
+fattura servono i dati di fatturazione di Ragosta SRL, che nel vault non ci sono.
