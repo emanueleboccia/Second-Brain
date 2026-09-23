@@ -196,7 +196,7 @@ proposta: agenzie e freelance ci mettono sopra un ricarico, spesso il doppio o i
 | Da Mamma Rosaria | Ergonet, esterno, al costo | .it + .com | **16/09/2027** — rinnovato il 14/09/2026 |
 | La Masseria di Mezz'autunno | Hostinger — 250 €/anno con manutenzione e assistenza | .it (.com da valutare) | 14/05/2027 |
 | Tenuta Don Gaetano | Hostinger — 200 €/anno con manutenzione e assistenza | .it (.com da valutare) | 14/05/2027 |
-| Gestionale eventi | da definire | — | in funzione dal **02/09/2026** |
+| Gestionale eventi | Ergonet, dentro l'hosting di Da Mamma Rosaria: `gestionale.damammarosaria.it`, dal 23/09/2026 (prima su Lovable) | — | in funzione dal **02/09/2026** |
 
 Domini al costo reale: circa **12 €/anno il .it**, circa **15 €/anno il .com**.
 

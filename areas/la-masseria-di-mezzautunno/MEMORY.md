@@ -2,6 +2,21 @@
 
 Aperto il 13/07/2026.
 
+## 23/09/2026 — L'invito di compleanno di Zucche, dentro il gestionale
+
+Emanuele ha girato un invito di compleanno fatto altrove, generico, e l'ha chiesto «in uno stile più adatto al
+brand»: è rifatto sul modello dei PDF delle feste nel parco, e vive nel
+[[projects/gestionale-masseria/MEMORY|gestionale della Masseria]], dove si cambiano solo i dati della festa.
+
+- **In cima** il logo di Zucche, «Sei invitato alla festa di» in verde, il nome in HeroLight e l'età in Niconne
+  arancio; **sotto il nome** la frase scelta da Emanuele, «Una giornata tra zucche, natura e tanto
+  divertimento.», a capo dopo la virgola per non lasciare «divertimento» da solo; poi la scheda con quando,
+  orario e dove; **in fondo** «Ti aspetto!» in Niconne, fra lo spaventapasseri e la torta.
+- ⚠️ **Nessun contatto sull'invito.** La riga «conferma la presenza» col nome e il numero di un genitore l'ha
+  tolta Emanuele: «molto semplice, non ho bisogno di mettere questa cosa».
+- **Il luogo si scrive «Portone di Boccapianola»**, con la via sotto, come nell'invito che girava e come dice
+  [[areas/la-masseria-di-mezzautunno/reference/design|design]]. Il nome dell'evento c'è già nel logo.
+
 ## 22/09/2026 — Si rifanno i PDF, e la mappa diventa una pagina a sé
 
 Dalla [[sources/riunioni/2026-09-22-masseria-organizzazione|riunione del 22/09]] escono le correzioni a tutti i
@@ -151,6 +166,37 @@ Si stampano con Chrome headless, come la proposta per le scuole.
 - **Il regolamento non è riscritto**: i quindici punti sono quelli della pagina dell'evento sul sito,
   letti il 20/09/2026 e solo impaginati. Se cambiano lì, vanno rifatti qui.
 - Le foto scelte e poi scartate restano in `assets/`: per una versione illustrata basta rimetterle.
+
+## 23/09/2026 — Il meno 3: il silos, Smallville e i lavori in corso
+
+Montato da reel, 56 secondi, dalle 18 clip dell'iPhone girate il 23/09 con Mirko sul cantiere del silos.
+Approvato alla terza versione e **pubblicato da Emanuele come storia, non come reel**: nel report di fine mese
+si conta fra le storie clip. La riga sta nel registro nuovo della Masseria,
+`4-pubblicati/2026-09/storie/storie-clip.md` sull'SSD, aperto quel giorno. Le clip sono in
+`1-eventi/momenti/2026-09-23-silos-smallville/usate/` col manifesto; il video in
+`3-in-produzione/storie-clip/meno-3-giorni/`, gli script in `code/storie-clip/reel-meno-3/`.
+
+- **La papera va in bianco e nero, senza scritte**: nella 5351 Mirko dice «Magg scurdat che era ricr», un errore
+  prima della ripresa buona. Scritto come l'ha detto Emanuele, e messo subito prima della 5353. «Dietro le
+  quinte» c'era nella prima versione ed Emanuele l'ha tolto: il bianco e nero lo dice già.
+- ⚠️ **I sottotitoli da qui in poi sono dinamici**: 1-3 parole per volta, e ogni parola entra quando viene
+  detta, agganciata all'attacco della voce. La frase intera ferma a schermo è «troppo statica», detto da
+  Emanuele il 23/09/2026. Ogni blocco sparisce 0,3 s dopo la sua ultima parola: nei silenzi non resta niente.
+  ⚠️ **I tempi di whisper su una clip intera sbagliano fino a un secondo** (nella 5353 metteva «Mirko, che stai
+  facendo?» a 0,16 s, detto invece a 2,73): Emanuele li ha visti in ritardo e in anticipo. Si fa con
+  `allinea.py`: tratti parlati trovati sull'energia dell'audio, whisper su ogni tratto da solo, e le parole
+  riconosciute agganciate al testo giusto. `karaoke.py` li disegna.
+- **Su «stile Smallville» Mirko si ferma col dito puntato**: da 14,50 s («Smallville») rallenta a metà
+  velocità fino a 14,95, dove punta l'indice, e lì resta fermo per tutta la gag del logo e della canzone; poi lo
+  swipe. Deciso da Emanuele dopo aver provato il gesto intero rallentato. La voce rallenta a metà, scende di
+  un'ottava, e parte il tema dal «Somebody save me». Il logo esce **da dietro Mirko** in 3D, girando, con un
+  whoosh e un impatto: la sagoma di Mirko la ritaglia Vision di macOS (`seg.swift`).
+- **La 5356 comincia col gesto di Mirko che «sposta» la clip prima**: lì c'è uno swipe da destra a sinistra
+  agganciato al braccio, fra 0,8 e 1,25 s.
+- **Il guanto che chiude la 5358 fa da stacco** verso i lavori in corso, a tempo sul banjo.
+- **5341 e 5359 vanno mute**: l'audio lì è fuori posto, detto da Emanuele.
+- La base è *Banjo Romp*, mai usata prima nelle storie di Zucche. Gli effetti sonori sono sintetizzati:
+  sull'SSD una libreria di effetti non c'è.
 
 ## 20/09/2026 — Il format «io e te», e da dove vengono le clip di Zucche
 

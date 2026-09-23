@@ -47,6 +47,18 @@
         "--no-reload"
       ],
       "port": 8010
+    },
+    {
+      "name": "gestionale-dmr",
+      "runtimeExecutable": "php",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Desktop/progetti/gestionale-dmr/artisan",
+        "serve",
+        "--host=127.0.0.1",
+        "--port=8011",
+        "--no-reload"
+      ],
+      "port": 8011
     }
   ]
 }

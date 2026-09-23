@@ -245,6 +245,23 @@ non è deciso. Il verdetto si dà dopo averlo usato su un lavoro vero, non su un
 
 **Data:** primo mese ad agosto 2026.
 
+## Stripe — da valutare
+
+**A cosa serve:** incassare con un link di pagamento invece che con un bonifico. Serve al
+micro-acconto chiesto in chiamata, che sta in [[docs/vendita/micro-commitment|micro-commitment]] e
+nella fase 1 del [[docs/processo-cliente|processo cliente]].
+
+**Verdetto:** non ancora dato, perché non è ancora stato attivato. Prima di attivarlo si guarda
+**quanto costa incassare così**: Stripe trattiene una commissione su ogni transazione, e su un
+acconto da 750 € non è uno zero. Il numero vero si legge dal listino di Stripe il giorno che si
+apre l'account, non si stima qui.
+
+⚠️ **Il pagamento a rate — Klarna, Scalapay — oggi non si può fare**, detto da Emanuele il
+23/09/2026. Quindi non si nomina in trattativa: un'opzione promessa e poi ritirata costa più di
+un'opzione mai offerta.
+
+**Data:** proposto il 23/09/2026.
+
 ## Superwhisper, ManageWP, Command X — attivi
 
 **A cosa servono:** dettatura vocale, manutenzione dei WordPress dei clienti, gestione

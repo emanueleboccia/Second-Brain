@@ -742,3 +742,34 @@ guarda `list_connected_browsers`: se ce n'è più di uno, si sceglie quello con 
 
 **La regola sopra:** l'utente misura il tempo dalla sua richiesta, non dal mio lavoro. Se il conto dei minuti
 sale, la scelta giusta è quasi sempre fare meno cose insieme.
+
+## 23/09/2026 — Ho dato a Emanuele un link d'invito tagliato
+
+Il link d'accesso al gestionale di Mamma Rosaria l'ho copiato nel messaggio da una riga di controllo che
+avevo stampato accorciata a 46 caratteri, per farla stare in colonna. Il token vero ne ha 48: Emanuele l'ha
+aperto e il gestionale gli ha detto che il link non era valido.
+
+**La prossima volta:** un link, un token o una password che deve usare Emanuele si prende dal file o dal
+comando che l'ha generato, mai da un output accorciato per leggibilità, e prima di darlo si apre una volta
+per vedere che risponde.
+
+## 23/09/2026 — Ho creato un sottodominio dopo un «no»
+
+Per il menù QR di Mamma Rosaria avevo chiesto a Emanuele se volesse un sottodominio a parte. Lui ha risposto «No,
+questa funzionalità deve finire all'interno del gestionale, però l'ospite non deve vedere il gestionale». Ho letto
+il no come riferito all'indirizzo del gestionale, e ho creato `menu.damammarosaria.it`. Mi ha chiesto perché: il
+menù è finito in `www.damammarosaria.it/menu`, e il sottodominio l'ho tolto.
+
+**La prossima volta:** un «no» a una domanda che propone qualcosa di nuovo da creare — un sottodominio, un
+servizio, un account — vale no. Se il resto della risposta sembra dire altro, si chiede prima di creare, non dopo.
+
+## 23/09/2026 — Il gestionale online, e la cache che lo dava a tutti
+
+Ho messo online il gestionale di Mamma Rosaria su Ergonet provando le pagine una per una, ma non la cache che sta
+davanti al server. Il FireShield ha «Forza cache» acceso di default, che salva anche le pagine con l'accesso fatto:
+per un quarto d'ora `/calendario` è uscito a chi non era collegato, col cookie di sessione di chi l'aveva aperto.
+L'ho visto per caso, controllando il sito per il menù.
+
+**La prossima volta:** prima di dire che un'app con l'accesso è online, due richieste di fila senza cookie a una
+pagina riservata: devono rispondere col rimando all'accesso e con la cache mancata (`302`, `MISS`), mai `200` o
+`HIT`. Vale per ogni hosting con una cache o una CDN davanti, e si rifà dopo ogni cambio nelle impostazioni.

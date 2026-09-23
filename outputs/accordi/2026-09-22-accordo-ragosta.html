@@ -66,7 +66,7 @@ h1,h2,h3,.marchio,.gigante{
   font-size:38pt;
   line-height:0.98;
   letter-spacing:-0.015em;
-  margin:3mm 0 6mm;
+  margin:1.5mm 0 3mm;
 }
 
 h2{
@@ -84,7 +84,9 @@ h3{
   margin:0 0 1mm;
 }
 
-p{ margin:0 0 2.6mm; }
+p{ margin:0 0 2.6mm; text-wrap:pretty; }
+h1,h2,h3{ text-wrap:balance; }
+li{ text-wrap:pretty; }
 p:last-child{ margin-bottom:0; }
 
 strong,b{ font-weight:700; color:var(--punta); }
@@ -108,7 +110,7 @@ strong,b{ font-weight:700; color:var(--punta); }
   display:flex;
   justify-content:space-between;
   align-items:baseline;
-  margin-bottom:14mm;
+  margin-bottom:6mm;
 }
 
 .intro{
@@ -116,12 +118,36 @@ strong,b{ font-weight:700; color:var(--punta); }
   line-height:1.6;
   color:var(--spento);
   max-width:40em;
-  margin-bottom:10mm;
+  margin-bottom:4mm;
 }
 .intro b{ color:var(--inchiostro); }
 
-.sezione{ margin-bottom:7mm; page-break-inside:avoid; }
+.sezione{ margin-bottom:6mm; page-break-inside:avoid; }
 .testata.corta{ margin-bottom:9mm; }
+
+/* ---------- le parti ---------- */
+
+.parti{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8mm;
+  border-top:1px solid var(--inchiostro);
+  border-bottom:1px solid var(--griglia);
+  padding:2.6mm 0 3mm;
+  margin-bottom:7mm;
+}
+.parte .chi{
+  font-weight:700;
+  font-size:9.2pt;
+  margin-bottom:1mm;
+}
+.parte .dati{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:400;
+  font-size:7.4pt;
+  line-height:1.62;
+  color:var(--spento);
+}
 
 /* ---------- passi ---------- */
 
@@ -130,7 +156,7 @@ strong,b{ font-weight:700; color:var(--punta); }
   grid-template-columns:12mm 1fr;
   gap:4mm;
   border-top:1px solid var(--griglia);
-  padding:3mm 0;
+  padding:2.5mm 0;
 }
 .passo:first-of-type{ border-top:1px solid var(--inchiostro); }
 .passo .n{
@@ -147,7 +173,7 @@ strong,b{ font-weight:700; color:var(--punta); }
 .limiti{ margin:0; padding:0; list-style:none; }
 .limiti li{
   border-top:1px solid var(--griglia);
-  padding:2.5mm 0 2.5mm 9mm;
+  padding:2.1mm 0 2.1mm 9mm;
   position:relative;
   font-size:9pt;
   line-height:1.5;
@@ -290,8 +316,28 @@ tr.totale td:first-child{ font-weight:700; }
   </div>
 
   <div class="etichetta">Accordo di lavoro</div>
-  <h1 class="gigante">Il sito di<br>Ragosta SRL.</h1>
-  <p class="intro">Fra <b>Emanuele Boccia</b> e <b>Ragosta SRL</b>, nella persona di <b>Gaetano Ragosta</b>. Questo accordo mette per iscritto quello che ci siamo detti il 4 settembre e che mi hai confermato al telefono: cosa faccio, cosa mi serve da te, entro quando e come si paga.</p>
+  <h1 class="gigante">Il sito di<br>Ragosta.</h1>
+  <p class="intro">Fra <b>Emanuele Boccia</b> e <b>NEW R.G.A. S.R.L.</b>, nella persona di <b>Gaetano Ragosta</b>. Questo accordo mette per iscritto quello che ci siamo detti il 4 settembre e che mi hai confermato al telefono: cosa faccio, cosa mi serve da te, entro quando e come si paga.</p>
+
+  <div class="parti">
+    <div class="parte">
+      <div class="chi">Emanuele Boccia</div>
+      <div class="dati">
+        Ditta individuale &middot; regime forfettario<br>
+        P.IVA&nbsp;10693201211<br>
+        Via Passanti Flocco&nbsp;217, 80040&nbsp;Poggiomarino&nbsp;(NA)<br>
+        +39&nbsp;351&nbsp;908&nbsp;4137 &middot; ema.boccia02@gmail.com
+      </div>
+    </div>
+    <div class="parte">
+      <div class="chi">NEW R.G.A. S.R.L.</div>
+      <div class="dati">
+        Nella persona di Gaetano&nbsp;Ragosta, titolare<br>
+        P.IVA&nbsp;09441401214<br>
+        Via Casaraia&nbsp;12, 80049&nbsp;Somma&nbsp;Vesuviana&nbsp;(NA)
+      </div>
+    </div>
+  </div>
 
   <div class="sezione">
     <span class="etichetta">01 — Cosa faccio</span>
@@ -339,7 +385,7 @@ tr.totale td:first-child{ font-weight:700; }
   </div>
 
   <div class="riga-tecnica">
-    <span>Ragosta SRL · sito web</span>
+    <span>Emanuele Boccia · P.IVA 10693201211</span>
     <span>Rif. EB26-WEB-RAGOSTA-0001</span>
     <span>01 / 02</span>
   </div>
@@ -365,9 +411,9 @@ tr.totale td:first-child{ font-weight:700; }
   <div class="sezione">
     <span class="etichetta">04 — I tempi</span>
     <h2>Partono da quando ho tutto il materiale.</h2>
-    <div class="coppia"><span class="k"><b>Prima bozza</b></span><span class="v">entro 7 giorni</span></div>
-    <div class="coppia"><span class="k"><b>Revisione</b>, insieme in chiamata</span><span class="v">2 giri compresi</span></div>
-    <div class="coppia"><span class="k"><b>Sito online</b> su ragosta.eu</span><span class="v">entro 4 settimane</span></div>
+    <div class="coppia"><span class="k"><b>Prima bozza</b></span><span class="v">entro&nbsp;7&nbsp;giorni</span></div>
+    <div class="coppia"><span class="k"><b>Revisione</b>, insieme in chiamata</span><span class="v">2&nbsp;giri compresi</span></div>
+    <div class="coppia"><span class="k"><b>Sito online</b> su ragosta.eu</span><span class="v">entro&nbsp;4&nbsp;settimane</span></div>
     <p class="nota">Se il materiale arriva più tardi, i tempi slittano dello stesso tanto. Dopo che approvi la grafica, le modifiche riguardano testi, immagini e colori. Il lavoro è finito quando home, lavori e contatti sono online su ragosta.eu, con il logo e le foto ritoccate: quello che si aggiunge dopo si concorda a parte.</p>
   </div>
 
@@ -376,9 +422,9 @@ tr.totale td:first-child{ font-weight:700; }
     <h2>1.500 €, in due metà.</h2>
     <table>
       <tr><th>Voce</th><th>Importo</th></tr>
-      <tr><td>Acconto del 50%<span class="sotto">Fattura del 22/09/2026, scadenza 29/09/2026</span></td><td>750,00 €</td></tr>
-      <tr><td>Saldo del 50%<span class="sotto">Alla messa online del sito, fattura con scadenza a 7 giorni</span></td><td>750,00 €</td></tr>
-      <tr class="totale"><td>Totale</td><td>1.500,00 €</td></tr>
+      <tr><td>Acconto del 50%<span class="sotto">Fattura del 22/09/2026, scadenza&nbsp;29/09/2026</span></td><td>750,00&nbsp;€</td></tr>
+      <tr><td>Saldo del 50%<span class="sotto">Alla messa online del sito, fattura con scadenza a 7 giorni</span></td><td>750,00&nbsp;€</td></tr>
+      <tr class="totale"><td>Totale</td><td>1.500,00&nbsp;€</td></tr>
     </table>
     <p class="nota">Importi senza IVA, regime forfettario. Puoi pagare con bonifico o dal link di pagamento che trovi insieme alla fattura.</p>
   </div>
@@ -393,13 +439,13 @@ tr.totale td:first-child{ font-weight:700; }
     <div class="firma">
       <div class="riga"></div>
       <div class="chi">Gaetano Ragosta</div>
-      <div class="ruolo">per Ragosta SRL</div>
+      <div class="ruolo">per NEW R.G.A. S.R.L.</div>
       <div class="data">Data ____ / ____ / ________</div>
     </div>
   </div>
 
   <div class="riga-tecnica">
-    <span>Ragosta SRL · sito web</span>
+    <span>Emanuele Boccia · P.IVA 10693201211</span>
     <span>Rif. EB26-WEB-RAGOSTA-0001</span>
     <span>02 / 02</span>
   </div>

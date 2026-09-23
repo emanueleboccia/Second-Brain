@@ -69,6 +69,18 @@ codice destinatario o PEC. Senza quelli la fattura dell'acconto non parte, e con
 visto. Stanno nella scheda del contatto su Notion. **L'accordo e la fattura dell'acconto partono insieme**,
 nello stesso messaggio: il modello dell'accordo è quello di Ragosta, in `outputs/accordi/`.
 
+⚠️ **Il link di pagamento vale anche prima della fattura, ed è la mossa più forte che ha questa
+fase.** Detto da Emanuele il 23/09/2026. Quando il cliente dice sì in chiamata, il momento in cui è
+più convinto è quello, e ogni ora che passa lo raffredda: **il link del micro-acconto parte mentre
+si è ancora al telefono**, e blocca il prezzo. Non è una tecnica nuova, è il
+[[docs/vendita/micro-commitment|micro-commitment]] degli appunti di vendita messo in condizione di
+funzionare: lì c'era già «un piccolo acconto per bloccare l'offerta», quello che mancava era
+togliere il buco fra il sì e il bonifico.
+
+Lo strumento previsto è **Stripe**, ancora da valutare nel
+[[docs/registro-strumenti|registro degli strumenti]]. Il pagamento a rate con Klarna o Scalapay
+oggi **non si può fare**, e non si nomina al cliente finché non si può.
+
 **Le spese anticipate per conto del cliente si dichiarano e si fatturano subito**, non a fine
 progetto. Sono soldi già usciti: chiederli indietro non è negoziare, è amministrazione.
 
@@ -78,6 +90,12 @@ progetto. Sono soldi già usciti: chiederli indietro non è negoziare, è ammini
 passo `01` della sua offerta dice *«vengo da te, guardo come lavorate»*, e tutto il posizionamento
 è **di persona**: è il vantaggio che nessuno replica da remoto. Un processo che va dal pagamento
 alla call di kickoff senza uscire di casa butta via proprio quello.
+
+⚠️ **Si può saltare, e allora quello che raccoglieva va raccolto altrove.** Detto da Emanuele il
+23/09/2026 su Ragosta: per un sito vetrina fatto sulle foto che il cliente ha già, andare in sede
+non aggiunge niente che il modulo e mezz'ora di telefono non diano. Ma **le tre cose qui sotto non
+spariscono**: se non ci vai, il «prima» non lo giri, e va detto — non è gratis, è un caso studio in
+meno. La regola resta che il sopralluogo è il default: si salta per un motivo, non per comodità.
 
 Si va sul posto **prima di costruire**, e si fanno tre cose:
 
@@ -108,6 +126,26 @@ Scritto il 21/09/2026, con dentro anche tempi e fascia di reperibilità, lasciat
 spunte, dall'accordo alla consegna delle chiavi: si spunta a ogni passo, e il cliente sa sempre dov'è
 senza chiederlo. Il link della copia sta nel campo *Portale* della proposta.
 
+**Dal 23/09/2026 i portali stanno tutti in una pagina sola, *Portali clienti*, e si condividono uno
+per uno col link pubblico.** Due cose lo rendono l'unico modo che funziona:
+
+- ⚠️ **Su Notion i permessi vanno per pagina, non per riga.** Una vista filtrata di *Fatture* dentro
+  il portale non mostra al cliente la sua fattura: gli mostra il vuoto, perché non ha accesso al
+  database. E dargliene accesso vuol dire mostrargli quelle di tutti. **Quindi il portale non guarda
+  dentro i database: contiene le sue copie**, coi PDF attaccati alla pagina.
+- **L'invito come ospite richiede un account Notion**, e un cliente che l'email non la apre — come
+  [[entities/clienti/ragosta/scheda|Gaetano Ragosta]] — non ci arriva mai. Il link pubblico si apre
+  dal telefono e si manda su WhatsApp.
+
+Sul link pubblico si spegne l'indicizzazione sui motori di ricerca e si toglie «duplica come
+modello». E vale una regola sola, che non ha eccezioni: **nel portale ci va solo roba che è già del
+cliente** — il suo accordo, la sua fattura, il suo stato. Mai una nota interna, mai il prezzo di un
+altro. Il link è pubblico, e chi ce l'ha entra.
+
+⚠️ **I portali si tengono tutti sotto la stessa pagina madre proprio per non condividerla mai.** Si
+pubblica il figlio, mai il genitore: pubblicare *Portali clienti* vorrebbe dire dare a ognuno la
+pagina di tutti gli altri.
+
 ## Fase 4 · Il modulo di raccolta
 
 **Un solo modulo per tutto**, mandato subito dopo il benvenuto: accessi (hosting, dominio, social,
@@ -119,7 +157,10 @@ contatti, orari, indirizzi), preferenze e riferimenti.
 **Il modulo è su Notion**, nella stessa pagina *Onboarding clienti*: il form *📥 Modulo di raccolta*
 scarica le risposte nel database *Raccolta materiali*, una riga per cliente, con la relazione verso
 Contatti e verso Siti Clienti per non riscrivere dati che ci sono già. ⚠️ **Il link pubblico del form si
-attiva a mano da Notion** — Condividi, pubblica sul web — e fino ad allora il cliente non lo apre.
+attiva a mano da Notion** — «Chi può compilare», poi *Chiunque sul web abbia il link* — e fino ad
+allora il cliente non lo apre. Attivato il 23/09/2026. ⚠️ **Le domande del modulo si aggiungono solo
+a mano**: l'API di Notion configura filtri, viste e permessi, ma non le domande di un form, e il
+DSL delle viste le ignora in silenzio.
 
 ⚠️ **Si distingue a colpo d'occhio cosa deve fare lui da cosa è facoltativo.** Un cliente che non sa
 quali palle sono nel suo campo non fa niente, e poi si lamenta dei tempi.
@@ -204,6 +245,12 @@ vuol dire che si sta vendendo sotto, **sotto il 20%** vuol dire prezzo alto o ve
 Emanuele. Sta nella pagina *Clienti*, coi database nell'ordine del processo: Contatti, Proposte, Fatture,
 Siti Clienti, Onboarding. Qui resta il metodo; lì stanno i PDF, le fatture e il punto in cui è ogni lavoro.
 
+Dal 23/09/2026 accanto a *Clienti*, e fuori da essa, sta **Portali clienti**; e sopra a tutto la
+**Home**, il cruscotto con le quattro viste che il briefing del mattino legge: lavori per fase,
+fatture da incassare, scadenze siti, lead caldi senza proposta. Sono le stesse quattro, di
+proposito: quello che guardi su Notion e quello che ti viene letto la mattina devono dire la stessa
+cosa.
+
 - **La proposta è la scheda del lavoro**, dal primo contatto al saldo. *Fase* dice dov'è — Proposta,
   Accordo e acconto, Onboarding, Sviluppo, Consegna, Chiuso — e *Prossimo passo* lo dice in una riga,
   riscritta ogni volta. Dentro la pagina c'è la checklist di questo processo compilata coi dati veri:
@@ -223,6 +270,21 @@ Siti Clienti, Onboarding. Qui resta il metodo; lì stanno i PDF, le fatture e il
 | Arriva il saldo | fattura «Incassata», movimento nel registro, fase Chiuso, esito nello storico |
 
 Emanuele dice cosa è successo; l'aggiornamento si mostra tutto insieme e si scrive con una conferma sola.
+
+**Come si chiamano le fatture.** Stabilito il 23/09/2026, alla prima fattura vera. Il PDF che esce da
+Fiscozen si rinomina e si salva in `outputs/fatture/` come
+**`<anno>-<numero a tre cifre>-<cliente>-<tipo>.pdf`** — `2026-001-ragosta-acconto.pdf`. Il numero è
+quello di Fiscozen, non uno nostro: così il file, la riga in *Fatture* su Notion e il documento
+fiscale portano lo stesso codice, e la cartella si ordina da sola in ordine di emissione. Il nome
+che Fiscozen dà al file — `Fattura 1-2026 - NEW R.G.A. S.R.L..pdf` — non si tiene: ha gli spazi, il
+numero al contrario e la ragione sociale, che fra sei mesi non dice quale cliente sia.
+
+⚠️ **Il cliente ha due nomi, e servono tutti e due.** Il nome con cui lo chiami — *Ragosta* — e la
+ragione sociale che va sui documenti — *NEW R.G.A. S.R.L.* Nel vault e nei registri si usa il primo,
+perché è quello che riconosci; **su accordo e fattura ci va il secondo**, perché è quello che firma e
+che paga. La ragione sociale si scopre quando arrivano i dati di fatturazione, cioè dopo che
+l'accordo è già stato scritto: **prima di mandarlo a firmare, si ricontrolla.** Il 23/09/2026
+l'accordo di Ragosta intestava il lavoro a una società che non esiste, e stava per partire così.
 
 **Ordine e icone.** Ogni pagina e ogni database prende un'icona della famiglia grigia di Notion, una per
 tipo di cosa: la valigetta per *Clienti*, la faccina per i contatti, il pallino per le proposte, la

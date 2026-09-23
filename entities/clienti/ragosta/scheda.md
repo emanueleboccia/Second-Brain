@@ -20,6 +20,10 @@ related:
 
 ## Anagrafica
 
+- **Ragione sociale:** **NEW R.G.A. S.R.L.**, P.IVA 09441401214, Via Casaraia 12, 80049 Somma
+  Vesuviana (NA). ⚠️ **Non è «Ragosta SRL»**, che è solo il nome con cui lo si chiama: scoperto il
+  23/09/2026 leggendo la fattura di Fiscozen, quando l'accordo era già scritto col nome sbagliato.
+  Nel vault e nei registri resta *Ragosta*; su accordo e fattura va la ragione sociale.
 - **Chi è:** Gaetano Ragosta, 58 anni, titolare. **Decide e paga lui**: si è diviso dal
   fratello, non ha soci, e il check sul decision maker è stato fatto in trattativa il
   04/09/2026. È la condizione che è mancata su

@@ -139,3 +139,47 @@ L'accordo da firmare, che il processo vuole prima di toccare qualsiasi cosa: par
 rimanda la foto. Quando arriva l'acconto, lo stesso giorno il benvenuto e il modulo di raccolta, poi sopralluogo
 e kickoff nella stessa visita al capannone. Se il 29/09 l'acconto non è arrivato, c'è la task «controllare
 l'acconto di Ragosta» su TickTick. Il dominio `ragosta.eu` resta la questione del 04/09, da chiudere in kickoff.
+
+## 2026-09-23 — Acconto incassato, accordo e portale mandati
+
+Gaetano manda la ricevuta del bonifico: **750 € incassati**, sei giorni prima della scadenza del
+29/09. Su Fiscozen la fattura è segnata incassata, e nel registro del personal brand il movimento
+porta la riga `2026-002` da «Da incassare» a **«Parziale»**, con 750 € di residuo.
+
+**Adesso è un cliente vero**, secondo la fase 0 del [[docs/processo-cliente|processo cliente]]: c'è
+il movimento di denaro. Su Notion la proposta passa a *Accettata* in fase **Onboarding** e il
+contatto diventa 🟢 Cliente.
+
+**L'accordo è stato rifatto** prima di mandarlo. La versione del 22/09 non aveva P.IVA né indirizzo
+— era una delle quattro cose decise da Claude e dichiarate — e su un documento da firmare non ci
+potevano mancare. Ora in testa c'è il blocco delle due parti, e il piede porta la P.IVA.
+
+**È nato il portale di Gaetano**, la prima pagina di *Portali clienti* su Notion: lo stato del
+lavoro a spunte, i tempi, come ci si sente, il modulo di raccolta e l'accordo in PDF dentro la
+pagina. Pubblicato col link pubblico, perché lui l'email non la usa e un invito come ospite avrebbe
+richiesto un account Notion.
+
+**Il modulo di raccolta è stato costruito e aperto**: dieci domande, aperto a chiunque abbia il
+link. Prima aveva una domanda sola ed era riservato ai membri del workspace.
+
+**La ragione sociale non era quella che pensavamo.** La fattura di Fiscozen è intestata a
+**NEW R.G.A. S.R.L.**, P.IVA 09441401214, con sede a Somma Vesuviana: «Ragosta SRL» è solo il nome
+con cui lo si chiama. L'accordo era già scritto col nome sbagliato ed è stato corretto **prima** di
+partire: un accordo firmato da una società che non esiste non vincola nessuno. È diventata una riga
+del [[docs/processo-cliente|processo cliente]] — la ragione sociale si ricontrolla prima di mandare
+l'accordo, perché arriva sempre dopo che il documento è stato scritto.
+
+**Niente sopralluogo, per scelta.** Emanuele il 23/09: il materiale e il modulo bastano. Il sito si
+fa sulle foto che Gaetano ha già, quindi andare in sede non aggiunge niente — ma il «prima» non si
+gira, e questo lavoro non diventerà un caso studio video. Al posto della visita, mezz'ora al
+telefono con le quattro domande larghe del [[docs/brief-cliente|brief cliente]], che sono anche in
+fondo al modulo.
+
+**La fattura ha un nome e un posto**: `outputs/fatture/2026-001-ragosta-acconto.pdf`, e la
+convenzione vale da qui in avanti.
+
+### Prossimo passo — sostituisce quello del 22/09
+
+Mandargli su WhatsApp l'accordo e il link del portale. Poi si aspettano due cose da lui: la firma
+— va bene una foto — e il modulo compilato, che fa partire i dieci giorni per il materiale.
+Poi mezz'ora al telefono per il kickoff, e lì si chiude anche il dominio `ragosta.eu`.

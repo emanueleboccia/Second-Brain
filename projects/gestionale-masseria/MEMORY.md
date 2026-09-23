@@ -5,6 +5,53 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 23/09/2026, sera — Gli inviti di compleanno, e le schede senza il posto vuoto
+
+- **Le schede Mese, Settimana e Giorno riempiono la barra.** Tolta la Lista, restava il posto di una quarta
+  scheda vuota: la griglia ora ha tante colonne quante sono le viste. Stessa correzione nel gestionale di
+  [[projects/gestionale-dmr/MEMORY|Mamma Rosaria]]. Emanuele l'aveva vista ancora online: era corretta sul Mac
+  ma non caricata, perché l'estensione di Chrome si era scollegata a metà caricamento.
+- **Nasce la pagina «Inviti»** (Strumenti), chiesta da Emanuele: si scrivono nome del festeggiato, anni, giorno,
+  orario e luogo, e l'invito di compleanno di Zucche in Masseria si aggiorna mentre si scrive. Si scarica in
+  JPG, si condivide dal telefono dritto su WhatsApp, o si stampa. Da una festa in calendario i dati arrivano
+  già scritti: c'è la tendina con le feste in arrivo, e nella scheda di ogni festa il tasto «Crea l'invito».
+  Non salva niente.
+- **Il modello è in HTML**, in `design/invito/modello.html` del progetto, nello stile dei PDF delle feste nel
+  parco: carta, foglie, logo di Zucche, nome in HeroLight, età in Niconne, la scheda con quando, orario e dove,
+  spaventapasseri e torta. `design/invito/render.mjs` ne fa lo sfondo e scrive dove va ogni dato; la pagina
+  scrive i dati sopra, in un canvas, così l'immagine è uguale su ogni telefono. Per cambiare il disegno si
+  cambia il modello e si rilancia lo script. La cartella `design/` non si carica sul server.
+- **I testi li ha decisi Emanuele**: sotto il nome «Una giornata tra zucche, natura e tanto divertimento.», in
+  fondo «Ti aspetto!». ⚠️ **Niente «conferma la presenza» col nome e il numero di un genitore**: l'avevo messa
+  io, e l'ha tolta. Il luogo di partenza è «Portone di Boccapianola», con via Passanti Flocco 217 sotto, come
+  nell'invito che girava.
+- **Caricata la sera stessa dal Gestore file**, prima i file pubblici, poi controller e rotte, per ultime le viste:
+  il menù laterale nomina la rotta nuova e il layout carica `invito.js`, e al contrario ogni pagina sarebbe
+  andata in errore. Riletta dal vivo nel Chrome di Emanuele: la tendina ha le sette feste in arrivo.
+
+## 23/09/2026 — La lista esce dal calendario, e il modulo smette di zoomare
+
+Sei cose segnalate da Emanuele il 23, provate sulla copia del Mac a misura di telefono.
+
+- **La lista non è più una vista.** Le schede sono Mese, Settimana e Giorno; «Tutte le date» sta sempre
+  sotto, in una card a parte (`#lista`), con i suoi Prossime/Passate/Tutte e la ricerca. Un vecchio
+  indirizzo `vista=lista` torna al mese.
+- **Il dito, di nuovo, e questa volta com'era chiesto:** verso destra apre la sidebar, verso sinistra la
+  chiude, e basta. Lo scorrimento «tornava indietro» perché era il browser: sul telefono il cambio pagina
+  ora usa `replaceState`, quindi non c'è una pagina dietro, e un tocco che parte dai 18 px del bordo lo
+  tiene il gestionale e non Safari.
+- **Niente zoom sui campi.** Sotto i 1024 px i campi sono a 16 px: sotto quella misura l'iPhone
+  ingrandisce la pagina quando tocchi un campo, ed era da lì che il «Salva data» finiva sopra a tutto.
+  Mentre scrivi, il salva smette di galleggiare e sta in fondo al modulo.
+- **Giorno e orari non escono dalla card:** i campi data e ora hanno perso l'aspetto nativo di iOS, che
+  aveva una larghezza minima sua.
+- **«Calendario» in cima alle schede è un tasto arancio** a pillola, e il titolo della pagina sta più in
+  basso, con più aria.
+- **Caricata il 23/09 dal Gestore file, file per file con «Replace»**: `web/css/app.css`, `web/js/app.js`,
+  `CalendarController.php`, `calendar/index.blade.php` e `_lista.blade.php`. Riletta la pagina vera: le
+  schede sono tre e la card «Tutte le date» sta sotto. ⚠️ Il CSS senza `?v=` la CDN di Hostinger lo dà
+  vecchio per un anno: per controllare cosa c'è online si chiede con un parametro qualsiasi.
+
 ## 22/09/2026 — Una pagina sola che cambia dentro
 
 Quattro cose segnalate da Emanuele la sera del 22, sistemate e caricate live la stessa sera.

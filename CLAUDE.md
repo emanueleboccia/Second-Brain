@@ -20,6 +20,20 @@ altrimenti si perde, ed è giusto così.
   contenuto, sempre: della famiglia grigia di Notion, `/icons/<nome>_gray.svg`. **Prima di usare un
   nome si controlla che esista** (`curl` su `https://www.notion.so/icons/<nome>_gray.svg` deve dare
   200): un nome sbagliato Notion lo salva lo stesso, e l'icona esce rotta.
+  ⚠️ **Il grigio non è uno solo, e la differenza vuol dire qualcosa.** Deciso il 23/09/2026: le
+  **macro pagine** della barra laterale — Home, Clienti, Denaro, Offerta, Consegnato, Studio,
+  Salute, Archivio — prendono `_lightgray`; **i database e le sottopagine** prendono `_gray`, che
+  è più scuro. Così, guardando la barra, si capisce a colpo d'occhio cosa è un contenitore e cosa
+  è roba dentro. Altri grigi non esistono: `darkgray` e `black` non sono nomi validi.
+  ⚠️ **L'icona di un database non si mette dall'API.** La chiamata riesce e l'attributo si scrive,
+  ma il database continua a mostrare l'icona generica della tabella, e `update_page` sull'UUID del
+  data source dà 404. L'unica strada è il browser: si apre la pagina, si passa col mouse sopra al
+  titolo, «Aggiungi icona» → scheda **Icone** → si clicca dentro al campo di ricerca prima di
+  scrivere, altrimenti il testo non ci entra. I nomi delle icone sono **in inglese**, e non tutti
+  esistono: `refresh` non c'è, `repeat` sì.
+  ⚠️ **Nessuna vista si chiama «Default view».** Il nome dice cosa fa quel taglio dei dati —
+  «Da incassare», «Prossime scadenze», «Tutte le fonti». Il comando `RENAME` dell'API risponde
+  ok ma non cambia niente: si rinomina dal browser, cliccando sulla linguetta della vista.
 - **TickTick tiene le azioni.** Cosa devo fare, entro quando.
 - **Google Drive tiene i file finiti e i media.**
 
@@ -251,13 +265,16 @@ guardare.
 
 ## La regola del registro lavori
 
-**Quando Emanuele racconta un lavoro fatto, un acconto ricevuto o un costo pagato, la riga del
-registro si scrive nella stessa sessione.** Non gliela si chiede come compito: la compone lui
-parlando, e la mano sul foglio la metto io.
+**Quando Emanuele racconta un lavoro fatto, un acconto ricevuto o un costo pagato, si segna nella
+stessa sessione — ma in [`areas/finanza/lavori-da-registrare.md`](areas/finanza/lavori-da-registrare.md),
+non sul foglio.** Cambiato il 20/09/2026 e ribadito il 23/09: le righe dei registri non si scrivono più
+una alla volta. Il lavoro si accumula lì durante il mese, e **a fine mese si inseriscono tutte insieme**,
+con gli importi valutati insieme, prima che vada da Raffaele col registro dei brand di famiglia, fra
+l'1 e il 5. Una cosa fatta e non segnata lì, a fine mese non esiste.
 
-Il giro è uno solo: mostro la riga come la scriverei — cliente, referente, servizio, importo,
-motivo — lui conferma o corregge, e scrivo. **Una conferma sola, poi si procede**: chiedere due
-volte la stessa cosa è il modo di far smettere di raccontare.
+Segnare nel file non chiede conferma: è un appunto mio, non una scrittura su un servizio esterno. Il
+giro con la conferma resta per il foglio, a fine mese: mostro le righe, lui corregge, scrivo. **Una
+conferma sola, poi si procede**: chiedere due volte la stessa cosa è il modo di far smettere di raccontare.
 
 Quale dei due registri, e com'è fatto quello del personal brand, sta in
 `areas/finanza/riferimenti-lettura.md`. Il criterio di smistamento è secco: **chi ha pagato.**

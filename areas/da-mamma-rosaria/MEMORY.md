@@ -2,6 +2,28 @@
 
 Aperto il 13/07/2026.
 
+## 24/09/2026 — L'invito di compleanno nel gestionale
+
+Il gestionale fa gli inviti per i compleanni, per ora **in prova**: si compilano dalla conferma della festa e
+si scaricano come immagine da mandare su WhatsApp, o si stampano. L'invito è disegnato col brand: sfondo bianco
+con le foglie, logo orizzontale, il nome in D-DIN marrone, la card crema con giorno, orario e posto, e **«ti
+aspetto» in Brush**, l'unica espressione in corsivo, minuscola e senza punteggiatura come vuole
+[[areas/da-mamma-rosaria/reference/design|il design]]. La frase è «Una giornata di festa in agriturismo, tra
+natura e tanto divertimento.», sorella di quella scelta da Emanuele per Zucche in Masseria. Il resto sta nella
+[[projects/gestionale-dmr/MEMORY|memoria del gestionale]].
+
+## 23/09/2026 — Il gestionale esce da Lovable
+
+Il gestionale eventi sta su **`gestionale.damammarosaria.it`**, sull'hosting Ergonet di Mamma Rosaria, e dentro
+c'è anche il **menù QR** dei tavoli, che su Lovable era un'app a parte. Chi scansiona un QR va su
+**`www.damammarosaria.it/menu/<supporto>`**, cioè resta sul sito, e da lì vede solo il menù: il gestionale non
+si vede nemmeno per sbaglio, chiesto da Emanuele. Per qualche ora il menù è stato su `menu.damammarosaria.it`:
+Emanuele ha scelto il sito, e il sottodominio è eliminato. I link già mandati a clienti e staff funzionano
+uguali. Com'è fatto e perché sta nella [[projects/gestionale-dmr/MEMORY|memoria del gestionale]].
+
+⚠️ **Quando si rifà il sito, la cartella `httpdocs/menu` non si tocca**: sta accanto a WordPress, ma è il menù
+QR del gestionale. Cancellarla spegne tutti i QR stampati.
+
 ## 21/09/2026 — Zio Savino, la battuta torna come finale
 
 La battuta tolta la notte prima torna, ma in fondo: rivista la storia, Emanuele ha deciso che come finale «ci sta

@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,400;125,700;125,900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1500px;height:400px;overflow:hidden}
+body{
+  background:#0E0E0C;
+  position:relative;
+  font-family:"Archivo",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+/* il bagliore caldo del fondale, in basso a sinistra */
+.luce{
+  position:absolute;
+  left:-200px; bottom:-300px;
+  width:1180px; height:720px;
+  background:radial-gradient(ellipse at 50% 60%, rgba(218,199,171,.30) 0%, rgba(218,199,171,.13) 34%, rgba(218,199,171,.04) 58%, rgba(218,199,171,0) 74%);
+  filter:blur(6px);
+}
+.luce2{
+  position:absolute;
+  right:-260px; top:-260px;
+  width:900px; height:620px;
+  background:radial-gradient(ellipse at 50% 50%, rgba(238,235,218,.07) 0%, rgba(238,235,218,.02) 45%, rgba(238,235,218,0) 70%);
+}
+.telaio{
+  position:absolute; inset:0;
+  padding:46px 92px 52px;
+  display:flex; flex-direction:column; justify-content:space-between;
+}
+.alto{display:flex; justify-content:space-between; align-items:baseline;}
+.marchio{
+  font-weight:700;
+  font-variation-settings:"wdth" 125;
+  font-size:19px;
+  letter-spacing:.30em;
+  text-transform:uppercase;
+  color:#EEEBDA;
+}
+.meta{
+  font-family:"JetBrains Mono",ui-monospace,monospace;
+  font-weight:700;
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:#75746A;
+}
+.basso{display:flex; justify-content:space-between; align-items:flex-end; gap:60px;}
+.titolo{
+  font-weight:900;
+  font-variation-settings:"wdth" 125;
+  font-size:86px;
+  line-height:.92;
+  letter-spacing:-.02em;
+  color:#EEEBDA;
+}
+.titolo .punta{color:#FFFFFF;}
+.coda{
+  text-align:right;
+  padding-bottom:12px;
+}
+.coda .riga{
+  font-family:"JetBrains Mono",ui-monospace,monospace;
+  font-weight:700;
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:#B5B2A4;
+  line-height:2.1;
+}
+.coda .riga span{color:#75746A;}
+/* linee a 1px */
+.linea{
+  position:absolute;
+  left:92px; right:92px;
+  height:1px;
+  background:#2A2A24;
+}
+.linea.su{top:104px;}
+</style></head><body>
+<div class="luce"></div>
+<div class="luce2"></div>
+<div class="linea su"></div>
+<div class="telaio">
+  <div class="alto">
+    <div class="marchio">Emanuele Boccia</div>
+    <div class="meta">Siti e sistemi &middot; 2026</div>
+  </div>
+  <div class="basso">
+    <div class="titolo">Il centro<br><span class="punta">operativo.</span></div>
+    <div class="coda">
+      <div class="riga">Clienti &middot; Proposte &middot; Fatture</div>
+      <div class="riga"><span>Quello che guardi la mattina</span></div>
+    </div>
+  </div>
+</div>
+</body></html>
