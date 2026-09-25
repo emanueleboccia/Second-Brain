@@ -50,6 +50,8 @@ che non finisce.
 ### Il resto del lavoro operativo
 
 - `tariffario.md` — qui in `self/`. I prezzi, l'unica fonte: non se ne inventano altrove.
+- `pacchetti.md` — qui in `self/`. Ogni voce del listino come offerta: la promessa, la garanzia e la
+  rottamazione. Proposta del 25/09/2026, `in-lavorazione` finché Emanuele non risponde alle sue domande.
 - `docs/definizioni-di-fatto.md` — quando un lavoro ripetibile è finito davvero.
 - `docs/` — come si lavora: `checklist-sito.md`, `brief-cliente.md`, `onboarding.md`.
 - `entities/clienti/` — una cartella per cliente. Popolata: Girarrosto Liberti, Ragosta,

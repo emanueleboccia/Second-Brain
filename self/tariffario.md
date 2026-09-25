@@ -7,7 +7,7 @@ tags:
   - offerta
 status: attivo
 created: 2026-08-21
-updated: 2026-09-24
+updated: 2026-09-25
 related:
   - "[[self/tariffario-famiglia]]"
   - "[[self/reference/convinzioni]]"
@@ -25,6 +25,9 @@ calcolati, mai stimati, mai inventati.
 
 I numeri sono anche su Notion, nel database *Servizi*, dove si collegano ai lavori. Quando un
 prezzo cambia si cambia qui e lì nello stesso giro, e se i due dicono cose diverse vale questo file.
+
+Come si presenta ogni voce al cliente — la promessa, la garanzia, la rottamazione — sta in
+[[self/pacchetti|pacchetti]], dal 25/09/2026 come proposta da confermare. I prezzi lì sono copiati da qui.
 
 ⚠️ **I tre brand di famiglia hanno un listino tutto loro**, molto sotto questi numeri, in
 [[self/tariffario-famiglia|tariffario dei brand di famiglia]]. Non si mescolano: applicare a un

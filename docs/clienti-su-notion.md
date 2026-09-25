@@ -6,7 +6,7 @@ tags:
   - processi
 status: attivo
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 related:
   - "[[docs/processo-cliente]]"
   - "[[docs/documenti-commerciali]]"
@@ -80,18 +80,16 @@ ha una quota e quel giorno è finita a metà mattina.
 ## I grafici
 
 **Dal 24/09/2026 Notion è sul piano Business**, preso da Emanuele la sera stessa, e i grafici non hanno più
-il limite di uno per tutto lo spazio di lavoro. Stanno in cima alle pagine, subito sotto la descrizione, due
-per riga:
+il limite di uno per tutto lo spazio di lavoro. **Dal 25/09/2026 ogni sezione ha in cima un *Cruscotto***,
+una dashboard di Notion subito sotto la descrizione, al posto dei grafici in colonna. Emanuele l'ha vista
+prima sulla Home, «è molto più pulita, usa questa», e poi l'ha chiesta dappertutto: «porta anche tutte le
+altre in versione dashboard». Un riquadro si aggiunge o si sposta da «Modifica», in alto a destra della
+dashboard; fino a quattro per riga e dodici in tutto.
 
-- **Home**: dalla notte fra il 24 e il 25/09/2026 non più grafici in colonna ma una **dashboard** di Notion,
-  il *Cruscotto*, scelta da Emanuele dopo averla vista su una pagina di prova: «è molto più pulita, usa
-  questa». Tre righe: in cima quattro numeri — incassato nel 2026, trattative ancora aperte, clienti attivi,
-  rinnovi entro trenta giorni —, poi le trattative del 2026 per esito e l'incassato per mese, poi i lavori
-  in corso per fase e i rinnovi dei clienti per mese. Sotto restano le quattro viste del briefing. Un
-  riquadro si aggiunge o si sposta da «Modifica», in alto a destra della dashboard; fino a quattro per riga
-  e dodici in tutto. ⚠️ Un blocco si porta da una pagina all'altra dal browser, con «Sposta in» dal menu
-  del blocco: scrivere il suo tag nella pagina nuova, dall'API, crea una tabella vuota invece di spostarlo.
-- **Denaro**: le entrate registrate in *Movimenti*, le fatture da incassare, entrate e costi per mese, da
+- **Home**: in cima quattro numeri — incassato nel 2026, trattative ancora aperte, clienti attivi, rinnovi
+  entro trenta giorni —, poi le trattative del 2026 per esito e l'incassato per mese, poi i lavori in corso
+  per fase e i rinnovi dei clienti per mese. Sotto restano le quattro viste del briefing.
+- **Denaro**: le entrate registrate in *Movimenti* e le fatture da incassare, entrate e costi per mese e da
   dove arrivano i soldi, i rinnovi per mese e per tipo. Le entrate sono più delle fatture incassate perché
   in *Movimenti* ci sono anche i soldi senza fattura, come il regalo di Vincenzo.
 - **Clienti**: clienti attivi, lead aperti, contatti per stato, i contatti arrivati nel 2026 per origine, il
@@ -100,6 +98,8 @@ per riga:
 - **Offerta**: i servizi richiesti e quelli venduti nel 2026, letti dalla relazione *Servizi* delle
   trattative. Una proposta senza servizi finisce in «Nessun Servizi», e il grafico dice il vero solo se ogni
   proposta ha i suoi.
+- **Pubblicità**: spesa, contatti e clienti delle campagne, poi i contatti per campagna e le inserzioni per
+  angolo. Com'è fatta sta nella sua sezione, più sotto.
 
 ⚠️ **Si conta dal 2026.** Detto da Emanuele la sera stessa, vedendo 36 trattative nella ciambella degli
 esiti: gli anni passati sono archivio e non si guardano. Ogni grafico con una data parte dal 1° gennaio 2026,
@@ -109,14 +109,18 @@ fuori gli archiviati.
 
 Metà del lavoro si fa dal browser, e questo è il perché:
 
-- **L'API crea il grafico in fondo alla pagina.** Per portarlo in cima si sostituisce la descrizione con la
-  descrizione più le colonne che contengono i grafici, e i grafici si spostano lì. ⚠️ Se le colonne stanno
-  dopo una riga vuota, Notion le mette in cima alla pagina e in ordine rovesciato: sulla Home è successo.
-- ⚠️ **L'API raggruppa le date per giorno.** Il mese si sceglie dal browser, nelle impostazioni del grafico,
-  e cambiando l'asse X l'asse Y torna a *Conteggio*: va rimesso sulla somma.
-- **Dal browser si fanno anche i titoli dei numeri**, che altrimenti dicono «Somma di Importo», e si spegne
-  *Mostra il titolo della sorgente dei dati*, se no sopra ogni grafico c'è il nome del database al posto del
-  suo. Le pagine coi grafici sono *a tutta larghezza*.
+- **L'API crea la dashboard vuota, in fondo alla pagina.** I riquadri si aggiungono dal browser: «Modifica
+  dashboard», «Nuova vista» e la fonte dei dati; il «+» a destra di una riga aggiunge un riquadro accanto,
+  quello sotto aggiunge una riga. Poi ogni riquadro si configura dall'API, col nome, i filtri, il
+  raggruppamento e il tipo di grafico, e sempre dall'API la dashboard si porta in cima al posto dei grafici
+  vecchi: dentro la stessa pagina lo spostamento tiene i riquadri. ⚠️ Fra due pagine no: un blocco si porta
+  da una pagina all'altra dal browser, con «Sposta in» dal menu del blocco, perché scrivere il suo tag nella
+  pagina nuova, dall'API, crea una tabella vuota invece di spostarlo.
+- ⚠️ **L'API raggruppa le date per giorno.** Il mese si sceglie dal browser, nelle impostazioni del
+  riquadro, e cambiando l'asse X l'asse Y torna a *Conteggio*: va rimesso sulla somma.
+- **Dal browser si fanno anche i titoli dei numeri**, che altrimenti dicono «Somma di Importo» o «Conteggia
+  tutto», e *Ometti valori zero* dove un grafico non deve mostrare le colonne vuote. Le pagine coi grafici
+  sono *a tutta larghezza*.
 
 ## Rinnovi e prezzi
 
@@ -187,6 +191,24 @@ cliente e la checklist del sito sono collegati a Ragosta, il lavoro in corso.
 in *Procedure*, *Riunioni*, *Gestionali* e *Collaboratori*. I percorsi del vault, nei campi e nelle pagine, si
 scrivono fra backtick, come codice.
 
+## Pubblicità
+
+**Dal 25/09/2026 c'è una sezione per le campagne a pagamento**, sotto *Home* accanto a *Clienti*, chiesta
+da Emanuele per le campagne Meta che vuole cominciare: solo le sue, i brand di famiglia non passano da qui.
+Quattro database — **Campagne**, **Inserzioni**, **Pubblici**, **Concorrenti** — e la pagina *Strategia*,
+copia della [[projects/campagne-meta/strategia|strategia delle campagne]] del vault.
+
+Una campagna è collegata al pacchetto che vende, in *Servizi*, e al pubblico. Le inserzioni portano i numeri
+di Gestione inserzioni; i contatti che arrivano entrano in *Contatti e lead* con Origine «Pubblicità» e la
+campagna collegata. Da lì la campagna calcola da sola spesa, contatti veri, costo per contatto, clienti e
+ritorno. ⚠️ **Notion non somma una somma**: per portare il valore delle trattative vinte fino alla campagna,
+le trattative hanno *Valore vinto*, e i contatti *Trattative vinte* e *Valore vinto*, la seconda una formula
+che ricopia la prima. Non sono doppioni: se ne togli una, il ritorno delle campagne va a zero.
+
+In cima alla pagina sta il suo *Cruscotto*: quanto si è speso da gennaio, sommando le inserzioni, i contatti
+arrivati con origine «Pubblicità», quanti sono diventati clienti, i contatti per campagna e le inserzioni per
+angolo, che dice quali angoli si stanno provando. Finché non parte la prima campagna è tutto a zero.
+
 ## Il lavoro, passo per passo
 
 - **La trattativa è la scheda del lavoro**, dal primo contatto al saldo. *Fase lavoro* dice dov'è —
@@ -247,3 +269,10 @@ può lasciare: lo decide Emanuele dopo averla provata.
 
 Le icone le ha rifatte Emanuele il 24/09/2026 e non si toccano: una pagina nuova prende quella delle sue
 sorelle. Nelle viste le colonne stanno sempre nello stesso ordine: nome, stato, fase, date, importi.
+
+⚠️ **L'icona di un database si mette dal browser.** Quella data dall'API finisce solo nel blocco della
+pagina, e il database resta con la tabella di serie: successo il 25/09/2026 coi quattro di *Pubblicità*. I
+database sono in grigio chiaro, e nella tavolozza delle icone, col tema scuro, il grigio chiaro è il
+**secondo** cerchio: il primo, che sembra più chiaro, è il grigio. Per sapere com'è davvero un'icona si fa
+il fetch del database: il fetch della pagina che lo contiene la mostra a modo suo, a volte col nome o col
+colore sbagliato.

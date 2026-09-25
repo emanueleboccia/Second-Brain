@@ -7,7 +7,7 @@ tags:
   - offerta
 status: attivo
 created: 2026-08-21
-updated: 2026-09-17
+updated: 2026-09-25
 related:
   - "[[self/tariffario]]"
   - "[[self/reference/brand]]"
@@ -135,6 +135,9 @@ scartata.
 
 ### Cosa serve prima di poterla vendere
 
+- ✅ **Sconto, deciso il 25/09/2026**, e calcolato su quanto il cliente ha speso col vecchio fornitore,
+  fatture alla mano. Percentuale, tetto e periodo dei canoni stanno fra le domande di
+  [[self/pacchetti|pacchetti]]. Quello che segue resta vero, ed è il motivo per cui lo sconto ha un tetto.
 - **Sconto o gratis.** ⚠️ Il [[self/tariffario|tariffario]] ha già una leva che regala l'ingresso,
   ed è il **prezzo caso studio**: riduzione del 20% in cambio del permesso scritto, massimo due
   casi attivi. Se la rottamazione diventa una seconda leva gratuita, le due si sommano e l'ingresso
@@ -153,3 +156,7 @@ scartata.
 tantum e cosa è ricorrente, cosa si vende insieme, cosa è un ingresso e cosa è un'espansione. Il
 [[self/tariffario|tariffario]] ha i prezzi ma non la forma commerciale, e finché non c'è quella,
 «cosa vendo» è un elenco e non un'offerta.
+
+**Dal 25/09/2026 c'è una proposta**, chiesta da Emanuele la sera prima: ogni voce con la sua promessa,
+la garanzia e, dove ha senso, la rottamazione, in [[self/pacchetti|pacchetti]]. È `in-lavorazione`: dentro
+ci sono le domande che la separano dall'essere vera.
