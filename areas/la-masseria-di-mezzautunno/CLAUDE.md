@@ -60,8 +60,10 @@ di una volta è nuovo (prima edizione dicembre 2026, sul sito è un «coming soo
 
 ### `email-marketing/` — le campagne email
 
-- `scuole.csv` — la lista delle scuole della zona, con email, telefono e distanza da Poggiomarino.
-  Si riusa per ogni campagna: la colonna `email_utilizzabile` dice a chi si può scrivere.
+- `scuole.csv` — la lista delle scuole dell'infanzia e primarie entro 20 km, con email, telefono,
+  alunni e distanza dalla Masseria. Si riusa per ogni campagna: la colonna `email_utilizzabile` dice a
+  chi si può scrivere. Da dove viene e come si legge sta in `scuole.md`; si rifà con lo script in
+  `code/email-marketing/scuole/`, mai a mano.
 - Una cartella per campagna, con `campagna.md` (cosa, a chi, come, andamento), `email.txt` (il testo
   esatto) e `invii.csv` (il registro). Lo script che manda sta in `code/email-marketing/`.
 

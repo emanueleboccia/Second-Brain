@@ -15,25 +15,28 @@ altrimenti si perde, ed è giusto così.
   modulo di raccolta: il metodo e le procedure restano qui, quello che il cliente apre sta lì.
   **Dal 22/09/2026 tutto quello che è un documento o uno stato di un cliente vero passa da Notion**:
   proposte, accordi, fatture coi PDF, e il punto in cui è ogni lavoro. Sta nella pagina *Clienti*;
-  come è organizzata, e cosa si aggiorna a ogni passo, sta in `docs/processo-cliente.md`.
-  ⚠️ **Ogni pagina e ogni database che crei o modifichi su Notion prende un'icona**, coerente col
-  contenuto, sempre: della famiglia grigia di Notion, `/icons/<nome>_gray.svg`. **Prima di usare un
-  nome si controlla che esista** (`curl` su `https://www.notion.so/icons/<nome>_gray.svg` deve dare
-  200): un nome sbagliato Notion lo salva lo stesso, e l'icona esce rotta.
-  ⚠️ **Il grigio non è uno solo, e la differenza vuol dire qualcosa.** Deciso il 23/09/2026: le
-  **macro pagine** della barra laterale — Home, Clienti, Denaro, Offerta, Consegnato, Studio,
-  Salute, Archivio — prendono `_lightgray`; **i database e le sottopagine** prendono `_gray`, che
-  è più scuro. Così, guardando la barra, si capisce a colpo d'occhio cosa è un contenitore e cosa
-  è roba dentro. Altri grigi non esistono: `darkgray` e `black` non sono nomi validi.
-  ⚠️ **L'icona di un database non si mette dall'API.** La chiamata riesce e l'attributo si scrive,
-  ma il database continua a mostrare l'icona generica della tabella, e `update_page` sull'UUID del
-  data source dà 404. L'unica strada è il browser: si apre la pagina, si passa col mouse sopra al
-  titolo, «Aggiungi icona» → scheda **Icone** → si clicca dentro al campo di ricerca prima di
-  scrivere, altrimenti il testo non ci entra. I nomi delle icone sono **in inglese**, e non tutti
-  esistono: `refresh` non c'è, `repeat` sì.
+  come è organizzata, e cosa si aggiorna a ogni passo, sta in `docs/clienti-su-notion.md`; come si
+  chiamano e che forma hanno quei documenti, in `docs/documenti-commerciali.md`.
+  ⚠️ **Le icone le ha rifatte Emanuele il 24/09/2026, e non si toccano.** Fino al giorno prima
+  qui c'era una regola sui due grigi, con le istruzioni per metterle dal browser: l'ha superata
+  sistemandole a mano, più ordinate. Una pagina o un database nuovo prende l'icona che hanno le sue
+  sorelle, e basta: non si fanno giri per correggere quelle che ci sono.
   ⚠️ **Nessuna vista si chiama «Default view».** Il nome dice cosa fa quel taglio dei dati —
   «Da incassare», «Prossime scadenze», «Tutte le fonti». Il comando `RENAME` dell'API risponde
   ok ma non cambia niente: si rinomina dal browser, cliccando sulla linguetta della vista.
+  ⚠️ **Un percorso del vault, su Notion, si scrive fra backtick.** Scritto nudo, `docs/onboarding.md`
+  diventa un link: `.md` è il dominio della Moldavia. Successo il 24/09/2026 in quattro database.
+  ⚠️ **Su Notion si conta dal 2026.** Grafici, conti e viste partono dal 1° gennaio 2026: gli anni
+  passati sono archivio e non si guardano. Detto il 24/09/2026, il giorno in cui Notion è passato al
+  piano Business.
+- **La formazione sta su Notion**, dal 24/09/2026: sotto *Studio*, corsi, articoli e podcast nel
+  database *training*, i libri in *Libreria*, e gli appunti dentro ogni pagina. Emanuele ci scrive
+  in tempo reale, e ci scrive anche Claude senza chiedere prima: «puoi anche scrivere tu le cose su
+  Notion». Quando una cosa studiata cambia come si lavora, la regola nuova va comunque nel vault.
+- **Le procedure hanno una copia su Notion**, dal 24/09/2026: le checklist e le SOP stanno anche nel
+  database *Procedure*, sotto *Offerta*, per averle aperte mentre si lavora. Sono copie: la fonte
+  resta qui, ogni pagina lo dice in cima, e se non coincidono vale il vault. Una procedura che
+  cambia qui si ricopia lì nello stesso giro.
 - **TickTick tiene le azioni.** Cosa devo fare, entro quando.
 - **Google Drive tiene i file finiti e i media.**
 
@@ -45,7 +48,8 @@ Le chat operative sono usa e getta. Il contesto sta nei file, non nelle conversa
 - `areas/` — i mondi che non finiscono mai: i tre brand di famiglia, la finanza, la formazione.
   - `areas/finanza/` — ⚠️ **esclusa da git e da `llms.txt`.** Reddito, patrimonio, spese,
     investimenti, regime forfettario. Ragiona e collega, non duplica i registri.
-  - `areas/formazione/` — libri, corsi, articoli. Ogni nota dichiara dove le serve.
+  - `areas/formazione/` — le note di studio scritte fino al 24/09/2026. Da quel giorno la
+    formazione sta su Notion, e qui non se ne aprono di nuove.
 - `projects/` — lavori con un inizio e una fine.
 - `sources/` — materiale grezzo in entrata, mai modificato.
   - `sources/call/` — trascrizioni delle call (Granola).
@@ -139,7 +143,7 @@ prima ed esplicitamente — «mostra e aspetta l'ok» qui non basta.
 | Gmail | tra i connettori attivi non c'è nessuna email: senza Composio non si manda niente |
 | Google Sheets | Drive arriva al file, non alla cella: crea e sostituisce un foglio intero, ma non scrive righe e colonne. Per aggiornare un foglio esistente serve l'API vera |
 | Apify | collegato il 25/08/2026: gli scraper di Google Maps, da cui la skill `estrai-lead` tira fuori le liste di potenziali clienti. Nessun connettore attivo fa scraping. ⚠️ Ogni run si paga a risultato |
-| Granola | collegato il 09/09/2026: le trascrizioni delle riunioni. Nessun connettore attivo le legge, e finché non c'era andavano copiate a mano — una call su due non arrivava mai. ⚠️ **Sola lettura**: il toolkit ha solo elenco, dettaglio e transcript, e una nota si cancella dall'app |
+| Granola | collegato il 09/09/2026: le trascrizioni delle riunioni. Nessun connettore attivo le legge, e finché non c'era andavano copiate a mano — una call su due non arrivava mai. ⚠️ **Sola lettura**: il toolkit ha solo elenco, dettaglio e transcript, e una nota si cancella dall'app. Dal 24/09/2026 ogni riunione va anche nel database *Riunioni* su Notion, col riassunto di Granola e chi c'era |
 | ElevenLabs | la voce del briefing del mattino, dalla skill `journal` |
 
 ⚠️ **Composio non è un server MCP**, anche se all'inizio l'avevamo chiamato così. È la CLI
@@ -196,6 +200,15 @@ L'unica forma che ha senso è **`Setting <Nome> (Azienda)`**, cioè ricontattare
 avanti quando adesso non c'è niente da dirsi. Quella la chiedo io: se non te l'ho chiesta, non
 c'è.
 
+**Chi va sentito ha una colonna sua: 💬 Da sentire**, in 💼 Personal Brand subito dopo
+📆 Appuntamenti. Chiesta il 24/09/2026: queste task nelle altre colonne non ci stavano. Ci va tutto
+quello che è sentire qualcuno con uno scopo — un messaggio da mandare, una chiamata da fare, un
+ricontatto, i Setting. In 📆 Appuntamenti restano solo gli incontri veri e le call di lavoro già
+fissate. «Rispondere a Tizio» resta fuori anche da qui: la colonna è per i messaggi che parti tu.
+Un messaggio che è un passo di un progetto sta dentro al suo `[PROGETTO]`, non qui: il permesso di Marco
+è la 01 del caso Girarrosto. Scelto il 24/09/2026 riordinando TickTick, perché una checklist con dei
+buchi obbliga a guardare in due posti; Da sentire tiene chi va sentito fuori da un progetto.
+
 ## Come si scrive una task su TickTick
 
 Stabilito il 09/09/2026, dopo una giornata passata a scriverle male.
@@ -206,6 +219,17 @@ restano maiuscoli — FoodOS, PalestreOS — perché li scrivi così tu.
 
 **Una task è un'azione sola.** Se dentro ce ne stanno due, sono due task. Un progetto è una
 task madre con sotto la checklist dei passaggi, numerati e in ordine.
+
+**La task madre di un progetto si chiama `[PROGETTO] Nome`.** Deciso il 24/09/2026:
+`[PROGETTO] Sito web Ragosta`, `[PROGETTO] QintaOS`. La parola fra quadre in maiuscolo dice a colpo
+d'occhio che dentro ci sono dei passaggi; il nome prende la maiuscola perché è un nome, non
+un'azione. Sotto stanno le sottotask, una per azione, numerate nell'ordine in cui si fanno:
+`01 · fare il kickoff`, senza ripetere il nome del progetto, che sta già sulla madre. **È un
+progetto quando per arrivare a un risultato servono più azioni, e finisce quando il risultato
+c'è**: un sito online, un prodotto alla prima versione, un lancio. Una cosa che si fa in un colpo
+solo è una task, anche se è grossa. Vale per ogni lista, e per ogni lavoro vinto: il giorno in
+cui arriva l'acconto nasce il suo `[PROGETTO]`, coi passi della checklist su Notion scritti come
+azioni.
 
 **La descrizione di solito è vuota.** Ci va solo quello che serve a fare quella cosa e non sta
 scritto altrove: una trappola, un valore da avere sotto mano, una condizione di verifica. Una
@@ -276,8 +300,10 @@ Segnare nel file non chiede conferma: è un appunto mio, non una scrittura su un
 giro con la conferma resta per il foglio, a fine mese: mostro le righe, lui corregge, scrivo. **Una
 conferma sola, poi si procede**: chiedere due volte la stessa cosa è il modo di far smettere di raccontare.
 
-Quale dei due registri, e com'è fatto quello del personal brand, sta in
-`areas/finanza/riferimenti-lettura.md`. Il criterio di smistamento è secco: **chi ha pagato.**
+**Dal 24/09/2026 il registro del personal brand è su Notion**, nel database *Movimenti*: acconti,
+saldi, regali e costi dei clienti esterni, collegati a fattura e lavoro. Quello dei brand di famiglia
+resta nel foglio che va a Raffaele, e su Notion non entra. Il criterio di smistamento è secco:
+**chi ha pagato.** I dettagli dei due registri stanno in `areas/finanza/riferimenti-lettura.md`.
 
 ## La regola di design
 
@@ -442,6 +468,9 @@ Questa sezione è viva: ogni volta che ti dico che un testo suona artificiale, a
 I prezzi si leggono da `self/tariffario.md`. Mai calcolati, mai stimati, mai inventati. Se una
 voce non c'è, chiedimela invece di riempire il buco.
 
+Dal 24/09/2026 gli stessi numeri stanno anche su Notion, nel database Servizi, collegati ai lavori:
+quando un prezzo cambia si cambia in tutti e due, e se non coincidono vale il tariffario.
+
 ## Definizione di fatto
 
 Per i lavori ripetibili c'è scritto **quando una cosa è finita**. L'indice sta in
@@ -471,7 +500,9 @@ Ogni cartella di progetto ha un `MEMORY.md`.
 ## Convenzione di nomi
 
 - Tutti i file in **minuscolo-con-trattini**: `pillar-instagram.md`, `copy-homepage.md`.
-- Fanno eccezione `CLAUDE.md` e `MEMORY.md`, sempre in maiuscolo.
+- Fanno eccezione `CLAUDE.md` e `MEMORY.md`, sempre in maiuscolo, e dal 24/09/2026 i documenti
+  commerciali in `outputs/`: si chiamano col loro codice, `PROP_2026_001_Ragosta.pdf`, perché è il
+  nome che legge il cliente. La regola sta in `docs/documenti-commerciali.md`.
 - Anche le **cartelle madri dei progetti** vanno in minuscolo-con-trattini, senza eccezioni:
   `tenuta-don-gaetano/`, `da-mamma-rosaria/`. Il nome proprio del brand, con le maiuscole,
   resta nella prosa e nei titoli, non nel nome della cartella.

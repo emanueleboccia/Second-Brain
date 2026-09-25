@@ -5,6 +5,113 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 24/09/2026, notte — Le Campagne email
+
+Chiesto da Emanuele: l'email marketing dentro il gestionale, «come Mailchimp e Brevo», con le statistiche,
+«capire quante di quelle che invio arrivano e vengono aperte». Scelta la **Gmail della Masseria** con una
+password per le app, non Brevo: è già rodata dalla campagna di settembre, le risposte restano nella stessa
+casella, e le regole di Brevo vogliono il consenso di chi riceve, che una lista presa dal Ministero non ha.
+
+- **Le statistiche le fa il gestionale**, come le farebbe Brevo: rimbalzi e risposte leggendo la Gmail (IMAP,
+  con la libreria `directorytree/imapengine`, che non vuole estensioni sul server), aperture con
+  un'immagine invisibile diversa per indirizzo, clic con i link che passano dal gestionale. A Emanuele è
+  stato detto che per le autorità europee della privacy quell'immagine vale come un cookie: ha deciso di
+  andare avanti.
+- **Le regole di settembre, scritte nel codice**: un'email per indirizzo, dalla più vicina, 30 al giorno
+  dalle 9 alle 13 dal lunedì al venerdì, due-quattro minuti fra una e l'altra, un lucchetto contro i doppi
+  invii. Chi ha detto di no, o ha già prenotato, esclude tutto il suo indirizzo: l'IC D'Avino ha prenotato
+  con un plesso, e gli altri tre plessi leggono la stessa email.
+- **La brochure non va più in allegato**: è un link, perché così si vede chi la scarica. È quella del
+  22/09, corretta dopo la riunione (`_da-mandare/` sull'SSD, 6,5 MB).
+- **La campagna di settembre entra dal suo registro** `invii.csv`: 100 email, 4 rimbalzate. La nuova la salta.
+- **La prima campagna nuova** va alle scuole mai scritte: 250 indirizzi online, per 668 plessi, cioè i 251 mai
+  scritti meno l'IC D'Avino, che ha prenotato. Il testo è quello di
+  settembre con tre cambi: il link alla brochure, «per la scuola {grado}» al singolare (con le primarie
+  «per le scuole primaria» sarebbe stato sbagliato), e la riga per disiscriversi che ora aggiunge il
+  gestionale.
+- **Il cron lancia i due comandi da soli, non lo scheduler.** Su Hostinger `schedule:run` si ferma prima di
+  ogni comando: chiama `pcntl_signal`, che lì è spenta (errore del 24/09 alle 23:44). Dalle 23:49 il cron
+  lancia `artisan campagne:invia` ogni minuto e `artisan campagne:posta` ogni dieci, e il giro gira: la Casella
+  ha segnato le 23:52. I comandi esatti stanno nel README del codice. Il cron di `schedule:run` è ancora in
+  elenco e dà un errore ogni dieci minuti: si elimina quando Emanuele dà l'ok.
+- **Stato**: online dal 24/09 a tarda sera, con 135 prove passate sul Mac. Ci sono il codice, le librerie
+  e la migrazione, con la copia del database prima (`masseria-2026-09-24-233516.sqlite`), il registro di
+  settembre e la bozza. Il link di prova della brochure risponde col PDF, quello per disiscriversi con la sua
+  pagina. Un'email di prova è arrivata a Emanuele, e secondo lui arriva giusta. Da fare, nell'ordine: lui
+  crea la password per le app, poi «Prova la casella», una prova dal gestionale e la partenza col suo ok.
+  Appena partita si controlla un link vero della brochure.
+
+## 24/09/2026, sera — Le Maestre diventano Scuole
+
+Chiesto da Emanuele: la sezione Maestre si formatta come la
+[[areas/la-masseria-di-mezzautunno/email-marketing/scuole|lista delle scuole]], le maestre stanno dentro la
+loro scuola, l'ultimo contatto sparisce, il codice non si vede, comune e provincia servono a filtrare. Lui si
+confondeva fra «una sezione Scuole e una Maestre»: la risposta è stata **una sezione sola, «Scuole e
+maestre»**, dove ogni scheda è una scuola e le maestre sono le sue referenti, più d'una se serve.
+
+- **Una scheda è una scuola**, una riga della lista: nome, istituto, grado, statale o paritaria, comune,
+  provincia, indirizzo, alunni, telefono, email con l'avviso quando per le campagne non si usa, sito,
+  distanza e minuti in auto. Le maestre hanno una tabella loro (`school_teachers`): nome, telefono, email,
+  note. **L'ultimo contatto è tolto.** L'indirizzo diventa `/scuole`, e `/maestre` ci porta.
+- **Filtri**: grado, statale o paritaria, provincia, comune, distanza (5, 10, 15, 20 km), esito e «con una
+  maestra». L'elenco parte dalla scuola più vicina.
+- **Nella gita la scuola si sceglie dall'elenco** (si cerca con più parole, in qualsiasi ordine); se non c'è,
+  sotto si scrivono i dati della scuola nuova, **nessuno obbligatorio**, detto da Emanuele. La maestra della
+  gita entra fra le maestre della scuola.
+- **Una scheda nata da una gita si unisce alla sua scuola della lista** dal riquadro in fondo alla scheda.
+  Online ce n'erano due, nate dalle gite di Selene: «Gli occhi dei bambini» di Castellammare, che è la
+  paritaria dell'associazione Peter Pan (la sua email e la sua PEC sono `gliocchideibambini`), e l'IC D'Avino
+  di Striano, dove la gita non dice quale dei tre plessi: resta scheda d'istituto finché non si sa.
+- **La migrazione** `2026_09_24_000001_schools_and_teachers` porta l'insegnante della vecchia scheda fra le
+  maestre, e per le schede nate da una gita sposta con lei telefono ed email, che erano i suoi.
+- **Online la sera stessa.** Copia del database prima della migrazione: `masseria-2026-09-24-213255.sqlite`.
+  Lista importata da `/scuole/importa`: 1.009 schede nuove. «Gli occhi dei bambini» è unita alla sua scheda
+  della lista, con Patrizia Rei e la gita del 29/10; l'IC D'Avino ha i dati dell'istituto presi da Scuola in
+  Chiaro (via Monte, `081 8277140`, `naic855005@istruzione.it`, il sito) e una nota coi tre plessi, e tiene
+  Lia Amato e la gita del 30/10. Le due gite portano il nome nuovo anche nel calendario. Alla fine le schede
+  sono 1.010, due «ha prenotato».
+- **La ricerca dell'elenco cercava la frase intera**: rileggendo le pagine online, «occhi bambini» non trovava
+  niente, mentre il menù della gita sì. Rifatta la sera stessa come quella del menù: ogni parola deve trovarsi
+  da qualche parte, in qualsiasi ordine, e in tutte e due gli apostrofi non contano («davino»), nei telefoni
+  nemmeno gli spazi. Online con due file, `SchoolContact.php` e `app.js`.
+- **I filtri dell'elenco rifatti**, chiesto da Emanuele guardando la pagina online: i menù si allargavano
+  quanto la voce più lunga e la freccia stava attaccata al testo. Ora stanno in colonne uguali su tutta la
+  card (tre per riga da quando c'è anche il menù delle email), con la freccia disegnata e il suo spazio, e il
+  filtro acceso ha il bordo scuro. Sul telefono le
+  pillole dell'esito andavano su quattro righe: l'esito diventa un menù, largo in cima, poi due colonne a
+  16px (sotto, l'iPhone ingrandisce la pagina), e «Con una maestra» sta accanto al conteggio. «Tutte le
+  province» diventa «Ogni provincia», e la ricerca dice «Scuola, istituto o maestra», che sul telefono non
+  si taglia.
+- **Resta da fare:** sapere da Selene o da Lia Amato quale plesso dell'IC D'Avino viene in gita, e unire la
+  scheda; i contatti delle maestre dell'anno scorso, che Emanuele manda appena li ha. Le campagne email sono
+  nella voce qui sopra.
+
+## 24/09/2026 — L'invito rifatto «più accattivante», col fienile vero
+
+La Masseria ha chiesto di rendere **più accattivante la grafica del generatore di inviti**. Emanuele ha scelto fra
+due proposte quella col prato verde, poi l'ha corretta tre volte; com'è finita e perché sta nella
+[[areas/la-masseria-di-mezzautunno/MEMORY|memoria della Masseria]]. Qui come è fatta.
+
+- **L'invito è 1200×1800**, 2:3 come una foto 10×15, non più 1200×1600: con il logo grande e la firma in fondo non
+  ci stava. La misura la dà il modello: `render.mjs` la legge dalla pagina, la scrive in `campi.json`, e
+  `invito.js` ridimensiona il canvas da lì. Il CSS dell'anteprima è `aspect-ratio: 2 / 3`, in stampa largo 170 mm.
+- **Sotto la collina c'è una foto vera**, `design/invito/assets/fienile.jpg`: è la GRS01294 di
+  `04 - Paesaggio e masseria` nell'archivio di Zucche 2025 su Drive, ridotta a 1400×2100, dietro un velo verde in
+  sfumatura, più pieno sul bordo della collina e dietro al testo, più leggero sulle zucche.
+- **I dati sono sei**: nome, età, quando, orario, dove e indirizzo. Il nome ha il rilievo e l'ombra, l'età è
+  «per i suoi N anni» in Niconne giallo. Rilievo, ombra, contorno e spaziatura si dichiarano nel modello
+  (`data-rilievo`, `data-ombra`, il CSS) e il canvas li rifà uguali: provato con un nome lungo, 10 anni, un anno e
+  senza dati.
+- **Caricato dal Gestore file** in tre giri, perché il disegno è cambiato mentre era già online: la prima volta
+  sfondo, `campi.json`, `invito.js`, `app.css` e la vista degli inviti, poi sfondo, `campi.json` e `invito.js`,
+  infine il solo sfondo. Riletta la pagina vera ogni volta, e `/inviti` senza accesso risponde `302` e `MISS`.
+- ⚠️ **Il file si carica col `file_upload` dell'estensione** sull'input nascosto del Gestore file, senza aprire la
+  finestra dei file del Mac, e poi si sceglie «Replace». Accetta solo file che stanno nelle cartelle della sessione:
+  prima si copiano nella cartella di lavoro. La finestra «Replace» a volte resta aperta dopo aver sostituito il file:
+  se la data del file dice «a few seconds ago», è andato, e si chiude con «Cancel».
+- ⚠️ **La CDN di Hostinger ricomprime i JPG**: lo sfondo servito non ha lo stesso md5 di quello caricato, ma è la
+  stessa immagine. Per controllare si confrontano i pixel, non l'impronta del file.
+
 ## 23/09/2026, sera — Gli inviti di compleanno, e le schede senza il posto vuoto
 
 - **Le schede Mese, Settimana e Giorno riempiono la barra.** Tolta la Lista, restava il posto di una quarta

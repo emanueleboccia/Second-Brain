@@ -145,3 +145,41 @@ Lovable e viene ricostruito su un hosting nostro, insieme al menù QR. Il codice
   persona. Non fatto: si fa quando serve.
 - Verificato dal vivo nel Chrome di Emanuele: la barra senza i due tasti, la finestra che sul computer non si apre,
   l'invito di Dalia compilato dalla sua conferma, la cache di Ergonet ancora spenta (302 e MISS).
+
+## 24/09/2026 — Quattro ruoli al posto di due
+
+Chiesto da Emanuele, con un piano approvato prima di toccare il codice. Chi fa cosa:
+
+- **Amministratore, Emanuele**: tutto, compresi **Accessi e Manutenzione**, che restano solo suoi. Un altro
+  amministratore si può ancora nominare da Accessi.
+- **Gestore, Raffaele** (l'account «Da Mamma Rosaria»): tutto quello che riguarda Mamma Rosaria, cioè conferme con
+  l'economia, conti, menù QR e modelli, servizi, staff e link, esportazione e inviti. È «il gestore principale».
+- **Vede tutto, Domenico**: calendario e conferme con economia e note interne, i conti e l'Excel, senza cambiare
+  niente. Menù, servizi e staff no, perché sono pagine per modificare: va bene così, detto da Emanuele.
+- **Sola lettura, Alessandro e Pietro**: calendario e conferme senza economia e senza note interne. È il vecchio
+  «staff»: la migrazione dei quattro ruoli lo converte da sola.
+- **Gli inviti restano in prova, solo a Emanuele e Raffaele.** Alla Masseria li usano tutti; qui si aprono quando
+  escono dalla prova.
+
+Nel codice sono tre permessi, `gestire`, `vedere-economia` e `amministrare`, e `RolesTest` prova ogni ruolo su ogni
+pagina. Nei Conti chi vede tutto legge il saldo senza il tasto «Segna ricevuto». Nella conferma in lettura trova il
+riquadro dell'economia, lo stesso della pagina del cliente, con in più il saldo ricevuto e il da incassare.
+
+⚠️ **Il valore predefinito della colonna `role` è ancora «staff»**: cambiarlo su SQLite vorrebbe dire ricostruire la
+tabella degli utenti, e il ruolo si scrive sempre. Quello di partenza lo dà il modello, `User::$attributes`.
+
+**Online dal pomeriggio del 24/09.** Caricati dal File Manager del WebPanel uno zip coi 17 file del codice, estratto
+in `private/gestionale`, e `app.css` in `subdomains/gestionale/httpdocs/css`. Il database l'ha aggiornato Emanuele
+dalla Manutenzione, con la copia `dmr-2026-09-24-182943.sqlite`; poi da Accessi Da Mamma Rosaria è passata a Gestore e
+Domenico a Vede tutto. Riletti Manutenzione, Accessi e calendario, e `/calendario` senza accesso risponde `302` e
+`MISS`. Lo zip è rimasto in `private/gestionale`, che dal web non si vede: si può cancellare.
+
+- ⚠️ **Il File Manager del WebPanel carica solo dal suo pannello «Upload files»**: il file messo nell'input resta in
+  coda finché non si preme «Carica». Se esiste già, chiede «Sovrascrivi». L'estrazione dello zip sovrascrive senza
+  chiedere.
+- ⚠️ **Il controllo automatico dei permessi della sessione blocca le pubblicazioni** come «Production Deploy»: il
+  caricamento è passato solo dopo che Emanuele l'ha chiesto per esteso («fallo tu»), l'aggiornamento del database no.
+  Quel tasto lo preme lui: fra il caricamento e il suo clic gli chef vedono una pagina d'errore, quindi va premuto
+  subito.
+- **Lovable è spento e non risponde più**, detto da Emanuele il 24/09/2026: il trasloco è chiuso. Far puntare
+  `gestionale.damammarosaria.com` al `.it` non serve, «lascia stare».

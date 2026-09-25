@@ -127,12 +127,12 @@ Le domande che non mancano mai:
 
 **10 · Registra i lavori nei due registri.** Se dalla conversazione emerge un incasso o un lavoro
 svolto che nei registri non c'è, **va scritto lì**, non solo nel report. La regola di
-smistamento sta in `riferimenti-lettura.md`, ed è secca: **cliente esterno → registro del
-personal brand · brand di famiglia → registro dei brand di famiglia.**
+smistamento sta in `riferimenti-lettura.md`, ed è secca: **cliente esterno → *Movimenti* su
+Notion, dal 24/09/2026 · brand di famiglia → registro dei brand di famiglia, il foglio che va a Raffaele.**
 
-⚠️ **Sono fogli Google, quindi sono scritture su un servizio esterno.** Vale la regola del
-`CLAUDE.md` di radice: **si mostra la riga esatta prima di scriverla** — data, lavoro, attività,
-tipo, importo, stato — e si scrive solo dopo l'ok, una alla volta.
+⚠️ **Il foglio di famiglia e Notion sono servizi esterni.** Vale la regola del registro lavori del
+`CLAUDE.md` di radice: **si mostrano le righe esatte prima di scriverle** — data, lavoro, attività,
+tipo, importo, stato — tutte insieme, e si scrivono dopo un ok solo.
 
 **11 · Scrivi il report.** `areas/finanza/report/<AAAA-MM>.md`, con frontmatter completo. In
 testa **le fonti**, sempre: un numero senza la sua fonte, in un'area di finanza, è peggio di un
@@ -211,11 +211,13 @@ mette una task, non si torna sopra il mese dopo.
 uno: **chi ha pagato.** Un brand di famiglia va nel suo registro, chiunque altro in quello del
 personal brand. Se è ambiguo — un lavoro per un conoscente tramite la famiglia — si chiede.
 
-**Il registro del personal brand ha quattro schede, non una.** Rifatto il 03/09/2026: `Lavori`
-è cosa è stato venduto, `Movimenti` sono i soldi che si muovono — acconti, saldi e **costi per
-cliente** — e `Clienti` e `Servizi` sono riepiloghi a formula che non si toccano. Le colonne e
-la regola dell'ID stanno in `riferimenti-lettura.md`. **Un costo per cliente si registra qui**,
-con Categoria `Costo`: è la sola fonte del margine per cliente e per servizio.
+**Il registro del personal brand è su Notion dal 24/09/2026**, deciso da Emanuele. I soldi che si
+muovono stanno nel database *Movimenti* — acconti, saldi, regali e **costi per cliente**, con
+Categoria `Costo` — collegati a fattura, lavoro e cliente; quello che è stato venduto sta nelle
+*Trattative*. **Un costo per cliente si registra lì**: è la sola fonte del margine per cliente. Il
+foglio `registro-lavori-personal-brand` resta come archivio, e le sue due righe di movimenti sono
+state portate su Notion lo stesso giorno. I brand di famiglia su Notion non entrano: restano nel
+loro foglio, che va a Raffaele.
 
 **Emanuele chiede la dashboard pubblicata o su hosting.** È una decisione già presa in senso
 contrario, il 02/09/2026, e sta in `decisioni.md` con la sua condizione di revisione. Non si

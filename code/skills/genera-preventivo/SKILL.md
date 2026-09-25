@@ -114,8 +114,9 @@ indovinare.
    impalcatura si lasciano `status: da-compilare`: il gate di qualità li esenta dalle regole sul
    grafo, mentre quelli con contenuto vero passano dal gate come tutte le altre note.
 
-9. **Salva il preventivo** in `outputs/preventivi/<anno>-<cliente>.md`, col cliente in
-   minuscolo-con-trattini: `2026-bar-salvatore.md`. Aggancialo alla scheda del cliente con un
+9. **Salva il preventivo** in `outputs/preventivi/` col codice della proposta come nome, lo stesso
+   del punto 11: `PROP_<anno>_<numero>_<Cliente>.md`, e l'HTML e il PDF, se ci sono, con lo stesso nome.
+   Deciso il 24/09/2026: le regole stanno in `docs/documenti-commerciali.md`. Aggancialo alla scheda del cliente con un
    wikilink, e linka la scheda al preventivo: un preventivo che non si sa a chi è stato mandato
    non serve a niente fra sei mesi.
 
@@ -127,16 +128,16 @@ indovinare.
     davvero**: un preventivo generato e mai mandato non è una proposta, e su Notion ci va lo stato
     delle cose, non le intenzioni.
 
-    **Il codice della proposta si scrive così:** `EB<anno>-<SERVIZIO>-<CLIENTE>-<progressivo>`.
-    `EB26-WEB-RAGOSTA-0001` è il primo. Il servizio è la sigla di tre lettere della famiglia di
-    tariffario — `WEB` per i siti, e le altre si guardano nelle proposte già in archivio prima di
-    coniarne una nuova. Il cliente è l'azienda, in maiuscolo e senza spazi. Il progressivo è a
-    quattro cifre e conta le proposte fatte, non quelle dell'anno.
+    **Il codice della proposta si scrive così:** `PROP_<anno>_<numero>_<Cliente>`, col numero a tre
+    cifre che riparte da `001` ogni gennaio e il cliente scritto attaccato, col nome con cui lo
+    chiama Emanuele: `PROP_2026_001_Ragosta` è il primo del 2026. Il codice è il titolo della
+    trattativa su Notion, il nome del file, e sta stampato nella testata della proposta. Se la
+    proposta si rifà, stesso numero e `_v2`. L'accordo che ne nasce prende lo stesso numero,
+    `ACC_2026_001_Ragosta`. Tutto il resto sta in `docs/documenti-commerciali.md`.
 
-    ⚠️ **La sigla è `EB`, e la numerazione riparte da `0001`.** Deciso da Emanuele il 04/09/2026:
-    `GS` era la vecchia sigla e non si usa più. Le proposte in archivio la portano ancora e si
-    lasciano com'erano — riscrivere codici già mandati a un cliente crea due nomi per la stessa
-    cosa. Il vecchio schema aveva anche una `G` davanti al progressivo: quella è caduta col resto.
+    ⚠️ **Cambiato il 24/09/2026.** Dal 04/09 il codice era `EB<anno>-<SERVIZIO>-<CLIENTE>-<progressivo>`,
+    e prima ancora `GS…`: le due proposte del 2026 fatte così sono state rinominate, l'archivio
+    `GS` dal 2021 al 2025 resta com'era.
 
 ## Definizione di fatto
 

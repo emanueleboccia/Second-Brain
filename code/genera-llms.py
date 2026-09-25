@@ -79,6 +79,9 @@ def note_di(cartella):
                 continue          # le skill hanno il loro elenco, sotto
             if relativo.startswith("code/remotion-test"):
                 continue          # progetto di prova: node_modules e whisper.cpp, non note
+            if relativo.startswith(("code/controllo-siti", "code/agenti-notion")):
+                continue          # il controllo dei siti ha node_modules, e gli agenti di
+                                  # Notion sono istruzioni, non note. Esclusi il 25/09/2026.
             with open(completo, encoding="utf-8") as fh:
                 testo = nfc(fh.read())
             if not testo.startswith("---\n"):

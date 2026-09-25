@@ -7,7 +7,7 @@ tags:
   - l-etoile
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-24
 ---
 
 # Storico — L'Étoile
@@ -18,6 +18,12 @@ updated: 2026-09-03
 Chi è il cliente sta in [[entities/clienti/l-etoile/scheda|scheda]]. Qui c'è cosa è successo,
 dal più recente in cima. Gli accordi presi a voce o su WhatsApp si scrivono il giorno stesso:
 è l'unico posto in cui esisteranno.
+
+### 2026-09-24 — Ex cliente, con un'idea in tasca
+Emanuele ricorda come stanno le cose: sono le sue cugine, il sito è un e-commerce su Shopify, e non c'è né
+un'assistenza fissa né una scadenza da seguire. **Il sito lo usano poco.** Vorrebbe proporgli qualcosa che
+glielo faccia usare di più, ma oggi non è necessario: si vedrà. Su Notion Maria Grazia Massa è «Ex cliente»,
+e non c'è nessuna task.
 
 ### 2026-09-03 — Confermato: nessun lavoro attivo
 Precisato da Emanuele. La titolare è **Maria Grazia Massa**, sua cugina. Il sito Shopify che

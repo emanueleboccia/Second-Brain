@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-16
-updated: 2026-09-21
+updated: 2026-09-24
 related:
   - "[[entities/clienti/girarrosto-la-signora/scheda]]"
   - "[[entities/clienti/girarrosto-liberti/storico]]"
@@ -19,6 +19,20 @@ related:
 Chi sono e cosa vogliono sta in [[entities/clienti/girarrosto-la-signora/scheda|scheda]]. Qui c'è solo cosa
 è successo, dal più recente in cima. Come sono arrivati sta nello
 [[entities/clienti/girarrosto-liberti/storico|storico del Girarrosto Liberti]], alla data del 13/09/2026.
+
+### 2026-09-24 — Lasciata andare
+La sera stessa Emanuele decide di non inseguirla più: non riesce a qualificarla, il budget è basso, e per lui è
+il tipo di cliente che vuole spendere poco e non vede il valore di un sistema digitale, che poi chiede
+assistenza all'infinito. Su Notion la trattativa è **`PROP_2026_003_GirarrostoLaSignora`**, «Chiuso perso» a
+1.100 €, l'offerta a voce per i due locali; Salvatore è «Scartato», e come referente risulta mandato da Marco
+Pappacena del [[entities/clienti/girarrosto-liberti/storico|Girarrosto Liberti]].
+
+### 2026-09-24 — Il giovedì del ritorno passa senza risposta
+La mattina Emanuele gli scrive su WhatsApp per sapere come sta e se è tornato dalla Turchia, visto che l'ultima
+volta aveva detto «sentiamoci giovedì che torno». A sera nessuna risposta. **Per Emanuele è quasi da buttare**,
+ma non l'ha chiusa: resta un lead aperto finché non decide lui. La task per chiamarlo è chiusa, e un
+richiamo si apre solo se lo chiede lui. Resta anche il nodo del 17/09: i 1.100 € erano per i due locali, e il
+prezzo per Nocera da sola non è mai stato detto.
 
 ### 2026-09-21 — Al telefono non risponde, su WhatsApp sì: se ne parla giovedì
 Emanuele lo chiama per chiudere sull'acconto dei 1.100 € e la linea non prende. Gli scrive su WhatsApp se possono

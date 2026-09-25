@@ -7,7 +7,7 @@ tags:
   - patrimpresa
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-24
 ---
 
 # Scheda — Patrimpresa
@@ -47,5 +47,6 @@ Niente, per ora.
 
 ## Catena referral
 
-- **Chi me l'ha mandato:** il padre di Emanuele.
+- **Chi me l'ha mandato:** il padre di Emanuele, Antonio Achille Boccia. Su Notion è fra i contatti
+  come *Rete* dal 24/09/2026.
 - **Chi ha mandato lui:** nessuno, per ora.

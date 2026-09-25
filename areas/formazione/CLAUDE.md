@@ -1,5 +1,12 @@
 # Formazione
 
+> ⚠️ **Dal 24/09/2026 la formazione vive su Notion**, deciso da Emanuele: la usa in tempo reale. Sotto
+> *Studio*, corsi, articoli e podcast stanno nel database *training*, coi modelli «Nuovo Corso»,
+> «Nuovo Articolo» e «Nuovo Podcast»; i libri in *Libreria*, col modello «Nuovo Libro»; gli appunti
+> dentro ogni pagina. Ci scrive anche Claude, senza chiedere. Qui restano le note già scritte, che il
+> resto del vault linka, e non se ne aprono di nuove. Vale ancora la regola sotto: quando una cosa
+> studiata cambia come si lavora, la regola nuova va nell'area di destinazione del vault.
+
 **Quello che studio, ridotto a quello che uso.** Aperta il 01/09/2026.
 
 Non è un archivio di appunti né una libreria: è il posto dove un libro, un corso o un

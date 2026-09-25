@@ -73,7 +73,7 @@ Quello che è successo, giorno per giorno, sta in [[entities/clienti/clharem/sto
 
 ### Giusy D'Amico non è un dettaglio di questa scheda
 
-Eight Creative Studio, titolare. Su Notion è **🤝 Rete** dal 03/09/2026, e prima di quel giorno
+Eight Creative Studio, titolare. Su Notion è **Rete** dal 03/09/2026, e prima di quel giorno
 non aveva nessuno stato: il database sapeva che esisteva e nient'altro.
 
 **Da lei sono arrivati almeno due lavori** — il sito di Clharem e quello di **Michela Franzese**.

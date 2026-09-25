@@ -21,3 +21,6 @@ _local/
 # Vivono solo su questo disco. Se un giorno servisse versionarli, si fa in un
 # repository privato separato — non qui, dove il remote è già in piedi.
 areas/finanza/
+
+# i dati scaricati per la lista delle scuole (open data del Ministero, Scuola in Chiaro): si riscaricano
+code/email-marketing/scuole/cache/

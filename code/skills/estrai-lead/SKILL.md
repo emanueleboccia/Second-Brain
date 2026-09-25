@@ -13,6 +13,18 @@ la risposta è che la lista è pronta e il contatto lo fa lui.
 lanciato per sbaglio non si annulla. Per questo l'ordine dei passaggi non è negoziabile: si mostra
 il piano, si aspetta l'ok, poi si lancia — una volta sola.
 
+## Dove finiscono i lead
+
+**Dal 24/09/2026 i lead estratti entrano su Notion**, nel CRM descritto nel
+[[docs/processo-cliente|processo cliente]]. Per ogni attività: una riga in *Aziende* col nome, il
+settore e il sito, e una riga in *Contatti e lead* collegata all'azienda, con *Stato* «Cold lead
+(scraping)», *Origine* «Scraping web», telefono ed email se ci sono. Se il titolare non si conosce,
+la persona prende il nome dell'attività finché non lo si scopre.
+
+Prima di scrivere si controlla che l'attività non ci sia già, per nome e per telefono: un doppione
+fa contattare due volte la stessa persona. E l'importazione è una scrittura su Notion composta da
+Claude, quindi prima si mostra quante righe entrano e un paio d'esempio, poi si scrive.
+
 ## Quando si usa
 
 Quando Emanuele vuole una lista di potenziali clienti di un certo tipo in una certa zona.

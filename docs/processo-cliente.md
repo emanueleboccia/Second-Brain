@@ -6,9 +6,11 @@ tags:
   - processi
 status: attivo
 created: 2026-09-21
-updated: 2026-09-22
+updated: 2026-09-24
 related:
   - "[[docs/onboarding]]"
+  - "[[docs/clienti-su-notion]]"
+  - "[[docs/documenti-commerciali]]"
   - "[[self/tariffario]]"
   - "[[docs/brief-cliente]]"
   - "[[docs/vendita/problema-bruciante]]"
@@ -67,7 +69,7 @@ sulla fattura dell'acconto di [[entities/clienti/ragosta/scheda|Ragosta]].
 **I dati di fatturazione si chiedono al sì**, non nel modulo: ragione sociale, partita IVA, sede legale e
 codice destinatario o PEC. Senza quelli la fattura dell'acconto non parte, e con Ragosta il 22/09/2026 si è
 visto. Stanno nella scheda del contatto su Notion. **L'accordo e la fattura dell'acconto partono insieme**,
-nello stesso messaggio: il modello dell'accordo è quello di Ragosta, in `outputs/accordi/`.
+nello stesso messaggio: il modello dell'accordo è quello di Ragosta, `outputs/accordi/ACC_2026_001_Ragosta_v2.html`.
 
 ⚠️ **Il link di pagamento vale anche prima della fattura, ed è la mossa più forte che ha questa
 fase.** Detto da Emanuele il 23/09/2026. Quando il cliente dice sì in chiamata, il momento in cui è
@@ -124,7 +126,7 @@ Scritto il 21/09/2026, con dentro anche tempi e fascia di reperibilità, lasciat
 
 **La copia del cliente è il suo portale.** Dal 22/09/2026 la sezione «A che punto siamo» è una lista di
 spunte, dall'accordo alla consegna delle chiavi: si spunta a ogni passo, e il cliente sa sempre dov'è
-senza chiederlo. Il link della copia sta nel campo *Portale* della proposta.
+senza chiederlo. Il link della copia sta nel campo *Portale* della trattativa.
 
 **Dal 23/09/2026 i portali stanno tutti in una pagina sola, *Portali clienti*, e si condividono uno
 per uno col link pubblico.** Due cose lo rendono l'unico modo che funziona:
@@ -146,6 +148,14 @@ altro. Il link è pubblico, e chi ce l'ha entra.
 pubblica il figlio, mai il genitore: pubblicare *Portali clienti* vorrebbe dire dare a ognuno la
 pagina di tutti gli altri.
 
+**Dal 24/09/2026 i portali stanno su `emanueleboccia.notion.site`.** Il dominio di prima,
+`swamp-violet-95f`, era quello che Notion assegna a caso. Si cambia gratis da Impostazioni → Pagine
+pubbliche, ma ⚠️ **i link col dominio vecchio smettono di funzionare**, e Notion non li rimanda al
+nuovo: si cambia solo prima di aver mandato link in giro. Sul piano gratuito l'indirizzo resta il
+titolo della pagina più il suo codice; quello corto, tipo `/ragosta`, c'è solo sui piani a
+pagamento. Dal 24/09/2026 il piano è Business, quindi si può: si prova sul prossimo portale, non su
+quello di Ragosta, che il suo link l'ha già ricevuto.
+
 ## Fase 4 · Il modulo di raccolta
 
 **Un solo modulo per tutto**, mandato subito dopo il benvenuto: accessi (hosting, dominio, social,
@@ -162,12 +172,34 @@ allora il cliente non lo apre. Attivato il 23/09/2026. ⚠️ **Le domande del m
 a mano**: l'API di Notion configura filtri, viste e permessi, ma non le domande di un form, e il
 DSL delle viste le ignora in silenzio.
 
+Si fanno dal Chrome di Emanuele: la proprietà si crea dall'API, poi nel form il «+» fra due domande
+la offre fra le *Proprietà esistenti*. Il 24/09/2026 il modulo è stato adattato a
+[[entities/clienti/ragosta/storico|Ragosta]]: niente file del logo, perché lo fa Emanuele, ma in fondo
+due domande su che stile gli somiglia e quali colori sì e quali no; e cinque lavori con due righe e
+le foto ciascuno. **Il modulo è uno per tutti i clienti**: al prossimo si riguarda cosa chiedere.
+
+**Quello che il cliente carica finisce su Notion, non su Drive.** Ogni invio è una riga di
+*Raccolta materiali*, con le risposte nelle colonne e le foto attaccate alla riga, nei campi
+*Lavoro 1: le foto* e seguenti. Prima del settembre 2026 questionario e materiali passavano da Google
+Drive; il modulo li tiene insieme, un cliente per riga. **Ogni file arriva fino a 100 MB, e ogni
+domanda ne prende dieci**, letto sul link pubblico il 24/09/2026, la sera in cui Notion è passato al
+piano Business: prima il limite era 5 MB. Quello che non entra arriva su WhatsApp come documento. Su
+Drive vanno dopo le foto lavorate, che sono file finiti. ⚠️ **Notion non avvisa da solo quando arriva
+una risposta**: col piano Business si può accendere un'automazione che lo fa, e finché non c'è le
+righe nuove le porta il briefing del mattino.
+
+⚠️ **Il modulo non salva niente prima di «Invia».** Provato il 24/09/2026 dal link pubblico: si
+scrive in un campo, si ricarica la pagina e il campo torna vuoto. Chi chiude la pagina a metà perde
+tutto, foto comprese. Ogni invio però è una riga nuova, e il modulo anonimo si può mandare più
+volte: per questo al cliente si dice di mandarlo a pezzi, due o tre lavori alla volta. Dopo l'invio
+non può correggere, perché non ha un account Notion.
+
 ⚠️ **Si distingue a colpo d'occhio cosa deve fare lui da cosa è facoltativo.** Un cliente che non sa
 quali palle sono nel suo campo non fa niente, e poi si lamenta dei tempi.
 
 ## Fase 5 · La call di kickoff
 
-Cinque punti, sempre gli stessi.
+Sei punti, sempre gli stessi.
 
 1. **Timeline con margine.** Si promette più di quanto serve e si consegna prima: se il lavoro
    chiede quattro settimane se ne promettono sei e si consegna in quattro. Mai il contrario. Il
@@ -182,6 +214,11 @@ Cinque punti, sempre gli stessi.
    si è al telefono, per non perdere una settimana perché il cliente non riesce a registrarsi.
 5. **Obiettivi e direzione.** Cosa vuole ottenere davvero, con che tono, per quale pubblico. Le
    domande stanno in [[docs/brief-cliente|brief cliente]].
+6. **Il risultato da misurare.** Un numero che il lavoro deve spostare — richieste dal sito, ordini,
+   tempo a ordine — preso com'è oggi e scritto nel kickoff. Alla consegna e qualche mese dopo si
+   confronta invece di raccontarlo, ed è la prova che serve al caso studio: senza il «prima» scritto,
+   il «dopo» è un'impressione. Aggiunto il 24/09/2026: era l'ultimo dei cinque punti degli screenshot
+   da cui è nato questo processo.
 
 **Le credenziali sono sue.** Si sviluppa su account e abbonamenti del cliente, intestati a lui.
 Niente dipendenza forzata: la relazione si tiene con il lavoro fatto bene, non con il ricatto
@@ -237,60 +274,14 @@ Aggiunte il 21/09/2026.
 il tasso di chiusura dice se il prezzo è tarato giusto — intorno al **30%** è giusto, molto sopra
 vuol dire che si sta vendendo sotto, **sotto il 20%** vuol dire prezzo alto o vendita debole.
 **Chiudere tutti non è bravura: sono soldi lasciati sul tavolo.** Il conto si legge nella vista
-*📊 Tasso di chiusura* del database Proposte, raggruppata per stato.
+*📊 Tasso di chiusura* del database Trattative, raggruppata per fase.
 
-## Su Notion, fase per fase
+## Su Notion, e i documenti
 
-**Dal 22/09/2026 tutto quello che è un documento o uno stato di un cliente vero passa da Notion**, deciso da
-Emanuele. Sta nella pagina *Clienti*, coi database nell'ordine del processo: Contatti, Proposte, Fatture,
-Siti Clienti, Onboarding. Qui resta il metodo; lì stanno i PDF, le fatture e il punto in cui è ogni lavoro.
-
-Dal 23/09/2026 accanto a *Clienti*, e fuori da essa, sta **Portali clienti**; e sopra a tutto la
-**Home**, il cruscotto con le quattro viste che il briefing del mattino legge: lavori per fase,
-fatture da incassare, scadenze siti, lead caldi senza proposta. Sono le stesse quattro, di
-proposito: quello che guardi su Notion e quello che ti viene letto la mattina devono dire la stessa
-cosa.
-
-- **La proposta è la scheda del lavoro**, dal primo contatto al saldo. *Fase* dice dov'è — Proposta,
-  Accordo e acconto, Onboarding, Sviluppo, Consegna, Chiuso — e *Prossimo passo* lo dice in una riga,
-  riscritta ogni volta. Dentro la pagina c'è la checklist di questo processo compilata coi dati veri:
-  date, importi, file. La vista *In lavorazione* mette i lavori in colonna per fase.
-- **Ogni fattura è una riga di *Fatture***, col numero di Fiscozen, il tipo, l'importo, la scadenza, lo
-  stato e il PDF, collegata al contatto e al lavoro. I soldi che si muovono restano nel registro lavori.
-- **L'accordo sta sulla proposta**, quello mandato e quello firmato, con la data della firma.
-- **I dati di fatturazione stanno sul contatto.**
-
-| Cosa succede | Cosa si aggiorna |
-|---|---|
-| Il cliente dice sì | Fase «Accordo e acconto», dati di fatturazione sul contatto, accordo dal modello |
-| Parte la fattura dell'acconto | riga in *Fatture* col PDF e la scadenza, checklist, storico |
-| Torna l'accordo firmato | file e data della firma sulla proposta |
-| Arriva l'acconto | fattura «Incassata», movimento nel registro, proposta «Accettata» in fase Onboarding, contatto 🟢 Cliente, portale dal benvenuto |
-| Consegna | sito «Online» con le scadenze, fattura del saldo, fase Consegna |
-| Arriva il saldo | fattura «Incassata», movimento nel registro, fase Chiuso, esito nello storico |
-
-Emanuele dice cosa è successo; l'aggiornamento si mostra tutto insieme e si scrive con una conferma sola.
-
-**Come si chiamano le fatture.** Stabilito il 23/09/2026, alla prima fattura vera. Il PDF che esce da
-Fiscozen si rinomina e si salva in `outputs/fatture/` come
-**`<anno>-<numero a tre cifre>-<cliente>-<tipo>.pdf`** — `2026-001-ragosta-acconto.pdf`. Il numero è
-quello di Fiscozen, non uno nostro: così il file, la riga in *Fatture* su Notion e il documento
-fiscale portano lo stesso codice, e la cartella si ordina da sola in ordine di emissione. Il nome
-che Fiscozen dà al file — `Fattura 1-2026 - NEW R.G.A. S.R.L..pdf` — non si tiene: ha gli spazi, il
-numero al contrario e la ragione sociale, che fra sei mesi non dice quale cliente sia.
-
-⚠️ **Il cliente ha due nomi, e servono tutti e due.** Il nome con cui lo chiami — *Ragosta* — e la
-ragione sociale che va sui documenti — *NEW R.G.A. S.R.L.* Nel vault e nei registri si usa il primo,
-perché è quello che riconosci; **su accordo e fattura ci va il secondo**, perché è quello che firma e
-che paga. La ragione sociale si scopre quando arrivano i dati di fatturazione, cioè dopo che
-l'accordo è già stato scritto: **prima di mandarlo a firmare, si ricontrolla.** Il 23/09/2026
-l'accordo di Ragosta intestava il lavoro a una società che non esiste, e stava per partire così.
-
-**Ordine e icone.** Ogni pagina e ogni database prende un'icona della famiglia grigia di Notion, una per
-tipo di cosa: la valigetta per *Clienti*, la faccina per i contatti, il pallino per le proposte, la
-ricevuta per le fatture, il globo per i siti, la bandiera per l'onboarding, la mano per il benvenuto,
-l'inbox per la raccolta. I PDF si chiamano `data-tipo-cliente.pdf`, e nelle viste le colonne stanno sempre
-nello stesso ordine: nome, stato, fase, date, importi.
+Dove sta ogni cosa su Notion, e cosa si aggiorna a ogni passo, sta in
+[[docs/clienti-su-notion|clienti su Notion]]. Come si chiamano e che forma hanno proposte, accordi,
+proforme e fatture sta in [[docs/documenti-commerciali|documenti commerciali]]. Le due parti stavano
+qui fino al 24/09/2026, quando questa nota aveva superato le trecento righe.
 
 ## Le monete di scambio
 

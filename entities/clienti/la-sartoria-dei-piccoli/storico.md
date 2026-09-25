@@ -7,7 +7,7 @@ tags:
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-24
 ---
 
 # Storico — La Sartoria dei Piccoli
@@ -17,6 +17,16 @@ updated: 2026-09-13
 
 Chi è il cliente sta in [[entities/clienti/la-sartoria-dei-piccoli/scheda|scheda]]. Qui c'è
 cosa è successo, dal più recente in cima.
+
+### 2026-09-24 — Il sito non è più il nostro, e il cliente si archivia
+Emanuele è andato a vedere il dominio: il sito WooCommerce che aveva fatto non c'è più, al suo posto c'è
+uno Shopify, fatto da qualcun altro o da loro. Intanto a lui avevano risposto «ti faccio sapere», su
+amministrazione e altri lavori, dicendo di dover valutare. Per Emanuele è una mancanza di rispetto: **non
+vuole più sentirli.** Su Notion i due contatti e la trattativa sono archiviati, il sito è *Offline* e
+archiviato, e il loro hosting non sta fra i rinnovi. L'hosting su Ergonet, che scade il 18/09/2027, è
+ancora fra i servizi che gli hanno delegato: **la delega la toglie Emanuele**, quando decide lui, e da qui
+non si tocca. La sera stessa ha chiesto di eliminare anche la trattativa, `PROP_2026_002_SartoriaDeiPiccoli`:
+su Notion non c'è più, il PDF della proposta resta nel vault.
 
 ### 2026-09-13 — Marco non risponde, e la Sartoria esce dai radar
 Il 10/09 Marco aveva scritto chiedendo di sistemare il guasto, e lasciando cadere il preventivo
@@ -46,7 +56,7 @@ ce la fai…»*. E Marco ha chiuso l'incontro con un sì detto a voce: *«Allora
 bene»*.
 
 ⚠️ **Nell'incontro il prezzo non è stato nominato una sola volta.** La cifra è comparsa la sera,
-dentro la proposta mandata su WhatsApp: **350 €**, riga `EB26-WEB-SARTORIA-0002` su Notion, stato
+dentro la proposta mandata su WhatsApp: **350 €**, riga `EB26-WEB-SARTORIA-0002` su Notion — dal 24/09/2026 `PROP_2026_002_SartoriaDeiPiccoli` —, stato
 Inviata. Il piano tecnico in PDF, sei pagine, **non è stato consegnato**: a un non tecnico due
 documenti diventano zero documenti letti.
 

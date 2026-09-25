@@ -1,16 +1,32 @@
 ---
 title: "Storico — Patrimpresa"
-summary: "Gli accordi con Patrimpresa di Antonio Pazzone dalla prima call del 18/09/2026: la società al 50% proposta e rifiutata, e il sito one page da prezzare."
+summary: "Gli accordi con Patrimpresa di Antonio Pazzone dalla prima call del 18/09/2026: la società al 50% proposta e rifiutata, e il sito one page a 650 €, detto ok il 21/09 e rimandato al mese dopo."
 tags:
   - entities
   - clienti
   - patrimpresa
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-24
 ---
 
 # Storico — Patrimpresa
+
+### 2026-09-24 — Il richiamo del primo ottobre
+Chiesto da Emanuele: il **1° ottobre** gli si scrive «Antonio, come stai? Partiamo?». È su TickTick come
+`Setting Antonio Pazzone (Patrimpresa)`, in 💬 Da sentire, col messaggio nella descrizione. Su Notion la
+trattativa è **`PROP_2026_004_Patrimpresa`**, 650 €, «In negoziazione», con la checklist del lavoro e i dati
+della call del 21/09. Antonio risulta mandato dal padre di Emanuele.
+
+### 2026-09-24 — «Il mese prossimo»
+Antonio aveva detto ok al prezzo, e ora rimanda il sito al mese prossimo. **Emanuele non ci crede molto: per lui
+è un piatto vuoto.** Si aspetta che si rifaccia vivo lui; un richiamo si apre solo se Emanuele lo chiede. Le
+task del contratto, dei contenuti e delle email alle associate restano dove sono, senza data.
+
+### 2026-09-21 — Il prezzo: 650 €
+Nella seconda call, [[sources/call/2026-09-21-patrimpresa|quella del 21/09]], Emanuele dice **650 € tutto
+incluso** per il sito one page multilingue. Antonio dice ok. Nel [[self/tariffario|tariffario]] la one page sta
+fra 260 e 500 €; questa è multilingue.
 
 ### 2026-09-19 — La società no, il sito sì
 Emanuele decide che la società al 50% non la fa: lavora a prestazione. Resta da dire ad Antonio il prezzo del

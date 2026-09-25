@@ -20,3 +20,10 @@ nome in `nome.md`; qui stanno le decisioni sul progetto, con la data.
   registrato il 15/03/2026 e valido in tutta l'Unione, nelle classi 9, 35, 38, 39 e 42. Dentro ci sono
   il software, la gestione aziendale, il marketing e il noleggio di veicoli: un software che fa le stesse
   cose non può chiamarsi così. Non si ripropone.
+- **24/09/2026** — **Il nome è QintaOS.** Detto da Emanuele: «Qinta OS è il gestionale per le
+  concessionarie e noleggi che sto sviluppando». Nel repository ci sono già `brand/qinta` e `qinta-site/`,
+  dal 21/09, e il vault non lo sapeva: qui risultavano ancora AutoOS e la ricerca aperta. La cartella resta
+  `projects/autoos/`.
+- **24/09/2026** — **Il marchio e il backup del codice non si sollevano.** Segnalati lo stesso giorno — Qinta
+  a una lettera da QUINTA, e il codice solo sul disco del Mac, senza remote — e Emanuele ha detto di non
+  pensarci. Sono scelte sue: non si ripropongono finché non le riapre lui.

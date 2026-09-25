@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>ACC_2026_001_Ragosta · Accordo di lavoro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,400;125,700;125,900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --crema:#EEEBDA;
+  --inchiostro:#0E0E0C;
+  --punta:#000000;
+  --spento:#75746A;
+  --intermedio:#B5B2A4;
+  --griglia:#E2DEC9;
+}
+
+@page{ size:A4; margin:0; }
+
+*{ box-sizing:border-box; }
+
+html,body{ margin:0; padding:0; }
+
+html,body{
+  background:var(--crema);
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+}
+
+body{
+  color:var(--inchiostro);
+  font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;
+  font-size:9.4pt;
+  line-height:1.58;
+}
+
+.foglio{
+  width:210mm;
+  height:297mm;
+  padding:16mm 16mm 26mm;
+  background:var(--crema);
+  page-break-after:always;
+  overflow:hidden;
+  position:relative;
+}
+.foglio:last-child{ page-break-after:auto; }
+
+/* ---------- tipografia ---------- */
+
+h1,h2,h3,.marchio,.gigante{
+  font-family:"Archivo",Helvetica,Arial,sans-serif;
+  font-variation-settings:"wdth" 125;
+  margin:0;
+}
+
+.marchio{
+  font-weight:700;
+  font-size:9.4pt;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+}
+
+.gigante{
+  font-weight:900;
+  font-size:38pt;
+  line-height:0.98;
+  letter-spacing:-0.015em;
+  margin:1.5mm 0 3mm;
+}
+
+h2{
+  font-weight:900;
+  font-size:16pt;
+  line-height:1.08;
+  letter-spacing:-0.01em;
+  margin:1.5mm 0 3mm;
+}
+
+h3{
+  font-weight:700;
+  font-size:10pt;
+  line-height:1.25;
+  margin:0 0 1mm;
+}
+
+p{ margin:0 0 2.6mm; text-wrap:pretty; }
+h1,h2,h3{ text-wrap:balance; }
+li{ text-wrap:pretty; }
+p:last-child{ margin-bottom:0; }
+
+strong,b{ font-weight:700; color:var(--punta); }
+
+.etichetta{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:6.6pt;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--spento);
+}
+
+.codice{ text-transform:none; letter-spacing:.06em; }
+
+.mono{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+}
+
+.testata{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  margin-bottom:6mm;
+}
+
+.intro{
+  font-size:10.2pt;
+  line-height:1.6;
+  color:var(--spento);
+  max-width:40em;
+  margin-bottom:4mm;
+}
+.intro b{ color:var(--inchiostro); }
+
+.sezione{ margin-bottom:6mm; page-break-inside:avoid; }
+.testata.corta{ margin-bottom:9mm; }
+
+/* ---------- le parti ---------- */
+
+.parti{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8mm;
+  border-top:1px solid var(--inchiostro);
+  border-bottom:1px solid var(--griglia);
+  padding:2.6mm 0 3mm;
+  margin-bottom:7mm;
+}
+.parte .chi{
+  font-weight:700;
+  font-size:9.2pt;
+  margin-bottom:1mm;
+}
+.parte .dati{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:400;
+  font-size:7.4pt;
+  line-height:1.62;
+  color:var(--spento);
+}
+
+/* ---------- passi ---------- */
+
+.passo{
+  display:grid;
+  grid-template-columns:12mm 1fr;
+  gap:4mm;
+  border-top:1px solid var(--griglia);
+  padding:2.5mm 0;
+}
+.passo:first-of-type{ border-top:1px solid var(--inchiostro); }
+.passo .n{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:10.5pt;
+  color:var(--spento);
+  line-height:1.25;
+}
+.passo p{ margin:0; font-size:9.2pt; color:var(--spento); }
+
+/* ---------- elenchi ---------- */
+
+.limiti{ margin:0; padding:0; list-style:none; }
+.limiti li{
+  border-top:1px solid var(--griglia);
+  padding:2.1mm 0 2.1mm 9mm;
+  position:relative;
+  font-size:9pt;
+  line-height:1.5;
+  color:var(--spento);
+}
+.limiti li:first-child{ border-top:1px solid var(--inchiostro); }
+.limiti li::before{
+  content:attr(data-n);
+  position:absolute;
+  left:0;
+  top:3.1mm;
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:6.6pt;
+  letter-spacing:.14em;
+  color:var(--intermedio);
+}
+.limiti li b{ color:var(--inchiostro); }
+
+/* ---------- coppie ---------- */
+
+.coppia{
+  border-top:1px solid var(--griglia);
+  padding:2.6mm 0;
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:6mm;
+}
+.coppia:first-of-type{ border-top:1px solid var(--inchiostro); }
+.coppia .k{ font-size:9pt; color:var(--spento); }
+.coppia .k b{ color:var(--inchiostro); }
+.coppia .v{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:8.8pt;
+  text-align:right;
+  white-space:nowrap;
+}
+.nota{ font-size:8.6pt; color:var(--spento); margin-top:2.6mm; }
+
+/* ---------- tabella ---------- */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:8.8pt;
+}
+th{
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:6.4pt;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--spento);
+  text-align:right;
+  padding:0 0 2.4mm;
+  border-bottom:1px solid var(--inchiostro);
+}
+th:first-child{ text-align:left; }
+td{
+  padding:2.6mm 0;
+  border-bottom:1px solid var(--griglia);
+  text-align:right;
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+  vertical-align:baseline;
+}
+td:first-child{
+  text-align:left;
+  font-family:Helvetica,Arial,sans-serif;
+  font-weight:400;
+}
+td .sotto{
+  display:block;
+  font-size:8pt;
+  color:var(--spento);
+}
+tr.totale td{
+  border-bottom:0;
+  border-top:1px solid var(--inchiostro);
+  color:var(--punta);
+  padding-top:3mm;
+}
+tr.totale td:first-child{ font-weight:700; }
+
+/* ---------- firme ---------- */
+
+.firme{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12mm;
+  margin-top:8mm;
+}
+.firma .riga{
+  border-bottom:1px solid var(--inchiostro);
+  height:12mm;
+  margin-bottom:2mm;
+}
+.firma .chi{ font-weight:700; font-size:9.2pt; }
+.firma .ruolo{ font-size:8.4pt; color:var(--spento); }
+.firma .data{
+  margin-top:3.5mm;
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:6.6pt;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--spento);
+}
+
+/* ---------- piede ---------- */
+
+.riga-tecnica{
+  position:absolute;
+  left:16mm;
+  right:16mm;
+  bottom:12mm;
+  border-top:1px solid var(--inchiostro);
+  padding-top:3mm;
+  display:flex;
+  justify-content:space-between;
+  gap:6mm;
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  font-weight:700;
+  font-size:6.6pt;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--spento);
+}
+</style>
+</head>
+<body>
+
+<div class="foglio">
+  <div class="testata">
+    <div class="marchio">Emanuele Boccia</div>
+    <div class="etichetta"><span class="codice">ACC_2026_001_Ragosta</span> &middot; 22 / 09 / 2026</div>
+  </div>
+
+  <div class="etichetta">Accordo di lavoro</div>
+  <h1 class="gigante">Il sito di<br>Ragosta.</h1>
+  <p class="intro">Fra <b>Emanuele Boccia</b> e <b>NEW R.G.A. S.R.L.</b>, nella persona di <b>Gaetano Ragosta</b>. Questo accordo mette per iscritto quello che ci siamo detti il 4 settembre e che mi hai confermato al telefono: cosa faccio, cosa mi serve da te, entro quando e come si paga.</p>
+
+  <div class="parti">
+    <div class="parte">
+      <div class="chi">Emanuele Boccia</div>
+      <div class="dati">
+        Ditta individuale &middot; regime forfettario<br>
+        P.IVA&nbsp;10693201211<br>
+        Via Passanti Flocco&nbsp;217, 80040&nbsp;Poggiomarino&nbsp;(NA)<br>
+        +39&nbsp;351&nbsp;908&nbsp;4137 &middot; ema.boccia02@gmail.com
+      </div>
+    </div>
+    <div class="parte">
+      <div class="chi">NEW R.G.A. S.R.L.</div>
+      <div class="dati">
+        Nella persona di Gaetano&nbsp;Ragosta, titolare<br>
+        P.IVA&nbsp;09441401214<br>
+        Via Casaraia&nbsp;12, 80049&nbsp;Somma&nbsp;Vesuviana&nbsp;(NA)
+      </div>
+    </div>
+  </div>
+
+  <div class="sezione">
+    <span class="etichetta">01 — Cosa faccio</span>
+    <h2>Tre pagine, il logo e le tue foto.</h2>
+    <div class="passo">
+      <span class="n">01</span>
+      <div>
+        <h3>Il sito</h3>
+        <p>La home che racconta chi sei e cosa fai dal 1989, la pagina dei lavori con i progetti principali spiegati uno per uno, e i contatti. Disegnato su misura, veloce anche da telefono, con le pagine della privacy e dei cookie. In fondo resta una firma piccola col mio nome, salvo accordi diversi.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">02</span>
+      <div>
+        <h3>I testi</h3>
+        <p>Li scrivo io, partendo da quello che mi racconti: la tua storia e i lavori che vuoi far vedere.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">03</span>
+      <div>
+        <h3>Il logo</h3>
+        <p>Solo il nome, senza icona. Te lo consegno pronto per il sito e per la stampa.</p>
+      </div>
+    </div>
+    <div class="passo">
+      <span class="n">04</span>
+      <div>
+        <h3>Le foto</h3>
+        <p>Ritocco le foto dei tuoi lavori e le metto sul sito.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sezione">
+    <span class="etichetta">02 — Cosa resta fuori</span>
+    <h2>Quello che si fa a parte.</h2>
+    <ul class="limiti">
+      <li data-n="01"><b>Il negozio online per i tuoi prototipi.</b> Ne abbiamo parlato: è il passo dopo, e si fa a parte.</li>
+      <li data-n="02"><b>Foto e video nuovi.</b> Lavoro sulle foto che hai.</li>
+      <li data-n="03"><b>Hosting e dominio.</b> Restano tuoi, e i costi li paghi direttamente tu.</li>
+      <li data-n="04"><b>L'assistenza dopo la messa online.</b> Se ti serve, la concordiamo a parte.</li>
+      <li data-n="05"><b>Le modifiche oltre i due giri di revisione.</b> Dal terzo giro si quotano a parte.</li>
+    </ul>
+  </div>
+
+  <div class="riga-tecnica">
+    <span>Emanuele Boccia · P.IVA 10693201211</span>
+    <span class="codice">ACC_2026_001_Ragosta</span>
+    <span>01 / 02</span>
+  </div>
+</div>
+
+<div class="foglio">
+  <div class="testata corta">
+    <div class="marchio">Emanuele Boccia</div>
+    <div class="etichetta">Accordo di lavoro</div>
+  </div>
+
+  <div class="sezione">
+    <span class="etichetta">03 — Cosa mi serve da te</span>
+    <h2>Il materiale, in un modulo solo.</h2>
+    <ul class="limiti">
+      <li data-n="01"><b>Le foto dei tuoi lavori migliori</b>, anche quelle sul telefono. Non cancellarle prima di avermele mandate.</li>
+      <li data-n="02"><b>La tua storia dal 1989 a oggi.</b> Bastano due righe, o un vocale.</li>
+      <li data-n="03"><b>Dieci minuti insieme per il dominio ragosta.eu</b>, che su Hostinger risulta ancora da trasferire.</li>
+    </ul>
+    <p class="nota">Te lo chiedo tutto insieme in un modulo, appena arriva l'acconto. Il materiale mi serve <b>entro dieci giorni dall'acconto</b>.</p>
+  </div>
+
+  <div class="sezione">
+    <span class="etichetta">04 — I tempi</span>
+    <h2>Partono da quando ho tutto il materiale.</h2>
+    <div class="coppia"><span class="k"><b>Prima bozza</b></span><span class="v">entro&nbsp;7&nbsp;giorni</span></div>
+    <div class="coppia"><span class="k"><b>Revisione</b>, insieme in chiamata</span><span class="v">2&nbsp;giri compresi</span></div>
+    <div class="coppia"><span class="k"><b>Sito online</b> su ragosta.eu</span><span class="v">entro&nbsp;4&nbsp;settimane</span></div>
+    <p class="nota">Se il materiale arriva più tardi, i tempi slittano dello stesso tanto. Dopo che approvi la grafica, le modifiche riguardano testi, immagini e colori. Il lavoro è finito quando home, lavori e contatti sono online su ragosta.eu, con il logo e le foto ritoccate: quello che si aggiunge dopo si concorda a parte.</p>
+  </div>
+
+  <div class="sezione">
+    <span class="etichetta">05 — I pagamenti</span>
+    <h2>1.500 €, in due metà.</h2>
+    <table>
+      <tr><th>Voce</th><th>Importo</th></tr>
+      <tr><td>Acconto del 50%<span class="sotto">Fattura del 22/09/2026, scadenza&nbsp;29/09/2026</span></td><td>750,00&nbsp;€</td></tr>
+      <tr><td>Saldo del 50%<span class="sotto">Alla messa online del sito, fattura con scadenza a 7 giorni</span></td><td>750,00&nbsp;€</td></tr>
+      <tr class="totale"><td>Totale</td><td>1.500,00&nbsp;€</td></tr>
+    </table>
+    <p class="nota">Importi senza IVA, regime forfettario. Puoi pagare con bonifico o dal link di pagamento che trovi insieme alla fattura.</p>
+  </div>
+
+  <div class="firme">
+    <div class="firma">
+      <div class="riga"></div>
+      <div class="chi">Emanuele Boccia</div>
+      <div class="ruolo">Siti e sistemi</div>
+      <div class="data">Data ____ / ____ / ________</div>
+    </div>
+    <div class="firma">
+      <div class="riga"></div>
+      <div class="chi">Gaetano Ragosta</div>
+      <div class="ruolo">per NEW R.G.A. S.R.L.</div>
+      <div class="data">Data ____ / ____ / ________</div>
+    </div>
+  </div>
+
+  <div class="riga-tecnica">
+    <span>Emanuele Boccia · P.IVA 10693201211</span>
+    <span class="codice">ACC_2026_001_Ragosta</span>
+    <span>02 / 02</span>
+  </div>
+</div>
+
+</body>
+</html>

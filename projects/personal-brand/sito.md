@@ -162,10 +162,9 @@ confronto]], letto il 20/09/2026.
 - **Il permesso di Marco**, senza il quale il caso 01 non va online, e **i quattro numeri**, senza
   i quali il caso si racconta ma non si dimostra. Se il permesso non arriva, in hero va un lavoro
   di famiglia.
-- **I nomi dei prodotti.** FoodOS, PalestreOS e AutoOS sono nomi di lavoro. Per l'auto **Quinta è
-  fuori**: è un marchio registrato all'EUIPO da un'azienda di software, e
-  [[projects/autoos/nome|la ricerca del nome]] dice di non riproporlo. **Sesta** ha i domini `.it`,
-  `.com` e `.app` già presi e il registro dei marchi ancora da guardare.
+- **I nomi dei prodotti.** Il gestionale per concessionarie e noleggi si chiama **QintaOS**, detto
+  da Emanuele il 24/09/2026, dopo [[projects/autoos/nome|la ricerca del nome]]. **FoodOS** e
+  **PalestreOS** restano nomi di prova: il gestionale per il food e quello sportivo per le ASD.
 - **La condizione per aprire `/sistemi`**: almeno un sistema con un nome deciso, un sito suo e
   qualcosa da mostrare. Il copy della pagina è già pronto e non è quello che manca.
 - ✅ **Il dominio c'è**, dal 20/09/2026: `emanueleboccia.it` e `.com` su Hostinger. **L'handle no**,

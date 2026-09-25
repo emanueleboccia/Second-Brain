@@ -1,0 +1,3296 @@
+{
+"I652": {
+"name": "Serrara Fontana",
+"lat": 40.709261,
+"lon": 13.8939191,
+"istat": "063078"
+},
+"A617": {
+"name": "Barano d'Ischia",
+"lat": 40.7090178,
+"lon": 13.9186022,
+"istat": "063007"
+},
+"D702": {
+"name": "Forio",
+"lat": 40.7368416,
+"lon": 13.8581354,
+"istat": "063031"
+},
+"A268": {
+"name": "Anacapri",
+"lat": 40.555713,
+"lon": 14.2136104,
+"istat": "063004"
+},
+"B696": {
+"name": "Capri",
+"lat": 40.549303,
+"lon": 14.243534,
+"istat": "063014"
+},
+"A128": {
+"name": "Albanella",
+"lat": 40.4784224,
+"lon": 15.1166081,
+"istat": "065003"
+},
+"D390": {
+"name": "Eboli",
+"lat": 40.6175146,
+"lon": 15.0569438,
+"istat": "065050"
+},
+"A717": {
+"name": "Battipaglia",
+"lat": 40.6092539,
+"lon": 14.9821443,
+"istat": "065014"
+},
+"E027": {
+"name": "Giffoni Valle Piana",
+"lat": 40.718112,
+"lon": 14.942347,
+"istat": "065056"
+},
+"G426": {
+"name": "Pellezzano",
+"lat": 40.725211,
+"lon": 14.757443,
+"istat": "065090"
+},
+"B895": {
+"name": "Casal Velino",
+"lat": 40.1909074,
+"lon": 15.1093738,
+"istat": "065028"
+},
+"G796": {
+"name": "Pollica",
+"lat": 40.1905698,
+"lon": 15.0554125,
+"istat": "065098"
+},
+"I031": {
+"name": "San Mauro Cilento",
+"lat": 40.2263548,
+"lon": 15.0440771,
+"istat": "065123"
+},
+"F479": {
+"name": "Montecorice",
+"lat": 40.2340242,
+"lon": 14.984681,
+"istat": "065071"
+},
+"G887": {
+"name": "Stella Cilento",
+"lat": 40.231803,
+"lon": 15.092857,
+"istat": "065144"
+},
+"I677": {
+"name": "Sessa Cilento",
+"lat": 40.259204,
+"lon": 15.075756,
+"istat": "065141"
+},
+"G447": {
+"name": "Perdifumo",
+"lat": 40.2659861,
+"lon": 15.015499,
+"istat": "065091"
+},
+"E767": {
+"name": "Lustra",
+"lat": 40.2880748,
+"lon": 15.0682496,
+"istat": "065064"
+},
+"C125": {
+"name": "Castellabate",
+"lat": 40.2855627,
+"lon": 14.947901,
+"istat": "065031"
+},
+"I648": {
+"name": "Serramezzana",
+"lat": 40.2439478,
+"lon": 15.0320589,
+"istat": "065139"
+},
+"G063": {
+"name": "Omignano",
+"lat": 40.248204,
+"lon": 15.085156,
+"istat": "065084"
+},
+"I862": {
+"name": "Sorrento",
+"lat": 40.624906,
+"lon": 14.374836,
+"istat": "063080"
+},
+"L845": {
+"name": "Vico Equense",
+"lat": 40.6623446,
+"lon": 14.4264683,
+"istat": "063086"
+},
+"G932": {
+"name": "Positano",
+"lat": 40.6286581,
+"lon": 14.4854955,
+"istat": "065100"
+},
+"F030": {
+"name": "Massa Lubrense",
+"lat": 40.6117381,
+"lon": 14.3434239,
+"istat": "063044"
+},
+"C129": {
+"name": "Castellammare di Stabia",
+"lat": 40.6943046,
+"lon": 14.4804813,
+"istat": "063024"
+},
+"I208": {
+"name": "Sant'Agnello",
+"lat": 40.630006,
+"lon": 14.397136,
+"istat": "063071"
+},
+"G568": {
+"name": "Piano di Sorrento",
+"lat": 40.632955,
+"lon": 14.4113109,
+"istat": "063053"
+},
+"F162": {
+"name": "Meta",
+"lat": 40.639206,
+"lon": 14.418237,
+"istat": "063046"
+},
+"A251": {
+"name": "Amalfi",
+"lat": 40.63367,
+"lon": 14.6026095,
+"istat": "065006"
+},
+"A068": {
+"name": "Agerola",
+"lat": 40.637707,
+"lon": 14.538839,
+"istat": "063003"
+},
+"I486": {
+"name": "Scala",
+"lat": 40.6536142,
+"lon": 14.6077924,
+"istat": "065138"
+},
+"H198": {
+"name": "Ravello",
+"lat": 40.6496643,
+"lon": 14.6122753,
+"istat": "065104"
+},
+"G670": {
+"name": "Pimonte",
+"lat": 40.673608,
+"lon": 14.509838,
+"istat": "063054"
+},
+"E839": {
+"name": "Maiori",
+"lat": 40.648908,
+"lon": 14.640141,
+"istat": "065066"
+},
+"C584": {
+"name": "Cetara",
+"lat": 40.6482139,
+"lon": 14.7004154,
+"istat": "065041"
+},
+"L860": {
+"name": "Vietri sul Mare",
+"lat": 40.6715477,
+"lon": 14.7286002,
+"istat": "065157"
+},
+"E131": {
+"name": "Gragnano",
+"lat": 40.6899999,
+"lon": 14.5210654,
+"istat": "063035"
+},
+"C361": {
+"name": "Cava de' Tirreni",
+"lat": 40.7004616,
+"lon": 14.7062633,
+"istat": "065037"
+},
+"L323": {
+"name": "Tramonti",
+"lat": 40.6942622,
+"lon": 14.6398879,
+"istat": "065151"
+},
+"E557": {
+"name": "Lettere",
+"lat": 40.704909,
+"lon": 14.544939,
+"istat": "063039"
+},
+"C984": {
+"name": "Corbara",
+"lat": 40.7247819,
+"lon": 14.592763,
+"istat": "065047"
+},
+"G976": {
+"name": "Praiano",
+"lat": 40.611107,
+"lon": 14.53134,
+"istat": "065102"
+},
+"D826": {
+"name": "Furore",
+"lat": 40.618792,
+"lon": 14.5533482,
+"istat": "065053"
+},
+"C940": {
+"name": "Conca dei Marini",
+"lat": 40.6176092,
+"lon": 14.5725004,
+"istat": "065044"
+},
+"B980": {
+"name": "Casola di Napoli",
+"lat": 40.6960675,
+"lon": 14.5334192,
+"istat": "063022"
+},
+"A487": {
+"name": "Atrani",
+"lat": 40.636908,
+"lon": 14.607541,
+"istat": "065011"
+},
+"F223": {
+"name": "Minori",
+"lat": 40.652708,
+"lon": 14.624941,
+"istat": "065068"
+},
+"H644": {
+"name": "Rutino",
+"lat": 40.299704,
+"lon": 15.072755,
+"istat": "065112"
+},
+"E480": {
+"name": "Laureana Cilento",
+"lat": 40.2991564,
+"lon": 15.0384551,
+"istat": "065060"
+},
+"L212": {
+"name": "Torchiara",
+"lat": 40.3229668,
+"lon": 15.0523949,
+"istat": "065147"
+},
+"H062": {
+"name": "Prignano Cilento",
+"lat": 40.330905,
+"lon": 15.068655,
+"istat": "065103"
+},
+"A091": {
+"name": "Agropoli",
+"lat": 40.346905,
+"lon": 14.996553,
+"istat": "065002"
+},
+"C676": {
+"name": "Cicerale",
+"lat": 40.3438013,
+"lon": 15.1292011,
+"istat": "065042"
+},
+"G011": {
+"name": "Ogliastro Cilento",
+"lat": 40.352405,
+"lon": 15.043154,
+"istat": "065081"
+},
+"L377": {
+"name": "Trentinara",
+"lat": 40.4003951,
+"lon": 15.1074658,
+"istat": "065152"
+},
+"B644": {
+"name": "Capaccio Paestum",
+"lat": 40.424407,
+"lon": 15.080854,
+"istat": "065025"
+},
+"H394": {
+"name": "Roccadaspide",
+"lat": 40.4253639,
+"lon": 15.1917851,
+"istat": "065106"
+},
+"E060": {
+"name": "Giungano",
+"lat": 40.394707,
+"lon": 15.107155,
+"istat": "065058"
+},
+"G834": {
+"name": "Pontecagnano Faiano",
+"lat": 40.6409045,
+"lon": 14.8818819,
+"istat": "065099"
+},
+"H703": {
+"name": "Salerno",
+"lat": 40.6803601,
+"lon": 14.7594542,
+"istat": "065116"
+},
+"H800": {
+"name": "San Cipriano Picentino",
+"lat": 40.7200033,
+"lon": 14.8700132,
+"istat": "065118"
+},
+"H977": {
+"name": "San Mango Piemonte",
+"lat": 40.7026349,
+"lon": 14.8328223,
+"istat": "065121"
+},
+"E026": {
+"name": "Giffoni Sei Casali",
+"lat": 40.7191414,
+"lon": 14.9059716,
+"istat": "065055"
+},
+"A230": {
+"name": "Altavilla Silentina",
+"lat": 40.5302405,
+"lon": 15.1310307,
+"istat": "065005"
+},
+"I666": {
+"name": "Serre",
+"lat": 40.582511,
+"lon": 15.185554,
+"istat": "065140"
+},
+"B492": {
+"name": "Campagna",
+"lat": 40.6647292,
+"lon": 15.1071455,
+"istat": "065022"
+},
+"G023": {
+"name": "Olevano sul Tusciano",
+"lat": 40.657211,
+"lon": 15.02305,
+"istat": "065082"
+},
+"F481": {
+"name": "Montecorvino Rovella",
+"lat": 40.6959126,
+"lon": 14.9761046,
+"istat": "065073"
+},
+"F480": {
+"name": "Montecorvino Pugliano",
+"lat": 40.6799278,
+"lon": 14.9453741,
+"istat": "065072"
+},
+"A023": {
+"name": "Acerno",
+"lat": 40.737713,
+"lon": 15.056949,
+"istat": "065001"
+},
+"M294": {
+"name": "Bellizzi",
+"lat": 40.6201805,
+"lon": 14.948453,
+"istat": "065158"
+},
+"G964": {
+"name": "Pozzuoli",
+"lat": 40.822643,
+"lon": 14.1219109,
+"istat": "063060"
+},
+"E054": {
+"name": "Giugliano in Campania",
+"lat": 40.9283217,
+"lon": 14.2011232,
+"istat": "063034"
+},
+"C291": {
+"name": "Castel Volturno",
+"lat": 41.034313,
+"lon": 13.9408351,
+"istat": "061027"
+},
+"I273": {
+"name": "Sant'Angelo d'Alife",
+"lat": 41.3592004,
+"lon": 14.2635865,
+"istat": "061086"
+},
+"E396": {
+"name": "Lacco Ameno",
+"lat": 40.7509699,
+"lon": 13.8900602,
+"istat": "063038"
+},
+"B924": {
+"name": "Casamicciola Terme",
+"lat": 40.7473561,
+"lon": 13.9075118,
+"istat": "063019"
+},
+"E329": {
+"name": "Ischia",
+"lat": 40.734205,
+"lon": 13.947125,
+"istat": "063037"
+},
+"H072": {
+"name": "Procida",
+"lat": 40.7649991,
+"lon": 14.0239063,
+"istat": "063061"
+},
+"A535": {
+"name": "Bacoli",
+"lat": 40.7965939,
+"lon": 14.0777733,
+"istat": "063006"
+},
+"F488": {
+"name": "Monte di Procida",
+"lat": 40.800907,
+"lon": 14.051827,
+"istat": "063047"
+},
+"F839": {
+"name": "Napoli",
+"lat": 40.8358846,
+"lon": 14.2487679,
+"istat": "063049"
+},
+"H114": {
+"name": "Quarto",
+"lat": 40.8771936,
+"lon": 14.1401591,
+"istat": "063063"
+},
+"E906": {
+"name": "Marano di Napoli",
+"lat": 40.89761,
+"lon": 14.190528,
+"istat": "063041"
+},
+"G309": {
+"name": "Villaricca",
+"lat": 40.921611,
+"lon": 14.189828,
+"istat": "063087"
+},
+"B452": {
+"name": "Calvizzano",
+"lat": 40.9056961,
+"lon": 14.1932896,
+"istat": "063012"
+},
+"F799": {
+"name": "Mugnano di Napoli",
+"lat": 40.9093004,
+"lon": 14.2068354,
+"istat": "063048"
+},
+"A455": {
+"name": "Arzano",
+"lat": 40.9160204,
+"lon": 14.2680178,
+"istat": "063005"
+},
+"F111": {
+"name": "Melito di Napoli",
+"lat": 40.920511,
+"lon": 14.230029,
+"istat": "063045"
+},
+"L844": {
+"name": "Villa Literno",
+"lat": 41.0096944,
+"lon": 14.0743065,
+"istat": "061099"
+},
+"B581": {
+"name": "Cancello ed Arnone",
+"lat": 41.074112,
+"lon": 14.027423,
+"istat": "061012"
+},
+"E158": {
+"name": "Grazzanise",
+"lat": 41.089413,
+"lon": 14.100324,
+"istat": "061042"
+},
+"F352": {
+"name": "Mondragone",
+"lat": 41.114112,
+"lon": 13.893519,
+"istat": "061052"
+},
+"D471": {
+"name": "Falciano del Massico",
+"lat": 41.165122,
+"lon": 13.9494528,
+"istat": "061101"
+},
+"D769": {
+"name": "Francolise",
+"lat": 41.185015,
+"lon": 14.056722,
+"istat": "061036"
+},
+"B781": {
+"name": "Carinola",
+"lat": 41.186987,
+"lon": 13.9812129,
+"istat": "061017"
+},
+"G130": {
+"name": "Orta di Atella",
+"lat": 40.966512,
+"lon": 14.268029,
+"istat": "061053"
+},
+"I993": {
+"name": "Succivo",
+"lat": 40.968012,
+"lon": 14.255629,
+"istat": "061090"
+},
+"H798": {
+"name": "San Cipriano d'Aversa",
+"lat": 40.998812,
+"lon": 14.131726,
+"istat": "061074"
+},
+"B916": {
+"name": "Casaluce",
+"lat": 41.001912,
+"lon": 14.198027,
+"istat": "061020"
+},
+"D799": {
+"name": "Frignano",
+"lat": 40.9979333,
+"lon": 14.1793758,
+"istat": "061037"
+},
+"L155": {
+"name": "Teverola",
+"lat": 40.9955725,
+"lon": 14.2073729,
+"istat": "061092"
+},
+"D801": {
+"name": "Villa di Briano",
+"lat": 41.000012,
+"lon": 14.160726,
+"istat": "061098"
+},
+"E932": {
+"name": "Marcianise",
+"lat": 41.0329966,
+"lon": 14.2984228,
+"istat": "061049"
+},
+"B872": {
+"name": "Casal di Principe",
+"lat": 41.011412,
+"lon": 14.124825,
+"istat": "061019"
+},
+"I234": {
+"name": "Santa Maria Capua Vetere",
+"lat": 41.0799063,
+"lon": 14.2564191,
+"istat": "061083"
+},
+"I261": {
+"name": "San Tammaro",
+"lat": 41.0759018,
+"lon": 14.2316709,
+"istat": "061085"
+},
+"E784": {
+"name": "Macerata Campania",
+"lat": 41.063314,
+"lon": 14.273728,
+"istat": "061047"
+},
+"I247": {
+"name": "Santa Maria La Fossa",
+"lat": 41.0919601,
+"lon": 14.1284079,
+"istat": "061084"
+},
+"I131": {
+"name": "San Prisco",
+"lat": 41.0856546,
+"lon": 14.2783908,
+"istat": "061081"
+},
+"B715": {
+"name": "Capua",
+"lat": 41.1079984,
+"lon": 14.2097176,
+"istat": "061015"
+},
+"M092": {
+"name": "Vitulazio",
+"lat": 41.164116,
+"lon": 14.216925,
+"istat": "061100"
+},
+"A755": {
+"name": "Bellona",
+"lat": 41.160016,
+"lon": 14.232326,
+"istat": "061007"
+},
+"H101": {
+"name": "Qualiano",
+"lat": 40.9188361,
+"lon": 14.1536107,
+"istat": "063062"
+},
+"G333": {
+"name": "Parete",
+"lat": 40.958911,
+"lon": 14.161927,
+"istat": "061054"
+},
+"L379": {
+"name": "Trentola Ducenta",
+"lat": 40.9762301,
+"lon": 14.1771658,
+"istat": "061094"
+},
+"M260": {
+"name": "Casapesenna",
+"lat": 40.991512,
+"lon": 14.136126,
+"istat": "061103"
+},
+"H978": {
+"name": "San Marcellino",
+"lat": 40.9864545,
+"lon": 14.1753318,
+"istat": "061077"
+},
+"A512": {
+"name": "Aversa",
+"lat": 40.973212,
+"lon": 14.204928,
+"istat": "061005"
+},
+"E754": {
+"name": "Lusciano",
+"lat": 40.9695313,
+"lon": 14.1916598,
+"istat": "061046"
+},
+"B925": {
+"name": "Casandrino",
+"lat": 40.9358637,
+"lon": 14.2488046,
+"istat": "063020"
+},
+"E224": {
+"name": "Grumo Nevano",
+"lat": 40.9381543,
+"lon": 14.2592688,
+"istat": "063036"
+},
+"D789": {
+"name": "Frattamaggiore",
+"lat": 40.9414265,
+"lon": 14.2722092,
+"istat": "063032"
+},
+"I293": {
+"name": "Sant'Antimo",
+"lat": 40.945711,
+"lon": 14.231429,
+"istat": "063073"
+},
+"I306": {
+"name": "Sant'Arpino",
+"lat": 40.959512,
+"lon": 14.248929,
+"istat": "061087"
+},
+"D790": {
+"name": "Frattaminore",
+"lat": 40.9557397,
+"lon": 14.270948,
+"istat": "063033"
+},
+"C561": {
+"name": "Cesa",
+"lat": 40.964412,
+"lon": 14.230128,
+"istat": "061029"
+},
+"E173": {
+"name": "Gricignano di Aversa",
+"lat": 40.9800924,
+"lon": 14.2337107,
+"istat": "061043"
+},
+"B779": {
+"name": "Carinaro",
+"lat": 40.9835844,
+"lon": 14.2189907,
+"istat": "061016"
+},
+"I676": {
+"name": "Sessa Aurunca",
+"lat": 41.2369344,
+"lon": 13.9347304,
+"istat": "061088"
+},
+"M262": {
+"name": "Cellole",
+"lat": 41.204814,
+"lon": 13.854317,
+"istat": "061102"
+},
+"L083": {
+"name": "Teano",
+"lat": 41.2510841,
+"lon": 14.0671513,
+"istat": "061091"
+},
+"B361": {
+"name": "Caianello",
+"lat": 41.3042858,
+"lon": 14.0782247,
+"istat": "061008"
+},
+"E998": {
+"name": "Marzano Appio",
+"lat": 41.3166705,
+"lon": 14.0424236,
+"istat": "061050"
+},
+"C939": {
+"name": "Conca della Campania",
+"lat": 41.3334084,
+"lon": 13.9896332,
+"istat": "061031"
+},
+"D886": {
+"name": "Galluccio",
+"lat": 41.352318,
+"lon": 13.953717,
+"istat": "061039"
+},
+"H398": {
+"name": "Rocca d'Evandro",
+"lat": 41.389018,
+"lon": 13.908116,
+"istat": "061069"
+},
+"L205": {
+"name": "Tora e Piccilli",
+"lat": 41.338218,
+"lon": 14.022419,
+"istat": "061093"
+},
+"I885": {
+"name": "Sparanise",
+"lat": 41.186815,
+"lon": 14.093722,
+"istat": "061089"
+},
+"G661": {
+"name": "Pignataro Maggiore",
+"lat": 41.190816,
+"lon": 14.172324,
+"istat": "061060"
+},
+"G849": {
+"name": "Pontelatone",
+"lat": 41.193517,
+"lon": 14.251726,
+"istat": "061061"
+},
+"G364": {
+"name": "Pastorano",
+"lat": 41.180816,
+"lon": 14.198225,
+"istat": "061055"
+},
+"B477": {
+"name": "Camigliano",
+"lat": 41.179816,
+"lon": 14.209525,
+"istat": "061011"
+},
+"E011": {
+"name": "Giano Vetusto",
+"lat": 41.202716,
+"lon": 14.193424,
+"istat": "061040"
+},
+"D709": {
+"name": "Formicola",
+"lat": 41.2104397,
+"lon": 14.2327981,
+"istat": "061035"
+},
+"B445": {
+"name": "Calvi Risorta",
+"lat": 41.216538,
+"lon": 14.1287306,
+"istat": "061010"
+},
+"E570": {
+"name": "Liberi",
+"lat": 41.227818,
+"lon": 14.290026,
+"istat": "061045"
+},
+"H459": {
+"name": "Rocchetta e Croce",
+"lat": 41.2369716,
+"lon": 14.157106,
+"istat": "061072"
+},
+"H436": {
+"name": "Roccaromana",
+"lat": 41.2733301,
+"lon": 14.2230652,
+"istat": "061071"
+},
+"G620": {
+"name": null,
+"lat": 41.2717278,
+"lon": 14.1880047,
+"istat": "061058"
+},
+"L540": {
+"name": "Vairano Patenora",
+"lat": 41.337019,
+"lon": 14.1311068,
+"istat": "061095"
+},
+"A579": {
+"name": "Baia e Latina",
+"lat": 41.3004047,
+"lon": 14.2513235,
+"istat": "061006"
+},
+"G630": {
+"name": "Pietravairano",
+"lat": 41.325219,
+"lon": 14.165922,
+"istat": "061059"
+},
+"H268": {
+"name": "Riardo",
+"lat": 41.262717,
+"lon": 14.151923,
+"istat": "061068"
+},
+"H045": {
+"name": "Presenzano",
+"lat": 41.376619,
+"lon": 14.07642,
+"istat": "061065"
+},
+"F203": {
+"name": "Mignano Monte Lungo",
+"lat": 41.4046121,
+"lon": 13.9829077,
+"istat": "061051"
+},
+"I113": {
+"name": "San Pietro Infine",
+"lat": 41.44592,
+"lon": 13.961516,
+"istat": "061079"
+},
+"H202": {
+"name": "Raviscanina",
+"lat": 41.37022,
+"lon": 14.242723,
+"istat": "061066"
+},
+"A106": {
+"name": "Ailano",
+"lat": 41.3906237,
+"lon": 14.2031994,
+"istat": "061001"
+},
+"G995": {
+"name": "Pratella",
+"lat": 41.4058248,
+"lon": 14.1780969,
+"istat": "061064"
+},
+"G991": {
+"name": "Prata Sannita",
+"lat": 41.432821,
+"lon": 14.202722,
+"istat": "061063"
+},
+"L594": {
+"name": "Valle Agricola",
+"lat": 41.425021,
+"lon": 14.255023,
+"istat": "061096"
+},
+"C716": {
+"name": "Ciorlano",
+"lat": 41.450221,
+"lon": 14.15832,
+"istat": "061030"
+},
+"E554": {
+"name": "Letino",
+"lat": 41.453022,
+"lon": 14.255422,
+"istat": "061044"
+},
+"D884": {
+"name": "Gallo Matese",
+"lat": 41.464522,
+"lon": 14.225022,
+"istat": "061038"
+},
+"B704": {
+"name": "Capriati a Volturno",
+"lat": 41.468622,
+"lon": 14.14542,
+"istat": "061014"
+},
+"D683": {
+"name": "Fontegreca",
+"lat": 41.4566501,
+"lon": 14.181518,
+"istat": "061034"
+},
+"L245": {
+"name": "Torre Annunziata",
+"lat": 40.7525236,
+"lon": 14.4550044,
+"istat": "063083"
+},
+"B076": {
+"name": "Boscoreale",
+"lat": 40.7740398,
+"lon": 14.4774318,
+"istat": "063008"
+},
+"L259": {
+"name": "Torre del Greco",
+"lat": 40.7879211,
+"lon": 14.3682813,
+"istat": "063084"
+},
+"L142": {
+"name": "Terzigno",
+"lat": 40.8124424,
+"lon": 14.4964843,
+"istat": "063082"
+},
+"H243": {
+"name": "Ercolano",
+"lat": 40.806309,
+"lon": 14.360933,
+"istat": "063064"
+},
+"G190": {
+"name": "Ottaviano",
+"lat": 40.8498175,
+"lon": 14.4901274,
+"istat": "063051"
+},
+"G902": {
+"name": "Portici",
+"lat": 40.8189733,
+"lon": 14.3387454,
+"istat": "063059"
+},
+"H931": {
+"name": "San Giuseppe Vesuviano",
+"lat": 40.829811,
+"lon": 14.504436,
+"istat": "063068"
+},
+"M289": {
+"name": "Massa di Somma",
+"lat": 40.8476313,
+"lon": 14.3743024,
+"istat": "063092"
+},
+"G795": {
+"name": "Pollena Trocchia",
+"lat": 40.8548665,
+"lon": 14.3793887,
+"istat": "063056"
+},
+"I262": {
+"name": "Sant'Anastasia",
+"lat": 40.866911,
+"lon": 14.404833,
+"istat": "063072"
+},
+"I820": {
+"name": "Somma Vesuviana",
+"lat": 40.8716147,
+"lon": 14.4361417,
+"istat": "063079"
+},
+"F924": {
+"name": "Nola",
+"lat": 40.9210826,
+"lon": 14.5327402,
+"istat": "063050"
+},
+"I540": {
+"name": "Scisciano",
+"lat": 40.916013,
+"lon": 14.485735,
+"istat": "063077"
+},
+"G812": {
+"name": "Pomigliano d'Arco",
+"lat": 40.907912,
+"lon": 14.386233,
+"istat": "063057"
+},
+"E955": {
+"name": "Marigliano",
+"lat": 40.9249138,
+"lon": 14.4568673,
+"istat": "063043"
+},
+"B227": {
+"name": "Brusciano",
+"lat": 40.923212,
+"lon": 14.423933,
+"istat": "063010"
+},
+"E954": {
+"name": "Mariglianella",
+"lat": 40.929513,
+"lon": 14.435833,
+"istat": "063042"
+},
+"I391": {
+"name": "San Vitaliano",
+"lat": 40.927213,
+"lon": 14.480134,
+"istat": "063075"
+},
+"A064": {
+"name": "Afragola",
+"lat": 40.926012,
+"lon": 14.310831,
+"istat": "063002"
+},
+"A399": {
+"name": "Ariano Irpino",
+"lat": 41.1526668,
+"lon": 15.0885633,
+"istat": "064005"
+},
+"M093": {
+"name": "Vitulano",
+"lat": 41.1739788,
+"lon": 14.6456236,
+"istat": "062077"
+},
+"D230": {
+"name": "Cusano Mutri",
+"lat": 41.3390819,
+"lon": 14.5073183,
+"istat": "062026"
+},
+"F717": {
+"name": "Morcone",
+"lat": 41.3411011,
+"lon": 14.6636259,
+"istat": "062044"
+},
+"D650": {
+"name": "Foiano di Val Fortore",
+"lat": 41.351825,
+"lon": 14.97734,
+"istat": "062031"
+},
+"A696": {
+"name": "Baselice",
+"lat": 41.393726,
+"lon": 14.972839,
+"istat": "062007"
+},
+"M280": {
+"name": "Trecase",
+"lat": 40.7708909,
+"lon": 14.4396509,
+"istat": "063091"
+},
+"B077": {
+"name": "Boscotrecase",
+"lat": 40.77431,
+"lon": 14.462036,
+"istat": "063009"
+},
+"H892": {
+"name": "San Giorgio a Cremano",
+"lat": 40.8292962,
+"lon": 14.3341677,
+"istat": "063067"
+},
+"I151": {
+"name": "San Sebastiano al Vesuvio",
+"lat": 40.8435649,
+"lon": 14.3699499,
+"istat": "063070"
+},
+"C495": {
+"name": "Cercola",
+"lat": 40.8600227,
+"lon": 14.3589664,
+"istat": "063026"
+},
+"B990": {
+"name": "Casoria",
+"lat": 40.9045572,
+"lon": 14.2901223,
+"istat": "063023"
+},
+"B946": {
+"name": "Casavatore",
+"lat": 40.899211,
+"lon": 14.27663,
+"istat": "063021"
+},
+"M115": {
+"name": "Volla",
+"lat": 40.878411,
+"lon": 14.342932,
+"istat": "063089"
+},
+"B905": {
+"name": "Casalnuovo di Napoli",
+"lat": 40.9045336,
+"lon": 14.351078,
+"istat": "063017"
+},
+"C188": {
+"name": "Castello di Cisterna",
+"lat": 40.915112,
+"lon": 14.406233,
+"istat": "063025"
+},
+"M273": {
+"name": "Santa Maria la Carità",
+"lat": 40.7210029,
+"lon": 14.5128197,
+"istat": "063090"
+},
+"I300": {
+"name": "Sant'Antonio Abate",
+"lat": 40.723709,
+"lon": 14.546538,
+"istat": "063074"
+},
+"F912": {
+"name": "Nocera Inferiore",
+"lat": 40.7472133,
+"lon": 14.6433202,
+"istat": "065078"
+},
+"I317": {
+"name": "Sant'Egidio del Monte Albino",
+"lat": 40.7338419,
+"lon": 14.597044,
+"istat": "065130"
+},
+"G230": {
+"name": "Pagani",
+"lat": 40.7498877,
+"lon": 14.6133234,
+"istat": "065088"
+},
+"A294": {
+"name": "Angri",
+"lat": 40.7376592,
+"lon": 14.5722829,
+"istat": "065007"
+},
+"G813": {
+"name": "Pompei",
+"lat": 40.7491267,
+"lon": 14.5006415,
+"istat": "063058"
+},
+"I483": {
+"name": "Scafati",
+"lat": 40.7499887,
+"lon": 14.5269491,
+"istat": "065137"
+},
+"H431": {
+"name": "Roccapiemonte",
+"lat": 40.762465,
+"lon": 14.6923748,
+"istat": "065108"
+},
+"I019": {
+"name": "San Marzano sul Sarno",
+"lat": 40.7752148,
+"lon": 14.5873622,
+"istat": "065122"
+},
+"C259": {
+"name": "Castel San Giorgio",
+"lat": 40.7844003,
+"lon": 14.6993869,
+"istat": "065034"
+},
+"I377": {
+"name": "San Valentino Torio",
+"lat": 40.793011,
+"lon": 14.598039,
+"istat": "065132"
+},
+"I438": {
+"name": "Sarno",
+"lat": 40.810811,
+"lon": 14.619839,
+"istat": "065135"
+},
+"G762": {
+"name": "Poggiomarino",
+"lat": 40.803111,
+"lon": 14.539037,
+"istat": "063055"
+},
+"I978": {
+"name": "Striano",
+"lat": 40.8158549,
+"lon": 14.5764685,
+"istat": "063081"
+},
+"B115": {
+"name": "Bracigliano",
+"lat": 40.823512,
+"lon": 14.705441,
+"istat": "065016"
+},
+"H128": {
+"name": "Quindici",
+"lat": 40.863313,
+"lon": 14.647539,
+"istat": "064077"
+},
+"G283": {
+"name": "Palma Campania",
+"lat": 40.8674331,
+"lon": 14.5499642,
+"istat": "063052"
+},
+"H860": {
+"name": "San Gennaro Vesuviano",
+"lat": 40.8604005,
+"lon": 14.5291676,
+"istat": "063066"
+},
+"E487": {
+"name": "Lauro",
+"lat": 40.8799681,
+"lon": 14.629467,
+"istat": "064043"
+},
+"F762": {
+"name": "Moschiano",
+"lat": 40.8742455,
+"lon": 14.6583584,
+"istat": "064064"
+},
+"F506": {
+"name": "Monteforte Irpino",
+"lat": 40.8919215,
+"lon": 14.7139046,
+"istat": "064054"
+},
+"D331": {
+"name": "Domicella",
+"lat": 40.880013,
+"lon": 14.587737,
+"istat": "064031"
+},
+"L061": {
+"name": "Taurano",
+"lat": 40.8840691,
+"lon": 14.6340056,
+"istat": "064106"
+},
+"M072": {
+"name": "Visciano",
+"lat": 40.925414,
+"lon": 14.582837,
+"istat": "063088"
+},
+"F913": {
+"name": "Nocera Superiore",
+"lat": 40.7415603,
+"lon": 14.6715039,
+"istat": "065079"
+},
+"I720": {
+"name": "Siano",
+"lat": 40.8041363,
+"lon": 14.6904461,
+"istat": "065142"
+},
+"B740": {
+"name": "Carbonara di Nola",
+"lat": 40.8742285,
+"lon": 14.5786305,
+"istat": "063015"
+},
+"I469": {
+"name": "Saviano",
+"lat": 40.905613,
+"lon": 14.505035,
+"istat": "063076"
+},
+"E620": {
+"name": "Liveri",
+"lat": 40.904713,
+"lon": 14.565937,
+"istat": "063040"
+},
+"E997": {
+"name": "Marzano di Nola",
+"lat": 40.9027195,
+"lon": 14.5840934,
+"istat": "064047"
+},
+"I073": {
+"name": "San Paolo Bel Sito",
+"lat": 40.914813,
+"lon": 14.546736,
+"istat": "063069"
+},
+"G242": {
+"name": "Pago del Vallo di Lauro",
+"lat": 40.897213,
+"lon": 14.607638,
+"istat": "064068"
+},
+"B759": {
+"name": "Cardito",
+"lat": 40.942012,
+"lon": 14.29943,
+"istat": "063016"
+},
+"D170": {
+"name": "Crispano",
+"lat": 40.952512,
+"lon": 14.28993,
+"istat": "063030"
+},
+"A024": {
+"name": "Acerra",
+"lat": 40.9460532,
+"lon": 14.3750083,
+"istat": "063001"
+},
+"B371": {
+"name": "Caivano",
+"lat": 40.957112,
+"lon": 14.31023,
+"istat": "063011"
+},
+"H834": {
+"name": "San Felice a Cancello",
+"lat": 41.0123935,
+"lon": 14.4829931,
+"istat": "061075"
+},
+"E791": {
+"name": "Maddaloni",
+"lat": 41.0398815,
+"lon": 14.3792066,
+"istat": "061048"
+},
+"I233": {
+"name": "Santa Maria a Vico",
+"lat": 41.0268566,
+"lon": 14.4651862,
+"istat": "061082"
+},
+"C558": {
+"name": "Cervino",
+"lat": 41.040015,
+"lon": 14.424032,
+"istat": "061028"
+},
+"B963": {
+"name": "Caserta",
+"lat": 41.0720545,
+"lon": 14.3312916,
+"istat": "061022"
+},
+"D386": {
+"name": "Durazzano",
+"lat": 41.0624811,
+"lon": 14.4474777,
+"istat": "062028"
+},
+"I197": {
+"name": "Sant'Agata de' Goti",
+"lat": 41.0885378,
+"lon": 14.5037928,
+"istat": "062070"
+},
+"L591": {
+"name": "Valle di Maddaloni",
+"lat": 41.079515,
+"lon": 14.415631,
+"istat": "061097"
+},
+"B860": {
+"name": "Casagiove",
+"lat": 41.074715,
+"lon": 14.307729,
+"istat": "061018"
+},
+"E589": {
+"name": "Limatola",
+"lat": 41.140817,
+"lon": 14.39293,
+"istat": "062038"
+},
+"C211": {
+"name": "Castel Morrone",
+"lat": 41.121016,
+"lon": 14.354729,
+"istat": "061026"
+},
+"D380": {
+"name": "Dugenta",
+"lat": 41.132217,
+"lon": 14.452431,
+"istat": "062027"
+},
+"B667": {
+"name": "Capodrise",
+"lat": 41.0441395,
+"lon": 14.303337,
+"istat": "061013"
+},
+"I056": {
+"name": "San Nicola La Strada",
+"lat": 41.051814,
+"lon": 14.331329,
+"istat": "061078"
+},
+"H210": {
+"name": "Recale",
+"lat": 41.055114,
+"lon": 14.304029,
+"istat": "061067"
+},
+"G903": {
+"name": "Portico di Caserta",
+"lat": 41.056514,
+"lon": 14.279428,
+"istat": "061062"
+},
+"F043": {
+"name": "San Marco Evangelista",
+"lat": 41.0370179,
+"lon": 14.3362944,
+"istat": "061104"
+},
+"B935": {
+"name": "Casapulla",
+"lat": 41.075314,
+"lon": 14.289728,
+"istat": "061021"
+},
+"D228": {
+"name": "Curti",
+"lat": 41.0740234,
+"lon": 14.2739765,
+"istat": "061032"
+},
+"C697": {
+"name": "Cimitile",
+"lat": 40.940513,
+"lon": 14.525435,
+"istat": "063028"
+},
+"B565": {
+"name": "Camposano",
+"lat": 40.9537434,
+"lon": 14.5291542,
+"istat": "063013"
+},
+"F798": {
+"name": "Mugnano del Cardinale",
+"lat": 40.943014,
+"lon": 14.635638,
+"istat": "064065"
+},
+"A580": {
+"name": "Baiano",
+"lat": 40.952514,
+"lon": 14.616737,
+"istat": "064010"
+},
+"A508": {
+"name": "Avella",
+"lat": 40.958914,
+"lon": 14.600537,
+"istat": "064007"
+},
+"I893": {
+"name": "Sperone",
+"lat": 40.9523593,
+"lon": 14.6032798,
+"istat": "064103"
+},
+"L460": {
+"name": "Tufino",
+"lat": 40.954114,
+"lon": 14.565936,
+"istat": "063085"
+},
+"I756": {
+"name": "Sirignano",
+"lat": 40.9510139,
+"lon": 14.6315945,
+"istat": "064100"
+},
+"H097": {
+"name": "Quadrelle",
+"lat": 40.9469957,
+"lon": 14.6382602,
+"istat": "064076"
+},
+"C675": {
+"name": "Cicciano",
+"lat": 40.964714,
+"lon": 14.538935,
+"istat": "063027"
+},
+"H433": {
+"name": "Roccarainola",
+"lat": 40.971255,
+"lon": 14.5610262,
+"istat": "063065"
+},
+"G311": {
+"name": "Pannarano",
+"lat": 41.010215,
+"lon": 14.7033415,
+"istat": "062047"
+},
+"I016": {
+"name": "San Martino Valle Caudina",
+"lat": 41.0232051,
+"lon": 14.6630041,
+"istat": "064083"
+},
+"C557": {
+"name": "Cervinara",
+"lat": 41.0219277,
+"lon": 14.6132908,
+"istat": "064025"
+},
+"A403": {
+"name": "Arienzo",
+"lat": 41.0242566,
+"lon": 14.4970522,
+"istat": "061004"
+},
+"G318": {
+"name": "Paolisi",
+"lat": 41.0370844,
+"lon": 14.5781524,
+"istat": "062048"
+},
+"D693": {
+"name": "Forchia",
+"lat": 41.0302254,
+"lon": 14.537343,
+"istat": "062032"
+},
+"A431": {
+"name": "Arpaia",
+"lat": 41.0361265,
+"lon": 14.5469737,
+"istat": "062005"
+},
+"F274": {
+"name": "Moiano",
+"lat": 41.0795121,
+"lon": 14.5429198,
+"istat": "062040"
+},
+"F636": {
+"name": "Montesarchio",
+"lat": 41.0639234,
+"lon": 14.6397875,
+"istat": "062043"
+},
+"A970": {
+"name": "Bonea",
+"lat": 41.0752056,
+"lon": 14.6180012,
+"istat": "062009"
+},
+"A330": {
+"name": "Apollosa",
+"lat": 41.094118,
+"lon": 14.705337,
+"istat": "062004"
+},
+"B239": {
+"name": "Bucciano",
+"lat": 41.0761134,
+"lon": 14.5723371,
+"istat": "062010"
+},
+"L185": {
+"name": "Tocco Caudio",
+"lat": 41.1251593,
+"lon": 14.6342676,
+"istat": "062075"
+},
+"B542": {
+"name": "Campoli del Monte Taburno",
+"lat": 41.131518,
+"lon": 14.645935,
+"istat": "062014"
+},
+"C250": {
+"name": "Castelpoto",
+"lat": 41.1409274,
+"lon": 14.701937,
+"istat": "062018"
+},
+"B922": {
+"name": "Casamarciano",
+"lat": 40.9316178,
+"lon": 14.5534765,
+"istat": "063018"
+},
+"C929": {
+"name": "Comiziano",
+"lat": 40.9521422,
+"lon": 14.551436,
+"istat": "063029"
+},
+"H592": {
+"name": "Rotondi",
+"lat": 41.0311909,
+"lon": 14.5967236,
+"istat": "064080"
+},
+"A110": {
+"name": "Airola",
+"lat": 41.0610225,
+"lon": 14.5584304,
+"istat": "062001"
+},
+"A674": {
+"name": "Baronissi",
+"lat": 40.7469385,
+"lon": 14.7699874,
+"istat": "065013"
+},
+"C306": {
+"name": "Castiglione del Genovesi",
+"lat": 40.725511,
+"lon": 14.848445,
+"istat": "065036"
+},
+"F138": {
+"name": "Mercato San Severino",
+"lat": 40.7831498,
+"lon": 14.7557301,
+"istat": "065067"
+},
+"D615": {
+"name": "Fisciano",
+"lat": 40.772812,
+"lon": 14.799443,
+"istat": "065052"
+},
+"B437": {
+"name": "Calvanico",
+"lat": 40.775212,
+"lon": 14.827944,
+"istat": "065020"
+},
+"I630": {
+"name": "Serino",
+"lat": 40.8567145,
+"lon": 14.8705656,
+"istat": "064099"
+},
+"I805": {
+"name": "Solofra",
+"lat": 40.8291308,
+"lon": 14.8456516,
+"istat": "064101"
+},
+"M330": {
+"name": "Montoro",
+"lat": 40.8212742,
+"lon": 14.7601879,
+"istat": "064121"
+},
+"D701": {
+"name": "Forino",
+"lat": 40.8619728,
+"lon": 14.7347965,
+"istat": "064034"
+},
+"C971": {
+"name": "Contrada",
+"lat": 40.8665266,
+"lon": 14.7760307,
+"istat": "064029"
+},
+"A101": {
+"name": "Aiello del Sabato",
+"lat": 40.8871935,
+"lon": 14.8194483,
+"istat": "064001"
+},
+"A509": {
+"name": "Avellino",
+"lat": 40.9141958,
+"lon": 14.7888764,
+"istat": "064008"
+},
+"I843": {
+"name": "Sorbo Serpico",
+"lat": 40.9169278,
+"lon": 14.8870973,
+"istat": "064102"
+},
+"H733": {
+"name": "Salza Irpina",
+"lat": 40.9200633,
+"lon": 14.8893502,
+"istat": "064081"
+},
+"F141": {
+"name": "Mercogliano",
+"lat": 40.9201621,
+"lon": 14.7386053,
+"istat": "064049"
+},
+"I034": {
+"name": "San Michele di Serino",
+"lat": 40.8772963,
+"lon": 14.8563089,
+"istat": "064084"
+},
+"C576": {
+"name": "Cesinali",
+"lat": 40.8955255,
+"lon": 14.8283281,
+"istat": "064026"
+},
+"A489": {
+"name": "Atripalda",
+"lat": 40.9208124,
+"lon": 14.8334989,
+"istat": "064006"
+},
+"I219": {
+"name": "Santa Lucia di Serino",
+"lat": 40.870415,
+"lon": 14.875944,
+"istat": "064088"
+},
+"I357": {
+"name": "Santo Stefano del Sole",
+"lat": 40.893915,
+"lon": 14.868543,
+"istat": "064095"
+},
+"A566": {
+"name": "Bagnoli Irpino",
+"lat": 40.833115,
+"lon": 15.072549,
+"istat": "064009"
+},
+"F546": {
+"name": "Montella",
+"lat": 40.8424096,
+"lon": 15.0179097,
+"istat": "064057"
+},
+"F988": {
+"name": "Nusco",
+"lat": 40.8869501,
+"lon": 15.0840037,
+"istat": "064066"
+},
+"M130": {
+"name": "Volturara Irpina",
+"lat": 40.8781044,
+"lon": 14.9170846,
+"istat": "064119"
+},
+"F559": {
+"name": "Montemarano",
+"lat": 40.915216,
+"lon": 14.997646,
+"istat": "064058"
+},
+"C283": {
+"name": "Castelvetere sul Calore",
+"lat": 40.928717,
+"lon": 14.986145,
+"istat": "064024"
+},
+"C659": {
+"name": "Chiusano di San Domenico",
+"lat": 40.933116,
+"lon": 14.916344,
+"istat": "064028"
+},
+"C105": {
+"name": "Castelfranci",
+"lat": 40.9309725,
+"lon": 15.0428715,
+"istat": "064023"
+},
+"B997": {
+"name": "Cassano Irpino",
+"lat": 40.870416,
+"lon": 15.025947,
+"istat": "064021"
+},
+"G165": {
+"name": "Ospedaletto d'Alpinolo",
+"lat": 40.9386714,
+"lon": 14.7439343,
+"istat": "064067"
+},
+"G340": {
+"name": "Parolise",
+"lat": 40.9309405,
+"lon": 14.8817697,
+"istat": "064069"
+},
+"E891": {
+"name": "Manocalzati",
+"lat": 40.9418653,
+"lon": 14.8498042,
+"istat": "064046"
+},
+"L004": {
+"name": "Summonte",
+"lat": 40.9494876,
+"lon": 14.7448045,
+"istat": "064105"
+},
+"E214": {
+"name": "Grottolella",
+"lat": 40.972716,
+"lon": 14.78704,
+"istat": "064039"
+},
+"F511": {
+"name": "Montefredane",
+"lat": 40.9623951,
+"lon": 14.8109591,
+"istat": "064055"
+},
+"H006": {
+"name": "Pratola Serra",
+"lat": 40.987017,
+"lon": 14.852642,
+"istat": "064075"
+},
+"F491": {
+"name": "Montefalcione",
+"lat": 40.9610384,
+"lon": 14.8822149,
+"istat": "064053"
+},
+"I280": {
+"name": "Sant'Angelo a Scala",
+"lat": 40.9745752,
+"lon": 14.7401863,
+"istat": "064091"
+},
+"G629": {
+"name": "Pietrastornina",
+"lat": 40.991741,
+"lon": 14.7292448,
+"istat": "064073"
+},
+"G990": {
+"name": "Prata di Principato Ultra",
+"lat": 40.985973,
+"lon": 14.8375141,
+"istat": "064074"
+},
+"F566": {
+"name": "Montemiletto",
+"lat": 41.011342,
+"lon": 14.9087042,
+"istat": "064059"
+},
+"A228": {
+"name": "Altavilla Irpina",
+"lat": 41.00616,
+"lon": 14.7776788,
+"istat": "064002"
+},
+"I301": {
+"name": "Santa Paolina",
+"lat": 41.021718,
+"lon": 14.847241,
+"istat": "064093"
+},
+"L461": {
+"name": "Tufo",
+"lat": 41.0102985,
+"lon": 14.8233166,
+"istat": "064113"
+},
+"H382": {
+"name": "Roccabascerana",
+"lat": 41.0184431,
+"lon": 14.7163176,
+"istat": "064078"
+},
+"A432": {
+"name": "Arpaise",
+"lat": 41.0298168,
+"lon": 14.744083,
+"istat": "062006"
+},
+"G519": {
+"name": "Petruro Irpino",
+"lat": 41.031917,
+"lon": 14.79754,
+"istat": "064071"
+},
+"C476": {
+"name": "Ceppaloni",
+"lat": 41.0445333,
+"lon": 14.7600508,
+"istat": "062022"
+},
+"C606": {
+"name": "Chianche",
+"lat": 41.0461566,
+"lon": 14.7895888,
+"istat": "064027"
+},
+"F512": {
+"name": "Montefusco",
+"lat": 41.037618,
+"lon": 14.854941,
+"istat": "064056"
+},
+"G611": {
+"name": "Pietradefusi",
+"lat": 41.0441908,
+"lon": 14.8834072,
+"istat": "064072"
+},
+"I062": {
+"name": "San Nicola Manfredi",
+"lat": 41.0717684,
+"lon": 14.8245336,
+"istat": "062067"
+},
+"I002": {
+"name": "San Martino Sannita",
+"lat": 41.066218,
+"lon": 14.83584,
+"istat": "062065"
+},
+"I277": {
+"name": "Sant'Angelo a Cupolo",
+"lat": 41.069118,
+"lon": 14.80374,
+"istat": "062071"
+},
+"H894": {
+"name": "San Giorgio del Sannio",
+"lat": 41.0619659,
+"lon": 14.8538405,
+"istat": "062058"
+},
+"B444": {
+"name": "Calvi",
+"lat": 41.0719001,
+"lon": 14.8657158,
+"istat": "062012"
+},
+"H953": {
+"name": "San Leucio del Sannio",
+"lat": 41.0748002,
+"lon": 14.7573133,
+"istat": "062060"
+},
+"A783": {
+"name": "Benevento",
+"lat": 41.1295587,
+"lon": 14.7824639,
+"istat": "062008"
+},
+"B706": {
+"name": "Capriglia Irpina",
+"lat": 40.960316,
+"lon": 14.77724,
+"istat": "064018"
+},
+"I129": {
+"name": "San Potito Ultra",
+"lat": 40.9281486,
+"lon": 14.872707,
+"istat": "064086"
+},
+"B590": {
+"name": "Candida",
+"lat": 40.9422999,
+"lon": 14.8751834,
+"istat": "064016"
+},
+"L301": {
+"name": "Torrioni",
+"lat": 41.0334531,
+"lon": 14.8130228,
+"istat": "064111"
+},
+"I049": {
+"name": "San Nazzaro",
+"lat": 41.0523895,
+"lon": 14.8563559,
+"istat": "062066"
+},
+"L214": {
+"name": "Torella dei Lombardi",
+"lat": 40.9405254,
+"lon": 15.1153565,
+"istat": "064109"
+},
+"E448": {
+"name": "Lapio",
+"lat": 40.981117,
+"lon": 14.946344,
+"istat": "064042"
+},
+"G370": {
+"name": "Paternopoli",
+"lat": 40.97264,
+"lon": 15.0343679,
+"istat": "064070"
+},
+"H975": {
+"name": "San Mango sul Calore",
+"lat": 40.9610797,
+"lon": 14.9745906,
+"istat": "064082"
+},
+"L965": {
+"name": "Villamaina",
+"lat": 40.9693643,
+"lon": 15.0895843,
+"istat": "064117"
+},
+"D798": {
+"name": "Frigento",
+"lat": 41.011319,
+"lon": 15.099747,
+"istat": "064035"
+},
+"I990": {
+"name": "Sturno",
+"lat": 41.0198267,
+"lon": 15.1113184,
+"istat": "064104"
+},
+"D998": {
+"name": "Gesualdo",
+"lat": 41.006719,
+"lon": 15.072446,
+"istat": "064036"
+},
+"D671": {
+"name": "Fontanarosa",
+"lat": 41.017663,
+"lon": 15.0212391,
+"istat": "064033"
+},
+"L062": {
+"name": "Taurasi",
+"lat": 41.0083503,
+"lon": 14.9574387,
+"istat": "064107"
+},
+"F230": {
+"name": "Mirabella Eclano",
+"lat": 41.044919,
+"lon": 14.998744,
+"istat": "064050"
+},
+"L272": {
+"name": "Torre Le Nocelle",
+"lat": 41.023118,
+"lon": 14.909343,
+"istat": "064110"
+},
+"E206": {
+"name": "Grottaminarda",
+"lat": 41.06972,
+"lon": 15.058945,
+"istat": "064038"
+},
+"D638": {
+"name": "Flumeri",
+"lat": 41.077821,
+"lon": 15.147747,
+"istat": "064032"
+},
+"A975": {
+"name": "Bonito",
+"lat": 41.09772,
+"lon": 15.001344,
+"istat": "064012"
+},
+"A328": {
+"name": "Apice",
+"lat": 41.1190582,
+"lon": 14.9141409,
+"istat": "062003"
+},
+"E746": {
+"name": "Luogosano",
+"lat": 40.985631,
+"lon": 14.9919563,
+"istat": "064045"
+},
+"I279": {
+"name": "Sant'Angelo all'Esca",
+"lat": 41.006618,
+"lon": 14.993045,
+"istat": "064090"
+},
+"L739": {
+"name": "Venticano",
+"lat": 41.0463567,
+"lon": 14.9131426,
+"istat": "064116"
+},
+"F110": {
+"name": "Melito Irpino",
+"lat": 41.1032532,
+"lon": 15.0520424,
+"istat": "064048"
+},
+"B494": {
+"name": "Castel Campagnano",
+"lat": 41.1815532,
+"lon": 14.4525036,
+"istat": "061023"
+},
+"C097": {
+"name": "Castel di Sasso",
+"lat": 41.1922878,
+"lon": 14.2806442,
+"istat": "061024"
+},
+"G541": {
+"name": "Piana di Monte Verna",
+"lat": 41.167117,
+"lon": 14.333728,
+"istat": "061056"
+},
+"F113": {
+"name": "Melizzano",
+"lat": 41.1605703,
+"lon": 14.5053103,
+"istat": "062039"
+},
+"B362": {
+"name": "Caiazzo",
+"lat": 41.1783215,
+"lon": 14.3649478,
+"istat": "061009"
+},
+"H165": {
+"name": "Ruviano",
+"lat": 41.210318,
+"lon": 14.409229,
+"istat": "061073"
+},
+"A243": {
+"name": "Alvignano",
+"lat": 41.244718,
+"lon": 14.335627,
+"istat": "061003"
+},
+"I145": {
+"name": "San Salvatore Telesino",
+"lat": 41.236019,
+"lon": 14.499131,
+"istat": "062068"
+},
+"D469": {
+"name": "Faicchio",
+"lat": 41.2780306,
+"lon": 14.4787446,
+"istat": "062029"
+},
+"D361": {
+"name": "Dragoni",
+"lat": 41.2702398,
+"lon": 14.3097725,
+"istat": "061033"
+},
+"E039": {
+"name": "Gioia Sannitica",
+"lat": 41.30012,
+"lon": 14.444129,
+"istat": "061041"
+},
+"A200": {
+"name": "Alife",
+"lat": 41.32612,
+"lon": 14.334026,
+"istat": "061002"
+},
+"I130": {
+"name": "San Potito Sannitico",
+"lat": 41.337736,
+"lon": 14.3929016,
+"istat": "061080"
+},
+"G596": {
+"name": "Piedimonte Matese",
+"lat": 41.3594153,
+"lon": 14.3766315,
+"istat": "061057"
+},
+"A265": {
+"name": "Amorosi",
+"lat": 41.2029177,
+"lon": 14.461636,
+"istat": "062002"
+},
+"H087": {
+"name": "Puglianello",
+"lat": 41.2233762,
+"lon": 14.4507163,
+"istat": "062055"
+},
+"C359": {
+"name": "Cautano",
+"lat": 41.1493126,
+"lon": 14.6380825,
+"istat": "062021"
+},
+"D784": {
+"name": "Frasso Telesino",
+"lat": 41.156818,
+"lon": 14.527832,
+"istat": "062035"
+},
+"D644": {
+"name": "Foglianise",
+"lat": 41.1601328,
+"lon": 14.6713224,
+"istat": "062030"
+},
+"I809": {
+"name": "Solopaca",
+"lat": 41.1945665,
+"lon": 14.5533628,
+"istat": "062073"
+},
+"L254": {
+"name": "Torrecuso",
+"lat": 41.18974,
+"lon": 14.6800554,
+"istat": "062076"
+},
+"G386": {
+"name": "Paupisi",
+"lat": 41.19532,
+"lon": 14.665235,
+"istat": "062049"
+},
+"G827": {
+"name": "Ponte",
+"lat": 41.214732,
+"lon": 14.6963272,
+"istat": "062053"
+},
+"E249": {
+"name": "Guardia Sanframondi",
+"lat": 41.2563533,
+"lon": 14.5995267,
+"istat": "062037"
+},
+"H967": {
+"name": "San Lorenzo Maggiore",
+"lat": 41.2512272,
+"lon": 14.6269436,
+"istat": "062062"
+},
+"C280": {
+"name": "Castelvenere",
+"lat": 41.23482,
+"lon": 14.546532,
+"istat": "062019"
+},
+"H973": {
+"name": "San Lupo",
+"lat": 41.2601054,
+"lon": 14.6356287,
+"istat": "062063"
+},
+"B873": {
+"name": "Casalduni",
+"lat": 41.2602289,
+"lon": 14.6960905,
+"istat": "062015"
+},
+"H955": {
+"name": "San Lorenzello",
+"lat": 41.2773665,
+"lon": 14.5428321,
+"istat": "062061"
+},
+"G848": {
+"name": "Pontelandolfo",
+"lat": 41.2871143,
+"lon": 14.6922875,
+"istat": "062054"
+},
+"C525": {
+"name": "Cerreto Sannita",
+"lat": 41.2844718,
+"lon": 14.5589453,
+"istat": "062023"
+},
+"G626": {
+"name": "Pietraroja",
+"lat": 41.347822,
+"lon": 14.54963,
+"istat": "062051"
+},
+"L086": {
+"name": "Telese Terme",
+"lat": 41.2164141,
+"lon": 14.5270004,
+"istat": "062074"
+},
+"C178": {
+"name": "Castello del Matese",
+"lat": 41.3675389,
+"lon": 14.3760599,
+"istat": "061025"
+},
+"H939": {
+"name": "San Gregorio Matese",
+"lat": 41.3852284,
+"lon": 14.3750496,
+"istat": "061076"
+},
+"I455": {
+"name": "Sassinoro",
+"lat": 41.3742777,
+"lon": 14.6640222,
+"istat": "062072"
+},
+"G227": {
+"name": "Paduli",
+"lat": 41.1672025,
+"lon": 14.8835971,
+"istat": "062045"
+},
+"G631": {
+"name": "Pietrelcina",
+"lat": 41.199421,
+"lon": 14.844139,
+"istat": "062052"
+},
+"G494": {
+"name": "Pesco Sannita",
+"lat": 41.2335942,
+"lon": 14.8113333,
+"istat": "062050"
+},
+"D756": {
+"name": "Fragneto Monforte",
+"lat": 41.2460387,
+"lon": 14.760604,
+"istat": "062034"
+},
+"G243": {
+"name": "Pago Veiano",
+"lat": 41.2452922,
+"lon": 14.8671548,
+"istat": "062046"
+},
+"H898": {
+"name": "San Giorgio La Molara",
+"lat": 41.2709083,
+"lon": 14.9200832,
+"istat": "062059"
+},
+"D755": {
+"name": "Fragneto l'Abate",
+"lat": 41.256187,
+"lon": 14.7824256,
+"istat": "062033"
+},
+"H984": {
+"name": "San Marco dei Cavoti",
+"lat": 41.3106067,
+"lon": 14.8789437,
+"istat": "062064"
+},
+"B541": {
+"name": "Campolattaro",
+"lat": 41.2869837,
+"lon": 14.7298739,
+"istat": "062013"
+},
+"H227": {
+"name": "Reino",
+"lat": 41.2919029,
+"lon": 14.8238235,
+"istat": "062056"
+},
+"C719": {
+"name": "Circello",
+"lat": 41.3575184,
+"lon": 14.8090559,
+"istat": "062024"
+},
+"F287": {
+"name": "Molinara",
+"lat": 41.2906297,
+"lon": 14.9103428,
+"istat": "062041"
+},
+"F557": {
+"name": "Sant'Arcangelo Trimonte",
+"lat": 41.1655125,
+"lon": 14.9390381,
+"istat": "062078"
+},
+"F448": {
+"name": "Montecalvo Irpino",
+"lat": 41.193969,
+"lon": 15.0328891,
+"istat": "064052"
+},
+"B866": {
+"name": "Casalbore",
+"lat": 41.233923,
+"lon": 15.006742,
+"istat": "064020"
+},
+"C106": {
+"name": "Castelfranco in Miscano",
+"lat": 41.2971923,
+"lon": 15.0858356,
+"istat": "062016"
+},
+"E034": {
+"name": "Ginestra degli Schiavoni",
+"lat": 41.279924,
+"lon": 15.043742,
+"istat": "062036"
+},
+"F494": {
+"name": "Montefalcone di Val Fortore",
+"lat": 41.325991,
+"lon": 15.0090586,
+"istat": "062042"
+},
+"B267": {
+"name": "Buonalbergo",
+"lat": 41.2230773,
+"lon": 14.9798206,
+"istat": "062011"
+},
+"C846": {
+"name": "Colle Sannita",
+"lat": 41.3646832,
+"lon": 14.8332315,
+"istat": "062025"
+},
+"I179": {
+"name": "Santa Croce del Sannio",
+"lat": 41.3874559,
+"lon": 14.732203,
+"istat": "062069"
+},
+"C245": {
+"name": "Castelpagano",
+"lat": 41.401725,
+"lon": 14.808035,
+"istat": "062017"
+},
+"C284": {
+"name": "Castelvetere in Val Fortore",
+"lat": 41.4419648,
+"lon": 14.9395633,
+"istat": "062020"
+},
+"H764": {
+"name": "San Bartolomeo in Galdo",
+"lat": 41.4098544,
+"lon": 15.0153973,
+"istat": "062057"
+},
+"C470": {
+"name": "Centola",
+"lat": 40.066502,
+"lon": 15.311963,
+"istat": "065039"
+},
+"G707": {
+"name": "Pisciotta",
+"lat": 40.108902,
+"lon": 15.234561,
+"istat": "065096"
+},
+"G540": {
+"name": "Valle dell’Angelo",
+"lat": 40.343808,
+"lon": 15.368461,
+"istat": "065153"
+},
+"E485": {
+"name": "Laurino",
+"lat": 40.336507,
+"lon": 15.337161,
+"istat": "065061"
+},
+"G226": {
+"name": "Padula",
+"lat": 40.3416425,
+"lon": 15.658254,
+"istat": "065087"
+},
+"I278": {
+"name": "Sant'Angelo a Fasanella",
+"lat": 40.45681,
+"lon": 15.341459,
+"istat": "065128"
+},
+"B242": {
+"name": "Buccino",
+"lat": 40.6326259,
+"lon": 15.3700696,
+"istat": "065017"
+},
+"C879": {
+"name": "Colliano",
+"lat": 40.7261127,
+"lon": 15.2911755,
+"istat": "065043"
+},
+"B476": {
+"name": "Camerota",
+"lat": 40.0301806,
+"lon": 15.3728088,
+"istat": "065021"
+},
+"H907": {
+"name": "San Giovanni a Piro",
+"lat": 40.050302,
+"lon": 15.450967,
+"istat": "065119"
+},
+"H412": {
+"name": "Roccagloriosa",
+"lat": 40.108662,
+"lon": 15.4333486,
+"istat": "065107"
+},
+"I253": {
+"name": "Santa Marina",
+"lat": 40.104304,
+"lon": 15.540468,
+"istat": "065127"
+},
+"C444": {
+"name": "Celle di Bulgheria",
+"lat": 40.0954893,
+"lon": 15.402705,
+"istat": "065038"
+},
+"I032": {
+"name": "San Mauro La Bruca",
+"lat": 40.1229374,
+"lon": 15.2897501,
+"istat": "065124"
+},
+"A460": {
+"name": "Ascea",
+"lat": 40.1416021,
+"lon": 15.18576,
+"istat": "065009"
+},
+"C485": {
+"name": "Ceraso",
+"lat": 40.194304,
+"lon": 15.256061,
+"istat": "065040"
+},
+"D832": {
+"name": "Futani",
+"lat": 40.150703,
+"lon": 15.323163,
+"istat": "065054"
+},
+"C231": {
+"name": "Castelnuovo Cilento",
+"lat": 40.2195354,
+"lon": 15.1771512,
+"istat": "065032"
+},
+"F967": {
+"name": "Novi Velia",
+"lat": 40.225105,
+"lon": 15.288361,
+"istat": "065080"
+},
+"L628": {
+"name": "Vallo della Lucania",
+"lat": 40.229704,
+"lon": 15.26576,
+"istat": "065154"
+},
+"B608": {
+"name": "Cannalonga",
+"lat": 40.2442983,
+"lon": 15.293675,
+"istat": "065024"
+},
+"H686": {
+"name": "Salento",
+"lat": 40.248604,
+"lon": 15.190058,
+"istat": "065115"
+},
+"E037": {
+"name": "Gioi",
+"lat": 40.289705,
+"lon": 15.218059,
+"istat": "065057"
+},
+"F278": {
+"name": "Moio della Civitella",
+"lat": 40.2498387,
+"lon": 15.2678598,
+"istat": "065069"
+},
+"G455": {
+"name": "Perito",
+"lat": 40.297705,
+"lon": 15.147657,
+"istat": "065092"
+},
+"G121": {
+"name": "Orria",
+"lat": 40.299705,
+"lon": 15.171157,
+"istat": "065085"
+},
+"B555": {
+"name": "Campora",
+"lat": 40.305406,
+"lon": 15.29236,
+"istat": "065023"
+},
+"D195": {
+"name": "Cuccaro Vetere",
+"lat": 40.1616815,
+"lon": 15.3085471,
+"istat": "065049"
+},
+"L274": {
+"name": "Torre Orsaia",
+"lat": 40.133304,
+"lon": 15.473266,
+"istat": "065149"
+},
+"F426": {
+"name": "Montano Antilia",
+"lat": 40.162304,
+"lon": 15.365463,
+"istat": "065070"
+},
+"F731": {
+"name": "Morigerati",
+"lat": 40.139949,
+"lon": 15.5551821,
+"istat": "065077"
+},
+"E486": {
+"name": "Laurito",
+"lat": 40.168604,
+"lon": 15.405964,
+"istat": "065062"
+},
+"H485": {
+"name": "Rofrano",
+"lat": 40.211405,
+"lon": 15.427864,
+"istat": "065109"
+},
+"B959": {
+"name": "Caselle in Pittari",
+"lat": 40.1725386,
+"lon": 15.5457516,
+"istat": "065029"
+},
+"I410": {
+"name": "Sanza",
+"lat": 40.244607,
+"lon": 15.5525448,
+"istat": "065133"
+},
+"A186": {
+"name": "Alfano",
+"lat": 40.177505,
+"lon": 15.425165,
+"istat": "065004"
+},
+"I422": {
+"name": "Sapri",
+"lat": 40.0750785,
+"lon": 15.6297747,
+"istat": "065134"
+},
+"L835": {
+"name": "Vibonati",
+"lat": 40.1002478,
+"lon": 15.5831154,
+"istat": "065156"
+},
+"E365": {
+"name": "Ispani",
+"lat": 40.087304,
+"lon": 15.558269,
+"istat": "065059"
+},
+"L306": {
+"name": "Tortorella",
+"lat": 40.142205,
+"lon": 15.605669,
+"istat": "065150"
+},
+"B888": {
+"name": "Casaletto Spartano",
+"lat": 40.150705,
+"lon": 15.618669,
+"istat": "065027"
+},
+"B868": {
+"name": "Casalbuono",
+"lat": 40.2157502,
+"lon": 15.6815866,
+"istat": "065026"
+},
+"F625": {
+"name": "Montesano sulla Marcellana",
+"lat": 40.2758889,
+"lon": 15.7013753,
+"istat": "065076"
+},
+"B266": {
+"name": "Buonabitacolo",
+"lat": 40.271308,
+"lon": 15.619968,
+"istat": "065018"
+},
+"L233": {
+"name": "Torraca",
+"lat": 40.1125325,
+"lon": 15.6352367,
+"istat": "065148"
+},
+"I960": {
+"name": "Stio",
+"lat": 40.3100055,
+"lon": 15.2526788,
+"istat": "065145"
+},
+"E814": {
+"name": "Magliano Vetere",
+"lat": 40.347007,
+"lon": 15.236658,
+"istat": "065065"
+},
+"F507": {
+"name": "Monteforte Cilento",
+"lat": 40.3640237,
+"lon": 15.1945801,
+"istat": "065074"
+},
+"D527": {
+"name": "Felitto",
+"lat": 40.373507,
+"lon": 15.243058,
+"istat": "065051"
+},
+"A756": {
+"name": "Bellosguardo",
+"lat": 40.423309,
+"lon": 15.314159,
+"istat": "065015"
+},
+"C262": {
+"name": "Castel San Lorenzo",
+"lat": 40.4190669,
+"lon": 15.2264523,
+"istat": "065035"
+},
+"A343": {
+"name": "Aquara",
+"lat": 40.443909,
+"lon": 15.253857,
+"istat": "065008"
+},
+"G192": {
+"name": "Ottati",
+"lat": 40.4628565,
+"lon": 15.3152335,
+"istat": "065086"
+},
+"C069": {
+"name": "Castelcivita",
+"lat": 40.49421,
+"lon": 15.234456,
+"istat": "065030"
+},
+"G538": {
+"name": "Piaggine",
+"lat": 40.344808,
+"lon": 15.378661,
+"istat": "065095"
+},
+"F618": {
+"name": "Monte San Giacomo",
+"lat": 40.344409,
+"lon": 15.540465,
+"istat": "065075"
+},
+"I451": {
+"name": "Sassano",
+"lat": 40.337709,
+"lon": 15.563066,
+"istat": "065136"
+},
+"D292": {
+"name": "Teggiano",
+"lat": 40.379209,
+"lon": 15.540465,
+"istat": "065146"
+},
+"H654": {
+"name": "Sacco",
+"lat": 40.378108,
+"lon": 15.377961,
+"istat": "065113"
+},
+"H564": {
+"name": "Roscigno",
+"lat": 40.3990295,
+"lon": 15.3459261,
+"istat": "065111"
+},
+"I143": {
+"name": "San Rufo",
+"lat": 40.43451,
+"lon": 15.463662,
+"istat": "065126"
+},
+"D011": {
+"name": "Corleto Monforte",
+"lat": 40.437209,
+"lon": 15.37956,
+"istat": "065048"
+},
+"I307": {
+"name": "Sant'Arsenio",
+"lat": 40.472911,
+"lon": 15.484562,
+"istat": "065129"
+},
+"I089": {
+"name": "San Pietro al Tanagro",
+"lat": 40.456811,
+"lon": 15.480662,
+"istat": "065125"
+},
+"A484": {
+"name": "Atena Lucana",
+"lat": 40.4552941,
+"lon": 15.5509501,
+"istat": "065010"
+},
+"G793": {
+"name": "Polla",
+"lat": 40.517112,
+"lon": 15.497962,
+"istat": "065097"
+},
+"G939": {
+"name": "Postiglione",
+"lat": 40.559011,
+"lon": 15.232356,
+"istat": "065101"
+},
+"M253": {
+"name": "Sicignano degli Alburni",
+"lat": 40.560311,
+"lon": 15.303957,
+"istat": "065143"
+},
+"C974": {
+"name": "Contursi Terme",
+"lat": 40.649513,
+"lon": 15.239355,
+"istat": "065046"
+},
+"G292": {
+"name": "Palomonte",
+"lat": 40.662513,
+"lon": 15.2922503,
+"istat": "065089"
+},
+"G039": {
+"name": "Oliveto Citra",
+"lat": 40.6908078,
+"lon": 15.2317822,
+"istat": "065083"
+},
+"C973": {
+"name": "Controne",
+"lat": 40.50961,
+"lon": 15.205556,
+"istat": "065045"
+},
+"A495": {
+"name": "Auletta",
+"lat": 40.5588409,
+"lon": 15.4248901,
+"istat": "065012"
+},
+"G509": {
+"name": "Petina",
+"lat": 40.532111,
+"lon": 15.373459,
+"istat": "065094"
+},
+"B351": {
+"name": "Caggiano",
+"lat": 40.567813,
+"lon": 15.493361,
+"istat": "065019"
+},
+"H732": {
+"name": "Salvitelle",
+"lat": 40.590913,
+"lon": 15.45876,
+"istat": "065117"
+},
+"H943": {
+"name": "San Gregorio Magno",
+"lat": 40.6570401,
+"lon": 15.4031584,
+"istat": "065120"
+},
+"H277": {
+"name": "Ricigliano",
+"lat": 40.6682153,
+"lon": 15.4815351,
+"istat": "065105"
+},
+"G476": {
+"name": "Pertosa",
+"lat": 40.5432427,
+"lon": 15.4501356,
+"istat": "065093"
+},
+"H503": {
+"name": "Romagnano al Monte",
+"lat": 40.6271882,
+"lon": 15.4359594,
+"istat": "065110"
+},
+"H683": {
+"name": "Sala Consilina",
+"lat": 40.3982208,
+"lon": 15.5963693,
+"istat": "065114"
+},
+"L656": {
+"name": "Valva",
+"lat": 40.738215,
+"lon": 15.269454,
+"istat": "065155"
+},
+"I606": {
+"name": "Senerchia",
+"lat": 40.740263,
+"lon": 15.20315,
+"istat": "064098"
+},
+"B374": {
+"name": "Calabritto",
+"lat": 40.782215,
+"lon": 15.223953,
+"istat": "064014"
+},
+"E498": {
+"name": "Laviano",
+"lat": 40.7869048,
+"lon": 15.3088435,
+"istat": "065063"
+},
+"B674": {
+"name": "Caposele",
+"lat": 40.8149243,
+"lon": 15.2239067,
+"istat": "064017"
+},
+"I260": {
+"name": "Santomenna",
+"lat": 40.8080287,
+"lon": 15.3215479,
+"istat": "065131"
+},
+"C235": {
+"name": "Castelnuovo di Conza",
+"lat": 40.81905,
+"lon": 15.3193709,
+"istat": "065033"
+},
+"E605": {
+"name": "Lioni",
+"lat": 40.876517,
+"lon": 15.187751,
+"istat": "064044"
+},
+"C976": {
+"name": "Conza della Campania",
+"lat": 40.8585769,
+"lon": 15.3360644,
+"istat": "064030"
+},
+"L102": {
+"name": "Teora",
+"lat": 40.8526324,
+"lon": 15.2526788,
+"istat": "064108"
+},
+"F744": {
+"name": "Morra De Sanctis",
+"lat": 40.929019,
+"lon": 15.242851,
+"istat": "064063"
+},
+"I281": {
+"name": "Sant'Angelo dei Lombardi",
+"lat": 40.9270301,
+"lon": 15.177524,
+"istat": "064092"
+},
+"B415": {
+"name": "Calitri",
+"lat": 40.902119,
+"lon": 15.430556,
+"istat": "064015"
+},
+"A284": {
+"name": "Andretta",
+"lat": 40.9384755,
+"lon": 15.3277502,
+"istat": "064003"
+},
+"A881": {
+"name": "Bisaccia",
+"lat": 41.012121,
+"lon": 15.374753,
+"istat": "064011"
+},
+"B367": {
+"name": "Cairano",
+"lat": 40.896819,
+"lon": 15.370354,
+"istat": "064013"
+},
+"I264": {
+"name": "Sant'Andrea di Conza",
+"lat": 40.8445989,
+"lon": 15.369832,
+"istat": "064089"
+},
+"H438": {
+"name": "Rocca San Felice",
+"lat": 40.9514604,
+"lon": 15.1643943,
+"istat": "064079"
+},
+"E245": {
+"name": "Guardia Lombardi",
+"lat": 40.9538172,
+"lon": 15.2091799,
+"istat": "064040"
+},
+"L589": {
+"name": "Vallata",
+"lat": 41.037221,
+"lon": 15.25215,
+"istat": "064114"
+},
+"B776": {
+"name": "Carife",
+"lat": 41.0281055,
+"lon": 15.2086615,
+"istat": "064019"
+},
+"C058": {
+"name": "Castel Baronia",
+"lat": 41.047421,
+"lon": 15.188748,
+"istat": "064022"
+},
+"I061": {
+"name": "San Nicola Baronia",
+"lat": 41.058521,
+"lon": 15.199148,
+"istat": "064085"
+},
+"I163": {
+"name": "San Sossio Baronia",
+"lat": 41.071221,
+"lon": 15.200548,
+"istat": "064087"
+},
+"L616": {
+"name": "Vallesaccarda",
+"lat": 41.0627598,
+"lon": 15.2517835,
+"istat": "064115"
+},
+"I493": {
+"name": "Scampitella",
+"lat": 41.092522,
+"lon": 15.29995,
+"istat": "064097"
+},
+"L973": {
+"name": "Villanova del Battista",
+"lat": 41.120822,
+"lon": 15.158747,
+"istat": "064118"
+},
+"M203": {
+"name": "Zungoli",
+"lat": 41.125322,
+"lon": 15.203648,
+"istat": "064120"
+},
+"L399": {
+"name": "Trevico",
+"lat": 41.048421,
+"lon": 15.233449,
+"istat": "064112"
+},
+"A347": {
+"name": "Aquilonia",
+"lat": 40.9870429,
+"lon": 15.4744443,
+"istat": "064004"
+},
+"F660": {
+"name": "Monteverde",
+"lat": 40.998922,
+"lon": 15.534157,
+"istat": "064060"
+},
+"E397": {
+"name": "Lacedonia",
+"lat": 41.051222,
+"lon": 15.423854,
+"istat": "064041"
+},
+"I471": {
+"name": "Savignano Irpino",
+"lat": 41.228524,
+"lon": 15.179246,
+"istat": "064096"
+},
+"F397": {
+"name": "Montaguto",
+"lat": 41.2493691,
+"lon": 15.248276,
+"istat": "064051"
+},
+"E161": {
+"name": "Greci",
+"lat": 41.251825,
+"lon": 15.169145,
+"istat": "064037"
+}
+}

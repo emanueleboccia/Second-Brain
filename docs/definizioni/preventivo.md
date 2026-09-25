@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-03
+updated: 2026-09-24
 ---
 
 # Definizione di fatto — Preventivo
@@ -22,7 +22,7 @@ prima di consegnare: se una non passa, si corregge e si riverifica.
 - Le condizioni sono scritte: i due giri di revisione inclusi e, se è un caso studio, la clausola
   del permesso scritto di filmare e pubblicare.
 - Il messaggio di accompagnamento è pronto, non da scrivere dopo.
-- Il file è salvato in `outputs/preventivi/<anno>-<cliente>.md`.
+- Il file è salvato in `outputs/preventivi/` col codice della proposta come nome, `PROP_<anno>_<numero>_<Cliente>.md`, e lo stesso codice è il titolo della trattativa su Notion.
 
 ---
 

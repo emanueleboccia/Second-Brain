@@ -12,8 +12,9 @@ indirizzi con `email_utilizzabile` = `sì`, uno per indirizzo anche se lo condiv
 dal più vicino a Poggiomarino al più lontano, saltando quelli già segnati come `inviata` o
 `rimbalzata`.
 
-Nel testo e nell'oggetto `{grado}` diventa «dell'infanzia», o «dell'infanzia e primaria» quando
-fra i plessi di quell'indirizzo c'è una primaria.
+Nel testo e nell'oggetto `{grado}` diventa «dell'infanzia», «primaria», o «dell'infanzia e primaria»
+quando dietro quell'indirizzo ci sono plessi di tutti e due i gradi. La forma «primaria» serve dal
+24/09/2026, da quando la lista ha anche le scuole primarie.
 
 Le email partono da Gmail con la CLI di Composio, con una pausa a caso fra una e l'altra: un
 account nuovo che ne manda cento di fila finisce in spam, o bloccato. Dopo due errori di fila lo
@@ -76,7 +77,11 @@ def destinatari(scuole_csv, invii_csv):
 
 
 def grado(tipi):
-    return "dell'infanzia e primaria" if any(t.startswith("primaria") for t in tipi) else "dell'infanzia"
+    infanzia = any(t.startswith("infanzia") for t in tipi)
+    primaria = any(t.startswith("primaria") for t in tipi)
+    if infanzia and primaria:
+        return "dell'infanzia e primaria"
+    return "primaria" if primaria else "dell'infanzia"
 
 
 def manda(cfg, indirizzo, grado_testo):

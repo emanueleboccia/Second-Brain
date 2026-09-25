@@ -35,8 +35,10 @@ FILE_ESCLUSI = {"CLAUDE.md", "MEMORY.md", "README.md", "SKILL.md", "AGENTS.md"}
 # Restano in llms.txt, quindi trovabili; fuori dal grafo, quindi non contestati.
 # La riga DOVE MI SERVE sull'indice di ogni corso resta una regola dell'area, non del gate.
 # Escluso il 03/09/2026, alla prima importazione.
+# code/controllo-siti/ ha dentro node_modules, coi README dei pacchetti; code/agenti-notion/
+# sono le istruzioni degli agenti di Notion, testi per una macchina e non note. Esclusi il 25/09/2026.
 ALBERI_ESCLUSI = ("code/skills", "code/remotion-test", "areas/finanza/_in",
-                  "areas/formazione/corsi")
+                  "areas/formazione/corsi", "code/controllo-siti", "code/agenti-notion")
 
 CHIAVI_OBBLIGATORIE = ("title", "summary", "tags", "status", "created", "updated")
 MAX_RIGHE_CORPO = 300

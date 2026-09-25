@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-17
+updated: 2026-09-24
 ---
 
 # Definizione di fatto — Journal
@@ -26,13 +26,18 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - Le novità delle Digitale sono quelle create o modificate dopo `ticktick.ultimo_briefing`, marcate
   **nuove da Raffaele**. Se era `null`, è il primo giro e non si inventa una finestra.
 - 🎯 Obiettivi solo il lunedì, 📖 Formazione solo se ha una data entro la settimana, 📥 Inbox solo se piena e **col solo numero**.
-- Ogni proposta Notion aperta dice **da quanti giorni** è ferma; oltre i sette è da sollecitare, ma
-  le «Pronta per l'invio» no: sono ferme su Emanuele, non sul cliente. Nemmeno le «In attesa» con una
-  decisione in `Prossimo passo`: si riporta la decisione, e il giorno del sollecito scritto lì la proposta è fra le cose di oggi.
-- Ogni lavoro con una `Fase` aperta compare con la sua fase e il suo prossimo passo. Le fatture «Da
+- Ogni trattativa aperta su Notion dice **da quanti giorni** è ferma; oltre i sette è da sollecitare,
+  ma le «In qualifica» no: il preventivo non è partito, sono ferme su Emanuele. Nemmeno le «In
+  negoziazione» con una decisione in `Prossimo passo`: si riporta la decisione, e il giorno del
+  sollecito scritto lì la trattativa è fra le cose di oggi.
+- Ogni lavoro con una `Fase lavoro` aperta compare con la sua fase e il suo prossimo passo. Le fatture «Da
   incassare» in scadenza entro sette giorni ci sono **tutte**, e quelle scadute stanno in cima come *in ritardo*.
-- Le scadenze siti entro trenta giorni ci sono **tutte**, dalla più vicina, urgenti sotto i
-  quattordici. È fatturato ricorrente: nessuna omissione dentro la finestra.
+- I rinnovi entro trenta giorni ci sono **tutti**, letti da *Rinnovi*, dal più vicino, urgenti
+  sotto i quattordici, ognuno detto da incassare o da pagare. Sono fatturato ricorrente e costi
+  certi: nessuna omissione dentro la finestra.
+- **Il controllo di siti e gestionali è girato**, sulla lista presa adesso dalle due viste «Da
+  controllare». Compare solo quello che non è «ok», con cosa non va, e un sito che non risponde sta fra
+  le tre cose di oggi. Se lo script non è partito, è detto in una riga.
 - Le tre priorità sono **trasversali** e proposte, non decise. Un servizio muto è **dichiarato**.
 - Chiude **una frase per la giornata** nata da quello che è appena uscito nel briefing, non una
   massima buona per chiunque. Una riga, due al massimo.

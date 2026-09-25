@@ -7,7 +7,7 @@ tags:
   - offerta
 status: attivo
 created: 2026-08-21
-updated: 2026-09-06
+updated: 2026-09-24
 related:
   - "[[self/tariffario-famiglia]]"
   - "[[self/reference/convinzioni]]"
@@ -22,6 +22,9 @@ related:
 
 Questa è l'unica fonte dei prezzi **per i clienti esterni**. I prezzi si leggono da qui: mai
 calcolati, mai stimati, mai inventati.
+
+I numeri sono anche su Notion, nel database *Servizi*, dove si collegano ai lavori. Quando un
+prezzo cambia si cambia qui e lì nello stesso giro, e se i due dicono cose diverse vale questo file.
 
 ⚠️ **I tre brand di famiglia hanno un listino tutto loro**, molto sotto questi numeri, in
 [[self/tariffario-famiglia|tariffario dei brand di famiglia]]. Non si mescolano: applicare a un

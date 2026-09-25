@@ -7,7 +7,7 @@ tags:
   - sidel
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-24
 ---
 
 # Storico — Sidel srl
@@ -18,6 +18,13 @@ updated: 2026-09-03
 Chi è il cliente e com'è finita sta in [[entities/clienti/sidel/scheda|scheda]]. Qui c'è cosa
 è successo, dal più recente in cima. Gli accordi presi a voce o su WhatsApp si scrivono il
 giorno stesso: è l'unico posto in cui esisteranno.
+
+### 2026-09-24 — Da risentire, per il sito
+Emanuele cambia la decisione del 03/09: Pierluigi **è da risentire più avanti**, perché il sito va fatto anche a
+lui. Gli aveva fatto un servizio solo, piccolo, ed è lui che gli ha mandato
+[[entities/clienti/ragosta/storico|Ragosta]]. Su Notion è «Ex cliente», col referral verso Gaetano segnato in
+tutti e due i versi; su TickTick c'è `Setting Pierluigi Ammirati (Sidel)` in 💬 Da sentire, senza data finché
+Emanuele non ne mette una.
 
 ### 2026-09-03 — Lo stesso giorno, Pierluigi manda un cliente
 **Gaetano Ragosta** chiama Emanuele: vuole un sito, e il numero glielo ha dato Pierluigi.

@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-04
-updated: 2026-09-22
+updated: 2026-09-24
 related:
   - "[[entities/clienti/ragosta/scheda]]"
   - "[[sources/call/2026-09-04-gaetano-ragosta]]"
@@ -167,7 +167,8 @@ link. Prima aveva una domanda sola ed era riservato ai membri del workspace.
 con cui lo si chiama. L'accordo era già scritto col nome sbagliato ed è stato corretto **prima** di
 partire: un accordo firmato da una società che non esiste non vincola nessuno. È diventata una riga
 del [[docs/processo-cliente|processo cliente]] — la ragione sociale si ricontrolla prima di mandare
-l'accordo, perché arriva sempre dopo che il documento è stato scritto.
+l'accordo, perché arriva sempre dopo che il documento è stato scritto. Dal 24/09 la regola sta nei
+[[docs/documenti-commerciali|documenti commerciali]].
 
 **Niente sopralluogo, per scelta.** Emanuele il 23/09: il materiale e il modulo bastano. Il sito si
 fa sulle foto che Gaetano ha già, quindi andare in sede non aggiunge niente — ma il «prima» non si
@@ -176,10 +177,73 @@ telefono con le quattro domande larghe del [[docs/brief-cliente|brief cliente]],
 fondo al modulo.
 
 **La fattura ha un nome e un posto**: `outputs/fatture/2026-001-ragosta-acconto.pdf`, e la
-convenzione vale da qui in avanti.
+convenzione vale da qui in avanti. Il 24/09 il nome è diventato `FATT_2026_001_Ragosta.pdf`.
 
 ### Prossimo passo — sostituisce quello del 22/09
 
 Mandargli su WhatsApp l'accordo e il link del portale. Poi si aspettano due cose da lui: la firma
 — va bene una foto — e il modulo compilato, che fa partire i dieci giorni per il materiale.
 Poi mezz'ora al telefono per il kickoff, e lì si chiude anche il dominio `ragosta.eu`.
+
+## 2026-09-24 — Il portale cambia indirizzo, e la firma non serve
+
+**Il portale sta su `emanueleboccia.notion.site`.** Il dominio del 23/09, `swamp-violet-95f`, era
+quello che Notion assegna a caso: Emanuele l'ha cambiato prima di mandare il link, e da lì il link
+vecchio non funziona più. Come si fa, e cosa si rompe, sta nel
+[[docs/processo-cliente|processo cliente]].
+
+**La firma non serve.** Emanuele il 24/09: a Gaetano si manda l'accordo e basta, non deve rimandarlo
+firmato. L'acconto è pagato, e per questo lavoro vale come sì. Il portale non gliela chiede più, e
+il primo passo della sua lista è spuntato.
+
+**I tempi sono quelli che gli ha detto Emanuele: il sito pronto in dieci giorni da quando arriva il
+materiale.** Il portale del 23/09 diceva «online entro 4 settimane» e «il materiale entro dieci
+giorni dall'acconto», scritti senza guardare cosa gli era stato promesso. Ora dice il sito entro 10
+giorni dal materiale, e il materiale appena ce l'ha.
+
+**Il logo lo fa Emanuele**, quindi il modulo non lo chiede più. **Le foto arrivano divise per
+lavoro**: nel modulo ci sono cinque lavori, ognuno con due righe su cos'è (nome, dove, cosa è stato
+fatto) e le sue foto, così ogni lavoro entra nel sito in un passaggio solo. I lavori oltre il quinto
+arrivano su WhatsApp. Sul piano gratuito di Notion ogni foto pesa al massimo 5 MB, dieci per lavoro:
+quelle che il modulo non prende arrivano su WhatsApp come documento.
+
+### Prossimo passo — sostituisce quello del 23/09
+
+Il link del portale è partito su WhatsApp la mattina del 24/09. Ora si aspetta il modulo con le foto divise per lavoro:
+da lì partono i dieci giorni. Poi mezz'ora al telefono per il kickoff, e lì si chiude anche il
+dominio `ragosta.eu`.
+
+## 2026-09-24 — I documenti prendono il codice
+
+Da oggi ogni documento commerciale porta un codice, deciso da Emanuele: le regole stanno nei
+[[docs/documenti-commerciali|documenti commerciali]]. Ragosta è il primo lavoro del 2026, quindi la
+trattativa su Notion è **`PROP_2026_001_Ragosta`** — era `EB26-WEB-RAGOSTA-0001` —, l'accordo è
+**`ACC_2026_001_Ragosta`** e la fattura dell'acconto **`FATT_2026_001_Ragosta`**. I file in
+`outputs/` e quelli su Notion portano gli stessi nomi, e l'accordo ha il codice stampato in testata e
+in fondo a ogni pagina.
+
+⚠️ **L'accordo che Gaetano ha in mano dice ancora i tempi di prima**: «online entro 4 settimane» e
+«il materiale entro dieci giorni dall'acconto». Il portale oggi è stato corretto coi dieci giorni dal
+materiale, l'accordo no: cambiarlo vuol dire rimandargli un documento. Deciso da Emanuele la sera
+stessa: si rifà, qui sotto.
+
+## 2026-09-24 — Il modulo chiede anche stile e colori per il logo
+
+Emanuele la sera: Gaetano ha pagato, ma al messaggio di stamattina sul modulo non ha ancora risposto. Visto che
+il logo lo fa Emanuele, il modulo ha in fondo **due domande nuove**: che stile gli somiglia — classico o moderno,
+deciso o leggero, un'insegna che gli piace — e quali colori sì e quali no, partendo da quelli che usa già sui
+furgoni e sui biglietti. Il portale ora parla di sei domande e chiede anche quelle.
+
+## 2026-09-24 — L'accordo rifatto coi tempi giusti
+
+**`ACC_2026_001_Ragosta_v2`**, chiesto da Emanuele la sera del 24/09, sostituisce quello del 22/09. Cambia
+quello che non tornava: **il sito pronto entro 10 giorni dal giorno in cui c'è il materiale**, online appena
+Gaetano approva, due giri di revisione; il materiale «appena ce l'hai», non più entro dieci giorni
+dall'acconto; l'acconto segnato come pagato il 23/09. **La firma non c'è più**: al suo posto una riga dice
+che l'acconto pagato vale come accettazione, com'era stato deciso la mattina. Il materiale chiesto adesso
+comprende anche due parole su stile e colori per il logo.
+
+Il PDF sta in `outputs/accordi/` accanto alla prima versione, che resta com'era. Su Notion la trattativa li
+ha tutti e due, **nel portale di Gaetano c'è solo la v2**, e la checklist della trattativa è aggiornata coi
+fatti: accordo mandato, firma che non serve, acconto incassato, portale fatto, sopralluogo saltato.
+

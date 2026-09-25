@@ -7,7 +7,7 @@ tags:
   - sidel
 status: attivo
 created: 2026-09-01
-updated: 2026-09-03
+updated: 2026-09-24
 ---
 
 # Scheda — Sidel srl
@@ -20,7 +20,7 @@ updated: 2026-09-03
 - **Chi è:** Pierluigi Ammirati, titolare. Decide lui: non c'è nessun altro da coinvolgere.
 - **Attività:** Sidel srl.
 - **Contatti:** da compilare.
-- **Stato:** cliente storico, **trattativa chiusa da Emanuele il 03/09/2026.**
+- **Stato:** ex cliente, **da risentire per il sito** — deciso il 24/09/2026, dopo la chiusura del 03/09.
 
 ## Cosa gli ho venduto
 
@@ -41,7 +41,7 @@ riusarlo come riferimento va confermato che copra la stessa cosa di oggi.**
 inseguito molte volte perché fissasse un appuntamento, senza mai una risposta. Il 02/09 gli ha
 mandato anche gli esempi delle schermate nuove: nessuna risposta nemmeno a quelle.
 
-**Non si ricontatta e non si rimette in nessuna lista.** Se si fa vivo lui, si riapre. Il
+**Non si ricontatta e non si rimette in nessuna lista.** Se si fa vivo lui, si riapre. ⚠️ **Superato il 24/09/2026**: Emanuele lo vuole risentire più avanti per fargli il sito, e il setting è su TickTick. Il
 silenzio dopo il materiale mandato è una risposta, e inseguirlo ancora costa più di quanto vale:
 è il punto in cui [[docs/vendita/follow-up|il follow-up]] smette di essere insistenza utile e
 diventa svalutazione di chi la fa.

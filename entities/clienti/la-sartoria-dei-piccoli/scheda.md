@@ -1,16 +1,20 @@
 ---
 title: "Scheda — La Sartoria dei Piccoli"
-summary: "La Sartoria dei Piccoli di Marco Augusto: e-commerce WooCommerce comprato nel 2022 e già rifatto una volta nel 2024, sempre a 600 €. A settembre 2026 ha chiesto un incontro, ha lasciato cadere il preventivo del refresh e non ha più risposto: dal 13/09/2026 non si insegue."
+summary: "La Sartoria dei Piccoli di Marco Augusto: e-commerce WooCommerce comprato nel 2022 e già rifatto una volta nel 2024, sempre a 600 €. A settembre 2026 ha chiesto un incontro, ha lasciato cadere il preventivo del refresh e non ha più risposto: dal 13/09/2026 non si insegue. Dal 24/09/2026 archiviata e da non ricontattare: il sito è stato sostituito da uno Shopify fatto da altri."
 tags:
   - entities
   - clienti
   - la-sartoria-dei-piccoli
 status: attivo
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-24
 ---
 
 # Scheda — La Sartoria dei Piccoli
+
+> ⚠️ **Dal 24/09/2026 non si ricontatta.** Il sito fatto da Emanuele è stato sostituito da uno Shopify fatto
+> da altri, dopo averlo lasciato in attesa con un «ti faccio sapere». Tutto archiviato: il perché sta nello
+> [[entities/clienti/la-sartoria-dei-piccoli/storico|storico]].
 
 > **Seminata il 01/09/2026** da quello che il vault già sapeva, **riempita il 07/09/2026**
 > leggendo le proposte accettate su Notion e misurando il sito dall'esterno.

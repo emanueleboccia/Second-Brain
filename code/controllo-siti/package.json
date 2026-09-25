@@ -1,0 +1,11 @@
+{
+  "name": "controllo-siti",
+  "version": "1.0.0",
+  "description": "Apre i siti e i gestionali dei clienti con un Chrome vero e dice cosa non va",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

@@ -8,7 +8,7 @@ tags:
   - scuole
 status: in-lavorazione
 created: 2026-09-17
-updated: 2026-09-21
+updated: 2026-09-24
 related:
   - "[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
@@ -38,6 +38,11 @@ voi del [[areas/la-masseria-di-mezzautunno/reference/tono|tono di voce]] per le 
 riga per chi non vuole ricevere altro.
 
 ## A chi
+
+> **Dal 24/09/2026 `scuole.csv` è un'altra lista**: [[areas/la-masseria-di-mezzautunno/email-marketing/scuole|la lista
+> delle scuole]] rifatta sull'elenco del Ministero, con le primarie e fino a 20 km. I numeri di questa sezione
+> raccontano quella di settembre. Rilanciare lo script su questa cartella manderebbe la proposta ai
+> **251 indirizzi nuovi**: gli altri li salta, perché stanno già in `invii.csv`.
 
 La lista viene dall'Excel di Emanuele: **213 plessi**, 130 scuole dell'infanzia statali, 82 paritarie e
 la direzione didattica di Poggiomarino, tutti entro 13 km, fra le province di Napoli e Salerno. Le
@@ -72,7 +77,8 @@ python3 code/email-marketing/invia-gruppo.py areas/la-masseria-di-mezzautunno/em
 
 Ogni gruppo riparte da dove si era fermato il precedente, perché salta gli indirizzi già segnati come
 `inviata` nel registro. Nel testo `{grado}` diventa «dell'infanzia», oppure «dell'infanzia e primaria»
-quando fra i plessi di quell'indirizzo c'è una primaria.
+quando fra i plessi di quell'indirizzo c'è una primaria. Dal 24/09, con le primarie nella lista, diventa
+«primaria» per chi ha solo quella.
 
 ## Andamento
 

@@ -8,7 +8,7 @@ tags:
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-09-22
+updated: 2026-09-24
 related:
   - "[[areas/la-masseria-di-mezzautunno/reference/brand]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/tono]]"
@@ -40,7 +40,14 @@ Il logo è un **marchio illustrato con le scritte marroni**: funziona **solo su 
 brand kit, ed è quella che si viola per prima quando si ha fretta.
 
 ⚠️ **I loghi evento non stanno mai nello stesso blocco del logo madre.** Si usano solo nei
-materiali dedicati a quell'evento.
+materiali dedicati a quell'evento. Quando servono tutti e due, il logo madre va in una fascia a parte,
+con un fondo suo: sull'invito di compleanno di Zucche è la firma avorio in fondo, coi marchi di Da
+Mamma Rosaria e Funny Show.
+
+⚠️ **Il logo di Zucche ha le scritte verde oliva, e non si rimpicciolisce dentro un tondo.** Su un fondo
+scuro gli si dà un fondo chiaro suo e grande, un cielo o una fascia, e sta abbastanza grande da leggersi.
+Se c'è un cerchio, è grande il cerchio ed è grande il logo. Detto da Emanuele il 24/09/2026, sull'invito
+di compleanno dove l'avevo messo in un adesivo avorio piccolo.
 
 I quattro file, in `01 Logo`:
 
@@ -153,4 +160,6 @@ Fatti che il PDF riporta e che nel vault non erano scritti da nessuna parte:
 riporta il brand kit ed è di **Raffaele**: il listino delle feste fatto su Canva a luglio 2026 lo mette
 accanto al suo nome, letto il 22/09/2026. L'email della Masseria è
 **lamasseriadimezzautunno@gmail.com**. Su Instagram e TikTok è **@lamasseriadimezzautunno**; la pagina
-Facebook non ha un nome breve, e dal sito ci si arriva col link numerico.
+Facebook non ha un nome breve, e dal sito ci si arriva col link numerico,
+`facebook.com/profile.php?id=61580812535624`, letto dal sito il 24/09/2026: sui materiali la pagina si scrive per
+esteso, «La Masseria di Mezz’autunno».

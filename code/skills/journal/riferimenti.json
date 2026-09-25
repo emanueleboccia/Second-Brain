@@ -2,14 +2,12 @@
   "_nota": "Quali liste Notion legge il comando «buongiorno». Compilato il 21/08/2026 leggendo lo schema vero dei database. Se un id smette di rispondere, la skill lo dice e chiede quello — non cerca a tentoni un database che somigli. Per interrogare una lista si usa il data_source (collection://...), non il database_id.",
   "ticktick": {
     "_nota": "La mappa delle liste. Riorganizzata da Emanuele il 29/08/2026 in quattro mondi — il suo, e i tre brand di famiglia — e verificata lo stesso giorno leggendo TickTick: id di cartelle, liste e colonne sono quelli veri, non ricopiati a mano. Se un id smette di rispondere, la skill lo dice e chiede quello nuovo: non cerca a tentoni una lista che somigli.",
-
     "cartelle": {
       "emanuele": "6a92a1238f087e0df40331ea",
       "da-mamma-rosaria": "6a9298358f0861e0f0cb2292",
       "la-masseria-di-mezzautunno": "6a9298378f087e0df401c7bb",
       "tenuta-don-gaetano": "6a92983a8f0869c151528c59"
     },
-
     "liste": {
       "inbox": {
         "id": "6a4533c6aced51c2fb2d08e0",
@@ -35,8 +33,9 @@
           "non-iniziato": "68bb0cfcbd9a916cac87e072",
           "in-corso": "68bb0d01a998116cac87e07e",
           "appuntamenti": "6a84cb3a57cc18aae0cfed72",
-          "scadenze": "6a4540645b8451816c74c18b"
-        }
+          "da-sentire": "6ab501838f08f1c96eb14453"
+        },
+        "_nota_colonne": "Il 24/09/2026 la colonna 🔔 Scadenze non c'era più: le scadenze dei costi stanno in Rinnovi su Notion. Lo stesso giorno, su richiesta di Emanuele, è nata 💬 Da sentire, subito dopo 📆 Appuntamenti: messaggi da mandare, chiamate, ricontatti e Setting. In 📆 Appuntamenti restano gli incontri veri e le call di lavoro già fissate."
       },
       "formazione": {
         "id": "698064cdc480112ca3b577a0",
@@ -92,7 +91,6 @@
         }
       ]
     },
-
     "ignora_sempre": {
       "_nota": "Liste di Raffaele dentro le cartelle dei brand. Il briefing non le legge e non le nomina MAI, nemmeno per dire che sono vuote. La regola non è «leggile con prudenza»: è che non esistono per il briefing.",
       "id": [
@@ -110,62 +108,67 @@
       "_nota_regola": "Vale anche per le liste che nasceranno dopo: dentro le tre cartelle dei brand, l'unica lista di Emanuele è quella che si chiama «Digitale (Emanuele)». Tutto il resto è di Raffaele.",
       "_nota_default": "Una lista nuova che non compare in nessuna delle due liste qui sopra non si legge: si segnala a Emanuele e si chiede dove va. Il silenzio è più sicuro di un'ipotesi."
     },
-
     "colonna_idee": {
       "_nota": "La colonna 💡 Idee non entra MAI nel briefing, in nessuna lista. Un'idea non è un impegno, e metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è.",
       "esclusa_sempre": true
     },
-
-    "ultimo_briefing": "2026-09-23T09:18:00Z",
+    "ultimo_briefing": "2026-09-24T07:42:00Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
-
   "trello": {
     "_nota": "Le task di Sistema Evolve. Verificato il 01/09/2026 leggendo Trello: workspace, board, liste e member id sono quelli veri. Evolve non sta su TickTick e non ci deve stare: il lavoro del reparto vive sul loro board, e questo è l'unico punto da cui il briefing lo guarda.",
-
     "_REGOLA_SOLA_LETTURA": "⚠️ Da qui Trello si LEGGE e basta. Non si creano card, non si spostano, non si commenta, non si spunta niente — nemmeno se sembra ovvio e nemmeno se Emanuele lo dice di sfuggita mentre parla d'altro. Le modifiche le fa lui dal cervello aziendale di Evolve. Il board è condiviso con Vincenzo e Karim: una card scritta da qui compare a loro come se l'avesse scritta Emanuele, e non c'è modo di spiegare da dove è arrivata. Se serve davvero scrivere, si chiede prima ed esplicitamente.",
-
     "workspace": {
       "id": "ari:cloud:trello::workspace/6a8e9b0656c18f396012bc8d",
       "nome": "Sistema Evolve",
       "url": "https://trello.com/w/sistemaevolve1"
     },
-
     "board": {
       "id": "ari:cloud:trello::board/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7c3",
       "nome": "Marketing",
       "url": "https://trello.com/b/J3ASO22b/marketing"
     },
-
     "liste": {
       "idee": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8ea1d8adb6650264bf911e",
       "non-iniziato": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d5",
       "in-corso": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d6",
       "fatto": "ari:cloud:trello::list/workspace/6a8e9b0656c18f396012bc8d/6a8e9b2b3aef2e15d44ef7d7"
     },
-
     "_nota_liste": "Le colonne rispecchiano quelle di TickTick, ed è un bene: valgono le stesse regole. 💡 IDEE non entra MAI nel briefing, ✅ FATTO nemmeno. Il briefing legge ⏳ IN CORSO e ⌛️ NON INIZIATO.",
-
     "membro": {
       "id": "ari:cloud:trello::user/618690378b2cd442badf3827",
       "username": "emanueleboccia",
       "_nota": "⚠️ Il briefing riporta SOLO le card assegnate a questo membro. Il board è del reparto: le card di Karim e di Vincenzo sono lavoro vero, ma non è lavoro di Emanuele, e metterlo nel suo briefing gli fa sembrare suo qualcosa che non deve fare lui. È la stessa regola delle liste di Raffaele su TickTick."
     }
   },
-
   "notion": {
+    "viste": {
+      "_nota": "Dal 24/09/2026 il briefing legge Notion da queste viste, con notion-query-data-sources in modalità «view» e l'URL qui sotto, non con l'SQL. L'SQL ha una quota per workspace che il 24/09 si è esaurita a metà giornata, e un briefing che dipende da una quota prima o poi esce vuoto; le viste non ce l'hanno. I filtri li fa la vista, il briefing conta solo i giorni. Sono le quattro della Home più «Tutte» delle trattative: quello che Emanuele guarda su Notion e quello che gli viene letto la mattina restano la stessa cosa.",
+      "trattative": "https://app.notion.com/p/9542043164e44f32a68cc2fab0356995?v=c4acd7325b7144eb8b11dcba27170b46",
+      "_nota_trattative": "La vista «Tutte» del database Trattative, senza filtri. Le aperte si scelgono qui: Fase trattativa in stati_aperti e Archivia non spuntata. È l'unica che non sta sulla Home, perché la Home non ha le trattative aperte.",
+      "lavori_in_corso": "https://app.notion.com/p/9d3b094dadb0425a989aef290b02a159?v=7986ed51e8e1462c91e737c9c0802032",
+      "da_incassare": "https://app.notion.com/p/9e3cb4f6ff454cc8a3a5aaed81591584?v=b38d3290ae324975bc229bb43f6101ed",
+      "rinnovi_in_arrivo": "https://app.notion.com/p/3e5744e2ecd9817aa037d9a8855fae9e?v=3e5744e2ecd981189071000c8ae9749f",
+      "_nota_rinnovi": "Filtra la formula «⏰ In scadenza» di Rinnovi: scadenza entro 30 giorni, disdette escluse. Gli urgenti, sotto i 14, li conta il briefing dalla data.",
+      "lead_caldi": "https://app.notion.com/p/913afe1e19bd4699a2bb916e74707e71?v=e9f94ab438a5484cb2f43751b329ef93",
+      "risposte_modulo": "https://app.notion.com/p/25428e3f46ad4661bfcff5ff43405ec6?v=eba3db8a669749ffba488acf05d9f1ce",
+      "_nota_risposte_modulo": "La vista «Risposte ricevute» di Raccolta materiali, ordinata dalla più recente. Le righe con «Ricevuto» dopo l'ultimo briefing sono materiale arrivato da un cliente: Notion gratis non avvisa, le automazioni sono a pagamento. Aggiunta il 24/09/2026.",
+      "siti_da_controllare": "https://app.notion.com/p/f09622a316484e3a94c765fa9db1b604?v=3e5744e2ecd9815b913b000c0e74b690",
+      "gestionali_da_controllare": "https://app.notion.com/p/af4a2ff5357d42458cfbdfcbb5156682?v=3e5744e2ecd9810f95fd000cc4d9b7e7",
+      "_nota_da_controllare": "Le due viste «Da controllare» di Siti Clienti e Gestionali, create il 24/09/2026: i siti non archiviati Online, Da rifare o In manutenzione, e i gestionali Online o In manutenzione, tutti con l'Indirizzo pieno. Da qui il briefing prende la lista per il controllo di siti e gestionali: il campo da aprire è «Indirizzo», mai il link dentro il titolo, che su alcuni siti porta alla pagina di accesso nascosta di WordPress."
+    },
     "proposte": {
       "database_id": "95420431-64e4-4f32-a68c-c2fab0356995",
       "data_source": "collection://59ca2210-7706-4934-846e-fa9e137231aa",
-      "nome": "Proposte",
-      "campo_titolo": "Proposta",
-      "campo_stato": "Stato",
+      "nome": "Trattative",
+      "campo_titolo": "Trattativa",
+      "campo_stato": "Fase trattativa",
       "campo_data": "Creato",
-      "_nota_campo_data": "⚠️ In SQL la colonna non si chiama «Creato». I campi data di Notion arrivano scomposti in tre colonne — `date:Creato:start`, `date:Creato:end`, `date:Creato:is_datetime` — e una query su \"Creato\" fallisce con «no such column». Si seleziona `\"date:Creato:start\" AS creato` e si ordina su quello. Vale per ogni campo data di ogni database: i tre di «Siti Clienti» si leggono `date:(S) Hosting:start`, `date:(S) Assistenza:start`, `date:(S) Dominio:start`. Verificato il 01/09/2026.",
-      "campo_valore": "Valore Stimato",
+      "_nota_campo_data": "⚠️ In SQL la colonna non si chiama «Creato». I campi data di Notion arrivano scomposti in tre colonne — `date:Creato:start`, `date:Creato:end`, `date:Creato:is_datetime` — e una query su \"Creato\" fallisce con «no such column». Si seleziona `\"date:Creato:start\" AS creato` e si ordina su quello. Vale per ogni campo data di ogni database: la scadenza di «Rinnovi» si legge `date:Scadenza:start`. Verificato il 01/09/2026. ⚠️ Dal 24/09/2026 il briefing non usa l'SQL ma le viste, sezione «viste» qui sotto: questa nota serve solo a chi interroga in SQL per altro.",
+      "campo_valore": "Valore economico",
       "campo_note_esito": "Prossimo passo",
       "_nota_prossimo_passo": "Fino al 22/09/2026 il campo si chiamava «Note esito» ed era diventato un diario. Da quel giorno è una riga sola, riscritta ogni volta: la decisione o il passo di adesso, con la data davanti. La cronologia sta nello storico del cliente, nel vault.",
-      "campo_fase": "Fase",
+      "campo_fase": "Fase lavoro",
       "fasi": [
         "Proposta",
         "Accordo e acconto",
@@ -174,23 +177,24 @@
         "Consegna",
         "Chiuso"
       ],
-      "_nota_fase": "Aggiunta il 22/09/2026: la proposta segue il lavoro fino al saldo. La Fase dice a che punto è, lo Stato resta l'esito commerciale. Il briefing riporta i lavori con Fase piena e diversa da «Chiuso», uno per riga col suo Prossimo passo. Dentro la pagina c'è la checklist del processo compilata coi dati veri del cliente.",
+      "_nota_fase": "Aggiunta il 22/09/2026: la proposta segue il lavoro fino al saldo. «Fase lavoro» dice a che punto è il lavoro, «Fase trattativa» l'esito commerciale. Il briefing riporta i lavori con Fase piena e diversa da «Chiuso», uno per riga col suo Prossimo passo. Dentro la pagina c'è la checklist del processo compilata coi dati veri del cliente.",
       "stati_aperti": [
-        "In attesa",
-        "Inviata",
-        "Pronta per l'invio"
+        "In qualifica",
+        "Preventivo inviato",
+        "In negoziazione"
       ],
       "stati_chiusi": [
-        "Accettata",
-        "Rifiutata",
-        "Scaduta"
+        "Chiuso vinto",
+        "Chiuso perso"
       ],
-      "_nota_stati": "«Pronta per l'invio» è aperta ma ferma su Emanuele, non sul cliente: non si sollecita, si manda. «Scaduta» è chiusa dal tempo, non da una risposta.",
+      "_nota_stati": "Dal 24/09/2026 il database si chiama Trattative e le fasi sono quelle del modello del CRM. «In qualifica» è aperta ma ferma su Emanuele: il preventivo non è ancora partito, non si sollecita, si manda. «Fase lavoro» è la vecchia «Fase» e segue il lavoro fino al saldo. Il vecchio campo «Stato» (Pronta per l'invio, Inviata, In attesa, Accettata, Rifiutata, Scaduta) è stato tolto il 24/09/2026.",
       "escludi_se": {
         "Archivia": true
       },
       "campo_referente": "Referente",
-      "_nota_relazioni": "Dal 21/08/2026 le relazioni sono Referente → Contatti, e dal 22/09/2026 anche Fatture → Fatture e Sito → Siti Clienti. I campi Cliente e Servizio non esistono più: non provare a valorizzarli. I file: «PDF proposta», «Accordo» (quello mandato e quello firmato) e il vecchio «Fattura», nascosto dalle viste, che ha un solo file (Difendo Alarm) e si svuota nel database Fatture con l'export di Fiscozen."
+      "campo_azienda": "Azienda",
+      "_nota_relazioni": "Dal 21/08/2026 le relazioni sono Referente → Contatti, e dal 22/09/2026 anche Fatture → Fatture e Sito → Siti Clienti. I campi Cliente e Servizio non esistono più: non provare a valorizzarli. I file: «PDF proposta» e «Accordo» (quello mandato e quello firmato). Il vecchio «Fattura» è stato tolto il 24/09/2026: il suo unico file, la fattura 2/2025 di Difendo Alarm, sta nel database Fatture.",
+      "_nota_titolo": "Dal 24/09/2026 il titolo di una trattativa è il codice della sua proposta, `PROP_<anno>_<numero>_<Cliente>`: `PROP_2026_001_Ragosta`. Le trattative dal 2021 al 2025 tengono i vecchi codici `GS…`. Le regole stanno in docs/documenti-commerciali.md."
     },
     "fatture": {
       "database_id": "86dd7f72-0d31-4deb-9241-67f66004388b",
@@ -207,29 +211,48 @@
       "stati_aperti": [
         "Da incassare"
       ],
-      "_nota_uso": "Creato il 22/09/2026. Una riga per fattura, col PDF, e il numero è quello di Fiscozen. Il briefing legge le righe «Da incassare»: quelle con Scadenza entro sette giorni sono in scadenza, quelle con Scadenza passata sono in ritardo e vanno in cima. Sono soldi che qualcuno deve a Emanuele, e fanno le veci delle task «controllare l'acconto». In SQL la scadenza si legge «date:Scadenza:start».",
+      "_nota_uso": "Creato il 22/09/2026. Una riga per fattura, col PDF. Dal 24/09/2026 il titolo è il codice `FATT_<anno>_<numero>_<Cliente>`, col numero di Fiscozen: `FATT_2026_001_Ragosta`. Le regole stanno in docs/documenti-commerciali.md. Il briefing legge le righe «Da incassare»: quelle con Scadenza entro sette giorni sono in scadenza, quelle con Scadenza passata sono in ritardo e vanno in cima. Sono soldi che qualcuno deve a Emanuele, e fanno le veci delle task «controllare l'acconto». In SQL la scadenza si legge «date:Scadenza:start».",
       "_nota_registro": "Le fatture stanno qui, i soldi che si muovono stanno nel registro lavori su Sheets: sono due cose diverse. Quando arriva un pagamento si aggiornano tutti e due nello stesso giro."
     },
     "contatti": {
       "database_id": "70fa62ff-65e4-498a-8001-87f2b3aab424",
       "data_source": "collection://3e3d52ca-c1c0-424a-a753-3fae64063814",
-      "nome": "Contatti",
-      "campo_titolo": "Nome contatto",
+      "nome": "Contatti e lead",
+      "campo_titolo": "Nome e cognome",
       "campo_stato": "Stato",
-      "campo_proposte": "Proposte",
+      "campo_proposte": "Trattative",
       "stati_caldi": [
-        "🔵 Lead",
-        "🟡 In trattativa"
+        "Nuovo",
+        "In lavorazione"
       ],
-      "_nota_azione": "Lead caldo senza proposta = stato in stati_caldi e relazione Proposte vuota. È l'unica riga che il briefing dedica ai contatti.",
+      "stati": [
+        "Cold lead (scraping)",
+        "Nuovo",
+        "In lavorazione",
+        "Cliente attivo",
+        "Ex cliente",
+        "Scartato",
+        "Rete"
+      ],
+      "_nota_azione": "Lead caldo senza trattativa = stato in stati_caldi e relazione Trattative vuota. È l'unica riga che il briefing dedica ai contatti. I «Cold lead (scraping)» non sono caldi e non entrano: sono le liste fredde prima di qualificarle.",
       "escludi_se": {
         "Archivia": true
       },
       "campo_azienda": "Azienda",
-      "campo_categoria": "Category",
       "campo_origine": "Origine",
       "campo_ruolo": "Ruolo",
-      "_nota_entita": "Questa è l'unica lista di persone e clienti. La lista Aziende esiste ancora nel workspace ma è scollegata: il 21/08/2026 le relazioni Cliente (su Proposte) e Deals (su Aziende) sono state eliminate. Il cliente si identifica dal Contatto, col campo Azienda come testo."
+      "_nota_entita": "Dal 24/09/2026 il CRM ha tre database, sul modello scelto da Emanuele: Aziende, Contatti e lead, Trattative. «Azienda» è una relazione verso Aziende, e il settore sta sull'azienda, non sulla persona. Il 24/09/2026 il vecchio testo dell'azienda è diventato una riga di Aziende per ogni contatto, archiviati compresi, e i campi «Azienda (testo vecchio)», «Settore», «Phone», «Social», «Social/Sito», «Da risentire il» e «Ultimo contatto» sono stati tolti. Dal contatto si tengono solo telefono ed email. Le persone senza azienda, come un collaboratore freelance, restano senza."
+    },
+    "aziende": {
+      "database_id": "a7322b97-ff3b-4fe9-8f91-27446b7c3c51",
+      "data_source": "collection://c41187a9-1f43-4d1b-996f-23e2becf18a8",
+      "nome": "Aziende",
+      "campo_titolo": "Nome azienda",
+      "campo_settore": "Settore",
+      "campo_sito": "Sito web",
+      "campo_contatti": "Contatti",
+      "campo_trattative": "Trattative",
+      "_nota_uso": "Creato il 24/09/2026. Le organizzazioni: chi ci lavora sta in Contatti e lead, cosa gli è stato proposto in Trattative. Il briefing non lo legge da solo: serve a vedere tutto quello che riguarda un cliente in un posto."
     },
     "siti": {
       "database_id": "f09622a3-1648-4e3a-94c7-65fa9db1b604",
@@ -238,11 +261,6 @@
       "campo_titolo": "Sito Web",
       "campo_stato": "Stato",
       "campo_assistenza": "Assistenza",
-      "campi_scadenza": [
-        "(S) Hosting",
-        "(S) Assistenza",
-        "(S) Dominio"
-      ],
       "stati_sito": [
         "Online",
         "In manutenzione",
@@ -255,21 +273,94 @@
         "Disattiva"
       ],
       "_nota_stati": "Sono due campi distinti: Stato dice se il sito è su, Assistenza se il contratto di assistenza è attivo.",
-      "_nota_uso": "Il briefing legge i tre campi di scadenza: entro 30 giorni compaiono, sotto i 14 sono urgenti. È fatturato ricorrente, non deve scadere nel silenzio.",
+      "_nota_uso": "Dal 24/09/2026 le date di rinnovo non stanno più qui: stanno in «rinnovi», qui sotto, e «Prossimo rinnovo» le mostra prendendole da lì. I tre campi (S) e le due formule ⏰ sono stati tolti lo stesso giorno, dopo aver controllato che tutte le date fossero già in Rinnovi.",
       "escludi_se": {
         "Archivia": true
       }
+    },
+    "rinnovi": {
+      "database_id": "992a48345be045fa8f5e6aa4b322f805",
+      "data_source": "collection://44441fa4-b87b-45c4-a8ba-3c560840074a",
+      "nome": "Rinnovi",
+      "campo_titolo": "Rinnovo",
+      "campo_scadenza": "Scadenza",
+      "campo_tipo": "Tipo",
+      "campo_importo": "Importo",
+      "campo_costo": "A chi si paga",
+      "campo_stato": "Stato",
+      "escludi_stati": [
+        "Disdetto"
+      ],
+      "_nota_uso": "Dal 24/09/2026 tiene solo i rinnovi dei clienti: hosting, domini e assistenze dei siti, i gestionali. Il briefing legge le righe con Scadenza entro 30 giorni, urgenti sotto i 14, escluse le disdette. «A chi si paga» vuoto vuol dire che il rinnovo gira sull'Hostinger di Emanuele e lo incassa lui; «Ergonet, lo paga il cliente» vuol dire che il servizio è del cliente e va solo ricordato; «da controllare», che la scadenza non è ancora stata letta dal pannello. Gli abbonamenti di Emanuele non stanno qui: stanno nelle spese ricorrenti di areas/finanza/quadro.md, colonna Rinnovo, e il briefing le legge da lì. In SQL la data si legge «date:Scadenza:start».",
+      "_nota_fonti": "I rinnovi dei clienti si controllano sui pannelli: Ergonet, Servizi delegati (webpanel.ergonet.it/delegati), e Hostinger, domini e siti del piano Agency. Controllati il 24/09/2026.",
+      "vista_domini": "view://3e5744e2-ecd9-8156-9703-000c5f81fbc6",
+      "_nota_domini": "La vista «Domini»: Tipo Dominio, o «dominio» nel titolo per quelli compresi in un piano Ergonet, in ordine di scadenza. Chiesta da Emanuele il 24/09/2026."
+    },
+    "riunioni": {
+      "database_id": "fb419ee9-c638-4294-a593-b539eb870ab8",
+      "data_source": "collection://3cdb545c-24e9-43f4-800c-62bdcc28490e",
+      "nome": "Riunioni",
+      "campo_titolo": "Riunione",
+      "campo_data": "Data",
+      "campo_con_chi": "Con chi",
+      "campo_lavoro": "Lavoro",
+      "campo_dove": "Dove",
+      "campo_id_granola": "ID Granola",
+      "campo_nel_vault": "Nel vault",
+      "_nota_uso": "Dal 24/09/2026 ogni riunione di Granola diventa una riga, col riassunto di Granola nel corpo. Prima di crearla si cerca il suo id in ID Granola: se Granola l'ha salvata due volte, ci vanno tutti e due gli id. Le regole in docs/clienti-su-notion.md, sezione «Le riunioni»."
+    },
+    "portali": {
+      "pagina": "3e4744e2ecd981afbf45e1e38c772e49",
+      "modello": "3e5744e2ecd98181b0e6e54d5309bba1",
+      "_nota_uso": "Il portale di un cliente nuovo si fa duplicando il modello: si sostituisce quello fra « » e il riquadro rosso si toglie prima di pubblicare."
+    },
+    "movimenti": {
+      "database_id": "a4b2ab3d-0a01-4ffa-bb5c-b438d12a420a",
+      "data_source": "collection://1bb836db-895c-45f6-a7bc-36d8cdb4e192",
+      "nome": "Movimenti",
+      "campo_titolo": "Motivo",
+      "_nota_uso": "Dal 24/09/2026 è il registro del personal brand: incassi e costi dei clienti esterni, collegati a fattura, lavoro e cliente. I brand di famiglia qui non entrano: restano nel loro foglio. Si scrive a fine mese, dalle righe di areas/finanza/lavori-da-registrare.md, con una conferma sola."
+    },
+    "formazione": {
+      "training_data_source": "collection://acdbfdf9-958c-43eb-abbd-1d0332e83256",
+      "training_modelli": {
+        "Nuovo Corso": "c47badf5b84c4c9c937f8d2efd888b74",
+        "Nuovo Articolo": "4b45f186188b4851a572009f34d93cbc",
+        "Nuovo Podcast": "f6a9016e005649e9ae3db355c62ead80"
+      },
+      "libreria_data_source": "collection://c0deab33-613c-43b5-9127-31f634c0ea4d",
+      "libreria_modello": "c3c2b416d6a5493391b1ff677bb6e7da",
+      "_nota_uso": "Dal 24/09/2026 la formazione vive qui: corsi, articoli e podcast in training, i libri in Libreria, gli appunti dentro ogni pagina. Claude ci scrive senza chiedere prima, detto da Emanuele."
+    },
+    "gestionali": {
+      "database_id": "af4a2ff5-357d-4245-8cfb-dfcbb5156682",
+      "data_source": "collection://6deae05c-2509-477d-84e6-cc779b7ad6bd",
+      "nome": "Gestionali",
+      "campo_titolo": "Gestionale",
+      "_nota_uso": "Sotto Consegnato, accanto a Siti Clienti: i gestionali in funzione, con cliente, indirizzo, server, tecnologia e data di messa online. Le scadenze stanno in Rinnovi, collegate. Riempito il 24/09/2026."
+    },
+    "collaboratori": {
+      "database_id": "b6133d7e-dda7-47f8-90eb-24f399b58c42",
+      "data_source": "collection://a390b99f-73c1-4379-9736-e1f9f39fca55",
+      "nome": "Collaboratori",
+      "campo_titolo": "Nome",
+      "_nota_uso": "Sotto Offerta: chi lavora con Emanuele, cosa fa, quanto costa e come si paga. Riempito il 24/09/2026."
+    },
+    "procedure": {
+      "database_id": "dd3de704-bbb9-4246-b675-ec513ea95d46",
+      "data_source": "collection://c83c3917-5f45-4d6a-91eb-bbd2c4bdd3ec",
+      "nome": "Procedure",
+      "campo_titolo": "Procedura",
+      "campo_vault": "Nel vault",
+      "_nota_uso": "Sotto Offerta: le procedure e le checklist del vault copiate su Notion il 24/09/2026. Sono copie: se non coincidono vale il vault, e una procedura che cambia nel vault si ricopia qui nello stesso giro. Il percorso in «Nel vault» si scrive fra backtick, se no Notion lo trasforma in un link."
     }
   },
   "audio": {
     "_nota": "Il comando «buongiorno audio». Compilato il 25/08/2026 leggendo l'API ElevenLabs vera: modelli, voci condivise, piano dell'account.",
-
     "modello": "eleven_multilingual_v2",
     "_nota_modello": "Multilingue, italiano incluso. Su ElevenLabs esistono anche eleven_v3 e i flash/turbo: il multilingual v2 è quello con la resa più naturale sul parlato lungo, e la latenza qui non conta perché non stiamo facendo una conversazione.",
-
     "formato": "mp3_22050_32",
     "_nota_formato": "Formato sicuro su qualsiasi piano. I bitrate alti sono riservati ai piani a pagamento: se un giorno il piano sale, qui si può passare a mp3_44100_128 e si sente la differenza.",
-
     "voce": {
       "scelta": "hpp4J3VqNfWAUOO0d1Us",
       "scelta_nome": "Bella - Professional, Bright, Warm",
@@ -291,41 +382,52 @@
           "perche": "premade, cadenza da speaker radiofonico: la più formale delle tre"
         }
       ],
-      
       "scelta_quando_il_piano_sale": "G0q9AYE8QsarSbMtaIEu",
       "scelta_quando_il_piano_sale_nome": "Elettra - Mature actress",
       "_nota_elettra": "Aggiunta da Emanuele al suo account il 30/08/2026 e da lui indicata come voce da usare. È italiana vera — professional, accento standard, timbro profondo — ed è quello che serve a questo briefing. NON è impostata come voce attiva perché sul piano free l'API la rifiuta: provata il 30/08/2026 con una stringa di 20 caratteri, risponde 402 paid_plan_required, «Free users cannot use library voices via the API». Nell'app ElevenLabs si sente, dall'API no: sono due permessi diversi, e la skill passa dall'API. Il giorno che il piano sale a Creator si sposta questo voice_id in «scelta» e si aggiorna «scelta_nome». Nessun'altra modifica serve.",
       "_nota_altra_italiana": "Sullo stesso account c'è anche Giusy - Sales and Customer Support, 8KInRSd4DtD5L5gK7itu, italiana con accento siciliano. Stessa categoria professional, quindi stesso blocco sul free.",
       "_nota_piano": "⚠️ Confermato due volte, il 25/08/2026 e il 30/08/2026: sul piano free le voci di libreria — categoria «professional» o condivise — NON si usano via API, nemmeno dopo averle aggiunte al proprio account. Comparire in ELEVENLABS_GET_VOICES non vuol dire essere usabili: la lista dice cosa possiedi, non cosa l'API ti lascia sintetizzare. Gli errori sono 400 free_users_not_allowed e 402 paid_plan_required, stessa causa. Sul free restano solo le voci premade, tutte nate in inglese: con eleven_multilingual_v2 parlano italiano, ma la pronuncia resta quella di un anglofono. ⚠️ Una voce nuova non si imposta mai in «scelta» senza averla prima provata con una stringa cortissima: impostarla al buio rompe il briefing di ogni mattina seguente."
     },
-
     "tool_composio": {
       "sintesi": "ELEVENLABS_TEXT_TO_SPEECH",
       "voci_condivise": "ELEVENLABS_GET_SHARED_VOICES",
       "modelli": "ELEVENLABS_GET_MODELS",
       "piano": "ELEVENLABS_GET_USER_SUBSCRIPTION_INFO"
     },
-
     "percorsi": {
       "audio": "workspace/journal/audio/briefing-<YYYY-MM-DD>.mp3",
       "sigla": "code/skills/journal/assets/sigla.mp3"
     },
-
-    "durata_target_secondi": [60, 90],
+    "durata_target_secondi": [
+      60,
+      90
+    ],
     "caratteri_per_minuto": 896,
-    "caratteri_target": [900, 1290],
+    "caratteri_target": [
+      900,
+      1290
+    ],
     "_nota_durata": "Misurato sui due run del 25/08/2026 con eleven_multilingual_v2: 1355 caratteri hanno reso 90,7 secondi, cioè 896 caratteri al minuto. La prima stima diceva 1000 e sforava. Non si stima a occhio: si scrive il parlato dentro caratteri_target e si controlla la durata del file prima di consegnare. Il tetto di 1290 tiene un margine sotto i 90 secondi.",
-
     "giorni_conservazione": 7,
     "_nota_conservazione": "I briefing audio sono usa e getta: si ascoltano la mattina e non si riascoltano più. A ogni giro si cancellano quelli più vecchi di sette giorni. Il diario scritto resta, quello è la memoria.",
-
     "_nota_quota": "Il 25/08/2026 il piano era free: 10.000 caratteri al mese, azzerati a ogni rinnovo. Un briefing ne consuma circa 1.300, quindi il piano free regge sette o otto briefing al mese: è un tetto che si tocca davvero. Il piano si rilegge con ELEVENLABS_GET_USER_SUBSCRIPTION_INFO, non si dà per buono questo numero. ⚠️ Ogni chiamata consuma: la risposta di ELEVENLABS_TEXT_TO_SPEECH si salva alla prima esecuzione e si riusa, non si rilancia la sintesi per rileggere l'URL."
   },
-
   "soglie": {
     "giorni_proposta_ferma": 7,
     "giorni_settimana_in_arrivo": 7,
     "giorni_scadenza_sito_visibile": 30,
     "giorni_scadenza_sito_urgente": 14
+  },
+  "controllo_siti": {
+    "_nota": "Il controllo di siti e gestionali, chiesto da Emanuele il 24/09/2026 al posto dell'agente di Notion «Siti in salute»: un agente di Notion legge le pagine come testo e non vede gli errori di un gestionale, questo apre ogni indirizzo con un Chrome vero. Gira sul Mac, non consuma crediti, e legge soltanto.",
+    "script": "code/controllo-siti/controlla.mjs",
+    "comando": "node code/controllo-siti/controlla.mjs <lista.json> <esito.json>",
+    "lista": "[{\"nome\": \"...\", \"url\": \"...\", \"tipo\": \"sito\" | \"gestionale\"}], dalle due viste «Da controllare»",
+    "esiti": [
+      "ok",
+      "da guardare",
+      "non risponde"
+    ],
+    "_nota_durata": "Il 24/09/2026 dieci indirizzi in 23 secondi, uno alla volta. Se node_modules manca: npm install dentro code/controllo-siti."
   }
 }

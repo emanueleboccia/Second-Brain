@@ -102,9 +102,9 @@ lista morta.
    stanno in [`../journal/riferimenti.json`](../journal/riferimenti.json): si interroga dal
    `data_source`, non dal `database_id`, e si escludono le righe con `Archivia` spuntata.
 
-   - **Contatti** — lo stato del rapporto: `🔵 Lead`, `🟡 In trattativa`, e le proposte agganciate
-     col campo `Proposte`.
-   - **Proposte** — la proposta viva: `Stato`, `Valore Stimato`, `Creato`, e quindi **da quanti
+   - **Contatti e lead** — lo stato del rapporto: `Cold lead (scraping)`, `Nuovo`, `In lavorazione`, `Cliente attivo`, e le trattative agganciate
+     col campo `Trattative`.
+   - **Trattative** — la trattativa viva: `Fase trattativa`, `Valore economico`, `Creato`, e quindi **da quanti
      giorni è ferma**.
 
    Lo stato su Notion e quello che dice Emanuele possono non coincidere. Se non coincidono,

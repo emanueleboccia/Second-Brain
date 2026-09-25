@@ -2,6 +2,93 @@
 
 Aperto il 13/07/2026.
 
+## 24/09/2026, notte — Le campagne email passano al gestionale
+
+Da qui le email alle scuole partono dal [[projects/gestionale-masseria/MEMORY|gestionale]], sezione Campagne,
+dalla stessa Gmail di settembre e con lo stesso ritmo, ma coi numeri: arrivate, aperte, brochure scaricata,
+risposte. Lo script del vault (`code/email-marketing/invia-gruppo.py`) resta com'è, per la campagna di
+settembre, che nel gestionale entra dal suo registro. La prima campagna nuova è la proposta di Zucche alle
+250 scuole mai scritte, cioè le 251 meno l'IC D'Avino, che ha prenotato. È online in bozza dal 24/09, col cron
+che la manda da solo, e parte quando Emanuele crea la password per le app.
+
+## 24/09/2026 — La lista delle scuole rifatta sull'elenco del Ministero
+
+Chiesto da Emanuele: tutte le scuole dell'infanzia e primarie della zona, «anche fino a 20km», in un elenco
+unico partendo da quello di settembre, con nomi e contatti sistemati. Apify non è servito: il Ministero
+pubblica gratis l'anagrafe di tutte le scuole statali e paritarie, e i telefoni, che lì mancano, stanno su
+Scuola in Chiaro. La lista è `email-marketing/scuole.csv`, e come si legge sta in
+[[areas/la-masseria-di-mezzautunno/email-marketing/scuole|la lista delle scuole]].
+
+- **1.009 plessi** al posto di 213, 336 indirizzi utilizzabili, **251 mai scritti**. Rilanciare
+  `invia-gruppo.py` sulla cartella della campagna di settembre manda la proposta solo a quelli.
+- **Il raggio l'ho deciso io, e va confermato**: 20 km in linea d'aria, tolti i comuni dietro le montagne,
+  dove in auto ci vogliono più di 35 minuti: Costiera, Tramonti, Agerola, Meta, Forino, Monteforte. Se li
+  vuole, si cambia `MINUTI_MAX` in `code/email-marketing/scuole/costruisci.py`.
+- **Le distanze partono dalla Masseria**, non più dal centro di Poggiomarino.
+- **I nomi corretti a mano stanno in `code/email-marketing/scuole/nomi.py`**, le email decise a mano in
+  `correzioni.py`: nel CSV si perdono al giro dopo. Nel CSV resta solo lo stato di un indirizzo, compreso
+  «ha chiesto di non ricevere email».
+- **49 istituti raggiunti a settembre hanno anche le primarie**, 123 plessi: la proposta di settembre parlava
+  solo dell'infanzia, e lo script non gliela rimanda.
+- Emanuele ha chiesto se l'email marketing può entrare nel gestionale. Si può: la lista in una pagina, le
+  campagne mandate piano coi cron di Hostinger, da una casella del dominio o da Brevo, col link per non
+  ricevere più. Il piano si fa se lo vuole.
+
+## 24/09/2026 — Le storie extra, con le clip del 2025
+
+Fuori dal conto alla rovescia, perché il meno 2 Emanuele lo deve ancora girare. Sono storie nel format «io e te»
+del meno 6: clip che cambiano sul battito, scritta ferma, musica sola. Dei cinque testi proposti ha detto di farli
+tutti, due alla volta. Le prime due sono montate e stanno in `3-in-produzione/storie-clip/extra-2025/` sull'SSD,
+con le ricette:
+
+- **«Manca poco a tutto *questo*»**, con sotto «Zucche in Masseria» e «Da sabato 26 settembre». Musica
+  `leberch-country` da 70,2 s, un taglio ogni 6 battiti, 14,8 s.
+- **«L'anno scorso è andata *così*»**, con sotto «Sold out in quasi tutte le date.» e «Si riparte sabato 26
+  settembre». Musica `fried-taters-bluegrass` da 118 s, lontano dal pezzo del meno 8, tagli alternati da 4 e 3
+  battiti, 15 s. La riga proposta, «Le date si riempiono in fretta», ripeteva «date» subito dopo.
+- ⚠️ **Le tracce le ho scelte io**: Emanuele ha scritto «procedi» senza indicare una delle tre mandate. Se non
+  vanno, si cambiano senza rimontare le clip.
+- **Restano da fare** «Scegli la tua *zucca*. Al resto pensa l'autunno.», «Qui arrampicarsi sul *fieno* non è
+  vietato» e «Una giornata che si vive con tutti i *sensi*».
+- **Una va il 24 col meno 2, l'altra il 25 col meno 1**, decise da Emanuele.
+
+**Le storie da una clip sola**, chieste lo stesso giorno per far girare le storie: dieci da 6 secondi, senza
+scritte, cinque per il 24 e cinque per il 25, in `extra-2025/singole-oggi` e `singole-domani`. Ogni giornata
+racconta un giro del parco e ha una traccia sola, che prosegue da una storia all'altra: messe in fila, si sente un
+brano unico. Il 24 `the_mountain-country` da 102,4 s, il 25 `jonasblakewood-acoustic-folk` da 108,9 s, tutte e
+due lontane dai pezzi del meno 8. Le clip: il 24 il drone 0266, IMG_3493, 3496, 3551 e 3562; il 25 il drone 0265,
+IMG_3475, 3499, 3522 e 3557.
+
+**Il girato del 2025** è su Drive, `02 Foto e video/2025 Zucche in Masseria`: 73 clip dell'iPhone in
+`05 - Persone e ritratti`, tutte HDR, più nove nelle altre cartelle; le aeree con la gente sono le undici dell'SSD.
+⚠️ **Già usate, non si riprendono**: nel meno 6 IMG_3566, IMG_3497, i droni 0261 e 0263, e le tre che la ricetta
+chiamava c3, c6 e c7, riconosciute dai fotogrammi come IMG_3481, IMG_3531 e IMG_3539. In queste due IMG_3468, 3555,
+3473, 3547, 3515, 3495, 3480, 3466, 3514, 3476, 3502, 3484, 3486 e il drone 0262. Scartate: la mascotte di Buzz
+(IMG_3540) e le aeree del parcheggio, come aveva detto Emanuele per il meno 6.
+
+## 24/09/2026 — L'invito di compleanno rifatto, col fienile vero
+
+La Masseria ha trovato l'invito del 23/09 poco accattivante. Rifatto in una mattina, e messo online nel
+[[projects/gestionale-masseria/MEMORY|gestionale]] alla fine di ogni giro. Le decisioni sono tutte di Emanuele:
+
+- **Fra la cartolina con la cornice arancio e il prato verde ha scelto il prato.** In alto però resta un cielo
+  chiaro, con due colline e gli alberi.
+- ⚠️ **Il logo di Zucche non va rimpicciolito dentro un tondo.** Era in un adesivo avorio piccolo: «mettilo in un
+  altro modo, più grande», e se proprio c'è un cerchio, grande abbastanza che il logo si legga. Ora sta nel cielo,
+  largo 500 px su 1200. La regola è scritta in [[areas/la-masseria-di-mezzautunno/reference/design|design]].
+- **In fondo c'è la firma, staccata dal resto**, su un fondo avorio suo: il logo della Masseria, poi Da Mamma
+  Rosaria e Funny Show, il sito e i social. Instagram e TikTok sono @lamasseriadimezzautunno; la pagina Facebook
+  non ha un nome breve, e sull'invito si scrive per esteso.
+- **Le illustrazioni sono uscite.** Palloncini, spaventapasseri, la zucca col fiocco che portava l'età e la torta
+  li aveva messi Claude per animare il verde; Emanuele li ha tolti e ha chiesto **una foto vera del fienile e del
+  giardino** al posto del verde pieno, con un velo trasparente, e **solo le foglie come effetto**.
+- **Poi «da più lontano», perché si vedano le zucche.** La foto è la GRS01294, il fienile intero col fieno e le
+  zucche sul prato, da `04 - Paesaggio e masseria` dell'archivio di Zucche 2025 su Drive. ⚠️ **Nessuna foto del
+  fienile ha tante zucche**: sono tre o quattro in ognuna. Il campo pieno di zucche sta in altre foto, senza
+  fienile (GRS01341, GRS01342 di `02 - Allestimenti e zucche`).
+- **La frase finisce col punto esclamativo**: «Una giornata tra zucche, natura e tanto divertimento!».
+- **L'età torna una riga in Niconne giallo** sotto il nome, «per i suoi 7 anni», come nel primo invito.
+
 ## 23/09/2026 — L'invito di compleanno di Zucche, dentro il gestionale
 
 Emanuele ha girato un invito di compleanno fatto altrove, generico, e l'ha chiesto «in uno stile più adatto al

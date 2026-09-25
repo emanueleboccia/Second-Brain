@@ -7,10 +7,29 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-19
+updated: 2026-09-24
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-09-23 — La campagna interna contro Poletti, dopo tre settimane
+Granola ne ha dato solo il riassunto: [[sources/call/2026-09-23-sistema-evolve|call del 23/09]]. Il confronto
+era fra i lead dell'agenzia esterna, **Poletti**, e quelli della campagna del reparto, partita il 1° settembre.
+
+**La campagna interna:** 33 lead con circa 200 € di ads e due video, **7 iscritti confermati** e almeno altri 2
+probabili, circa **1.400-1.500 € incassati**, quasi tutti gli acconti. Settembre è bassa stagione, e il confronto
+ne tiene conto. **Poletti** aveva preso 2.000 € di anticipo più il setup e chiesto altri 700 €, e dei suoi 75
+presenti ne sono rimasti 7 paganti, 4 o 5 dei quali avevano già pagato prima.
+
+La frase che resta è **«metà del lavoro che converte non costa niente»**: l'organico chiude più delle ads, e una
+campagna da 14 contatti non ha portato nessun iscritto.
+
+**I prossimi passi usciti dalla riunione**, tutti del reparto e quindi su Trello, non su TickTick:
+- rifare i conti dal 1° settembre contando solo i lead da ads, promozioni, social e sito, senza gli iscritti di
+  prima;
+- richiamare i lead con un appuntamento rimasto senza risposta;
+- chiudere il piano editoriale per pillar e format e lanciare le due ads già pronte;
+- mandare tutti i WhatsApp al numero dedicato.
 
 ### 2026-09-19 — La percentuale resta, e si chiede un rimborso spese
 Deciso da Emanuele dopo la riunione del 17/09: **per ora la percentuale resta quella**, il 10% sulle vendite del

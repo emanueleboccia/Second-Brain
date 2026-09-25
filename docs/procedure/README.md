@@ -36,12 +36,22 @@ Quando una procedura ha una definizione di fatto stabile, la si porta in
 
 - [[docs/procedure/produzione-contenuti|produzione contenuti]] — come un contenuto va dalla
   scheda della macchina fino a pubblicato, per i tre brand di famiglia e il personal brand.
+- [[docs/procedure/ordinare-un-evento|ordinare un evento]] — come si sistema il girato di un evento
+  sull'SSD, e come si smista il drone fra i brand.
+- [[docs/procedure/pubblicare-un-post|pubblicare un post]] — da contenuto pronto a post online, con la
+  verifica che il post sia uscito davvero.
 - [[docs/procedure/sito-web-wordpress|sito web WordPress]] — la vecchia checklist in quattordici
   fasi, tenuta com'era. Il modo di lavorare di oggi sta in [[docs/checklist-sito|checklist sito]].
 
----
+Nessuna è stata inventata: sono scritte una alla volta, partendo da quelle già fatte due volte.
 
-> **Stato al 01/09/2026:** cartella creata, contenuti da scrivere. Nessuna procedura è
-> stata inventata: si scriveranno una alla volta, partendo da quelle già fatte due volte.
-- [[docs/procedure/ordinare-un-evento|ordinare un evento]] — come si sistema il girato di un evento
-  sull'SSD, e come si smista il drone fra i brand.
+## La copia su Notion
+
+**Dal 24/09/2026 le procedure e le checklist hanno una copia su Notion**, nel database *Procedure*
+sotto *Offerta*, chiesta da Emanuele per averle aperte mentre lavora: le quattro di questa cartella,
+più [[docs/processo-cliente|il processo cliente]], la checklist sito, l'onboarding e il brief cliente.
+
+La fonte resta qui. Ogni pagina su Notion lo dice in cima e nel campo *Nel vault*, e se le due versioni
+non coincidono vale il file. Quando una procedura cambia, si ricopia lì nello stesso giro; quando ne nasce
+una nuova, si aggiunge una riga. Come è fatto il resto di Notion sta in
+[[docs/clienti-su-notion|clienti su Notion]].

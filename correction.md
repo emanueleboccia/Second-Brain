@@ -32,6 +32,10 @@ Sbagliato: quelle vivono già nel database **Siti Clienti** di Notion, nei campi
 **La prossima volta:** le scadenze dei clienti si leggono da Notion e non si duplicano altrove.
 La colonna Scadenze di TickTick è per le scadenze di Emanuele, non dei suoi clienti.
 
+⚠️ **Cambiato il 24/09/2026.** Le date dei clienti non stanno più nei tre campi di Siti Clienti ma
+nel database **Rinnovi**, che è l'unico posto dei rinnovi. Ci stanno anche i costi di Emanuele,
+Hostinger e Fiscozen, che prima erano nella colonna Scadenze di TickTick. Il briefing legge Rinnovi.
+
 Le colonne di TickTick, sezione Lavoro, hanno ciascuna un criterio preciso:
 
 - **⌛️ Non iniziato** — cose senza data e non programmate.
@@ -40,6 +44,10 @@ Le colonne di TickTick, sezione Lavoro, hanno ciascuna un criterio preciso:
 - **🔔 Scadenze** — scadenze importanti di Emanuele, soprattutto di costi.
 
 Una task con una data non va in «Non iniziato»: va in «In corso».
+
+⚠️ **Cambiato il 24/09/2026.** La colonna 🔔 Scadenze non c'è più: i costi stanno in *Rinnovi* su
+Notion. Dopo 📆 Appuntamenti c'è invece **💬 Da sentire**, chiesta da Emanuele quel giorno: messaggi
+da mandare, chiamate, ricontatti e Setting.
 
 ## 24/08/2026 — Il problema lo deve dichiarare il cliente
 
@@ -157,7 +165,7 @@ trasformazione, l'agenda a scelta chiusa, il decision maker chiesto adesso e non
 cementificazione una volta fissata l'ora. La discovery si prepara quando l'appuntamento esiste.
 
 **La dicitura scelta il 30/08/2026 è «Setting».** Le task si chiamano `Setting <Nome> (Azienda)`
-e stanno in ⏳ In corso, non in 📆 Appuntamenti — un setting non è un appuntamento, e tenerlo
+e stanno in ⏳ In corso — dal 24/09/2026 in 💬 Da sentire —, non in 📆 Appuntamenti — un setting non è un appuntamento, e tenerlo
 nella colonna degli appuntamenti è quello che me l'ha fatto leggere male. La parola viene dal suo
 stesso vocabolario di vendita e dice a che punto del funnel si è: setting, poi appuntamento, poi
 proposta. «Contattare» non si usa più.
@@ -773,3 +781,133 @@ L'ho visto per caso, controllando il sito per il menù.
 **La prossima volta:** prima di dire che un'app con l'accesso è online, due richieste di fila senza cookie a una
 pagina riservata: devono rispondere col rimando all'accesso e con la cache mancata (`302`, `MISS`), mai `200` o
 `HIT`. Vale per ogni hosting con una cache o una CDN davanti, e si rifà dopo ogni cambio nelle impostazioni.
+
+## 24/09/2026 — Il portale prometteva tempi che nessuno aveva promesso
+
+Il 23/09 ho scritto nel portale di [[entities/clienti/ragosta/storico|Ragosta]] «sito online entro 4
+settimane» e «il materiale entro dieci giorni dall'acconto». A Gaetano Emanuele aveva detto un'altra
+cosa: il sito in dieci giorni da quando arriva il materiale. I tempi li avevo presi dalla regola
+generale del [[docs/processo-cliente|processo cliente]], e i dieci giorni erano finiti nella riga
+sbagliata. Se n'è accorto lui, prima che il link partisse.
+
+**La prossima volta:** su un documento che legge il cliente, tempi, prezzi e condizioni si prendono
+da quello che Emanuele gli ha detto o dall'accordo. Se non stanno scritti da nessuna parte, si
+chiedono prima di scriverli: un numero promesso a un cliente non si deduce da una regola.
+
+Nello stesso giro, un secondo errore. Emanuele mi ha dettato le modifiche una per una (togli la
+firma, togli il logo, dividi le foto per lavoro) e io gliele ho rimandate come proposta da
+approvare, senza toccare niente. «Mi sembra che sia rimasto tutto identico.» **Quando le modifiche
+le detta lui, si applicano e poi gli si mostra il risultato**, anche se le frasi esatte le scrivo
+io: è il caso del contenuto dato da lui, nella regola sulle scritture. La domanda prima resta per
+quando sono io a scegliere cosa cambiare.
+
+## 24/09/2026 — Ho lasciato a Emanuele una lista di cose da fare a mano
+
+Chiudendo il CRM nuovo gli ho consegnato un elenco di pulizie da fare lui su Notion: le colonne vecchie,
+gli stati vecchi, la sezione della Home. Una cancellazione di colonna mi era stata bloccata una volta, e
+invece di trovare un'altra strada mi sono fermato lì. «Riprova e falle tu queste cose, anche se devi farlo
+attraverso il controllo del pc, ma falle sempre tu e finisci i lavori quando li fai.»
+
+**La prossima volta:** un lavoro si consegna finito. Se una strada è chiusa se ne prova un'altra — l'API,
+poi il browser, poi il controllo del computer — e a Emanuele non si lascia un elenco di passaggi manuali.
+Restano a lui solo le cose che le regole di sicurezza non mi fanno fare, come password e pagamenti, e
+quelle si dicono una per una, col motivo.
+
+## 24/09/2026 — Ho tolto le colonne prima di spostarne i dati
+
+Rifacendo le pulizie ho cancellato in un colpo solo sette colonne di *Contatti e lead*, fra cui «Azienda
+(testo vecchio)» e «Settore». Ma i diciannove contatti archiviati non erano ancora stati spostati: il nome
+della loro azienda stava solo lì. L'ho visto subito dopo, e le colonne le ho ripristinate dalle *Proprietà
+eliminate* del database, coi dati intatti. Poi ho spostato tutto e le ho tolte di nuovo.
+
+**La prossima volta:** prima si sposta, poi si controlla che il dato sia arrivato, poi si cancella. Tre
+passaggi separati, e la cancellazione è l'ultimo. Se una colonna tolta per sbaglio aveva dei dati, su
+Notion si recupera da *Modifica proprietà* → *Proprietà eliminate*, finché non la si svuota a mano.
+
+## 24/09/2026 — L'icona di Aziende era del grigio sbagliato
+
+Il 24/09 avevo messo l'icona al database Aziende dal browser, scegliendo il colore «Grigio chiaro», e ne
+era uscito `city_lightgray`, che è il colore delle macro pagine e non dei database. Nel selettore di Notion
+**`_gray` si chiama «Predefinito»**: un'opzione «Grigio» non c'è. E il selettore si ricorda l'ultimo colore
+scelto, quindi l'errore passa anche all'icona dopo.
+
+**La prossima volta:** per un database o una sottopagina, nel selettore si sceglie «Predefinito»; per una
+macro pagina, «Grigio chiaro». Dopo, si controlla con un fetch che l'icona finisca in `_gray` o in
+`_lightgray`, come deve.
+
+## 24/09/2026 — Il lavoro vinto non aveva il suo progetto su TickTick
+
+L'acconto di Ragosta è arrivato il 23/09, la checklist su Notion è stata scritta e approvata, ma su
+TickTick il lavoro non esisteva: nessuna task madre, nessun passo. Il 23/09 la nota di sessione diceva
+perfino che il progetto «non si può aprire» finché manca la procedura del sito vetrina. Emanuele ha dovuto
+ricordarlo: «il sito di Ragosta deve avere una checklist da inserire su TickTick».
+
+**La prossima volta:** il giorno in cui arriva l'acconto nasce il `[PROGETTO] Sito web <Cliente>`, coi
+passi che restano della checklist su Notion scritti come azioni. Una procedura che manca non è un motivo
+per aspettare: la checklist basta, e la procedura migliora il progetto dopo, non lo blocca prima.
+
+## 24/09/2026 — Quattro grafici su un piano che ne permette uno
+
+Emanuele ha detto «si falli» ai grafici sulla Home, e ne ho creati quattro dall'API. L'API ha risposto ok a
+tutti e quattro, ma sulla pagina ognuno mostrava solo «Il tuo spazio di lavoro ha già usato il suo unico
+grafico gratuito». Col piano gratuito di Notion il grafico è uno per tutto lo spazio di lavoro, e il suo era
+già usato altrove. Li ho tolti.
+
+**La prossima volta:** prima di costruire su Notion una cosa che dipende dal piano — grafici, automazioni,
+moduli con più di un certo numero di risposte — si controlla che il piano la permetta. E il risultato si
+guarda sulla pagina, non sulla risposta dell'API: è la stessa regola del 10/09 sulle sottotask.
+
+## 24/09/2026 — Il referral del padre era finito sul fratello
+
+Nel giro dei referral di stamattina «il padre di Emanuele → Antonio Pazzone» l'ho segnato su *Raffaele
+Boccia*, l'unico Boccia fra i contatti. Raffaele è il fratello; il padre è Antonio Achille Boccia, e su
+Notion non c'era. Emanuele l'ha corretto la sera stessa.
+
+**La prossima volta:** se la persona giusta non è nel CRM, si crea, anche solo come *Rete*: non si attacca
+la relazione al contatto più vicino per cognome. In famiglia i fratelli sono Raffaele e Domenico, il padre
+è Antonio Achille.
+
+## 24/09/2026 — I percorsi del vault su Notion erano diventati link a siti moldavi
+
+Caricando le procedure su Notion ho scritto nel campo *Nel vault* i percorsi nudi, `docs/onboarding.md`. Notion li
+ha trasformati in link: `.md` è il dominio della Moldavia, e `onboarding.md` è diventato un collegamento a
+`http://onboarding.md`. Guardando, era già successo un'ora prima nelle dieci righe di *Riunioni*, in due
+gestionali e in un collaboratore, e non me n'ero accorto perché la risposta dell'API è pulita. Corretti tutti
+la sera stessa.
+
+**La prossima volta:** su Notion un percorso del vault si scrive fra backtick, nei campi e nelle pagine. E dopo
+aver scritto un campo di testo con dentro un punto, si rilegge la riga dalla vista, che mostra i link, e non
+dall'SQL, che li nasconde.
+
+## 24/09/2026 — La ciambella degli esiti contava anche gli anni passati
+
+Il grafico *Trattative per esito* sulla Home mostrava 36 trattative: tutte, dal 2021. Emanuele l'aveva già
+detto per le fatture di Fiscozen, «tutte quelle dell'anno scorso è roba vecchia, non ci interessano», e io
+l'avevo applicato solo lì. Stessa cosa sul valore sul tavolo e sull'incassato per mese, che non avevano un
+filtro sull'anno.
+
+**La prossima volta:** su Notion ogni grafico, conto o vista parte dal 1° gennaio 2026, se ha una data; se
+conta uno stato di adesso, lascia fuori gli archiviati. Una regola detta su un database vale per tutti.
+
+## 24/09/2026 — I costi di Emanuele erano finiti fra i rinnovi dei clienti
+
+Stamattina, togliendo la colonna 🔔 Scadenze di TickTick, avevo messo in *Rinnovi* su Notion anche Fiscozen, il
+piano Hostinger e i domini emanueleboccia, e la sera ho proposto di aggiungerci Notion. Emanuele: «hai messo anche
+i software qui? non vanno nell'altra dashboard esterna finanziaria?». Fiscozen e Hostinger erano già nel quadro
+della finanza: stavano scritti in due posti.
+
+**La prossima volta:** *Rinnovi* è dei clienti. Un abbonamento di Emanuele va nelle spese ricorrenti di
+`areas/finanza/quadro.md`, con la data di rinnovo, e il briefing lo legge da lì. Prima di mettere un dato in un
+posto nuovo si guarda se esiste già da un'altra parte.
+
+## 24/09/2026 — Due sistemate del gestionale caricate prima di mostrarle
+
+Rileggendo le Scuole online ho trovato la ricerca che cercava la frase intera, e l'ho corretta e caricata
+subito. Poco dopo Emanuele ha chiesto «dai una piccola sistemata» ai filtri, e anche quelli li ho caricati
+su Hostinger, mandandogli le schermate dopo. Il `CLAUDE.md` del gestionale dice che ogni pubblicazione si
+mostra a Emanuele prima di farla. È andata bene, ma la regola l'ho saltata due volte.
+
+**La prossima volta:** anche una correzione piccola si mostra prima di caricarla: schermate, il suo ok, poi
+Hostinger. Una richiesta come «sistemala» non vale come ok alla pubblicazione, e un difetto trovato
+rileggendo si racconta prima di correggerlo online.
+
