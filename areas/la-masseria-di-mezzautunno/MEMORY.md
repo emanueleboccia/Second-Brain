@@ -28,7 +28,7 @@ Aperto il 13/07/2026.
   mandato 14 email: a 30 al giorno finisce mercoledì 7 ottobre. La calda nella fascia 9–13 non ha mandato niente,
   perché il gestionale serve le campagne nell'ordine in cui sono partite e quella fascia se l'era presa la fredda.
   Emanuele l'ha rifatta la sera stessa, «· di nuovo», con la fascia 20–23: le 18 email sono partite fra le 20:42 e
-  le 21:44, e la mattina dopo 12 erano aperte e 10 avevano scaricato la brochure. ⚠️ **L'originale era rimasta «In
+  le 21:44, e la mattina dopo 12 erano aperte e 10 avevano aperto la brochure o il sito. ⚠️ **L'originale era rimasta «In
   corso», con le stesse 18 in coda per lunedì**: «Rifalla» non ferma la campagna da cui parte, e l'invio salta
   solo chi si è tolto dalla lista o è rimbalzato, non chi ha già ricevuto la stessa email da un'altra campagna.
 - **La lista WhatsApp per Selene**, chiesta il 25/09 per le scuole che hanno un cellulare: un link per scuola che

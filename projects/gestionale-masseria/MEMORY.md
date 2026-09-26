@@ -56,6 +56,15 @@ Boscoreale.
 - **«Scuole nuove» è partita alle 12:13**: 248 indirizzi, alle 12:15 due già arrivate. Finisce verso l'8 ottobre.
 - **«Chi conosce Da Mamma Rosaria» è ancora in bozza.** Il permesso automatico ha fermato il salvataggio della
   spunta «anche le maestre» sulla bozza: con la spunta sono 18 indirizzi, i 13 delle schede più le cinque maestre.
+- **Poi l'ha fatta partire Emanuele, ma nella fascia 9–13 non ha mandato niente.** L'invio serve le campagne
+  nell'ordine in cui sono partite, e il tetto dei 30 al giorno è di ogni campagna: finché «Scuole nuove» non
+  arriva al suo, la seconda aspetta. La sera Emanuele l'ha rifatta, «· di nuovo», con la fascia 20–23 dal lunedì
+  al sabato: le 18 sono partite fra le 20:42 e le 21:44, e la mattina del 26/09 12 erano aperte e 10 avevano
+  aperto la brochure o il sito.
+- ⚠️ **«Rifalla» non ferma la campagna da cui parte.** L'originale è rimasta «In corso» con le stesse 18 in coda,
+  e lunedì 28/09, finite le 30 della fredda, le avrebbe mandate di nuovo: l'invio salta chi si è tolto dalla
+  lista o è rimbalzato, non chi ha già ricevuto la stessa email da un'altra campagna. Il 26/09 era ancora da
+  mettere in pausa, in attesa dell'ok di Emanuele.
 
 ## 24/09/2026, notte — Le Campagne email
 
