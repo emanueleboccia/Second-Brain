@@ -29,7 +29,8 @@ node code/controllo-siti/controlla.mjs lista.json esito.json
 
 con la lista fatta così: `[{"nome": "Da Mamma Rosaria", "url": "damammarosaria.it", "tipo": "sito"}]`.
 Se manca `node_modules`, prima `npm install` dentro questa cartella. Un indirizzo ripetuto si controlla
-una volta sola: l'app del Girarrosto ha lo stesso indirizzo del suo sito.
+una volta sola. Dal 25/09/2026 l'app del Girarrosto ha un indirizzo suo, `libertigirarrosto.it/ordini/`, e si
+controlla a parte dal sito: prima aveva lo stesso, e il controllo apriva solo il sito.
 
 Il 24/09/2026 dieci indirizzi hanno chiesto ventitré secondi, uno alla volta per non pesare sul Mac, e
 sono usciti tutti a posto. Provato anche su un dominio inesistente, una pagina 404 e un certificato scaduto:

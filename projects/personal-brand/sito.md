@@ -159,9 +159,8 @@ confronto]], letto il 20/09/2026.
 
 ## Cosa manca
 
-- **Il permesso di Marco**, senza il quale il caso 01 non va online, e **i quattro numeri**, senza
-  i quali il caso si racconta ma non si dimostra. Se il permesso non arriva, in hero va un lavoro
-  di famiglia.
+- **La hero da ripensare.** Il 25/09/2026 Emanuele ha detto che il caso del Girarrosto non va in hero
+  né come sezione principale del sito. Il permesso di Marco invece non serve, e i numeri ci sono.
 - **I nomi dei prodotti.** Il gestionale per concessionarie e noleggi si chiama **QintaOS**, detto
   da Emanuele il 24/09/2026, dopo [[projects/autoos/nome|la ricerca del nome]]. **FoodOS** e
   **PalestreOS** restano nomi di prova: il gestionale per il food e quello sportivo per le ASD.

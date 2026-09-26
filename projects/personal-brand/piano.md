@@ -196,7 +196,8 @@ canna** per il giorno del lancio.
 
 ### 2 · Chiudere il caso Girarrosto
 
-I quattro dati da Marco, il permesso scritto, e le tre riprese di dettaglio che mancano.
+Le tre riprese di dettaglio che mancano. I numeri ci sono, e a Marco non si chiede niente: il permesso non
+serve, deciso da Emanuele il 25/09/2026.
 
 **Perché è la seconda:** sblocca da sola tre cose che oggi sono ferme — il formato «L'ho chiesto
 a lui», la sezione esito del [[docs/casi/girarrosto-liberti|caso]], e **i due referral**, che

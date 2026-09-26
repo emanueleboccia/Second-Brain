@@ -86,7 +86,14 @@ colorino»: coerente davvero. Due suoi siti menù non si somigliano mai.
 allineati a mano — cioè il problema di prima, spostato altrove. È anche la cosa che nessun
 gestionale a canone gli avrebbe dato.
 
-**Cosa manca ancora qui:** con quali tecnologie è costruito, e quanto tempo ci è voluto.
+**Com'è costruito**, visto dal sito il 25/09/2026: è PHP scritto su misura, senza WordPress e senza
+abbonamenti, e gira sull'hosting Ergonet del sito. Dentro ci sono due pannelli con la password:
+`libertigirarrosto.it/ordini/` prende gli ordini, e sull'iPad si apre come un'app;
+`libertigirarrosto.it/admin/` tiene prezzi e prodotti, ed è da lì che legge il sito. È il menù «self»
+dei [[self/pacchetti|pacchetti]]: i prezzi li cambia Marco, senza passare da Emanuele. Dove stanno i
+dati, se in un database o in un file, da fuori non si vede: si legge dal file manager di Ergonet.
+
+**Cosa manca ancora qui:** quanto tempo ci è voluto.
 
 ## L'esito
 

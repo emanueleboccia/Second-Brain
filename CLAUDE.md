@@ -105,6 +105,15 @@ funziona o duplica una connessione che c'è già.
 | Google Calendar | eventi, disponibilità |
 | Google Drive | file finiti e media, creare e cercare documenti |
 | Trello | le task di Sistema Evolve, board *Marketing*. ⚠️ **solo lettura** |
+| Meta Ads | le campagne del personal brand, sull'account pubblicitario *Emanuele Boccia* del suo portfolio: numeri, e campagne create in pausa. ⚠️ **Accenderle spende soldi: mai senza il suo ok, ogni volta** |
+
+⚠️ **Meta Ads è collegato dal 25/09/2026 col connettore ufficiale di Meta, non con Composio.** Si usa solo
+l'account `1095523649636519`, *Emanuele Boccia* nel portfolio *Emanuele Boccia - Business*. Il connettore vede
+anche gli account di Mamma Rosaria e di Evolve, e un vecchio account personale che si chiama anch'esso
+*Emanuele Boccia*: quelli non si toccano. Le campagne si creano in pausa, e accenderne una, alzare un budget
+o riattivare un annuncio è spendere soldi: si mostra e si aspetta un ok esplicito, per ogni singola azione.
+Il connettore porta i numeri, non le persone: i contatti di un modulo di Meta non arrivano da lì. Il resto
+sta in `projects/campagne-meta/`.
 
 ⚠️ **TickTick e Google Calendar non sono due mondi separati: il calendario `Personale` è
 sincronizzato con la lista 🌱 Personale.** Quello che finisce su quel calendario compare
@@ -205,8 +214,8 @@ c'è.
 quello che è sentire qualcuno con uno scopo — un messaggio da mandare, una chiamata da fare, un
 ricontatto, i Setting. In 📆 Appuntamenti restano solo gli incontri veri e le call di lavoro già
 fissate. «Rispondere a Tizio» resta fuori anche da qui: la colonna è per i messaggi che parti tu.
-Un messaggio che è un passo di un progetto sta dentro al suo `[PROGETTO]`, non qui: il permesso di Marco
-è la 01 del caso Girarrosto. Scelto il 24/09/2026 riordinando TickTick, perché una checklist con dei
+Un messaggio che è un passo di un progetto sta dentro al suo `[PROGETTO]`, non qui: il kickoff con Gaetano
+è la 02 del sito di Ragosta. Scelto il 24/09/2026 riordinando TickTick, perché una checklist con dei
 buchi obbliga a guardare in due posti; Da sentire tiene chi va sentito fuori da un progetto.
 
 ## Come si scrive una task su TickTick
@@ -304,6 +313,10 @@ conferma sola, poi si procede**: chiedere due volte la stessa cosa è il modo di
 saldi, regali e costi dei clienti esterni, collegati a fattura e lavoro. Quello dei brand di famiglia
 resta nel foglio che va a Raffaele, e su Notion non entra. Il criterio di smistamento è secco:
 **chi ha pagato.** I dettagli dei due registri stanno in `areas/finanza/riferimenti-lettura.md`.
+
+**Le ricevute dei bonifici dei clienti vanno nel loro movimento**, nel campo *Ricevuta* di *Movimenti*, col
+nome `RIC_` della fattura che pagano. Deciso il 25/09/2026: Emanuele gira la ricevuta che gli manda il
+cliente, e si carica senza chiedere, perché il documento l'ha dato lui.
 
 ## La regola di design
 

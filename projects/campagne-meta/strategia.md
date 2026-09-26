@@ -53,9 +53,8 @@ Tre strade, da scegliere prima di accendere:
 
 - **un messaggio su WhatsApp**: in zona è il modo in cui la gente scrive già, e il primo contatto è una
   conversazione. Il contatto però va scritto a mano in *Contatti e lead*;
-- **il modulo di Meta**: nome e telefono arrivano da soli, e con Meta collegato su Composio entrano su
-  Notion senza toccarli. Il collegamento esiste, ma il 25/09/2026 risultava scaduto: va rifatto con un
-  accesso di Emanuele;
+- **il modulo di Meta**: nome e telefono li scrive chi lo compila. Il connettore di Meta, collegato il
+  25/09/2026, porta i numeri ma non le persone: i contatti si scaricano da Meta e si scrivono su Notion;
 - **una pagina del sito**: la più forte per raccontare l'offerta, ma serve il sito del personal brand online.
 
 Qualunque strada, il contatto entra con Stato «Nuovo», Origine «Pubblicità» e la campagna collegata, e
@@ -95,6 +94,7 @@ strada, quando ci sarà una pagina da far trovare.
 3. La strada del contatto: WhatsApp, modulo o sito.
 4. Il budget al giorno e quanto dura il primo test.
 5. I tre numeri del costo per contatto massimo.
-6. Ricollegare Meta su Composio.
+6. Il metodo di pagamento sull'account pubblicitario *Emanuele Boccia*: il connettore è collegato dal
+   25/09/2026, e l'account c'è, ma senza carta non spende.
 
 Dove sta ogni cosa su Notion lo dice [[docs/clienti-su-notion|clienti su Notion]], alla voce *Pubblicità*.

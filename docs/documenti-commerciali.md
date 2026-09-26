@@ -30,12 +30,17 @@ nomi. Da quel giorno lo schema è uno solo, e vale per tutto quello che un clien
 | Accordo | `ACC` | `ACC_2026_001_Ragosta` | lo stesso della proposta da cui nasce |
 | Proforma | `PROF` | `PROF_2026_001_Ragosta` | un contatore suo, per anno |
 | Fattura | `FATT` | `FATT_2026_001_Ragosta` | quello di Fiscozen, mai uno nostro |
+| Ricevuta | `RIC` | `RIC_2026_001_Ragosta` | quello della fattura che paga |
 
 **L'accordo prende il numero della proposta** perché nasce sempre da una proposta sola:
 `ACC_2026_001` accanto a `PROP_2026_001` dice da solo che sono lo stesso lavoro. **La fattura
 prende il numero fiscale** perché quello è il suo nome legale, e un numero nostro accanto a quello
 di Fiscozen vorrebbe dire due numeri per lo stesso documento. La proforma non è fiscale e in un
 lavoro possono essercene due, per l'acconto e per il saldo: per questo conta per conto suo.
+
+**La ricevuta è l'unico documento che non facciamo noi**: è quella del bonifico, che il cliente manda e
+Emanuele gira. Prende il numero della fattura che paga, sta solo su Notion, nel campo *Ricevuta* del
+movimento, e non ha una cartella in `outputs/`. Dal 25/09/2026.
 
 **Il cliente è il nome con cui lo chiami**, non la ragione sociale: `Ragosta`, non `NewRga`. Senza
 spazi, accenti e apostrofi, ogni parola con la maiuscola: `SartoriaDeiPiccoli`, `DifendoAlarm`,

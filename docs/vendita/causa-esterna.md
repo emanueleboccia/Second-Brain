@@ -31,8 +31,8 @@ Il caso studio come causa esterna chiude un cerchio con [[docs/vendita/riprove|l
 lavoro scontato oggi è il materiale che dimostra il valore domani.
 
 Nel [[self/tariffario|tariffario]] questa regola è già scritta come condizione, non come
-concessione: la riduzione esiste solo in cambio del permesso scritto di filmare e pubblicare il
-lavoro, e senza permesso vale il prezzo pieno.
+concessione: la riduzione esiste solo in cambio delle monete di scambio, dal permesso scritto di
+filmare e pubblicare il lavoro alla testimonianza e ai due nomi, e senza vale il prezzo pieno.
 
 **Un punto da guardare.** Nel glossario degli appunti la causa esterna è definita come una
 motivazione «inventata o reale». Nei punti principali della stessa lezione è invece sempre una

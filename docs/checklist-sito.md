@@ -80,7 +80,8 @@ alla 6 senza sapere quali pagine servono.
 - [ ] Chiesto chi è il cliente tipo e cosa gli toglie il sonno
 - [ ] Chiesto 2–3 siti che gli piacciono, e **perché** gli piacciono
 - [ ] Chiesto se ci sono scadenze vere: stagione, fiera, apertura
-- [ ] Detto ora, prima di cominciare: **due giri di revisione inclusi, dal terzo si quota**
+- [ ] Detto ora, prima di cominciare: **le revisioni sono comprese finché non è soddisfatto**, e il
+  materiale arriva entro la data scritta
 - [ ] Detto ora cosa succede dopo la consegna: cosa è incluso, cosa si paga
 - [ ] Mandato il recap dell'onboarding
 

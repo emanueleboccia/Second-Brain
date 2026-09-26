@@ -42,11 +42,10 @@ questo è un caso studio invece che un lavoro.
 **Marco ha dato accesso libero a tutto**, marchio compreso: si può mostrare il lavoro, nominare il
 locale e usare il suo brand. Riferito da Emanuele.
 
-⚠️ **Manca la traccia scritta.** Il [[self/tariffario|tariffario]] esige il permesso **scritto**
-per i casi studio, e il lavoro è a 0 € proprio in cambio di quello. Non serve un contratto: basta
-un messaggio di Marco su WhatsApp che dice che va bene pubblicare, salvato nella cartella del
-cliente. Vale il giorno in cui qualcuno cambia idea, e quel giorno un «me l'aveva detto a voce»
-non vale niente — né per lui né per Marco.
+**Niente di scritto, e a Marco non si chiede più niente.** Deciso da Emanuele il 25/09/2026, dopo che gli
+era stato riproposto troppe volte: Marco è un amico e gli ha già detto che può fare quello che vuole. Le monete
+del [[self/tariffario|tariffario]] valgono per chi prende uno sconto; qui c'è un amico, e il suo sì basta.
+I due nomi li ha già dati il 13/09/2026, e stanno qui sotto: nessuno dei due è un cliente adatto.
 
 ## Cosa gli ho venduto
 

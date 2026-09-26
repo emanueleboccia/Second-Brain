@@ -83,10 +83,12 @@ passaggio obbligato per tutti smette di essere una scelta e diventa un pedaggio.
 
 ### Sito vetrina (da zero)
 - **Prezzo:** **1.500–2.500 €**
-- **Incluso:** design su misura, sviluppo, ottimizzazione velocità, pagine legali, primo
-  caricamento contenuti
-- **Escluso:** testi e foto se non concordati, hosting, **logo**
-- **Revisioni:** 2 giri inclusi
+- **Incluso:** design su misura, sviluppo, ottimizzazione velocità, pagine legali, **i testi, scritti
+  apposta**, primo caricamento contenuti. I testi sono compresi dal 25/09/2026, detto da Emanuele: il
+  sito è uno strumento, e ha un obiettivo chiaro solo se il copy è fatto per quello
+- **Escluso:** le foto, che si chiedono al cliente, hosting, **logo**
+- **Revisioni:** in sviluppo, finché il cliente non è soddisfatto: è la regola di questa fase, nelle
+  regole trasversali in fondo
 
 ⚠️ **Il logo e il ritocco foto sono voci a parte e vanno scorporate nel preventivo.** I 1.500 €
 di Ragosta erano sito più logo più ritocco: se le tre cose non compaiono separate, si sta
@@ -96,14 +98,17 @@ insegnando al cliente che il logo è gratis quando compra un sito.
 - **Prezzo:** 600 € — ⚠️ **fascia non ancora definita, da chiedere a Emanuele**
 - **Incluso:** nuova UI/UX sul brand esistente, ottimizzazione velocità, revisione struttura
 - **Escluso:** contenuti nuovi, hosting
-- **Revisioni:** 2 giri inclusi
+- **Revisioni:** in sviluppo, finché il cliente non è soddisfatto: è la regola di questa fase, nelle
+  regole trasversali in fondo
 
 ### Sito one page
 - **Prezzo:** **600 €**
 - **Fissato da Emanuele il 20/09/2026**, per il sito di Patrimpresa. Prima questa voce non
   esisteva e la domanda tornava a ogni richiesta.
-- **Incluso:** una pagina sola, design sul brand del cliente, modulo contatti, pagine legali
-- **Escluso:** contenuti, logo, hosting e dominio — si contano a parte, come sul sito vetrina
+- **Incluso:** una pagina sola, design sul brand del cliente, i testi scritti apposta, modulo
+  contatti, pagine legali
+- **Escluso:** le foto, che si chiedono al cliente, logo, hosting e dominio — si contano a parte,
+  come sul sito vetrina
 - **Dove sta nella scala:** sopra il sito menù da 400 € e sotto il vetrina da 1.500, che ha più
   pagine e una struttura vera. Se la one page cresce di pagine non è più una one page: si
   riprezza, non si allunga.
@@ -113,7 +118,8 @@ insegnando al cliente che il logo è gratis quando compra un sito.
   mercato, che per una one-page sta a 260–500 €.
 - **Incluso:** design coerente col brand, struttura navigabile, QR code
 - **Escluso:** foto dei piatti (voce shooting), hosting
-- **Revisioni:** 2 giri inclusi
+- **Revisioni:** in sviluppo, finché il cliente non è soddisfatto: è la regola di questa fase, nelle
+  regole trasversali in fondo
 
 ## Sistemi su misura
 
@@ -150,10 +156,6 @@ Girarrosto 0 € (caso studio). Entrambi stavano nella seconda riga della tabell
 ### Shooting fotografico
 - **Prezzo:** 150–350 € a seconda del tipo, valutazione caso per caso
 
-### Logo
-- **Prezzo:** ⚠️ **mai messo a listino, da definire.** Il mercato freelance sta a 300–500 €.
-  Venduto dentro il pacchetto Ragosta senza una voce sua.
-
 ### Brand identity completa
 - **Prezzo:** **400 €** — deciso da Emanuele il 16/09/2026, «intera, fatta bene».
 - **Cosa contiene:** il sistema visivo del brand — colori, caratteri, regole d'uso.
@@ -162,18 +164,12 @@ Girarrosto 0 € (caso studio). Entrambi stavano nella seconda riga della tabell
   prossima volta che si guarda questa riga si sappia che è sotto, e sia una scelta.
 - **Consegnata a Sistema Evolve** nel primo mese di reparto, senza una voce a preventivo.
 
-### Video per le campagne
-- **Prezzo:** ⚠️ **da definire.** Chiesto a Emanuele il 16/09/2026, non lo sa ancora.
-- **Il dato che serve per fissarlo:** quanto costa il collaboratore che li monta. È lo stesso
-  numero che manca alla task *trovare un video editor*, dove la domanda aperta è se il costo
-  entra nei 250 €/mese dei brand di famiglia o esce come voce a listino. Una risposta chiude
-  tutte e due.
-- **Riferimento reale:** tre video girati per le campagne di Sistema Evolve, montati da Karim.
-
-### Contenuti organici
-- **Prezzo:** ⚠️ **da definire.** Chiesto a Emanuele il 16/09/2026, non lo sa ancora.
-- Si prezza al pezzo o a pacchetto mensile, e la scelta va fatta prima del lancio di ottobre:
-  è la voce che il personal brand venderà più spesso.
+### Fuori listino
+**Logo, video per le campagne e contenuti organici non si vendono**, detto da Emanuele il 25/09/2026:
+non stanno nel listino, e se un cliente li chiede si valutano a parte, caso per caso. I contenuti
+organici di cui si parlava sono quelli che Emanuele pubblica sul suo profilo per il personal brand,
+non un servizio. Fino a quel giorno qui c'erano tre voci «da definire»; il logo di Ragosta era stato
+venduto dentro il pacchetto, senza una voce sua.
 
 ## Hosting e assistenza
 
@@ -193,15 +189,26 @@ Girarrosto 0 € (caso studio). Entrambi stavano nella seconda riga della tabell
   tre anni è circa 4.400 €, di cui **2.800 di manutenzione**. Il ricorrente vale più della
   realizzazione, e oggi Emanuele incassa solo la realizzazione.
 
+### Assistenza a chiamata
+- **Prezzo:** si quota in base al tipo di assistenza, detto da Emanuele il 25/09/2026. È la strada di chi,
+  finiti i tre mesi di modifiche comprese in un gestionale, tiene solo hosting e manutenzione e non il
+  canone: come si presenta sta nei [[self/pacchetti|pacchetti]].
+
 ## Regole trasversali
 
-- **2 giri di revisione** inclusi su ogni lavoro; dal terzo si quota a parte.
+- **Le revisioni in sviluppo sono comprese finché il cliente non è soddisfatto**, sui siti e sui sistemi,
+  cioè app, software e gestionali. Deciso da Emanuele il 25/09/2026 **per questa fase**: servono casi
+  studio e recensioni. Fino a quel giorno erano due giri, e dal terzo si quotava a parte; quando la fase
+  finisce, si torna a decidere qui.
 - **Il materiale del cliente entro una data**, scritta nel preventivo. È la difesa contro il
   lavoro da tre giorni che diventa da otto.
 - **Extra minori** (ritocchi, aggiunte, configurazioni) si calcolano al momento e non stanno
   nel listino.
-- **Prezzo caso studio:** riduzione SOLO in cambio del permesso scritto di filmare e pubblicare
-  il lavoro. Senza permesso, prezzo pieno. Massimo **2 casi studio attivi** insieme.
+- **Prezzo caso studio:** la riduzione si dà SOLO in cambio di **tre monete**, pattuite prima e
+  scritte nell'accordo: il permesso scritto di filmare e pubblicare il lavoro, la testimonianza con
+  parole sue, due nomi di attività con lo stesso problema. Senza, prezzo pieno. Allineato al
+  [[docs/processo-cliente|processo cliente]] il 25/09/2026: prima qui bastava il permesso. Massimo
+  **2 casi studio attivi** insieme.
   **Riduzione standard 20%**, arrotondata alla decina. Deroghe possibili, ma si annotano nello
   Storico.
 - ⚠️ **Lo sconto si giustifica sempre con una causa esterna**, e la sua è vera e non serve

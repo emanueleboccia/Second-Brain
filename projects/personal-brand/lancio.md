@@ -275,9 +275,8 @@ gira da solo e non monta sta contando le idee invece delle serate.
    stupido, ed è mezza giornata.
 2. **Il sì di Emanuele sulle convinzioni.** Tre formati su quattro ci si appoggiano. «Il conto»
    si regge sui nemici, che sono già suoi: per questo può partire prima del verdetto.
-3. **Il permesso scritto di Marco.** Il tariffario lo esige per i casi studio, il Girarrosto è a
-   zero euro come caso studio, e non risulta scritto da nessuna parte. Si chiede **prima di
-   girare**, non prima di pubblicare.
+3. ✅ **Il permesso di Marco non serve**: è un amico e ha già detto di sì. Deciso da Emanuele il
+   25/09/2026, e non si ripropone.
 4. **Le prime righe di `data/contenuti-pubblicati.md`**, che oggi è vuoto. Tutte le regole che
    dipendono dalle analitiche — dove sta la CTA, quale hook ruota — oggi non si possono
    applicare, e non si inventano.

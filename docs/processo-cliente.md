@@ -47,7 +47,7 @@ qualsiasi cosa, e dentro ci vanno:
 - **Ambito**: cosa è incluso e cosa no
 - **Consegne**: la lista precisa di cosa riceverà
 - **Tempi**: col margine della fase 4
-- **Revisioni**: quante sono comprese — a [[self/tariffario|tariffario]] sono due
+- **Revisioni**: finché il cliente non è soddisfatto, in questa fase ([[self/tariffario|tariffario]])
 - **Condizioni di pagamento**: quando e come
 - **Firma nel piede**: resta, salvo accordi diversi
 
@@ -79,7 +79,7 @@ si è ancora al telefono**, e blocca il prezzo. Non è una tecnica nuova, è il
 funzionare: lì c'era già «un piccolo acconto per bloccare l'offerta», quello che mancava era
 togliere il buco fra il sì e il bonifico.
 
-Lo strumento previsto è **Stripe**, ancora da valutare nel
+Lo strumento è **Stripe**, deciso da Emanuele il 25/09/2026 e da attivare: sta nel
 [[docs/registro-strumenti|registro degli strumenti]]. Il pagamento a rate con Klarna o Scalapay
 oggi **non si può fare**, e non si nomina al cliente finché non si può.
 
@@ -184,9 +184,9 @@ le foto ciascuno. **Il modulo è uno per tutti i clienti**: al prossimo si rigua
 Drive; il modulo li tiene insieme, un cliente per riga. **Ogni file arriva fino a 100 MB, e ogni
 domanda ne prende dieci**, letto sul link pubblico il 24/09/2026, la sera in cui Notion è passato al
 piano Business: prima il limite era 5 MB. Quello che non entra arriva su WhatsApp come documento. Su
-Drive vanno dopo le foto lavorate, che sono file finiti. ⚠️ **Notion non avvisa da solo quando arriva
-una risposta**: col piano Business si può accendere un'automazione che lo fa, e finché non c'è le
-righe nuove le porta il briefing del mattino.
+Drive vanno dopo le foto lavorate, che sono file finiti. **Quando arriva una risposta, Notion lo notifica
+a Emanuele** col nome dell'azienda: è l'automazione *Avviso quando arriva il modulo*, dal 25/09/2026.
+⚠️ Da solo Notion non avvisa: se l'automazione si spegne, le righe nuove le porta solo il briefing.
 
 ⚠️ **Il modulo non salva niente prima di «Invia».** Provato il 24/09/2026 dal link pubblico: si
 scrive in un campo, si ricarica la pagina e il campo torna vuoto. Chi chiude la pagina a metà perde
@@ -295,10 +295,8 @@ mettere nell'accordo:
 Tre monete, uno sconto. E lungo la catena dei referral il prezzo sale a ogni anello, mentre la
 soluzione si templatizza e il tempo di produzione scende.
 
-⚠️ **Questo cambia il [[self/tariffario|tariffario]], e va allineato.** Lì oggi c'è scritto che la
-riduzione del 20% si dà **in cambio del solo permesso scritto**. Qui le monete sono tre per lo
-stesso sconto. Finché i due file non dicono la stessa cosa, in trattativa vince quello che si
-ricorda per primo.
+Il [[self/tariffario|tariffario]] dice lo stesso dal 25/09/2026: prima, per lo sconto del 20%,
+chiedeva solo il permesso scritto.
 
 ## Cosa non fare, mai
 

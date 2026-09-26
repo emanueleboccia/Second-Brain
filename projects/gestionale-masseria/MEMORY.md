@@ -5,6 +5,58 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 25/09/2026 — La casella collegata, e due correzioni prima della partenza
+
+Emanuele ha creato la password per le app della Gmail della Masseria e l'ha salvata nella Casella alle 10:06.
+«Prova la casella» è verde per l'invio, porta 587, e per la lettura. Il primo giro della posta, alle 10:20, ha
+rifatto i conti della [[areas/la-masseria-di-mezzautunno/email-marketing/2026-09-zucche-scuole/campagna|campagna di settembre]]:
+92 arrivate su 100, 8 rimbalzate invece di 4, e una «risposta» che era la ricevuta del protocollo dell'IC di
+Boscoreale.
+
+- **La riga per disiscriversi non dice più «cliccate qui»**, che è fra le formule vietate del
+  [[areas/la-masseria-di-mezzautunno/reference/tono|tono della Masseria]]. Ora dice «potete *togliere il vostro
+  indirizzo dalla nostra lista* e non vi scriveremo più», col link su quelle parole. Approvata da Emanuele
+  guardando l'anteprima. Nel testo semplice resta «aprite questo link», che non è una formula vietata.
+- **Le ricevute del protocollo sono risposte automatiche.** Le segreterie degli istituti le mandano da sole, e
+  con 250 caselle del Ministero avrebbero riempito le risposte di numeri finti. `InboxScanner` le riconosce
+  dall'oggetto («ricevuta del protocollo», «protocollazione», «segnatura di protocollo») o dal testo. Quelle
+  già lette le sistema la migrazione `2026_09_25_000001_protocol_receipts_are_not_replies`: chiesto da
+  Emanuele, «aggiorna il tutto con le precedenti email marketing fatte».
+- **137 prove passate** sul Mac. Tre prove tornavano indietro di un numero fisso di migrazioni, e con quella
+  nuova il numero è salito di uno.
+- **Online alle 11:00.** Il primo tentativo di caricamento l'ha fermato il permesso automatico della sessione;
+  Emanuele ha detto di farlo comunque, «fallo TU, NON IO». I due file sono andati in
+  `app/app/Support/Campaigns/` e la migrazione in `app/database/migrations/` dal Gestore file, passando dalla
+  cartella di lavoro della sessione: lo strumento di caricamento di Chrome non legge `~/Desktop/progetti`.
+  Poi «Fai la copia e aggiorna», con la copia `masseria-2026-09-25-110049.sqlite`. La campagna di settembre
+  ora dice 0 risposte, e l'anteprima della bozza ha la riga nuova.
+- **La prova è arrivata alle 11:05** nella Gmail di Emanuele, nella scheda Forum e non in spam: quella del 24/09
+  era finita in Principale. La campagna parte col suo ok, dopo che l'ha guardata.
+- **Le scuole che conoscono Da Mamma Rosaria si separano con l'esito.** Una campagna salta le scuole di un'altra
+  solo se l'email è già partita (`sent_at`), quindi per non scrivere due volte la stessa scuola la campagna delle
+  scuole nuove scrive solo alle «Da contattare», e quelle che conoscono Da Mamma Rosaria diventano «Interessata».
+  Lo fa la migrazione `2026_09_25_000002_schools_that_wrote_to_da_mamma_rosaria`: 47 schede su dieci indirizzi
+  d'istituto, con la loro storia nelle note, cinque maestre sulle schede dei loro istituti e quattro schede nuove
+  «(da identificare)» per chi ha scritto senza dire la scuola. In un database senza la lista delle scuole non fa
+  niente: la prima versione creava le quattro schede anche nelle prove, e ne rompeva quindici. 140 prove passate.
+- **Applicata da Emanuele verso le 11:50.** Il permesso automatico della sessione aveva fermato il clic su «Fai
+  la copia e aggiorna», e per qualche minuto chi entrava ha visto «Stiamo aggiornando il gestionale». Dopo:
+  51 schede «Interessata», 960 «Da contattare», 3 «Ha prenotato».
+- **Due campagne in bozza.** «Scuole nuove» va a 248 indirizzi, perché Portici e Nocera sono passate all'altra;
+  «Chi conosce Da Mamma Rosaria» va a 13, con la brochure presa dalla prima con «Rifalla». Le cinque maestre
+  sulle schede per ora non le raggiunge nessuna campagna: le campagne scrivono solo all'email della scheda.
+- **«Anche le maestre», scritta e non pubblicata.** Chiesta da Emanuele: una spunta nella campagna, «Scrivi anche
+  alle maestre delle schede, alla loro email», salvata fra i filtri (`filters.maestre`), quindi senza migrazione.
+  `Audience` aggiunge un indirizzo per ogni maestra delle schede scelte, col grado della sua scuola, e la salta
+  se l'indirizzo è già quello di una scuola o se il suo istituto ha prenotato o detto di no. Il conto dei plessi
+  della bozza ora conta le schede una volta sola. 142 prove passate. Cinque file: `Audience.php`,
+  `CampaignRequest.php`, `Campaign.php`, `campaigns/form.blade.php` e `campaigns/show.blade.php`. Il permesso
+  automatico della sessione ha fermato il «Replace» del primo; al «applica le modifiche al gestionale e parti» di
+  Emanuele sono andati online tutti e cinque, verso le 12:15, e le pagine rispondono.
+- **«Scuole nuove» è partita alle 12:13**: 248 indirizzi, alle 12:15 due già arrivate. Finisce verso l'8 ottobre.
+- **«Chi conosce Da Mamma Rosaria» è ancora in bozza.** Il permesso automatico ha fermato il salvataggio della
+  spunta «anche le maestre» sulla bozza: con la spunta sono 18 indirizzi, i 13 delle schede più le cinque maestre.
+
 ## 24/09/2026, notte — Le Campagne email
 
 Chiesto da Emanuele: l'email marketing dentro il gestionale, «come Mailchimp e Brevo», con le statistiche,

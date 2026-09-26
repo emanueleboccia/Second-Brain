@@ -245,11 +245,14 @@ non è deciso. Il verdetto si dà dopo averlo usato su un lavoro vero, non su un
 
 **Data:** primo mese ad agosto 2026.
 
-## Stripe — da valutare
+## Stripe — deciso, da attivare
 
 **A cosa serve:** incassare con un link di pagamento invece che con un bonifico. Serve al
 micro-acconto chiesto in chiamata, che sta in [[docs/vendita/micro-commitment|micro-commitment]] e
 nella fase 1 del [[docs/processo-cliente|processo cliente]].
+
+**Deciso da Emanuele il 25/09/2026**: «si può fare». L'account lo apre lui, perché è un conto su cui
+arrivano soldi.
 
 **Verdetto:** non ancora dato, perché non è ancora stato attivato. Prima di attivarlo si guarda
 **quanto costa incassare così**: Stripe trattiene una commissione su ogni transazione, e su un

@@ -28,7 +28,7 @@ Gli stessi nella striscia della hero e nella pagina Lavori. Il caso 01 sta in
 
 | | Lavoro | Etichetta | Stato |
 |---|---|---|---|
-| 01 | **Girarrosto Liberti** | `FOOD · GESTIONALE E SITO MENÙ` | il caso è scritto. ⚠️ permesso di Marco |
+| 01 | **Girarrosto Liberti** | `FOOD · GESTIONALE E SITO MENÙ` | il caso è scritto. ⚠️ non in hero né primo, dal 25/09/2026 |
 | 02 | **Tenuta Don Gaetano** | `EVENTI · SITO` | di famiglia. Cantiere chiuso il 12/07/2026 |
 | 03 | **La Masseria di Mezz'Autunno** | `EVENTI PER FAMIGLIE E SCUOLE · SITO E CAMPAGNA` | di famiglia. Sito dal 15/09/2026 |
 | 04 | **Da Mamma Rosaria** | `EVENTI PRIVATI · GESTIONALE DEGLI EVENTI` | di famiglia. ⚠️ il gestionale, non il sito |
@@ -60,7 +60,7 @@ Girarrosto. Gli altri, uno per uno:
   ruolo e soci non sono scritti, come vuole [[self/reference/offerta|l'offerta]].
 
 **Quindi il problema non è sostituire un lavoro di famiglia con uno esterno**: è che l'unico
-esterno mostrabile è quello fermo sul permesso di Marco. Il portfolio si allarga quando si chiude
+esterno mostrabile è il Girarrosto, che dal 25/09/2026 non fa da lavoro principale. Il portfolio si allarga quando si chiude
 la Sartoria o quando Ragosta viene consegnato, non scegliendo diversamente adesso.
 
 ## Come si dichiarano quelli di famiglia

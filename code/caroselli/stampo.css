@@ -1,0 +1,193 @@
+/* Lo stampo dei caroselli del personal brand.
+   Una slide = una <section class="slide ..."> da 1080×1350 (4:5, il feed di Instagram).
+   I valori vengono da self/reference/design.md: se cambiano lì, si cambiano qui. */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,900&family=JetBrains+Mono:wght@700&display=block');
+
+:root {
+  --nero: #000000;
+  --fondo: #0E0E0C;
+  --card: #191915;
+  --linea: #2A2A24;
+  --spento: #75746A;
+  --intermedio: #B5B2A4;
+  --luce: 218, 199, 171;          /* #DAC7AB, solo il bagliore del fondale */
+  --crema: #EEEBDA;
+  --punta: #FFFFFF;
+  --margine: 80px;
+  --titoli: 'Archivo', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --testo: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #222; }
+
+.slide {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  background: var(--fondo);
+  color: var(--crema);
+  font-family: var(--testo);
+  font-stretch: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--margine);
+  margin: 0 auto 40px;
+}
+
+/* ---------- il fondale firma: base, griglia, bagliore caldo, vignetta ---------- */
+.slide.fondale::before {            /* griglia blueprint, visibile solo dove c'è luce */
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(238,235,218,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(238,235,218,.055) 1px, transparent 1px);
+  background-size: 72px 72px;
+  background-position: 36px 36px;
+  -webkit-mask-image: radial-gradient(ellipse 62% 52% at var(--luce-x, 50%) var(--luce-y, 48%), #000 0%, rgba(0,0,0,.35) 55%, transparent 80%);
+          mask-image: radial-gradient(ellipse 62% 52% at var(--luce-x, 50%) var(--luce-y, 48%), #000 0%, rgba(0,0,0,.35) 55%, transparent 80%);
+  z-index: 0;
+}
+.slide.fondale::after {             /* bagliore caldo dietro il soggetto, poi la vignetta */
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 80% 74% at 50% 50%, rgba(0,0,0,0) 34%, rgba(0,0,0,.5) 74%, #000 100%),
+    radial-gradient(circle at var(--luce-x, 50%) var(--luce-y, 48%), rgba(var(--luce), .30) 0%, rgba(var(--luce), .12) 28%, rgba(var(--luce), 0) 60%);
+  z-index: 0;
+}
+.slide > * { position: relative; z-index: 1; }
+
+/* ---------- la cornice: sempre uguale, su ogni slide ---------- */
+.testata, .piede {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.testata { padding-bottom: 28px; border-bottom: 1px solid var(--linea); }
+.piede { margin-top: auto; padding-top: 28px; border-top: 1px solid var(--linea); color: var(--spento); }
+.marchio {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 700;
+  letter-spacing: .24em;
+  color: var(--crema);
+}
+.contatore { color: var(--intermedio); }
+
+/* ---------- il corpo della slide ---------- */
+.corpo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 44px;
+  padding: 56px 0;
+}
+.etichetta {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--spento);
+}
+.gigante {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: 148px;
+  line-height: .9;
+  letter-spacing: -.015em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.titolo {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 1.04;
+  letter-spacing: -.01em;
+  text-wrap: balance;
+}
+.sotto {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.1;
+  color: var(--intermedio);
+  text-wrap: balance;
+}
+.testo {
+  font-size: 40px;
+  line-height: 1.32;
+  color: var(--intermedio);
+  max-width: 880px;
+  text-wrap: pretty;
+}
+.punta { color: var(--punta); }
+.spento { color: var(--spento); }
+
+/* prima e dopo: la differenza si dice con la luce */
+.prima-dopo { display: flex; flex-direction: column; gap: 0; }
+.prima-dopo .blocco { padding: 40px 0; }
+.prima-dopo .blocco + .blocco { border-top: 1px solid var(--linea); }
+.prima-dopo .blocco .etichetta { margin-bottom: 22px; }
+.prima-dopo .prima .frase { color: var(--spento); }
+.prima-dopo .dopo .frase { color: var(--crema); }
+.prima-dopo .frase {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+/* lista numerata, tre punti al massimo */
+.lista { list-style: none; display: flex; flex-direction: column; }
+.lista li {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  align-items: baseline;
+  padding: 34px 0;
+  border-top: 1px solid var(--linea);
+}
+.lista li:last-child { border-bottom: 1px solid var(--linea); }
+.lista .n { font-family: var(--mono); font-weight: 700; font-size: 30px; color: var(--intermedio); }
+.lista .v {
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.12;
+  color: var(--crema);
+  text-wrap: balance;
+}
+
+/* la chiusura: una sola azione */
+.azione {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 44px;
+  border-radius: 999px;
+  background: var(--crema);
+  color: var(--fondo);
+  font-family: var(--titoli);
+  font-stretch: 125%;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: .02em;
+}

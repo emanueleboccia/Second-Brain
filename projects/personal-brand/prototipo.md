@@ -137,6 +137,6 @@ portarci dentro le domande frequenti di V1, che sono già scritte e già buone.
 
 - **Quale dei due è la base**, o se è V2 più le domande di V1.
 - **Il monogramma EB**, che V2 dà per deciso e il vault no.
-- **Se i lavori restano questi quattro** o se il Girarrosto prende il primo posto appena arriva il
-  permesso di Marco.
+- **Se i lavori restano questi quattro.** ⚠️ Il Girarrosto non prende il primo posto: detto da
+  Emanuele il 25/09/2026.
 - **Come si dichiarano i brand di famiglia** dentro la pagina dei lavori.

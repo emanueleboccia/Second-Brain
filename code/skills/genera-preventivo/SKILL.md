@@ -74,7 +74,7 @@ indovinare.
    **<somma> €**
 
    ## Condizioni
-   - 2 giri di revisione inclusi; dal terzo si quota a parte
+   - revisioni in sviluppo comprese finché il cliente non è soddisfatto
    - <tempi, se noti>
    - <clausola caso studio, se è un caso studio>
    ```
@@ -162,8 +162,9 @@ quotata a mano dopo aver capito il problema.
 cartella al passaggio 8, e dillo a Emanuele. Non è un blocco, è un'informazione.
 
 **È un caso studio.** La riduzione standard è **20%, arrotondata alla decina** — sta scritta nel
-tariffario, non si chiede e non si ricontratta da soli. La condizione è il permesso **scritto** di
-filmare e pubblicare: senza quello il prezzo è pieno, anche se il cliente promette a voce. Se
+tariffario, non si chiede e non si ricontratta da soli. La condizione sono le tre monete, scritte
+nell'accordo: il permesso **scritto** di filmare e pubblicare, la testimonianza con parole sue e due
+nomi di attività con lo stesso problema. Senza, il prezzo è pieno, anche se il cliente promette a voce. Se
 Emanuele decide una riduzione diversa per un caso particolare, il tariffario dice che la deroga si
 annota nello Storico trattative: ricordaglielo.
 

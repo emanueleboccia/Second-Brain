@@ -128,7 +128,8 @@ Metà del lavoro si fa dal browser, e questo è il perché:
 domini e assistenze dei siti, i gestionali. *Siti Clienti* mostra il prossimo rinnovo prendendolo da lì; i
 tre campi di scadenza che aveva, e la sezione della Home che li leggeva, sono stati tolti lo stesso giorno,
 dopo aver controllato che ogni data fosse già in *Rinnovi*. Nello stesso giro *Servizi* è stato riempito
-dal [[self/tariffario|tariffario]], che resta la fonte dei prezzi.
+dal [[self/tariffario|tariffario]], che resta la fonte dei prezzi. Dal 25/09/2026 ha anche *Promessa*,
+*Garanzia* e *Rottamazione*, copiate dai [[self/pacchetti|pacchetti]], che ne restano la fonte.
 
 ⚠️ **Gli abbonamenti di Emanuele non stanno in *Rinnovi*.** Fiscozen, il piano Hostinger, i domini
 emanueleboccia e Notion stesso stanno nelle spese ricorrenti della finanza, nel vault, con la loro data di
@@ -151,9 +152,11 @@ diverse per i soldi:
 La vista **Domini** di *Rinnovi*, chiesta da Emanuele lo stesso giorno, mette in fila tutti i domini per
 scadenza, compresi quelli dentro un piano Ergonet, con cliente e a chi si pagano. Controllati tutti il
 24/09/2026: mancavano Clharem, che scade il 03/10/2026, Michela Franzese e Sidel, i due .com di famiglia,
-il gestionale della Masseria e i domini di Emanuele, e la data di Evolve era sbagliata di tre mesi. ⚠️ Le
-scadenze di difendoalarm.com e sidelweb.com sono ancora *da controllare*: la sessione di Ergonet era
-scaduta, e si leggono quando Emanuele rientra. Non ci sono, per scelta, la Sartoria, che è archiviata e il
+il gestionale della Masseria e i domini di Emanuele, e la data di Evolve era sbagliata di tre mesi. Le
+scadenze di difendoalarm.com e sidelweb.com, rimaste da controllare perché la sessione di Ergonet era
+scaduta, sono state lette il 25/09/2026 dal registro dei domini: il 15/04/2027 e l'11/06/2027. ⚠️ **Un
+dominio si può leggere anche senza pannello**: il registro dice quando scade davvero, con `whois` dal
+terminale. Il pannello serve per sapere chi lo paga. Non ci sono, per scelta, la Sartoria, che è archiviata e il
 cui hosting delegato lo toglie Emanuele, e growebstudios.com, un vecchio progetto che si lascia scadere.
 Quello che il pannello dice, vince su quello che c'è scritto qui.
 
@@ -162,8 +165,9 @@ Quello che il pannello dice, vince su quello che c'è scritto qui.
 **I gestionali in funzione hanno un database loro, *Gestionali***, sotto *Consegnato* accanto a *Siti
 Clienti*, riempito il 24/09/2026: quello della Masseria, quello di Mamma Rosaria e l'app degli ordini del
 Girarrosto. Di ognuno si tengono cliente, indirizzo, server, tecnologia e da quando è online; le scadenze
-stanno in *Rinnovi*, collegate. Dell'app del Girarrosto non si sa con cosa è costruita né dove gira: il
-vault non lo dice, e resta vuoto finché non lo dice Emanuele.
+stanno in *Rinnovi*, collegate. L'app del Girarrosto è PHP scritto su misura e gira sull'hosting Ergonet
+del sito, visto dal sito il 25/09/2026: `/ordini/` per prendere gli ordini dall'iPad, `/admin/` per il
+menù che il sito legge. Il dettaglio sta nel [[docs/casi/girarrosto-liberti|caso del Girarrosto]].
 
 **Ogni mattina il briefing apre siti e gestionali**, col controllo in `code/controllo-siti/`, e li prende
 da Notion: dal 25/09/2026 *Siti Clienti* ha il campo *Indirizzo*, riempito per gli otto siti vivi, e tutti e
@@ -176,8 +180,10 @@ niente a nessuno. Cosa fanno, quando partono e quanti crediti possono spendere s
 `code/agenti-notion/README.md`.
 
 **Chi lavora con Emanuele sta in *Collaboratori***, sotto *Offerta*: Karim, attivo; il video editor, ancora
-da trovare, il cui costo decide il prezzo dei video per le campagne; e Giusy D'Amico, che gli passava siti da
-costruire per conto suo e che resta senza stato finché Emanuele non decide cosa è la collaborazione.
+da trovare; e Giusy D'Amico, che gli passava siti da
+costruire per conto suo. Con lei si lavorava su alcuni suoi clienti, fra cui Michela Franzese, che è sua
+cliente, e Claudio Salemme, che lei non segue più e che adesso sente direttamente Emanuele. **Dal 25/09/2026
+la collaborazione non è in corso**, detto da Emanuele.
 
 **Le procedure e le checklist stanno anche in *Procedure***, sotto *Offerta*, dal 24/09/2026, chiesto da
 Emanuele: il processo cliente, la checklist del sito, la vecchia checklist WordPress, l'onboarding, il brief
@@ -224,7 +230,9 @@ angolo, che dice quali angoli si stanno provando. Finché non parte la prima cam
   l'importo, la scadenza, lo stato e il PDF, collegata al contatto e al lavoro.
 - **I soldi che si muovono stanno in *Movimenti*** dal 24/09/2026: è il registro del personal brand,
   con acconti, saldi, regali e costi, collegati a fattura, lavoro e cliente. Quello dei brand di famiglia
-  resta nel foglio che va a Raffaele, e qui non entra.
+  resta nel foglio che va a Raffaele, e qui non entra. **Dal 25/09/2026 ogni incasso porta la sua
+  ricevuta**, nel campo *Ricevuta*: Emanuele gira quella che gli manda il cliente, e si carica senza
+  chiedere, col nome `RIC_` della fattura che paga. La prima è quella dell'acconto di Ragosta.
 - **L'accordo sta sulla trattativa**, quello mandato e quello firmato, con la data della firma.
 - **Anche le proforme stanno sulla trattativa**, nei campi *Proforma acconto* e *Proforma saldo*, dal
   24/09/2026. Non in *Fatture*: lì gli stessi soldi comparirebbero due volte fra quelli da incassare.
@@ -238,11 +246,11 @@ angolo, che dice quali angoli si stanno provando. Finché non parte la prima cam
 | Il cliente dice sì | fase lavoro «Accordo e acconto», dati di fatturazione sul contatto, accordo dal modello |
 | Parte la fattura dell'acconto | riga in *Fatture* col PDF e la scadenza, checklist, storico |
 | Torna l'accordo firmato | file e data della firma sulla trattativa |
-| Arriva l'acconto | fattura «Incassata», movimento in *Movimenti*, trattativa «Chiuso vinto» con fase lavoro Onboarding, contatto «Cliente attivo», portale dal benvenuto, e su TickTick il `[PROGETTO] Sito web <Cliente>` coi passi che restano |
+| Arriva l'acconto | fattura «Incassata», movimento in *Movimenti* con la ricevuta del bonifico, trattativa «Chiuso vinto» con fase lavoro Onboarding, contatto «Cliente attivo», portale dal benvenuto, e su TickTick il `[PROGETTO] Sito web <Cliente>` coi passi che restano |
 | Consegna | sito «Online» coi suoi rinnovi in *Rinnovi*, fattura del saldo, fase lavoro Consegna |
 | Parte una proforma | PDF sulla trattativa, in *Proforma acconto* o *Proforma saldo* |
 | Una riunione registrata con Granola | riga in *Riunioni* col riassunto, i contatti e il lavoro |
-| Arriva il saldo | fattura «Incassata», movimento in *Movimenti*, fase lavoro Chiuso, esito nello storico |
+| Arriva il saldo | fattura «Incassata», movimento in *Movimenti* con la ricevuta, fase lavoro Chiuso, esito nello storico |
 
 Emanuele dice cosa è successo; l'aggiornamento si mostra tutto insieme e si scrive con una conferma
 sola.
@@ -269,6 +277,10 @@ può lasciare: lo decide Emanuele dopo averla provata.
 
 Le icone le ha rifatte Emanuele il 24/09/2026 e non si toccano: una pagina nuova prende quella delle sue
 sorelle. Nelle viste le colonne stanno sempre nello stesso ordine: nome, stato, fase, date, importi.
+
+⚠️ **Cambiare le opzioni di una colonna dall'API le toglie la descrizione.** Aggiungere un'opzione a una
+select con `ALTER COLUMN … SET SELECT` tiene i valori delle righe, ma svuota la descrizione della colonna:
+successo il 25/09/2026 su *Stato* di *Servizi*. Si rimette dal browser, dalla «i» accanto al nome.
 
 ⚠️ **L'icona di un database si mette dal browser.** Quella data dall'API finisce solo nel blocco della
 pagina, e il database resta con la tabella di serie: successo il 25/09/2026 coi quattro di *Pubblicità*. I

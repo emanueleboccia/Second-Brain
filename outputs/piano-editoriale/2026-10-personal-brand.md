@@ -75,9 +75,8 @@ posto dove il materiale grezzo vive senza costare niente.
 | **gio 22** | Reel | Il conto | **«Il conto» ep. 2** — un secondo canone |
 | **gio 29** | Carosello | La stanza non finita | **Dietro Zucche in Masseria** — un evento vero mentre si monta |
 
-⚠️ **Il post di sabato 3 dipende da Marco.** Senza i quattro dati e il permesso scritto non esiste
-— vedi [[docs/casi/girarrosto-liberti|il caso]]. **Il ripiego è già scelto:** diventa «La stanza
-non finita» ep. 2, che non dipende da nessuno. Non si sposta il lancio per un dato che non arriva.
+✅ **Il post di sabato 3 non dipende più da Marco**: i numeri ci sono, nel
+[[docs/casi/girarrosto-liberti|caso]], e il permesso non serve, deciso da Emanuele il 25/09/2026.
 
 ## I ganci di stagione
 
@@ -135,8 +134,9 @@ arriva entro sei mesi, il sistema funziona.
 ## Cosa deve essere pronto entro il 30 settembre
 
 - **Il profilo configurato** — bio, nome visualizzato, avatar, tre storie in evidenza.
-- **Il template dei caroselli**, senza il quale i quattro caroselli di ottobre non esistono.
-- **I quattro dati di Marco e il permesso scritto**, o il ripiego attivato.
+- **Il template dei caroselli.** ⚠️ Una prima prova c'è dal 25/09/2026, in `code/caroselli/`, col manifesto
+  del 1° in `outputs/grafiche/2026-10-01-manifesto/`, ma a Emanuele non piace: va rifatta.
+- ✅ **I numeri del Girarrosto ci sono**, e a Marco non si chiede niente.
 - **I sette post prodotti e programmati.**
 - **Il sito con un lavoro in prima pagina**, perché la bio promette «Guarda un lavoro vero».
 

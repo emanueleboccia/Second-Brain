@@ -29,7 +29,8 @@ related:
   dopo. Alcuni sono per le aziende della mia famiglia, e c'è scritto.*
 - Una card per lavoro, col settore sull'etichetta in monospazio, così chi guarda trova subito il
   suo. Dentro, il prima in grigio e il dopo in crema, una riga ciascuno, e il link al caso:
-  - `FOOD · GESTIONALE E SITO MENÙ` — il caso 01, il Girarrosto. ⚠️ Serve il permesso di Marco.
+  - `FOOD · GESTIONALE E SITO MENÙ` — il Girarrosto. ⚠️ Non in hero e non come lavoro principale,
+    detto da Emanuele il 25/09/2026.
   - `EVENTI · SITO` — Tenuta Don Gaetano, di famiglia.
   - `EVENTI PER FAMIGLIE E SCUOLE · SITO E CAMPAGNA` — La Masseria di Mezz'Autunno, di famiglia.
   - `EVENTI PRIVATI · GESTIONALE DEGLI EVENTI` — Da Mamma Rosaria, di famiglia. ⚠️ **Il gestionale,
@@ -42,8 +43,8 @@ miniature: [[projects/personal-brand/lavori|i lavori da mettere in vetrina]].
 ## Il caso 01 — `/lavori/girarrosto`
 
 > Scritto per esteso il 20/09/2026, dal [[docs/casi/girarrosto-liberti|caso nel ricettario]].
-> ⚠️ **Non va online senza il permesso scritto di Marco**, che il [[self/tariffario|tariffario]]
-> esige per i casi studio e che oggi non risulta da nessuna parte.
+> Il permesso di Marco non serve: è un amico e ha già detto di sì, deciso da Emanuele il 25/09/2026.
+> ⚠️ Lo stesso giorno: il Girarrosto non va in hero né come sezione principale del sito.
 
 - Etichetta, in monospazio: `CASO 01 · GIRARROSTO LIBERTI · ZONA VESUVIANA · FOOD`
 - H1: **Non gli ho insegnato a scrivere più in fretta. Gli ho tolto il foglio.**

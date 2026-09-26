@@ -32,10 +32,11 @@ nelle sue impostazioni, alla voce *Crediti*.
   dentro un database: la riunione si registra aprendo una pagina nuova in *Riunioni* e aggiungendo lì la
   nota di riunione. Una riunione registrata con Granola va su *Riunioni* come prima, dal briefing. Le due
   strade non si usano sulla stessa riunione, se no la riga viene due volte.
-- **«Lead nuovo» chiede il permesso prima di aprire un sito.** Nelle sue impostazioni avanzate
-  *Consenti tutti gli URL* è spento, per scelta: una pagina web può contenere istruzioni scritte per
-  ingannare un agente, e questo può modificare i contatti. Se chiedere ogni volta diventa un peso, si
-  accende da lì: lo decide Emanuele.
+- **«Lead nuovo» apre i siti senza chiedere il permesso.** Nelle sue impostazioni avanzate
+  *Consenti tutti gli URL* è acceso dal 25/09/2026, deciso da Emanuele: chiedere a ogni sito era un
+  peso. Il rischio resta, e va saputo: una pagina web può contenere istruzioni scritte per ingannare un
+  agente, e questo può modificare contatti e aziende. Se un giorno un contatto cambia senza motivo, si
+  guarda prima qui, e l'interruttore si rispegne dallo stesso posto.
 - **Le liste fredde non lo fanno partire.** Un contatto da scraping entra con Stato «Cold lead
   (scraping)», e l'agente lo salta: cento righe da Apify sarebbero cento giri pagati.
 - **Il nove della lista, «Siti in salute», non è un agente di Notion.** Un agente legge le pagine come

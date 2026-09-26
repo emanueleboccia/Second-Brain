@@ -249,6 +249,9 @@ il «prima» esiste ancora e si può riprendere davvero.
 
 ## 5 · Il carosello — il formato che manca
 
+⚠️ **Dal 25/09/2026 c'è una prima prova dello stampo grafico**, in `code/caroselli/`, fatta sul manifesto
+del 1° ottobre. A Emanuele non piace, e va rifatta.
+
 ⚠️ **Non è ancora progettato**, ed è il buco più grosso: **cinque temi su nove non hanno un
 formato che li porti**, e sono tutti quelli che vendono l'offerta alta — la visibilità che
 moltiplica, il bello che comunica male, la pagina Facebook usata come sito, l'AI senza coscienza,

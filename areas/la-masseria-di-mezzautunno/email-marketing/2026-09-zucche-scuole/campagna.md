@@ -8,7 +8,7 @@ tags:
   - scuole
 status: in-lavorazione
 created: 2026-09-17
-updated: 2026-09-24
+updated: 2026-09-25
 related:
   - "[[areas/la-masseria-di-mezzautunno/progetti/zucche-in-masseria/reference]]"
   - "[[areas/la-masseria-di-mezzautunno/reference/target]]"
@@ -120,6 +120,16 @@ l'email. Il passo che resta è il telefono: le scuole vicine che non hanno rispo
 
 **Il primo giro si chiude qui**, deciso da Emanuele il 21/09/2026: dei 213 plessi del file ne sono stati raggiunti
 164, su 96 indirizzi. Più avanti si proverà a cercare online gli indirizzi che mancano.
+
+**Il 25/09 il gestionale ha letto la Gmail, e i conti finali sono questi: 100 indirizzi, 92 arrivate, 8
+rimbalzate.** Ai quattro rimbalzi già segnati se ne aggiungono quattro: le tre consegne in ritardo qui sopra
+sono fallite davvero, e con loro La Casa di Topolino di Sant'Egidio del Monte Albino. San Francesco d'Assisi,
+La Valle Incantata e La Casa di Topolino hanno la casella piena, e il server di Mondobaby non accetta
+connessioni. Nel registro sono diventate `rimbalzata`, e il gestionale le toglie da tutte le campagne.
+
+**Nessuna scuola ha risposto per email.** L'unico messaggio arrivato è la ricevuta automatica del protocollo
+dell'IC di Boscoreale, del 18/09, e una ricevuta non è una risposta. Da qui in avanti la campagna vive nel
+[[projects/gestionale-masseria/MEMORY|gestionale]], che la chiama «Zucche in Masseria · settembre 2026».
 
 ## Dopo l'invio
 

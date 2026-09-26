@@ -172,16 +172,19 @@ le dice di che colore, non che struttura.
 
 ## Cosa manca ancora
 
-- **I format grafici**: com'è fatto un post, com'è fatta una copertina, quali misure per ogni
-  canale. I componenti ci sono, i formati no.
+- ⚠️ **Il carosello ha una prima prova, e non convince.** Fatta il 25/09/2026: 1080×1350, la cornice col
+  nome e il contatore, il fondale sulla copertina, sei tipi di slide, in `code/caroselli/`, provata sul
+  manifesto del 1° ottobre. Emanuele l'ha guardata e ha detto «non mi piace tanto»: va rifatta, e cosa
+  non va non è ancora detto. Mancano anche il post singolo, le copertine dei reel e le storie.
 - **La struttura dei formati video**, che arriverà da un brain dump dedicato ai contenuti.
 - **I file dei caratteri.** Archivo e JetBrains Mono non sono installati sul Mac e non stanno in
   `03 Brand kit` su Drive, dove ci sono ancora Termina Test e Foundry Monoline, scartati. Finora
   non si è visto perché guideline e proposte sono pagine HTML che i font li caricano da sole, ma
   CapCut non li ha. Verificato il 19/09/2026.
-- **La griglia del fondale non si vede.** A `#1A1A16` sul telefono sparisce, e in
-  `fondale-firma-scuro.png` non c'è proprio: gli strati sono tre. O si alza finché si vede, o si
-  toglie dalla regola. Misurato il 19/09/2026.
+- ✅ **La griglia del fondale si vede, dal 25/09/2026**: sul primo carosello le linee sono crema al 5,5%,
+  in celle da 72 px, e si accendono solo dove arriva il bagliore. Il bagliore caldo è al 30% al centro e
+  sfuma a zero verso il 60% del raggio: è il numero che la regola qui sopra aspettava dalla prima grafica
+  vera.
 - **La punta bianca da sola, sul telefono, si legge poco**: crema e bianco sono vicini. Sulla
   prima grafica vera si verifica se basta il bianco o se la punta la deve fare anche la
   dimensione.

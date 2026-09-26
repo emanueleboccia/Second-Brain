@@ -28,8 +28,8 @@ data,ora,email,scuole,comuni,distanza_km,esito,id_messaggio,nota
 2026-09-18,12:58,istituto.piccolomondo@gmail.com,Scuola Dellinf Non Stat Associazione Piccolo Mondo,Scafati,6.0,inviata,1a0b42ada327eda5,
 2026-09-18,13:01,saee16100t@istruzione.it,Mariconda · Purgatorio · Santonio Abate · Scafatibagni,Scafati,6.0,inviata,1a0b42d6ae980628,
 2026-09-18,13:03,saee16300d@istruzione.it,Berardinetti · Ex Eca Via Passanti · S Vincenzo · Spietro,Scafati,6.0,inviata,1a0b42fc2768b4f4,
-2026-09-18,13:05,sanfrancesco.alca@libero.it,Scuola Dellinf Non Statsan Francesco Dassisi,Scafati,6.0,inviata,1a0b431d26d6ed05,
-2026-09-18,13:08,naic8d2003@istruzione.it,Boscoreale Ic Corpo Aggiunto · Boscoreale Ic Plesso Salome,Boscoreale,6.1,inviata,1a0b433e017b0f1b,
+2026-09-18,13:05,sanfrancesco.alca@libero.it,Scuola Dellinf Non Statsan Francesco Dassisi,Scafati,6.0,rimbalzata,1a0b431d26d6ed05,"rimbalzata: casella piena, 452 user quota exceeded (trovato dal gestionale il 25/09)"
+2026-09-18,13:08,naic8d2003@istruzione.it,Boscoreale Ic Corpo Aggiunto · Boscoreale Ic Plesso Salome,Boscoreale,6.1,inviata,1a0b433e017b0f1b,"arrivata: il 18/09 la segreteria ha mandato la ricevuta automatica del protocollo, che non è una risposta"
 2026-09-18,13:10,naic8d300v@istruzione.it,Boscoreale Ic Dati Pzza Varg · Boscoreale Ic Dati Settembri,Boscoreale,6.1,inviata,1a0b435d6fc504e4,
 2026-09-18,13:12,naic8ed009@istruzione.it,Boscoreale Ic Castaldi Cangia · Boscoreale Ic Castaldi Marche · Boscoreale Ic Castaldi Pluni · Boscoreale Ic Castaldi Rodari,Boscoreale,6.1,inviata,1a0b4381594c82da,
 2026-09-18,13:15,smcappuccettorosso@libero.it,Associazione Cappuccetto Rosso,Boscoreale,6.1,inviata,1a0b43a7e5eabac6,
@@ -55,7 +55,7 @@ data,ora,email,scuole,comuni,distanza_km,esito,id_messaggio,nota
 2026-09-18,14:41,principia.47@libero.it,Ente Religioso San Domenico,Pompei,6.8,inviata,1a0b489ac774c6e1,
 2026-09-18,14:44,smbabyhouse@libero.it,Baby House Sas Di Legorano Nicola C Impresa Social,Pompei,6.8,inviata,1a0b48bae3e1e72a,
 2026-09-18,14:46,uff.scuola.b.longo@tiscali.it,Ente Religioso Assunta Ponzo · Ente Religioso Bartolo Longo · Ente Religioso Orfanotrofio Femminile,Pompei,6.8,inviata,1a0b48de89edc68e,
-2026-09-18,14:48,la_valle_incantata@libero.it,Scuola Dellinf Non Stat La Valle Incantatacoopmutp,Sarno,6.9,inviata,1a0b4900d030b463,
+2026-09-18,14:48,la_valle_incantata@libero.it,Scuola Dellinf Non Stat La Valle Incantatacoopmutp,Sarno,6.9,rimbalzata,1a0b4900d030b463,"rimbalzata: casella piena, 452 user quota exceeded (trovato dal gestionale il 25/09)"
 2026-09-18,14:51,saee158002@istruzione.it,Lavorate · Sarno Cappella Vecchia · Serrazeta,Sarno,6.9,inviata,1a0b4929b905e475,
 2026-09-18,14:54,saic8bb008@istruzione.it,Prolungamento Matteotti,Sarno,6.9,inviata,1a0b4951342e10df,
 2026-09-19,09:41,saic8bw00g@istruzione.it,Via Ticino Infanzia,Sarno,6.9,inviata,1a0b89d4d1d7ef41,
@@ -67,7 +67,7 @@ data,ora,email,scuole,comuni,distanza_km,esito,id_messaggio,nota
 2026-09-19,09:56,naic8cr007@istruzione.it,Palma Ic V Russo Macello · Palma Ic V Russo Poz Romo,Palma Campania,7.2,inviata,1a0b8ab216ab4b5b,
 2026-09-19,09:59,scuolaparilandia@gmail.com,Parilandia Srl Impresa Sociale,Palma Campania,7.2,inviata,1a0b8ad9e089dc28,
 2026-09-19,10:02,accademiapiccoli@libero.it,Scuola Dellinfnon Statlaccademia Dei Piccolicoopso,Angri,7.8,inviata,1a0b8afff4badced,
-2026-09-19,10:05,info@staffpadovano.191.it,Scuola Dellinfanzia Non Statale Mondobabyditta Ind,Angri,7.8,inviata,1a0b8b2bad8ccb42,
+2026-09-19,10:05,info@staffpadovano.191.it,Scuola Dellinfanzia Non Statale Mondobabyditta Ind,Angri,7.8,rimbalzata,1a0b8b2bad8ccb42,rimbalzata: il server di 191.it non accetta connessioni (trovato dal gestionale il 25/09)
 2026-09-19,10:07,s.battistine@libero.it,Scuola Dellinfanzia Non Statale Am Fusco Ente Rel,Angri,7.8,inviata,1a0b8b4f0a1e434f,
 2026-09-19,10:10,saee010004@istruzione.it,Angri Isanto Alfonso M Fusco,Angri,7.8,inviata,1a0b8b7c271642a5,
 2026-09-19,10:13,saee18300p@istruzione.it,Scuola Infanzia Di Via Lazio · Scuola Infanzia Via Alighieri · Scuola Infanzia Via Nazionale,Angri,7.8,inviata,1a0b8ba21e27a369,
@@ -91,7 +91,7 @@ data,ora,email,scuole,comuni,distanza_km,esito,id_messaggio,nota
 2026-09-21,10:08,naic8fy007@istruzione.it,Tannunziata Leopardi Via Murat · Torre Annta I Piazza Cavour,Torre Annunziata,9.0,inviata,1a0c302cccf57a20,
 2026-09-21,10:11,naic8fz003@istruzione.it,Tannta Ic Parini Ferriera · Tannta Ic Parini Pascoli · Tannta Ic Piombiera,Torre Annunziata,9.0,inviata,1a0c3053fc0fe42f,
 2026-09-21,10:14,saic8ba00c@istruzione.it,Orta Loreto · San Lorenzo · Segidio Ma Cap · Corbara Cap,"Corbara, Sant'Egidio Del Monte Albino",9.1,inviata,1a0c3078978eb0e4,
-2026-09-21,10:17,lacasadi_topolino@libero.it,La Casa Di Topolino,Sant'Egidio Del Monte Albino,9.1,inviata,1a0c30a56e95ad42,
+2026-09-21,10:17,lacasadi_topolino@libero.it,La Casa Di Topolino,Sant'Egidio Del Monte Albino,9.1,rimbalzata,1a0c30a56e95ad42,"rimbalzata: casella piena, 452 user quota exceeded (trovato dal gestionale il 25/09)"
 2026-09-21,10:19,piccoliamici08@libero.it,Scuola Dellinfanzia Non Statal Piccoli Amici Socie,Sant'Egidio Del Monte Albino,9.1,inviata,1a0c30cac5b23729,
 2026-09-21,10:22,naic8gf006@istruzione.it,Trecase Via Vesuvio,Trecase,9.1,inviata,1a0c30f62b2a1d00,
 2026-09-21,10:25,scuola.anniverdi@libero.it,Scuola Dellinfanzia Anni Verdi Di Sirto Giovanni S,Trecase,9.1,inviata,1a0c3123730deee7,

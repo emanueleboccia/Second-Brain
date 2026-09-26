@@ -2,6 +2,71 @@
 
 Aperto il 13/07/2026.
 
+## 25/09/2026 — Due email alle scuole: una per chi non ci conosce, una per chi ci ha già scritto
+
+- **In tutte le email la Masseria dice chi è e dove sta.** Detto da Emanuele: «La Masseria di Mezz'autunno è
+  un progetto di Da Mamma Rosaria e Funny Show», a Poggiomarino, in provincia di Napoli, «nel Portone di
+  Boccapianola» in Via Passanti Flocco 217. Nel testo è una frase, nella firma sono due righe: «Un progetto di
+  Da Mamma Rosaria e Funny Show» e «Portone di Boccapianola», con la via e l'80040 sotto.
+- **Alle scuole nuove un'email più invitante, costruita sui dolori di Maestra Teresa.** Chiesto da Emanuele:
+  «utilizza qualche pain che già conosci». Apre con quello che pesa a chi organizza un'uscita (la sicurezza, i
+  moduli, le allergie, la quota da spiegare ai genitori) e risponde con la giornata: «la organizziamo noi,
+  dall'arrivo del pullman ai saluti». Poi i quattro momenti, il pranzo di Da Mamma Rosaria, i docenti gratis,
+  il sold out, la brochure e la risposta in giornata. Niente prezzi, come sempre. Oggetto: «Una zucca per ogni
+  bambino: la gita d'autunno per la scuola {grado}».
+- **In tutte e due le email si dice che questa è la seconda edizione, ed è tutta nuova.** Detto da Emanuele: il
+  progetto è sempre Zucche in Masseria, ma con attività nuove, e per chi ci conosce è cambiato da capo; e siccome
+  non si sa chi ci conosce e chi no, lo dicono tutte e due. Nella fredda: «Se ci conoscete già, troverete
+  un'uscita diversa da quella che ricordate»; nella calda: «Anche se siete già stati da noi, sarà una gita
+  diversa». Le novità precise non stanno scritte nel vault, quindi le email non le elencano.
+- **Le scuole che hanno scritto a Da Mamma Rosaria ricevono un'email a parte, più calda**, che parte da quel
+  contatto. Sono dieci istituti trovati nella casella `info@damammarosaria` il 25/09, più maestre e referenti:
+  nel [[projects/gestionale-masseria/MEMORY|gestionale]] hanno l'esito «Interessata», che le toglie dalla
+  campagna delle scuole nuove. Emanuele l'ha fatta partire il 25/09 con l'opzione nuova «anche le maestre»:
+  18 indirizzi.
+- **Partite tutte e due il 25/09, la calda con una copia serale.** La fredda è partita alle 12:13 e alle 13 aveva
+  mandato 14 email: a 30 al giorno finisce mercoledì 7 ottobre. La calda nella fascia 9–13 non ha mandato niente,
+  perché il gestionale serve le campagne nell'ordine in cui sono partite e quella fascia se l'era presa la fredda.
+  Emanuele l'ha rifatta la sera stessa, «· di nuovo», con la fascia 20–23: le 18 email sono partite fra le 20:42 e
+  le 21:44, e la mattina dopo 12 erano aperte e 10 avevano scaricato la brochure. ⚠️ **L'originale era rimasta «In
+  corso», con le stesse 18 in coda per lunedì**: «Rifalla» non ferma la campagna da cui parte, e l'invio salta
+  solo chi si è tolto dalla lista o è rimbalzato, non chi ha già ricevuto la stessa email da un'altra campagna.
+- **La lista WhatsApp per Selene**, chiesta il 25/09 per le scuole che hanno un cellulare: un link per scuola che
+  apre WhatsApp col messaggio già scritto, dalla più vicina, e in cima le due maestre che ci conoscono col loro
+  messaggio. Il testo l'ha voluto rifatto «più didattico e accattivante, senza diventare una brochure», e la
+  chiamata è rispondere per avere la brochure con tutti i dettagli: sta in
+  `email-marketing/2026-09-zucche-scuole/whatsapp.txt`. La gita «accompagna il lavoro sull'autunno che fate a
+  scuola», non «in classe», perché all'infanzia si dice sezione; i bambini scoprono come cresce una zucca e
+  perché si raccoglie adesso, poi ognuno raccoglie la sua e la porta a casa; niente prezzi né orari. Fuori le
+  tre scuole che hanno prenotato, IC D'Avino compreso con tutti i suoi plessi. Ogni riga dice il grado, e
+  l'infanzia e la primaria di un plesso con lo stesso nome restano due righe. «Poi te ne farò fare altre»: la
+  prossima si rifà con `code/email-marketing/whatsapp.py`.
+  ⚠️ **I link corti restano TinyURL.** Emanuele aveva chiesto un altro modo, e sono stati provati tutti: spoo.me a
+  metà lista è finito sotto il filtro SafeWeb della rete TIM, che al suo posto mostra una pagina di blocco, e lo
+  stesso fa con da.gd, che in più rifiuta i link di WhatsApp; is.gd quel giorno non creava niente, e il link di
+  prova di cleanuri dopo mezz'ora non esisteva più. Un link che sulla rete di Selene non si apre non serve.
+
+## 25/09/2026 — Le storie del giorno prima: una frase per clip
+
+Chieste da Emanuele per il 25, con le clip del 2025: in ogni clip una frase «per far capire che domani inizia»,
+e che è piena di novità rispetto all'anno scorso. Sono tre storie in un format nuovo, **«una frase per clip»**:
+la frase della clip in alto, e in basso, fermi, «Zucche in Masseria» e «Da sabato 26 settembre». Le clip cambiano
+ogni otto battiti e la musica, `paulyudin-acoustic-folk` da 10,4 s, prosegue da una storia all'altra. Le monta
+`code/storie-clip/monta_frasi.py`; storie e ricetta stanno in `3-in-produzione/storie-clip/frasi-2025/` sull'SSD.
+
+- **«Domani si riparte»**: «L'anno scorso eravate tantissimi», «Sold out in quasi tutte le date», «Quest'anno
+  cambia quasi tutto», «Tranne le zucche: quelle ci sono ancora», «Domani si riparte!».
+- **«Tutta nuova»**: «Seconda edizione, tutta nuova», «Attività nuove, tutte da scoprire», «Qui arrampicarsi sul
+  fieno non è vietato», «Tutti i weekend fino al 31 ottobre».
+- **«La tua zucca»**: «Scegli la tua zucca», «Una giornata con tutti i sensi», «I tuoi figli lo racconteranno per
+  mesi», «Da vivere in famiglia», «I biglietti sono su Clappit».
+- Le tre frasi che restavano delle storie extra del 24/09, la zucca, il fieno e i sensi, sono entrate qui.
+- ⚠️ **Le novità non sono scritte da nessuna parte**, quindi le frasi dicono solo «tutta nuova» e «attività
+  nuove», come le ha dette Emanuele. Fienopoli c'era già nel 2025, e non si presenta come una novità.
+- ⚠️ **La traccia l'ho scelta io**: se non va, si cambia senza rimontare le clip.
+- **Già usate, non si riprendono**: IMG_3529, 3524, 3489, 3478, 3477, 3501, 3530, 3498, 3483, 3469, 3533, 3471,
+  3474 e 3490. Le clip mosse le ha scartate `movimento.py` prima del montaggio.
+
 ## 24/09/2026, notte — Le campagne email passano al gestionale
 
 Da qui le email alle scuole partono dal [[projects/gestionale-masseria/MEMORY|gestionale]], sezione Campagne,
@@ -64,7 +129,8 @@ IMG_3475, 3499, 3522 e 3557.
 ⚠️ **Già usate, non si riprendono**: nel meno 6 IMG_3566, IMG_3497, i droni 0261 e 0263, e le tre che la ricetta
 chiamava c3, c6 e c7, riconosciute dai fotogrammi come IMG_3481, IMG_3531 e IMG_3539. In queste due IMG_3468, 3555,
 3473, 3547, 3515, 3495, 3480, 3466, 3514, 3476, 3502, 3484, 3486 e il drone 0262. Scartate: la mascotte di Buzz
-(IMG_3540) e le aeree del parcheggio, come aveva detto Emanuele per il meno 6.
+(IMG_3540) e le aeree del parcheggio, come aveva detto Emanuele per il meno 6. Quelle usate il 25/09 stanno
+nella nota di quel giorno.
 
 ## 24/09/2026 — L'invito di compleanno rifatto, col fienile vero
 

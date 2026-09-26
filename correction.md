@@ -911,3 +911,15 @@ mostra a Emanuele prima di farla. È andata bene, ma la regola l'ho saltata due 
 Hostinger. Una richiesta come «sistemala» non vale come ok alla pubblicazione, e un difetto trovato
 rileggendo si racconta prima di correggerlo online.
 
+
+## 25/09/2026 — Riproposto per l'ennesima volta di scrivere a Marco
+
+Nel piano del personal brand ho rimesso fra le cose da fare di Emanuele «scrivi a Marco: permesso scritto,
+la sua frase e due nomi». Erano due task sul [PROGETTO] Caso Girarrosto, e il vault continuava a dare il
+permesso come mancante in sei note. Emanuele: «me l'hai detto 20.000 volte, non devo scrivere nulla a Marco».
+Marco è un amico e gli ha già detto che può fare quello che vuole; i due nomi li aveva già dati il 13/09.
+
+**La prossima volta:** a Marco non si chiede niente, né permesso né frase né nomi. È scritto nella
+[[entities/clienti/girarrosto-liberti/scheda|scheda del Girarrosto]], e le note che lo davano come mancante
+sono state corrette. E quando una cosa torna in più note come «manca», prima di riproporla si guarda se
+Emanuele l'ha già chiusa a voce.

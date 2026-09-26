@@ -27,6 +27,10 @@ Riferimenti: il caso in [[docs/casi/girarrosto-liberti|ricettario]], il cliente 
 
 ## ⚠️ I dati da farsi dare da Marco PRIMA di girare
 
+> ✅ **Chiuso il 25/09/2026: a Marco non si chiede più niente.** I numeri ci sono e stanno nel
+> [[docs/casi/girarrosto-liberti|caso]]: 120 ordini in una sera di punta, 120 conti a mente, adesso zero.
+> La sua frase non c'è, e la riga del copione che la usava si toglie.
+
 Il video vive o muore su questi numeri, e **non si inventano**. Senza, resta un «bel sistema»
 senza prova. Da chiedere a Marco:
 

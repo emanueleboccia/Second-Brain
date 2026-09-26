@@ -76,12 +76,13 @@ la mappa, con quello che si fa crescere e quello che si passa a qualcun altro, s
 [[self/competenze|competenze]]. Serve a sapere quali di queste voci si vendono senza pensarci
 e quali costano più tempo di quello che valgono.
 
-## La rottamazione — in valutazione dal 20/09/2026
+## La rottamazione — in valutazione dal 20/09/2026, decisa il 25/09
 
 **Idea di Emanuele, parole sue:** *«rottamare il tuo sito web o la tua applicazione»*, per chi ha
 già qualcosa che non fa la differenza. Chi porta il vecchio ottiene uno sconto sull'ingresso,
-oppure il setup iniziale gratis. ⚠️ **Quale delle due non è deciso**, ed è la cosa che cambia tutto
-il resto.
+oppure il setup iniziale gratis: era questa la domanda. **Il 25/09/2026 Emanuele ha scelto lo sconto**,
+il 50% di quello che il cliente ha speso col vecchio fornitore, tolto dalla proposta. Come si applica a
+ogni servizio sta in [[self/pacchetti|pacchetti]].
 
 **Perché la parola funziona.** «Rottamazione» la conoscono tutti — auto, caldaie, elettrodomestici
 — e dice due cose in una: che quello che hai vale ancora qualcosa, e che va sostituito. È il
@@ -114,6 +115,10 @@ rottamato è uno dei miei*.
 
 ### La garanzia viaggia con lei
 
+✅ **Decisa il 25/09/2026 nei [[self/pacchetti|pacchetti]]: la garanzia è sul lavoro, mai un rimborso.**
+Emanuele ha tolto le restituzioni proposte: *«il cliente deve entrare e fidarsi che rimarrà soddisfatto da
+qualsiasi lavoro io faccia»*. Quello che segue è com'era il 20/09, e resta per sapere da dove si è partiti.
+
 ⏸️ **Parcheggiata qui il 20/09/2026**, per decisione di Emanuele: «da vedere bene insieme alla
 rottamazione». L'idea è che sul sito si veda che il cliente porta a casa **un risultato concreto e
 misurabile** — sui sistemi il lavoro tolto, sui siti «un sito imbattibile a livello di design, copy
@@ -135,20 +140,24 @@ scartata.
 
 ### Cosa serve prima di poterla vendere
 
-- ✅ **Sconto, deciso il 25/09/2026**, e calcolato su quanto il cliente ha speso col vecchio fornitore,
-  fatture alla mano. Percentuale, tetto e periodo dei canoni stanno fra le domande di
-  [[self/pacchetti|pacchetti]]. Quello che segue resta vero, ed è il motivo per cui lo sconto ha un tetto.
+- ✅ **Sconto, deciso il 25/09/2026**: il 50% di quanto il cliente ha speso col vecchio fornitore,
+  fatture alla mano, tolto dal totale della proposta; sui canoni conta l'ultima rata. Un tetto fisso non
+  c'è, e su una spesa alta il prezzo si fa su misura. Quello che segue resta vero, ed è il motivo per cui
+  una spesa alta non si sconta a occhi chiusi.
 - **Sconto o gratis.** ⚠️ Il [[self/tariffario|tariffario]] ha già una leva che regala l'ingresso,
-  ed è il **prezzo caso studio**: riduzione del 20% in cambio del permesso scritto, massimo due
+  ed è il **prezzo caso studio**: riduzione del 20% in cambio di permesso scritto, testimonianza e due
+  nomi, massimo due
   casi attivi. Se la rottamazione diventa una seconda leva gratuita, le due si sommano e l'ingresso
   va a zero senza che nessuno l'abbia deciso. Il registro dice già che il Girarrosto è stato fatto
   a 0 € e il cervello aziendale di Sistema Evolve pure: una terza voce a zero al lancio è il modo
   di chiudere l'anno avendo lavorato molto e fatturato poco.
-- **Cosa conta come rottamabile**, detto in modo verificabile e non a sensazione: l'età del sito,
-  la piattaforma su cui gira, un canone in corso. Senza una definizione, ogni trattativa la
-  riapre — ed è il [[self/reference/convinzioni|nemico 1]], il preventivo fatto a sensazione.
-- **Cosa comprende «il setup iniziale»**, che oggi non è una voce del tariffario.
-- **Se vale anche per i sistemi** — rottamare un gestionale a canone — o solo per i siti.
+- ✅ **Cosa conta come rottamabile**, deciso il 25/09/2026: un sito che non rappresenta l'identità del
+  brand, cioè design non coerente, testi macchinosi e senza uno scopo, funzioni vecchie; e un canone in
+  corso, con la fattura. Non l'età: al posto dei tre anni proposti, Emanuele ha scelto di giudicarlo
+  guardandolo. Serviva una definizione perché senza, ogni trattativa la riapre — ed è il
+  [[self/reference/convinzioni|nemico 1]], il preventivo fatto a sensazione.
+- ✅ **Il setup iniziale** non serve più: la rottamazione è uno sconto, non un setup gratis.
+- ✅ **Vale anche per i sistemi**: il gestionale a canone si rottama con l'ultima rata.
 
 ## Cosa non c'è
 
@@ -158,5 +167,5 @@ tantum e cosa è ricorrente, cosa si vende insieme, cosa è un ingresso e cosa �
 «cosa vendo» è un elenco e non un'offerta.
 
 **Dal 25/09/2026 c'è una proposta**, chiesta da Emanuele la sera prima: ogni voce con la sua promessa,
-la garanzia e, dove ha senso, la rottamazione, in [[self/pacchetti|pacchetti]]. È `in-lavorazione`: dentro
-ci sono le domande che la separano dall'essere vera.
+la garanzia e, dove ha senso, la rottamazione, in [[self/pacchetti|pacchetti]]. Decisa lo stesso giorno,
+domanda per domanda: la nota è `attivo`.

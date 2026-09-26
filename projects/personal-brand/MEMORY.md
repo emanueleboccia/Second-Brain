@@ -135,3 +135,25 @@ insieme, che è esattamente la differenza fra un brand e tre file che si somigli
 
 Da riprendere quando il sito è chiuso.
 
+
+## 25/09/2026 — Marco non si sente più, e il Girarrosto non apre il sito
+
+**A Marco non si chiede niente.** Emanuele, esasperato dal sentirselo riproporre: Marco è un amico e gli
+ha già detto che può fare quello che vuole, quindi niente permesso scritto e niente frase. I nomi li
+aveva già dati il 13/09/2026: Pasquale, rivenditore Amadori, che non è in target, e il cugino Salvatore
+del [[entities/clienti/girarrosto-la-signora/scheda|Girarrosto La Signora]], che non è un cliente adatto.
+Le task sono state tolte da TickTick, e le note che davano il permesso come mancante sono state corrette.
+
+**Il Girarrosto non va in hero né come sezione principale del sito**, detto lo stesso giorno. Il caso
+resta scritto e resta fra i lavori, ma la prima pagina va ripensata: la [[projects/personal-brand/sito-home|home]]
+lo metteva in testa.
+
+## 25/09/2026 — Lo stampo dei caroselli, prima prova: non piace
+
+Costruito lo stesso giorno per i quattro caroselli di ottobre, in `code/caroselli/`, e provato sul manifesto
+del 1° ottobre: cornice col nome e il contatore, fondale caldo sulla copertina, Archivo largo, sei tipi di
+slide. Dal PDF dei caroselli sono entrate solo le regole d'impaginazione, perché il suo stile, gradienti e
+luci colorate, va contro [[self/reference/design|il design]]. **Emanuele: «non mi piace tanto».** Si rifà,
+e prima si chiede cosa non va: non è stato detto. Resta aperta anche la prima pagina del sito, senza il
+Girarrosto in testa: la proposta era il manifesto come titolo e i lavori di famiglia affiancati, e non ha
+avuto risposta.
