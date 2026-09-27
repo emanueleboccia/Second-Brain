@@ -8,7 +8,7 @@ tags:
   - brand/la-masseria-di-mezzautunno
 status: attivo
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-26
 related:
   - "[[projects/gestionale-masseria/MEMORY]]"
   - "[[areas/la-masseria-di-mezzautunno/MEMORY]]"
@@ -63,10 +63,45 @@ feste arancio, le serate marroni. All'accesso, il fienile rosso di Zucche 2025 c
 ⚠️ **HeroLight ha l'euro vuoto**: il glifo esiste ma non disegna niente. Scoperto il 21/09/2026 sulle
 schermate. Gli importi vanno in Poppins, anche nei PDF del brand.
 
+## L'email marketing
+
+Dal 24/09/2026 le email alle scuole partono dal gestionale, dalla Gmail della Masseria, piano e la mattina
+come la campagna di settembre. Dal 26/09/2026 è una sezione sua, fatta come Brevo: una **Panoramica** coi
+numeri di tutte le campagne e il grafico giorno per giorno, le **Campagne** con programmazione, pausa,
+archivio, cestino e report in Excel, i **Modelli**, i **Contatti e liste** per famiglie e aziende, e i
+**Disiscritti**, che valgono per tutti.
+
+Le email si scrivono in testo semplice o a blocchi, con titoli, foto e pulsanti, e l'anteprima accanto.
+Aperture, clic, risposte e rimbalzi li conta il gestionale da solo, leggendo la Gmail ogni dieci minuti.
+Le scuole e le liste non si mescolano: una campagna va alle une o alle altre, e le unisce solo l'indirizzo
+email. Le decisioni, col perché, stanno nella [[projects/gestionale-masseria/MEMORY|memoria del progetto]].
+
+**WhatsApp**, dal 26/09/2026, si manda a mano: il gestionale prepara l'elenco (le date di un periodo, una
+lista, le maestre) e il messaggio con il nome di ognuno, e chi lo usa preme «Apri WhatsApp» e invio, uno alla
+volta. Niente invii automatici: WhatsApp li blocca, e senza un sì la privacy li vieta.
+
+## I conti
+
+Dal 26/09/2026 le date hanno i loro **Conti**, sul modello di quelli di Mamma Rosaria e visibili solo a
+Emanuele e Selene: quanto valgono le date dell'anno, quanto è entrato con acconti e saldi, quanto manca, mese per
+mese e per tipo. In cima alle tabelle le date già fatte col saldo ancora da prendere, e quelle dei prossimi trenta
+giorni, col saldo che si segna preso con un tocco. Contano totale, acconto e «saldato» delle date: le spese non ci
+sono, quindi niente margini.
+
+## Le richieste dal sito
+
+Dal 26/09/2026 la pagina Scuole del sito ha un **modulo per chiedere la brochure**, che vive nel gestionale e sta
+nel sito dentro un riquadro. La maestra lascia nome, scuola, comune, grado, i bambini se li sa, email e cellulare;
+la brochure le parte subito per email dalla Gmail della Masseria, con un link che dice quando la apre, e alla
+Masseria arriva un avviso. In **Richieste dal sito**, sotto Scuole, Selene trova il messaggio WhatsApp già scritto,
+la scheda della scuola da collegare o da creare, e la spunta di quando è fatta. I testi che arrivano alla maestra
+stanno tutti in un file, e li approva Emanuele.
+
 ## Com'è costruito
 
 Laravel 13 come FoodOS, database SQLite, pagine Blade senza build. 37 test verdi il 21/09/2026:
-ruoli, inviti, date, calendario, Excel e backup. Sul Mac gira con dati inventati.
+ruoli, inviti, date, calendario, Excel e backup; 172 il 26/09/2026, con le campagne, e 204 la sera dello stesso
+giorno, coi conti e le richieste dal sito. Sul Mac gira con dati inventati.
 
 ## Dove sta online
 

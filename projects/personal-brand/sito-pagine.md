@@ -210,7 +210,7 @@ lavori.*
 ⚠️ **I tre stati vogliono dire tre cose diverse, e vanno usati così:** `IN PROGETTO` — sto capendo
 cosa serve; `IN COSTRUZIONE` — lo sto costruendo; `IN PROVA` — funziona, lo sto provando prima di
 metterlo dentro un'attività vera. Il sistema per l'auto è `IN PROVA` perché gira con dati inventati
-e nessun cliente lo usa, come dice [[projects/autoos/sistema|AutoOS]].
+e nessun cliente lo usa, come dice [[projects/autoos/sistema|la nota su Qinta]].
 
 ⚠️ **Sistema Evolve non si nomina in questa pagina**, come in tutto il resto del sito:
 [[self/reference/offerta|l'offerta]] lo vieta finché ruolo e soci non sono scritti. Il sistema per
@@ -226,7 +226,7 @@ presenta come una base per settore che si cuce addosso, e non come un software d
 scaffale.
 
 ⚠️ **A che punto è, detto com'è.** Oggi nessuno dei tre ha un cliente: il sistema per l'auto
-funziona in locale con dati di prova, come dice [[projects/autoos/sistema|AutoOS]]. Un prodotto
+funziona in locale con dati di prova, come dice [[projects/autoos/sistema|la nota su Qinta]]. Un prodotto
 mostrato come già in uso quando non lo è rompe la regola della prova che non si trucca.
 
 ## La pagina Come lavoro

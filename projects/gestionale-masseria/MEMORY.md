@@ -5,6 +5,156 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 26/09/2026 — I Conti, e il modulo della brochure nella pagina Scuole
+
+Due richieste di Emanuele, scelte fra le funzioni proposte: «il 6 mi piace, una sezione apposita per il lato
+economico, i conti» e «il 1, la richiesta di prenotazione, qui semplicemente aggancerei un form nella pagina Scuole
+del sito web, dove la maestra inserisce tutti i dati, ma non troppi, per venire ricontattata con la brochure nostra
+tramite email e WhatsApp».
+
+- **I Conti sono quelli di Mamma Rosaria, con un riquadro in più per Selene.** Li vedono solo Emanuele e Selene.
+  In cima le date già fatte col saldo da prendere, poi quelle dei prossimi trenta giorni: sono le due cose che
+  servono ogni giorno. Il saldo si segna preso dai conti, senza aprire la data. Niente spese e niente margini:
+  nel gestionale le spese non ci sono.
+- **Il modulo vive nel gestionale e il sito lo mostra in un riquadro.** Così nel WordPress, che «è già stato
+  ferito una volta», si entra una volta sola, per incollare il blocco, e tutto il resto (campi, testi, controlli)
+  si cambia dal gestionale. Il gestionale sta sullo stesso dominio del sito, quindi il riquadro funziona anche
+  con Safari. Il posto è la sezione `#brochure` in fondo alla pagina Scuole, al posto del pulsante WhatsApp.
+- **Pochi campi**: nome e cognome, scuola, comune, infanzia o primaria, i bambini se li sa, email, cellulare, il
+  consenso. Il cellulare è obbligatorio perché Selene le scrive su WhatsApp, e dev'essere un cellulare.
+- **La brochure parte subito, da sola**, dalla Gmail della Masseria: la maestra la chiede e la trova nella
+  casella. Col link che passa dal gestionale e dice quando la apre, invece dell'allegato. Alla Masseria arriva
+  un avviso con la risposta diretta alla maestra. Selene la sente su WhatsApp dalla pagina **Richieste dal
+  sito**, col messaggio già scritto, e la segna fatta.
+- **La scheda della scuola si collega da sola solo se è sicura**: l'email o il cellulare sono già in una scheda.
+  Col solo nome della scuola sbaglierebbe, quindi negli altri casi propone le schede dello stesso comune che
+  le somigliano, o ne crea una. Collegata, la scuola passa a «Interessata» e le campagne alle scuole nuove non
+  le scrivono come a una sconosciuta.
+- **I testi per la maestra sono stati scritti col tono scuole della Masseria**, voi e niente prezzi, e aspettano
+  l'ok di Emanuele: l'email, la conferma nel modulo, il messaggio WhatsApp di Selene e la frase della sezione del
+  sito, che da «la ricevete in giornata» diventa «arriva subito nella vostra email».
+- ⚠️ **Il numero delle richieste nel menu avrebbe bloccato la Manutenzione.** Il menu c'è anche lì, e col codice
+  nuovo sul server prima della migrazione la tabella non esiste: la pagina che serve a fare la migrazione sarebbe
+  andata in errore. L'ha trovato il test della Manutenzione; il conteggio ora sta in un try/catch, e il README lo
+  scrive come regola.
+- ⚠️ **La copia del gestionale sul Mac ha la password vera della Gmail**, e le email partirebbero davvero da una
+  prova in locale. Per le schermate del modulo la password è stata tolta e poi rimessa, e le richieste di prova
+  sono state scritte nel database del Mac senza passare dal modulo. Scritto nel README.
+
+## 26/09/2026 — L'email marketing come un programma a parte
+
+Chiesto da Emanuele «urgentemente»: le Campagne come «un vero e proprio software di email marketing uguale e
+identico» a Brevo, perché non si poteva eliminare niente e mancavano tante funzioni. Poi l'ha precisato: «un
+software di email marketing e una dashboard con i dati, in cui una sezione deve essere dedicata all'email
+marketing». E poi le liste: «solitamente nei software di email marketing sono gestibili».
+
+- **Una sezione sua nella barra laterale**, «Email marketing»: Panoramica, Campagne, Modelli, Contatti e liste,
+  Disiscritti, più la Casella per l'amministratore. Le stesse voci stanno in alto in ogni pagina della sezione.
+- **La Panoramica** somma tutte le campagne nel periodo (7, 30, 90 giorni o sempre) e ha il grafico giorno per
+  giorno di cosa è successo alle email mandate quel giorno. I colori li ha scelti la skill dei grafici e li ha
+  controllati il suo validatore: una scala di verdi, dalle risposte alle non aperte, col grigio per i rimbalzi.
+  Le aperture non entrano fra le attività: con l'iPhone che apre tutto da solo sarebbero rumore.
+- **Il ciclo di una campagna** come in Brevo: programmata a giorno e ora, terminata (quelle in coda si annullano
+  per sempre), archiviata, cestino, e «Scrivi di nuovo» a chi non l'ha aperta, ha cliccato o non ha risposto.
+  **Nel cestino una campagna che manda ci arriva in pausa**, così un ripristino non la fa ripartire da sola.
+  Eliminare per sempre è solo dell'amministratore. Il report si scarica in Excel con tre fogli.
+- **Contatti e liste stanno fuori dalle schede delle scuole.** Le scuole sono un elenco che si filtra, le liste
+  sono gruppi fermi di famiglie e aziende, importati da CSV o da Excel solo col consenso. Una campagna va o alle
+  une o alle altre. Si toccano solo nell'indirizzo email: i Disiscritti valgono per tutte e due, e «salta chi ha
+  già ricevuto» pure. Spiegato a Emanuele, che chiedeva se «si disturbano»: importare o eliminare da una parte
+  non tocca l'altra. Gli è stata proposta, senza farla, una lista «Famiglie delle feste» riempita dalle
+  prenotazioni, che però vuole il consenso chiesto al momento della prenotazione.
+- **L'editor**: oltre al testo semplice, che alle scuole arriva meglio, le email **a blocchi** (logo, titolo,
+  testo, foto, pulsante, separatore, spazio), con l'anteprima accanto che si ridisegna mentre si scrive e segue
+  il blocco su cui si lavora. Le foto si caricano dal blocco, si rimpiccioliscono a 1200px e si vedono senza
+  accesso a `/img-email/`, come la brochure. Arrivano anche il testo d'anteprima, il nome del mittente,
+  l'indirizzo per le risposte, i campi `{nome|testo di riserva}` e la prova fino a cinque indirizzi. **Un'email
+  si salva come modello** dal menu «Altro», e la campagna dopo parte da lì.
+- **Un errore trovato provando, non dalle prove**: la pagina di una bozza mandata a una lista andava in errore,
+  perché cercava il grado della scuola in un contatto. E il riquadro «A chi parte» parlava di plessi, distanze e
+  prenotazioni anche per le famiglie. Corretti, con una prova che li tiene fermi.
+- **Tre migrazioni**, `2026_09_26_000001_campaigns_like_brevo`, `000002_contacts_and_lists` e
+  `000003_email_blocks_and_templates`. 172 prove passate sul Mac.
+- **Online alle 10:53**, col «sì» di Emanuele dopo le schermate. Due zip dal Gestore file, prima i tre file
+  pubblici in `web` e poi i 62 del codice in `app`: la pagina nuova chiede `js/marketing.js`, e se il codice
+  arriva prima del file la pagina va in errore. Poi «Fai la copia e aggiorna», con la copia
+  `masseria-2026-09-26-105330.sqlite`. Il tasto chiede una conferma che l'estensione di Chrome non mostra: il
+  modulo si è inviato da JavaScript. Rilette sul sito vero Panoramica, campagne, report, Modelli, Contatti,
+  Disiscritti, Casella e l'anteprima dal vivo. Il foglio di stile senza `?v=` la CDN lo dava ancora vecchio,
+  quello col numero che mette la pagina era già nuovo.
+- **La vecchia campagna calda è nel cestino**, chiesto da Emanuele: «eliminala, perché già ne ho avviata
+  un'altra che è andata bene con la stessa lista». «Metti nel cestino» l'ha prima messa in pausa: 0 email
+  mandate su 18, e lunedì non parte niente. Resta nel cestino, da cui si ripristina o si elimina per sempre.
+- ⚠️ **In `public_html` gli zip dei caricamenti sono almeno ventidue**, cogli otto del 26/09. Non si vedono da
+  internet, ma vanno tolti quando lo dice Emanuele.
+- **WhatsApp**, chiesto se si può integrare: tre strade. La lista da scrivere a mano con i link `wa.me` dentro
+  il gestionale; l'API ufficiale di Meta per le famiglie che hanno detto sì, circa 0,025 € a messaggio di
+  servizio e 0,066 € di marketing; oppure Spoki (39–79 € al mese) o WhatsApp di Brevo (499 € al mese).
+  Consigliata la prima subito e la seconda dopo, **mai messaggi automatici a numeri che non hanno detto sì**.
+  Rispiegate più semplici, con la spunta «voglio ricevere messaggi su WhatsApp» da aggiungere alla
+  prenotazione, così la lista di chi ha detto sì cresce. **Emanuele ha scelto la prima**: «la strada 1 va bene».
+- **WhatsApp, la strada 1: online alle 12:05**, col «ok vai procedi» di Emanuele dopo le schermate, insieme al
+  menu a tendine. Due zip dal Gestore file, prima `web` e poi `app`, poi «Fai la copia e aggiorna» con la copia
+  `masseria-2026-09-26-120546.sqlite`. Il vecchio indirizzo del Gestore file dava 403: si riapre dalla scheda
+  «Gestore file» nella dashboard del sito. Sul sito vero le feste del 26 e 27/09 non hanno il telefono scritto,
+  quindi per loro un giro WhatsApp resta vuoto; quelle del 10/10 hanno il cellulare.
+- **Com'era fatta, la strada 1.** Scelta da Emanuele dopo averla fatta rispiegare («quali
+  sono queste strade, non me le hai dette»: il messaggio con le tre strade era uscito in mezzo al lavoro e non
+  l'aveva visto). Nella barra laterale sta in **Strumenti › WhatsApp**: un «giro» nasce dalle date di un periodo,
+  da una o più liste o dalle maestre e dalle scuole col cellulare, e il messaggio ha i campi come le email.
+  L'elenco tiene solo i cellulari, un messaggio per numero, mai chi non vuole più messaggi e mai le scuole che
+  hanno detto di no. «Apri WhatsApp» apre la chat col testo già scritto (sul computer WhatsApp Web, sempre
+  nella stessa scheda) e segna la riga mandata; se non è partito si rimette. La spunta «vuole i messaggi
+  WhatsApp» sta nella data e nel contatto, e serve per le promozioni. Migrazione
+  `2026_09_26_000004_whatsapp_rounds`, 183 prove passate, schermate mandate a Emanuele.
+- **Il menu a tendine**, chiesto da Emanuele «essendo che le funzioni iniziano ad essere un po' di più»: Date e
+  Scuole restano sempre a vista, **Email marketing** e **Strumenti** si aprono col clic sul nome. WhatsApp sta
+  negli Strumenti, come aveva proposto lui: «magari WhatsApp lo metti negli strumenti». La tendina della
+  pagina aperta è sempre aperta, le altre restano come le si è lasciate, anche ricaricando.
+- **Il ritmo diventa uno solo, fisso, per tutte le campagne.** Emanuele trovava l'invio lento e non vedeva più
+  dove si cambiava il ritmo: la campagna alle scuole nuove andava a 30 al giorno, dalle 9 alle 13, dal lunedì al
+  venerdì, ed era partita venerdì alle 12:13, quindi 15 email il primo giorno e 8 giorni lavorativi per le 233
+  che restavano. Il riquadro del ritmo stava nel modulo, che mentre la campagna manda non si apre. Gli è stato
+  spiegato come fanno gli altri: Brevo e Mailchimp mandano tutto subito ma solo a chi ha dato il consenso, i
+  programmi per le email a freddo dalla propria Gmail (Lemlist, Instantly, Smartlead) mettono un tetto per
+  casella, 30-50 al giorno, orari d'ufficio e pause di qualche minuto; Google ferma una Gmail gratuita a 500
+  al giorno. **Decisione di Emanuele**: «dalle 8:30 alle 18:00 dal lunedì al sabato», e «le regole ed il ritmo
+  impostalo tu univoco per tutte le campagne in corso e basta», con «un riquadro piccolo dove si vede il ritmo,
+  ma non si cambia e non si imposta». Regola scelta: **80 al giorno per tutta la casella, 50 per campagna, una
+  ogni 5-9 minuti**, a turno fra le campagne in corso. Sta in `Pace.php`; dal modulo della campagna il ritmo è
+  sparito, e la pagina di una campagna dice quando finisce. Con una campagna sola, le 233 scuole finiscono in
+  4-5 giorni invece di 8. 186 prove passate.
+- **Il ritmo unico è online dalle 15:09**, col «vai procedi» di Emanuele: due zip dal Gestore file, prima lo
+  stile e poi il codice, nessuna migrazione. Alle 15:10 è partita la prima email col ritmo nuovo, di sabato
+  pomeriggio come vuole la fascia scelta: «scuole nuove» a 16 su 248, e la sua pagina dice che finisce
+  venerdì 2 ottobre.
+- **mail-tester dà 9,2 su 10 all'email di «scuole nuove»**, alle 15:20, chiesto da Emanuele («puoi testare con il
+  tester come va l'email?»). La prova è partita dal tasto «Manda una prova a» della campagna. Autenticazione (SPF,
+  DKIM, DMARC), formato, blocklist e link: tutto verde. L'unico -0,8 è `FORGED_GMAIL_RCVD` di SpamAssassin 4.0.2:
+  controlla le intestazioni di Google con un'espressione vecchia (`2002:a\d\d:` invece di `2002:a\w{1,2}:`) e
+  cerca `X-Google-Smtp-Source`, che Google non mette più. Nel codice nuovo di SpamAssassin è già corretto, e
+  succede a qualunque email mandata da una Gmail: dal gestionale non c'è niente da cambiare. Il nome con cui il
+  gestionale si presenta a Gmail, `[127.0.0.1]`, non c'entra.
+- ⚠️ **Nello zip del ritmo era finito `database/database.sqlite`**, il database di prova del Mac: la cartella
+  presa era `database` intera invece di `database/migrations`. Visto prima di caricarlo, e controllati anche gli
+  zip già caricati il 26/09: puliti. Con «Overwrite» avrebbe sostituito le date vere con quelle inventate. La
+  regola sta nel README, alla voce «Pubblicare di nuovo».
+- **La sezione si alleggerisce, chiesto da Emanuele dopo la spiegazione di tutto.** Dalla Panoramica escono le
+  «ultime cose successe» («non ci interessa quella card») e «📮 La casella e la lista»: se la Gmail smette di
+  funzionare, un avviso in cima lo dice. La pagina Casella esce dalle sezioni ed entra in Manutenzione, «tanto
+  ormai è configurata già l'email», con un riquadro che dice se è collegata e l'ultimo giro. **Nella barra
+  laterale l'email marketing è una voce sola**, «Email marketing» sotto «Marketing», che porta alla Panoramica:
+  dentro ci si muove con la barra delle sezioni in alto, che ora ha i colori della voce accesa del menu e sul
+  telefono si porta da sola sulla sezione aperta. Le ultime attività restano nella pagina di ogni campagna.
+  **Online alle 16:08** col «si pubblica» di Emanuele, solo file e nessuna migrazione; rilette sul sito vero
+  tutte le pagine della sezione, la Manutenzione con la Gmail «Collegata» e il menu nuovo.
+- **Le liste broadcast di WhatsApp: scartate per ora.** Emanuele ha chiesto se si potevano sfruttare. Gli è
+  stato spiegato che arrivano solo a chi ha salvato il numero della Masseria, con lo stesso testo per tutti, e
+  che dal 2025 WhatsApp limita i messaggi a chi non risponde mai. Il gestionale non le può mandare, al massimo
+  preparare i contatti da caricare sul telefono. Risposta: «non la pensare sta cosa, rimaniamo così per ora».
+- **Restano da fare**: le automazioni (il richiamo da solo a chi non ha aperto) e la prova A/B sull'oggetto. Il
+  tetto per tutta la casella è fatto, dentro il ritmo unico.
+
 ## 25/09/2026 — La casella collegata, e due correzioni prima della partenza
 
 Emanuele ha creato la password per le app della Gmail della Masseria e l'ha salvata nella Casella alle 10:06.

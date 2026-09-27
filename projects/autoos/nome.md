@@ -1,25 +1,28 @@
 ---
-title: "AutoOS — il nome"
-summary: "La ricerca del nome del brand per concessionarie e autonoleggi, aperta il 17/09/2026: i criteri, come si verifica un nome sul registro dei marchi, i candidati ancora in piedi e quelli scartati, Quinta compreso."
+title: "Qinta — il nome"
+summary: "La ricerca del nome del brand per concessionarie e autonoleggi, aperta il 17/09/2026 e chiusa su Qinta: i criteri, come si verifica un nome sul registro dei marchi, i candidati e quelli scartati, Quinta compreso."
 tags:
   - projects
-  - autoos
+  - qinta
   - nome
-status: in-lavorazione
+status: attivo
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-26
 related:
   - "[[projects/autoos/sistema]]"
+  - "[[projects/autoos/brand]]"
   - "[[self/reference/offerta]]"
   - "[[sources/riferimenti/golee-gestionale-sportivo]]"
 ---
 
-# AutoOS — il nome
+# Qinta — il nome
 
 > Aperta il 17/09/2026, il giorno in cui Emanuele ha deciso che il sistema per l'auto diventa un brand a
-> parte. AutoOS resta il nome di lavoro finché non se ne sceglie uno. Cosa fa il sistema sta in
-> [[projects/autoos/sistema|cosa fa il sistema]], le decisioni nella
-> [[projects/autoos/MEMORY|memoria del progetto]].
+> parte, e **chiusa col nome Qinta**: il 21/09 era già nel brand kit, nei pannelli e nel sito. Qinta nei
+> testi, qinta nel logo, si pronuncia «quinta»; Emanuele lo chiama anche QintaOS. Quello che segue è la
+> ricerca com'era, e il metodo per verificare un nome vale ancora per i prossimi. Cosa fa il sistema sta in
+> [[projects/autoos/sistema|cosa fa il sistema]], il marchio in [[projects/autoos/brand|il brand di Qinta]],
+> le decisioni nella [[projects/autoos/MEMORY|memoria del progetto]].
 
 ## I criteri
 
@@ -57,18 +60,18 @@ aggira: o si aspetta, o la ricerca la fa Emanuele dal suo browser.
 registrate da qualcuno nelle classi del software. Un nome libero è una parola rara o inventata, come è
 inventato Golee.
 
-## Ancora in piedi
+## In piedi alla chiusura
 
 | Nome | Cosa dice | Marchio e domini, verificati il 17/09/2026 |
 |---|---|---|
 | **Rombante** | il motore che si fa sentire: la concessionaria che non passa inosservata | su TMview solo «Motori rombanti», in classe 41; rombante.it, .com e .app liberi |
 | **Rodato** | tutto gira senza intoppi; il rischio è che faccia pensare a un'auto usata | nessun marchio Rodato su TMview; rodato.it libero |
 
-## Da passare dal registro
+## Mai passati dal registro
 
 Il secondo giro, dopo Quinta. Emanuele ne amava tutto: la pronuncia, lo slogan già dentro, il legame con
-l'auto. Questi nomi tengono le stesse cose, ma il registro non li ha ancora visti, perché TMview si era
-bloccato.
+l'auto. Questi nomi tengono le stesse cose, ma il registro non li ha mai visti, perché TMview si era
+bloccato e poi il nome è stato scelto.
 
 | Nome | Lo slogan | Domini, verificati il 17/09/2026 |
 |---|---|---|

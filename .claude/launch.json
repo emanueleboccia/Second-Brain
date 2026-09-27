@@ -59,6 +59,27 @@
         "--no-reload"
       ],
       "port": 8011
+    },
+    {
+      "name": "qinta",
+      "runtimeExecutable": "php",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Documents/ChatGPT/gestionale auto/platform/artisan",
+        "serve",
+        "--host=127.0.0.1",
+        "--port=8000",
+        "--no-reload"
+      ],
+      "port": 8000
+    },
+    {
+      "name": "qinta-online",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/emanueleboccia/Documents/ChatGPT/gestionale auto/platform/public' && exec env APP_ENV=production APP_DEBUG=false QINTA_PUBLIC_DEMO=true php -d upload_max_filesize=8M -d post_max_size=64M -S 127.0.0.1:8020 ../vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php"
+      ],
+      "port": 8020
     }
   ]
 }

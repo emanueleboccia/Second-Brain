@@ -6,7 +6,7 @@ tags:
   - riferimenti
 status: attivo
 created: 2026-09-03
-updated: 2026-09-20
+updated: 2026-09-26
 ---
 
 # Scaffale — siti e profili di riferimento
@@ -28,6 +28,11 @@ diceva solo il nome, il motivo è segnato **da confermare** invece che dedotto.
 | [giuseppecastagna.it](https://giuseppecastagna.it) | sito personale | Riferimento per il **proprio sito**, dentro il progetto di lancio del personal brand di ottobre. Cosa guardarci esattamente: **da confermare.** |
 | [marantoweb.com](https://www.marantoweb.com/) | sito di due freelance | Segnalato da Emanuele il 20/09/2026: «mi piace come comunica». Siti vetrina a 450 € in sette giorni. ⚠️ **Non è un concorrente: è il fondo del mercato**, e vende la promessa opposta — «non devi pensare». Si guarda per **come costruisce fiducia**, non per la strategia. L'analisi sta in [[sources/riferimenti/marantoweb\|marantoweb]]. |
 | **Girasole.co** | competitor | Da analizzare come **struttura dei siti**: è un concorrente diretto, e serve capire come impagina e cosa promette. |
+| [golee.it](https://golee.it/) | gestionale per palestre | Scelto da Emanuele il 16/09/2026 come modello per **comunicare Qinta**: parla del problema di chi ci lavora prima che del software. L'analisi sta in [[sources/riferimenti/golee-gestionale-sportivo\|Golee]]. |
+| [motork.ai](https://www.motork.ai/it/) | piattaforma per concessionari | Indicata da Emanuele il 26/09/2026 come modello per **dividere le funzioni di Qinta** in blocchi che facciano impatto. L'analisi sta in [[sources/riferimenti/motork-piattaforma-concessionari\|MotorK]]. |
+| [autoambrosio.com](https://www.autoambrosio.com/auto/usate/?orderField=price&orderMode=desc&type=USED) | sito di una concessionaria di Napoli | Indicato da Emanuele il 26/09/2026 come modello per **i filtri del sito di Qinta**: tipologia, marca, modello, chilometri e prezzo da-a, alimentazione, cambio, carrozzeria, posti, provincia, e quanti veicoli per ogni scelta. I loghi delle marche arrivano dal server di Dealerk, cioè di MotorK: il sito probabilmente gira sulla loro piattaforma. La proposta sta in [[projects/autoos/blocchi\|i blocchi di Qinta]]. |
+| [Behance, il marchio di Autonazionale](https://www.behance.net/gallery/85810627/Autonazionale-Exclusive-Cars-Logo-Design) | manuale del logo, 2019 | Trovato il 26/09/2026 cercando il carattere del logo. Il designer, Salvatore Parmosa, ci ha messo **i caratteri e la palette ufficiali di Autonazionale**: Venus Rising per «AUTONAZIONALE», ZCOOL XiaoWei per «EXCLUSIVE CARS», e i colori `#070707`, `#808080`, `#C8C8C8`, `#F0F5F5`. Da qui viene il suo sito in [[projects/autoos/brand\|Qinta]]. |
+| [treams.com](https://treams.com/en) | software per manager e HR | Salvato su TickTick, dentro `[PROGETTO] QintaOS`, come riferimento per **il sito di Qinta**. Anche lui divide il prodotto in tre moduli. Cosa guardarci esattamente: **da confermare.** |
 
 ## Come cresce questo scaffale
 
