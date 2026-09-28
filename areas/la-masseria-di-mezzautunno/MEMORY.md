@@ -2,6 +2,46 @@
 
 Aperto il 13/07/2026.
 
+## 27/09/2026 — «Il tour di Amin», il reel parlato
+
+Girato da Emanuele la mattina del 27/09 fra le 11:05 e le 11:16. Amin fa da guida al parco di Zucche col suo
+accento, una frase per posto, e alla fine c'è lo spritz di IMG_5494, girato il 26/09. Il tono l'ha dato
+Emanuele: «molto ironico, con delle gag», e l'accento di Amin «è la parte divertente». È montato in Remotion,
+in `code/remotion-test/src/amin/` (composizione `ZuccheIlTourDiAmin`), con gli spezzoni preparati da
+`scripts/amin-prepara.py`. Le clip sono in `1-eventi/momenti/2026-09-27-tour-di-amin/` sull'SSD: le 18 del reel
+in `usate/` col manifesto, libere le due del laboratorio.
+
+**La versione da pubblicare è la 2**, 54 s, in `3-in-produzione/reel-tour-di-amin/tour-di-amin-v2.mp4`. La prima
+Emanuele l'ha trovata «PERFETTA», poi ha chiesto due cose: lo spritz detto una volta sola, e le prime quattro
+battute scritte come le pronuncia Amin.
+
+- **Il «vai» di Emanuele non si sente mai**: ogni spezzone parte dalla prima parola di Amin. Nella 5506 il
+  «vai» è attaccato alla battuta, e il taglio sta a 2,18 s.
+- **Le code delle clip restano**: finita la battuta, la camera fa vedere quello che Amin ha nominato, e va
+  lasciato un secondo, o uno e mezzo dove c'è la panoramica. Detto da Emanuele sul grezzo: «non lo fare
+  troppo tagliato». Lo stesso vale per le camminate: due secondi l'una, a 1,5x.
+- **La clip del laboratorio (IMG_5519) è fuori**: non ha parlato e «non c'entra niente».
+- **Il finale è «Bere spritz!»**, e Emanuele l'ha voluto «il più divertente possibile». Nella prima versione
+  Amin lo diceva tre volte, sempre più stretto: ⚠️ tolto, **una volta sola, «fatta bene»**, con lo zoom che
+  sbatte e il boom su «spritz!». Poi arrivano il brindisi, «(solo per mamma e papà)» e la firma con le date e
+  Clappit.
+- **I cartelli delle tappe hanno i nomi della mappa del parco**: Bilancia zuccosa (3), Casa delle zucche (7),
+  Campo delle zucche (10), Area food (14), Il villaggio dei contadini (18). I sottotitoli dicono come li
+  chiama Amin: la gag è la distanza fra i due.
+- ⚠️ **I sottotitoli di Amin si scrivono come li pronuncia**, con le parole date da Emanuele: «Questa bilancia
+  dore zucga», «Questa caronza», «Queso è il percosto», «Adesso il giardine giucco». Io li avevo scritti con
+  la sua grammatica ma l'ortografia giusta, «Questa carrozza»: l'accento scritto è metà della gag. Il ritmo
+  delle parole, preso dall'energia della voce, l'ha trovato «perfetto». Le altre battute sono rimaste come
+  erano, da «Questa casetta della giucca» a «Borgo contadini».
+- **Sulla porta di Fienopoli c'è scritto «Fortezza di Fienopoli»**, ed è la parola che whisper sentiva come
+  «fortissimo» o «partista». Amin prova a dire Fienopoli tre volte, «Nobeli», «Noboli» e «Fironopoli», ed è
+  il centro del video.
+- ⚠️ **Con l'accento di Amin whisper non serve per le parole**: «Sista carronza» è «Questa carrozza» e
+  «l'aria pur» è «l'area food». I tempi delle parole si prendono dall'energia della voce, le parole dal senso,
+  dai cartelli nell'inquadratura e da Emanuele.
+- **La musica è *Banjo Romp*** dalla libreria dell'SSD, e «Tutti torte, biscotti» (5510) resta nei
+  sottotitoli. Le tre tracce nuove proposte da Pixabay non sono state scaricate.
+
 ## 25/09/2026 — Due email alle scuole: una per chi non ci conosce, una per chi ci ha già scritto
 
 - **In tutte le email la Masseria dice chi è e dove sta.** Detto da Emanuele: «La Masseria di Mezz'autunno è

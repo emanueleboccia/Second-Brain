@@ -4,6 +4,8 @@ import { DISTANZA, PAUSA, RIGA, TESTATA, type MenuProps } from "./menu";
 import { MenuTv } from "./MenuTv";
 import { Reel } from "./reel/Reel";
 import { FPS, durataTotale } from "./reel/tempi";
+import { ReelAmin } from "./amin/ReelAmin";
+import { DURATA_TOTALE as durataAmin } from "./amin/tempi";
 import { ReelTdg } from "./tdg/ReelTdg";
 import { REEL as REEL_TDG, durataTotale as durataTdg } from "./tdg/tempi";
 
@@ -53,6 +55,14 @@ export const MyComposition = () => {
         width={1080}
         height={1920}
         defaultProps={{ reel: "cucina" as const }}
+      />
+      <Composition
+        id="ZuccheIlTourDiAmin"
+        component={ReelAmin}
+        durationInFrames={durataAmin}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );

@@ -100,6 +100,12 @@ file l'hai scritto tu dieci minuti prima: un'altra sessione può averci scritto 
 Masseria aveva scritto e committato `sessione-2026-09-17.md`: l'ho sovrascritta chiudendo la mia, e l'ho
 ripristinata subito da git. Il controllo si fa **nel momento in cui si scrive**, non all'inizio della chiusura.
 
+⚠️ **Ricapitato il 28/09/2026, al contrario.** Le due sessioni parallele del 27 hanno chiuso nello stesso minuto e
+hanno scelto tutte e due `sessione-2026-09-27-2.md`. La nota del reel di Amin è stata scritta per prima, quando il
+file non c'era, e quella della review ci è finita sopra pochi secondi dopo. Il controllo prima di scrivere non
+basta: **dopo aver scritto si rilegge il file**, e se il contenuto non è più il proprio non si sovrascrive quello
+dell'altra, si scrive col numero dopo. Quella del reel è diventata la `-3`.
+
 ## 29/08/2026 — Una cosa già fatta è una task da spuntare
 
 Emanuele aveva detto «aggiungi che ho già fatto grandi modifiche all'applicazione gestionale» e io
@@ -923,3 +929,15 @@ Marco è un amico e gli ha già detto che può fare quello che vuole; i due nomi
 [[entities/clienti/girarrosto-liberti/scheda|scheda del Girarrosto]], e le note che lo davano come mancante
 sono state corrette. E quando una cosa torna in più note come «manca», prima di riproporla si guarda se
 Emanuele l'ha già chiusa a voce.
+
+## 27/09/2026 — Le clip parlate tagliate subito dopo la battuta
+
+Nel grezzo del reel di Amin per Zucche in Masseria ho tagliato ogni clip 0,1-0,2 secondi dopo l'ultima parola,
+come si fa con un parlato puro, e le camminate le avevo portate a un secondo a 2x. Emanuele: «quando finisce di
+parlare, rimani quei secondi che ho registrato», perché è lì che la camera fa vedere quello che Amin ha appena
+nominato, il campo, l'area food, i dolci. E poi: «anche quelle dove c'è Amin che cammina, puoi rimanerle un po'
+più lunghe».
+
+**La prossima volta:** in un video dove qualcuno presenta un posto, la battuta è metà della clip e l'altra metà
+è quello che la camera mostra dopo. Prima di tagliare si guarda la coda: se c'è una panoramica, resta un secondo,
+o uno e mezzo, e la presa diretta scende sotto la musica. Il taglio stretto va bene all'inizio, sul «vai».

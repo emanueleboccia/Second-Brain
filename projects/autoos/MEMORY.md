@@ -183,3 +183,8 @@ progetto, con la data.
   il titolo grande no, lo divide già il browser. Commit `e586663`, poi `225d010` con le correzioni della
   revisione: legate anche le parole lunghe spingevano titolo e bottone fuori dal telefono, e sugli schermi
   bassi l'auto perdeva il tetto.
+- **27/09/2026** — **Un possibile aiuto nella vendita: Luciano Mancuso.** Detto da Emanuele nella review della
+  settimana 39: venerdì 25/09 ha incontrato Luciano Mancuso, un amico che ha un CAF a Poggiomarino e conosce
+  molta gente, e forse collaboreranno su Qinta e su altri progetti più piccoli, con Luciano che lo aiuta a
+  vendere grazie alle sue conoscenze. È un test che fanno sottomano, e gli aggiornamenti li porta Emanuele:
+  ruolo e compenso non sono stati detti, e per ora nel CRM non entra.

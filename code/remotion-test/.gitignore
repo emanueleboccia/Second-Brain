@@ -11,3 +11,7 @@ whisper.cpp
 
 # Musica dei reel TDG: file di Pixabay, si riscaricano
 public/tdg/*.mp3
+
+# Reel «Il tour di Amin» di Zucche: clip, voce, musica, effetti e font stanno sull'SSD, qui sono copie di lavoro
+public/amin/
+scripts/volti
