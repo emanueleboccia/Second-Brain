@@ -114,6 +114,9 @@ scrive qui come regola, e nel log resta il fatto.
   contatto più vicino per cognome.
 - **I dati si cercano prima di chiederli** (03/09): nomi e contatti stanno su Notion.
 - **A Marco non si chiede niente** (25/09).
+- **Una riunione che manca non è per forza da importare** (30/09): prima di proporla si guarda
+  `granola.non_da_importare` in [`riferimenti.json`](riferimenti.json), coi doppioni e con quelle che Emanuele ha fatto
+  eliminare, e si cerca il suo nome nelle note di sessione. Sul piano gratuito di Granola c'è solo il riassunto.
 
 ## Prima di consegnare
 

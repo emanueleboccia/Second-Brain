@@ -112,7 +112,7 @@
       "_nota": "La colonna 💡 Idee non entra MAI nel briefing, in nessuna lista. Un'idea non è un impegno, e metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è.",
       "esclusa_sempre": true
     },
-    "ultimo_briefing": "2026-09-28T08:33:00Z",
+    "ultimo_briefing": "2026-09-30T09:29:00Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
   "trello": {
@@ -429,5 +429,14 @@
       "non risponde"
     ],
     "_nota_durata": "Il 24/09/2026 dieci indirizzi in 23 secondi, uno alla volta. Se node_modules manca: npm install dentro code/controllo-siti."
+  },
+  "granola": {
+    "_nota": "Le riunioni di Granola che il controllo della chiusura non deve riproporre: il grep degli id in sources/call/ e sources/riunioni/ non le trova, e non devono esserci. Nato il 30/09/2026, quando la chiusura ha proposto di reimportare una trascrizione che Emanuele aveva fatto eliminare il 24/09.",
+    "non_da_importare": {
+      "1f8b5675-573e-47d4-b825-b44da12077f9": "10/09/2026, «Event video editing needs»: la call col video editor Emanuele Navarro. Scartato da Emanuele, e la trascrizione eliminata per sua decisione il 24/09/2026. Non si reimporta",
+      "2244f803-cdf9-4120-b2a1-bf5363bed7a7": "14/09/2026, «Client feedback and action plan»: doppione di aa040b09, la call con Raffaele, stessa ora e stesso riassunto. Il file è sources/call/2026-09-14-raffaele.md",
+      "3c55f37c-ddfb-47ca-86f2-0858e62a9647": "09/09/2026, «Website functionality review»: già importata come sources/call/2026-09-09-marco-augusto.md, che nell'intestazione porta il titolo ma non l'id"
+    },
+    "_nota_piano": "Dal 30/09/2026 GRANOLA_MCP_GET_MEETING_TRANSCRIPT risponde «Transcripts are only available to paid Granola tiers»: sul piano gratuito c'è solo il riassunto, con GRANOLA_MCP_GET_MEETINGS e meeting_ids in un array."
   }
 }

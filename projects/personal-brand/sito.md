@@ -61,7 +61,8 @@ di [[self/reference/tono|tono]].
 - **Prodotti** — `/prodotti`: i sistemi per settore. Il 28/09/2026 Emanuele li ha tenuti fuori dalla home,
   «vedremo successivamente»: pagina e voce del menù si decidono più avanti
 - **Chi sono** — `/chi-sono`, montata il 29/09/2026: sta in [[projects/personal-brand/sito-chi-sono|la pagina Chi sono]]
-- **Blog** — `/blog`
+- **Blog** — `/blog`, montato il 30/09/2026: sta in [[projects/personal-brand/sito-blog|il blog del sito]].
+  Le voci nel menù compaiono col primo articolo online
 - **Contatti** — `/contatti`, montata il 29/09/2026: sta in
   [[projects/personal-brand/sito-contatti|la pagina Contatti]]. Il pannello resta per i bottoni
 - **Privacy** e **Cookie** — `/privacy` e `/cookie`, in fondo a ogni pagina e non nel menù

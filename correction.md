@@ -1034,3 +1034,16 @@ parla dei processi che si tolgono; il reel mostrava un sito rifatto.
 **La prossima volta:** la frase di chiusura si sceglie su quello che il video mostra. Per i siti la riga del
 sito, «Prima capisco cosa vendi. Poi lo costruisco.»; la bio per processi, gestionali e automazioni. La regola
 ora sta in [[docs/procedure/reel-personal-brand|la procedura dei reel]].
+
+## 30/09/2026 — Proposta di reimportare una trascrizione eliminata apposta
+
+Nella chiusura il controllo di Granola ha trovato tre riunioni senza file nel vault, e ho proposto di importare
+quella del 10/09 con un video editor. Emanuele ha detto ok, ma l'ok era sul mio messaggio: il 24/09 aveva
+scartato quel video editor e fatto eliminare la trascrizione. Le altre due erano un doppione e una call già
+importata, col titolo ma senza l'id. L'ho visto prima di scrivere, leggendo la nota del 10/09, e non ho importato
+niente.
+
+**La prossima volta:** una riunione che il grep non trova si cerca per nome nelle note di sessione prima di
+proporla. Le esclusioni stanno in `granola.non_da_importare` di `code/skills/journal/riferimenti.json`, e la
+regola nella chiusura.
+

@@ -427,6 +427,7 @@ sessione.
 - ⚠️ **30/09/2026 · Sistema Evolve è uscito dai nomi di Chi sono.** Alla domanda ha risposto «non mi piace ancora il sito, lo sto modificando»: letto come un no per ora. Al suo posto c'è Room84. Se voleva tenerlo, si rimette.
 - **30/09/2026 · l'odissea si rivede dopo il lancio**, «dopo, programmala». Task su TickTick in 💼 Personal Brand, «rivedere l'odissea di Chi sono», per lunedì 5 ottobre.
 - ✅ **30/09/2026 · anche le pagine scritte a mano legano le ultime tre parole**: `strumenti/lega-statiche.mjs` parte prima di ogni build, sulla home, Chi sono, la 404 e il pannello; le frasi grandi dell'odissea e delle convinzioni legano le ultime due. Prima restavano righe di una o due parole. Tutte le pagine passano il giro a nove misure.
+- **30/09/2026 · il sito ha un blog**, chiesto da Emanuele: un articolo a settimana, con le parole sue, «molto terra terra». Impostazione da blog.dubleclik.com nel nostro stile; gli articoli sono file Markdown, le voci del menù compaiono col primo articolo online. Sta in [[projects/personal-brand/sito-blog|il blog del sito]]. Sul sottodominio del riferimento: è un'altra piattaforma, per noi conviene `/blog/`.
 - **29/09/2026, sera · la firma si può cominciare a mettere**, chiesto da Emanuele. Tre cose da sapere: fino al lancio il link porta alla pagina di parcheggio di Hostinger; Safari e iPhone si guardano sul primo sito; ogni sito online vuole il suo sì. Sta in [[code/firma/README|code/firma]].
 
 ## 29/09/2026 — Lo stile dei video: la passata crema, e la seconda versione del reel
