@@ -88,12 +88,13 @@ quello vecchio, e ce n'è una copia identica al byte.
 ripiega su WhatsApp Business. Peggio del sito, meglio del vuoto — e comunque meglio di un sito
 che dice una cosa diversa dal profilo.
 
-### Il profilo: @bocciaworks
+### Il profilo: @bocciastudio
 
-Provvisorio, parole sue. Una nota e poi la si lascia stare.
+Dal 30/09/2026 l'handle è `@bocciastudio`, detto da Emanuele; fino a quel giorno qui c'era
+`@bocciaworks`, provvisorio. Una nota e poi la si lascia stare.
 
 **Il nome visualizzato non è l'handle, ed è un campo separato che Instagram cerca lo stesso.**
-Quindi: handle `@bocciaworks`, **nome visualizzato `Emanuele Boccia`**. Costa zero e risolve la
+Quindi: handle `@bocciastudio`, **nome visualizzato `Emanuele Boccia`**. Costa zero e risolve la
 cosa che conta — chi lo incontra di persona e poi lo cerca digita il suo nome, non un nome di
 studio. Vale doppio per un posizionamento che è **locale**: il vantaggio è che la gente ti
 conosce di persona, e va reso trovabile.
@@ -112,11 +113,11 @@ tutto ottobre**: quanti contenuti, quali, in che ordine.
 ⚠️ Prima del calendario vanno però decisi i **format grafici** — come sono fatti i caroselli e
 come sono strutturati i video. Il design system c'è, la resa grafica dei singoli formati no.
 
-### Il profilo — `@bocciaworks`
+### Il profilo — `@bocciastudio`
 
 | Campo | Cosa ci va |
 |---|---|
-| **Handle** | `@bocciaworks` (provvisorio) |
+| **Handle** | `@bocciastudio`, dal 30/09/2026 |
 | **Nome visualizzato** | `Emanuele Boccia \| Siti e sistemi` — Instagram cerca su questo campo, e chi lo incontra di persona digita il suo nome |
 | **Bio** | vedi sotto |
 | **Link** | il sito quando c'è. Fino ad allora **WhatsApp Business** |
@@ -289,7 +290,12 @@ gira da solo e non monta sta contando le idee invece delle serate.
 ⚠️ **E una cosa da mettere subito in [[docs/onboarding|onboarding]], che vale più di tutti e
 quattro i formati: al prossimo sopralluogo, prima di costruire qualsiasi cosa, si riprendono
 tre minuti del gesto vecchio.** Costa niente, non impegna a fare nessun video, e produce il
-materiale che nel caso del Girarrosto è andato perso per sempre.
+materiale che nel caso del Girarrosto si credeva perso.
+
+✅ **29/09/2026 — Per il Girarrosto non era perso.** Emanuele il gesto vecchio l'aveva ripreso con i
+Ray-Ban il 22 e il 25 agosto: il foglio, gli evidenziatori, un ordine vero preso a penna, e poi la prova
+dell'app. Cosa c'è, clip per clip, sta in [[projects/personal-brand/girato-girarrosto|il girato del
+Girarrosto]].
 
 ## Un avvertimento sul sistema
 

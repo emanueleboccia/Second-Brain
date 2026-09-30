@@ -7,7 +7,7 @@ tags:
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-09-19
+updated: 2026-09-29
 related:
   - "[[self/reference/brand]]"
   - "[[self/reference/tono]]"
@@ -85,6 +85,7 @@ più la luce calda, che non è un colore della grafica: è il colore della luce 
 | la **luce calda** — solo il bagliore del fondale | `#DAC7AB` |
 | accento e testo principale — la **crema** | `#EEEBDA` |
 | la punta | `#FFFFFF` |
+| la **passata** — solo sotto la parola chiave dei video, col testo nero | `#FCF0DD` |
 
 **La luce calda è la temperatura della luce, non un accento.** Nessun testo, bottone, dato o
 componente la usa: i titoli restano crema e la punta resta bianca. È entrata il 19/09/2026
@@ -153,10 +154,18 @@ Quattro pezzi, e bastano.
 Qui c'è la parte visiva. Come sono fatti i formati video — struttura, durata, sequenza — non è
 deciso e non si deduce da qui.
 
-- **I sottotitoli ci sono sempre, e sono grandi**: crema sul fondo scuro, con la parola-dato in
-  bianco, **una sola per battuta**. Non sono accessibilità appiccicata dopo, sono parte del design;
+- **I sottotitoli ci sono sempre**: crema in Archivo Bold, **senza nessun riquadro dietro**, e il
+  contrasto lo tiene un'ombra morbida. Non sono accessibilità appiccicata dopo, sono parte del design;
   come si montano lo dicono [[docs/video-social/sottotitoli-leggibili|le regole sui sottotitoli]] e
-  [[docs/video-social/leggibilita-del-testo-a-schermo|quelle sulla leggibilità a schermo]].
+  [[docs/video-social/leggibilita-del-testo-a-schermo|quelle sulla leggibilità a schermo]]. ⚠️ Il
+  29/09/2026 Emanuele ha bocciato, sul primo reel, i rettangoli scuri dietro ogni riga («non mi
+  piacciono proprio») e il nome con la fase del lavoro fisso in alto a sinistra («è brutto»).
+- **La parola chiave va sulla passata crema `#FCF0DD`**, scelta da Emanuele il 29/09/2026 fra tre
+  prove: un segno di evidenziatore sotto una o due parole, storto di un grado e mezzo e con gli
+  angoli irregolari, col testo nero `#0E0E0C` in Archivo Black largo. Una per battuta al massimo, e
+  non in tutte. È l'unico caso in cui un testo ha una forma dietro, e la forma è quella di un
+  evidenziatore, non di un riquadro. Il giallo evidenziatore e l'arancio, provati lo stesso giorno,
+  non gli sono piaciuti.
 - **I dati mostrati nei video stanno sul fondale firma.**
 - **Il prima in grigio spento, il dopo in crema.** Mai due bianchi nella stessa inquadratura.
 - **La prova non si trucca.** Il materiale reale — screenshot, riprese, foto dei clienti — resta
@@ -168,14 +177,20 @@ deciso e non si deduce da qui.
   19/09/2026.
 
 Quando si monta, la regia la fa [[code/skills/regia-video/SKILL|la skill regia video]]: questo file
-le dice di che colore, non che struttura.
+le dice di che colore, non che struttura. Il modello di montaggio che Emanuele ha indicato il
+29/09/2026 — tagli ogni due secondi, illustrazioni che si muovono, sottotitoli a blocchi brevi dietro
+alla voce — è misurato in [[sources/riferimenti/reel-synsation-good-ux|il reel di riferimento]].
 
 ## Cosa manca ancora
 
-- ⚠️ **Il carosello ha una prima prova, e non convince.** Fatta il 25/09/2026: 1080×1350, la cornice col
-  nome e il contatore, il fondale sulla copertina, sei tipi di slide, in `code/caroselli/`, provata sul
-  manifesto del 1° ottobre. Emanuele l'ha guardata e ha detto «non mi piace tanto»: va rifatta, e cosa
-  non va non è ancora detto. Mancano anche il post singolo, le copertine dei reel e le storie.
+- ✅ **Il carosello ha il suo stile, dal 29/09/2026.** La prima prova del 25/09, fatta di solo testo, Emanuele l'ha
+  bocciata («sono solo muri di testo»); la seconda, nello stile dei video e con lo schema dei caroselli di
+  [[sources/riferimenti/caroselli-arounda|Arounda]], gli è piaciuta: «tutto bellissimo, anche le illustrazioni».
+  Le regole: **due scale che si alternano nella griglia**, la scura del fondale firma e la chiara del sito, fondo
+  crema e testo nero, dove **la passata si ribalta**, segno nero e parola crema; **le immagini sono illustrazioni
+  fatte di pezzi d'interfaccia e diagrammi** — schede, finestre, liste, linee del tempo — **mai icone a linea**,
+  che ha trovato «proprio brutte»; la chiusura è sempre la stessa slide. Gli esempi sono in `code/caroselli/`.
+  Mancano ancora il post singolo, le copertine dei reel e le storie.
 - **La struttura dei formati video**, che arriverà da un brain dump dedicato ai contenuti.
 - **I file dei caratteri.** Archivo e JetBrains Mono non sono installati sul Mac e non stanno in
   `03 Brand kit` su Drive, dove ci sono ancora Termina Test e Foundry Monoline, scartati. Finora
@@ -187,4 +202,6 @@ le dice di che colore, non che struttura.
   vera.
 - **La punta bianca da sola, sul telefono, si legge poco**: crema e bianco sono vicini. Sulla
   prima grafica vera si verifica se basta il bianco o se la punta la deve fare anche la
-  dimensione.
+  dimensione. ✅ **Nei video è risolto il 29/09/2026**: sul primo reel il bianco della parola-dato
+  non si distingueva dal crema, e la parola chiave ora la fa la passata crema, qui sopra. Sulle
+  grafiche ferme resta da verificare.

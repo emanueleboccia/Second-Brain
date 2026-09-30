@@ -1,0 +1,77 @@
+{
+  "recensioni": {
+    "fotogrammi": 240,
+    "w": 900,
+    "h": 1200
+  },
+  "mani": {
+    "fotogrammi": 151,
+    "w": 1080,
+    "h": 1920
+  },
+  "penna": {
+    "fotogrammi": 129,
+    "w": 1080,
+    "h": 1920
+  },
+  "imac-prima-a": {
+    "fotogrammi": 90,
+    "w": 1080,
+    "h": 1920
+  },
+  "imac-dopo-lampo": {
+    "fotogrammi": 48,
+    "w": 1080,
+    "h": 1920
+  },
+  "imac-prima-b": {
+    "fotogrammi": 69,
+    "w": 1080,
+    "h": 1920
+  },
+  "scrivania": {
+    "fotogrammi": 78,
+    "w": 1080,
+    "h": 1920
+  },
+  "rb-inizio": {
+    "fotogrammi": 90,
+    "w": 1080,
+    "h": 1920
+  },
+  "camere": {
+    "fotogrammi": 216,
+    "w": 900,
+    "h": 1200
+  },
+  "schizzo": {
+    "fotogrammi": 1,
+    "w": 580,
+    "h": 1090
+  },
+  "imac-dopo": {
+    "fotogrammi": 126,
+    "w": 1080,
+    "h": 1920
+  },
+  "imac-finale": {
+    "fotogrammi": 102,
+    "w": 1080,
+    "h": 1920
+  },
+  "imac-prima-c": {
+    "fotogrammi": 60,
+    "w": 1080,
+    "h": 1920
+  },
+  "scrive": {
+    "fotogrammi": 48,
+    "w": 1080,
+    "h": 1920
+  },
+  "finito": {
+    "fotogrammi": 42,
+    "w": 1080,
+    "h": 1920
+  }
+}

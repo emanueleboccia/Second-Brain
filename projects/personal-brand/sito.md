@@ -1,13 +1,13 @@
 ---
 title: "Personal brand — il sito"
-summary: "Sitemap e copy di emanueleboccia.it: la home apre con un lavoro vero perché la bio lo promette, poi il problema, le soluzioni che non bastano, i tre passi, i prodotti e il di persona. Il caso 01, i sistemi e i contatti sono scritti per esteso dal 20/09/2026, e la pagina dei sistemi non apre al lancio."
+summary: "Sitemap e copy di emanueleboccia.it: dal 28/09/2026 sette pagine, Home, Servizi, Progetti, Prodotti, Chi sono, Blog e Contatti, più privacy e cookie. Dal 29/09 prima si finisce la struttura e poi si passa a WordPress, con le pagine legali e le statistiche alla fine. Il copy scritto dal 19 al 21/09 resta come materiale per le pagine nuove."
 tags:
   - projects
   - personal-brand
   - sito
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-21
+updated: 2026-09-30
 related:
   - "[[projects/personal-brand/lancio]]"
   - "[[self/reference/brand]]"
@@ -40,35 +40,36 @@ di [[self/reference/tono|tono]].
 
 ## La sitemap
 
+> **Rifatta da capo il 28/09/2026 con Emanuele.** Quella del 19-21/09 e il sito montato non
+> coincidevano più, e non si capiva quale valesse. Adesso le pagine sono sette, più le due legali.
+
 - **Home** — `/`
-- **Siti** — `/siti` · pagina di servizio, dal 21/09/2026
-- **Company Brain** — `/company-brain` · pagina di servizio, dal 21/09/2026
-- **Gestionali e sistemi** — `/gestionali` · pagina di servizio, dal 21/09/2026, col caso del Girarrosto dentro
-- **Lavori** — `/lavori`
-  - **Caso 01** — `/lavori/girarrosto`
-  - i lavori successivi, uno per pagina
-- **Come lavoro** — `/come-lavoro`: i tre passi, i due tipi di cliente, chi fa il lavoro, chi sono
-- **Contatti** — `/contatti`: WhatsApp, email, il form «Partiamo dal problema»
-- **Privacy** e **Cookie** — `/privacy`, `/cookie`
+- **Servizi** — `/servizi`, montata il 29/09/2026: sta in
+  [[projects/personal-brand/sito-servizi|la pagina Servizi]]. I servizi sono cinque, detti da
+  Emanuele il 28/09/2026. **Le pagine dei singoli servizi** le ha chieste il 29/09, «con obiettivo la
+  conversione»: quattro sono montate, una aspetta le sue risposte.
+  - **Consulenza** — `/servizi/consulenza`, montata
+  - **Siti web** — `/servizi/siti-web`, montata
+  - **ERP e gestionali** — `/servizi/erp`, i gestionali e i sistemi su misura, montata
+  - **Company Brain** — `/servizi/company-brain`, montata
+  - **Servizi con l'AI** — `/servizi/ai`, saltata per ora: l'ha deciso Emanuele il 30/09
+- **Progetti** — `/progetti`, l'elenco dei lavori, montato il 29/09/2026: sta in
+  [[projects/personal-brand/sito-progetti|la pagina Progetti]]. Poi un lavoro per pagina. I lavori
+  sono sei: il sito e il gestionale della Masseria, il gestionale e il sito di Da Mamma Rosaria,
+  Tenuta Don Gaetano, Girarrosto Liberti. Stanno in
+  [[projects/personal-brand/sito-casi|le pagine dei singoli progetti]]
+- **Prodotti** — `/prodotti`: i sistemi per settore. Il 28/09/2026 Emanuele li ha tenuti fuori dalla home,
+  «vedremo successivamente»: pagina e voce del menù si decidono più avanti
+- **Chi sono** — `/chi-sono`, montata il 29/09/2026: sta in [[projects/personal-brand/sito-chi-sono|la pagina Chi sono]]
+- **Blog** — `/blog`
+- **Contatti** — `/contatti`, montata il 29/09/2026: sta in
+  [[projects/personal-brand/sito-contatti|la pagina Contatti]]. Il pannello resta per i bottoni
+- **Privacy** e **Cookie** — `/privacy` e `/cookie`, in fondo a ogni pagina e non nel menù
 
-E una che c'è, scritta, ma **non si apre il primo ottobre**:
-
-- **Sistemi** — `/sistemi`: un sistema per settore, ognuno col suo marchio e il suo sito
-
-È la struttura minima delle [[docs/web-design/pagine-di-un-sito-locale|pagine di un sito locale]],
-con «chi siamo» dentro Come lavoro e i casi al posto dei servizi. **Niente pagina recensioni:** di
-recensioni vere non ce n'è ancora nessuna.
-
-⚠️ **Le voci del menù sono «Lavori» e «Sistemi», non «Lavori» e «Prodotti».** Deciso il
-20/09/2026. Sono le stesse due parole del nome visualizzato su Instagram, `Emanuele Boccia | Siti
-e sistemi`, ed è come ne parla Emanuele a voce. «Prodotti» aveva anche il difetto di avvicinarsi al
-nemico 3, lo strumento generico uguale per tutti.
-
-⚠️ **`/sistemi` non va online al lancio.** Deciso il 20/09/2026: al primo ottobre nessuno dei tre
-ha un nome, un sito o un cliente, quindi la pagina sarebbe tre riquadri che dicono «in costruzione»
-e non portano da nessuna parte. I tre sistemi restano nella **sezione 6 della home**, dove
-funzionano — dicono «sto costruendo anche questo» mentre uno sta leggendo il resto. Il copy della
-pagina è già scritto in [[projects/personal-brand/sito-pagine|le pagine del sito]] e aspetta lì.
+Il menù è Servizi · Progetti · Prodotti · Chi sono · Blog · Contatti, col logo che porta alla home e
+il bottone «Scrivimi» che apre WhatsApp. Il copy scritto dal 19 al 21/09, in
+[[projects/personal-brand/sito-home|la home]] e [[projects/personal-brand/sito-pagine|le pagine del
+sito]], resta come materiale per le pagine nuove.
 
 ⚠️ **21/09/2026 — da una pagina sola a un sito con tre pagine di servizio.** Deciso da Emanuele sul
 modello di [[sources/riferimenti/marantoweb|Maranto]]: nella home solo **un assaggio** dei servizi,
@@ -80,6 +81,17 @@ che possono uscire su Google per quello che vende.
 
 **E il caso 01 non sta più nella home**, deciso lo stesso giorno: dopo la hero era troppo. Vive nel
 portfolio e nella pagina dei gestionali, dove è la prova esatta di quello che la pagina promette.
+
+## L'ordine dei lavori, dal 29/09/2026
+
+**Prima si finisce la struttura, poi si passa a WordPress.** Detto da Emanuele il 29/09 sera: «le
+pagine della policy le faremo alla fine, quando installeremo wordpress e importeremo questo sito e le
+varie pagine, così metteremo anche google analytics, search console, yoast seo ecc.. ma alla fine.
+ora dobbiamo ancora finire di strutturarlo».
+
+Quindi, nell'ordine: le pagine che mancano e i loro testi; poi WordPress su Hostinger e
+l'importazione; poi Privacy e Cookie, Analytics, Search Console e Yoast. Cosa c'è già pronto per
+quel giorno, e cosa va adattato, sta in [[projects/personal-brand/sito-servizi|la pagina Servizi]].
 
 ## Il percorso
 
@@ -108,6 +120,13 @@ confronto]], letto il 20/09/2026.
 
 ## Le scelte già fatte
 
+- **La hero parla di Emanuele, non dei lavori.** Detto da Emanuele il 28/09/2026: «ricordati che è un
+  personal brand». I lavori, e il Girarrosto con loro, si raccontano nella sezione Progetti e nelle loro
+  pagine, non ovunque. Supera la scelta del 19/09 di aprire la home con un caso e quella del 20/09 di
+  mettere i lavori in hero al posto della persona.
+- **Il listino sul sito non si nomina.** Detto da Emanuele il 28/09/2026: «il listino no, sembra una cosa
+  da agenzia». Il tariffario resta lo strumento interno; al cliente si dice che **paga solo quello che serve
+  alla sua situazione**, e il prezzo glielo si dà per iscritto dopo la prima chiamata.
 - **Niente prezzi sul sito.** [[docs/web-design/usp-della-home|La USP della home]] chiede cautela
   sul listino esposto a freddo, e il [[self/tariffario|tariffario]] è da rifare a fasce.
 - **La H1 è il contenuto, non un invito.** «Prima capisco cosa vendi» sta in H1, «Guarda il
@@ -135,13 +154,10 @@ confronto]], letto il 20/09/2026.
 - **Una striscia di servizi entra nella home.** Deciso il 20/09/2026. Non è la pagina servizi, che
   resta esclusa: è il blocco 6, e serve perché oggi nessuna riga del sito può uscire su Google per
   quello che vende.
-- **Nel menù si chiamano «Sistemi», non «Prodotti».** Deciso il 20/09/2026, per due ragioni che
-  vanno nella stessa direzione: sono le parole del nome visualizzato su Instagram, `Emanuele Boccia
-  | Siti e sistemi`, ed è come ne parla Emanuele a voce; e «prodotto» avvicinava al nemico 3, lo
-  strumento generico uguale per tutti.
-- **`/sistemi` non apre al lancio.** Deciso il 20/09/2026: restano nella sezione 6 della home
-  finché almeno uno ha un nome, un sito e qualcosa da mostrare. Di conseguenza nella sezione 6
-  spariscono il bottone e i link nelle card, che non avrebbero dove portare.
+- **Nel menù la voce è «Prodotti», ed è una pagina.** Deciso da Emanuele il 28/09/2026, rifacendo
+  la sitemap. Supera la scelta del 20/09, che voleva «Sistemi» per stare vicino al nome su Instagram,
+  *Siti e sistemi*, e teneva la pagina chiusa al lancio. Cosa mostra al lancio si decide quando si
+  arriva a quella pagina.
 - **«Poi resto» resta senza durata, e va bene così.** Deciso il 20/09/2026. Sul sito la promessa
   si legge intera e non c'è nessun numero e nessun rimando: il confine, quando serve, si fa caso
   per caso nella proposta. Scartate le versioni coi mesi o coi giri di revisione esposti, perché
@@ -157,22 +173,50 @@ confronto]], letto il 20/09/2026.
   non si possono verificare, il confronto contro una categoria di professionisti, e il parlare a
   due pubblici insieme con la scarsità dei posti disponibili.
 
-## Cosa manca
+## Cosa manca ai contenuti, il 30/09/2026
 
-- **La hero da ripensare.** Il 25/09/2026 Emanuele ha detto che il caso del Girarrosto non va in hero
-  né come sezione principale del sito. Il permesso di Marco invece non serve, e i numeri ci sono.
+Contato il 30/09 sul sito montato, pagina per pagina, quando Emanuele ha chiesto «come contenuti al
+sito, c'è altro?». Testi e immagini segnaposto non ce ne sono più: le pagine sono piene.
+
+**Quello che il sito non ha, e che si aggiunge solo con materiale vero**
+
+- **le parole dei clienti**: nessuna recensione in tutto il sito. In Chi sono al loro posto ci sono le
+  convinzioni, e la forma per metterle è pronta;
+- **i numeri**: nessun lavoro ne ha uno, perché Emanuele non ne ha dati. Per il sito della Masseria
+  stanno in Analytics, che conta quattro gesti;
+- **la pagina di AI e automazioni**: saltata per sua scelta il 30/09, «saltiamola per ora». La carta
+  della home porta al suo blocco nella pagina Servizi;
+- **Privacy e Cookie**: testi scritti, manca la sede;
+- ~~**Room84**: in bozza finché Antonio non dice sì.~~ Ha detto sì il 30/09: è pubblico.
+
+**Quello che c'è, ma aspetta una sua parola**
+
+- la lettura dei testi di cinque lavori su sei, di Contatti e delle pagine legali: approvati da lui
+  sono il sito di Da Mamma Rosaria e le quattro pagine dei servizi;
+- l'odissea di Chi sono, che è una prima stesura e non ha gli anni;
+- ~~Sistema Evolve nei nomi che scorrono in Chi sono~~: tolto il 30/09, al suo posto Room84. Alla
+  domanda Emanuele ha risposto «non mi piace ancora il sito, lo sto modificando», letto come un no
+  per ora; la regola di [[self/reference/offerta|l'offerta]] resta in piedi;
+- ~~la riga «Cosa c'è dentro» nelle schede dei lavori~~: tolta il 30/09, «sembra brutta proprio».
+
+## Cosa manca, prima del 30/09
+
+- ~~**La hero da ripensare.**~~ Fatta il 28/09: la hero parla di Emanuele, e il Girarrosto sta fra i
+  lavori, mai per primo.
 - **I nomi dei prodotti.** Il gestionale per concessionarie e noleggi si chiama **QintaOS**, detto
   da Emanuele il 24/09/2026, dopo [[projects/autoos/nome|la ricerca del nome]]. **FoodOS** e
   **PalestreOS** restano nomi di prova: il gestionale per il food e quello sportivo per le ASD.
 - **La condizione per aprire `/sistemi`**: almeno un sistema con un nome deciso, un sito suo e
   qualcosa da mostrare. Il copy della pagina è già pronto e non è quello che manca.
-- ✅ **Il dominio c'è**, dal 20/09/2026: `emanueleboccia.it` e `.com` su Hostinger. **L'handle no**,
-  ed è una scelta di Emanuele — non è una priorità, e finché non è preso nei file resta scritto
-  `@bocciaworks`.
+- ✅ **Il dominio c'è**, dal 20/09/2026: `emanueleboccia.it` e `.com` su Hostinger. ✅ **E l'handle
+  è `@bocciastudio`**, confermato da Emanuele il 30/09/2026: il sito punta lì.
 - ✅ **I dati dei contatti ci sono**, dal 20/09/2026, e stanno in
   [[projects/personal-brand/sito-pagine|le pagine del sito]]. L'email esiste ma **non si mostra**:
   i canali sono WhatsApp e il form.
 - **Le pagine legali**, privacy e cookie, che non sono copy ma vanno create comunque, come ricordano
-  [[docs/web-design/pagine-di-un-sito-locale|le pagine di un sito locale]].
+  [[docs/web-design/pagine-di-un-sito-locale|le pagine di un sito locale]]. I testi sono scritti, e
+  si pubblicano alla fine, con WordPress: manca la sede, e con Analytics va riscritto quello dei cookie.
+- **La pagina di AI e automazioni**: servono due o tre automazioni vere, e le domande stanno in
+  [[projects/personal-brand/sito-intervista|l'intervista sui lavori del sito]].
 - **Dove si vede la squadra**, dopo che il 20/09/2026 è uscita dal sito: o la storia in evidenza
   «Come si lavora», o da nessuna parte e «studio» resta solo l'handle.

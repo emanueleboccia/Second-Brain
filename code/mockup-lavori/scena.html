@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><title>mockup</title>
+<style>
+  html, body { margin: 0; background: #000; }
+  #tela { position: relative; width: 1000px; height: 1000px; overflow: hidden; }
+  .fondo, .fondo > * { position: absolute; inset: 0; }
+  .fondo__forma { inset: auto; border-radius: 50%; transform: translate(-50%, -50%); filter: blur(30px); }
+  .fondo__griglia { background-size: 72px 72px; }
+  .fondo__grana { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"); mix-blend-mode: overlay; }
+  .pista { position: absolute; left: 0; top: 0; width: 1000px; height: 1000px; will-change: transform; }
+  .finestra { position: absolute; overflow: hidden; background: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.10), 0 42px 90px -28px rgba(0,0,0,.45), 0 14px 30px -14px rgba(0,0,0,.28); will-change: transform; }
+  .finestra--scura { box-shadow: 0 0 0 1px rgba(255,255,255,.16), 0 42px 90px -28px rgba(0,0,0,.7), 0 14px 30px -14px rgba(0,0,0,.5); background: #111; }
+  .finestra > img { position: absolute; left: 0; top: 0; width: 100%; display: block; will-change: transform; }
+  .finestra > img.finestra__fissa { transform: none !important; z-index: 2; height: auto; }
+  .dentro { position: absolute; overflow: hidden; }
+  .dentro > img { position: absolute; left: 0; top: 0; width: 100%; display: block; will-change: transform; }
+  .telefono { position: absolute; box-sizing: border-box; padding: 7px; border-radius: 46px; background: #0c0c0c; box-shadow: 0 0 0 1px rgba(255,255,255,.14), 0 40px 80px -26px rgba(0,0,0,.6), 0 12px 26px -12px rgba(0,0,0,.4); will-change: transform, opacity; }
+  .telefono--chiaro { background: #f4f2ee; box-shadow: 0 0 0 1px rgba(0,0,0,.12), 0 40px 80px -26px rgba(0,0,0,.4), 0 12px 26px -12px rgba(0,0,0,.25); }
+  .telefono__schermo { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 39px; background: #fff; }
+  .telefono__schermo > img { position: absolute; left: 0; top: 0; width: 100%; display: block; will-change: transform; }
+  .telefono__schermo > img.telefono__barra { transform: none !important; top: 0; height: auto; z-index: 2; }
+  .telefono__schermo > img.telefono__barra--piede { top: auto; bottom: 0; }
+  .tavoletta { position: absolute; box-sizing: border-box; border-radius: 34px; background: #0c0c0c; box-shadow: 0 0 0 1px rgba(255,255,255,.14), 0 46px 90px -30px rgba(0,0,0,.6), 0 14px 30px -14px rgba(0,0,0,.4); }
+  .tavoletta__schermo { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 22px; background: #f2f0eb; }
+  .tavoletta__schermo > img { position: absolute; left: 0; top: 0; width: 100%; display: block; }
+  .dito { position: absolute; left: 0; top: 0; width: 54px; height: 54px; border-radius: 50%; background: rgba(20,20,20,.28); box-shadow: 0 0 0 2px rgba(255,255,255,.75), 0 6px 18px rgba(0,0,0,.28); opacity: 0; z-index: 5; }
+  .cursore { position: absolute; left: 0; top: 0; opacity: 0; z-index: 6; filter: drop-shadow(0 3px 5px rgba(0,0,0,.35)); will-change: transform; }
+  .parete { position: absolute; left: 0; top: 0; }
+  .parete__colonna { position: absolute; will-change: transform; }
+  .dito { pointer-events: none; }
+  .parete__schermo { position: absolute; overflow: hidden; background: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.12), -18px 26px 40px -10px rgba(0,0,0,.4); }
+  .parete__schermo > img { position: absolute; left: 0; top: 0; width: 100%; display: block; }
+</style></head>
+<body><div id="tela"></div>
+<script src="motore.js"></script>
+<script src="scene.js"></script>
+<script src="scene-caso.js"></script>
+<script src="scene-nuovi.js"></script>
+<script src="scene-room84.js"></script>
+</body></html>

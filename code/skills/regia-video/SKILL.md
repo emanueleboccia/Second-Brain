@@ -5,10 +5,11 @@ quando il video non esiste ancora, e **in revisione**, quando c'è già una comp
 un mp4 da giudicare — e in tutti e due dice la stessa cosa da due angoli diversi: se questo video
 rispetta il metodo.
 
-**Il metodo è quello suo, non quello dell'AI.** Le 27 note in
-[`../../../docs/video-social/`](../../../docs/video-social/) sono la fonte, e sono l'unica. Vengono
-dagli appunti del corso che Emanuele ha studiato, `sources/video-social/appunti social media
-manager.pdf`, distillati il 27/08/2026. Un consiglio di regia che non si aggancia a una di quelle
+**Il metodo è quello suo, non quello dell'AI.** Le note in
+[`../../../docs/video-social/`](../../../docs/video-social/) sono la fonte, e sono l'unica. Ventisette
+vengono dagli appunti del corso che Emanuele ha studiato, `sources/video-social/appunti social media
+manager.pdf`, distillati il 27/08/2026; dal 30/09/2026 ci sono anche i suoi appunti di sound design, in
+`musica-e-sound-design.md`, e la libreria dei suoni che ne è nata, in `libreria-suoni.md`. Un consiglio di regia che non si aggancia a una di quelle
 note non è un consiglio migliore: è un'opinione generica su come si fanno i video, e ce n'è già
 troppa in giro.
 

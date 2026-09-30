@@ -15,3 +15,11 @@ public/tdg/*.mp3
 # Reel «Il tour di Amin» di Zucche: clip, voce, musica, effetti e font stanno sull'SSD, qui sono copie di lavoro
 public/amin/
 scripts/volti
+
+# Il reel del Girarrosto del personal brand: spezzoni e caratteri si rifanno con lo script
+public/pb-girarrosto/
+
+# Il reel di Room84 del personal brand: spezzoni e voce si rifanno con gli script, e i tagli in 4K
+# stanno in cache/ perché public/ viene copiata a ogni render
+public/pb-room84/
+cache/

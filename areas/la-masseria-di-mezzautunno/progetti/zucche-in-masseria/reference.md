@@ -150,10 +150,8 @@ chi sta nella [[areas/la-masseria-di-mezzautunno/email-marketing/2026-09-zucche-
 **18,90 € a testa, quota unica per adulti e bambini**, gratis fino al compimento dei 3 anni. Dato da
 Emanuele il 20/09/2026 per l'informativa alle famiglie: sul sito il prezzo non compare ancora.
 
-⚠️ **Gli orari del sito e quelli dell'informativa non coincidono.** Il sito dice 10:00–18:00 e il 31
-ottobre 18:00–22:00; il testo che Emanuele ha dato il 20/09/2026 dice **10:30–18:00** e il 31 ottobre
-**18:00–21:00**. Nei due PDF sono stati messi quelli suoi, il sito non è stato toccato: ha detto che
-guarda lui quale dei due è giusto.
+**Il parco apre dalle 10:30 alle 18:00.** Il sito diceva 10:00 fino al 20/09/2026, e dal 23/09 dice 10:30 come
+l'informativa: letto sulla pagina di Zucche e nelle domande frequenti il 28/09/2026.
 
 ⚠️ **La regola sulla disabilità non si scrive.** Detto da Emanuele il 22/09/2026: nelle gite i bambini con
 disabilità pagano **metà quota**, e questo si scrive; nel parco pubblico chi ha il tesserino **non paga**, ma
@@ -166,8 +164,10 @@ una serata speciale che **si prenota in segreteria**, come la Pumpkin Night, e h
 
 ⚠️ **L'informativa era già partita con le 21:00.** Il PDF mandato il 22/09/2026 diceva 17:00–21:00; il file
 sull'SSD è stato corretto a 21:30 la sera stessa, ma la copia che hanno in mano le persone no. Se gira ancora,
-si rimanda quella nuova. Resta aperto solo se le altre date aprono alle 10 o alle 10:30.
+si rimanda quella nuova. **Il sito dice 17:00–21:30 dal 28/09/2026**, corretto su richiesta di Emanuele nella pagina
+di Zucche, nei dati per Google della stessa pagina e nelle domande frequenti: fino a quel giorno diceva 21:00.
 
-## Ancora da definire
+## Le novità dell'edizione 2026
 
-- Novità rispetto al 2025.
+Non si scrivono: il 28/09/2026 Emanuele ha detto che non interessano. I testi dicono «tutta nuova» e
+«attività nuove», senza elencarle.

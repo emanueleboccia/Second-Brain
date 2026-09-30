@@ -71,7 +71,8 @@ cosa vendi» porta gente che vuole un sito da 1.500 €, «il lavoro che ti pesa
 gente con un problema di processo, cioè i sistemi da 2.500 € in su.
 
 ⚠️ **Nome visualizzato: `Emanuele Boccia | Siti e sistemi`**, separato dall'handle
-`@bocciaworks`. Instagram cerca su tutti e due, e chi lo incontra di persona digita il suo nome.
+`@bocciastudio`, confermato da Emanuele il 30/09/2026 («bocciastudio è quello giusto»). Instagram
+cerca su tutti e due, e chi lo incontra di persona digita il suo nome.
 
 ⚠️ **La riga 4 è una promessa, e vincola il link.** «Guarda un lavoro vero» impegna a mettere
 dall'altra parte **un lavoro**, non una homepage e non WhatsApp. O il link porta a un caso, o la

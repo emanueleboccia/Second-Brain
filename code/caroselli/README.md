@@ -55,3 +55,19 @@ col numero della slide: su un telefono sparirebbe oltre il bordo.
 | data | cartella | cosa |
 |---|---|---|
 | 1 ottobre 2026 | `outputs/grafiche/2026-10-01-manifesto/` | il manifesto, «Prima capisco cosa vendi. Poi lo costruisco» |
+
+## La seconda prova, nello stile del reel — 29/09/2026
+
+Dopo il «non mi piace tanto» del 25/09 Emanuele ha detto cosa non andava: «sono solo muri di testo, non ci sono
+immagini, illustrazioni o qualcosa di bello da vedere», e ha dato come modello i caroselli di Arounda
+(`sources/riferimenti/caroselli-arounda.md`). La seconda prova usa lo stile che ha approvato per i video: il
+fondale firma, il crema, la passata crema sulla parola chiave, niente riquadri, e in più **la versione chiara del
+sito**, fondo crema e testo nero con la passata ribaltata, per alternare le due scale nella griglia.
+
+| Script | Cosa fa |
+|---|---|
+| `esempi-girarrosto.mjs` | Il caso del Girarrosto in sei slide con foto e mockup veri, e le copertine di «Convinzione» e «La domanda». Le immagini le vuole in `img/` accanto a dove si lancia: sono fotogrammi degli spezzoni del reel e i mockup del sito in `~/Desktop/progetti/eb-site/public/lavori/`. «Ci sta, carini», poi Emanuele ha chiesto esempi senza quel materiale. |
+| `esempi-da-zero.mjs` | Tre caroselli fatti solo di grafiche: «Cosa penso» sullo strumento generico (scuro), «Cosa penso» sul sito bello che non comunica (chiaro), «Come lavoro» coi sei passi della home e la linea che attraversa le slide (scuro). I testi vengono dalle convinzioni e dalla home approvata. |
+
+Si lanciano da una cartella di lavoro fuori dal vault, con `node <percorso>/esempi-da-zero.mjs`: i PNG escono in
+`out/`. I caratteri li prendono da `code/remotion-test/public/pb-girarrosto/font/`, gli stessi del reel.

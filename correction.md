@@ -941,3 +941,96 @@ più lunghe».
 **La prossima volta:** in un video dove qualcuno presenta un posto, la battuta è metà della clip e l'altra metà
 è quello che la camera mostra dopo. Prima di tagliare si guarda la coda: se c'è una panoramica, resta un secondo,
 o uno e mezzo, e la presa diretta scende sotto la musica. Il taglio stretto va bene all'inizio, sul «vai».
+
+## 28/09/2026 — Il buongiorno ci metteva otto minuti
+
+Il briefing di stamattina è uscito circa otto minuti dopo il saluto, ed Emanuele: «i buongiorno e le chiusure delle
+sessioni devono essere più veloci. troppo tempo». I servizi avevano risposto in fretta. Il tempo era andato in tre
+posti: circa 140 KB di regole rilette per intero prima di guardare un dato (la skill journal, questo log, i
+riferimenti), fonti lette intere per tenerne poche righe (trentatré trattative dal 2021 per trovarne una aperta), e
+diciotto giri di strumenti uno dopo l'altro. Le chiusure erano lente per un altro motivo: tre o quattro scambi, con
+ogni scrittura confermata a parte.
+
+**La prossima volta:** il mattino segue [[code/skills/journal/buongiorno|la procedura del buongiorno]] e la chiusura
+[[code/skills/journal/chiusura|la sua]], ognuna con dentro le lezioni di questo log che la riguardano: tre giri
+paralleli al mattino, una domanda sola in chiusura. Per quei due momenti il log intero non si rilegge più.
+
+**La regola sopra:** una regola che si rilegge ogni giorno deve costare poco da rileggere. Quando una procedura di
+tutti i giorni diventa lenta, prima di tutto si guarda quanto testo si carica per farla.
+
+## 28/09/2026 — Un girato da salvare provato solo sui fotogrammi fermi
+
+Le storie del cibo di Zucche venivano da clip Sony sovraesposte di uno stop, velate e col fuoco incerto. Ho corretto
+il colore, mandato a Emanuele un prima e dopo su quattro fotogrammi fermi e da lì montato tre storie intere. Viste in
+movimento: «fanno schifo, elimina tutte queste clip sia le grezze che quelle che hai fatto, sono venute troppo
+male». Il fotogramma fermo, corretto e ritagliato, sembrava salvo. Il video no: in movimento si vedono la morbidezza,
+il fuoco che va e viene e i bianchi bruciati.
+
+**La prossima volta:** quando un girato va salvato, la prova si manda in movimento, cinque secondi corretti della
+clip peggiore e di quella migliore, prima di montare. E si dice chiaro che la correzione non rende buono un girato
+sovraesposto e sfocato: a volte la risposta giusta è rigirare.
+
+## 28/09/2026 — La hero del personal brand costruita sui lavori
+
+Ho proposto cinque hero per emanueleboccia.it, e tutte giravano intorno ai lavori: il foglio degli ordini, che è il
+Girarrosto, i progetti di famiglia come prova, il bottone «Guarda un lavoro vero». Emanuele: «quelli è ovvio che
+vanno comunicati, ma nell'apposita sezione, NON OVUNQUE. Ricordati che è un personal brand». Mi ero appoggiato alle
+decisioni vecchie del 19-20/09, la hero come caso e i lavori al posto della faccia, invece di partire da cosa è il
+progetto.
+
+**La prossima volta:** in un personal brand il protagonista è la persona. La hero, la home e i testi generali dicono
+chi è Emanuele, cosa unisce e come lavora; i lavori sono la prova, e stanno nella sezione Progetti e nelle loro
+pagine. Quando Emanuele chiede di ripartire da capo, le decisioni vecchie si rileggono come materiale, non come
+vincoli.
+
+## 28/09/2026 — Il listino nei testi del sito
+
+Nella home del personal brand avevo scritto tre volte «un listino scritto, uguale per tutti»: nel confronto con
+l'agenzia, nel passo della proposta e nelle domande frequenti. Emanuele: «non comunicare il listino scritto a
+fasce, comunica che paga solo quello che gli serve per la sua situazione. Il listino no, sembra una cosa da
+agenzia».
+
+**La prossima volta:** nei testi pubblici del personal brand il listino non compare. Il tariffario è lo strumento
+interno contro il preventivo a sensazione; al cliente si promette che paga solo quello che serve alla sua
+situazione, con un prezzo per iscritto dopo la prima chiamata. La regola sta in
+[[projects/personal-brand/sito|il sito del personal brand]].
+
+
+## 29/09/2026 — Un reel montato sulla presa diretta senza fargliela sentire prima
+
+Il primo reel del personal brand l'ho costruito tutto sulle voci registrate coi Ray-Ban al Girarrosto: battute,
+sottotitoli e tagli dipendevano da quell'audio. Emanuele l'ha guardato: «questi video hanno un audio schifoso,
+prendili come prova», il microfono era usato male, la prima volta. Le immagini invece servono. Lo stesso giro ha
+bocciato due scelte di grafica: il nome con la fase in alto a sinistra («quel coso non metterlo, è brutto») e i
+rettangoli scuri dietro le scritte («non mi piacciono proprio»). Il finale va rifatto.
+
+**La prossima volta:** prima di costruire un video sulla presa diretta si mandano dieci secondi dell'audio, quello
+buono e quello peggiore, e si aspetta il sì: è la stessa regola del girato da salvare del 28/09, applicata
+all'audio. Nei video del personal brand le scritte stanno sul video senza riquadri dietro, con l'ombra a tenere il
+contrasto, e le parole chiave le fanno il colore e il carattere; niente cornice col nome. Lo stile nuovo si prova
+su fotogrammi fermi prima di rimontare, e quando è approvato va in
+[[self/reference/design|il design del personal brand]].
+
+## 29/09/2026 — Nel campione della voce di Room84 c'erano rumori della penna alzati di volume
+
+Per il campione della presa diretta di Room84 ho tagliato «Prima di aprire il computer, prendo un foglio» sui tempi
+parola per parola di whisper, e ho tolto le pause. I primi tre pezzi, fra 120 e 124 secondi di IMG_5651, erano
+rumori della penna a −66 dB: la frase vera stava tutta fra 124,3 e 127,05. La normalizzazione li ha alzati fino a
+farli sentire, e il campione è partito così. Lo stesso in fondo a «pezzo per pezzo»: dopo 154,3 secondi c'erano
+solo rumori, che whisper leggeva come «per» e «pezzo». Me ne sono accorto montando il reel, misurando il livello
+di ogni frase.
+
+**La prossima volta:** prima di montare un pezzo di voce si misura il suo livello. Un pezzo più di 20 dB sotto
+il resto della frase non è parlato, qualunque cosa dica whisper: i tempi di whisper, sulle frasi dette con le
+pause, si allungano sopra il silenzio. E ogni frase si pareggia da sola prima della catena, come fa
+`code/remotion-test/scripts/pb-room84-voce.py`.
+
+## 29/09/2026 — La frase della bio in chiusura a un reel su un sito
+
+Nel reel di Room84 ho chiuso con la frase della bio, «Il lavoro che ti pesa non si organizza. Si toglie.», perché
+la procedura dei reel la dava come chiusura di tutti. Emanuele: «qui non c'entra niente, è un sito web». La bio
+parla dei processi che si tolgono; il reel mostrava un sito rifatto.
+
+**La prossima volta:** la frase di chiusura si sceglie su quello che il video mostra. Per i siti la riga del
+sito, «Prima capisco cosa vendi. Poi lo costruisco.»; la bio per processi, gestionali e automazioni. La regola
+ora sta in [[docs/procedure/reel-personal-brand|la procedura dei reel]].

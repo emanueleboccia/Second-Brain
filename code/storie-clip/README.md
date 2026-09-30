@@ -62,3 +62,38 @@ Due passaggi non sono script, ma dal 19/09/2026 hanno un comando scritto:
   19/09 ha sentito «il cavoi cazzetta» dove lui dice «ecco a voi la casetta».
 
 `ritmo.py`, il primo tentativo di analisi delle tracce, è rimasto fuori: com'era scritto non partiva.
+
+## Il recupero del girato Sony — `recupero-sony/`
+
+Nati il 28/09/2026 sulle storie dell'Area Food di Zucche in Masseria. Le clip erano della Sony a7 III,
+sovraesposte di circa uno stop, con un velo sulle ombre e il fuoco che andava e veniva. ⚠️ **Il risultato è
+stato bocciato**: Emanuele ha visto le tre storie finite e le ha fatte buttare, girato compreso. Questi script
+migliorano un fotogramma fermo, ma non rendono pubblicabile un girato messo così: prima di usarli si manda una
+prova in movimento. Il racconto sta nella [[areas/la-masseria-di-mezzautunno/MEMORY|memoria della Masseria]],
+voce del 28/09/2026. Si usano
+come gli altri: copiati in una cartella di lavoro, con accanto `battito.py` e `ritmo_lib.py` di qui sopra,
+e `mus/` con le tracce in wav mono a 11025 Hz.
+
+| Script | Cosa fa |
+|---|---|
+| `provino.py` | Quattro fotogrammi per clip e quello centrale a 1080, in un foglio per storia. |
+| `analisi.py` | Fuoco (varianza del laplaciano) e movimento della camera ogni decimo di secondo, più l'esposizione del fotogramma centrale. Il fuoco è relativo al massimo della clip: per confrontare due clip si guardano i valori assoluti in `analisi.json`. |
+| `strisce.py` | Un fotogramma al secondo per clip, con sotto una barra verde, gialla o rossa per il fuoco e il segno del movimento: è il foglio su cui si scelgono i tagli. |
+| `grade.py` | Il recupero del colore come funzione per pixel: bilanciamento del bianco in luce lineare da una zona neutra (guanti neri, acciaio), una curva che toglie il velo, abbassa i medi e lascia il bianco al massimo, la vibranza, il giallo lime calmato senza toccare l'arancio. Scrive la stessa funzione come LUT `.cube`, così l'anteprima e il video coincidono. I parametri di ogni clip stanno in `esempio-parametri.json`. |
+| `provino_segmenti.py` e `controllo3.py` | I tagli scelti già corretti e ritagliati: uno a metà, oppure il primo, il centrale e l'ultimo fotogramma, per vedere se il soggetto esce dal quadro. |
+| `rendi_segmenti.py` | Esporta ogni taglio: ritaglio, 1080×1920, LUT, vignetta come maschera moltiplicata, nitidezza, 30 fps. Un file alla volta, un thread, pausa di 10 secondi. |
+| `monta_storie.py` | Le storie in fila con i tagli sul battito e una traccia sola che prosegue da una all'altra, portata a −14 LUFS tutta insieme e poi tagliata. L'ordine delle inquadrature dentro ogni storia sta in `SEQ`. |
+| `finestre15.py` | Le finestre da 15 s più ritmate di ogni traccia della libreria, tolti i pezzi già usati. |
+
+Tre trappole trovate montando:
+
+- **Il ritaglio si scrive `[x, y, larghezza]` in coordinate 1080×1920, e l'altezza è larghezza × 16/9.** Un
+  ritaglio che usciva dal fondo, nell'anteprima, veniva troncato e poi stirato a 1920 senza dare errore:
+  la pasta del primo prima e dopo è uscita allungata in verticale. Ora il provino si ferma.
+- **I flag `-color_trc bt709` in uscita non bastano**: la Sony scrive `iec61966-2-4` e l'uscita se lo
+  portava dietro. Serve `setparams` in fondo ai filtri, come dice il correction log del 20/09/2026.
+- **Il `concat` si rifiuta se i tagli hanno proporzioni dei pixel diverse anche di un'inezia**, cosa che
+  succede quando i ritagli arrotondano diversamente: ogni pezzo passa da `setsar=1`.
+
+`testo_grazie.py`, qui accanto, è la scritta della storia di ringraziamento del primo weekend di Zucche, del
+28/09/2026: stesso format «io e te», montata con `monta_invito.py`. Usa `riga_mista` di `testo_extra.py`.

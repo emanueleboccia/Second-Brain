@@ -1,16 +1,25 @@
 ---
 title: "Storico — Patrimpresa"
-summary: "Gli accordi con Patrimpresa di Antonio Pazzone dalla prima call del 18/09/2026: la società al 50% proposta e rifiutata, e il sito one page a 650 €, detto ok il 21/09 e rimandato al mese dopo."
+summary: "Gli accordi con Patrimpresa di Antonio Pazzone dalla prima call del 18/09/2026: la società al 50% proposta e rifiutata, il sito one page a 650 €, detto ok il 21/09 e rimandato al mese dopo, e il 29/09 il preventivo scritto, chiesto da lui."
 tags:
   - entities
   - clienti
   - patrimpresa
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-24
+updated: 2026-09-29
 ---
 
 # Storico — Patrimpresa
+
+### 2026-09-29 — Il preventivo lo chiede lui
+Due giorni prima del richiamo, Antonio si fa vivo da solo e chiede un preventivo intestato all'associazione:
+Via Traversa Garibaldi 24, Striano, C.F. 90117960634, tel. 081 2132969, ufficio@patrimpresa.com. Emanuele vuole
+dentro solo quello che stava nei 650 €, con hosting e dominio che restano loro su Aruba. È
+[[outputs/preventivi/PROP_2026_004_Patrimpresa|`PROP_2026_004_Patrimpresa`]], PDF di due pagine: 650 € in due
+metà, acconto all'accettazione e saldo alla messa online, e il passo dopo è l'accordo da firmare con la fattura
+dell'acconto. **Mandato lo stesso giorno.** Su Notion la trattativa è passata a «Preventivo inviato» col PDF, i
+dati di fatturazione stanno sul contatto, e il Setting del 1° ottobre su TickTick è spuntato.
 
 ### 2026-09-24 — Il richiamo del primo ottobre
 Chiesto da Emanuele: il **1° ottobre** gli si scrive «Antonio, come stai? Partiamo?». È su TickTick come

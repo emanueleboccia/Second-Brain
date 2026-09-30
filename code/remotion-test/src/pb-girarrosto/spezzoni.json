@@ -1,0 +1,44 @@
+{
+ "foglio": {
+  "file": "video-3907_singular_display.mov",
+  "da": 52.0,
+  "a": 57.6,
+  "fotogrammi": 170,
+  "secondi": 5.667
+ },
+ "telefono-a": {
+  "file": "video-3944_singular_display.mov",
+  "da": 1.6,
+  "a": 4.9,
+  "fotogrammi": 100,
+  "secondi": 3.333
+ },
+ "telefono-b": {
+  "file": "video-3944_singular_display.mov",
+  "da": 7.0,
+  "a": 8.4,
+  "fotogrammi": 44,
+  "secondi": 1.467
+ },
+ "arrivo": {
+  "file": "video-3907_singular_display.mov",
+  "da": 2.8,
+  "a": 7.4,
+  "fotogrammi": 139,
+  "secondi": 4.633
+ },
+ "ipad": {
+  "file": "IMG_4889.MOV",
+  "da": 9.2,
+  "a": 11.9,
+  "fotogrammi": 81,
+  "secondi": 2.7
+ },
+ "servizio": {
+  "file": "IMG_4575.MOV",
+  "da": 0.2,
+  "a": 3.7,
+  "fotogrammi": 210,
+  "secondi": 7.0
+ }
+}

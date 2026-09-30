@@ -1,13 +1,13 @@
 ---
 title: "Scheda — Patrimpresa"
-summary: "Patrimpresa di Antonio Pazzone, presentato dal padre di Emanuele: vuole un sito one page ancora da prezzare, e la società al 50% che ha proposto per vendere i gestionali Emanuele non la vuole."
+summary: "Patrimpresa di Antonio Pazzone, presentato dal padre di Emanuele: vuole un sito one page in sette lingue, 650 € col preventivo scritto il 29/09/2026, e la società al 50% che ha proposto per vendere i gestionali Emanuele non la vuole."
 tags:
   - entities
   - clienti
   - patrimpresa
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-24
+updated: 2026-09-29
 ---
 
 # Scheda — Patrimpresa
@@ -19,15 +19,18 @@ updated: 2026-09-24
   finanza ordinaria, energia e internazionalizzazione, con una rete commerciale sul territorio. Il riassunto però
   confonde il suo sito con fedimi.it, quindi è da verificare con lui.
 - **Contatti:** su Notion, lista Contatti.
-- **Stato:** in trattativa. Gli si deve dire il prezzo del sito one page.
+- **Intestazione:** Patrimpresa, associazione, C.F. 90117960634, Via Traversa Garibaldi 24, 80040 Striano (NA),
+  tel. 081 2132969, ufficio@patrimpresa.com. Data da Antonio il 29/09/2026 per il preventivo.
+- **Stato:** in trattativa. Il 29/09/2026 ha chiesto lui il preventivo scritto:
+  [[outputs/preventivi/PROP_2026_004_Patrimpresa|`PROP_2026_004_Patrimpresa`]], 650 €.
 
 ## Cosa vuole
 
 **Un sito one page.** Il riferimento estetico è fedimi.it, che non è il suo sito: gli piace com'è fatto. Dal
 riassunto della call le sezioni sarebbero la hero, chi siamo, i servizi e i contatti con la mappa.
 
-⚠️ **Il prezzo non c'è ancora.** Il [[self/tariffario|tariffario]] non ha una voce per il sito one page: va
-deciso prima di chiamarlo, e poi scritto lì, che è la fonte dei prezzi.
+**Il prezzo è 650 € tutto compreso**, detto in call il 21/09 per la one page in sette lingue. Nel
+[[self/tariffario|tariffario]] la one page sta a 600 € dal 20/09: i 50 € in più stanno sulle lingue.
 
 ## La società al 50%: no
 

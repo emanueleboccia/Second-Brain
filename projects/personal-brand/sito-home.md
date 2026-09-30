@@ -1,317 +1,218 @@
 ---
 title: "Personal brand — la home"
-summary: "I nove blocchi della home di emanueleboccia.it, decisi il 20/09/2026 sul wireframe: l'ordine è quello della decomoditizzazione, la hero mostra i lavori e non la faccia, il confronto attacca il modo e non una categoria, e le domande frequenti vengono dal prototipo V1."
+summary: "Le nove sezioni della home di emanueleboccia.it, rifatte da capo il 28/09/2026 con Emanuele e approvate una per una: hero, come lavoro col triangolo, agenzia contro fai da te, servizi, lavori recenti, processo, chi sono, domande per categoria e chiusura col modulo. La prima versione, del 20 e 21/09, sta in una nota a parte."
 tags:
   - projects
   - personal-brand
   - sito
 status: in-lavorazione
 created: 2026-09-20
-updated: 2026-09-21
+updated: 2026-09-28
 related:
+  - "[[projects/personal-brand/brief-home]]"
   - "[[projects/personal-brand/sito]]"
-  - "[[projects/personal-brand/sito-pagine]]"
-  - "[[projects/personal-brand/prototipo]]"
-  - "[[docs/web-design/framework-decomoditizzazione]]"
+  - "[[projects/personal-brand/sito-home-vecchia]]"
+  - "[[docs/processo-cliente]]"
+  - "[[self/pacchetti]]"
   - "[[self/reference/brand]]"
-  - "[[self/reference/convinzioni]]"
 ---
 
 # Personal brand — la home
 
-> **Riscritta il 20/09/2026**, dopo aver guardato i due prototipi. Nove blocchi, e l'ordine è
-> quello del [[docs/web-design/framework-decomoditizzazione|framework della decomoditizzazione]]
-> perché il pubblico è freddo: promessa, pain, squalifica, spiegazione, pitch, azione. Accanto a
-> ogni blocco c'è da dove viene — **V1**, **V2**, il copy del 19/09 o **nuovo**.
->
-> Scelte di Emanuele lo stesso giorno: **il titolo è la variante 03** e **il triangolo è la
-> versione B**, con l'AI al centro invece che a un vertice.
+## La home rifatta da capo il 28/09/2026
 
-## Cosa è cambiato il 21/09/2026, rivedendola con Emanuele
+> Emanuele ha rifatto la sitemap e la home da zero: è un personal brand, e la home parla di lui. I lavori
+> stanno solo nella sezione Progetti. Tutto quello che segue, dal 21/09 in giù, resta come materiale.
+> Chi la monta legge prima [[projects/personal-brand/brief-home|il brief per costruirla]]: riferimenti,
+> animazioni, codice, regole e cose aperte.
 
-La home montata il 20 è stata rivista la mattina dopo, e **alcuni blocchi qui sotto sono superati**.
-Questo è l'elenco di cosa vale adesso, in ordine.
+1. **Hero**, scelta fra undici alternative:
+   - etichetta: `EMANUELE BOCCIA · SITI E SISTEMI`;
+   - H1: **L'intelligenza artificiale accelera il mestiere. Se il mestiere ce l'hai.**;
+   - sotto: *Sono Emanuele Boccia. La uso ogni giorno, sopra quello che so fare: marketing, codice e
+     design. Così i siti, i software e le automazioni che costruisco partono da cosa vendi, e non
+     somigliano a mille altri.*;
+   - bottoni: **Come lavoro** e **Scrivimi**.
+2. **Come lavoro, il triangolo**, subito dopo, a spiegare il mestiere che la hero nomina. È la versione
+   B del 20/09, marketing in alto, codice a sinistra, design a destra e l'AI al centro, e ogni lato dice
+   cosa fa: il marketing fa capire, il codice fa funzionare, il design fa guardare. Quella frase era una
+   delle hero proposte: Emanuele l'ha voluta qui, non in testa. Approvata così:
+   - H2: **Lavoro dove si incontrano tre cose.**;
+   - **Marketing**, in alto: *fa capire. Cosa vendi, a chi, cosa devi dire.*;
+   - **Codice**, a sinistra: *fa funzionare. Siti, gestionali e automazioni che reggono il lavoro di ogni
+     giorno.*;
+   - **Design**, a destra: *fa guardare. Un'immagine che si ricorda, e strumenti che si usano senza
+     fatica.*;
+   - **al centro, l'AI**: *Non è una delle tre. Passa dentro tutte e tre, e ci passa dopo: prima si capisce
+     cosa devi dire.*;
+   - il bottone **Come lavoro** della hero porta qui.
+3. **Io vs altri**, l'esclusione della competizione: Emanuele contro l'agenzia e contro il fai da te,
+   chiesto da lui il 28/09. Supera la scelta del 21/09 di non nominare nessuno a sinistra e di tenere
+   due colonne sole: con l'agenzia nel confronto, sul prezzo Emanuele sta in mezzo. La tabella è
+   approvata così, con «Con me» nella colonna centrale ed evidenziata. I testi intorno, scelti fra nove
+   proposte con una regola di Emanuele: **ogni sezione si legge anche da sola**, come se fosse la prima
+   dove uno ferma l'occhio.
+   - H2: **Agenzia, fai da te o una persona sola: cosa cambia per la tua attività.**
+   - sotto: *Marketing, codice e design servono tutti e tre. Cambia chi li fa, da dove si parte e chi
+     resta dopo la consegna.*
+   - dopo la tabella: *Con me stanno tutti e tre nella stessa persona, e con quella persona parli
+     dall'inizio alla fine.*
+   - bottone: **Parliamone**, che apre WhatsApp.
+4. **Servizi**, con i componenti e le animazioni della sezione «Our Services» di
+   [fundamental.bg](https://fundamental.bg/en), chiesti da Emanuele il 28/09. Letta nel browser lo stesso
+   giorno: una griglia a mosaico su dodici colonne, con righe di larghezze diverse e bordi sottili; ogni
+   carta ha un pallino in alto, il titolo grande in basso e un video di sfondo. Al passaggio del mouse il
+   video parte, il pallino si riempie, il titolo prende il colore sfumato con la freccia, e la descrizione
+   di due righe sale da sotto. Allo scroll le carte entrano sfocate e salgono. Accanto al titolo della
+   sezione, un bottone. I servizi sono cinque, Consulenza, Siti web, ERP e gestionali, Company Brain e i
+   servizi con l'AI, e ogni carta porterà alla pagina del suo servizio, che si fa dopo il lancio.
+   - H2: **Cosa posso fare per la tua attività.**, scelta da Emanuele fra tre; accanto, il bottone
+     **Tutti i servizi ↗**;
+   - **Consulenza** · *Guardiamo la tua attività da fuori: cosa vendi, cosa ti blocca e da dove conviene
+     partire.*;
+   - **Siti web** · *Il posto dove ti trovano, scritto prima di essere disegnato. Chi arriva capisce
+     subito cosa vendi.*;
+   - **ERP e gestionali** · *Ordini, prenotazioni, magazzino e clienti in un sistema cucito su come
+     lavorate, al posto di fogli e chat.*;
+   - **Company Brain** · *Strategia, offerta, clienti e concorrenti messi per iscritto. Il cervello della
+     tua azienda, che resta tuo.*;
+   - **AI e automazioni**, generico e in una carta sola, detto da Emanuele · *Messaggi, preventivi e
+     documenti che rifai ogni giorno, fatti in automatico. L'AI solo dove serve davvero.*;
+   - al lancio la freccia porta alla pagina Servizi, all'altezza di quel servizio. Ogni carta vuole un
+     video di sfondo, un oggetto del mestiere su un tavolo scuro.
+5. **Lavori recenti**, solo il titolo e niente testo sotto, strutturata come i lavori recenti della home
+   di [eliotbesson.com](https://www.eliotbesson.com/), chiesti da Emanuele il 28/09. Letta lo stesso
+   giorno: un elenco di nomi grandi, uno per riga, ognuno con due etichette piccole (cosa è stato fatto e
+   il mese) e tre anteprime quadrate intorno, un mockup e due clip in loop. Al passaggio del mouse sul
+   nome le anteprime si ingrandiscono e le clip partono; tutta la riga è un link. L'ordine lo ha dato
+   Emanuele: il sito della Masseria, il gestionale eventi di Mamma Rosaria, il sito della Tenuta, il
+   Girarrosto. Le etichette: *Sito web · Set 2026*, *Gestionale eventi · Set 2026*, *Sito web · Lug
+   2026*, *Gestionale e sito menù · Ago 2026*, col mese del Girarrosto detto da Emanuele. Ogni lavoro
+   avrà poi la sua pagina col caso studio intero: i problemi risolti e i dettagli stanno lì, non in
+   home. Mockup e clip si preparano dopo il wireframe; per i due gestionali, che hanno la password, si
+   decide allora chi registra.
+6. **Il processo**, i passi del lavoro, scelta di Emanuele e anche la mia. Strutturata e animata come la
+   sezione del processo di [stopidesign.com](https://www.stopidesign.com/), letta il 28/09: la sezione
+   resta ferma a schermo intero mentre si scorre; in alto una linea del tempo con un pallino e un nome
+   per passo, che si riempie scorrendo; sotto, le carte dei passi scorrono in orizzontale, quella attiva
+   grande e accesa, le altre più piccole e spente. Ogni carta ha il numero grande, un'icona, il nome del
+   passo, un'etichetta piccola e la descrizione, e una luce che segue il mouse. Sul telefono si scorre di
+   lato col dito. Approvata da Emanuele così:
+   - H2: **Prima capisco, poi costruisco, poi resto.**; sotto: *Sei passi, sempre gli stessi, dalla prima
+     chiamata ai mesi dopo la consegna.*;
+   - le carte, con l'etichetta che dice il capitolo del titolo:
+     `01` **Ascolto** · Prima capisco · *Mi racconti la tua attività e cosa ti pesa. Faccio le domande
+     giuste, e ti dico subito se posso esserti utile.*
+     `02` **Proposta** · Prima capisco · *Ti porto per iscritto cosa facciamo, cosa è incluso e quanto
+     costa. Paghi solo quello che serve alla tua situazione.*
+     `03` **Sopralluogo** · Prima capisco · *Vengo da te e guardo come lavorate davvero. Insieme fissiamo
+     cosa deve cambiare, e quando il lavoro si può dire finito.*
+     `04` **Costruzione** · Poi costruisco · *Costruisco il sito, il gestionale o l'automazione, e ti
+     faccio vedere i passi avanti. Le revisioni le facciamo in chiamata.*
+     `05` **Consegna** · Poi costruisco · *Mettiamo online e ti insegno a usarlo. Dominio, accessi e dati
+     sono intestati a te.*
+     `06` **Affiancamento** · Poi resto · *Nei mesi dopo lo usate davvero, e viene fuori cosa aggiungere
+     o togliere. Ci lavoro finché l'abito non vi veste.*
+   Sono i passi di [[docs/processo-cliente|processo cliente]] come li vive il cliente: le regole interne
+   restano fuori.
+7. **Chi sono**, approvata da Emanuele il 28/09:
+   - H2: **Piacere, sono Emanuele.**;
+   - testo: *Ho cominciato con la grafica a 14 anni. Poi sono arrivati il web design, il codice e il
+     marketing, e nessuno ha preso il posto dell'altro: oggi lavorano insieme. Per me il marketing è un
+     pezzo dell'azienda come la contabilità, e la tecnologia serve solo se parte da lì. Lavoro di persona
+     tra Napoli e il Vesuvio e in remoto in tutta Italia, anche per le aziende della mia famiglia.* Tutta
+     Italia in remoto l'ha aggiunta lui;
+   - il ritratto, e il percorso a cerchi uno dentro l'altro, grafica, web design, codice e marketing, che
+     si accendono scorrendo;
+   - due bottoni, ognuno con una frase sopra: *Scopri di più su di me* → **La mia storia ↗**, alla pagina
+     Chi sono; *Candidati, ho una sorpresa per te* → **Candidati ↓**, alla chiusura del sito, dove
+     Emanuele vuole regalare qualcosa in cambio del contatto. Il regalo si decide quando si arriva lì: la
+     proposta è «la tua attività in una pagina», dopo mezz'ora di chiamata, a pochi al mese.
+8. **Le domande**. Divise per categorie come le domande frequenti di
+   [stopidesign.com](https://www.stopidesign.com/), che le raggruppa in linguette sopra l'elenco a
+   fisarmonica: così se ne possono mettere di più. Chiesto da Emanuele il 28/09, insieme a una regola sul
+   contenuto: **le domande partono dai dubbi veri dell'imprenditore**, quelli che non dice, e dai benefici,
+   non dalle curiosità sul servizio. Tolta, su sua richiesta, quella sulla sicurezza dei dati dei clienti:
+   non c'è ancora una risposta da promettere.
+   - H2: **I dubbi che hai prima di scrivermi.**; sotto: *Divisi per argomento. Se il tuo non c'è,
+     chiedimelo.*
+   - **Soldi e risultati** — *E se spendo e non cambia niente?* È il dubbio giusto, ed è per questo che
+     si parte dal problema e non dal sito. Prima di cominciare scriviamo cosa deve cambiare e come lo
+     misuriamo: ordini, richieste, ore risparmiate. Se non c'è niente da misurare, te lo dico prima. ·
+     *Quanto costa, e ci saranno sorprese dopo?* Paghi solo quello che serve alla tua situazione, niente
+     di più. Dopo la prima chiamata ti do un prezzo per iscritto, con cosa è incluso e cosa no, e non si
+     muove in corsa. · *Perché non prendo un gestionale già fatto, in abbonamento?* Se fa quello che ti
+     serve, prendilo: costa poco e ce l'hai domani. Il guaio è quando ha cento funzioni pensate per altri e
+     non quella che manca a te. Allora paghi ogni mese un programma che il tuo problema non lo risolve. ·
+     *Lavoro già col passaparola. Perché dovrei spendere online?* Il passaparola porta chi ti conosce già.
+     Chi non ti conosce ti cerca online, e decide lì se chiamarti o passare al prossimo. · *Mi garantisci
+     più clienti?* No, e chi te lo garantisce sta vendendo un'altra cosa. Posso mostrarti cosa succedeva
+     prima e cosa succede dopo, con i numeri che hai già in casa.
+   - **Tempo e fatica** — *Non ho tempo di starci dietro. Quanto me ne serve?* Poco, ma nei momenti
+     giusti: una chiamata all'inizio, il sopralluogo, le revisioni. Il resto lo porto avanti io, e ti cerco
+     solo quando serve una tua decisione. · *Quanto ci vuole per finire?* Dipende da quanto materiale c'è
+     già. La parte lenta quasi mai è il codice: sono le foto, i testi e le decisioni. Te lo dico
+     all'inizio, con le date. · *Dovremo cambiare il modo in cui lavoriamo?* No, è il programma che si
+     adatta a voi. Lo costruisco guardando come lavorate oggi, così somiglia a quello che già fate, senza
+     fogli e chat da ricopiare. · *Il mio personale non è pratico. Lo saprà usare?* Se non lo sa usare,
+     l'ho fatto male io. Lo provo con chi lo userà davvero, e alla consegna vi insegno a usarlo.
+   - **Controllo e dopo** — *Il sito e i dati di chi sono?* Tuoi. Dominio, accessi e dati sono intestati
+     a te, e se un giorno smettiamo di lavorare insieme te li porti via tutti. · *Lavori da solo: e se un
+     giorno sparisci?* Il sito e i dati restano tuoi, e alla consegna ti lascio una procedura scritta e un
+     video fatti su misura: chiunque venga dopo di me sa da dove ripartire. La procedura e il video
+     stanno in ogni pacchetto dal 25/09, come dice [[self/pacchetti|pacchetti]]. · *Posso cambiare da solo testi e foto?* Sì, se
+     vuoi: ti lascio il modo di farlo e ti faccio vedere come. Per le cose più grosse ci sono io. · *Dopo
+     la consegna, chi tiene in piedi le cose?* Tu, se vuoi: consegno con le istruzioni e ti faccio vedere
+     come si fa. Se preferisci che me ne occupi io, mettiamo per iscritto quanto e per quanto tempo.
+   - **AI e tecnologia** — *Non sono pratico di tecnologia. È un problema?* No. Il tecnico sono io, e a te
+     le cose le spiego con le parole del tuo lavoro. Se una cosa non si capisce, ho sbagliato io a
+     spiegarla. · *L'AI prenderà il posto del mio personale?* No. Toglie le cose ripetitive, i messaggi
+     tutti uguali, i dati da ricopiare, così chi lavora con te fa il lavoro per cui l'hai assunto. · *Usi
+     l'AI per fare tutto?* La uso ogni giorno, per andare più veloce. Ma capire cosa vendi, decidere cosa
+     costruire e rispondere di quello che consegno resta compito mio.
+   - **Come lavoro** — *Da dove si parte, di solito?* Da una cosa che oggi non funziona: le richieste che
+     si perdono, il lavoro rifatto a mano, un sito che non fa capire cosa vendi. La prima chiamata serve a
+     capire se ha senso, non a vendere. · *Io voglio solo il sito. Perché prima vuoi capire cosa vendo?*
+     Perché il sito è un megafono. Se quello che dici non è chiaro, metterlo online non lo chiarisce: lo
+     fa sentire a più gente. · *Cos'è il Company Brain?* La tua attività messa per iscritto: cosa vendi, a
+     chi, cosa devi dire, chi sono i tuoi concorrenti. Resta a te, e lo usi anche senza di me. · *Lavori
+     solo in zona?* No. Tra Napoli e il Vesuvio vengo di persona, nel resto d'Italia lavoriamo in remoto,
+     e il sopralluogo si fa in videochiamata.
 
-1. **Hero** — resta, e ha preso **un'immagine**: il foglio degli ordini evidenziato, fra il titolo
-   e la striscia dei lavori. Motivo: era solo tipografia.
-2. ~~Il caso 01~~ — **tolto dalla home**, era troppo subito dopo la hero. Vive nel portfolio e nella
-   pagina dei gestionali.
-3. **Il problema** — resta, il testo a comparsa.
-4. **Il confronto** — resta, con le due concessioni.
-5. **Come lavoro** — il triangolo B resta; **i tre passi diventano una linea del tempo animata** in
-   otto tappe, divise nei tre capitoli *prima capisco · poi costruisco · poi resto*. È il processo
-   di [[docs/processo-cliente|processo cliente]] **come lo vive il cliente**: le regole interne —
-   il cliente esiste solo col denaro, il tasso di chiusura — restano fuori.
-6. **Cosa faccio** — **tre carte, una per pagina di servizio**: siti, Company Brain, gestionali e
-   sistemi. Ognuna con la sua foto, e il bottone che porta alla pagina. Entrano a cascata e si
-   inclinano col mouse.
-7. ~~I sistemi per settore~~ — **tolti dalla home**, diventano la voce **«Prodotti»** del menù con
-   la tendina. Deciso da Emanuele: buona idea, ma con meno peso.
-8. **Lavori**, **domande**, **di persona** — restano. 9. **Chiusura** — resta, **senza il divisore «pagina dopo»**. E via la scheda volante di V2 che seguiva il mouse.
+9. **La chiusura**, generica e senza regalo, detto da Emanuele il 28/09: garanzie e rottamazione vanno
+   nelle pagine dei servizi, dove arrivano quando uno valuta quel servizio. Fatta come la fine della home
+   di [eliotbesson.com](https://www.eliotbesson.com/), letta lo stesso giorno: il footer si apre con una
+   frase gigante, che al passaggio del mouse cambia in un invito, e al clic apre il modulo di contatto in
+   un pannello sopra la pagina. Nel modulo nome, email, il servizio scelto fra pillole, il messaggio, e
+   sotto un'alternativa per chi non ama i moduli. Poi il footer: la pagina successiva, la mappa del sito,
+   i social, le note legali. Approvata da Emanuele così:
+   - la frase gigante: **Hai un progetto in mente? Parliamone.**, che al passaggio del mouse diventa
+     **Scrivimi!** e al clic apre il pannello;
+   - il pannello: titolo *Parliamone*; Nome*, Email*, Telefono o WhatsApp; *Di cosa hai bisogno?* con le
+     pillole Consulenza · Sito web · ERP e gestionali · Company Brain · AI e automazioni · Non lo so ancora;
+     *Raccontami la tua attività e cosa ti pesa*\*; bottone **Invia**; dopo l'invio *Grazie. Ti rispondo
+     io, entro un giorno lavorativo.*, promessa confermata da Emanuele; sotto, *Non ti piacciono i
+     moduli? Scrivimi su WhatsApp ↗*;
+   - il footer: *Pagina successiva: Servizi*, la mappa del sito, Instagram, LinkedIn e WhatsApp, Privacy e
+     Cookie, la partita IVA, obbligatoria sul sito di un professionista.
+   Di conseguenza **il secondo bottone di Chi sono cambia**: sopra *Hai un progetto in mente?*, bottone
+   **Parliamone**, che apre lo stesso pannello. La sorpresa promessa prima non c'è più.
 
-**Il linguaggio visivo, nato lo stesso giorno.** Ogni immagine del sito è **un oggetto del mestiere
-su un tavolo scuro**, nella scala chiusa: il foglio degli ordini nella hero è il problema, e le tre
-foto delle carte sono cosa lo sostituisce — il telefono accanto al menù di carta, il raccoglitore
-del cervello aziendale, il tablet con gli ordini mentre i blocchetti stanno spinti da parte. Tutte
-generate con Higgsfield, e tutte con una didascalia che dice un'idea, mai un documento vero.
+**I prodotti, per ora, non entrano nella home.** Detto da Emanuele il 28/09: «vedremo successivamente,
+ora non inserirli proprio». **E nemmeno il blog**, lo stesso giorno: il blog ha la sua pagina, non una
+sezione in home.
 
-## La home è montata — 20/09/2026
+| | L'agenzia | Con me | Il fai da te |
+|---|---|---|---|
+| **Chi ti segue** | un commerciale, poi un grafico, poi uno sviluppatore. **Vero: c'è una squadra intera.** *Ma chi costruisce non l'hai mai sentito* | io, dalla prima domanda all'ultima modifica | tu, la sera, fra un impegno e l'altro |
+| **Da dove si parte** | dal modello che va di moda. *Bello, e uguale ad altri* | da cosa vendi, a chi e cosa devi dire | da un template, o da un sito fatto fare all'AI. *Uguale a mille altri* |
+| **Il marketing** | un reparto a parte, che arriva dopo. *Due lavori che non si parlano* | il primo lato del triangolo: viene prima di tutto | manca |
+| **Quanto è su misura** | pacchetti, con le varianti a listino | costruito su come lavori già | quello che il programma sa già fare |
+| **Il prezzo** | paghi anche la struttura | paghi solo quello che serve alla tua attività | **Vero: costa poco e parti subito.** *Poi lo paghi col tuo tempo* |
+| **Dopo la consegna** | ogni modifica è un preventivo nuovo | resto finché funziona come deve | sei da solo |
 
-**Il file vero sta in `~/Desktop/progetti/emanueleboccia-it/`**, `index.html` più la cartella
-`img/` con le quattro miniature e il ritratto, 144 KB di immagini in tutto.
+## La home di prima
 
-**Com'è stata fatta, e va saputo.** V1 e V2 sono **build di produzione**: il CSS è minificato e il
-JavaScript è un bundle Vite con GSAP, Lenis e Barba compilati dentro, coi nomi delle funzioni
-accorciati. Il sorgente non è su questa macchina. Quindi la home è **V2 modificato**, non ricostruito:
-
-- le animazioni sono **le stesse**, perché non è stato toccato il bundle. I blocchi nuovi si
-  agganciano agli attributi che il bundle già cerca — `data-adatta`, `data-righe`, `data-riga`,
-  `data-fuoco`, `data-elenco`, `data-magnetico` — e l'animazione se la prendono da soli;
-- il CSS dei componenti nuovi e l'apertura delle domande stanno in un blocco in fondo al file,
-  senza toccare quello esistente;
-- la luce calda `#DAC7AB` è entrata come variabile `--luce` e sostituisce il crema nel bagliore
-  della hero, nei raggi del triangolo e negli stati dei sistemi.
-
-⚠️ **Una cosa aggiunta che non c'era.** Il calcolo che fa toccare i bordi al titolone sbordava di
-qualche pixel sull'ultima lettera, sia da schermo grande sia da telefono. C'è un correttore che
-rimpicciolisce finché la riga rientra, agganciato a un `ResizeObserver`: scatta ogni volta che il
-bundle ricalcola, invece di sperare di arrivare dopo.
-
-⚠️ **Finché il sorgente non salta fuori, ogni modifica è chirurgia su una build**, e non si può
-ricompilare. Se il progetto di V1 e V2 esiste da qualche parte, il lavoro va spostato lì.
-
-## 1 · Hero — i lavori · *V2 · promessa*
-
-- Etichetta, in monospazio: `SITI, SOFTWARE E AI SU MISURA · TRA NAPOLI E IL VESUVIO`
-- H1: **Prima capisco cosa vendi. Poi lo costruisco.**
-- Sotto: *Se quella parte non è chiara, il sito mette online la confusione. Costruisco siti,
-  software e automazioni AI per le attività della mia zona, comprese quelle della mia famiglia.*
-- Sotto il titolo, **la striscia dei lavori**: quattro miniature affiancate, col nome in
-  monospazio sotto ognuna. È il meccanismo della hero di V2.
-- Bottoni: primario **Guarda un lavoro →**, secondario **Parliamone**.
-
-⚠️ **Niente ritratto in hero.** Deciso il 20/09/2026, parole di Emanuele: la faccia non è quello
-che un imprenditore viene a cercare. La faccia resta nel blocco 8, piccola, perché chi lo incontra
-di persona e poi lo cerca deve riconoscerlo.
-
-**L'immagine del «prima», dal 21/09/2026.** Sotto il titolo e sopra la striscia c'è una banda
-larga: un foglio degli ordini scritto a mano, le righe evidenziate, una penna e due evidenziatori,
-sul nero caldo con la luce da destra. Serviva perché la hero era **solo tipografia** — parole di
-Emanuele: «non mi attira, è troppo pulito, tutto testo». Così il primo schermo dice la tesi intera:
-il titolo, il foglio che pesa, e sotto i lavori.
-
-⚠️ **È un'immagine generata, e non deve mai essere presentata come la prova di un lavoro.** Fatta
-con Higgsfield (GPT Image 2.5) il 21/09/2026, nella scala chiusa di [[self/reference/design|design]]
-e senza un colore fuori. La didascalia dice *«il pezzo di lavoro che si mangia la giornata»*, che è
-un'idea, **non** «il foglio del Girarrosto», che sarebbe un documento inventato. È la stessa regola
-dei numeri: la prova non si trucca, e un'illustrazione resta un'illustrazione.
-
-⚠️ **Nota tecnica che è costata un giro.** Gli attributi del bundle — `data-righe` e `data-riga` —
-**spezzano il contenuto in righe di testo**: messi su una figura con dentro un'immagine se la
-mangiano e la mettono da parte in `data-originale`. Valgono solo sul testo. Un'immagine si anima
-con altro, o non si anima.
-
-⚠️ **Le quattro miniature vogliono foto vere.** Nei prototipi sono segnaposto grigi, e una hero
-fatta di quattro rettangoli vuoti promette quattro lavori e non ne mostra nessuno.
-
-## 2 · ~~Il lavoro, subito~~ — tolto il 21/09/2026
-
-Non sta più nella home. Il testo del caso vive in [[projects/personal-brand/sito-pagine|le pagine del sito]],
-alla voce del caso 01, e nella pagina dei gestionali.
-
-## 3 · Il problema · *V2 · pain*
-
-Il testo a comparsa che si rivela allo scroll, in maiuscolo gigante: è la sezione di V2 che
-Emanuele ha indicato come quella che gli piace di più dopo la hero.
-
-- H2: **Il lavoro che ti pesa non si organizza. Si toglie.**
-- *In quasi ogni attività c'è un pezzo di lavoro che si mangia la giornata: gli ordini, le
-  prenotazioni, i conti a fine sera, il foglio che passa di mano in mano. Di solito lo si organizza
-  meglio — un quaderno più ordinato, un'app in più, un gestionale con cento funzioni pensate per
-  qualcun altro. Il pezzo resta lì, e intanto costa.*
-
-⚠️ È la [[self/reference/convinzioni|convinzione 2]], l'unica delle quattro con una storia completa,
-ed è anche la prima riga della bio. Messa qui, chi arriva da Instagram ritrova la frase con cui è
-partito.
-
-## 4 · Di solito si fa così · *nuovo · squalifica*
-
-La tabella a due colonne presa da stopidesign, che è la forma che funziona: righe corte, un
-verdetto di due parole sotto ogni riga di sinistra.
-
-- H2: **Di solito si fa così. Io faccio il contrario.**
-
-| | Come si fa di solito | Come lo faccio io |
-|---|---|---|
-| **Da dove si parte** | dal sito, perché è la cosa che si vede — *ordine sbagliato* | da cosa vendi e a chi. Il sito viene dopo |
-| **Cosa si compra** | un programma con cinquanta funzioni pensate per altri. **Vero: ce l'hai domani, e all'inizio costa poco** — *poi paghi anche quelle che non apri* | quello che vi serve, e niente di più |
-| **Chi si adatta** | voi, al programma — *cambia il mestiere* | il programma, a come lavorate già |
-| **Se serve una cosa nuova** | un abbonamento in più, o non si può fare. **Vero: a volte la chiede qualcun altro e arriva gratis** — *ma non decidete voi quale* | ve la costruisco |
-| **Chi risponde** | un modulo di assistenza — *aspetti* | io |
-| **Quanto dura** | finché pagate il canone — *non è vostro* | è vostro |
-
-⚠️ **Due righe su sei ammettono qualcosa, ed è voluto.** Aggiunto il 21/09/2026 dopo aver letto
-[[sources/riferimenti/marantoweb|Maranto]], che nella colonna del concorrente scrive «parziale»
-invece di «no» su due righe. Una colonna che dice no a tutto si legge come scritta da chi vende;
-concederne due rende credibili le altre quattro. **Si concede solo quello che chi legge già pensa**
-— che un programma a canone ce l'hai domani e costa poco, e che ogni tanto una funzione nuova
-arriva senza pagarla — e il verdetto risponde alla concessione invece di ignorarla. Le righe su
-**chi risponde** e su **quanto dura** restano secche, perché lì non c'è niente da concedere che il
-lettore creda davvero.
-
-⚠️ **Niente terza colonna.** Valutata il 21/09/2026 e scartata: Maranto la usa perché sta in mezzo
-fra l'agenzia cara e il fai-da-te, e in un confronto a tre il posto in mezzo è il più facile da
-vincere. Emanuele in mezzo non ci sta — è l'opzione più cara e più lunga, quindi perderebbe la riga
-del prezzo e quella dei tempi contro tutte e due, e inviterebbe proprio il paragone sul prezzo che
-non può vincere. Il fai-da-te nel blocco c'è già un piano sotto: le tre righe strette qui in fondo
-sono la pagina Facebook e il sito fatto fare all'AI, cioè le due forme che prende oggi.
-
-⚠️ **A sinistra non c'è nessuno: c'è un modo di fare.** Nessuna agenzia, nessuna categoria di
-professionisti, nessun concorrente. È la regola sui nemici di
-[[self/reference/convinzioni|convinzioni]] — si attaccano idee — ed è anche la ragione pratica:
-le agenzie da sessantamila euro non sono i concorrenti di Emanuele. I suoi sono il gestionale a
-canone, la pagina Facebook al posto del sito e il template fatto fare all'AI.
-
-Sotto la tabella, tre righe strette, una per alternativa, dalla vecchia sezione 4:
-
-- **La pagina Facebook al posto del sito.** *Sembra gratis e costa il controllo: non decidi tu il
-  dominio, i contatti, cosa vede chi arriva.*
-- **Il sito bellissimo che non dice niente.** *Animato, curato, e chi lo apre non capisce cosa
-  vendi. Una cosa bella che comunica male non vale niente.*
-- **Il sito fatto fare all'AI.** *Senza niente a monte somiglia ad altri mille: non ti distingue,
-  ti allinea. L'AI la uso tutti i giorni, ma dopo aver capito cosa devi dire.*
-
-⚠️ Se il blocco diventa lungo, **le tre righe si tolgono prima della tabella**, non dopo: la
-tabella è la parte che fa collocare chi legge.
-
-## 5 · Come lavoro · *V2 + copy · spiegazione*
-
-- H2: **Lavoro dove si incontrano tre cose.**
-- **Il triangolo, versione B**, scelta il 20/09/2026: **Marketing** in alto, **Codice** a sinistra,
-  **Design** a destra, e **l'AI al centro**, collegata a tutte e tre con tre linee sottili.
-- Sotto: *L'AI non è una delle tre. Passa dentro tutte e tre, e ci passa dopo: prima si capisce
-  cosa devi dire.*
-
-⚠️ **Perché B e non A.** In V2 l'AI era un vertice, cioè un terzo del mestiere: detta così insegna
-a chi legge che Emanuele è «quello dell'AI», che è il [[self/reference/convinzioni|nemico 4]],
-l'AI usata senza coscienza. Al centro invece dice come la usa davvero. E rimette il design fra le
-tre, che nel suo percorso c'è dai quattordici anni.
-
-Poi i tre passi, sempre in quest'ordine:
-
-- `01` **Prima capisco.** *Vengo da te, guardo come lavorate e ti faccio le domande che servono:
-  cosa vendi, a chi, cosa devi dire. Se vuoi andare a fondo, lo mettiamo per iscritto in una
-  cartella che resta a te. La chiamo il cervello aziendale.*
-- `02` **Poi costruisco.** *Il sito, il gestionale o l'automazione che serve, e niente di più.
-  Somiglia a come lavorate già, così nessuno deve cambiare mestiere per usarlo.*
-- `03` **Poi resto.** *Nei mesi dopo la consegna lo usate davvero, e viene fuori cosa aggiungere o
-  togliere. Ci lavoro finché l'abito non vi veste.*
-- Bottone: **Vedi come lavoro →**
-
-## 6 · Cosa faccio · *nuovo + copy · pitch*
-
-- H2: **Cosa costruisco.**
-- Le voci dell'offerta, strette, una riga ciascuna: **siti**, **software su misura**,
-  **automazioni con l'AI**, **sistemi interni di gestione**, **ottimizzazione dei processi**, e
-  **il Company Brain**.
-
-**Il Company Brain entra nei servizi.** Chiesto da Emanuele il 20/09/2026, ed è una cosa a cui
-tiene: la costruzione del cervello aziendale del cliente — strategia, offerta, clienti,
-concorrenti — messa per iscritto in una cartella che resta a lui. Non è nuovo nel vault: è già la
-prima voce del [[self/tariffario|tariffario]] e sta dentro il passo `01` del blocco 5. Nuovo è
-che diventa **un servizio con un nome**, invece di una fase del lavoro.
-
-✅ **Si chiama Company Brain, e il nome è deciso.** Parole di Emanuele il 20/09/2026: *«Company
-Brain così si chiama»*. La domanda era se l'inglese reggesse, visto che lo stesso mese
-«bocciaworks» è stato scartato proprio perché i clienti della zona con l'inglese non vanno
-d'accordo. La risposta è che **qui è un prodotto e non un'insegna**: un prodotto può avere un nome
-suo, e il nome dell'insegna resta quello di Emanuele. ⚠️ Nel parlato però resta anche «il cervello
-aziendale», che è come lo chiama lui coi clienti: in pagina conviene che la prima volta compaiano
-tutti e due, `Company Brain` con accanto cosa vuol dire.
-
-**La garanzia.** Chiesta da Emanuele il 20/09/2026: sul sito si deve vedere che il cliente porta
-a casa **un risultato concreto e misurabile**, detto in modo pratico. Due forme diverse:
-
-- **sui sistemi e sui gestionali** — il risultato è il lavoro tolto, e si misura: l'ordine che si
-  cerca invece di rileggerlo, il conto che si fa da solo, il menù che si aggiorna in un posto. È
-  garantibile perché dipende da quello che consegna lui;
-- **sui siti** — parole sue, «un sito imbattibile a livello di design, copy e marketing».
-
-⏸️ **20/09/2026 — la garanzia è stata parcheggiata insieme alla rottamazione**, parole di
-Emanuele: «da vedere bene insieme alla rottamazione». Ha senso, perché sono la stessa leva
-commerciale vista da due lati — cosa ti do e cosa ti prendo indietro — e perché tutte e due
-dipendono dal tariffario rifatto a fasce. Sta in [[self/reference/offerta|offerta]]. Quello che
-segue resta scritto perché è il nodo da sciogliere quando si riprende.
-
-⚠️ **La prima forma regge, la seconda no, e la differenza è tutta nel verbo.** «Ti tolgo il foglio
-degli ordini» è una consegna: o c'è o non c'è, e si verifica il primo giorno. «Imbattibile» è un
-aggettivo, e [[self/reference/tono|tono]] dice che ogni affermazione deve mostrare una differenza
-prima-dopo dimostrabile. Va riscritta in qualcosa che si possa misurare — il tempo di
-caricamento, le richieste che arrivano, quello che il cliente riesce a cambiare da solo — oppure
-diventa la cosa che il visitatore scarta senza leggerla.
-
-⚠️ **E va incastrata con la domanda `06`**, che dice *«mi garantisci più clienti? No, e chi te lo
-garantisce sta vendendo un'altra cosa»*. Le due non si contraddicono se la garanzia riguarda
-**quello che consegni**, non **quello che succede nel mercato dopo**: e allora vanno scritte in
-modo che si vede che è così, una accanto all'altra, non a due schermi di distanza.
-
-⚠️ **Questo blocco è nuovo e serve a due cose.** La prima è che chi arriva senza conoscerlo capisca
-in dieci secondi cosa si compra. La seconda è che oggi **nessuna riga del sito può uscire su
-Google** per quello che vende: i casi non nominano il servizio. Non è una pagina servizi — quella
-resta esclusa — è una striscia dentro la home.
-
-~~I tre sistemi per settore~~ — dal 21/09/2026 non stanno più qui: sono la voce «Prodotti» del menù.
-
-## 7 · Le domande · *V1 · pitch*
-
-Le sette domande del prototipo V1, che Emanuele ha indicato come la cosa migliore dei due file.
-Numerate, ad accordion. La 02 è l'unica rifatta: quella di V1 spiegava «il marketing è un ramo
-obbligatorio», che è il messaggio di agosto e non c'è più.
-
-- `01` **Da dove si parte, di solito?** *Da una cosa che non funziona adesso: le prenotazioni che
-  arrivano solo per telefono, il menù aggiornato a mano, le richieste che si perdono. La prima
-  chiamata serve a capire se ha senso, non a vendere.*
-- `02` **Perché prima vuoi capire cosa vendo?** *Perché il sito è un megafono. Se quello che dici
-  non è chiaro, metterlo online non lo chiarisce: lo fa sentire a più gente. Prima si sistema cosa
-  dici, poi lo si moltiplica.*
-- `03` **Lavori solo con imprese della zona?** *Di solito sì, ed è una scelta. Vedere il posto,
-  parlare con chi ci lavora e capire com'è fatta la giornata cambia il risultato più di qualunque
-  chiamata.*
-- `04` **Perché non hai un listino?** *Perché due lavori che si chiamano «sito» possono essere due
-  lavori diversi. Ti do un numero dopo la prima chiamata, quando so cosa c'è dentro, e quel numero
-  non si muove in corsa.*
-- `05` **Quanto tempo serve?** *Dipende da quanto materiale c'è già. La parte lenta quasi mai è il
-  codice: sono le foto, i testi e le decisioni. Te lo dico all'inizio, con le date.*
-- `06` **Mi garantisci più clienti?** *No, e chi te lo garantisce sta vendendo un'altra cosa. Quello
-  che posso mostrarti è cosa succedeva prima e cosa succede dopo, con i numeri che hai già in casa.*
-- `07` **Dopo la consegna, chi tiene in piedi le cose?** *Tu, se vuoi. Consegno con le istruzioni e
-  faccio vedere come si fa, di persona. Se preferisci che me ne occupi io, si mette per iscritto
-  quanto e per quanto tempo.*
-
-⚠️ **La 07 chiude il confine di «Poi resto»**, quello lasciato aperto dalla
-[[self/reference/convinzioni|convinzione 4]]. Non espone una durata sul sito e dice che il confine
-esiste e sta per iscritto: è la forma che Emanuele voleva, ed era già scritta da lui in V1.
-
-## 8 · Di persona · *copy · pitch*
-
-- H2: **Tra Napoli e il Vesuvio, di persona.**
-- *Sono Emanuele Boccia. Faccio grafica da quando avevo quattordici anni, poi sono venuti i siti,
-  poi il codice, oggi il marketing, e ogni passo contiene quelli prima. Alcuni lavori che vedi qui
-  sono per le aziende della mia famiglia: lì gli errori li pago io.*
-- *Il lavoro lo faccio io, e parli con me dall'inizio alla fine: non c'è nessuno in mezzo che ti
-  riporta quello che ho detto.*
-- **Qui la faccia, piccola.** Non è il ritratto grande di V1: è il formato riconoscimento, per chi
-  lo incontra di persona e poi lo cerca.
-
-## 9 · Chiusura · *V1 + V2 · azione*
-
-- Card: **Partiamo dal problema che c'è adesso.** *Scrivimi cosa non funziona. La prima chiamata
-  serve a capire se ha senso.* Una sola azione: **Scrivimi →**
-
-**Il piede**, col colophon di V2 che vale la pena tenere: `EMANUELE BOCCIA` · siti, software e AI
-su misura · tra Napoli e il Vesuvio · WhatsApp · Instagram · `P. IVA 10693201211` · privacy ·
-cookie. **Niente email nel piede**, deciso il 20/09/2026: i canali sono WhatsApp e il form. E sotto, in monospazio piccolo: i caratteri con la loro licenza, com'è fatto il sito,
-dove sta.
-
-⚠️ **Il colophon non è vezzo da designer**: dice a chi compra siti che questo sito è fatto da
-qualcuno che sa cosa ci ha messo dentro. Su un sito di chiunque altro si toglie; su questo è prova.
+La prima versione, scritta il 20/09/2026 e rivista il 21/09, sta in
+[[projects/personal-brand/sito-home-vecchia|la home del 20 e 21/09]]. È materiale: ci sono il copy dei blocchi
+di allora e le ragioni delle scelte, utili a chi scrive le pagine dei servizi e dei casi studio.

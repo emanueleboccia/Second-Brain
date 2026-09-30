@@ -2,6 +2,64 @@
 
 Aperto il 13/07/2026.
 
+## 28/09/2026 — Il sito è un tema su misura, e sta solo sul server
+
+Correggendo l'orario della sera di Halloween, 21:00 → 21:30, chiesto da Emanuele: le pagine del sito **non hanno
+contenuto in WordPress**, le scrive il tema `masseria-mezzautunno`, e il suo sorgente sul Mac non c'è. Gli orari di
+Zucche stanno in tre file: `functions.php` (le date per Google, riga `array('2026-10-31', '17:00', ...)`),
+`page-zucche-in-masseria.php` (il riquadro degli orari) e `page-domande-frequenti.php`.
+
+- **Si modifica dall'editor dei file del tema di WordPress**, che prima di salvare prova il PHP e non lascia cadere il
+  sito. ⚠️ Il clic su «Aggiorna file» a volte non parte: si controlla che compaia «File modificato con successo» e si
+  rilegge il file, non ci si fida del clic.
+- **WordPress chiede l'accesso a parte**: il pulsante «WordPress admin» di Hostinger si apre in una finestra che le
+  schede di Claude non vedono, e la password non la scrive Claude. Il 28/09 ha fatto l'accesso Emanuele.
+- Dopo la modifica: pagina di Zucche e domande frequenti rilette, 21:30 ovunque, accenti intatti, cache aggiornata.
+- ⚠️ **Senza sorgente, la regola «si lavora dal sorgente» qui non si può seguire**: ogni modifica al tema resta solo sul
+  server. Una copia sul Mac chiuderebbe il buco, ma il 29/09 Emanuele ha detto che non interessa.
+
+## 28/09/2026 — La storia di ringraziamento del primo weekend
+
+Chiesta da Emanuele il 28/09: il drone dell'anno scorso, «dove si vede soltanto il parcheggio pieno di auto», con
+scritto «grazie a tutti per questi primi 2 giorni, ci vediamo il prossimo weekend». Il testo è suo, parola per
+parola. È una storia da 12 s in `3-in-produzione/storie-clip/grazie-primo-weekend/` sull'SSD, con la ricetta.
+Emanuele l'ha approvata e pubblicata lo stesso giorno: sta nel registro `4-pubblicati/2026-09/storie/storie-clip.md`.
+
+- **Il formato è quello del meno 6, «io e te»**: scritta ferma per tutta la durata, centro libero, musica sola. In
+  alto «Grazie a *tutti*» e sotto «per questi primi 2 giorni»; in basso «Ci vediamo» e «il prossimo *weekend*». Le
+  due parole in corsivo sono in Niconne giallo, il resto in HeroLight avorio. La scritta la fa
+  `code/storie-clip/testo_grazie.py`, il montaggio `monta_invito.py`.
+- **Tre riprese del 19/10/2025**, da `2-libreria/riprese-drone/2025-10-19-parco-delle-zucche/`, 4 s l'una col taglio
+  verticale al centro: la 0260 da 63,5 s, dall'alto, poi la 0259 da 1,5 s e la 0256 da 14 s, di sbieco con le file
+  di auto. ⚠️ **Già usate, non si riprendono.** Col parcheggio pieno restano la 0257 e il resto della 0256 e della
+  0259.
+- **La musica è `the_mountain-country` da 55,9 s**, un taglio ogni sei battiti a 89,7 bpm. Era la prova B delle
+  storie del cibo, e l'ho scelta io.
+- ⚠️ **Il parcheggio è del 2025**, e accanto a «questi primi 2 giorni» chi guarda lo prende per questo weekend. Il
+  [[areas/la-masseria-di-mezzautunno/reference/tono|tono]] ammette le foto delle edizioni passate come riprova sociale;
+  gliel'ho detto, e decide lui.
+
+## 28/09/2026 — Le storie dell'Area Food, bocciate e buttate
+
+Tre storie clip del cibo di Zucche (antipasto, pasta e carne) dal girato del 27/09, fra le 15:41 e le 15:46: la
+Sony a7 III più due clip di telefono, il braciere e il piatto sopra il prato delle zucche. Emanuele le aveva divise
+in `00-SCARICO/sony/`, una cartella per storia. Montate senza testo, come aveva chiesto («solo sottofondo e
+ritagli»), coi tagli sul battito e la traccia scelta da me dopo il suo «metti tu le tracce».
+
+Viste finite, Emanuele: «fanno schifo, elimina tutte queste clip sia le grezze che quelle che hai fatto, sono venute
+troppo male». Il 28/09 sono andate nel Cestino dell'SSD le tre cartelle del girato, con dentro anche le due clip di
+telefono, e le storie di `3-in-produzione/storie-clip/area-food/`. Dal Cestino si recuperano finché non si svuota.
+
+- ⚠️ **Il problema era il girato, e la correzione non è bastata.** La Sony era sovraesposta di circa uno stop, con un
+  velo lattiginoso sulle ombre e il fuoco che andava e veniva. La C0411 era sfocata dall'inizio alla fine, e le clip
+  dell'antipasto erano state ricompresse a 14 Mbps. Curva, bianco neutralizzato e ritaglio stretto migliorano un
+  fotogramma fermo; in movimento restano morbidezza e bianchi bruciati. L'errore di metodo è nel
+  [[correction|correction log]], gli script in [[code/storie-clip/README|code/storie-clip]], cartella
+  `recupero-sony/`.
+- **Per le storie del cibo niente testo**: solo musica e tagli, detto da Emanuele.
+- **Le 14 clip del drone del 27/09**, in `00-SCARICO/dji`, non si usano: «lasciale stare, non bastano», detto da
+  Emanuele il 28/09.
+
 ## 27/09/2026 — «Il tour di Amin», il reel parlato
 
 Girato da Emanuele la mattina del 27/09 fra le 11:05 e le 11:16. Amin fa da guida al parco di Zucche col suo
@@ -11,7 +69,8 @@ in `code/remotion-test/src/amin/` (composizione `ZuccheIlTourDiAmin`), con gli s
 `scripts/amin-prepara.py`. Le clip sono in `1-eventi/momenti/2026-09-27-tour-di-amin/` sull'SSD: le 18 del reel
 in `usate/` col manifesto, libere le due del laboratorio.
 
-**La versione da pubblicare è la 2**, 54 s, in `3-in-produzione/reel-tour-di-amin/tour-di-amin-v2.mp4`. La prima
+**La versione pubblicata è la 2**, 54 s, uscita il 27/09 e archiviata in `4-pubblicati/2026-09/2026-09-27-reel-il-tour-di-amin/`
+sull'SSD; il sorgente resta in `3-in-produzione/reel-tour-di-amin/`. La prima
 Emanuele l'ha trovata «PERFETTA», poi ha chiesto due cose: lo spritz detto una volta sola, e le prime quattro
 battute scritte come le pronuncia Amin.
 
@@ -240,7 +299,8 @@ Dal listino delle feste fatto su Canva a luglio: **il 351 616 5734 del brand kit
 
 **I risultati finali sono otto**, detti da Emanuele lo stesso giorno: la mappa, la proposta per le scuole, l'informativa,
 il regolamento, le feste nel parco di tre ore, le feste riservate, la locandina della Pumpkin Night e quella della serata
-di Halloween. Quelli pronti stanno tutti insieme in `3-in-produzione/_da-mandare/`, da mandare nel gruppo.
+di Halloween. Quelli pronti stanno tutti insieme in `3-in-produzione/_da-mandare/`: **mandati nel gruppo**, detto da
+Emanuele il 29/09/2026 («già li ho mandati tempo fa»).
 
 - **La mappa, sentita Angela**: il 20, la Corsa delle zucche, va dove stava il vecchio 18, e le casette del Villaggio
   dei contadini si spostano in I10, un po' divise. Emanuele ha chiesto di ridisegnarle con Higgsfield: due zone rifatte
@@ -573,9 +633,8 @@ Rachele Vitarelli di **Slesh** ha condiviso un foglio per configurare l'evento n
   si legge anche sullo sfondo scuro dell'app; `logo-trasparente.png` di Zucche come logo orizzontale;
   `GRS01302.JPG` e `GRS01293.JPG` del 2025 come copertine, scelte fra quelle senza persone.
 
-⚠️ **Da controllare quando Slesh manda l'anteprima:** il logo orizzontale ha le scritte verde oliva
-su fondo trasparente, e sullo sfondo scuro dell'app potrebbe leggersi poco. Se succede, serve una
-versione chiara.
+~~Da controllare quando Slesh manda l'anteprima~~: **chiuso il 28/09/2026**, «l'app di Slesh non ci interessa».
+Il dubbio era il logo verde oliva sullo sfondo scuro dell'app.
 
 ⚠️ **Il foglio non ha un campo per le date**, che nell'app compaiono sotto il nome dell'evento: per
 ora stanno dentro la descrizione.

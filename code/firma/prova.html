@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firma · prova</title>
+<link rel="icon" href="data:,">
+<style>
+  /* La pagina di prova. La firma non è scritta qui: si legge da firma.html e si
+     mette in ogni posto segnato con data-firma, così si prova il blocco vero. */
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 40px 24px 80px; background: #0E0E0C; color: #EEEBDA;
+         font: 15px/1.5 Helvetica, Arial, sans-serif; }
+  .prova { max-width: 960px; margin: 0 auto; }
+  .prova h1 { margin: 0 0 6px; font-size: 22px; line-height: 1.2; }
+  .prova h2 { margin: 56px 0 6px; font-size: 13px; letter-spacing: .24em; text-transform: uppercase; color: #B5B2A4; }
+  .prova p { margin: 0 0 18px; max-width: 62ch; color: #B5B2A4; }
+  .prova code { font: 13px/1 ui-monospace, Menlo, monospace; color: #EEEBDA; }
+  .prova-avviso { display: none; margin: 24px 0; padding: 14px 16px; border: 1px solid #75746A; border-radius: 8px; color: #EEEBDA; }
+  .prova-nota { margin: 10px 0 0; font-size: 13px; color: #75746A; }
+  .prova b { display: block; font: 700 11px/1 ui-monospace, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; color: #75746A; }
+
+  /* i footer finti */
+  .piede { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
+           margin: 0 0 14px; padding: 22px 26px; border-radius: 10px; font-size: 14px; line-height: 1.6; }
+  .piede small { font-size: 13px; }
+  .piede--scuro { background: #15171C; color: #C9CED8; font-family: Georgia, 'Times New Roman', serif; }
+  .piede--chiaro { background: #F6F6F3; color: #2B2B28; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  .piede--colorato { background: #F3EBDD; color: #C2541B; font-family: 'Trebuchet MS', 'Gill Sans', sans-serif; }
+  .piede--ostile { background: #FFFFFF; color: #3C434A; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; }
+
+  /* Il footer ostile: quello che un tema WordPress fa di solito a link, svg e span.
+     Le ultime due regole hanno un id davanti, come #colophon nei temi veri. */
+  .ostile a { color: #0073AA; text-decoration: underline; font-weight: 700; font-style: italic;
+              box-shadow: inset 0 -2px 0 #0073AA; border-bottom: 1px dotted; padding: 2px 4px;
+              background: rgba(0, 115, 170, .1); transition: all .3s ease; }
+  .ostile a:hover, .ostile a:focus { color: #D63638; text-decoration: none; background: #FFF3A3; outline: thin dotted; }
+  .ostile a[target="_blank"]::after { content: " \2197"; }
+  .ostile svg { display: inline-block; width: 1em; max-width: 100%; height: auto; margin: 0 .25em;
+                vertical-align: middle; overflow: hidden; fill: #D63638; stroke: #0073AA; stroke-width: 2px; }
+  .ostile span { display: block; float: left; margin: 0 0 1em; padding: 3px; color: #D63638; background: #FFF3A3;
+                 font-size: 18px; font-style: italic; line-height: 2; letter-spacing: 0; text-transform: none; }
+  #colophon a { color: #0073AA; text-decoration: underline; font-weight: 700; box-shadow: inset 0 -2px 0 #0073AA; }
+  #colophon a:hover, #colophon a:focus { color: #D63638; background: #FFF3A3; outline: thin dotted; }
+
+  /* le file di confronto */
+  .fila { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .casella { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; padding: 20px 22px;
+             border: 1px solid #2A2A24; border-radius: 10px; background: #191915; }
+
+  /* la barra laterale di un gestionale, per la variante sola: la firma si sposta
+     dal suo contenitore, non dal link, che azzera i margini che riceve */
+  .barra { display: flex; flex-direction: column; align-items: center; gap: 12px; width: 56px; height: 220px;
+           padding: 14px 0; border-radius: 10px; background: #1B2430; color: #D7DEE8; }
+  .barra i { width: 22px; height: 22px; border-radius: 6px; background: currentColor; opacity: .18; }
+  .barra__fondo { margin-top: auto; line-height: 0; }
+
+  /* la riga stretta */
+  .strette { display: flex; flex-wrap: wrap; gap: 14px 24px; }
+  .strette > div { min-width: 0; max-width: 100%; }
+  .strette b { margin: 0 0 10px; }
+  .stretta { width: 320px; max-width: 100%; border: 1px dashed #75746A; border-radius: 10px; overflow: hidden; }
+  .stretta .piede { flex-direction: column; justify-content: center; margin: 0; padding: 18px 16px; border-radius: 0; text-align: center; }
+</style>
+</head>
+<body>
+<main class="prova">
+
+  <h1>La firma, in prova</h1>
+  <p>Il blocco è quello di <code>firma.html</code>, letto al volo e messo in ogni riquadro. Da guardare: a riposo, col mouse sopra, e col tasto Tab. Quando la frase lascia il posto al nome, il resto del footer non si deve muovere.</p>
+  <div class="prova-avviso" id="avviso">Questa pagina va aperta da un server sulla cartella, non dal file: <code>python3 -m http.server 4174 --bind 127.0.0.1</code> e poi <code>http://127.0.0.1:4174/prova.html</code>.</div>
+
+  <h2>Nei footer</h2>
+  <p>Prende il colore del testo in cui sta, e il carattere del sito.</p>
+
+  <footer class="piede piede--scuro" id="piede-scuro">
+    <small>© 2026 Studio Esempio · P. IVA 01234567890</small>
+    <span data-firma></span>
+  </footer>
+
+  <footer class="piede piede--chiaro" id="piede-chiaro">
+    <small>© 2026 Bottega Esempio · Privacy · Cookie</small>
+    <span data-firma></span>
+  </footer>
+
+  <footer class="piede piede--colorato" id="piede-colorato">
+    <small>© 2026 Forno Esempio · via Roma 1, Napoli</small>
+    <span data-firma></span>
+  </footer>
+
+  <footer class="piede piede--ostile ostile" id="colophon">
+    <small>© 2026 Tema Ostile · <a href="#colophon" target="_blank" rel="noopener">Privacy policy</a></small>
+    <span data-firma></span>
+  </footer>
+  <p class="prova-nota">Nell'ultimo il tema colora i link di blu, li sottolinea tre volte, ci appende una freccia, e dà misure e colori a svg e span. «Privacy policy» è un link qualunque dello stesso footer, per confronto.</p>
+
+  <h2>Le frasi</h2>
+  <p>La cella è larga quanto il nome, che è la scritta più lunga: a riposo la frase sta appoggiata alla moneta.</p>
+  <div class="fila" id="frasi">
+    <div class="casella"><b>Costruito da</b><span data-firma data-frase="Costruito da"></span></div>
+    <div class="casella"><b>Fatto da</b><span data-firma data-frase="Fatto da"></span></div>
+    <div class="casella"><b>Sito di</b><span data-firma data-frase="Sito di"></span></div>
+    <div class="casella"><b>Sistema di</b><span data-firma data-frase="Sistema di"></span></div>
+  </div>
+
+  <h2>Le varianti</h2>
+  <p>La normale gira sempre. La quieta sta ferma e fa il suo giro solo al passaggio. La sola è la moneta senza scritta, per gli spazi stretti. La stretta è larga quanto la frase, e al passaggio il nome esce verso sinistra.</p>
+  <div class="fila" id="varianti">
+    <div class="casella"><b>normale</b><span data-firma></span></div>
+    <div class="casella"><b>firma-eb--quieta</b><span data-firma data-variante="quieta"></span></div>
+    <div class="casella"><b>firma-eb--sola</b><span data-firma data-variante="sola"></span></div>
+    <div class="casella" style="align-items: flex-end"><b>firma-eb--stretta</b><span data-firma data-variante="stretta"></span></div>
+    <div class="casella"><b>sola, in fondo a una barra</b>
+      <div class="barra" id="barra"><i></i><i></i><i></i><i></i><span class="barra__fondo"><span data-firma data-frase="Sistema di" data-variante="sola"></span></span></div>
+    </div>
+  </div>
+
+  <h2>Le misure</h2>
+  <p>La moneta si regola con <code>--firma-misura</code>: qui a 20, 22 e 24 px.</p>
+  <div class="fila" id="misure">
+    <div class="casella" style="--firma-misura: 20px"><b>20 px</b><span data-firma></span></div>
+    <div class="casella"><b>22 px, di suo</b><span data-firma></span></div>
+    <div class="casella" style="--firma-misura: 24px; --firma-testo: 13px"><b>24 px, testo a 13</b><span data-firma></span></div>
+  </div>
+
+  <h2>A 320 px</h2>
+  <p>Il telefono più stretto: la firma sta su una riga sola e non va a capo. In un footer centrato la normale sembra spostata verso destra, perché la cella tiene il posto al nome: lì va la stretta.</p>
+  <div class="strette">
+    <div><b>normale</b>
+      <div class="stretta" id="stretta">
+        <footer class="piede piede--chiaro">
+          <small>© 2026 Bottega Esempio · P. IVA 01234567890</small>
+          <span data-firma></span>
+        </footer>
+      </div>
+    </div>
+    <div><b>firma-eb--stretta</b>
+      <div class="stretta" id="stretta-centrata">
+        <footer class="piede piede--chiaro">
+          <small>© 2026 Bottega Esempio · P. IVA 01234567890</small>
+          <span data-firma data-variante="stretta"></span>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+  // Solo la pagina di prova usa uno script: la firma non ne ha.
+  fetch('firma.html')
+    .then(function (risposta) { if (!risposta.ok) throw new Error(risposta.status); return risposta.text(); })
+    .then(function (testo) {
+      var foglio = new DOMParser().parseFromString(testo, 'text/html');
+      var stile = foglio.querySelector('style');
+      var firma = foglio.querySelector('a.firma-eb');
+      document.querySelectorAll('[data-firma]').forEach(function (posto, i) {
+        var copia = document.importNode(firma, true);
+        if (posto.dataset.frase) {
+          // la frase sta in due punti: nella scritta e nell'etichetta per chi legge lo schermo
+          var scritta = copia.querySelector('.firma-eb__frase');
+          copia.setAttribute('aria-label', copia.getAttribute('aria-label').replace(scritta.textContent, posto.dataset.frase));
+          scritta.textContent = posto.dataset.frase;
+        }
+        (posto.dataset.variante || '').split(' ').filter(Boolean).forEach(function (v) { copia.classList.add('firma-eb--' + v); });
+        // lo stile una volta sola e nel corpo della pagina, come quando si incolla nel footer
+        if (i === 0) posto.before(document.importNode(stile, true));
+        posto.replaceWith(copia);
+      });
+      document.documentElement.dataset.pronta = 'si';
+    })
+    .catch(function () { document.getElementById('avviso').style.display = 'block'; });
+</script>
+</body>
+</html>

@@ -37,6 +37,14 @@
       "port": 8081
     },
     {
+      "name": "room84",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Desktop/progetti/room84/servi.mjs"
+      ],
+      "port": 8084
+    },
+    {
       "name": "gestionale-masseria",
       "runtimeExecutable": "php",
       "runtimeArgs": [
@@ -80,6 +88,28 @@
         "cd '/Users/emanueleboccia/Documents/ChatGPT/gestionale auto/platform/public' && exec env APP_ENV=production APP_DEBUG=false QINTA_PUBLIC_DEMO=true php -d upload_max_filesize=8M -d post_max_size=64M -S 127.0.0.1:8020 ../vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php"
       ],
       "port": 8020
+    },
+    {
+      "name": "eb-site-compilato",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Desktop/progetti/eb-site/strumenti/servi.mjs"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "firma",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4174",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "/Users/emanueleboccia/Second Brain/code/firma"
+      ],
+      "port": 4174
     }
   ]
 }

@@ -112,7 +112,7 @@
       "_nota": "La colonna 💡 Idee non entra MAI nel briefing, in nessuna lista. Un'idea non è un impegno, e metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è.",
       "esclusa_sempre": true
     },
-    "ultimo_briefing": "2026-09-27T10:07:00Z",
+    "ultimo_briefing": "2026-09-28T08:33:00Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
   "trello": {
@@ -143,9 +143,9 @@
   },
   "notion": {
     "viste": {
-      "_nota": "Dal 24/09/2026 il briefing legge Notion da queste viste, con notion-query-data-sources in modalità «view» e l'URL qui sotto, non con l'SQL. L'SQL ha una quota per workspace che il 24/09 si è esaurita a metà giornata, e un briefing che dipende da una quota prima o poi esce vuoto; le viste non ce l'hanno. I filtri li fa la vista, il briefing conta solo i giorni. Sono le quattro della Home più «Tutte» delle trattative: quello che Emanuele guarda su Notion e quello che gli viene letto la mattina restano la stessa cosa.",
-      "trattative": "https://app.notion.com/p/9542043164e44f32a68cc2fab0356995?v=c4acd7325b7144eb8b11dcba27170b46",
-      "_nota_trattative": "La vista «Tutte» del database Trattative, senza filtri. Le aperte si scelgono qui: Fase trattativa in stati_aperti e Archivia non spuntata. È l'unica che non sta sulla Home, perché la Home non ha le trattative aperte.",
+      "_nota": "Dal 24/09/2026 il briefing legge Notion da queste viste, con notion-query-data-sources in modalità «view» e l'URL qui sotto, non con l'SQL. L'SQL ha una quota per workspace che il 24/09 si è esaurita a metà giornata, e un briefing che dipende da una quota prima o poi esce vuoto; le viste non ce l'hanno. I filtri li fa la vista, il briefing conta solo i giorni. Sono le quattro della Home più «Aperte» delle trattative: quello che Emanuele guarda su Notion e quello che gli viene letto la mattina restano la stessa cosa.",
+      "trattative": "https://app.notion.com/p/9542043164e44f32a68cc2fab0356995?v=3e9744e2ecd981949e7d000c9060f1f7",
+      "_nota_trattative": "Dal 28/09/2026 la vista «Aperte» del database Trattative: Fase trattativa In qualifica, Preventivo inviato o In negoziazione, Archivia non spuntata, creata dal 2026, dalla più vecchia. Prima il briefing leggeva «Tutte», che portava trentatré trattative dal 2021 per trovarne una aperta: era uno dei motivi per cui ci metteva otto minuti. «Tutte» resta su Notion per chi la guarda a mano.",
       "lavori_in_corso": "https://app.notion.com/p/9d3b094dadb0425a989aef290b02a159?v=7986ed51e8e1462c91e737c9c0802032",
       "da_incassare": "https://app.notion.com/p/9e3cb4f6ff454cc8a3a5aaed81591584?v=b38d3290ae324975bc229bb43f6101ed",
       "rinnovi_in_arrivo": "https://app.notion.com/p/3e5744e2ecd9817aa037d9a8855fae9e?v=3e5744e2ecd981189071000c8ae9749f",

@@ -351,8 +351,8 @@ Le skill in `code/skills/` sono procedure scritte, non strumenti che Claude Code
 nessuna parte da sé, e va invocata leggendo il suo `SKILL.md`. Per il journal questo non basta,
 perché è la skill che deve partire **prima** che io chieda qualcosa.
 
-**Se il mio primo messaggio della sessione è un saluto, esegui il comando «buongiorno» di
-[`code/skills/journal/SKILL.md`](code/skills/journal/SKILL.md).** Vale per qualunque forma:
+**Se il mio primo messaggio della sessione è un saluto, esegui il buongiorno di
+[`code/skills/journal/buongiorno.md`](code/skills/journal/buongiorno.md).** Vale per qualunque forma:
 «buongiorno», «buongiornissimo», «ciao», «ehi», «iniziamo», «si parte», «eccomi», «dove eravamo
 rimasti». Vale anche se al saluto è attaccata un'altra richiesta: prima il briefing, poi quella.
 Non aspettare che dica il nome della skill — se lo devo dire io, la skill non serve a niente.
@@ -360,8 +360,13 @@ Non aspettare che dica il nome della skill — se lo devo dire io, la skill non 
 Non è un saluto un primo messaggio che parte con un lavoro preciso — «sistemami questo file»,
 «che ore ho libere giovedì». Lì si fa quello che chiedo e basta.
 
-Allo stesso modo, quando faccio capire che per oggi ho finito — comunque lo dica — parte il
-comando «chiudi sessione» della stessa skill.
+Allo stesso modo, quando faccio capire che per oggi ho finito — comunque lo dica — parte la
+chiusura di [`code/skills/journal/chiusura.md`](code/skills/journal/chiusura.md).
+
+**Tutti e due devono essere veloci.** Si legge solo il loro file, non la skill intera né il correction
+log. Il buongiorno esce in tre giri di strumenti e in tre minuti; la chiusura mi fa una domanda sola,
+con le tre righe e tutto quello che scriveresti fuori, e col mio ok fa tutto di fila fino al push.
+Deciso il 28/09/2026, dopo un briefing da otto minuti e chiusure da tre o quattro scambi.
 
 ## La chiusura della sessione e il backup
 
@@ -499,6 +504,10 @@ cose che puoi controllare tu: se una richiede un dato che non hai, dimmelo invec
 `correction.md` alla radice raccoglie gli errori che non vanno ripetuti. Quando ti correggo su
 qualcosa che potrebbe ricapitare, scrivici una riga: cosa è successo, cosa fare la prossima
 volta. Leggilo prima di eseguire una skill.
+
+Il buongiorno e la chiusura fanno eccezione, dal 28/09/2026: le lezioni che li riguardano stanno già
+nei loro file, e lì il log intero non si rilegge. Una lezione nuova su quei due momenti si scrive come
+regola nel loro file, e nel log resta il fatto.
 
 ## File memory
 

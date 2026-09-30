@@ -1,0 +1,35 @@
+{
+  "durata": 41.85,
+  "frasi": [
+    {
+      "id": "apertura",
+      "inizio": 0.0,
+      "fine": 8.87
+    },
+    {
+      "id": "foglio",
+      "inizio": 9.17,
+      "fine": 11.92
+    },
+    {
+      "id": "camere",
+      "inizio": 12.17,
+      "fine": 17.92
+    },
+    {
+      "id": "recensioni",
+      "inizio": 18.22,
+      "fine": 24.19
+    },
+    {
+      "id": "disegnato",
+      "inizio": 24.54,
+      "fine": 29.85
+    },
+    {
+      "id": "risultato",
+      "inizio": 34.05,
+      "fine": 35.85
+    }
+  ]
+}

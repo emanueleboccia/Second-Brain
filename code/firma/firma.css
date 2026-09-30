@@ -1,0 +1,165 @@
+/* ==========================================================================
+   Firma di Emanuele Boccia
+   Una frase, poi il monogramma EB nel cerchio che gira come una moneta.
+   Si mette nel footer dei siti e dei sistemi, e manda a emanueleboccia.it.
+
+   Questo file è la fonte dello stile. firma.html, firma.php e firma.blade.php
+   ne portano dentro una copia stretta: si rifanno con  python3 componi.py
+
+   Quattro cose si regolano da fuori, su un contenitore della firma:
+     --firma-misura    il lato della moneta        (22px, fra 20 e 24)
+     --firma-testo     il corpo della frase        (12px, fra 12 e 13)
+     --firma-stacco    lo spazio fra i due         (8px)
+     --firma-opacita   quanto è spenta a riposo    (.7)
+   ========================================================================== */
+
+/* Il link. «all: unset» toglie di mezzo quello che il tema dà ai link, e la
+   classe scritta due volte lo fa pesare più di «.footer a». Le sette righe con
+   !important sono quelle che i temi impongono ai link del footer con un id
+   davanti (#colophon a, #footer-info a): lì la specificità non basta. */
+.firma-eb.firma-eb {
+  all: unset;
+  display: inline-flex !important;
+  align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+  opacity: var(--firma-opacita, .7);
+  transition: opacity .3s;
+}
+
+/* Un'icona appesa dal tema ai link che aprono una scheda nuova finirebbe dopo la moneta. */
+.firma-eb::before,
+.firma-eb::after {
+  content: none !important;
+}
+
+/* Le due scritte stanno una sopra l'altra nella stessa cella: la cella è larga
+   quanto la più lunga, così quando si scambiano il footer non si muove.
+   Il carattere è quello del sito; qui si decidono corpo, peso e spaziatura. */
+.firma-eb .firma-eb__testo {
+  all: unset;
+  position: relative;
+  display: grid;
+  justify-items: end;
+  margin-right: var(--firma-stacco, 8px);
+  font-size: var(--firma-testo, 12px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.firma-eb .firma-eb__frase,
+.firma-eb .firma-eb__nome {
+  all: unset;
+  grid-area: 1 / 1;
+  transition: opacity .3s;
+}
+
+.firma-eb .firma-eb__nome {
+  opacity: 0;
+}
+
+/* La scena dà la profondità, la moneta gira, le due facce sono uguali:
+   quella dietro è già voltata, così girando si legge sempre EB e mai il riflesso. */
+.firma-eb .firma-eb__scena {
+  all: unset;
+  display: block;
+  flex: none;
+  width: var(--firma-misura, 22px);
+  height: var(--firma-misura, 22px);
+  perspective: calc(var(--firma-misura, 22px) * 5);
+}
+
+.firma-eb .firma-eb__moneta {
+  all: unset;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  rotate: y 0deg;
+  animation: firma-eb-gira 9s linear infinite;
+}
+
+.firma-eb .firma-eb__faccia {
+  all: unset;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.firma-eb .firma-eb__faccia--dietro {
+  transform: rotateY(180deg);
+}
+
+@keyframes firma-eb-gira {
+  to { transform: rotateY(360deg); }
+}
+
+/* Al passaggio del mouse e al focus da tastiera: piena, col nome al posto della
+   frase, e un giro svelto che si somma a quello lento. All'uscita il giro non
+   torna indietro: 360 gradi e zero sono la stessa posizione. */
+.firma-eb:is(:hover, :focus-visible) {
+  opacity: 1;
+}
+
+.firma-eb:is(:hover, :focus-visible) .firma-eb__frase {
+  opacity: 0;
+}
+
+.firma-eb:is(:hover, :focus-visible) .firma-eb__nome {
+  opacity: 1;
+}
+
+.firma-eb:is(:hover, :focus-visible) .firma-eb__moneta {
+  rotate: y 360deg;
+  transition: rotate .8s ease;
+}
+
+.firma-eb:focus-visible {
+  outline: 2px solid currentColor !important;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+/* Quieta: ferma a riposo, fa il suo giro solo al passaggio. */
+.firma-eb--quieta .firma-eb__moneta {
+  animation: none;
+}
+
+/* Sola: resta la moneta. Il nome lo dice l'etichetta del link a chi legge lo schermo. */
+.firma-eb--sola .firma-eb__testo {
+  display: none;
+}
+
+/* Stretta: il link è largo quanto la frase, non quanto il nome, che al passaggio
+   esce verso sinistra. Per i footer centrati, dove la cella larga fa sembrare
+   la firma spostata. Vuole del posto libero prima della frase. */
+.firma-eb--stretta .firma-eb__nome {
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+}
+
+/* Chi ha chiesto meno movimento la vede ferma, di fronte. */
+@media (prefers-reduced-motion: reduce) {
+  .firma-eb .firma-eb__moneta {
+    animation: none !important;
+    transition: none !important;
+  }
+}

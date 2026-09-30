@@ -7,7 +7,7 @@ tags:
   - qualita
 status: attivo
 created: 2026-08-21
-updated: 2026-09-24
+updated: 2026-09-28
 ---
 
 # Definizione di fatto — Journal
@@ -43,6 +43,9 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
   massima buona per chiunque. Una riga, due al massimo.
 - È partito **da un saluto**, senza che la skill fosse nominata, e **l'audio è stato fatto** senza
   che lo chiedesse.
+- È uscito **in tre giri di strumenti**, leggendo [[code/skills/journal/buongiorno|la procedura del
+  mattino]] e non la skill intera né il correction log, e **il testo è arrivato prima dell'audio**.
+  Nessun controllo fuori procedura, se nessuna nota segnalava un rischio per oggi.
 - Ogni cosa nominata esiste, letta adesso, e **fuori dal vault non è stato scritto niente**: le sole scritture ammesse sono `ticktick.ultimo_briefing` e l'mp3 in `workspace/journal/audio/`.
 
 **L'audio del buongiorno — il passo 9, non un comando**
@@ -72,9 +75,9 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 
 **«chiudi sessione» e «fine giornata» — le note di diario**
 
-- Il check di uscita ha chiesto, **per ogni task emersa**, in quale delle cinque destinazioni va —
-  Personal Brand, Personale, Formazione, una Digitale, o la colonna Idee — e nessuna è finita in
-  una lista di Raffaele.
+- Il check di uscita ha proposto, **per ogni task emersa**, una delle cinque destinazioni —
+  Personal Brand, Personale, Formazione, una Digitale, o la colonna Idee — dentro il messaggio unico
+  della [[code/skills/journal/chiusura|chiusura]], e nessuna è finita in una lista di Raffaele.
 - Il nome del file è esatto: `sessione-<YYYY-MM-DD>.md` oppure `<YYYY-MM-DD>.md`, con la data
   vera di oggi.
 - Il frontmatter ha tutte e sette le chiavi: `title`, `summary`, `tags`, `status`, `created`,
@@ -100,7 +103,10 @@ prima di consegnare: se una non torna, si corregge e si riverifica.
 - Quello che è emerso è stato **elencato a Emanuele**, non scritto di iniziativa.
 - Di ogni scrittura proposta è stato mostrato il **testo esatto** prima di eseguirla: titolo
   della task con data e ora, o campo di Notion col valore nuovo.
-- Niente è stato scritto su TickTick o su Notion senza un ok esplicito, una cosa alla volta.
+- Niente è stato scritto su TickTick o su Notion senza un ok esplicito: **uno solo**, dato sul
+  messaggio che mostrava insieme le tre righe e tutte le scritture.
+- **A Emanuele è stata fatta una domanda sola.** Dopo il suo ok tutto è andato di fila, fino al push
+  e al messaggio di chiusura.
 - Ogni task completata è stata prima spostata in **⏳ In corso**: nessuna risulta spuntata
   direttamente da ⌛️ Non iniziato. Per le sotto-task è stata verificata anche la colonna
   della task padre.

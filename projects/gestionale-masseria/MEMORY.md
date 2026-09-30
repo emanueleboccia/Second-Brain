@@ -5,6 +5,56 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 28/09/2026 — Il server ripulito, e i Conti pronti senza il modulo
+
+Chiesto da Emanuele: «la pagina dei conti per il gestionale ok», il modulo delle scuole no, e «risolvi questi
+problemi che hai detto del gestionale sul server».
+
+- **Il cron di `schedule:run` è tolto.** Si fermava in errore a ogni giro, perché su Hostinger lo scheduler non
+  gira. Restano i due che servono, `campagne:invia` ogni minuto e `campagne:posta` ogni dieci. Subito dopo la
+  Manutenzione diceva «ultimo giro dell'invio oggi alle 20:25».
+- **I 22 zip dei caricamenti non sono più in `public_html`**, dove restano `app/`, `web/` e `default.php`. ⚠️ Nella
+  conferma del gestore file di Hostinger la casella «Skip trash bin and delete immediately» **parte spuntata**: l'ho
+  tolta prima di confermare, ma il Cestino (`.h5g/.trash`) poi risultava vuoto, quindi probabilmente sono cancellati
+  del tutto. Erano solo pacchetti di caricamento: il loro contenuto sta in `app/`, in `web/` e nella copia sul Mac.
+- **Il modulo della brochure resta spento**: «non so se conviene creare il modulo, per ora c'è whatsapp diretto e
+  sembra star funzionando». Nel codice sul Mac c'è l'interruttore `richieste_dal_sito` in `config/masseria.php`,
+  spento, letto dal middleware `RichiesteDalSito`: il modulo e la pagina delle richieste rispondono 404, e nel menu
+  la voce non c'è. Passano tutte le 205 prove. Come si riaccende sta nel README del codice.
+- **I Conti sono online dalle 20:50 circa**, col «procedi con il resto riguardo i conti» di Emanuele (il primo
+  tentativo l'aveva fermato il controllo dei permessi come rilascio in produzione, senza il suo sì). Prima
+  `css/app.css` in `web/css` con «Replace», poi lo zip di `app`, `resources`, `routes` e `config/masseria.php`,
+  caricato in `public_html/app` ed estratto **dalla cartella madre `public_html`, col nome cartella «app» e
+  «Overwrite» acceso**: il Gestore file vuole per forza un nome. Niente database e **niente migrazione delle
+  richieste**, che in sospeso manderebbe tutti su «Stiamo aggiornando». Riletti sul sito vero: la pagina Conti coi
+  numeri veri, il menu con «Conti» e senza «Richieste dal sito», il modulo e la pagina delle richieste che
+  rispondono «Questa pagina non c'è». Lo zip caricato poi è stato tolto. Su TickTick la task dei Conti è chiusa e
+  le due del modulo sono in 💡 Idee.
+
+## 28/09/2026, sera — Le notifiche delle date nuove
+
+Chiesto da Emanuele: «un sistema di notifiche all'app, che quando selene aggiunge magari una gita o evento, esce la
+notifica a tutti». Poi: «solo le date nuove», «a tutti», e alla tabella per i telefoni: «serve per forza? metti solo
+un avviso appena si apre l'app di acconsentire le notifiche».
+
+- **Niente tabella**: il server deve ricordarsi quali telefoni hanno detto sì, e li tiene in un file,
+  `storage/app/private/notifiche/iscrizioni.json`. Nessuna migrazione, quindi nessun «Stiamo aggiornando».
+- **L'avviso compare all'apertura dell'app**, in cima alla pagina, con «Attiva le notifiche» e «Non ora» (che lo
+  nasconde tre giorni). Il permesso lo chiede il tasto: i telefoni la richiesta la mostrano solo dopo un tocco.
+  ⚠️ **Sull'iPhone le notifiche arrivano solo dall'app aggiunta alla schermata Home**: in Safari l'avviso spiega come
+  si fa.
+- **Il messaggio**: «Nuova gita · Scuola Girasole», e sotto il giorno, le persone e chi l'ha aggiunta. Il tocco apre la
+  data. Va a tutti tranne chi l'ha inserita, e a chi ha ancora l'accesso.
+- **Senza librerie**: cifratura e firma le fa OpenSSL. Le 7 prove nuove confrontano la cifratura con l'esempio della
+  RFC 8291 byte per byte, e il servizio di Google ha accettato una notifica vera mandata dal Mac (201). Passano tutte
+  le 212 prove. Com'è fatto sta nel README del codice.
+- **Online dalle 21:35 circa**, col «vai» di Emanuele. Prima i tre file pubblici caricati uno per uno con «Replace»
+  (`js/notifiche.js`, `sw.js`, `css/app.css`), poi lo zip di `app`, `resources` e `routes`, estratto come i Conti
+  e poi tolto dal server. Riletto sul sito vero: l'avviso compare in cima al calendario, `notifiche.js` risponde, il
+  service worker ha la parte delle notifiche, e alla prima pagina il server ha creato da solo `vapid.json`.
+- **Da fare per chi la usa**: ognuno apre il gestionale una volta e tocca «Attiva le notifiche». Chi ha l'iPhone
+  prima lo aggiunge alla schermata Home e lo apre da lì. Finché nessuno si iscrive, non parte niente.
+
 ## 26/09/2026 — I Conti, e il modulo della brochure nella pagina Scuole
 
 Due richieste di Emanuele, scelte fra le funzioni proposte: «il 6 mi piace, una sezione apposita per il lato
@@ -152,8 +202,8 @@ marketing». E poi le liste: «solitamente nei software di email marketing sono 
   stato spiegato che arrivano solo a chi ha salvato il numero della Masseria, con lo stesso testo per tutti, e
   che dal 2025 WhatsApp limita i messaggi a chi non risponde mai. Il gestionale non le può mandare, al massimo
   preparare i contatti da caricare sul telefono. Risposta: «non la pensare sta cosa, rimaniamo così per ora».
-- **Restano da fare**: le automazioni (il richiamo da solo a chi non ha aperto) e la prova A/B sull'oggetto. Il
-  tetto per tutta la casella è fatto, dentro il ritmo unico.
+- **Le automazioni (il richiamo da solo a chi non ha aperto) e la prova A/B sull'oggetto: non per ora**, detto da
+  Emanuele il 28/09/2026. Il tetto per tutta la casella è fatto, dentro il ritmo unico.
 
 ## 25/09/2026 — La casella collegata, e due correzioni prima della partenza
 
@@ -293,8 +343,9 @@ maestre»**, dove ogni scheda è una scuola e le maestre sono le sue referenti, 
   16px (sotto, l'iPhone ingrandisce la pagina), e «Con una maestra» sta accanto al conteggio. «Tutte le
   province» diventa «Ogni provincia», e la ricerca dice «Scuola, istituto o maestra», che sul telefono non
   si taglia.
-- **Resta da fare:** sapere da Selene o da Lia Amato quale plesso dell'IC D'Avino viene in gita, e unire la
-  scheda; i contatti delle maestre dell'anno scorso, che Emanuele manda appena li ha. Le campagne email sono
+- **Resta da fare:** i contatti delle maestre dell'anno scorso, che stanno sul telefono aziendale di Da Mamma
+  Rosaria: task su TickTick dal 29/09/2026. Il plesso
+  dell'IC D'Avino non si cerca più: «non ci interessa», detto il 28/09/2026. Le campagne email sono
   nella voce qui sopra.
 
 ## 24/09/2026 — L'invito rifatto «più accattivante», col fienile vero

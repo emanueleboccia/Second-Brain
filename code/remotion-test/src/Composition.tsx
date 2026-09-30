@@ -6,6 +6,11 @@ import { Reel } from "./reel/Reel";
 import { FPS, durataTotale } from "./reel/tempi";
 import { ReelAmin } from "./amin/ReelAmin";
 import { DURATA_TOTALE as durataAmin } from "./amin/tempi";
+import { ReelGirarrosto } from "./pb-girarrosto/ReelGirarrosto";
+import { DURATA as durataGirarrosto } from "./pb-girarrosto/testo";
+import { ReelRoom84 } from "./pb-room84/ReelRoom84";
+import { MUTO as ROOM84_MUTO, VOCE as ROOM84_VOCE } from "./pb-room84/testo";
+import { DURATA3 as durataRoom84Semplice, ReelRoom84Semplice } from "./pb-room84/Semplice";
 import { ReelTdg } from "./tdg/ReelTdg";
 import { REEL as REEL_TDG, durataTotale as durataTdg } from "./tdg/tempi";
 
@@ -60,6 +65,40 @@ export const MyComposition = () => {
         id="ZuccheIlTourDiAmin"
         component={ReelAmin}
         durationInFrames={durataAmin}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbGirarrosto"
+        component={ReelGirarrosto}
+        durationInFrames={durataGirarrosto}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84"
+        component={ReelRoom84}
+        defaultProps={{ versione: "voce" as const }}
+        durationInFrames={ROOM84_VOCE.durata}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84Semplice"
+        component={ReelRoom84Semplice}
+        durationInFrames={durataRoom84Semplice}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84Muto"
+        component={ReelRoom84}
+        defaultProps={{ versione: "muto" as const }}
+        durationInFrames={ROOM84_MUTO.durata}
         fps={30}
         width={1080}
         height={1920}

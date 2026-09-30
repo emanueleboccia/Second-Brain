@@ -7,7 +7,7 @@ tags:
   - contenuti
 status: in-lavorazione
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-29
 related:
   - "[[self/reference/convinzioni]]"
   - "[[self/reference/design]]"
@@ -245,12 +245,23 @@ dice la convinzione in due parole: *non ti cambio il mestiere, ti tolgo il fogli
 calendario con una data. E **riparte sul secondo cliente**, non sul Girarrosto — quello di cui
 il «prima» esiste ancora e si può riprendere davvero.
 
+✅ **29/09/2026 — Ripartito, in un'altra forma.** Lo stampo Remotion adesso c'è, e il «prima» del
+Girarrosto non era perso: Emanuele l'aveva ripreso coi Ray-Ban. Il treppiede fisso ha lasciato il
+posto alla soggettiva, e il numero alla voce fuori campo. Il primo episodio, montato sul modello
+di un reel scelto da lui, l'ha definito «spettacolare». Come si fa sta in
+[[docs/procedure/reel-personal-brand|la procedura del reel in soggettiva]].
+
 ---
 
 ## 5 · Il carosello — il formato che manca
 
 ⚠️ **Dal 25/09/2026 c'è una prima prova dello stampo grafico**, in `code/caroselli/`, fatta sul manifesto
 del 1° ottobre. A Emanuele non piace, e va rifatta.
+
+**29/09/2026 — la seconda prova**, nello stile approvato per i video e con lo schema dei caroselli di
+[[sources/riferimenti/caroselli-arounda|Arounda]], in scala scura e chiara. Quattro famiglie proposte:
+«Lavoro vero» per i casi, «Cosa penso» per convinzioni e nemici, «Come lavoro» per il processo, «La
+domanda». Quali tenere lo decide Emanuele, e da lì si scrive il calendario.
 
 ⚠️ **Non è ancora progettato**, ed è il buco più grosso: **cinque temi su nove non hanno un
 formato che li porti**, e sono tutti quelli che vendono l'offerta alta — la visibilità che

@@ -1,0 +1,79 @@
+---
+title: "Musica e sound design"
+summary: "Come si sceglie, si cerca e si mette la musica di un video, dagli appunti di sound design che Emanuele ha dato il 30/09/2026: mood, target, ritmo e struttura prima del genere, niente parole come «epic» e «motivational» nelle ricerche, entrate e uscite tagliate sui cambi di scena, e i tre errori che fanno sembrare un video economico."
+tags:
+  - docs
+  - video-social
+  - principio/montaggio
+  - regola/gusto
+status: attivo
+created: 2026-09-30
+updated: 2026-09-30
+related:
+  - "[[docs/video-social/b-roll-e-musica]]"
+  - "[[docs/video-social/audio-prima-del-video]]"
+  - "[[docs/video-social/varieta-e-specificita]]"
+  - "[[docs/video-social/soglia-di-attenzione]]"
+  - "[[docs/video-social/libreria-suoni]]"
+---
+
+# Musica e sound design
+
+> Dagli appunti di sound design che Emanuele ha incollato il 30/09/2026, mentre si montava il reel di Room84.
+> Le altre note della cartella vengono dal corso del 27/08; questa è sua, e vale allo stesso modo.
+
+**Perché conta.** La soglia d'attenzione, dicono gli appunti, oggi è una guerra emotiva, e la musica è il modo
+più veloce per toccare le emozioni **prima ancora che chi guarda capisca cosa stai dicendo**. Usata bene tiene
+lo spettatore, guida la sua percezione e rende memorabile anche un video semplice. È la stessa gerarchia di
+[[docs/video-social/audio-prima-del-video|l'audio prima del video]], allargata dalla voce a tutto quello che si
+sente.
+
+## Come si sceglie
+
+Quattro domande, prima del genere:
+
+| | La domanda |
+|---|---|
+| **Mood** | che emozione deve arrivare: ispirazione, tensione, cazzimma, ironia, malinconia |
+| **Target** | chi guarda, che età ha, che musica lo colpisce di pancia |
+| **Ritmo** | lento, crescente, tagliato, acceso e spento |
+| **Struttura** | un'intro soft, un build-up, un drop, una chiusura pulita |
+
+La struttura della traccia si mette sopra quella del video: il build-up dove sale la tensione, il drop sul
+momento che il video vuole far arrivare, la chiusura pulita sull'ultima frase.
+
+## Dove si cerca
+
+Nelle librerie, gratuite o a pagamento, **le parole «epic» e «motivational» non si usano**: portano alla musica
+che hanno già usato tutti. Le fonti e il discorso sul copyright stanno in
+[[docs/video-social/b-roll-e-musica|b-roll e musica]]. Una traccia si ascolta **da montatore, non da
+spettatore**: non se piace, ma dove taglia, dove sale e dove si può entrare e uscire.
+
+**Gli audio di tendenza e i mashup dei social** sono la musica più adatta per farsi spingere dall'algoritmo, e
+sono anche canzoni con i diritti. Non si montano dentro il file: il reel esce con i soli effetti, e l'audio di
+tendenza si aggiunge dentro Instagram al momento di pubblicare, dove la licenza è di Instagram. Deciso il 30/09/2026,
+quando Emanuele li ha indicati come «perfetti» per il suo stile. Su un account aziendale Instagram ne toglie una
+parte: è una cosa da sapere prima di scegliere il tipo di account.
+
+## Come si mette
+
+- **Volume, entrata e uscita** si decidono, non si lasciano al caso: la musica entra e esce su un punto.
+- **Fade e tagli chirurgici.** Una traccia che parte dall'inizio e sfuma in coda è la «musica da sottofondo
+  YouTube anni 2009» che gli appunti dicono di evitare.
+- **I punti di sincronia** sono i cambi di scena, l'hook e le punchline: lì la musica cambia, si ferma o
+  colpisce.
+
+## Gli errori che fanno sembrare un video economico
+
+1. **La stessa musica per tre reel di fila** viene percepita come roba da poco: la varietà vale anche per
+   l'orecchio, come per il gancio in [[docs/video-social/varieta-e-specificita|varietà e specificità]].
+2. **La musica sopra la voce** sabota l'attenzione: si sente e non copre mai il parlato.
+3. **Le canzoni famose senza licenza** mettono a rischio l'account.
+
+## Il sound design
+
+Oltre alla musica, i suoni sui movimenti: il fruscio d'aria su un'entrata, il pop su una scritta, il click, la
+tastiera, la campanella. Emanuele li ha chiesti il 30/09 per le animazioni del reel di Room84, con sotto «una
+canzone piccola, meno potente». I suoni vengono solo da librerie libere da diritti, per la stessa ragione delle
+canzoni: quelli raccolti, e come li usa un reel che ne parla, stanno in
+[[docs/video-social/libreria-suoni|la libreria dei suoni]].

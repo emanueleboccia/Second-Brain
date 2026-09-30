@@ -226,7 +226,9 @@ tecnico.
 
 ⚠️ **C'è dell'arretrato su questa regola.** Il sito di **Room84** sta sull'abbonamento Elementor di
 Emanuele, che non rinnova. La regola è giusta e vale da oggi; i lavori vecchi che non la rispettano
-vanno spostati o chiusi.
+vanno spostati o chiusi. Per Room84 la strada c'è dal 29/09/2026: il
+[[projects/restyling-room84/sito|restyling]] lo rifà custom sull'hosting del cliente, fuori da
+Elementor.
 
 ## Fase 6 · Durante il lavoro
 

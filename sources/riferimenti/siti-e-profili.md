@@ -6,7 +6,7 @@ tags:
   - riferimenti
 status: attivo
 created: 2026-09-03
-updated: 2026-09-26
+updated: 2026-09-29
 ---
 
 # Scaffale — siti e profili di riferimento
@@ -33,6 +33,8 @@ diceva solo il nome, il motivo è segnato **da confermare** invece che dedotto.
 | [autoambrosio.com](https://www.autoambrosio.com/auto/usate/?orderField=price&orderMode=desc&type=USED) | sito di una concessionaria di Napoli | Indicato da Emanuele il 26/09/2026 come modello per **i filtri del sito di Qinta**: tipologia, marca, modello, chilometri e prezzo da-a, alimentazione, cambio, carrozzeria, posti, provincia, e quanti veicoli per ogni scelta. I loghi delle marche arrivano dal server di Dealerk, cioè di MotorK: il sito probabilmente gira sulla loro piattaforma. La proposta sta in [[projects/autoos/blocchi\|i blocchi di Qinta]]. |
 | [Behance, il marchio di Autonazionale](https://www.behance.net/gallery/85810627/Autonazionale-Exclusive-Cars-Logo-Design) | manuale del logo, 2019 | Trovato il 26/09/2026 cercando il carattere del logo. Il designer, Salvatore Parmosa, ci ha messo **i caratteri e la palette ufficiali di Autonazionale**: Venus Rising per «AUTONAZIONALE», ZCOOL XiaoWei per «EXCLUSIVE CARS», e i colori `#070707`, `#808080`, `#C8C8C8`, `#F0F5F5`. Da qui viene il suo sito in [[projects/autoos/brand\|Qinta]]. |
 | [treams.com](https://treams.com/en) | software per manager e HR | Salvato su TickTick, dentro `[PROGETTO] QintaOS`, come riferimento per **il sito di Qinta**. Anche lui divide il prodotto in tre moduli. Cosa guardarci esattamente: **da confermare.** |
+| **arounda.agency** | profilo Instagram | Dato da Emanuele il 29/09/2026 come modello dei **caroselli**, dopo aver bocciato la prima prova: «sono solo muri di testo, non ci sono immagini, illustrazioni o qualcosa di bello da vedere». Si guarda per come mette **immagini e illustrazioni** al centro delle slide. Lo schema delle sei slide sta in [[sources/riferimenti/caroselli-arounda\|i caroselli di Arounda]]. |
+| [reel di synsation_](https://www.instagram.com/reels/DY5PkUjyhMv/) | reel Instagram | Dato da Emanuele il 29/09/2026 come modello di **montaggio**: tagli, illustrazioni che si muovono, sottotitoli e il loro ritmo. Misurato fotogramma per fotogramma in [[sources/riferimenti/reel-synsation-good-ux\|il montaggio di synsation_]]. |
 
 ## Come cresce questo scaffale
 

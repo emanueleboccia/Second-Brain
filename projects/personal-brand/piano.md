@@ -186,7 +186,7 @@ Tre, non cinque. Tutto il resto di questo file è contesto per queste.
 ⚠️ **Riscritta il 06/09/2026** dopo la decisione di lanciare a ottobre invece di pubblicare da
 subito.
 
-- **Il profilo `@bocciaworks`**: bio, nome visualizzato, foto, tre storie in evidenza.
+- **Il profilo `@bocciastudio`** (fino al 30/09/2026 `@bocciaworks`): bio, nome visualizzato, foto, tre storie in evidenza.
 - **Il sito**: la struttura c'è già, **manca il copy**, e il copy si scrive da questo piano —
   sitemap prima, testi dopo.
 - **Produrre, non pubblicare:** reel e caroselli con il suo stile, pronti e programmati.
@@ -227,4 +227,4 @@ brand di famiglia o esce come voce a listino. **Va decisa prima di cercarlo.**
 - **Tre temi su otto non hanno un formato**, e sono quelli che vendono l'offerta alta.
 - **Il marchio:** logo o firma testuale, non deciso.
 - **La sitemap del sito e il copy**, che vengono dopo che questo piano è chiuso.
-- **Se `@bocciaworks` resta**, che oggi è provvisorio.
+- ~~**Se `@bocciaworks` resta**, che oggi è provvisorio.~~ Deciso il 30/09/2026: `@bocciastudio`.
