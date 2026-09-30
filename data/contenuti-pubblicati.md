@@ -6,7 +6,7 @@ tags:
   - contenuti
 status: da-compilare
 created: 2026-09-01
-updated: 2026-09-16
+updated: 2026-09-30
 related:
   - "[[self/reference/caption]]"
 ---
@@ -44,7 +44,7 @@ Qui entra solo quello che è uscito davvero.
 | 07/08/2026 | Da Mamma Rosaria · Instagram, Facebook | reel, 1 minuto e 14 secondi | La festa di laurea di Gaetano · [Instagram](https://www.instagram.com/reel/Dbv4rsODLOZ/) | Instagram 3.064 visualizzazioni, 1.716 account raggiunti, 22 interazioni · Facebook 1.376 visualizzazioni, 464 account, 1 interazione · letti il 16/09/2026, terzo del report di agosto per visualizzazioni e primo dei nostri per account raggiunti | |
 | 15/08/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello fotografico | Il tavolo dei dolci · [Instagram](https://www.instagram.com/p/DcEfDaUoNix/) | Instagram 3.231 visualizzazioni, 1.382 account raggiunti, 25 interazioni · Facebook 660 visualizzazioni, 404 account, 4 interazioni · letti il 16/09/2026, secondo del report di agosto | |
 | 27/08/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello fotografico | Sala Legno · [Instagram](https://www.instagram.com/p/DcjYxB5j0xr/) | Instagram 3.516 visualizzazioni, 1.516 account raggiunti, 29 interazioni · Facebook 1.135 visualizzazioni, 664 account, 8 interazioni · letti il 16/09/2026, primo del report di agosto | |
-| 14/09/2026 | Da Mamma Rosaria · Instagram, Facebook, TikTok | carosello fotografico, 4 foto | Il Primo Brindisi, l'aperitivo di benvenuto · [Instagram](https://www.instagram.com/p/DdRu21CiSyy/) · [Facebook](https://www.facebook.com/303931159061307/posts/1074592118661870) · [TikTok](https://tiktok.com/@damammarosaria/video/7685452637289975072) | da leggere | |
+| 14/09/2026 | Da Mamma Rosaria · Instagram, Facebook, TikTok | carosello fotografico, 4 foto | Il Primo Brindisi, l'aperitivo di benvenuto · [Instagram](https://www.instagram.com/p/DdRu21CiSyy/) · [Facebook](https://www.facebook.com/303931159061307/posts/1074592118661870) · [TikTok](https://tiktok.com/@damammarosaria/video/7685452637289975072) | Instagram 2.554 visualizzazioni, 1.049 account raggiunti, 16 interazioni · Facebook 1.352 visualizzazioni, 800 account, 9 interazioni · letti il 30/09/2026 per il report di agosto e settembre · TikTok non letto | |
 | 14/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo alla brace, tre clip dalla festa dei 40 anni, musica Italian Summer · la prima del pacchetto storie | da leggere | |
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | La frittura, due clip dalla serata della pizza, musica Sol En La Guitarra · la prima delle quattro uscite insieme da Business Suite | da leggere | |
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | L'impasto e il sugo, tre clip del pizzaiolo, musica Café Soul | da leggere | |
@@ -53,3 +53,9 @@ Qui entra solo quello che è uscito davvero.
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | I salumi, due clip appena rallentate, musica Sidewalk Sway · la prima delle tre uscite da Buffer, per provarlo coi video | da leggere | |
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram e Facebook | storia video, 10 secondi | Il caciocavallo, due clip rallentate all'84%, musica Hot And Humid · un giorno dopo quello della festa dei 40 anni | da leggere | |
 | 15/09/2026 | Da Mamma Rosaria · storia Instagram | storia video, 10 secondi | I formaggi, tre clip, musica Everyday Is Sunday · l'ha pubblicata Emanuele da Buffer, solo su Instagram | da leggere | |
+| 07/09/2026 | Da Mamma Rosaria · Instagram, Facebook | reel | Gli angoli a vista, dal compleanno di Mariarosaria | Instagram 4.938 visualizzazioni, 2.954 account raggiunti, 74 interazioni · Facebook 2.569 visualizzazioni, 679 account, 5 interazioni · letti il 30/09/2026, primo del report di agosto e settembre | |
+| 10/09/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello grafico | Quando si prenota la comunione | Instagram 4.137 visualizzazioni, 1.655 account raggiunti, 8 interazioni · Facebook 1.154 visualizzazioni, 681 account, 1 interazione · letti il 30/09/2026, terzo del report di agosto e settembre | |
+| 23/09/2026 | Da Mamma Rosaria · Instagram, Facebook | carosello fotografico | L'Uliveto, la tavolata sotto gli ulivi | Instagram 4.781 visualizzazioni, 2.325 account raggiunti, 71 interazioni · Facebook 2.716 visualizzazioni, 1.655 account, 17 interazioni · letti il 30/09/2026, secondo del report di agosto e settembre, e il più visto dei nostri su Facebook | |
+| 15/08/2026 | Tenuta Don Gaetano · Instagram, Facebook | reel | La laurea di Francesca, dall'inizio alla fine | Instagram 487 visualizzazioni, 334 account raggiunti, 15 interazioni · Facebook 423 visualizzazioni, 415 account, 3 interazioni · letti il 30/09/2026, secondo del primo report della Tenuta | |
+| 29/08/2026 | Tenuta Don Gaetano · Instagram, Facebook | reel | Sala dopo sala, il tour della dimora | Instagram 751 visualizzazioni, 587 account raggiunti, 8 interazioni · Facebook 248 visualizzazioni, 232 account, 3 interazioni · letti il 30/09/2026, primo del primo report della Tenuta | |
+| 20/09/2026 | Tenuta Don Gaetano · Instagram, Facebook | reel | Dal cortile ai saloni, dall'alto col Vesuvio e poi dentro | Instagram 220 visualizzazioni, 148 account raggiunti, 6 interazioni · Facebook 729 visualizzazioni, 692 account, 9 interazioni · letti il 30/09/2026, terzo del primo report della Tenuta e il più visto dei due mesi su Facebook | |

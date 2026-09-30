@@ -1,4 +1,5 @@
-import { AbsoluteFill, Easing, Sequence, interpolate, spring, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Easing, Sequence, interpolate, spring, staticFile, useCurrentFrame } from "remotion";
+import { Audio } from "@remotion/media";
 import "../pb-girarrosto/font";
 import { ARCHIVO, CREMA, OMBRA } from "../pb-girarrosto/font";
 import { Fondale, Pov } from "../pb-girarrosto/Scene";
@@ -7,6 +8,9 @@ import { Coppia } from "./Finestra";
 import { FoglioCheDiventaSito, FoglioCheSiDisegna } from "./FoglioDisegno";
 import { Sottotitoli } from "./Sottotitoli";
 import { FPS, inFrame, type Blocco } from "./testo";
+import voce2 from "./voce2.json";
+import voce3 from "./voce3.json";
+import { FinaleCta } from "../pb-girarrosto/ReelGirarrosto";
 
 // Il reel di Room84, terza versione, del 29/09/2026 sera. Emanuele ha bocciato la seconda: «forse dobbiamo
 // farlo in un altro modo, non mi convince», e la frase della bio in chiusura «qui non c'entra niente, è un sito
@@ -60,6 +64,19 @@ const PIENI = Array.from({ length: 9 }, (_, i) => 0.15 + i * 0.27);
 
 export const DURATA3 = inFrame(26.8);
 
+// La versione con la voce di Emanuele, registrata col DJI il 30/09/2026: stesse scene e stesse immagini, ma i tempi
+// vengono dalla sua voce (scripts/pb-room84-voce2.py scrive voce2.json), e i sottotitoli dicono le sue parole.
+type Tempi = { scene: Record<keyof typeof SCENE3, Tratto>; blocchi: Blocco[]; disegno: number[]; pieni: number[] };
+const SCRITTE: Tempi = { scene: SCENE3, blocchi: BLOCCHI3, disegno: DISEGNO, pieni: PIENI };
+const VOCE2: Tempi = voce2 as Tempi;
+export const DURATA_VOCE2 = inFrame(voce2.durata);
+
+// La terza, sul copione nuovo del 30/09/2026 sera, registrato in sei parti e tagliato a 41 secondi
+// (scripts/pb-room84-voce3.py). Il sito prima e il sito dopo sono le riprese vere del fisso, IMG_5662, che Emanuele ha
+// indicato lui; in chiusura c'è la CTA al posto della riga del sito, come nel Girarrosto.
+const VOCE3: Tempi = voce3 as Tempi;
+export const DURATA_VOCE3 = inFrame(voce3.durata);
+
 const tratto = (s: Tratto) => ({ from: inFrame(s.da), durationInFrames: inFrame(s.a) - inFrame(s.da) });
 
 const Prima: React.FC<{ frames: number; pagina: "prima" | "dopo"; scorriD: number; scorriM: number }> = ({ frames, pagina, scorriD, scorriM }) => {
@@ -92,14 +109,20 @@ const Chiusura: React.FC = () => {
   );
 };
 
-export const ReelRoom84Semplice: React.FC = () => {
-  const s = Object.fromEntries(Object.entries(SCENE3).map(([k, v]) => [k, tratto(v)])) as Record<keyof typeof SCENE3, ReturnType<typeof tratto>>;
+export const ReelRoom84Semplice: React.FC<{ versione?: "scritte" | "voce" | "voce3" }> = ({ versione = "scritte" }) => {
+  const T = versione === "voce3" ? VOCE3 : versione === "voce" ? VOCE2 : SCRITTE;
+  const fisso = versione === "voce3";
+  const s = Object.fromEntries(Object.entries(T.scene).map(([k, v]) => [k, tratto(v)])) as Record<keyof typeof SCENE3, ReturnType<typeof tratto>>;
   const CARTELLA = "pb-room84/seg";
   const ombra = <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0) 52%, rgba(0,0,0,.34) 74%, rgba(0,0,0,.18) 100%)" }} />;
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <Sequence {...s.prima}>
-        <Prima frames={s.prima.durationInFrames} pagina="prima" scorriD={700} scorriM={620} />
+        {fisso ? (
+          <Pov cartella={CARTELLA} spezzoni={[{ file: "imac-prima-a", frames: 90 }, { file: "imac-prima-b", frames: 69 }]} frames={s.prima.durationInFrames} apertura={1.14} centro={[540, 900]} />
+        ) : (
+          <Prima frames={s.prima.durationInFrames} pagina="prima" scorriD={700} scorriM={620} />
+        )}
       </Sequence>
       <Sequence {...s.scrivania}>
         <Pov cartella={CARTELLA} spezzoni={[{ file: "scrivania", frames: s.scrivania.durationInFrames }]} frames={s.scrivania.durationInFrames} spinta={1.07} centro={[560, 1250]} />
@@ -111,22 +134,32 @@ export const ReelRoom84Semplice: React.FC = () => {
         {ombra}
       </Sequence>
       <Sequence {...s.foglio}>
-        <FoglioCheSiDisegna tempi={DISEGNO.map(inFrame)} fine={s.foglio.durationInFrames} />
+        <FoglioCheSiDisegna tempi={T.disegno.map(inFrame)} fine={s.foglio.durationInFrames} />
       </Sequence>
       <Sequence {...s.mani}>
         <Pov cartella={CARTELLA} spezzoni={[{ file: "finito", frames: s.mani.durationInFrames }]} frames={s.mani.durationInFrames} spinta={1.06} centro={[540, 1150]} />
         {ombra}
       </Sequence>
       <Sequence {...s.sito}>
-        <FoglioCheDiventaSito pieni={PIENI.map(inFrame)} />
+        <FoglioCheDiventaSito pieni={T.pieni.map(inFrame)} />
       </Sequence>
       <Sequence {...s.dopo}>
-        <Prima frames={s.dopo.durationInFrames} pagina="dopo" scorriD={1500} scorriM={1300} />
+        {fisso ? (
+          <Pov cartella={CARTELLA} spezzoni={[{ file: "imac-dopo", frames: 126 }, { file: "imac-finale", frames: 102 }]} frames={s.dopo.durationInFrames} apertura={1.12} spinta={1.05} centro={[540, 900]} />
+        ) : (
+          <Prima frames={s.dopo.durationInFrames} pagina="dopo" scorriD={1500} scorriM={1300} />
+        )}
       </Sequence>
       <Sequence {...s.chiusura}>
-        <Chiusura />
+        {fisso ? (
+          <FinaleCta passata={inFrame(voce3.cta.chiave) - inFrame(voce3.cta.da)} righe={["Se conosci qualcuno", "con un B&B,"]} chiave="Mandagli questo video." />
+        ) : (
+          <Chiusura />
+        )}
       </Sequence>
-      <Sottotitoli blocchi={BLOCCHI3} />
+      <Sottotitoli blocchi={T.blocchi} />
+      {versione === "voce" ? <Audio src={staticFile("pb-room84/voce2.wav")} /> : null}
+      {versione === "voce3" ? <Audio src={staticFile("pb-room84/voce3.wav")} /> : null}
     </AbsoluteFill>
   );
 };

@@ -1,0 +1,192 @@
+{
+ "durata": 36.24,
+ "scene": {
+  "drone": {
+   "da": 0.0,
+   "a": 4.23
+  },
+  "foto": {
+   "da": 4.23,
+   "a": 9.64
+  },
+  "drone2": {
+   "da": 9.64,
+   "a": 13.64
+  },
+  "logo": {
+   "da": 13.64,
+   "a": 17.36
+  },
+  "sito": {
+   "da": 17.36,
+   "a": 26.43
+  },
+  "whatsapp": {
+   "da": 26.43,
+   "a": 31.15
+  },
+  "finale": {
+   "da": 31.15,
+   "a": 36.24
+  }
+ },
+ "movimenti": {
+  "vetrina": 20.68,
+  "sala": 21.78,
+  "giardino": 23.14,
+  "dettagli": 24.63,
+  "whatsapp": 29.71,
+  "lauree": 6.96,
+  "logo": 16.57
+ },
+ "blocchi": [
+  {
+   "testo": "Questa è la Tenuta",
+   "da": 0.0,
+   "a": 1.18
+  },
+  {
+   "testo": "Don Gaetano,",
+   "da": 1.18,
+   "a": 2.2
+  },
+  {
+   "testo": "una dimora del '700",
+   "da": 2.2,
+   "a": 3.22
+  },
+  {
+   "testo": "a Poggiomarino.",
+   "da": 3.22,
+   "a": 4.23
+  },
+  {
+   "testo": "Una nuova location",
+   "da": 4.23,
+   "a": 5.1
+  },
+  {
+   "testo": "per eventi,",
+   "da": 5.1,
+   "a": 5.73
+  },
+  {
+   "testo": "che ospiterà battesimi,",
+   "da": 5.73,
+   "a": 6.96
+  },
+  {
+   "testo": "comunioni, lauree",
+   "da": 6.96,
+   "a": 8.05
+  },
+  {
+   "testo": "ed altri eventi importanti.",
+   "da": 8.05,
+   "a": 9.64
+  },
+  {
+   "testo": "È un posto nuovo,",
+   "da": 9.64,
+   "a": 11.14
+  },
+  {
+   "testo": "quindi prima di tutto",
+   "da": 11.14,
+   "a": 12.05
+  },
+  {
+   "testo": "si deve far conoscere.",
+   "da": 12.05,
+   "chiave": "far conoscere",
+   "a": 13.64
+  },
+  {
+   "testo": "Come prima cosa",
+   "da": 13.64,
+   "a": 14.49
+  },
+  {
+   "testo": "gli ho dato un nome",
+   "da": 14.49,
+   "a": 15.47
+  },
+  {
+   "testo": "da riconoscere,",
+   "da": 15.47,
+   "a": 16.57
+  },
+  {
+   "testo": "il logo.",
+   "da": 16.57,
+   "chiave": "il logo",
+   "a": 17.36
+  },
+  {
+   "testo": "Subito dopo siamo partiti",
+   "da": 17.36,
+   "a": 19.08
+  },
+  {
+   "testo": "con un sito one page",
+   "da": 19.08,
+   "a": 20.68
+  },
+  {
+   "testo": "che funge da vetrina,",
+   "da": 20.68,
+   "chiave": "vetrina",
+   "a": 21.78
+  },
+  {
+   "testo": "che mostra la sala,",
+   "da": 21.78,
+   "a": 23.14
+  },
+  {
+   "testo": "la casa, il giardino",
+   "da": 23.14,
+   "a": 24.63
+  },
+  {
+   "testo": "e i vari dettagli",
+   "da": 24.63,
+   "a": 25.43
+  },
+  {
+   "testo": "della location.",
+   "da": 25.43,
+   "a": 26.43
+  },
+  {
+   "testo": "Chi lo apre",
+   "da": 26.43,
+   "a": 26.94
+  },
+  {
+   "testo": "vede il posto com'è",
+   "da": 26.94,
+   "a": 28.23
+  },
+  {
+   "testo": "e se vuole",
+   "da": 28.23,
+   "a": 28.63
+  },
+  {
+   "testo": "maggiori informazioni",
+   "da": 28.63,
+   "a": 29.71
+  },
+  {
+   "testo": "contatta su WhatsApp.",
+   "da": 29.71,
+   "chiave": "WhatsApp",
+   "a": 31.15
+  }
+ ],
+ "cta": {
+  "da": 31.15,
+  "chiave": 32.87
+ }
+}

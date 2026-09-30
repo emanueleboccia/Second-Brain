@@ -2,6 +2,40 @@
 
 Aperto il 13/07/2026.
 
+## 30/09/2026 — Il sito in loop per il Chrome dei computer, e la correzione
+
+Il controllo del briefing ha trovato la home che non si apriva: «troppi reindirizzamenti». Era vero per il Chrome del
+computer, non per i telefoni. **La causa è la cache di pagina di Ergonet (FireShield) davanti a WordPress**: quando
+rinnova una pagina, a volte WordPress crede che la richiesta arrivi in http e risponde con un 301 verso la stessa
+pagina in https; la cache salvava quel 301 al posto della pagina, e chi arrivava girava in tondo finché la copia non
+scadeva. La cache tiene una copia per tipo di browser (`Vary: User-Agent`), per questo colpiva uno e non l'altro, e
+passava da una pagina all'altra: la mattina la home, poco dopo `/blog/`.
+
+- **Corretto**: cache svuotata dal WebPanel (Impostazioni server → Cache → Cancella cache), e caricato
+  `wp-content/mu-plugins/reindirizzamenti-fuori-cache.php`, che mette `Cache-Control: no-store` su ogni reindirizzamento
+  di WordPress. Verificato: i 301 escono `MISS` anche due volte di fila, le pagine restano in cache (`HIT`), home e pagine
+  a 200 dal Chrome del computer e dall'iPhone, e il controllo dei siti dà «ok».
+- ⚠️ **Funziona solo con «Forza cache» spento**, come già deciso per il gestionale: acceso, la cache ignora l'header.
+- **Il menù QR non era rotto**: `/menu/legno` risponde, e senza un menù pubblicato mostra «tra poco». `/menu/` senza
+  supporto dà la schermata «a presto» con 404, com'è stato voluto il 23/09.
+- Il caricamento sul sito è passato solo alla terza richiesta esplicita di Emanuele: il controllo dei permessi della
+  sessione lo tratta come pubblicazione in produzione.
+
+## 30/09/2026 — Il report di agosto e settembre, e due post mai arrivati su Instagram
+
+Emanuele ha chiesto i due mesi insieme: il PDF sta su Drive in `98 Social/03 report/2026-09/`, coi dati in `dati/`,
+e i numeri del mese in [[data/social-mensile|social mensile]]. Settembre è il mese di Zucche: dal 18 in poi Instagram
+passa da poche migliaia a decine di migliaia di visualizzazioni al giorno, i follow nuovi sono 1.149 contro gli 80 di
+agosto, e il reel in collaborazione del 18/09 da solo fa 94.832 visualizzazioni, più di tutti i post nostri dei due
+mesi insieme. Google porta 881 richieste di indicazioni a settembre, contro le 123 di agosto.
+
+- ⚠️ **Gli allestimenti del 26/09 e il cannolo del 29/09 non sono usciti su Instagram.** Su Buffer risultano
+  «sent» su tutti e tre i canali, ma fra i pubblicati di Business Suite ci sono solo su Facebook. Il canone di
+  settembre è pieno su Facebook e a sei su otto su Instagram.
+- ⚠️ **La storia clip del popcorn, programmata il 28/09 alle 13:00, su Instagram non c'è.** Quel giorno ci sono solo
+  una storia video delle 16:46, che non è nei registri, e la recensione delle 20:00.
+- **I messaggi restano da contare**: la Posta, con Chrome dietro le altre finestre, non carica l'elenco.
+
 ## 24/09/2026 — L'invito di compleanno nel gestionale
 
 Il gestionale fa gli inviti per i compleanni, per ora **in prova**: si compilano dalla conferma della festa e

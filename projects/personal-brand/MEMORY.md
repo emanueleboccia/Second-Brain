@@ -400,7 +400,7 @@ sessione.
 - **29/09/2026 · la pagina Servizi è montata**, su una struttura proposta da Claude e non ancora vista da Emanuele. I testi vengono dai pacchetti del 25/09 e dalle frasi della home; Consulenza e AI e automazioni sono a metà, perché nei pacchetti non ci sono. Con lei la pagina d'errore, l'anteprima dei link, la mappa del sito e i testi di Privacy e Cookie. Sta in [[projects/personal-brand/sito-servizi|la pagina Servizi]].
 - ⚠️ **29/09/2026 · il modulo di contatto non spedisce niente**: mostra il grazie e basta. È la cosa da chiudere prima di andare online, insieme alla sede e all'email per le pagine legali.
 - **29/09/2026 · nasce la firma per i footer**, chiesta da Emanuele: «Costruito da» e il monogramma EB nel cerchio che gira, link a emanueleboccia.it. L'ha costruita un agente in parallelo, e sta in [[code/firma/README|code/firma]] con le versioni per HTML, WordPress e Laravel. Emanuele non l'ha ancora vista, e la frase la sceglie lui fra «Costruito da», «Fatto da» e «Sito di». Nei siti dei clienti non è stata messa: è un passo a parte, col suo ok sito per sito.
-- ⚠️ **29/09/2026 · il monogramma è di fatto un simbolo, e le regole di design dicono che non esiste.** [[self/reference/design|design]] scrive «Non esiste un simbolo»; dal 28/09 il monogramma EB nel cerchio sta nella testata del sito, e dal 29/09 nella firma e nell'icona. La regola va aggiornata da Emanuele, non da Claude.
+- ⚠️ **29/09/2026 · il monogramma è di fatto un simbolo, e le regole di design dicono che non esiste.** [[self/reference/design|design]] scrive «Non esiste un simbolo»; dal 28/09 il monogramma EB nel cerchio sta nella testata del sito, e dal 29/09 nella firma e nell'icona. La regola va aggiornata da Emanuele, non da Claude. ✅ Il 30/09 ha detto sì al simbolo, e la regola è aggiornata.
 - ✅ **29/09/2026, sera · Emanuele ha guardato tutte le pagine e la firma**: «va tutto benissimo, anche la firma». Poi ha detto cosa manca: il sito di Da Mamma Rosaria e il gestionale nuovo della Masseria fra i progetti, e le pagine dei singoli servizi, «con obiettivo la conversione».
 - **29/09/2026, sera · prima la struttura, poi WordPress.** Parole sue: le pagine della policy «le faremo alla fine, quando installeremo wordpress e importeremo questo sito», e con loro Google Analytics, Search Console e Yoast. Fino a quel giorno non si monta niente di tutto questo. L'ordine sta in [[projects/personal-brand/sito|il sito]].
 - **29/09/2026, sera · tre pagine di servizio sono montate**: Siti web, ERP e gestionali, Company Brain. Una promessa, un'azione sola, la prova accanto, e in fondo garanzie, rottamazione e domande; niente prezzi. Consulenza e AI e automazioni aspettano le sue risposte. Stanno in [[projects/personal-brand/sito-servizi|la pagina Servizi]], e lui non le ha ancora viste.
@@ -421,13 +421,19 @@ sessione.
 - **30/09/2026 · la pagina di AI e automazioni si salta**, detto da Emanuele: «saltiamola per ora». La carta della home porta al blocco dell'AI nella pagina Servizi.
 - **30/09/2026 · i contenuti del sito sono contati**, pagina per pagina: segnaposto non ce ne sono più, mancano le parole dei clienti e i numeri, e sei cose aspettano una sua parola. Stanno in [[projects/personal-brand/sito|il sito]], sotto «Cosa manca ai contenuti».
 - ✅ **30/09/2026 · il ritratto della home è nitido**: il file era di 264 pixel, ora è lo stesso taglio a 933, dalla foto principale. Sul sito ci sono anche le icone in PNG, per Safari e per l'iPhone.
-- ✅ **30/09/2026 · Room84 è pubblico**: «room84 mi ha dato l'ok per metterlo ovunque». Sul sito ha la sua pagina, sta nell'elenco, nel mazzo, nei nomi di Chi sono e fra i lavori dei siti web. Online c'è ancora il sito del 2025, quindi resta «Non ancora online» e senza link. Vale anche per il reel.
+- ✅ **30/09/2026 · Room84 è pubblico**: «room84 mi ha dato l'ok per metterlo ovunque». Sul sito ha la sua pagina, sta nell'elenco, nel mazzo, nei nomi di Chi sono e fra i lavori dei siti web. Vale anche per il reel. Dalla sera del 30/09 il sito nuovo è online su www.room84.it: nel caso l'etichetta «Non ancora online» è tolta, c'è il link «Vedi il sito» e la scheda dice «Online da settembre 2026». La sera stessa i dieci mockup del caso sono rifatti con le camere giuste (la 8 sauna e prima, la 4 idromassaggio), da `code/mockup-lavori/scene-room84.js` riallineato alle misure nuove.
 - ✅ **30/09/2026 · su Instagram il nome giusto è `bocciastudio`**, detto da Emanuele. Il sito punta lì, e lo stesso giorno sono aggiornati [[self/reference/brand|brand]], il lancio e il piano.
 - **30/09/2026 · «Cosa c'è dentro» è tolta anche dalle schede dei lavori**: «sembra brutta proprio».
 - ⚠️ **30/09/2026 · Sistema Evolve è uscito dai nomi di Chi sono.** Alla domanda ha risposto «non mi piace ancora il sito, lo sto modificando»: letto come un no per ora. Al suo posto c'è Room84. Se voleva tenerlo, si rimette.
 - **30/09/2026 · l'odissea si rivede dopo il lancio**, «dopo, programmala». Task su TickTick in 💼 Personal Brand, «rivedere l'odissea di Chi sono», per lunedì 5 ottobre.
 - ✅ **30/09/2026 · anche le pagine scritte a mano legano le ultime tre parole**: `strumenti/lega-statiche.mjs` parte prima di ogni build, sulla home, Chi sono, la 404 e il pannello; le frasi grandi dell'odissea e delle convinzioni legano le ultime due. Prima restavano righe di una o due parole. Tutte le pagine passano il giro a nove misure.
 - **30/09/2026 · il sito ha un blog**, chiesto da Emanuele: un articolo a settimana, con le parole sue, «molto terra terra». Impostazione da blog.dubleclik.com nel nostro stile; gli articoli sono file Markdown, le voci del menù compaiono col primo articolo online. Sta in [[projects/personal-brand/sito-blog|il blog del sito]]. Sul sottodominio del riferimento: è un'altra piattaforma, per noi conviene `/blog/`.
+- ✅ **30/09/2026 · l'odissea di Chi sono è riscritta e montata**, anticipando la task del 5 ottobre. Claude ha fatto le domande un capitolo alla volta, e dalle risposte sono usciti i passi con l'anno: Windows XP nel 2011, PrestaShop scambiato per Photoshop a 18 anni, tre lavori da dipendente e poi in proprio nel 2022, l'errore di pensare solo al bello, il corso del 2024, il gestionale di Mamma Rosaria nel 2025, l'AI, oggi. **Lo scopo detto da lui**: chi arriva in fondo deve pensare «questo ragazzo è in gamba, non come gli altri scappati di casa». Il periodo da dipendente ora entra; i business online no. Testi e intervista stanno in [[projects/personal-brand/sito-chi-sono|la pagina Chi sono]]. **La sera stessa li ha rivisti passo per passo**: i passi sono nove, senza il primo cliente e col passo di Mamma Rosaria fuso con l'AI, e la coda di ogni passo è più chiara, perché in grigio spento «non si leggerà bene».
+- ✅ **30/09/2026, sera · quattro risposte di Emanuele in fila**: il ritratto di Chi sono resta **in bianco e nero**; **Contatti va bene**; i mockup di Mamma Rosaria senza le sezioni della famiglia e delle recensioni **vanno bene**; e **sì al simbolo**, il monogramma EB, scritto in [[self/reference/design|design]]. **Il blog è online** coi tre articoli: «l'avevamo già fatto, inseriscilo». Le pagine legali restano per ultime, dopo WordPress e i plugin.
+- ✅ **30/09/2026, sera · i testi dei lavori sono approvati tutti**: «i progetti vanno tutti quanti bene, poi se cambierà qualcosa te lo dirò». Nella stessa risposta, tre cose sulla home: **i cerchi del triangolo** vagavano, e ora pulsano fermi sui vertici; **la tabella del confronto** non si capisce, e si rifà su una delle tre prove che ha in mano; **il risalto nei titoli** non si capisce quale sia, fra la parola in bianco, la metà in grigio e la passata, e le prove sono due, una tinta sola o solo la passata. Niente va sul sito prima della sua scelta: la pagina delle prove è `prove/` nel sorgente, fuori dal git.
+- ✅ **30/09/2026, notte · la passata è l'unico risalto del sito**, scelta da Emanuele fra le due prove: «è bellissimo». Montata sulla home, su Chi sono e sui servizi; la regola è in [[self/reference/design|design]]. **La tabella del confronto** è diventata X e spunte, la versione D scelta da lui: sei righe corte, «Con me» su un foglio chiaro in mezzo, e sotto ogni X il perché in poche parole, che sul telefono sparisce. Montata la stessa notte; la pagina delle prove è cancellata.
+- ✅ **30/09/2026, notte · le tabelle sono tutte X e spunte**: oltre alla home, Siti web, Gestionali e Company Brain, «ovunque ci siano tabelle, applica lo stesso metodo». E la figura del problema dei gestionali è la B, la prenotazione in quattro posti, al posto di «Cento funzioni. Ne usi tre.». Sta in [[projects/personal-brand/sito-servizi|la pagina Servizi]]. Subito dopo, il giro di controllo prima del lancio.
+- ✅ **30/09/2026, notte · il giro di controllo prima del lancio è fatto**, e quello che ha trovato è sistemato: 21 pagine a nove larghezze, tre giri. Adesso nessuna pagina esce di lato, non ci sono errori in console né file rotti, titoli e descrizioni stanno nei limiti di Google, e titoli e domande vanno a capo in righe pari. Restano rotti solo i link a Privacy e Cookie, che aspettano la sede. Lo script sta in [[code/controllo-siti/README|il controllo dei siti]], `giro.mjs`, e si rilancia prima di ogni lancio.
 - **29/09/2026, sera · la firma si può cominciare a mettere**, chiesto da Emanuele. Tre cose da sapere: fino al lancio il link porta alla pagina di parcheggio di Hostinger; Safari e iPhone si guardano sul primo sito; ogni sito online vuole il suo sì. Sta in [[code/firma/README|code/firma]].
 
 ## 29/09/2026 — Lo stile dei video: la passata crema, e la seconda versione del reel
@@ -461,3 +467,40 @@ perché a pieno verticale entrerebbe la sua testa.
   Instagram sopra la versione coi soli effetti, perché hanno i diritti; nel file vanno basi libere da diritti. Tutto
   sta in [[docs/video-social/musica-e-sound-design|musica e sound design]] e in
   [[docs/video-social/libreria-suoni|la libreria dei suoni]].
+
+## 30/09/2026 — I reel escono coi soli effetti, la musica la mette lui
+
+Sulle tre versioni di Room84 Emanuele ha scelto quella senza base: *«fai solo effetti allora, gli audio li metto io in
+base al social e i suoni di tendenza»*. Da qui ogni reel del personal brand si consegna con gli effetti sui movimenti e
+nient'altro, e la musica la sceglie lui dentro ogni social. La regola sta in
+[[docs/procedure/reel-personal-brand|la procedura dei reel]] e in
+[[docs/video-social/musica-e-sound-design|musica e sound design]]. Room84 è il primo reel finito.
+
+## 30/09/2026, notte — La scheda Google è di Emanuele Boccia, non più di Groweb Studios
+
+Le recensioni si raccolgono **solo su Google**, deciso da Emanuele: i suoi clienti cercano lì, e due piattaforme
+dimezzano le recensioni. Trustpilot no, finché non vende fuori zona. La scheda era quella vecchia, *Groweb Studios di
+Emanuele Boccia*, verificata ma con dentro tutto il 2025. Rifatta col suo ok, dall'account `ema.boccia02@gmail.com`,
+dove stanno anche le schede dei brand di famiglia:
+
+- **nome `Emanuele Boccia`**, senza parole attaccate: aggiungerle va contro le regole di Google;
+- **categorie**: Web designer come principale, poi Consulente di marketing e Consulente informatico. «Agenzia di marketing»
+  è tolta apposta, e «Società di software» nell'elenco italiano non esiste;
+- **descrizione** scritta sulla bio, **cinque servizi** senza prezzi (la consulenza di trenta minuti come «senza costi»),
+  **chat WhatsApp**, Instagram su `@bocciastudio`, **quindici comuni** fra Napoli, il Vesuvio e l'Agro, aperta lun–ven 9–19,
+  indirizzo nascosto;
+- **copertina** col monogramma e il nome al centro, perché Google la ritaglia quadrata; **foto** dei quattro lavori e la sua.
+  Il logo resta il suo ritratto in bianco e nero, che c'era già.
+
+**Il sito è `emanueleboccia.it`**, messo da Emanuele la sera stessa, pochi minuti prima di mandarlo online.
+growebstudios.com, che era morto, è tolto.
+
+**Il link per le recensioni** è `https://g.page/r/CSyoZFnVRmMYECE/review`, e non cambia col nome. Il primo a riceverlo è
+Antonio di Room84, con un vocale al posto del testo scritto, secondo il protocollo di
+[[self/reference/formati|formati]], che chiede della sua attività e mai «come ti sei trovato». Il messaggio proposto:
+
+> Antonio, per la recensione facciamo più facile: mandami un vocale e raccontami tre cose, come ti vengono. Cosa non ti
+> andava del sito di prima, cosa hai pensato quando hai visto quello nuovo, e cosa ti ha detto chi l'ha visto. Poi la
+> metto io per iscritto e te la faccio rileggere prima di usarla.
+
+Il link gli va mandato solo col nome nuovo già pubblicato, se no recensisce Groweb Studios.

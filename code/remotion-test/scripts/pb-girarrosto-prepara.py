@@ -33,7 +33,8 @@ SOLO = set(sys.argv[1:])
 # velocità e dura il doppio.
 SPEZZONI = [
     ("foglio", "video-3907_singular_display.mov", 52.0, 57.6, 0.5, {"foglio": 0.42}),
-    ("telefono-a", "video-3944_singular_display.mov", 1.6, 4.9, 0.5, {"foglio": 0.35}),
+    # fino a 5,3 dal 30/09 sera: col copione nuovo la scena del telefono dura 5,06 secondi, e i due spezzoni ne facevano 4,8
+    ("telefono-a", "video-3944_singular_display.mov", 1.6, 5.3, 0.5, {"foglio": 0.35}),
     ("telefono-b", "video-3944_singular_display.mov", 7.0, 8.4, 0.5, {"foglio": 0.35}),
     ("arrivo", "video-3907_singular_display.mov", 2.8, 7.4, 0.5, {}),
     ("ipad", "IMG_4889.MOV", 9.2, 11.9, 0.5, {"ipad": True}),

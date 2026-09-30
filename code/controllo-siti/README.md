@@ -41,3 +41,18 @@ li ha riconosciuti tutti e tre.
 Era il nove della lista degli agenti. Un agente di Notion legge le pagine come testo: un gestionale,
 che è un programma, gli sembrerebbe vuoto anche quando funziona, e ogni giro costerebbe crediti. Questo
 apre le pagine davvero, gira gratis, e lo fa ogni mattina invece che una volta a settimana.
+
+## Il giro prima di un lancio
+
+`giro.mjs`, scritto il 30/09/2026 per emanueleboccia.it. Non guarda se un sito è vivo: guarda se è pronto.
+Si lancia sul sito compilato, prima di metterlo online, e passa ogni pagina della mappa del sito a nove
+larghezze, dallo schermo grande al telefono da 320 pixel:
+
+```
+node code/controllo-siti/giro.mjs http://localhost:4173 /tmp/giro
+```
+
+Segnala le pagine più larghe dello schermo, gli errori in console, i file e i link rotti, i titoli e le
+descrizioni troppo lunghe per Google, e le righe che finiscono con una o due parole. Il primo giro su
+emanueleboccia.it ha trovato due pagine che uscivano di lato e un errore di codice che nessuno vedeva. Un
+giro intero sono circa dodici minuti: si lancia in background, e ne va uno alla volta.

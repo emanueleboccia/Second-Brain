@@ -50,8 +50,15 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
   di Room84, dove la bio in chiusura per Emanuele «qui non c'entra niente, è un sito web».
 - **L'audio dei Ray-Ban non si usa.** Si sente la voce fuori campo di Emanuele, registrata col DJI Mic.
 - **Si può anche senza voce.** Le scritte prendono il posto della voce, nello stesso stile e con tempi di
-  lettura, mezzo secondo più un terzo di secondo a parola, e il ritmo lo dà la musica, scelta con Emanuele su
-  tracce d'esempio. È la strada di Room84, finché lui la voce non l'ha allenata.
+  lettura, mezzo secondo più un terzo di secondo a parola. È la strada di Room84, finché lui la voce non l'ha
+  allenata.
+- **Il reel a scritte esce coi soli effetti, senza musica.** Deciso da Emanuele il 30/09/2026 su Room84: *«gli audio li metto
+  io in base al social e i suoni di tendenza»*. I suoni sui movimenti ci sono, la base la sceglie lui dentro ogni
+  social al momento di pubblicare. Il ritmo dei tagli quindi non segue una traccia: lo danno le scritte e gli
+  effetti.
+- **Il reel con la voce ha anche una base bassa sotto**, e la voce e gli effetti stanno allo stesso livello: i
+  numeri stanno in [[docs/video-social/musica-e-sound-design|musica e sound design]]. Deciso il 30/09/2026 sul
+  Girarrosto con la sua voce.
 - **Un sito si fa vedere, non si racconta.** Il prima e il dopo vanno in un computer e in un telefono sul
   fondale, con le schermate vere che scorrono e il video della testata rimesso sopra; il disegno a mano, se c'è,
   si ricostruisce come illustrazione che si disegna da sola, e i suoi blocchi diventano le sezioni vere.
@@ -64,9 +71,16 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
    verifica sul girato o sul caso scritto: sul Girarrosto, per esempio, non si è detto che l'app tiene i colori,
    perché nelle riprese dell'iPad non si vedono. Il testo lo approva Emanuele: è la sua voce.
 3. **La registrazione**: DJI Mic al petto, stanza senza eco, una frase alla volta con due secondi di pausa.
-   Prima di montarci sopra se ne fanno sentire dieci secondi puliti.
-4. **I tempi**: whisper parola per parola sulla voce, su pezzi corti; i blocchi dei sottotitoli e gli inizi
-   delle scene si ricalcolano da lì.
+   Prima di montarci sopra se ne fanno sentire dieci secondi puliti. Sul MacBook il DJI si chiama **Wireless
+   Microphone RX** e non è il microfono di default: si registra con QuickTime, *File → Nuova registrazione audio*,
+   scegliendolo dalla freccia accanto al bottone rosso. Il file va in `1-girato/<progetto>/` sull'SSD.
+   ⚠️ **Se una frase è detta due volte, vale la seconda**: si rifà quella venuta male. Detto da Emanuele il 30/09/2026.
+4. **I tempi**: le frasi si trovano sull'energia, e whisper si passa **una frase alla volta**. Sulla voce intera,
+   il 30/09/2026, whisper schiacciava le prime parole di ogni frase nello stesso istante, perché la pausa prima lo
+   confonde. Ogni blocco dei sottotitoli si aggancia alla sua prima parola, cercata in avanti e non contando le
+   parole, perché whisper a volte ne perde una corta; il blocco che apre una frase parte dall'inizio misurato della
+   frase. Da lì si ricalcolano gli inizi delle scene: sul Girarrosto lo fa `scripts/pb-girarrosto-voce.py`, che
+   scrive `voce.json`, e `testo.ts` lo legge.
 5. **Gli spezzoni**: muti, verticali, a 30 fps, col colore solo pulito, e già sfumato quello che non si deve
    leggere, la scrittura a mano e i nomi sugli schermi. Una clip dell'iPhone a 60 fps rallentata a metà dà
    un finale fluido.
@@ -87,6 +101,9 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
 | `src/pb-room84/Finestra.tsx` | computer e telefono con la pagina vera che scorre e il video della testata |
 | `src/pb-room84/FoglioDisegno.tsx` | il disegno del sito che si ridisegna da solo, poi si riempie col sito vero |
 | `scripts/pb-room84-cattura.cjs` | le schermate intere dei due siti, computer e telefono |
+| `scripts/pb-girarrosto-voce.py` | la voce registrata: le frasi in fila con le pause strette, la catena, whisper frase per frase, e i tempi del reel in `voce.json` |
+| `scripts/pb-girarrosto-suono.py` | voce ed effetti sotto il video esportato, senza musica, con gli effetti che si abbassano sotto la voce: si copia e si cambiano gli eventi |
+| `scripts/pb-room84-voce2.py`, `pb-room84-voce-suono.py` | le stesse due cose per Room84, dove la voce dà i tempi anche al foglio che si disegna; lì whisper sbagliava due blocchi di un secondo, corretti sull'energia |
 
 Per un reel nuovo si copia la cartella `src/pb-girarrosto/` con un nome nuovo, si registra la composizione in
 `src/Composition.tsx`, e si cambiano testo, spezzoni e illustrazioni: sottotitoli, passata, soggettiva e

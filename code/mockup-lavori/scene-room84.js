@@ -2,7 +2,9 @@
    Le schermate vengono dalla copia sul Mac, col movimento ridotto, che mostra il sito fermo e completo.
    Restano fuori le recensioni, che portano i nomi degli ospiti, nel piede la riga col codice fiscale,
    e la cima di «Chi siamo», che nomina i titolari.
-   Le misure: la home è alta 10.358 dal computer e 11.827 dal telefono. */
+   Le misure: la home è alta 10.360 dal computer e 11.723 dal telefono.
+   Rifatte il 30/09/2026 dopo aver girato le camere (la 8 è la sauna, la 4 l'idromassaggio, e la 8 viene prima):
+   dal telefono le sezioni della home sono salite di 29 punti, e nella pagina Camere la seconda camera di 74. */
 ;(() => {
   const W = (n) => `web/${n}.jpg`
   const S = window.SCENE
@@ -14,7 +16,7 @@
     bronzo: { base: '#A58661', forme: [{ colore: '#FFF8F0', x: 12, y: 10, r: 38, a: 0.4 }, { colore: '#1A1816', x: 92, y: 94, r: 40, a: 0.4 }], luce: { x: 45, y: 0, a: 0.2 }, grana: 0.07 },
     sabbia: { base: '#E9DCCB', forme: [{ colore: '#FFF8F0', x: 14, y: 12, r: 38, a: 0.7 }, { colore: '#A58661', x: 90, y: 92, r: 38, a: 0.45 }], luce: { x: 50, y: 0, a: 0.3 }, grana: 0.06 }
   }
-  const telefoni = [{ img: W('room84-m'), y: 0, scorri: 480 }, { img: W('room84-m'), y: 2080, scorri: 380 }, { img: W('room84-camere-m'), y: 1347, scorri: 520 }, { img: W('room84-dintorni-m'), y: 0, scorri: 480 }]
+  const telefoni = [{ img: W('room84-m'), y: 0, scorri: 480 }, { img: W('room84-m'), y: 2051, scorri: 380 }, { img: W('room84-camere-m'), y: 1347, scorri: 520 }, { img: W('room84-dintorni-m'), y: 0, scorri: 480 }]
 
   Object.assign(S, {
     'r84-1': { tipo: 'pagina', img: W('room84-d'), larga: 800, alto: 128, scura: true, fondo: R.sabbia },
@@ -22,7 +24,7 @@
       finestre: [{ img: W('room84-d'), scorri: [0, 924] }, { img: W('room84-d'), scorri: [1904, 2260] }, { img: W('room84-camere-d'), scorri: [0, 975] }] },
     'r84-3': { tipo: 'telefoni', fondo: R.crema, schermi: telefoni },
     'r84-4': { tipo: 'parete', fondo: R.bronzo,
-      schermi: [{ col: 0, riga: 0, img: W('room84-m'), y: 2080 }, { col: 0, riga: 1, img: W('room84-camere-m'), y: 1347 }, { col: 1, riga: 0, img: W('room84-m'), y: 0 }, { col: 1, riga: 1, img: W('room84-m'), y: 2931 }, { col: 2, riga: 0, img: W('room84-dintorni-m'), y: 0 }, { col: 2, riga: 1, img: W('room84-m'), y: 5318 }, { col: 1, riga: -1, img: W('room84-gallery-m'), y: 0 }, { col: 3, riga: 0, img: W('room84-contatti-m'), y: 0 }, { col: -1, riga: 1, img: W('room84-camere-m'), y: 3980 }] },
+      schermi: [{ col: 0, riga: 0, img: W('room84-m'), y: 2051 }, { col: 0, riga: 1, img: W('room84-camere-m'), y: 1347 }, { col: 1, riga: 0, img: W('room84-m'), y: 0 }, { col: 1, riga: 1, img: W('room84-m'), y: 2902 }, { col: 2, riga: 0, img: W('room84-dintorni-m'), y: 0 }, { col: 2, riga: 1, img: W('room84-m'), y: 5289 }, { col: 1, riga: -1, img: W('room84-gallery-m'), y: 0 }, { col: 3, riga: 0, img: W('room84-contatti-m'), y: 0 }, { col: -1, riga: 1, img: W('room84-camere-m'), y: 3906 }] },
 
     'caso-r84-1': { tipo: 'scorrimento', img: W('room84-d'), scura: true, cursoreChiaro: true, fondo: R.sabbia, soste: [0, 924, 1904, 3146, 4180, 5365, 6643, 8849] },
     'caso-r84-2': { tipo: 'finestre', scura: true, cursoreChiaro: true, fondo: R.notte,
@@ -31,7 +33,7 @@
     'caso-r84-4': { tipo: 'finestre', scura: true, cursoreChiaro: true, fondo: R.bronzo,
       finestre: [{ img: W('room84-camere-d'), scorri: [975, 1900] }, { img: W('room84-gallery-d'), scorri: [0, 900] }, { img: W('room84-dintorni-d'), scorri: [0, 900] }] },
     'caso-r84-5': { tipo: 'parete-viva', fondo: R.sabbia, durata: 14,
-      colonne: colonne(W('room84-m'), [[0, 2080, ['room84-camere-m', 1347]], [['room84-dintorni-m', 0], 2931, ['room84-gallery-m', 0]], [['room84-camere-m', 3980], ['room84-contatti-m', 0], 5318]]) },
-    'caso-r84-6': { tipo: 'scorrimento', dispositivo: 'telefono', img: W('room84-m'), fondo: R.notte, soste: [0, 1049, 2080, 2931, 5318, 7546, 9749] }
+      colonne: colonne(W('room84-m'), [[0, 2051, ['room84-camere-m', 1347]], [['room84-dintorni-m', 0], 2902, ['room84-gallery-m', 0]], [['room84-camere-m', 3906], ['room84-contatti-m', 0], 5289]]) },
+    'caso-r84-6': { tipo: 'scorrimento', dispositivo: 'telefono', img: W('room84-m'), fondo: R.notte, soste: [0, 1020, 2051, 2902, 5289, 7517, 9720] }
   })
 })()

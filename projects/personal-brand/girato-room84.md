@@ -141,3 +141,81 @@ Il 30/09 Emanuele ha chiesto di togliere i Ray-Ban dalla versione semplice: «qu
 tanto in questa situazione». Al loro posto l'iPhone dall'alto, in verticale com'è, stretto sul foglio e preso dal 4K:
 la penna che scrive le camere, a 3:46 di IMG_5651, e il foglio finito con la penna appoggiata, a 2:10 di IMG_5652.
 Delle basi ritmate gli piacciono un poco di più la phonk e l'hip hop.
+
+**30/09/2026 · la versione che esce è quella coi soli effetti**, `room84-solo-effetti.mp4`. Emanuele: *«gli audio li
+metto io in base al social e i suoni di tendenza»*. Phonk e hip hop restano sull'SSD come prove, e i tagli non si
+rimettono su nessuna base. Il reel è pubblicabile: Antonio ha dato l'ok lo stesso giorno.
+
+**30/09/2026, sera · la versione semplice con la voce di Emanuele.** Registrata col DJI sul MacBook,
+`1-girato/room84/audio reel room84.m4a`. Il copione era quello dei sottotitoli a scritte, e lui l'ha detto a modo suo,
+più parlato e più lungo: «Ecco qui il sito di un B&B di Poggiomarino», «Prima di iniziare, prendo un foglio», «che è
+la cosa più importante», «che rispecchiano il brand», «importantissime», «Insomma, il posto era già bellissimo,
+mancava semplicemente un sito che lo raccontasse al meglio». I sottotitoli seguono le sue parole, e «Successivamente
+foto e dintorni», detta due volte, è la seconda presa. Il reel dura 36 secondi, e ogni blocco del foglio si disegna
+quando lo nomina. Composizione `PbRoom84Voce`, tempi da `scripts/pb-room84-voce2.py`, suono da
+`scripts/pb-room84-voce-suono.py`, coi livelli del Girarrosto e l'hip hop sotto al posto della phonk, per non ripetere
+il brano. Due punti in cui whisper sbagliava di un secondo, «la 8 e la 4» e «pezzo per pezzo», sono corretti a mano
+sull'energia. Sull'SSD: `room84-voce.mp4` con la base, `room84-voce-senza-musica.mp4` senza.
+
+**30/09/2026, sera · il copione nuovo, più semplice e più di zona**, chiesto da Emanuele insieme a quello del
+Girarrosto. Stesse scene della versione semplice, nello stesso ordine; nomina Antonio e porta solo cose che il
+[[entities/clienti/room84/brand-book|brand book]] permette di dire, il 9,8 su quaranta recensioni e Pompei a nove
+chilometri. Del sito vecchio non si dice niente di male: era suo, e non si dice nemmeno quello. Chiude con la stessa
+CTA del Girarrosto, girata su chi ha un B&B.
+
+1. Antonio ha un B&B a Poggiomarino, e voleva rifare il sito.
+2. Prima di toccare il computer: carta e penna.
+3. In alto la spa in camera, che è la cosa più importante.
+4. Subito sotto, le date libere.
+5. Poi le due camere: la 8 e la 4.
+6. Le recensioni vere di Booking: 9,8 su quaranta.
+7. In fondo foto e dintorni, con Pompei a nove chilometri.
+8. E da quel foglio è nato il sito, pezzo per pezzo.
+9. Ecco il risultato.
+10. Il posto era già bello. Mo' pure il sito.
+11. Tieni un amico con un B&B? Mandagli questo video.
+
+**30/09/2026, notte · la voce sul copione nuovo, tagliata a 41 secondi.** Registrata in sei parti,
+`1-girato/room84/pt1.aifc`…`pt6.aifc`, e detta a modo suo, più lunga del copione e con le parole del mestiere:
+«wireframe», «headline», «call to action», «social proof». Intera faceva 58 secondi. Emanuele ha scelto di tagliarla
+a circa quaranta, tenendo le sue parole ma solo i pezzi senza gergo: ogni taglio sta in una pausa vera ed è stato
+verificato facendo trascrivere il pezzo tenuto. Restano fuori anche «che non sono altro che il nome del brand,
+Room84», perché da dove venga il nome non si racconta, «ottimo» dopo il 9,8 e «la Costiera Amalfitana». Il rombo
+sotto i 60 Hz delle sei parti si toglie col passa-alto.
+
+Il sito prima e il sito dopo non sono più le schermate nel computer e nel telefono: sono **le riprese vere del
+fisso**, gli spezzoni `imac-*` tagliati da IMG_5662, indicate da Emanuele. In chiusura c'è la CTA, «Se conosci
+qualcuno con un B&B, mandagli questo video.», al posto della riga del sito. Composizione `PbRoom84Voce3`, voce da
+`scripts/pb-room84-voce3.py`, suono da `scripts/pb-room84-voce-suono.py` coi livelli uniti della v5 del Girarrosto.
+
+**30/09/2026, notte · la v3 non piace, e il copione si rifà attorno al prima e al dopo.** Emanuele: «non mi piace.
+rimandami un nuovo copione. e poi si deve vedere bene il prima del sito ed il dopo». Sul fisso nella stanza buia il
+sito è piccolo e scuro, e la v3 passava 23 secondi sul foglio e 4 sul sito. Il copione nuovo mette al centro le due
+scritte in alto, vere e prese dai due siti, e non dice niente di male del sito vecchio:
+
+1. Questo era il sito di Room84, un B&B a Poggiomarino.
+2. In alto diceva: «Il tuo rifugio di relax e piacere».
+3. Ma la cosa che conta di più, lì, è la spa in camera.
+4. Allora, prima di toccare il computer: carta e penna.
+5. Ho messo in fila quello che cerca chi prenota: la spa, le date libere, le camere, le recensioni.
+6. Ecco il risultato.
+7. In alto adesso c'è: «Una notte con la spa in camera».
+8. Poi le due camere, la 8 e la 4, e il 9,8 di Booking.
+9. Tieni un amico con un B&B? Mandagli questo video.
+
+Per le immagini: prima e dopo nella stessa inquadratura, grandi, dalle registrazioni vere dello schermo e non dal
+fisso; sulla 2 e sulla 7 la camera va sulla scritta in alto, nello stesso punto; il foglio dura solo la 4 e la 5.
+
+**30/09/2026, notte · la v4, col prima e il dopo in grande.** Registrata in `1-girato/room84/voceroomnuova.aifc`, con
+qualche frase sbagliata e ripetuta: Emanuele, «usa sempre l'ultima frase detta». Le sue parole restano come le ha
+dette, anche «che rispecchiano il brand» e «importantissimo», e la CTA è diventata «Conosci qualcuno con un B&B?
+Mandagli questo video.». Il sito prima e il sito dopo sono **il sito da telefono, grande, nella stessa inquadratura**,
+dalle schermate vere rifatte dalla sessione «Buongiorno» coi numeri giusti delle camere; quando dice la scritta in
+alto il telefono ci zooma sopra, nello stesso punto per i due siti. Il foglio è veloce, sei secondi. Il reel dura 35
+secondi. Composizione `PbRoom84Voce4` in `src/pb-room84/Voce4.tsx`, voce da `scripts/pb-room84-voce4.py`, suono da
+`scripts/pb-room84-voce4-suono.py`, con la batteria dell'hip hop che entra su «Allora». Il render è a
+`--concurrency=1`: il Mac si scaldava.
+
+⚠️ **Sulle schermate bianche i sottotitoli crema non si leggono**: nel primo render, con lo zoom, sotto «In alto
+diceva» passava il riquadro bianco delle date. Sotto il telefono c'è un'ombra in basso, come sulle riprese, e non un
+riquadro.

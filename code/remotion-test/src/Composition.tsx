@@ -10,7 +10,10 @@ import { ReelGirarrosto } from "./pb-girarrosto/ReelGirarrosto";
 import { DURATA as durataGirarrosto } from "./pb-girarrosto/testo";
 import { ReelRoom84 } from "./pb-room84/ReelRoom84";
 import { MUTO as ROOM84_MUTO, VOCE as ROOM84_VOCE } from "./pb-room84/testo";
-import { DURATA3 as durataRoom84Semplice, ReelRoom84Semplice } from "./pb-room84/Semplice";
+import { DURATA3 as durataRoom84Semplice, DURATA_VOCE2, DURATA_VOCE3, ReelRoom84Semplice } from "./pb-room84/Semplice";
+import { DURATA_VOCE4, ReelRoom84Voce4 } from "./pb-room84/Voce4";
+import { DURATA_TENUTA, ReelTenuta } from "./pb-tenuta/ReelTenuta";
+import { DURATA_DMR, ReelDmr } from "./pb-dmr/ReelDmr";
 import { ReelTdg } from "./tdg/ReelTdg";
 import { REEL as REEL_TDG, durataTotale as durataTdg } from "./tdg/tempi";
 
@@ -90,6 +93,48 @@ export const MyComposition = () => {
         id="PbRoom84Semplice"
         component={ReelRoom84Semplice}
         durationInFrames={durataRoom84Semplice}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84Voce"
+        component={ReelRoom84Semplice}
+        defaultProps={{ versione: "voce" as const }}
+        durationInFrames={DURATA_VOCE2}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84Voce3"
+        component={ReelRoom84Semplice}
+        defaultProps={{ versione: "voce3" as const }}
+        durationInFrames={DURATA_VOCE3}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84Voce4"
+        component={ReelRoom84Voce4}
+        durationInFrames={DURATA_VOCE4}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbTenuta"
+        component={ReelTenuta}
+        durationInFrames={DURATA_TENUTA}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbDmr"
+        component={ReelDmr}
+        durationInFrames={DURATA_DMR}
         fps={30}
         width={1080}
         height={1920}

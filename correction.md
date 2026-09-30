@@ -1047,3 +1047,33 @@ niente.
 proporla. Le esclusioni stanno in `granola.non_da_importare` di `code/skills/journal/riferimenti.json`, e la
 regola nella chiusura.
 
+## 30/09/2026 — Le camere di Room84 invertite, prese dai nomi dei file
+
+Ho scritto tutto il sito di Room84 con la Camera 8 idromassaggio e la 4 sauna. Veniva dai nomi delle foto del sito vecchio,
+`room-8-*.jpg` per la vasca, e nessuno me l'aveva detto. Emanuele: «la camera 8 è con la sauna e la 4 idromassaggio».
+
+**La prossima volta:** quale camera ha cosa si chiede al cliente o a Emanuele prima di scriverlo, e non si deduce dai nomi
+dei file o dalle cartelle di un sito vecchio. Un fatto che il cliente legge sul suo sito e che sbagliato fa ridere si
+verifica alla fonte.
+
+
+## 30/09/2026 — Room84: WordPress sostituito invece di tenerlo
+
+Emanuele aveva scritto «ricordati che ci sono già le pagine» e «cancella tutti i plugin inutili e gli altri temi». Io ho
+tolto WordPress da `httpdocs` e ci ho messo il sito statico. Lui: «ti avevo detto di ricostruirlo sulla copia wordpress del
+sito». Chiedere di cancellare plugin e temi vuol dire che WordPress resta: il sito nuovo andava fatto tema, sulle pagine
+che c'erano.
+
+**La prossima volta:** prima di sostituire un sistema sul sito di un cliente, si rilegge ogni frase di Emanuele chiedendosi
+se ha senso con la scelta che sto per fare; se una non torna, si chiede prima di toccare il server. Il WordPress era stato
+spostato e non cancellato, ed è questo che ha reso l'errore rimediabile: si continua così.
+
+## 30/09/2026 — L'odissea di Chi sono: la coda in grigio spento non si leggeva
+
+Nell'odissea ogni passo finiva con una coda in `--spento`, `#75746A`, come «Marketing fa capire.» nei titoli della home.
+Ma lì erano tre parole, qui erano frasi intere: sul fondo scuro il contrasto è 4 a 1, ed Emanuele l'ha detto subito,
+«non si leggerà bene». Passata a `--intermedio`, 9 a 1.
+
+**La prossima volta:** `--spento` va bene per poche parole, un'etichetta, un «prima» accanto al «dopo»; per una frase
+che va letta si usa `--intermedio`. Prima di spegnere un testo si misura il contrasto, e sotto 7 a 1 non si spegne niente
+che sia più lungo di una riga.

@@ -2,6 +2,18 @@
 
 Aperto il 12/07/2026.
 
+## 30/09/2026 — Il primo report dei social
+
+Chiesto da Emanuele insieme a quello di Mamma Rosaria, per agosto e settembre: il PDF sta su Drive in
+`98 Social/03 report/2026-09/`, coi dati in `dati/`, e le righe dei due mesi in [[data/social-mensile|social mensile]].
+Il design del report è quello della Tenuta, Cinzel e Georgia su marrone, oro e crema.
+
+- **I reel sono quello che funziona**: i tre post più visti su Instagram sono tutti reel, in media 384 visualizzazioni
+  contro le 131 degli altri post. Su Facebook il più visto è Dal cortile ai saloni, 729.
+- Settembre ha sette post, dal 16, e su Instagram la media per post scende da 260 a 110 visualizzazioni.
+- **Google è quasi solo indicazioni stradali**: 87 nei due mesi, una chiamata e sette clic sul sito. Il profilo Google
+  ha id `8455758240648496364`, segnato nei riferimenti della skill del report.
+
 ## 20/09/2026 — La Tenuta si ferma, per ora
 
 **Stop alla Tenuta Don Gaetano.** Lo ha deciso Raffaele nell'incontro del 14/09/2026 e Emanuele l'ha

@@ -1,0 +1,223 @@
+{
+ "durata": 34.91,
+ "scene": {
+  "prima": {
+   "da": 0.0,
+   "a": 10.0
+  },
+  "scrivania": {
+   "da": 10.0,
+   "a": 12.26
+  },
+  "penna": {
+   "da": 12.26,
+   "a": 13.81
+  },
+  "foglio": {
+   "da": 13.81,
+   "a": 19.93
+  },
+  "sito": {
+   "da": 19.93,
+   "a": 21.83
+  },
+  "dopo": {
+   "da": 21.83,
+   "a": 34.91
+  },
+  "chiusura": {
+   "da": 31.0,
+   "a": 34.91
+  }
+ },
+ "disegno": [
+  0.05,
+  2.42,
+  3.25,
+  3.745,
+  4.24,
+  4.58,
+  4.92,
+  5.27,
+  5.52
+ ],
+ "pieni": [
+  0.1,
+  0.26,
+  0.42,
+  0.58,
+  0.74,
+  0.9,
+  1.06,
+  1.22,
+  1.38
+ ],
+ "movimenti": {
+  "zoomPrima": [
+   3.87,
+   7.19
+  ],
+  "zoomDopo": [
+   21.83,
+   25.11
+  ],
+  "numeri": 28.05,
+  "chiavi": 29.49
+ },
+ "blocchi": [
+  {
+   "testo": "Questo era il sito",
+   "da": 0.0,
+   "a": 1.06
+  },
+  {
+   "testo": "di Room84,",
+   "da": 1.06,
+   "a": 2.17
+  },
+  {
+   "testo": "un B&B a Poggiomarino.",
+   "da": 2.17,
+   "a": 3.87
+  },
+  {
+   "testo": "In alto diceva:",
+   "da": 3.87,
+   "a": 5.27
+  },
+  {
+   "testo": "«Il tuo rifugio",
+   "da": 5.27,
+   "a": 5.97
+  },
+  {
+   "testo": "di relax e piacere».",
+   "da": 5.97,
+   "a": 7.19
+  },
+  {
+   "testo": "Ma la cosa che conta",
+   "da": 7.19,
+   "a": 8.24
+  },
+  {
+   "testo": "di più, lì,",
+   "da": 8.24,
+   "a": 8.75
+  },
+  {
+   "testo": "è la spa in camera.",
+   "da": 8.75,
+   "chiave": "la spa in camera",
+   "a": 10.0
+  },
+  {
+   "testo": "Allora, quello che ho fatto",
+   "da": 10.0,
+   "a": 11.19
+  },
+  {
+   "testo": "prima del computer",
+   "da": 11.19,
+   "a": 12.2
+  },
+  {
+   "testo": "è stato prendere",
+   "da": 12.2,
+   "a": 12.99
+  },
+  {
+   "testo": "carta e penna.",
+   "da": 12.99,
+   "chiave": "carta e penna",
+   "a": 13.81
+  },
+  {
+   "testo": "Ho messo in fila",
+   "da": 13.81,
+   "a": 14.44
+  },
+  {
+   "testo": "quello che cerca",
+   "da": 14.44,
+   "a": 15.33
+  },
+  {
+   "testo": "chi prenota:",
+   "da": 15.33,
+   "a": 16.23
+  },
+  {
+   "testo": "quindi la spa,",
+   "da": 16.23,
+   "a": 17.06
+  },
+  {
+   "testo": "le date libere,",
+   "da": 17.06,
+   "a": 18.05
+  },
+  {
+   "testo": "le camere",
+   "da": 18.05,
+   "a": 18.73
+  },
+  {
+   "testo": "e le recensioni.",
+   "da": 18.73,
+   "a": 19.93
+  },
+  {
+   "testo": "Ed ecco il risultato.",
+   "da": 19.93,
+   "chiave": "il risultato",
+   "a": 21.83
+  },
+  {
+   "testo": "In alto adesso c'è:",
+   "da": 21.83,
+   "a": 22.77
+  },
+  {
+   "testo": "«Una notte con",
+   "da": 22.77,
+   "a": 23.61
+  },
+  {
+   "testo": "la spa in camera».",
+   "da": 23.61,
+   "chiave": "la spa in camera",
+   "a": 25.11
+  },
+  {
+   "testo": "Poi le due camere,",
+   "da": 25.11,
+   "a": 25.9
+  },
+  {
+   "testo": "la 8 e la 4,",
+   "da": 25.9,
+   "a": 26.57
+  },
+  {
+   "testo": "che rispecchiano il brand.",
+   "da": 26.57,
+   "a": 28.05
+  },
+  {
+   "testo": "E il 9,8 di Booking,",
+   "da": 28.05,
+   "chiave": "9,8",
+   "a": 29.49
+  },
+  {
+   "testo": "importantissimo.",
+   "da": 29.49,
+   "a": 31.0
+  }
+ ],
+ "cta": {
+  "da": 31.0,
+  "chiave": 32.38
+ }
+}

@@ -96,10 +96,10 @@ quelli più famosi del momento».
 | **Soft**, leberch | 1:28 | cala fra 20 e 22 secondi e si apre a 22,45 |
 | **Soft Lofi**, ZephiraMusic | 2:14 | si apre a 14,75, e di nuovo verso i 44 |
 | **Minimal Piano**, leberch | 1:24 | piano piatto, senza aperture: il letto più calmo |
-| **Phonk, Brazilian Phonk**, alex-morgan | 2:01 | ritmo pieno, una pausa da 28,75 e il drop a 30,55: quella delle clip di tendenza |
+| **Phonk, Brazilian Phonk**, alex-morgan | 2:01 | ritmo pieno, una pausa da 28,75 e il drop a 30,55: quella delle clip di tendenza. **Usata** sotto il Girarrosto con la voce, 30/09/2026, col drop su «Poi ho fatto un'app» |
 | **Trap Beat**, AtlasAudio | 1:13 | cresce: intro fino a 12, più forte fino a 21, pieno dal drop a 21,0 |
 | **Tech House**, JonasBlakewood | 0:42 | ritmata da subito, un filtro fra 11,5 e 12,1 e il drop a 12,22 |
-| **Hip-Hop Beat**, The_Mountain | 1:09 | intro lenta e la batteria che entra a 12,0 |
+| **Hip-Hop Beat**, The_Mountain | 1:09 | intro lenta e la batteria che entra a 12,0. **Usata** sotto Room84 con la voce, 30/09/2026, con la batteria che entra quando comincia il disegno |
 
 ⚠️ **Per il personal brand le prime quattro non vanno.** Emanuele il 30/09: «ci vuole un altro tipo di stile, una
 cosa più ritmica, più strong, adatta a me». Le ultime quattro sono le basi ritmate scelte quel giorno.

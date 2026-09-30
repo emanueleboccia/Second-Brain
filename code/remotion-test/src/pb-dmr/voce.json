@@ -1,0 +1,243 @@
+{
+ "durata": 38.58,
+ "scene": {
+  "drone": {
+   "da": 0.0,
+   "a": 3.6
+  },
+  "whatsapp": {
+   "da": 3.6,
+   "a": 8.49
+  },
+  "drive": {
+   "da": 8.49,
+   "a": 12.84
+  },
+  "gestionale": {
+   "da": 12.84,
+   "a": 16.32
+  },
+  "festa": {
+   "da": 16.32,
+   "a": 21.23
+  },
+  "pagine": {
+   "da": 21.23,
+   "a": 27.3
+  },
+  "conti": {
+   "da": 27.3,
+   "a": 30.49
+  },
+  "caso": {
+   "da": 30.49,
+   "a": 32.67
+  },
+  "finale": {
+   "da": 32.67,
+   "a": 38.58
+  }
+ },
+ "movimenti": {
+  "feste": 2.0,
+  "riscritto": 5.1,
+  "acconti": 6.56,
+  "sparsi": 9.09,
+  "drive": 9.83,
+  "mente": 11.78,
+  "cliente": 23.25,
+  "lavora": 24.15,
+  "cucina": 24.95,
+  "sincronizzato": 26.15,
+  "entrato": 28.75,
+  "manca": 29.42
+ },
+ "blocchi": [
+  {
+   "testo": "Questo è l'agriturismo",
+   "da": 0.0,
+   "a": 1.28
+  },
+  {
+   "testo": "della mia famiglia,",
+   "da": 1.28,
+   "a": 2.0
+  },
+  {
+   "testo": "e qui si fanno",
+   "da": 2.0,
+   "a": 2.5
+  },
+  {
+   "testo": "eventi privati.",
+   "da": 2.5,
+   "chiave": "eventi privati",
+   "a": 3.6
+  },
+  {
+   "testo": "Per ogni evento",
+   "da": 3.6,
+   "a": 4.01
+  },
+  {
+   "testo": "c'è un messaggio WhatsApp,",
+   "da": 4.01,
+   "a": 5.1
+  },
+  {
+   "testo": "scritto e riscritto a mano,",
+   "da": 5.1,
+   "chiave": "a mano",
+   "a": 6.56
+  },
+  {
+   "testo": "con acconti e saldi",
+   "da": 6.56,
+   "a": 7.52
+  },
+  {
+   "testo": "all'interno.",
+   "da": 7.52,
+   "a": 8.49
+  },
+  {
+   "testo": "I turni stavano",
+   "da": 8.49,
+   "a": 9.09
+  },
+  {
+   "testo": "in file sparsi",
+   "da": 9.09,
+   "a": 9.83
+  },
+  {
+   "testo": "su Google Drive,",
+   "da": 9.83,
+   "a": 10.75
+  },
+  {
+   "testo": "e il resto veniva",
+   "da": 10.75,
+   "a": 11.78
+  },
+  {
+   "testo": "tutto a mente.",
+   "da": 11.78,
+   "chiave": "a mente",
+   "a": 12.84
+  },
+  {
+   "testo": "Allora ho creato",
+   "da": 12.84,
+   "a": 13.57
+  },
+  {
+   "testo": "un gestionale",
+   "da": 13.57,
+   "a": 14.44
+  },
+  {
+   "testo": "soltanto per i nostri eventi,",
+   "da": 14.44,
+   "a": 16.32
+  },
+  {
+   "testo": "dove all'interno",
+   "da": 16.32,
+   "a": 16.96
+  },
+  {
+   "testo": "crei l'evento",
+   "da": 16.96,
+   "a": 17.5
+  },
+  {
+   "testo": "una sola volta",
+   "da": 17.5,
+   "chiave": "una sola volta",
+   "a": 18.14
+  },
+  {
+   "testo": "e selezioni il menù,",
+   "da": 18.14,
+   "a": 19.48
+  },
+  {
+   "testo": "i servizi",
+   "da": 19.48,
+   "a": 20.07
+  },
+  {
+   "testo": "e chi ci lavora.",
+   "da": 20.07,
+   "a": 21.23
+  },
+  {
+   "testo": "E così partono",
+   "da": 21.23,
+   "a": 22.24
+  },
+  {
+   "testo": "tre pagine:",
+   "da": 22.24,
+   "a": 23.25
+  },
+  {
+   "testo": "una per il cliente,",
+   "da": 23.25,
+   "a": 24.15
+  },
+  {
+   "testo": "una per chi lavora",
+   "da": 24.15,
+   "a": 24.95
+  },
+  {
+   "testo": "e l'altra per la cucina,",
+   "da": 24.95,
+   "a": 26.15
+  },
+  {
+   "testo": "tutto sincronizzato.",
+   "da": 26.15,
+   "chiave": "sincronizzato",
+   "a": 27.3
+  },
+  {
+   "testo": "Gli incassi",
+   "da": 27.3,
+   "a": 27.75
+  },
+  {
+   "testo": "li vedi subito:",
+   "da": 27.75,
+   "a": 28.75
+  },
+  {
+   "testo": "quanto è entrato",
+   "da": 28.75,
+   "a": 29.42
+  },
+  {
+   "testo": "e quanto manca.",
+   "da": 29.42,
+   "chiave": "quanto manca",
+   "a": 30.49
+  },
+  {
+   "testo": "E nulla viene",
+   "da": 30.49,
+   "a": 31.13
+  },
+  {
+   "testo": "lasciato al caso.",
+   "da": 31.13,
+   "chiave": "al caso",
+   "a": 32.67
+  }
+ ],
+ "cta": {
+  "da": 32.67,
+  "chiave": 36.0
+ }
+}

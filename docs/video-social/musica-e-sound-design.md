@@ -55,6 +55,29 @@ tendenza si aggiunge dentro Instagram al momento di pubblicare, dove la licenza 
 quando Emanuele li ha indicati come «perfetti» per il suo stile. Su un account aziendale Instagram ne toglie una
 parte: è una cosa da sapere prima di scegliere il tipo di account.
 
+⚠️ **Nei reel del personal brand la musica non si monta più, nemmeno quella libera.** Lo stesso giorno, davanti alle
+tre versioni di Room84, Emanuele ha scelto quella coi soli effetti: *«gli audio li metto io in base al social e i
+suoni di tendenza»*. Il file che si consegna ha gli effetti sui movimenti e nient'altro, e la base la sceglie lui
+dentro ogni social quando pubblica. Le basi ritmate della [[docs/video-social/libreria-suoni|libreria]] restano
+per le prove di ritmo e per i brand di famiglia.
+
+⚠️ **Con la voce invece un sottofondo nel file ci va.** Detto da Emanuele la sera stessa sul Girarrosto con la sua
+voce: *«sembra brutto che si sente solo la voce da sola. Metti un piccolo sottofondo musicale, quello va più
+basso»*. Quindi i reel a scritte escono coi soli effetti, e quelli con la voce escono con voce, effetti e una base
+bassa. I livelli, sui riferimenti del settore perché Instagram non pubblica un numero:
+
+- **la voce a −17 LUFS** da sola: a −16 gli sembrava «un po' troppo alta»;
+- **gli effetti vicini fra loro e vicini alla voce**: la distanza fra il più morbido e il più forte si dimezza, e la
+  maggior parte sta al livello della voce, senza abbassarsi quando lei parla;
+- **la base 7 dB sotto la voce** mentre parla, e 2 dB più su fra una frase e l'altra;
+- **i picchi sotto −1 dB** dopo la compressione, quindi il limitatore sta a −1,9. Il mix viene intorno a −15,7 LUFS;
+  i reel pubblici stanno intorno a −14.
+
+⚠️ **I riferimenti del settore dicono la base 12-14 dB sotto la voce, e a Emanuele così non piace.** Sulla prima
+prova, a 13 dB e con gli effetti più staccati, ha detto: *«la voce si sente troppo sola, anche gli effetti unifica
+tutti i volumi, non dargli troppo distacco»*. Vale il suo orecchio: un mix unito, dove base ed effetti stanno addosso
+alla voce.
+
 ## Come si mette
 
 - **Volume, entrata e uscita** si decidono, non si lasciano al caso: la musica entra e esce su un punto.

@@ -18,7 +18,7 @@ related:
 
 # Personal brand — la pagina Contatti
 
-> Montata il 29/09/2026 su `~/Desktop/progetti/eb-site/contatti/`. Emanuele non l'ha ancora vista.
+> Montata il 29/09/2026 su `~/Desktop/progetti/eb-site/contatti/`. ✅ **Approvata da Emanuele il 30/09/2026**: «va bene».
 > Il testo è quello scritto con lui il 20/09, in [[projects/personal-brand/sito-pagine|le pagine
 > del sito]]: qui c'è come è stata montata, e le due cose cambiate.
 

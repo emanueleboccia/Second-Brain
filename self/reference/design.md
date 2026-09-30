@@ -7,7 +7,7 @@ tags:
   - design
 status: attivo
 created: 2026-08-21
-updated: 2026-09-29
+updated: 2026-09-30
 related:
   - "[[self/reference/brand]]"
   - "[[self/reference/tono]]"
@@ -42,8 +42,10 @@ composizione. È la traduzione visiva della regola del prima e dopo che regge
 **Il marchio è il nome.** *Emanuele Boccia*, Archivo Bold, tutto maiuscolo, spaziatura larga, in
 alto a sinistra. Su fondo scuro è crema su `#0E0E0C`; su fondo chiaro è `#0E0E0C` su crema.
 
-**Non esiste un simbolo, e non è un buco da riempire.** Del materiale visivo c'è una fotografia, e
-una fotografia non è un marchio.
+**Il simbolo è il monogramma EB nel cerchio.** Deciso da Emanuele il 30/09/2026, «sì al simbolo»: dal
+28/09 stava già nella testata del sito, dove al passaggio del mouse lascia il posto al nome, e dal 29/09
+nella firma dei footer e nell'icona del sito. Supera la regola del 29/08, che diceva «Non esiste un
+simbolo»: era diventata falsa sul sito prima che qui.
 
 ## I caratteri
 
@@ -166,6 +168,10 @@ deciso e non si deduce da qui.
   non in tutte. È l'unico caso in cui un testo ha una forma dietro, e la forma è quella di un
   evidenziatore, non di un riquadro. Il giallo evidenziatore e l'arancio, provati lo stesso giorno,
   non gli sono piaciuti.
+- **Sul sito la passata è l'unico risalto dei titoli**, deciso da Emanuele il 30/09/2026: «è bellissimo».
+  Una parola per titolo grande, e nei titoli piccoli nessuna. Niente seconda metà in grigio e niente parola
+  in bianco pieno: c'erano tutti e tre, e lui non capiva quale fosse l'accento. In chiaro si ribalta, segno
+  nero e parola crema.
 - **I dati mostrati nei video stanno sul fondale firma.**
 - **Il prima in grigio spento, il dopo in crema.** Mai due bianchi nella stessa inquadratura.
 - **La prova non si trucca.** Il materiale reale — screenshot, riprese, foto dei clienti — resta

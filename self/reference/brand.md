@@ -7,7 +7,7 @@ tags:
   - posizionamento
 status: attivo
 created: 2026-08-21
-updated: 2026-08-27
+updated: 2026-09-30
 related:
   - "[[self/reference/tono]]"
   - "[[self/reference/target]]"
@@ -112,7 +112,10 @@ Da questa tesi discende tutto il resto. Il marketing **guida l'offerta e segue i
 grafica, siti, codice e AI sono **strumenti che girano attorno** ad esso, non il mestiere.
 
 La tesi è maturata studiando e leggendo, non da un singolo evento. Non c'è un aneddoto di
-conversione da raccontare, e non va inventato.
+conversione da raccontare, e non va inventato. **Un momento però c'è**, detto da Emanuele il 30/09/2026:
+il corso di programmazione a 22 anni, da cui è uscito «non troppo contento» perché lo stesso sito si
+faceva più in fretta in altri modi, e alle persone interessava il risultato. Da lì ha cominciato a
+studiare il mercato. Sta nell'odissea di [[projects/personal-brand/sito-chi-sono|Chi sono]].
 
 ## L'arco narrativo
 
@@ -150,7 +153,10 @@ Restano aperti. Non si riempiono per far tornare la narrazione.
 1. **Le citazioni testuali dei clienti** — perché ti hanno scelto, parole loro. Da oggi si
    annotano quando arrivano.
 2. **I tentativi falliti e gli errori professionali.** Nell'intervista non sono emersi e non sono
-   stati forzati. È la parte che rende credibile un arco narrativo, e per ora manca.
+   stati forzati. È la parte che rende credibile un arco narrativo. **Il 30/09/2026 ne è arrivato uno**,
+   detto da lui: per anni ha pensato soprattutto all'estetica e alla perfezione, mentre al mercato
+   interessano la comunicazione e la strategia. I business online provati fra i 18 e i 20 anni, «nel bene
+   e nel male», restano fuori dalla narrazione per sua scelta.
 3. **Il marchio.** Caratteri, palette e fondale sono decisi dal 29/08/2026 in
    [[self/reference/design|design]]; se esista un logo o una firma testuale, no.
 

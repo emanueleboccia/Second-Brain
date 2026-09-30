@@ -192,13 +192,22 @@ sito, c'è altro?». Testi e immagini segnaposto non ce ne sono più: le pagine 
 
 **Quello che c'è, ma aspetta una sua parola**
 
-- la lettura dei testi di cinque lavori su sei, di Contatti e delle pagine legali: approvati da lui
-  sono il sito di Da Mamma Rosaria e le quattro pagine dei servizi;
-- l'odissea di Chi sono, che è una prima stesura e non ha gli anni;
+- la lettura delle pagine legali, che si fanno per ultime con WordPress. ✅ **I testi dei lavori sono tutti
+  approvati** dal 30/09 sera: «i progetti vanno tutti quanti bene, se cambierà qualcosa te lo dirò». Con loro
+  Contatti, il sito di Da Mamma Rosaria e le quattro pagine dei servizi;
+- ~~l'odissea di Chi sono, che è una prima stesura e non ha gli anni~~: riscritta il 30/09 sulle sue
+  risposte, con gli anni, e montata;
 - ~~Sistema Evolve nei nomi che scorrono in Chi sono~~: tolto il 30/09, al suo posto Room84. Alla
   domanda Emanuele ha risposto «non mi piace ancora il sito, lo sto modificando», letto come un no
   per ora; la regola di [[self/reference/offerta|l'offerta]] resta in piedi;
 - ~~la riga «Cosa c'è dentro» nelle schede dei lavori~~: tolta il 30/09, «sembra brutta proprio».
+
+## Il giro di controllo, 30/09/2026
+
+Fatto la notte del 30/09 sul sito compilato, su tutte le pagine a nove larghezze, e rifatto finché non è uscito
+pulito. Per andare online mancano solo le cose di WordPress: l'installazione, la sede per Privacy e Cookie, il
+token di Notion e la casella info@emanueleboccia.it per il modulo, poi Analytics, Search Console e Yoast. Il
+controllo si rilancia prima del lancio con `code/controllo-siti/giro.mjs`.
 
 ## Cosa manca, prima del 30/09
 

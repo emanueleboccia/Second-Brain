@@ -103,3 +103,56 @@ sono scarabocchi.
 
 Il caso scritto, con cosa è stato costruito e perché, sta in
 [[docs/casi/girarrosto-liberti|il caso Girarrosto]].
+
+**30/09/2026 · la v2 esce a sole scritte, coi soli effetti.** Era già muta e raccontata dai sottotitoli, allo stesso
+ritmo di Room84: le mancava il suono. Gli effetti stanno sulle animazioni, dalla penna e dall'evidenziatore sul foglio
+alle schede dell'app, al totale che si conta, al tocco sull'iPad e al colpo sulla chiusura, e la musica la mette
+Emanuele dentro ogni social. Lo script è `code/remotion-test/scripts/pb-girarrosto-suono.py`, il file
+`reel-girarrosto-v2-effetti.mp4` sull'SSD. La voce resta per quando l'avrà allenata.
+
+**30/09/2026, sera · la v3, con la voce di Emanuele.** Registrata col DJI sul MacBook, `1-girato/girarrosto-liberti/audio
+finale.m4a`: nove frasi pulite, fondo a −81 dB. Tre le ha dette a modo suo, «giallo è il fritto», «E prima di
+costruire», «Non gli ho voluto cambiare il mestiere, gli ho semplicemente tolto il foglio», e i sottotitoli seguono le
+sue parole. Quella dell'iPad l'ha detta due volte, e vale la seconda, «Un solo tocco, e sai quanti pezzi devi preparare
+in giornata»: «prendi il secondo tentativo ovviamente». I tempi del reel ora vengono dalla voce, 38,3 secondi: lo script
+è `code/remotion-test/scripts/pb-girarrosto-voce.py`, e il file `reel-girarrosto-v3-voce.mp4` sull'SSD, con gli effetti
+sotto e senza musica.
+
+**30/09/2026, sera · la v4: voce più bassa, effetti al suo livello, una base sotto.** Sulla v3 Emanuele: gli effetti
+vanno allo stesso volume della voce, la voce da sola «sembra brutto», serve un piccolo sottofondo più basso, e la voce
+era un po' troppo alta. Nella v4 la voce sta a −17 LUFS, gli effetti più forti al suo livello, la phonk della libreria
+13 dB sotto, con la pausa del brano su «li ho guardati lavorare» e il drop su «Poi ho fatto un'app». Il file è
+`reel-girarrosto-v4.mp4` sull'SSD, e accanto `reel-girarrosto-v4-senza-musica.mp4`, con solo voce ed effetti
+(`scripts/pb-girarrosto-suono.py senza-musica`).
+
+**30/09/2026, sera · il copione si rifà, più semplice e più di zona.** Emanuele, sentita la v4: «non mi piace il modo
+in cui è stato fatto. Usa dei modi più semplici, più territoriali». Il copione nuovo nomina Marco, parla come si parla
+al banco e porta i numeri che il [[docs/casi/girarrosto-liberti|caso]] permette di dire: circa centoventi ordini in
+una sera piena, e ognuno col suo conto a mente. Resta costruito sulle stesse scene, nello stesso ordine, perché le
+illustrazioni si agganciano ai blocchi, e resta dentro la lunghezza degli spezzoni veri:
+
+1. Al girarrosto di Marco, gli ordini si prendevano così: carta, penna ed evidenziatori.
+2. Squilla il telefono: scrivi il cognome, poi l'ordine.
+3. E il colore ti dice cos'è: giallo il fritto, arancione l'impanato, verde il tacchino.
+4. Nelle sere piene sono centoventi ordini. Centoventi conti, tutti a mente.
+5. Io non sono partito dal computer: sono andato là e li ho guardati lavorare.
+6. Poi gli ho fatto un'app uguale al foglio, solo più veloce.
+7. Scrivi l'ordine, e il conto lo fa lei.
+8. Un tocco, e sa subito quanti pezzi deve preparare.
+9. Mo' Marco pensa ai polli. Ai conti ci pensa l'app.
+10. Tieni un amico che fa ancora i conti a mente? Mandaglielo.
+
+La fine è stata rifatta lo stesso giorno. «Il foglio non serve più» non convinceva Emanuele («non la butterei sul
+foglio»), e la 9 ora chiude su quello che ci guadagna Marco. La 10 è la CTA, chiesta da lui: fra quattro proposte ha
+scelto quella che fa girare il video a chi ha un locale, perché un profilo appena aperto ha bisogno di arrivare a
+qualcuno. Sull'ultima inquadratura va la CTA scritta, al posto della frase della bio. La prima fine, qui sotto, resta
+per sapere da dove si è partiti: «Il girarrosto è sempre lo stesso. Mo' il foglio non serve più».
+
+**30/09/2026, notte · la v5, sul copione nuovo.** Registrata in `3-in-produzione/reel-girarrosto/nuova voce
+relgirarrosto.aifc`, una presa per frase. Le pause fra le frasi sono di 0,2 secondi: Emanuele, «tra una frase e
+l'altra deve esserci poco tempo, pochissimo», e mai più di un secondo; l'immagine dell'iPad prima della voce è scesa
+da 0,9 a 0,5. Tre cose dette a modo suo restano nei sottotitoli: «Al conto ci pensa l'app», «Mandagli questo video»,
+«giallo è il fritto». Whisper sente «Scrivi il telefono» dove il copione dice «Squilla», anche quando glielo si
+suggerisce: nel sottotitolo c'è «Squilla», e va confermato riascoltando. La CTA è scritta sull'ultima inquadratura
+al posto della frase della bio, con la passata su «Mandagli questo video.». Per starci, lo spezzone del telefono è
+allungato fino a 5,3 secondi della clip. Sull'SSD: `reel-girarrosto-v5.mp4` con la phonk, e la versione senza musica.

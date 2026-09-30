@@ -190,6 +190,7 @@ Sono fatti in casa, con le schermate vere e un motore scritto apposta: sta in
   firmate. La prima per la regola che nel personal brand la famiglia non si racconta, la seconda
   perché i nomi di chi ha scritto una recensione non servono a far vedere un sito. È una scelta di
   Claude, fatta dopo aver visto che nei video i nomi si leggevano: il resto della pagina è com'è.
+  ✅ **Approvata da Emanuele il 30/09/2026**: «va bene».
 - **Il sito nuovo di Room84**: dalla copia sul Mac, col movimento ridotto, che lo mostra fermo e
   completo. Fuori le recensioni coi nomi degli ospiti, la riga del piede col codice fiscale e la
   cima di «Chi siamo», che nomina i titolari.

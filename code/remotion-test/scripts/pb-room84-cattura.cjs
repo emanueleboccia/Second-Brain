@@ -54,7 +54,11 @@ const sezioni = (page) => page.evaluate(() => [...document.querySelectorAll('h1,
   const esito = {}
   // il telefono a 3x, e il computer a 1,5x: nel reel la finestra del computer è larga circa 1000 pixel
   const giri = []
-  for (const [nome, url] of [['prima', 'https://www.room84.it/'], ['dopo', 'http://127.0.0.1:8084/']]) {
+  // Dal 30/09/2026 su www.room84.it c'è il sito nuovo: il prima resta la schermata del 29/09, e si rifà solo il dopo.
+  // Con «prima» come argomento si rifarebbe anche quello, ma servirebbe il sito del 2025 da qualche parte.
+  const pagine = [['dopo', 'http://127.0.0.1:8084/']]
+  if (process.argv.includes('prima')) pagine.unshift(['prima', 'https://www.room84.it/'])
+  for (const [nome, url] of pagine) {
     giri.push([nome + '-m', url, { width: 390, height: 844, deviceScaleFactor: 3, isMobile: true, hasTouch: true }, IPHONE, 5400])
     giri.push([nome + '-d', url, { width: 1440, height: 900, deviceScaleFactor: 1.5 }, MAC, 10900])
   }

@@ -110,6 +110,17 @@
         "/Users/emanueleboccia/Second Brain/code/firma"
       ],
       "port": 4174
+    },
+    {
+      "name": "room84-php",
+      "runtimeExecutable": "php",
+      "runtimeArgs": [
+        "-S",
+        "127.0.0.1:8085",
+        "-t",
+        "/Users/emanueleboccia/Desktop/progetti/room84/sito"
+      ],
+      "port": 8085
     }
   ]
 }

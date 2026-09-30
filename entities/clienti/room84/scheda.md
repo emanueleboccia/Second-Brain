@@ -25,7 +25,8 @@ related:
 - **Perché conta più di quello che paga:** Antonio conosce molta gente sul territorio, lo dice
   Emanuele il 29/09/2026. È il motivo del restyling gratuito: farsi nominare.
 - **Attività:** affittacamere con due suite per coppie, in via Vincenzo Giuliano 26 a Poggiomarino
-  (NA), aperto nel 2025. Camera 8 con la vasca idromassaggio, Camera 4 con la sauna a infrarossi.
+  (NA), aperto nel 2025. **Camera 8 con la sauna a infrarossi, Camera 4 con la vasca idromassaggio**: fino al
+  30/09/2026 qui c'era scritto il contrario, e la correzione sta nella [[projects/restyling-room84/MEMORY|memoria del restyling]].
   CIN `IT063055C1KGX3H8IY`. A 700 metri dalla stazione della Circumvesuviana, 9 km dagli Scavi di
   Pompei.
 - **Contatti:** email `room84poggiomarino@gmail.com`. ⚠️ **Sul sito ci sono due numeri**: il

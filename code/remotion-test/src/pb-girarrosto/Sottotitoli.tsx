@@ -9,7 +9,7 @@ import { SCENE_A_TEMPO, type BloccoATempo } from "./testo";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
-export const Passata: React.FC<{ testo: string; da: number; grande?: boolean }> = ({ testo, da, grande }) => {
+export const Passata: React.FC<{ testo: string; da: number; grande?: boolean; dimensione?: number }> = ({ testo, da, grande, dimensione }) => {
   const frame = useCurrentFrame();
   const k = interpolate(frame, [da, da + 6], [0, 1], { ...clamp, easing: Easing.bezier(0.2, 0.8, 0.2, 1) });
   return (
@@ -32,7 +32,7 @@ export const Passata: React.FC<{ testo: string; da: number; grande?: boolean }> 
           fontFamily: ARCHIVO,
           fontWeight: 900,
           fontStretch: "125%",
-          fontSize: grande ? 104 : 74,
+          fontSize: dimensione ?? (grande ? 104 : 74),
           letterSpacing: "-0.01em",
           color: FONDO,
           textShadow: "none",

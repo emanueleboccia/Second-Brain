@@ -1,0 +1,235 @@
+{
+ "durata": 40.98,
+ "scene": {
+  "prima": {
+   "da": 0.0,
+   "a": 3.83
+  },
+  "scrivania": {
+   "da": 3.83,
+   "a": 5.01
+  },
+  "penna": {
+   "da": 5.01,
+   "a": 6.56
+  },
+  "foglio": {
+   "da": 6.56,
+   "a": 29.48
+  },
+  "mani": {
+   "da": 29.48,
+   "a": 30.71
+  },
+  "sito": {
+   "da": 30.71,
+   "a": 33.43
+  },
+  "dopo": {
+   "da": 33.43,
+   "a": 40.98
+  },
+  "chiusura": {
+   "da": 37.26,
+   "a": 40.98
+  }
+ },
+ "disegno": [
+  0.1,
+  0.5,
+  1.69,
+  4.99,
+  6.39,
+  8.79,
+  11.02,
+  16.62,
+  19.71
+ ],
+ "pieni": [
+  0.15,
+  0.42,
+  0.69,
+  0.96,
+  1.23,
+  1.5,
+  1.77,
+  2.04,
+  2.31
+ ],
+ "blocchi": [
+  {
+   "testo": "Antonio e Antonella",
+   "da": 0.0,
+   "a": 0.86
+  },
+  {
+   "testo": "hanno un B&B",
+   "da": 0.86,
+   "a": 1.47
+  },
+  {
+   "testo": "a Poggiomarino",
+   "da": 1.47,
+   "a": 2.26
+  },
+  {
+   "testo": "e vogliono rifare il sito.",
+   "da": 2.26,
+   "a": 3.83
+  },
+  {
+   "testo": "Prima di toccare il computer,",
+   "da": 3.83,
+   "a": 4.94
+  },
+  {
+   "testo": "partiamo da carta e penna.",
+   "da": 4.94,
+   "chiave": "carta e penna",
+   "a": 6.56
+  },
+  {
+   "testo": "In alto creeremo",
+   "da": 6.56,
+   "a": 7.35
+  },
+  {
+   "testo": "una bella sezione principale.",
+   "da": 7.35,
+   "a": 9.17
+  },
+  {
+   "testo": "Subito dopo si parte",
+   "da": 9.17,
+   "a": 10.65
+  },
+  {
+   "testo": "con una sezione",
+   "da": 10.65,
+   "a": 11.55
+  },
+  {
+   "testo": "per il chi siamo.",
+   "da": 11.55,
+   "a": 12.9
+  },
+  {
+   "testo": "Poi le due camere,",
+   "da": 12.9,
+   "a": 14.22
+  },
+  {
+   "testo": "la 8 e la 4.",
+   "da": 14.22,
+   "chiave": "la 8 e la 4",
+   "a": 15.65
+  },
+  {
+   "testo": "Ma soprattutto",
+   "da": 15.65,
+   "a": 16.23
+  },
+  {
+   "testo": "la parte più importante,",
+   "da": 16.23,
+   "a": 17.58
+  },
+  {
+   "testo": "le recensioni.",
+   "da": 17.58,
+   "a": 18.82
+  },
+  {
+   "testo": "Ovviamente quelle vere",
+   "da": 18.82,
+   "a": 19.87
+  },
+  {
+   "testo": "di Booking,",
+   "da": 19.87,
+   "a": 20.46
+  },
+  {
+   "testo": "con 9,8 su 40.",
+   "da": 20.46,
+   "chiave": "9,8 su 40",
+   "a": 22.19
+  },
+  {
+   "testo": "In fondo inseriremo",
+   "da": 22.19,
+   "a": 23.18
+  },
+  {
+   "testo": "una gallery",
+   "da": 23.18,
+   "a": 23.94
+  },
+  {
+   "testo": "con tutte le fotografie",
+   "da": 23.94,
+   "a": 25.13
+  },
+  {
+   "testo": "e subito dopo",
+   "da": 25.13,
+   "a": 25.87
+  },
+  {
+   "testo": "una sezione chiamata dintorni,",
+   "da": 25.87,
+   "a": 27.67
+  },
+  {
+   "testo": "per esempio",
+   "da": 27.67,
+   "a": 28.07
+  },
+  {
+   "testo": "gli Scavi di Pompei",
+   "da": 28.07,
+   "a": 28.91
+  },
+  {
+   "testo": "a 9 km.",
+   "da": 28.91,
+   "a": 29.48
+  },
+  {
+   "testo": "E da questo foglio",
+   "da": 29.48,
+   "a": 30.71
+  },
+  {
+   "testo": "nasce il sito,",
+   "da": 30.71,
+   "a": 31.78
+  },
+  {
+   "testo": "pezzo per pezzo.",
+   "da": 31.78,
+   "chiave": "pezzo per pezzo",
+   "a": 33.43
+  },
+  {
+   "testo": "Ecco il risultato.",
+   "da": 33.43,
+   "chiave": "il risultato",
+   "a": 34.4
+  },
+  {
+   "testo": "Il posto era già bellissimo,",
+   "da": 34.4,
+   "a": 36.2
+  },
+  {
+   "testo": "mo' pure il sito.",
+   "da": 36.2,
+   "a": 37.26
+  }
+ ],
+ "cta": {
+  "da": 37.26,
+  "chiave": 38.91
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "durata": 35.96,
+ "scene": {
+  "prima": {
+   "da": 0.0,
+   "a": 3.39
+  },
+  "scrivania": {
+   "da": 3.39,
+   "a": 4.41
+  },
+  "penna": {
+   "da": 4.41,
+   "a": 5.41
+  },
+  "foglio": {
+   "da": 5.41,
+   "a": 20.8
+  },
+  "mani": {
+   "da": 20.8,
+   "a": 22.15
+  },
+  "sito": {
+   "da": 22.15,
+   "a": 25.41
+  },
+  "dopo": {
+   "da": 25.41,
+   "a": 35.96
+  },
+  "chiusura": {
+   "da": 32.56,
+   "a": 35.96
+  }
+ },
+ "disegno": [
+  0.1,
+  0.35,
+  3.85,
+  5.49,
+  6.04,
+  9.64,
+  10.04,
+  13.75,
+  14.1
+ ],
+ "pieni": [
+  0.15,
+  0.42,
+  0.69,
+  0.96,
+  1.23,
+  1.5,
+  1.77,
+  2.04,
+  2.31
+ ],
+ "blocchi": [
+  {
+   "testo": "Ecco qui il sito",
+   "da": 0.0,
+   "a": 1.42
+  },
+  {
+   "testo": "di un B&B",
+   "da": 1.42,
+   "a": 2.04
+  },
+  {
+   "testo": "di Poggiomarino.",
+   "da": 2.04,
+   "a": 3.39
+  },
+  {
+   "testo": "Prima di iniziare,",
+   "da": 3.39,
+   "a": 4.41
+  },
+  {
+   "testo": "prendo un foglio.",
+   "da": 4.41,
+   "chiave": "un foglio",
+   "a": 5.41
+  },
+  {
+   "testo": "In alto,",
+   "da": 5.41,
+   "a": 5.85
+  },
+  {
+   "testo": "la spa in camera,",
+   "da": 5.85,
+   "a": 7.29
+  },
+  {
+   "testo": "che è la cosa",
+   "da": 7.29,
+   "a": 7.73
+  },
+  {
+   "testo": "più importante.",
+   "da": 7.73,
+   "a": 9.06
+  },
+  {
+   "testo": "Subito dopo,",
+   "da": 9.06,
+   "a": 9.59
+  },
+  {
+   "testo": "le date libere.",
+   "da": 9.59,
+   "a": 11.4
+  },
+  {
+   "testo": "Due camere,",
+   "da": 11.4,
+   "a": 12.28
+  },
+  {
+   "testo": "la 8 e la 4,",
+   "da": 12.28,
+   "chiave": "la 8 e la 4",
+   "a": 13.77
+  },
+  {
+   "testo": "che rispecchiano il brand.",
+   "da": 13.77,
+   "a": 15.45
+  },
+  {
+   "testo": "Le recensioni vere",
+   "da": 15.45,
+   "a": 16.05
+  },
+  {
+   "testo": "di Booking,",
+   "da": 16.05,
+   "a": 16.65
+  },
+  {
+   "testo": "importantissime.",
+   "da": 16.65,
+   "a": 18.12
+  },
+  {
+   "testo": "Successivamente",
+   "da": 18.12,
+   "a": 19.16
+  },
+  {
+   "testo": "foto e dintorni.",
+   "da": 19.16,
+   "a": 20.8
+  },
+  {
+   "testo": "E da lì nasce il sito,",
+   "da": 20.8,
+   "a": 22.38
+  },
+  {
+   "testo": "pezzo per pezzo.",
+   "da": 22.38,
+   "chiave": "pezzo per pezzo",
+   "a": 25.41
+  },
+  {
+   "testo": "Ecco il risultato.",
+   "da": 25.41,
+   "chiave": "il risultato",
+   "a": 27.14
+  },
+  {
+   "testo": "Insomma, il posto",
+   "da": 27.14,
+   "a": 28.16
+  },
+  {
+   "testo": "era già bellissimo,",
+   "da": 28.16,
+   "a": 29.63
+  },
+  {
+   "testo": "mancava semplicemente",
+   "da": 29.63,
+   "a": 30.52
+  },
+  {
+   "testo": "un sito che lo raccontasse",
+   "da": 30.52,
+   "a": 31.7
+  },
+  {
+   "testo": "al meglio.",
+   "da": 31.7,
+   "a": 32.56
+  }
+ ]
+}

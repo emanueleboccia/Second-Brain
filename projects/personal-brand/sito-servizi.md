@@ -143,14 +143,20 @@ scura, i momenti che contano stanno su un foglio chiaro. Nella versione chiara s
 
 | Sezione | Com'era | Com'è |
 |---|---|---|
-| Il problema | frase e due capoversi | sotto c'è una figura: due siti uguali, uno parte dalla grafica e l'altro da cosa deve dire; per i gestionali le cento funzioni spente e le tre accese |
+| Il problema | frase e due capoversi | sotto c'è una figura: due siti uguali, uno parte dalla grafica e l'altro da cosa deve dire; per i gestionali, dal 30/09, la stessa prenotazione in quattro posti: il gruppo WhatsApp, il quaderno, il file Excel, il conto a mente |
 | Cosa ottieni | tre carte di testo | tre schede, ognuna con la sua figura: le domande, le due strutture, a chi è intestato |
 | Come funziona | quattro carte | i passi su un binario che si riempie scorrendo, e si accendono uno alla volta |
-| Le alternative | tabella | il «di solito» è spento, il «con me» è una colonna di luce |
+| Le alternative | tabella | dal 30/09 le X e le spunte della home: il «di solito» ha la X col perché sotto, il «con me» la spunta su un foglio chiaro, e ogni riga è una frase breve su quello che ottieni |
 | Cosa c'è dentro | due elenchi | **tolta da tutte le pagine** |
 | La garanzia | tre carte | un foglio chiaro con le clausole numerate, la passata sulla parola «garantisco» e un sigillo che gira col monogramma |
 | La rottamazione | una riga sotto le garanzie | una sezione sua: il sito di prima si spegne e va dietro, quello nuovo entra, e un conto con due barre si ferma a metà |
 | L'ultima chiamata | una carta scura | un foglio chiaro col titolo grande |
+
+**30/09/2026, notte · due correzioni di Emanuele.** Le tabelle di confronto diventano tutte come quella della
+home, «ovunque ci siano tabelle, applica lo stesso metodo». E la figura del problema dei gestionali, «Cento
+funzioni. Ne usi tre.», «non mi convince tantissimo»: fra tre alternative ha scelto **la stessa prenotazione in
+quattro posti**, che mette in figura le quattro cose del testo. La nuvola di funzioni resta solo in «cosa
+ottieni», dove dice «Tre funzioni. Le usi tutte.».
 
 **La sequenza del Company Brain** prende il posto del problema e di «cosa ottieni». È un foglio
 chiaro dove una linea sola si disegna mentre si scorre: parte da «Problema», passa a «Soluzione»,

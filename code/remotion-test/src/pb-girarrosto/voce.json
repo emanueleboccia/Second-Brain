@@ -1,0 +1,270 @@
+{
+ "durata": 38.21,
+ "scene": [
+  {
+   "id": "foglio-pov",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Al girarrosto di Marco,",
+     "da": 0.0,
+     "sentito": "Al girarrosto di Marco,",
+     "a": 1.55
+    },
+    {
+     "testo": "gli ordini",
+     "da": 1.55,
+     "sentito": "gli ordini",
+     "a": 2.14
+    },
+    {
+     "testo": "si prendevano così:",
+     "da": 2.14,
+     "sentito": "si prendevano così:",
+     "a": 3.13
+    },
+    {
+     "testo": "carta, penna",
+     "da": 3.13,
+     "sentito": "carta, penna",
+     "a": 3.95
+    },
+    {
+     "testo": "ed evidenziatori.",
+     "chiave": "evidenziatori",
+     "da": 3.95,
+     "sentito": "ed evidenziatori.",
+     "a": 5.29
+    }
+   ],
+   "fine": 5.29,
+   "fineVoce": 5.29
+  },
+  {
+   "id": "foglio",
+   "inizio": 5.29,
+   "blocchi": [
+    {
+     "testo": "Squilla il telefono,",
+     "da": 5.29,
+     "sentito": "Scrivi il telefono,",
+     "a": 6.19
+    },
+    {
+     "testo": "scrivi il cognome,",
+     "da": 6.19,
+     "sentito": "scrivi il cognome,",
+     "a": 7.21
+    },
+    {
+     "testo": "poi l'ordine.",
+     "da": 7.21,
+     "sentito": "poi l'ordine",
+     "a": 7.89
+    },
+    {
+     "testo": "E il colore ti dice cos'è:",
+     "da": 7.89,
+     "sentito": "e il colore ti dice cos'è:",
+     "a": 9.73
+    },
+    {
+     "testo": "giallo è il fritto,",
+     "da": 9.73,
+     "sentito": "giallo il fritto,",
+     "a": 10.39
+    },
+    {
+     "testo": "arancione è l'impanato,",
+     "da": 10.39,
+     "sentito": "arancione l'impanato,",
+     "a": 11.59
+    },
+    {
+     "testo": "verde è il tacchino.",
+     "da": 11.59,
+     "sentito": "verde il tacchino.",
+     "a": 12.79
+    }
+   ],
+   "fine": 12.79,
+   "fineVoce": 12.79
+  },
+  {
+   "id": "telefono",
+   "inizio": 12.79,
+   "blocchi": [
+    {
+     "testo": "Nelle sere piene",
+     "da": 12.79,
+     "sentito": "Nelle sere piene",
+     "a": 13.6
+    },
+    {
+     "testo": "sono centoventi ordini,",
+     "da": 13.6,
+     "sentito": "sono 120 ordini,",
+     "a": 15.22
+    },
+    {
+     "testo": "centoventi conti,",
+     "da": 15.22,
+     "sentito": "120 conti",
+     "a": 16.43
+    },
+    {
+     "testo": "tutti a mente.",
+     "chiave": "a mente",
+     "da": 16.43,
+     "sentito": "tutti a mente.",
+     "a": 17.85
+    }
+   ],
+   "fine": 17.85,
+   "fineVoce": 17.67
+  },
+  {
+   "id": "arrivo",
+   "inizio": 17.85,
+   "blocchi": [
+    {
+     "testo": "Io non sono partito",
+     "da": 17.85,
+     "sentito": "Io non sono partito",
+     "a": 18.56
+    },
+    {
+     "testo": "dal computer:",
+     "da": 18.56,
+     "sentito": "dal computer,",
+     "a": 19.48
+    },
+    {
+     "testo": "sono andato là",
+     "da": 19.48,
+     "sentito": "sono andato là",
+     "a": 20.09
+    },
+    {
+     "testo": "e li ho guardati lavorare.",
+     "chiave": "guardati lavorare",
+     "da": 20.09,
+     "sentito": "e li ho guardati lavorare.",
+     "a": 21.75
+    }
+   ],
+   "fine": 21.75,
+   "fineVoce": 21.75
+  },
+  {
+   "id": "schede",
+   "inizio": 21.75,
+   "blocchi": [
+    {
+     "testo": "Poi gli ho fatto un'app",
+     "da": 21.75,
+     "sentito": "Poi, io ho fatto un'app",
+     "a": 22.84
+    },
+    {
+     "testo": "uguale al foglio,",
+     "da": 22.84,
+     "sentito": "uguale al foglio,",
+     "a": 23.83
+    },
+    {
+     "testo": "solo più veloce.",
+     "da": 23.83,
+     "sentito": "solo più veloce.",
+     "a": 25.11
+    },
+    {
+     "testo": "Scrivi l'ordine,",
+     "da": 25.11,
+     "sentito": "Scrivi l'ordine",
+     "a": 25.85
+    },
+    {
+     "testo": "e il conto",
+     "chiave": "conto",
+     "da": 25.85,
+     "sentito": "e il conto",
+     "a": 26.47
+    },
+    {
+     "testo": "lo fa lei.",
+     "da": 26.47,
+     "sentito": "lo fa lei.",
+     "a": 27.51
+    }
+   ],
+   "fine": 27.51,
+   "fineVoce": 27.35
+  },
+  {
+   "id": "ipad",
+   "inizio": 27.51,
+   "blocchi": [
+    {
+     "testo": "Un tocco,",
+     "chiave": "Un tocco",
+     "da": 28.01,
+     "sentito": "Un tocco",
+     "a": 28.64
+    },
+    {
+     "testo": "e sa subito quanti pezzi",
+     "da": 28.64,
+     "sentito": "e sa subito quanti pezzi",
+     "a": 29.59
+    },
+    {
+     "testo": "deve preparare.",
+     "da": 29.59,
+     "sentito": "devi preparare.",
+     "a": 31.22
+    }
+   ],
+   "fine": 31.22,
+   "fineVoce": 31.11
+  },
+  {
+   "id": "servizio",
+   "inizio": 31.22,
+   "blocchi": [
+    {
+     "testo": "Mo' Marco pensa",
+     "da": 31.22,
+     "sentito": "Mo Marco pensa",
+     "a": 31.93
+    },
+    {
+     "testo": "ai polli.",
+     "chiave": "ai polli",
+     "da": 31.93,
+     "sentito": "ai bulli,",
+     "a": 32.67
+    },
+    {
+     "testo": "Al conto",
+     "da": 32.67,
+     "sentito": "al conto",
+     "a": 33.13
+    },
+    {
+     "testo": "ci pensa l'app.",
+     "da": 33.13,
+     "sentito": "ci pensa l'app.",
+     "a": 34.37
+    }
+   ],
+   "fine": 38.21,
+   "fineVoce": 34.37
+  }
+ ],
+ "cta": {
+  "da": 34.37,
+  "chiave": 36.23,
+  "sentito": "C'è un amico che fa ancora i conti a mente? Mandagli questo video."
+ }
+}

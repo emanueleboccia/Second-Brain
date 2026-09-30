@@ -1,12 +1,12 @@
 ---
 title: "Il restyling di Room84"
-summary: "Il sito di Room84 rifatto gratis dal 29/09/2026 per conquistare Antonio Vorraro, che conosce mezza zona e può mandare altri clienti: cosa non andava nel sito del 2025, le scelte del nuovo (custom sull'hosting, stesse pagine e stessi indirizzi, logo al centro, Trirong e Inter, animazioni, la 8 e la 4 come chiavi appese, la disponibilità presa dai calendari di Booking), com'è fatto il sorgente e cosa manca per andare online."
+summary: "Il sito di Room84 rifatto gratis dal 29/09/2026 per conquistare Antonio Vorraro, che conosce mezza zona e può mandare altri clienti: cosa non andava nel sito del 2025, le scelte del nuovo (custom sull'hosting, stesse pagine e stessi indirizzi, logo al centro, Trirong e Inter, animazioni, la 8 e la 4 come chiavi appese, la disponibilità presa dai calendari di Booking), com'è fatto il sorgente e com'è andato online il 30/09/2026, dentro il WordPress che c'era."
 tags:
   - projects
   - siti
-status: in-lavorazione
+status: attivo
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 related:
   - "[[entities/clienti/room84/scheda]]"
   - "[[entities/clienti/room84/brand-book]]"
@@ -97,9 +97,12 @@ pagine. Per questo le notti occupate si leggono dai **calendari iCal che Booking
 camera, con `disponibilita.php` sull'hosting, che li tiene in copia per un quarto d'ora. Provato il
 29/09 con due calendari finti: legge bene le prenotazioni.
 
-⚠️ **Finché i due link non ci sono, il calendario mostra un'occupazione di prova**, più piena nei
-fine settimana. Va bene per il video; online non può andare così. I link li genera Antonella
-dall'extranet di Booking: Tariffe e disponibilità, Sincronizza calendari, Esporta.
+I due link veri ci sono dal 30/09/2026 e stanno in `disponibilita.php`: la 8 legge quello della sauna, la 4
+quello dell'idromassaggio. Li genera Antonella dall'extranet di Booking (Tariffe e disponibilità,
+Sincronizza calendari, Esporta). ⚠️ **Generarne di nuovi annulla i vecchi**, e un link appena fatto
+risponde «Invalid Token» per circa un minuto: se un giorno il calendario si svuota, è la prima cosa da
+guardare. L'anteprima locale senza PHP mostra ancora l'occupazione di prova; quella con i dati veri è
+`room84-php`, porta 8085.
 
 ## Com'è fatto il sorgente
 
@@ -117,14 +120,65 @@ Sta in `~/Desktop/progetti/room84/`:
 
 Il sito pesa 38 MB, quasi tutti di video; la hero è 2,9 MB sul computer e 1,2 sul telefono, e i video lunghi partono solo quando qualcuno li apre.
 
-## Cosa manca per andare online
+## Online dal 30/09/2026, dentro WordPress
 
-- I due link iCal di Booking, per la disponibilità vera.
-- Quale numero è quello giusto: sul sito vecchio c'erano il 370 132 7821 e il 340 812 1617. Il
-  nuovo usa il 370, che è sulla targa.
-- Il letto: king size, come diceva il sito vecchio, o matrimoniale, come dice Booking.
-- Se chi prenota diretto ha davvero una tariffa migliore: il sito vecchio lo prometteva.
+Deciso con Emanuele il 30/09: il numero è il **370 132 7821**, il letto è **matrimoniale** come su
+Booking, e della tariffa diretta non si parla.
+
+**Il sito gira dentro il WordPress che c'era**, come voleva lui: «ti avevo detto di ricostruirlo sulla
+copia wordpress del sito». È lo stesso schema del tema di emanueleboccia.it:
+
+- il tema **Room84** (`~/Desktop/progetti/room84/tema-wordpress/`) serve le pagine già pronte, che
+  `node costruisci.mjs` mette in `tema/room84/pagine/`. Le otto pagine di WordPress restano, con gli
+  stessi indirizzi: WordPress risponde, il contenuto viene dal tema, e nessun plugin ci aggiunge niente;
+- nella radice di `httpdocs`, accanto a WordPress, stanno `css`, `js`, `img`, `video`, `fonts`, `vendor`,
+  `disponibilita.php`, le due icone, `robots.txt` e `sitemap.xml`, che il server manda direttamente;
+- il `.htaccess` della radice è `src/.htaccess`: https e www, gli indirizzi vecchi di WordPress, la
+  protezione dei file di sistema (dalle regole del plugin di sicurezza), il blocco di WordPress e
+  `no-store` sui reindirizzamenti;
+- **«Forza cache» è spento** in Impostazioni server → Cache, per la stessa ragione di Mamma Rosaria: con
+  la cache forzata un reindirizzamento salvato può mandare il sito in loop.
+
+**I plugin rimasti sono tre**, dal 30/09 sera: Yoast SEO, Kadence Security e ManageWP Worker. Gli altri, e il
+tema Hello Elementor, li ha eliminati Emanuele dal pannello.
+
+### Yoast, Analytics e Search Console (30/09/2026)
+
+- **Yoast comanda titolo e descrizione.** Il tema cerca la pagina di WordPress con lo stesso indirizzo e, se in
+  Yoast il titolo SEO o la meta descrizione sono scritti a mano, li mette al posto di quelli della pagina pronta
+  (anche in `og:title` e `og:description`). Gli stessi testi, approvati da Emanuele, stanno anche nelle
+  intestazioni di `src/pagine/`, così restano giusti senza Yoast. Le frasi chiave: B&B Poggiomarino, camera con
+  idromassaggio, foto Room84, B&B vicino Pompei, Room84 Poggiomarino, Room84 prenotazioni.
+  ⚠️ **I pallini di Yoast guardano il testo vecchio di Elementor** salvato nelle pagine di WordPress («Il tuo rifugio
+  di relax e piacere», «a pochi minuti dal centro di Napoli»): non è quello che vede chi visita, e non vanno inseguiti.
+- **I dati strutturati** della home (`BedAndBreakfast`) c'erano già dal 29/09, in `src/pagine/index.html`.
+- **Search Console**: proprietà Dominio `room84.it` nell'account di Emanuele, verificata col record TXT
+  `google-site-verification=…` nella zona DNS di Ergonet, che non va tolto. Sitemap `https://www.room84.it/sitemap.xml`
+  inviata e letta il 30/09: otto pagine.
+- **Analytics**: account e proprietà **Room84** (account `410229456`, proprietà `556864638`), stream web
+  `https://www.room84.it`, **ID di misurazione `G-E8MELDPN10`**. Condivisione dei dati con Google tutta spenta.
+  Collegato a Search Console.
+- **Banner dei cookie e policy, online dal 30/09/2026 sera**, fatti come sulla Masseria. `src/js/consenso.js`: il banner
+  compare alla prima visita, «Rifiuta» e «Accetta» hanno lo stesso peso, la X vale come rifiuto, la scelta resta sei mesi
+  nel cookie `r84_consenso`, e «Preferenze cookie» nel piede riapre il banner. Analytics si scarica solo dopo il «sì»,
+  con Google Signals e personalizzazione degli annunci spenti; se il consenso viene ritirato i cookie `_ga` si cancellano
+  e la pagina si ricarica. Telefono ed email mandano l'evento `contatto`; WhatsApp e Booking li conta Analytics da solo.
+  Privacy e cookie policy in 16 e 7 punti, titolare Antonella Forno, verificato dal vivo il 30/09: senza consenso niente
+  Google, col consenso la visita arriva nel tempo reale.
+
+La sera del 30/09, su richiesta di Emanuele, sono state cancellate le cartelle di passaggio in `private/` e le vecchie
+`css/` e `js/` della radice: `private/` è vuota.
+
+**Per aggiornarlo**: si cambia `src/`, `node costruisci.mjs`, e si carica `tema/room84` zippato da WordPress, in Aspetto
+→ Temi → Aggiungi → Carica tema, scegliendo «Sostituisci il tema installato con quello caricato». Dal 30/09 sera fogli di
+stile e script stanno dentro il tema (`/wp-content/themes/room84/css/` e `/js/`), apposta: il pannello di Ergonet fa
+scadere la sessione dopo poco, e così per le modifiche normali non serve. Nella radice restano foto, video, caratteri e
+`disponibilita.php`: se cambiano quelli si passa dal File Manager di Ergonet. CSS e JS hanno la versione nell'indirizzo
+(`stile.css?v=…`), perché Ergonet li fa tenere ai browser 120 giorni.
+
+⚠️ **`/contatti/` e `/wp-login.php` passano dalla verifica anti-bot di FireShield**: un browser vero la
+supera da solo, `curl` riceve la pagina della verifica. Non è un errore del sito.
+
+## Cosa resta
+
 - Chi decide sul sito, Antonio o Antonella.
-- L'accesso a Ergonet, e una copia del WordPress prima di sostituirlo.
-- Privacy e cookie sono riscritte per un sito che non usa cookie: da far guardare a chi segue la
-  privacy del cliente, se c'è qualcuno.

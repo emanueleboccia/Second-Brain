@@ -77,6 +77,15 @@ il mese sui social», «prepara il report per la famiglia».
    Il template c'è dal 16/09/2026, e con la prova di agosto Emanuele l'ha approvato così com'è: si
    riusa senza ridisegnarlo, e si cambia solo se lo chiede lui. ⚠️ **Il Brush vale una parola sola e
    senza cifre**: il nome del mese sì, «2026» no.
+
+   **Dal 30/09/2026 il template fa anche due mesi insieme e la Tenuta.** Emanuele ha chiesto agosto e
+   settembre in un report solo, per Mamma Rosaria e a parte per la Tenuta: i numeri grandi sono dei due
+   mesi e sotto c'è quello di ogni mese, il grafico ha sessantuno giorni col filo al primo del mese, le
+   collaborazioni hanno una pagina loro e il confronto mette i due mesi in colonna. Lo prepara
+   `prepara_bimestre.py dmr|tdg`. La Tenuta ha il tema `tdg`: Cinzel per titoli e numeri, Georgia per il
+   testo lungo, marrone scuro, oro e crema, perché non ha un secondo carattere di firma. Il template lega
+   da solo le ultime tre parole di ogni paragrafo e le date, come vuole la regola sulle righe corte; le
+   pagine si controllano lo stesso, una per una.
 10. **Salva su Drive** in `<cartella report>/AAAA-MM/report-social-AAAA-MM.pdf`, e i CSV esportati
     accanto, in `dati/`. La cartella è in [`riferimenti.json`](riferimenti.json).
 11. **Scrivi la riga del mese** in `data/social-mensile.md`, nella tabella del brand. Se il file non
@@ -96,6 +105,9 @@ verificano **tutte** prima di mandare il PDF: se una non torna, si corregge e si
 - **Chrome è nascosto e le pagine non caricano.** Business Suite e Google non disegnano i dati con la
   finestra dietro le altre: si prova con una schermata dopo ogni azione, come dice la procedura. Se
   resta vuoto, si chiede a Emanuele di portare Chrome davanti. Non si inventa un numero per chiudere.
+  Il 30/09/2026 quasi tutto è stato letto con Chrome dietro: periodo nell'indirizzo, serie giornaliere dal
+  testo dei grafici, esportazioni lette senza scaricare file, tabella di Facebook scorsa a schermate. Il
+  come sta in [`riferimenti.json`](riferimenti.json). Solo la Posta ha bisogno di Chrome davanti.
 - **Un dato da desktop non c'è.** Alcune voci di Instagram, come i tocchi sui pulsanti di contatto, si
   vedono solo dall'app: nel report si scrive «non disponibile da Business Suite» e si chiede a Emanuele
   se vuole mandare la schermata dal telefono, come faceva a marzo 2026.

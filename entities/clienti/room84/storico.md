@@ -26,6 +26,13 @@ pubblico su emanueleboccia.it, e il reel si può pubblicare. Su `room84.it` c'è
 2025: il nuovo aspetta i due link iCal di Booking e l'accesso a Ergonet, come dice
 [[projects/restyling-room84/sito|il restyling di Room84]].
 
+Lo stesso giorno Emanuele gli chiede una recensione scritta, e di consigliarlo a chi ha bisogno di
+un sito: è il motivo per cui il restyling è gratuito. La recensione va sulla scheda Google di
+Emanuele, e la strada più facile per Antonio è un vocale che Emanuele trascrive e gli fa
+rileggere. Il messaggio e il link stanno nella [[projects/personal-brand/MEMORY|memoria del
+personal brand]]; quando arriva, le sue parole vanno nelle
+[[entities/clienti/room84/recensioni|recensioni]].
+
 ### 2026-09-29 — Il sito vero, da mandare in video
 
 Emanuele racconta il perché del restyling gratuito: Antonio conosce molta gente sul territorio e

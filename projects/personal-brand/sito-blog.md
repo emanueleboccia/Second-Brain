@@ -90,6 +90,11 @@ Come entra il blog nel resto del sito sta in [[projects/personal-brand/sito|il s
 
 Il caso del Girarrosto, `il-foglio-degli-ordini.md`, resta in bozza come quarto, al 27 ottobre.
 
+✅ **I tre articoli sono online dal 30/09/2026**, tolti dalle bozze su richiesta di Emanuele: «il blog l'avevamo
+già fatto con 3 articoli, inseriscilo». Il menù, il piede e la mappa del sito hanno la voce Blog. ⚠️ **Le date
+restano quelle di prova, 6, 13 e 20 ottobre**: se il sito va online prima del 20, chi lo legge vede un articolo
+con una data futura. Con WordPress diventano articoli programmati, che escono da soli il loro giorno.
+
 ⚠️ Nell'articolo sull'AI non si dice che gli articoli si scrivono con l'AI, e non si nomina nessuno
 strumento: la regola sua è che «non si deve capire». E dentro non c'è nessun numero che non abbia
 detto lui: i dieci giorni del gestionale della Masseria sono i suoi.
@@ -99,5 +104,5 @@ detto lui: i dieci giorni del gestionale della Masseria sono i suoi.
 - il titolo dell'elenco, «Cose che ho capito lavorando.», e la riga sotto: scritti da Claude, da far
   leggere a Emanuele;
 - le categorie: per ora «Il mestiere», «Siti», «AI» sono solo di prova. Si decidono coi primi articoli;
-- le tre bozze aspettano le sue parole, una risposta per articolo; la data di ognuna è di prova;
+- ~~le tre bozze aspettano le sue parole~~: online dal 30/09; le date sono ancora quelle di prova;
 - le foto negli articoli vanno in `public/img/blog/`: nessuna ancora.

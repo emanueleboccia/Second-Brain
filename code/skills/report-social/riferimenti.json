@@ -19,13 +19,17 @@
         "home": "https://business.facebook.com/latest/home?asset_id=104507862196317&business_id=2883775528597802",
         "_nota_home": "I follower totali dei due profili stanno in cima alla Home. Il 16/09/2026: Facebook 3.015, Instagram 6.830.",
         "insights_messaggi": "https://business.facebook.com/latest/insights/messaging/?business_id=2883775528597802&asset_id=104507862196317&time_range=%2522LAST_MONTH%2522&platform=Instagram",
-        "_nota_messaggi": "Il 16/09/2026 le Prestazioni dei messaggi segnavano zero conversazioni ad agosto su Instagram e Messenger, mentre nella Posta di Instagram le conversazioni c'erano: quel numero non vale. Si contano dalla Posta: ogni riga dell'elenco ha un abbr.timestamp con data-utime, l'ultima attività della conversazione. Con Chrome in secondo piano l'elenco non carica oltre la prima pagina nemmeno scorrendo: serve Chrome davanti, e aprendo la Posta la prima conversazione si apre da sola e risulta letta. L'Instagram web di questo Chrome è collegato a bocciaworks: non si usa per Mamma Rosaria."
+        "_nota_messaggi": "Il 16/09/2026 le Prestazioni dei messaggi segnavano zero conversazioni ad agosto su Instagram e Messenger, mentre nella Posta di Instagram le conversazioni c'erano: quel numero non vale. Si contano dalla Posta: ogni riga dell'elenco ha un abbr.timestamp con data-utime, l'ultima attività della conversazione. Con Chrome in secondo piano l'elenco non carica oltre la prima pagina nemmeno scorrendo: serve Chrome davanti, e aprendo la Posta la prima conversazione si apre da sola e risulta letta. L'Instagram web di questo Chrome è collegato a bocciaworks: non si usa per Mamma Rosaria.",
+        "_nota_periodo_da_indirizzo": "Dal 30/09/2026: il periodo si mette nell'indirizzo, senza toccare il selettore. Risultati: /latest/insights/results?business_id=…&asset_id=…&platform=Instagram|Facebook&time_range=%257B%2522end%2522%253A%2522AAAA-MM-GG%2522%252C%2522start%2522%253A%2522AAAA-MM-GG%2522%257D. Pubblico: /latest/insights/people/?…&audience_tab=demographics|trends&time_range=…. I grafici di Risultati hanno i dati giorno per giorno nel testo della pagina (una riga di timestamp e una riga «Primary» coi valori): si leggono con document.body.innerText, senza scaricare CSV. Il localStorage di Business Suite si svuota cambiando pagina: quello che si legge si porta fuori dalla stessa pagina, prima di navigare.",
+        "_nota_esporta_nascosto": "Provato il 30/09/2026 con Chrome dietro le altre finestre. «Esporta dati» si apre con un clic dallo script sul pulsante. Le tendine della finestra si aprono solo dopo una schermata e con un clic a coordinate; l'opzione si sceglie col riferimento di find; «Genera» si preme dallo script, controllando prima che l'opzione scelta sia una sola. Il file non si scarica: si sostituisce window.open con una finta finestra che registra l'indirizzo assegnato, si preme «Scarica l'esportazione» e si legge il CSV con fetch dentro la pagina. Il menù delle pagine di Facebook non si è aperto: i post di Facebook si leggono dalla tabella «Tutti i contenuti», scorrendola con una schermata dopo ogni scorrimento; si ferma verso le 200 righe, quindi si ordina per data crescente e si riscorre dall'inizio.",
+        "_nota_buffer_instagram": "Il 30/09/2026 gli allestimenti del 26 e il cannolo del 29 erano «sent» su Buffer anche per Instagram, ma fra i pubblicati di Business Suite risultano solo su Facebook. Il conteggio dei post si fa sempre dai pubblicati di Business Suite, canale per canale."
       },
       "google": {
         "id_profilo": "4430868132793612629",
         "recensioni": "https://www.google.com/local/business/4430868132793612629/customers/reviews?hl=it",
         "rendimento": "https://www.google.com/local/business/4430868132793612629/promote/performance?from=AAAA-MM&to=AAAA-MM&tab=1&hl=it — funziona aperto direttamente, anche con Chrome nascosto. tab=1 panoramica (interazioni, persone che hanno visto il profilo, piattaforme), tab=2 chiamate, tab=5 indicazioni stradali, tab=6 clic sul sito. Ogni scheda ha la tabella giorno per giorno nel testo della pagina.",
-        "_nota": "Provato il 16/09/2026. Il vecchio indirizzo /performance risponde 404, e dal riquadro della ricerca le schede non cambiano con Chrome nascosto: si usa l'indirizzo qui sopra. I numeri grandi si animano: si leggono dopo quattro secondi, o si legge 171 invece di 271. Il confronto che Google mostra è con lo stesso mese dell'anno prima."
+        "_nota": "Provato il 16/09/2026. Il vecchio indirizzo /performance risponde 404, e dal riquadro della ricerca le schede non cambiano con Chrome nascosto: si usa l'indirizzo qui sopra. I numeri grandi si animano: si leggono dopo quattro secondi, o si legge 171 invece di 271. Il confronto che Google mostra è con lo stesso mese dell'anno prima.",
+        "_nota_nascosto": "Il 30/09/2026, con Chrome dietro, i numeri grandi di Rendimento restano fermi a metà animazione anche dopo dieci secondi (1.042 invece di 1.142). I totali si fanno dalla tabella giorno per giorno, e le persone che hanno visto il profilo dalla somma delle quattro piattaforme. Il 30 del mese Google ha i dati solo fino a tre giorni prima."
       },
       "drive": {
         "cartella_report": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/DA MAMMA ROSARIA/98 Social/03 report",
@@ -46,6 +50,39 @@
       "canone_post_mese": 8,
       "_nota_canone": "Dal tariffario dei brand di famiglia, 300 € al mese da settembre 2026. Il conteggio rispetto al canone va nel messaggio a Emanuele, non nel PDF.",
       "template": "code/skills/report-social/template.html, con prepara_dati.py accanto: lo script di agosto 2026 che legge i CSV di dati/ e scrive dati.js. I titoli dei post e le frasi cambiano ogni mese, i controlli restano."
+    },
+    "tenuta-don-gaetano": {
+      "nome": "Tenuta Don Gaetano",
+      "_nota": "Aggiunto il 30/09/2026, col primo report della Tenuta (agosto e settembre insieme). Portfolio «Tenuta Don Gaetano - Business». Business Suite si apre spesso sull'ultimo portfolio usato: si controlla il nome in Home.",
+      "meta_business_suite": {
+        "asset_id": "244821739267805",
+        "business_id": "1499248393538079",
+        "insights_risultati": "https://business.facebook.com/latest/insights/results?asset_id=244821739267805&business_id=1499248393538079",
+        "home": "https://business.facebook.com/latest/home?asset_id=244821739267805&business_id=1499248393538079",
+        "pubblicati": "https://business.facebook.com/latest/posts/published_posts?asset_id=244821739267805&business_id=1499248393538079",
+        "account_instagram": "tenutadongaetano",
+        "_nota_home": "Il 30/09/2026: Facebook 1.582 follower, Instagram 496.",
+        "_nota_storie": "La Tenuta non fa storie: ogni post esce anche come storia di Facebook, che non ha insight. Ad agosto 2026 su Instagram ne sono uscite sette, a settembre nessuna.",
+        "_nota_primo_del_mese": "I post programmati alle 00:02 del primo del mese per Business Suite sono del giorno prima (ora del Pacifico): si prendono allargando il periodo di un giorno."
+      },
+      "google": {
+        "id_profilo": "8455758240648496364",
+        "rendimento": "https://www.google.com/local/business/8455758240648496364/promote/performance?from=AAAA-MM&to=AAAA-MM&tab=1&hl=it — stesse schede di Mamma Rosaria: tab=2 chiamate, tab=5 indicazioni, tab=6 clic sul sito.",
+        "_nota": "Trovato il 30/09/2026 dalla ricerca «Tenuta Don Gaetano Poggiomarino» col profilo di Emanuele. Ad agosto 2026: 1 chiamata, 45 indicazioni, 3 clic sul sito, 176 persone sul profilo."
+      },
+      "drive": {
+        "cartella_report": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/TENUTA DON GAETANO/98 Social/03 report",
+        "font": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/TENUTA DON GAETANO/03 Brand kit/03 FONT",
+        "loghi": "~/Library/CloudStorage/GoogleDrive-ema.boccia02@gmail.com/Il mio Drive/TENUTA DON GAETANO/03 Brand kit/01 LOGHI",
+        "_nota_design": "Nel report: copertina marrone scuro col «Logo oro - sfondo trasparente», pagine crema, Cinzel per titoli e numeri, Georgia per il testo lungo come dice il Leggimi di 03 FONT. Tema «tdg» del template."
+      },
+      "ssd": {
+        "pubblicati": "/Volumes/SSD-MANU/02-TENUTA-DON-GAETANO/4-pubblicati"
+      },
+      "design": "areas/tenuta-don-gaetano/reference/design.md",
+      "canone_post_mese": 8,
+      "_nota_canone": "Dal tariffario dei brand di famiglia, 250 € al mese. La Tenuta è ferma dal 20/09/2026 per decisione di Raffaele: da ottobre non ci sono post.",
+      "template": "code/skills/report-social/template.html col tema tdg, e prepara_bimestre.py tdg per agosto e settembre 2026."
     }
   },
   "vault": {
