@@ -144,8 +144,9 @@ const Scheda: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     </AbsoluteFill>
   );
 };
-// «luce»: il modulo della festa (04) ha lo sfondo crema col bagliore bianco, e sul fondale scuro abbagliava («al secondo
-// 16 sembra troppo illuminata, sa tutto con un forte bagliore»): si abbassa la luce della scheda, non si toccano i colori.
+// «luce»: i telefoni (03) hanno l'arancio col bagliore bianco al centro, e il modulo della festa (04) il crema col
+// bagliore in alto; sul fondale scuro abbagliavano («al secondo 16 sembra troppo illuminata, sa tutto con un forte
+// bagliore»). Si abbassa la luce della scheda, di poco: a 0,82 il modulo diventava grigio.
 const Anteprima: React.FC<{ file: string; luce?: number }> = ({ file, luce = 1 }) => (
   <Scheda>
     <Video src={staticFile(`pb-dmr/caso/${file}.mp4`)} muted style={{ width: "100%", height: "100%", filter: luce < 1 ? `brightness(${luce})` : undefined }} />
@@ -273,10 +274,10 @@ export const ReelDmr: React.FC = () => {
         <Drive sparsi={loc(mv.sparsi, "drive")} drive={loc(mv.drive, "drive")} mente={loc(mv.mente, "drive")} />
       </Sequence>
       <Sequence {...s.gestionale}>
-        <Anteprima file="03" />
+        <Anteprima file="03" luce={0.88} />
       </Sequence>
       <Sequence {...s.festa}>
-        <Anteprima file="04" luce={0.82} />
+        <Anteprima file="04" luce={0.9} />
       </Sequence>
       <Sequence {...s.pagine}>
         <TrePagine tempi={[loc(mv.cliente, "pagine"), loc(mv.lavora, "pagine"), loc(mv.cucina, "pagine")]} sincronizzato={loc(mv.sincronizzato, "pagine")} />
@@ -291,7 +292,7 @@ export const ReelDmr: React.FC = () => {
         <Pov cartella={CARTELLA} spezzoni={[{ file: "notte", frames: s.finale.durationInFrames }]} frames={s.finale.durationInFrames} spinta={1.05} centro={[540, 900]} />
         {/* la sua frase com'è, non una domanda: «Se conosci qualcuno che organizza eventi e fa ancora tutto su WhatsApp,
             mandagli questo video.» */}
-        <FinaleCta passata={inFrame(T.cta.chiave) - inFrame(T.cta.da)} righe={["Se conosci qualcuno", "che organizza eventi", "e fa ancora tutto su WhatsApp,"]} chiave="mandagli questo video." />
+        <FinaleCta passata={inFrame(T.cta.chiave) - inFrame(T.cta.da)} righe={["Se conosci qualcuno che", "organizza eventi e fa ancora", "tutto su WhatsApp,"]} chiave="mandagli questo video." />
       </Sequence>
       <Sottotitoli blocchi={T.blocchi} />
       <Audio src={staticFile("pb-dmr/voce.wav")} />

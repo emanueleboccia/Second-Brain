@@ -14,6 +14,7 @@ import { DURATA3 as durataRoom84Semplice, DURATA_VOCE2, DURATA_VOCE3, ReelRoom84
 import { DURATA_VOCE4, ReelRoom84Voce4 } from "./pb-room84/Voce4";
 import { DURATA_TENUTA, ReelTenuta } from "./pb-tenuta/ReelTenuta";
 import { DURATA_DMR, ReelDmr } from "./pb-dmr/ReelDmr";
+import { DURATA_MASSERIA, ReelMasseria } from "./pb-masseria/ReelMasseria";
 import { ReelTdg } from "./tdg/ReelTdg";
 import { REEL as REEL_TDG, durataTotale as durataTdg } from "./tdg/tempi";
 
@@ -135,6 +136,14 @@ export const MyComposition = () => {
         id="PbDmr"
         component={ReelDmr}
         durationInFrames={DURATA_DMR}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbMasseria"
+        component={ReelMasseria}
+        durationInFrames={DURATA_MASSERIA}
         fps={30}
         width={1080}
         height={1920}

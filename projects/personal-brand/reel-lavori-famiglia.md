@@ -193,3 +193,34 @@ Il secondo drone ora è la 0017, che sale sopra l'ulivo e la fontana sui gazebo 
 («cambierei la seconda clip con qualcun'altra più figa, che si vede meglio»); la notte è il tratto fra 9 e 15,3
 secondi, dove il drone va dritto nel viale: prima, fra 1 e 4 secondi, scivolava di lato, misurato con la correlazione di
 fase. Su «tutto sincronizzato» i tre fili si accendono insieme, e le foto a mazzo vanno su «al caso».
+
+✅ **30/09/2026, notte · la v3 del gestionale di Mamma Rosaria è approvata**: «ok va bene anche questo». Il file è
+`3-in-produzione/reel-dmr-gestionale/dmr-gestionale-v3.mp4`, con la versione senza musica accanto. Rispetto alla v2: la
+CTA scritta è la sua frase e non una domanda, la notte parte un secondo dopo, e le anteprime dei telefoni e del modulo
+hanno la luce abbassata (0,88 e 0,9), perché sul fondale scuro abbagliavano.
+
+## 30/09/2026, notte · il reel della Masseria, montato
+
+Fatto come la Tenuta e Mamma Rosaria approvati, sulla voce `voce reel gestioale la masseria.aifc`, che Emanuele aveva
+detto non convincerlo ancora: il montaggio serve a giudicarla sul video. L'ha detta a modo suo, senza la frase su chi
+mette il posto e gli spettacoli e senza quella dei weekend fino al 31 ottobre; la CTA è la sua, «Conosci una maestra o
+una famiglia con dei bambini? Mandagli questo video e fagli scoprire Zucche in Masseria.». Il reel dura 44 secondi.
+
+- **Il sold out ha una prova senza numeri**: il drone del 19/10/2025 sul parcheggio del parco delle zucche, pieno fino in
+  fondo, col timbro «SOLD OUT». In apertura lo stesso giorno sul parco.
+- **Le zucche** sono le riprese di sera del 19/09/2026 (`momenti/2026-09-19-zucche-di-sera/usate`), in HDR: passano da
+  `avconvert`, come per il tour di Amin, se no escono slavate. Fuori quelle con una persona.
+- **Le stagioni** sono tre schede, Zucche in Masseria, il Presepe di una volta e Funny Farm; il Borgo Infestato no, è in
+  lineup.
+- **Il biglietto** è disegnato, senza prezzo; **la brochure** è quella vera per le scuole, solo la testata, perché sotto
+  c'è la foto di un bambino.
+- **Il prima** è illustrato: le tre etichette gite, feste, serate, e poi Excel, WhatsApp e fogli a mano.
+- **Il gestionale** sono le anteprime del sito: il calendario, coi tre colori che si accendono sotto mentre li dice, e la
+  giornata ferma del 1° ottobre con lo zoom sui 61 bambini a pranzo e sulle allergie.
+
+Composizione `PbMasseria` in `code/remotion-test/src/pb-masseria/ReelMasseria.tsx`; voce e suono da
+`scripts/pb-masseria-voce.py` e `pb-masseria-suono.py`, con l'hip hop sotto e la batteria su «L'anno scorso».
+
+⏸️ **30/09/2026, notte · il reel della Masseria resta in bozza.** Emanuele, visto il v1: «Questo non mi convince, mettilo
+in bozza». Non ha detto cosa non va, e non si rifà finché non lo riapre lui. I file stanno in
+`3-in-produzione/reel-masseria/`.

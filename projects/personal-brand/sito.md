@@ -202,6 +202,36 @@ sito, c'è altro?». Testi e immagini segnaposto non ce ne sono più: le pagine 
   per ora; la regola di [[self/reference/offerta|l'offerta]] resta in piedi;
 - ~~la riga «Cosa c'è dentro» nelle schede dei lavori~~: tolta il 30/09, «sembra brutta proprio».
 
+## Online, dal 1° ottobre 2026
+
+**emanueleboccia.it è online su WordPress**, sul piano Agency di Hostinger, dalla notte fra il 30/09 e il 1°/10. WordPress
+l'ha installato Emanuele col suo account amministratore, che non ha più il nome «admin»; il resto l'ha fatto Claude dal suo
+Chrome. Il sito resta quello compilato nel progetto: WordPress lo serve dal tema *Emanuele Boccia*, riceve il modulo di
+contatto e tiene il retro, **col marchio del sito**: la pagina d'accesso scura con la griglia e il monogramma, la bacheca
+scura e crema, il riquadro del sito al posto del benvenuto di WordPress. Chiesto da Emanuele: «tutto il back end».
+
+**Come si aggiorna.** Si lancia `node strumenti/tema.mjs` nel progetto del sito, che scrive in `pacchetti/`
+`emanueleboccia.zip` e i video a pezzi. ⚠️ **Il tema non si ricarica mai da WordPress con «sostituisci»**: WordPress
+rifà la cartella da capo e cancella `lavori/`, che è stata caricata a parte. I file cambiati si caricano col file manager
+di Hostinger, nella cartella `public_html/wp-content/themes/emanueleboccia/`, sostituendo quelli che ci sono.
+
+Le trappole trovate mettendolo online:
+
+- **Dal browser un caricamento sta sotto i 10 MB**: i video dei lavori, cento mega, vanno in dodici zip, che il file
+  manager estrae con «Extract» chiedendo il nome della cartella, `lavori`. Fra un caricamento e l'altro la pagina va
+  ricaricata, se no perde la selezione.
+- **Il file manager, quando si cancella, ha già spuntato «Salta il cestino»**: va tolta, se no si cancella per sempre.
+- **La cache è doppia**: quella del plugin LiteSpeed non basta. Dopo un aggiornamento si usa **«Svuota la cache»** nella
+  bacheca del sito su Hostinger. Il 30/09 la mappa del sito ha continuato a rimandare a quella di WordPress finché non
+  si è svuotata quella.
+- **I file che non esistono il server li chiude da solo**, senza passare da WordPress: `robots.txt` è un file vero in
+  `public_html`, con dentro l'indirizzo della mappa del sito.
+
+**Cosa manca ancora online**: le pagine Privacy e Cookie, che aspettano la sede, e nel piede portano a una pagina
+d'errore; il token di Notion e la casella info@emanueleboccia.it per il modulo, che per ora scrive all'email
+dell'amministratore; Analytics e Search Console. Yoast serve a poco: le pagine non sono articoli di WordPress, e titoli e
+descrizioni per Google sono già scritti nell'HTML.
+
 ## Il giro di controllo, 30/09/2026
 
 Fatto la notte del 30/09 sul sito compilato, su tutte le pagine a nove larghezze, e rifatto finché non è uscito

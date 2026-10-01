@@ -23,3 +23,9 @@ public/pb-girarrosto/
 # stanno in cache/ perché public/ viene copiata a ogni render
 public/pb-room84/
 cache/
+
+# I reel dei lavori di famiglia del personal brand (Tenuta, Mamma Rosaria, Masseria): drone, foto, schermate e
+# voce stanno sull'SSD e si rifanno con gli script pb-tenuta-*, pb-dmr-*, pb-masseria-*
+public/pb-tenuta/
+public/pb-dmr/
+public/pb-masseria/

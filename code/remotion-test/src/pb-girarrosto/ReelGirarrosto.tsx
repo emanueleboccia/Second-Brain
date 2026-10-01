@@ -51,10 +51,11 @@ export const Finale: React.FC = () => {
 // scelta da Emanuele fra quattro: «Tieni un amico che fa ancora i conti a mente? Mandagli questo video.», scritta
 // mentre lui la dice, con la passata che entra su «Mandagli».
 // Le righe e la parte sulla passata cambiano da un reel all'altro: Room84 la usa con le sue.
-export const FinaleCta: React.FC<{ passata: number; righe?: string[]; chiave?: string }> = ({
+export const FinaleCta: React.FC<{ passata: number; righe?: string[]; chiave?: string; dopo?: string }> = ({
   passata,
   righe = ["Tieni un amico che fa ancora", "i conti a mente?"],
   chiave = "Mandagli questo video.",
+  dopo,
 }) => {
   const frame = useCurrentFrame();
   const e = interpolate(frame, [0, 8], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
@@ -71,6 +72,8 @@ export const FinaleCta: React.FC<{ passata: number; righe?: string[]; chiave?: s
           <div style={{ marginTop: 14 }}>
             <Passata testo={chiave} da={passata} dimensione={62} />
           </div>
+          {/* la parte della frase che viene dopo la passata, quando la CTA detta continua */}
+          {dopo ? <div style={{ fontFamily: ARCHIVO, fontWeight: 700, fontSize: 52, lineHeight: 1.14, color: CREMA, textShadow: OMBRA, marginTop: 10 }}>{dopo}</div> : null}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>

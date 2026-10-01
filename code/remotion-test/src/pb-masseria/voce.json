@@ -1,0 +1,247 @@
+{
+ "durata": 44.15,
+ "scene": {
+  "drone": {
+   "da": 0.0,
+   "a": 3.34
+  },
+  "stagioni": {
+   "da": 3.34,
+   "a": 5.86
+  },
+  "zucche": {
+   "da": 5.86,
+   "a": 8.54
+  },
+  "biglietti": {
+   "da": 8.54,
+   "a": 13.56
+  },
+  "soldout": {
+   "da": 13.56,
+   "a": 16.79
+  },
+  "caos": {
+   "da": 16.79,
+   "a": 24.06
+  },
+  "calendario": {
+   "da": 24.06,
+   "a": 30.9
+  },
+  "giorno": {
+   "da": 30.9,
+   "a": 37.61
+  },
+  "finale": {
+   "da": 37.61,
+   "a": 44.15
+  }
+ },
+ "movimenti": {
+  "stagione": 4.33,
+  "famiglie": 3.72,
+  "biglietto": 9.5,
+  "brochure": 11.6,
+  "soldout": 14.83,
+  "excel": 20.35,
+  "whatsapp": 21.35,
+  "fogli": 22.03,
+  "verde": 27.74,
+  "arancio": 28.52,
+  "marrone": 29.37,
+  "bambini": 32.74,
+  "allergia": 34.17
+ },
+ "blocchi": [
+  {
+   "testo": "Questa è la Masseria",
+   "da": 0.0,
+   "a": 0.96
+  },
+  {
+   "testo": "di Mezz'autunno,",
+   "da": 0.96,
+   "a": 1.94
+  },
+  {
+   "testo": "a Poggiomarino.",
+   "da": 1.94,
+   "a": 3.34
+  },
+  {
+   "testo": "Fa eventi",
+   "da": 3.34,
+   "a": 3.72
+  },
+  {
+   "testo": "per famiglie e scuole,",
+   "da": 3.72,
+   "a": 4.33
+  },
+  {
+   "testo": "uno per ogni stagione.",
+   "da": 4.33,
+   "chiave": "ogni stagione",
+   "a": 5.86
+  },
+  {
+   "testo": "Il più famoso è",
+   "da": 5.86,
+   "a": 6.45
+  },
+  {
+   "testo": "Zucche in Masseria,",
+   "da": 6.45,
+   "chiave": "Zucche",
+   "a": 7.35
+  },
+  {
+   "testo": "in autunno.",
+   "da": 7.35,
+   "a": 8.54
+  },
+  {
+   "testo": "Le famiglie prendono",
+   "da": 8.54,
+   "a": 9.5
+  },
+  {
+   "testo": "il biglietto online,",
+   "da": 9.5,
+   "a": 10.66
+  },
+  {
+   "testo": "e le scuole chiedono",
+   "da": 10.66,
+   "a": 11.6
+  },
+  {
+   "testo": "una brochure",
+   "da": 11.6,
+   "a": 12.23
+  },
+  {
+   "testo": "e vengono in gita.",
+   "da": 12.23,
+   "a": 13.56
+  },
+  {
+   "testo": "L'anno scorso",
+   "da": 13.56,
+   "a": 14.03
+  },
+  {
+   "testo": "Zucche in Masseria",
+   "da": 14.03,
+   "a": 14.83
+  },
+  {
+   "testo": "ha fatto sold out",
+   "da": 14.83,
+   "chiave": "sold out",
+   "a": 15.64
+  },
+  {
+   "testo": "in quasi tutte le date.",
+   "da": 15.64,
+   "a": 16.79
+  },
+  {
+   "testo": "Gite, feste nel parco,",
+   "da": 16.79,
+   "a": 18.52
+  },
+  {
+   "testo": "serate:",
+   "da": 18.52,
+   "a": 19.0
+  },
+  {
+   "testo": "e tutto questo stava",
+   "da": 19.0,
+   "a": 20.35
+  },
+  {
+   "testo": "fra file Excel,",
+   "da": 20.35,
+   "a": 21.35
+  },
+  {
+   "testo": "WhatsApp",
+   "da": 21.35,
+   "a": 22.03
+  },
+  {
+   "testo": "e fogli volanti.",
+   "da": 22.03,
+   "a": 24.06
+  },
+  {
+   "testo": "E allora ho creato",
+   "da": 24.06,
+   "a": 24.91
+  },
+  {
+   "testo": "un calendario soltanto,",
+   "da": 24.91,
+   "a": 26.74
+  },
+  {
+   "testo": "diviso a colori:",
+   "da": 26.74,
+   "chiave": "a colori",
+   "a": 27.74
+  },
+  {
+   "testo": "verde per le gite,",
+   "da": 27.74,
+   "a": 28.52
+  },
+  {
+   "testo": "arancio per le feste",
+   "da": 28.52,
+   "a": 29.37
+  },
+  {
+   "testo": "e marrone per le serate.",
+   "da": 29.37,
+   "a": 30.9
+  },
+  {
+   "testo": "Apri il giorno,",
+   "da": 30.9,
+   "a": 31.98
+  },
+  {
+   "testo": "vedi il calendario",
+   "da": 31.98,
+   "a": 32.74
+  },
+  {
+   "testo": "e sai quanti bambini mangiano,",
+   "da": 32.74,
+   "a": 34.17
+  },
+  {
+   "testo": "chi ha un'allergia",
+   "da": 34.17,
+   "a": 34.9
+  },
+  {
+   "testo": "e tutti i vari dettagli",
+   "da": 34.9,
+   "a": 36.14
+  },
+  {
+   "testo": "in un solo posto.",
+   "da": 36.14,
+   "chiave": "in un solo posto",
+   "a": 37.61
+  }
+ ],
+ "cta": {
+  "da": 37.61,
+  "chiave": 40.43
+ }
+}

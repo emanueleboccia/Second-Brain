@@ -8,7 +8,7 @@ tags:
   - personal-brand
 status: attivo
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 related:
   - "[[self/reference/design]]"
   - "[[self/reference/formati]]"
@@ -56,6 +56,12 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
   io in base al social e i suoni di tendenza»*. I suoni sui movimenti ci sono, la base la sceglie lui dentro ogni
   social al momento di pubblicare. Il ritmo dei tagli quindi non segue una traccia: lo danno le scritte e gli
   effetti.
+- **La CTA scritta sull'ultima inquadratura è la frase che dice lui, com'è.** Se la dice come una frase, non diventa una
+  domanda. Sul reel di Mamma Rosaria del 30/09/2026 c'era scritto «Conosci qualcuno…?» mentre lui diceva «Se conosci
+  qualcuno che organizza eventi e fa ancora tutto su WhatsApp, mandagli questo video»: «non è una domanda».
+- **Una ripresa col drone si prende quando è già stabile nel percorso**, non nel secondo in cui parte o si assesta:
+  lo spostamento di lato si misura con la correlazione di fase fra un fotogramma e l'altro, e si sceglie il tratto
+  dritto.
 - **Il reel con la voce ha anche una base bassa sotto**, e la voce e gli effetti stanno allo stesso livello: i
   numeri stanno in [[docs/video-social/musica-e-sound-design|musica e sound design]]. Deciso il 30/09/2026 sul
   Girarrosto con la sua voce.
@@ -85,8 +91,9 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
    leggere, la scrittura a mano e i nomi sugli schermi. Una clip dell'iPhone a 60 fps rallentata a metà dà
    un finale fluido.
 6. **Il montaggio in Remotion**, in `code/remotion-test/`, partendo dai file del Girarrosto.
-7. **Il render** a due fotogrammi alla volta e a bassa priorità, poi il controllo della regia sui fotogrammi
-   chiave e sul movimento della camera, e l'anteprima a Emanuele.
+7. **Il render** a un fotogramma alla volta (`--concurrency=1`) e a bassa priorità, con qualche minuto di pausa fra
+   un render e l'altro: il 30/09/2026, con due render in fila, il Mac si scaldava. Poi il controllo della regia sui
+   fotogrammi chiave e sul movimento della camera, e l'anteprima a Emanuele.
 
 ## Dove sta il codice
 
@@ -102,9 +109,15 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
 | `src/pb-room84/FoglioDisegno.tsx` | il disegno del sito che si ridisegna da solo, poi si riempie col sito vero |
 | `scripts/pb-room84-cattura.cjs` | le schermate intere dei due siti, computer e telefono |
 | `scripts/pb-girarrosto-voce.py` | la voce registrata: le frasi in fila con le pause strette, la catena, whisper frase per frase, e i tempi del reel in `voce.json` |
-| `scripts/pb-girarrosto-suono.py` | voce ed effetti sotto il video esportato, senza musica, con gli effetti che si abbassano sotto la voce: si copia e si cambiano gli eventi |
+| `scripts/pb-girarrosto-suono.py` | voce, effetti e base sotto il video esportato, coi livelli uniti; con `senza-musica` la versione senza base: si copia e si cambiano gli eventi |
 | `scripts/pb-room84-voce2.py`, `pb-room84-voce-suono.py` | le stesse due cose per Room84, dove la voce dà i tempi anche al foglio che si disegna; lì whisper sbagliava due blocchi di un secondo, corretti sull'energia |
 
 Per un reel nuovo si copia la cartella `src/pb-girarrosto/` con un nome nuovo, si registra la composizione in
 `src/Composition.tsx`, e si cambiano testo, spezzoni e illustrazioni: sottotitoli, passata, soggettiva e
 fondale restano quelli.
+
+**I reel dei lavori di famiglia** hanno un metodo loro, approvato da Emanuele il 30/09/2026 sulla Tenuta e su Mamma
+Rosaria: il drone e le foto vere del posto, prese solo dove non ci sono persone riconoscibili; le illustrazioni per il
+prima; le schermate vere, del sito o del gestionale coi dati inventati; la CTA sulla ripresa finale. Sta in
+[[projects/personal-brand/reel-lavori-famiglia|i reel dei lavori di famiglia]], e i modelli da copiare sono
+`src/pb-tenuta/` e `src/pb-dmr/`, coi loro script `pb-tenuta-*` e `pb-dmr-*`.
