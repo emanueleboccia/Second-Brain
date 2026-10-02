@@ -113,6 +113,9 @@ alla 6 senza sapere quali pagine servono.
 - [ ] Aggiornato PHP all'ultima versione supportata dall'hosting
 - [ ] Attivata la modalità manutenzione
 - [ ] Impostati i redirect da `www` e viceversa
+- [ ] **Se è WordPress: cambiato l'indirizzo d'accesso**, con un codice di sedici caratteri casuali. Chi non è entrato
+  trova la pagina d'errore del sito su `wp-admin` e `wp-login.php`. Si fa **senza plugin**: il codice è `accesso.php`
+  nel tema di emanueleboccia.it, da copiare. Deciso da Emanuele il 01/10/2026: «non installare nessun plugin esterno»
 
 > Il sorgente è la fonte, il server è una copia. Una modifica fatta a mano sul live sparisce al
 > primo deploy, oppure resta e nessuno sa perché.
@@ -173,6 +176,10 @@ alla 6 senza sapere quali pagine servono.
 - [ ] Attivata la cache e la CDN dal pannello hosting
 - [ ] Fatto il test PageSpeed **su mobile**
 - [ ] Sistemato quello che PageSpeed segnala e si può sistemare
+- [ ] **Se il sito ha animazioni allo scroll: passato `code/controllo-siti/fluidita.mjs`.** Nessuno ascolta il dito
+  senza `passive`, niente resta invisibile a pagina scorsa, e i `will-change` stanno solo su quello che si muove
+  sempre. Poi scorso col dito sul telefono vero: PageSpeed misura il caricamento, non lo scroll. Aggiunta il
+  01/10/2026, quando emanueleboccia.it sul telefono scattava
 - [ ] Messa la barra dei cookie
 - [ ] Scritte e pubblicate cookie policy e privacy policy
 - [ ] Aggiunte le spunte di consenso su tutti i moduli

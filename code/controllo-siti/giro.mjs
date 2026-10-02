@@ -13,9 +13,17 @@ const require = createRequire('/Users/emanueleboccia/Second Brain/code/controllo
 const puppeteer = require('puppeteer-core')
 const BASE = process.argv[2] || 'http://localhost:4173'
 const OUT = process.argv[3] || '.'
-// le pagine si leggono dalla mappa del sito, più un indirizzo che non esiste per la pagina d'errore
-const mappa = await fetch(BASE + '/sitemap.xml').then((r) => r.text()).catch(() => '')
-const dallaMappa = [...mappa.matchAll(/<loc>https?:\/\/[^/<]+(\/[^<]*)<\/loc>/g)].map((m) => m[1])
+// le pagine si leggono dalla mappa del sito, più un indirizzo che non esiste per la pagina d'errore. Su WordPress
+// /sitemap.xml porta a un indice di altre mappe: si aprono anche quelle. Un terzo argomento tiene solo gli
+// indirizzi che cominciano così, es. /blog/
+const SOLO = process.argv[4] || ''
+const leggiMappa = async (indirizzo) => {
+  const xml = await fetch(indirizzo).then((r) => r.text()).catch(() => '')
+  const loc = [...xml.matchAll(/<loc>(https?:\/\/[^<]+)<\/loc>/g)].map((m) => m[1])
+  if (!xml.includes('<sitemapindex')) return loc.map((u) => new URL(u).pathname)
+  return (await Promise.all(loc.map((u) => leggiMappa(BASE + new URL(u).pathname)))).flat()
+}
+const dallaMappa = (await leggiMappa(BASE + '/sitemap.xml')).filter((p) => p.startsWith(SOLO))
 const PAGINE = dallaMappa.length ? [...dallaMappa, '/non-esiste/'] : ['/', '/servizi/', '/servizi/consulenza/', '/servizi/siti-web/', '/servizi/erp/', '/servizi/company-brain/', '/progetti/', '/progetti/la-masseria/', '/progetti/la-masseria-gestionale/', '/progetti/da-mamma-rosaria/', '/progetti/da-mamma-rosaria-sito/', '/progetti/tenuta-don-gaetano/', '/progetti/girarrosto-liberti/', '/progetti/room84/', '/chi-sono/', '/contatti/', '/blog/', '/blog/cosa-fa-l-ai-nel-mio-lavoro/', '/blog/il-preventivo-fatto-a-sensazione/', '/blog/una-cosa-bellissima-che-comunica-male/', '/non-esiste/']
 const MISURE = [[1920, 1080], [1440, 900], [1280, 800], [1024, 768], [900, 1000], [768, 1024], [390, 844], [360, 780], [320, 700]]
 const attendi = (ms) => new Promise(r => setTimeout(r, ms))
@@ -56,7 +64,9 @@ for (const [w, h] of MISURE) {
         if (ultima.nodi.every((x) => x.closest('.passata, [aria-hidden="true"]'))) return
         // i titoli composti a righe fisse vanno a capo dove li ha messi chi li ha scritti
         if (el.querySelector('.riga')) return
-        const grande = el.matches('h1, h2, h3, h4, summary, [class*="titol"]') || !!el.closest('summary')
+        // il pareggio vale per un titolo vero, fino a quattro righe: un paragrafo lungo scritto col carattere dei titoli,
+        // come le frasi dell'odissea di Chi sono, si giudica da paragrafo (01/10/2026)
+        const grande = (el.matches('h1, h2, h3, h4, summary, [class*="titol"]') || !!el.closest('summary')) && righe.length <= 4
         const larga = Math.max(...righe.map((x) => x.r - x.l))
         const corta = grande ? (ultima.r - ultima.l) < larga * 0.45 : ultima.n <= 2
         if (corta) corte.push(testo.slice(-40).replace(/\s+/g, ' '))

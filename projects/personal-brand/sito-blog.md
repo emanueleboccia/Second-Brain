@@ -7,7 +7,7 @@ tags:
   - sito
 status: in-lavorazione
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-01
 related:
   - "[[projects/personal-brand/sito]]"
   - "[[self/reference/tono]]"
@@ -53,9 +53,15 @@ sul telefono la misura la dà il CSS, perché «lavorando.» deve entrare in una
    [[self/reference/caption|caption e formati]] e «Come non si scrive mai» del `CLAUDE.md`: niente
    guru, niente liste dove basta una frase, niente chiusure motivazionali, niente «non si tratta di».
    Paragrafi corti, e un articolo dice una cosa sola.
-3. Lui legge e corregge. Si toglie `bozza: sì`, si compila, si carica: da quel momento l'articolo è
-   online, nel feed e nel menù. Quando il sito sarà dentro WordPress il giro è lo stesso, perché le
-   pagine restano quelle costruite qui.
+3. Lui legge e corregge. Si toglie `bozza: sì` e si porta in WordPress: `node strumenti/tema.mjs` ne fa
+   un file in `pagine/_articoli/`, si carica col file manager, e da **Pagine → Dal progetto** si preme
+   «Importa gli articoli che mancano». Con la data nel futuro esce da solo quel giorno.
+
+**Dal 01/10/2026 gli articoli sono articoli di WordPress**, chiesto da Emanuele per l'ordine e per Google. Si
+possono anche scrivere e correggere direttamente nella bacheca, in *Articoli*: il blog li compone dentro la grafica
+del sito, con numero, categoria, data e minuti. Una volta importato, **il testo vero è quello in WordPress**: il
+Markdown del progetto resta come prima stesura, e un articolo già importato non si reimporta. Il feed è `/feed/`,
+quello di WordPress; titolo e descrizione per Google stanno nel riquadro *Su Google* di ogni articolo.
 
 ## Perché `/blog/` e non `blog.`
 
@@ -91,9 +97,9 @@ Come entra il blog nel resto del sito sta in [[projects/personal-brand/sito|il s
 Il caso del Girarrosto, `il-foglio-degli-ordini.md`, resta in bozza come quarto, al 27 ottobre.
 
 ✅ **I tre articoli sono online dal 30/09/2026**, tolti dalle bozze su richiesta di Emanuele: «il blog l'avevamo
-già fatto con 3 articoli, inseriscilo». Il menù, il piede e la mappa del sito hanno la voce Blog. ⚠️ **Le date
-restano quelle di prova, 6, 13 e 20 ottobre**: se il sito va online prima del 20, chi lo legge vede un articolo
-con una data futura. Con WordPress diventano articoli programmati, che escono da soli il loro giorno.
+già fatto con 3 articoli, inseriscilo». Il menù, il piede e la mappa del sito hanno la voce Blog. **Le date sono
+1, 8 e 15 ottobre**, un giovedì a settimana dal giorno del lancio: il primo è uscito, il secondo e il terzo sono
+programmati in WordPress ed escono da soli, alle 8 del mattino.
 
 ⚠️ Nell'articolo sull'AI non si dice che gli articoli si scrivono con l'AI, e non si nomina nessuno
 strumento: la regola sua è che «non si deve capire». E dentro non c'è nessun numero che non abbia
@@ -104,5 +110,5 @@ detto lui: i dieci giorni del gestionale della Masseria sono i suoi.
 - il titolo dell'elenco, «Cose che ho capito lavorando.», e la riga sotto: scritti da Claude, da far
   leggere a Emanuele;
 - le categorie: per ora «Il mestiere», «Siti», «AI» sono solo di prova. Si decidono coi primi articoli;
-- ~~le tre bozze aspettano le sue parole~~: online dal 30/09; le date sono ancora quelle di prova;
+- ~~le tre bozze aspettano le sue parole~~: online dal 30/09, articoli di WordPress dal 01/10 coi giorni veri;
 - le foto negli articoli vanno in `public/img/blog/`: nessuna ancora.

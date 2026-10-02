@@ -7,7 +7,7 @@ tags:
   - sito
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-30
+updated: 2026-10-01
 related:
   - "[[projects/personal-brand/lancio]]"
   - "[[self/reference/brand]]"
@@ -225,12 +225,109 @@ Le trappole trovate mettendolo online:
   bacheca del sito su Hostinger. Il 30/09 la mappa del sito ha continuato a rimandare a quella di WordPress finché non
   si è svuotata quella.
 - **I file che non esistono il server li chiude da solo**, senza passare da WordPress: `robots.txt` è un file vero in
-  `public_html`, con dentro l'indirizzo della mappa del sito.
+  `public_html`, con dentro l'indirizzo della mappa del sito, `wp-sitemap.xml`.
+- **Dopo un «Extract» il file manager va ricaricato prima di cancellare qualcosa**: la finestra dell'estrazione resta
+  aperta sotto, e il 01/10 una cancellazione è partita su `marchio.php` invece che sul file scelto. Annullata in tempo.
+  Prima di confermare si guarda quale riga è selezionata.
+- **Se gli articoli danno 404, si apre Impostazioni → Permalink**: basta aprire la pagina, senza salvare, e WordPress
+  rifà le regole degli indirizzi. Il 01/10 servito subito dopo aver spostato gli articoli sotto `/blog/`.
+- **Un aggiornamento di grafica o animazioni sono due cartelle**: `assets/` e `pagine/` del tema compilato in
+  `pacchetti/tema/emanueleboccia/`. Si zippano insieme, coi percorsi da lì, si carica lo zip in `wp-content/themes/`
+  e si estrae col nome `emanueleboccia` e «Overwrite» spuntato: va sopra il tema senza toccare i video. Poi lo zip si
+  cestina e si svuotano le due cache, quella del plugin dalla barra in alto e quella di Hostinger. Fatto così il 01/10.
+- **Il file manager scade**: dopo un po' risponde 403. Si riapre da hPanel, «Gestore file», e l'indirizzo cambia.
 
-**Cosa manca ancora online**: le pagine Privacy e Cookie, che aspettano la sede, e nel piede portano a una pagina
-d'errore; il token di Notion e la casella info@emanueleboccia.it per il modulo, che per ora scrive all'email
-dell'amministratore; Analytics e Search Console. Yoast serve a poco: le pagine non sono articoli di WordPress, e titoli e
-descrizioni per Google sono già scritti nell'HTML.
+**Il 01/10/2026, la mattina**: Privacy e Cookie sono online con la sede, Via Passanti Flocco 217/C, 80040 Poggiomarino
+(NA). Nel retro ci sono due pagine del tema, in Impostazioni: **Modulo di contatto**, dove si sceglie a chi arrivano i
+messaggi e si incolla il token di Notion, che lo incolla Emanuele e non passa da nessun file; e **Accesso**, l'indirizzo
+segreto di sedici caratteri al posto di `wp-admin`, **fatto senza plugin** come ha chiesto Emanuele. L'indirizzo non sta
+nel vault: si legge da Impostazioni → Accesso, a chi è già entrato. Se un giorno chiude fuori, si rinomina
+`accesso.php` dal file manager di Hostinger e si torna a `wp-admin`.
+
+**Dal 01/10/2026 le pagine sono pagine di WordPress, e gli articoli sono articoli.** L'aveva chiesto Emanuele la sera
+prima, e l'ha ribadito: «ti avevo detto di usare le pagine di wordpress e gli articoli di wordpress». Ci sono 19 pagine in
+*Pagine*, nell'ordine del menù, con Consulenza, Siti web, ERP e Company Brain sotto *Servizi* e i sette lavori sotto
+*Progetti*; la Home è la pagina iniziale e *Blog* quella degli articoli. Ogni pagina mostra il file compilato del suo
+indirizzo, quindi grafica e testi si cambiano ancora nel progetto; in bacheca si sceglie il nome, il posto nel menù e il
+riquadro **Su Google**, titolo e descrizione, che vuoti valgono quelli del sito. Gli articoli invece si scrivono e si
+correggono in WordPress, e il blog li compone dentro la grafica del sito: il primo è uscito il 1° ottobre, gli altri due
+sono programmati per l'8 e il 15 ed escono da soli. La mappa del sito è quella di WordPress, `wp-sitemap.xml`, senza
+autori e categorie.
+
+**Come si aggiunge.** Una pagina nuova: si compila, si carica la sua cartella in `pagine/` e da **Pagine → Dal
+progetto** si preme «Crea le pagine che mancano». Un articolo: si scrive direttamente in WordPress, oppure nel progetto
+in `src/contenuti/blog/`, e allora `tema.mjs` ne fa un file in `pagine/_articoli/` che «Importa gli articoli che mancano»
+porta dentro.
+
+**Il modulo scrive su Notion dal 01/10/2026**: il token l'ha incollato Emanuele, e Impostazioni → Modulo di contatto
+chiede a Notion lo stato ogni volta che si apre, dicendo «Collegato», «Manca un passo» se il database non è connesso
+all'integrazione, o che il token non va.
+
+**Cosa manca ancora online**: la casella info@emanueleboccia.it per il modulo, che per ora scrive all'email
+dell'amministratore; la prova del modulo; Analytics e Search Console. Yoast non serve: titolo e descrizione per Google
+li tiene il riquadro del tema, e la mappa del sito la fa WordPress.
+
+## Lo scroll sul telefono, 01/10/2026
+
+Emanuele: «su mobile non è tanto fluido». Misurato con `code/controllo-siti/fluidita.mjs` e con le tracce di Chrome,
+le cause erano tre, e sono corrette e online dallo stesso giorno:
+
+- **Lenis ascoltava il dito senza `passive`**, e a ogni movimento il telefono aspettava JavaScript prima di spostare
+  la pagina. Sul telefono Lenis non faceva niente, perché lì lo scroll è comunque quello nativo: ora sui dispositivi
+  solo touch non parte, e un sostituto con gli stessi comandi ferma la pagina sotto il menù e i pannelli. Sul computer
+  lo scroll morbido è com'era;
+- **i `will-change` messi per sempre** su ogni parola animata, sui blocchi `.rivela`, sulle carte dei servizi: ognuno
+  teneva un livello grafico in memoria anche ad animazione finita. La home ne aveva 88, ora 24; Siti web da 63 a 27.
+  GSAP li promuove da solo mentre animano. ⚠️ **Un `will-change` nuovo si mette solo su quello che si muove sempre**,
+  come la testata o il mazzo, mai su un ingresso;
+- **il triangolo della home animava sempre**, anche fuori schermo, e da SVG ridipingeva la pagina intera a ogni
+  fotogramma: 435 volte in uno scorrimento. Ora gira solo a schermo, e i ridisegni sono 149.
+
+Lo stesso giorno, una quarta: **all'apertura di ogni pagina lo scroll restava fermo due secondi**, 2,6 su Progetti e
+sui lavori, il tempo dell'ingresso. Sul telefono, dove appena si apre una pagina si scorre, sembrava un sito che non
+risponde. Ora sul telefono si libera dopo un secondo, quando le parole del titolo sono già su, e l'ingresso finisce
+mentre si scorre; sul computer è com'era. ⚠️ **I lucchetti sono due**: `bloccaScroll` e la classe `is-caricando` sul
+body, che ha `overflow: hidden` e si toglie a fine ingresso. Per anticipare lo sblocco vanno tolti tutti e due.
+
+In più sul telefono le carte dei servizi entrano senza la sfocatura, che lì costava e si vedeva poco. Il risultato,
+misurato sul processore mentre si scorre: la home da 3,1 a 1,5 secondi di lavoro, Siti web da 2,9 a 1,9. Nessun
+errore e nessuna animazione persa sulle 20 pagine; le anteprime video che sul telefono restano foto sono volute.
+
+**Il secondo giro, 02/10/2026.** Emanuele dal telefono: «mentre scorro si ferma lo scorrimento», i video di servizi e
+lavori che sul telefono non partono, il processo che deve fermarsi e far passare le carte come sul computer, e le
+carte che escono dallo schermo anche sul computer.
+
+- **Lo scroll che si fermava**: mentre si scorre la barra degli indirizzi va e viene, la finestra cambia altezza, e il
+  sito a ogni cambio ricalcolava titoli e animazioni (`ScrollTrigger.refresh`), fermando lo slancio del dito. Ora si
+  ricalcola solo quando cambia la larghezza, cioè girando il telefono. ⚠️ **Un ascoltatore di `resize` sul telefono
+  guarda la larghezza, mai l'altezza**;
+- **servizi e lavori**: senza mouse il video di una carta o di una riga parte quando è a metà schermo e si ferma
+  quando esce (`aSchermo` in `sezioni.js`). Nei lavori il telefono mostra la prima clip invece dell'immagine ferma;
+- **il processo**: la carta di turno sta sempre al centro dello schermo, dalla prima all'ultima, e la sezione si ferma
+  anche sul telefono. Ogni carta si aggancia come una slide, **alla carta più vicina** e non alla prossima nel verso
+  dello scorrimento: col dito lo slancio passa di poco una carta, e l'aggancio nel verso ne saltava una.
+
+## Yoast SEO e Search Console, 02/10/2026
+
+Emanuele: «creare innanzitutto una SEO avanzata con Yoast SEO», e collegare Search Console. **Yoast è l'eccezione
+alla regola senza plugin, perché l'ha chiesto lui per nome.** Le pagine del sito sono file compilati che non passano
+da `wp_head`: senza il tema Yoast non comparirebbe. Il collegamento sta in `tema-wordpress/yoast.php`:
+
+- la testa delle pagine e degli articoli la scrive Yoast: titolo, descrizione, canonico, robots, anteprime social,
+  dati strutturati con la persona, il sito e il percorso. Restano le domande frequenti dei servizi, che Yoast non
+  conosce. Il riquadro «Su Google» del tema si spegne da solo quando Yoast è attivo;
+- l'analisi di Yoast legge il testo della pagina compilata, perché nell'editor le pagine sono vuote;
+- **Pagine → Dal progetto → «Prepara Yoast»** imposta il sito come persona, il trattino lungo nei titoli, niente archivi
+  per autore e per data, categorie e tag fuori da Google, l'immagine di condivisione del sito, e porta in Yoast titoli
+  e descrizioni di prima, uguali. Si può premere quando si vuole: quello già scritto in Yoast non si tocca.
+
+La mappa del sito ora è quella di Yoast, `sitemap_index.xml`, anche in `robots.txt`; `wp-sitemap.xml` ci rimanda. In
+Impostazioni → Generali gli indirizzi erano ancora `http://`: portati a `https://`. ⚠️ **Cambiare quegli indirizzi
+chiude la sessione di chi è dentro**, perché il nome dei cookie dipende da lì: si rientra dall'indirizzo segreto.
+
+**Search Console** è collegato dal 02/10, sull'account ema.boccia02@gmail.com, come proprietà a prefisso URL
+`https://emanueleboccia.it/`: verificata col file `googlec4ffe445e167fc8f.html` in `public_html`, che non va tolto, e
+la mappa del sito è inviata.
 
 ## Il giro di controllo, 30/09/2026
 

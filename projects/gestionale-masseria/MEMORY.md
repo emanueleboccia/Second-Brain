@@ -5,6 +5,40 @@ Aperta il 21/09/2026. Il gestionale delle date della
 stanno le decisioni sul progetto, con la data. Il codice sta in `~/Desktop/progetti/gestionale-masseria`:
 il vault lo descrive e non lo copia.
 
+## 02/10/2026 — Le maestre dal telefono di Da Mamma Rosaria
+
+Chiesto da Emanuele, che ha girato la rubrica del telefono (6.924 contatti): «valli a prendere tutti». Le
+maestre e le scuole stanno fra i clienti, salvate come «CL Mese/Anno (Nome, Scuola Comune)». Sono 221, tolti i
+doppioni per numero e i falsi positivi (i cognomi Casillo e Criscuolo, la Scuola Calcio, la ludoteca, l'ente di
+formazione).
+
+- **Nel gestionale solo quelle sicure**, scelto da Emanuele: le 41 righe di cui il nome del contatto dice la scuola,
+  sulla scheda col suo codice o sulla prima del suo istituto. Sette c'erano già (Gilda Monaco, Imma Vorraro, Luisa
+  Salvati, Angela de Gaetano, Antonella Trombone, Patrizia Rei, Lia Amato): prendono il numero se non l'avevano,
+  e un numero diverso va nelle note. Le passa la migrazione
+  `2026_10_02_000001_teachers_from_da_mamma_rosaria_phone`, provata su una copia del database del Mac (da 17 a 51
+  maestre, e una seconda volta non cambia niente). Tre prove contano i passi all'indietro delle migrazioni e sono
+  state aggiornate: passano tutte e 212.
+- **Poi Emanuele ha cambiato idea: «non caricare nulla sul gestionale».** Le maestre le contatta Selene una per una
+  su WhatsApp, dalla lista della [[areas/la-masseria-di-mezzautunno/MEMORY|Masseria]]. La migrazione è parcheggiata
+  in `database/in-attesa/`, fuori da `database/migrations/`, così un caricamento di `app/` non la applica per
+  sbaglio; le tre prove sono tornate com'erano e passano tutte e 212. Se un giorno si vuole, si rimette in
+  `migrations/`, si rialzano di uno i passi delle tre prove e si carica il solo file nuovo. Sul server, letto il
+  02/10, manca anche `2026_09_26_000005_brochure_requests`, che resta fuori apposta.
+- **Le altre fuori, in un Excel**: `areas/la-masseria-di-mezzautunno/email-marketing/maestre-dal-telefono.xlsx`,
+  con tre fogli: le 180 maestre di cui si sa solo il comune, i 180 contatti «Festa Fine Anno», che non dicono se
+  sono maestre o mamme, e le 41 da caricare. Ha i cellulari delle persone, quindi è escluso da git.
+
+## 02/10/2026 — Chiesto a Clappit l'accesso alle API
+
+Chiesto da Emanuele: le vendite dei biglietti di Clappit devono entrare nel gestionale, così le analisi delle
+vendite stanno accanto alle date prese fuori da Clappit. L'email è partita da `lamasseriadimezzautunno@gmail.com`
+a nome della Masseria, a Mary Parpinel, Andrea Trento e Deborah Mantovanelli di Bemils, a `sales@bemils.com` e a
+`ticketing@clappit.com`. Chiede le API anche in sola lettura per ordini e biglietti per evento, data e tipo,
+incassi con sconti, commissioni e rimborsi, ingressi registrati e acquirenti nei limiti del consenso; se le API
+non ci sono, un webhook o un'esportazione automatica. La riga che indicava Emanuele come referente tecnico l'ha
+tolta lui: la mail resta solo della Masseria. **Si aspetta la risposta**, che arriva nella Gmail della Masseria.
+
 ## 28/09/2026 — Il server ripulito, e i Conti pronti senza il modulo
 
 Chiesto da Emanuele: «la pagina dei conti per il gestionale ok», il modulo delle scuole no, e «risolvi questi

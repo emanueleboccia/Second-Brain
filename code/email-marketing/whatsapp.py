@@ -35,7 +35,9 @@ def corto(url):
                 return s
             raise SystemExit('TinyURL ha risposto: ' + s[:200])
         except urllib.error.HTTPError as e:
-            if e.code != 429:
+            # 429 vuol dire «rallenta», 5xx un guasto suo: il 02/10/2026 un 500 alla prima chiamata ha fermato
+            # la lista, e un minuto dopo lo stesso link passava. Si aspetta e si riprova; il resto è un errore vero.
+            if e.code != 429 and e.code < 500:
                 raise SystemExit(f'TinyURL ha risposto {e.code}: {e.read()[:200]!r}')
             time.sleep(30)
         except OSError:  # rete assente, timeout: su Python 3.9 il timeout non è un TimeoutError

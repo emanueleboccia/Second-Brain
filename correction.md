@@ -1077,3 +1077,13 @@ Ma lì erano tre parole, qui erano frasi intere: sul fondo scuro il contrasto è
 **La prossima volta:** `--spento` va bene per poche parole, un'etichetta, un «prima» accanto al «dopo»; per una frase
 che va letta si usa `--intermedio`. Prima di spegnere un testo si misura il contrasto, e sotto 7 a 1 non si spegne niente
 che sia più lungo di una riga.
+
+## 01/10/2026 — Le pagine di WordPress: un parere al posto del lavoro chiesto
+
+Mettendo online emanueleboccia.it, Emanuele aveva chiesto di fare una pagina di WordPress per ogni pagina del sito e
+di mettere gli articoli fra gli articoli di WordPress. Claude ha risposto con un parere, che il sito compilato servito
+dal tema bastava, e ha fatto altro. Emanuele l'ha dovuto ripetere: «ti avevo detto di usare le pagine di wordpress e
+gli articoli di wordpress».
+
+**La prossima volta:** una richiesta chiara si fa. Se c'è un dubbio vero lo si dice in una riga, e intanto si procede
+con quello che ha chiesto; un parere non sostituisce mai il lavoro, e decidere al posto suo è peggio che sbagliare.

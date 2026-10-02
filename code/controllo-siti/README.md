@@ -56,3 +56,30 @@ Segnala le pagine più larghe dello schermo, gli errori in console, i file e i l
 descrizioni troppo lunghe per Google, e le righe che finiscono con una o due parole. Il primo giro su
 emanueleboccia.it ha trovato due pagine che uscivano di lato e un errore di codice che nessuno vedeva. Un
 giro intero sono circa dodici minuti: si lancia in background, e ne va uno alla volta.
+
+Dal 01/10/2026 legge anche le mappe di WordPress, che a `/sitemap.xml` rispondono con un indice di altre mappe, e
+prende un terzo argomento per controllare un ramo solo: `node giro.mjs https://emanueleboccia.it /tmp/giro /blog/`.
+Il pareggio delle righe, l'ultima almeno al 45% della più lunga, vale per i titoli fino a quattro righe: un paragrafo
+lungo scritto col carattere dei titoli, come le frasi dell'odissea di Chi sono, si giudica da paragrafo.
+
+## Lo scroll sul telefono
+
+`fluidita.mjs`, scritto il 01/10/2026 dopo «su mobile non è tanto fluido». Fa il telefono, 390 pixel col dito e il
+processore rallentato di quattro volte, scorre ogni pagina coi gesti veri del browser e dice per pagina:
+
+```
+node code/controllo-siti/fluidita.mjs https://emanueleboccia.it /tmp/fluidita 4
+```
+
+- **chi ascolta il dito senza `passive`**: un ascoltatore così obbliga il telefono ad aspettare JavaScript prima di
+  muovere la pagina. Su emanueleboccia.it era Lenis, che sul telefono non serviva a niente; la lista deve essere vuota;
+- **cosa resta invisibile** a pagina scorsa tutta: un'animazione d'ingresso che non è partita. Le anteprime video
+  che sul telefono restano foto escono qui, ed è voluto;
+- i blocchi del processore oltre i 50 ms, gli spostamenti della pagina, gli errori.
+
+⚠️ **I fotogrammi al secondo non sono affidabili.** Su Chrome senza finestra lo scroll lo fa la scheda grafica, e il
+conto dei fotogrammi segue lo stato del Mac più che il sito: il 01/10 la stessa pagina ha dato 60 fps e un'ora dopo 30
+fissi il pomeriggio. Per sapere quanto lavora una pagina mentre scorre serve una traccia di Chrome, con il tempo del
+processore, i livelli grafici e quante volte si ridipingono: è quella che ha trovato i 69 livelli inutili della home e il
+triangolo che la ridipingeva sempre. Il giudizio finale lo dà il telefono vero. Come per il giro, una prova alla volta:
+due Chrome insieme dimezzano i numeri di tutti e due.

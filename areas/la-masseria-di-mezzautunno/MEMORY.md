@@ -2,6 +2,29 @@
 
 Aperto il 13/07/2026.
 
+## 02/10/2026 — La lista WhatsApp delle maestre dal telefono di Da Mamma Rosaria
+
+Emanuele ha girato la rubrica del telefono di Da Mamma Rosaria: le maestre e le scuole stanno fra i clienti, salvate
+come «CL Mese/Anno (Nome, Scuola Comune)». Prima ha scelto di mettere nel
+[[projects/gestionale-masseria/MEMORY|gestionale]] solo quelle di cui si sa la scuola, poi ha cambiato idea: «non
+caricare nulla sul gestionale», le contatta **Selene, una per una, su WhatsApp**.
+
+- **Il messaggio è suo, parola per parola**: `email-marketing/maestre-dal-telefono-messaggio.txt`. Dice chi è
+  Selene, che ci ricordiamo di loro dalle gite degli anni scorsi, che Zucche torna alla seconda edizione, cosa fanno
+  i bambini, e chiude con la brochure a chi risponde. Uguale per tutte, senza il nome.
+- **La lista per Selene** è `email-marketing/maestre-dal-telefono-whatsapp.txt`: un link TinyURL per maestra, che
+  apre WhatsApp col messaggio già scritto, divisa per comune dal più vicino. In cima quelle salvate ad agosto e
+  settembre 2026, che ci hanno scritto in queste settimane e vanno guardate prima di mandare; in fondo i due numeri
+  fissi, da chiamare. La fa `code/email-marketing/whatsapp.py`, che dal 02/10 aspetta e riprova anche quando TinyURL
+  dà un errore suo (un 500 alla prima chiamata aveva fermato tutto).
+- **Fuori le scuole che hanno già prenotato una gita per quest'autunno**, lette dalla pagina Gite del gestionale il
+  02/10: Piccoli Passi di Sarno, San Francesco d'Assisi di Scafati, Gli Occhi dei Bambini, Suor Beata, e l'IC D'Avino
+  di Striano con tutti i contatti «Scuola Striano», come nella lista del 25/09. Miele e Cuore di Mamma, paritarie di
+  Striano, restano. Fuori anche i 180 contatti «Festa Fine Anno»: il messaggio parla di gite, e loro non dicono se
+  sono maestre o mamme.
+- **L'elenco completo** sta in `email-marketing/maestre-dal-telefono.xlsx`. L'Excel e la lista hanno i cellulari delle
+  persone, quindi sono esclusi da git; il messaggio no.
+
 ## 28/09/2026 — Il sito è un tema su misura, e sta solo sul server
 
 Correggendo l'orario della sera di Halloween, 21:00 → 21:30, chiesto da Emanuele: le pagine del sito **non hanno
