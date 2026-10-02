@@ -329,6 +329,17 @@ chiude la sessione di chi è dentro**, perché il nome dei cookie dipende da lì
 `https://emanueleboccia.it/`: verificata col file `googlec4ffe445e167fc8f.html` in `public_html`, che non va tolto, e
 la mappa del sito è inviata.
 
+**Google Analytics** dal 02/10: proprietà `emanueleboccia.it` (557085283) nell'account Analytics «Emanuele Boccia»
+(311656656), flusso web con l'ID **G-8E4TMZZFJC**. L'altra proprietà di quell'account, `www.emanueleboccia.net`, è il
+dominio vecchio. Nel sito senza plugin, in `src/js/consenso.js`: il banner in basso con «Rifiuta» e «Accetta» uguali,
+come vuole il Garante; Analytics che parte solo dopo il sì; la scelta che vale sei mesi e si cambia da «Preferenze
+cookie» nel piede, e un no dopo un sì cancella i cookie di Analytics. Si contano l'invio del modulo (`generate_lead`) e
+i clic su WhatsApp, email e telefono. Le pagine Cookie e Privacy lo dicono. Scelte fatte da Claude con le
+raccomandazioni date a Emanuele, perché lui ha chiesto Analytics senza rispondere alle domande: modalità *base*
+(chi rifiuta non manda niente) e niente pixel di Meta, che si aggiunge allo stesso banner quando lo vorrà.
+⚠️ **Le visite dei browser automatici Analytics le scarta**: una prova col Chrome senza finestra parte, ma in tempo
+reale non si vede. Si controlla da un telefono vero.
+
 ## Il giro di controllo, 30/09/2026
 
 Fatto la notte del 30/09 sul sito compilato, su tutte le pagine a nove larghezze, e rifatto finché non è uscito
