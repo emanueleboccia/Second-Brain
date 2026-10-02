@@ -32,9 +32,11 @@ export const ReelGirarrosto6: React.FC = () => {
   const statoGrande = ser.inizio + bSer[2]; // «e ai conti ci pensa l'applicazione», scritto grande
   const fineVoce = CTA.da;
 
-  // dove parla il titolo grande, i sottotitoli spariscono
+  // In apertura il titolo grande e i sottotitoli stanno insieme, uno in alto e uno in basso: Emanuele, sulla prima
+  // v6, «tutto il resto che dico non lo fai scrivere. Devi comunque seguire quello che dici nel video». Spariscono
+  // solo sotto «Ai conti / ci pensa l'app», che è la frase stessa, e sotto la CTA, che ha le sue parole.
   const chiaro: [number, number][] = []; // tutto il reel è nella scala scura
-  const nascosti: [number, number][] = [[0, ap.frames], [statoGrande, ser.inizio + ser.frames]];
+  const nascosti: [number, number][] = [[statoGrande, ser.inizio + ser.frames]];
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>

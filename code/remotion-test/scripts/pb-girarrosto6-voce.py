@@ -35,7 +35,7 @@ TIENI = 1.2  # quanto resta la CTA a schermo dopo l'ultima parola
 # Le scene della v6 e i blocchi dei sottotitoli, con le parole come le ha dette lui. «chiave» va sulla passata.
 SCENE = [
     ("apertura", 0.0, [("Da Marco al suo girarrosto,", None), ("nelle sere più piene,", None), ("ci sono 120 ordini", None),
-                       ("tutti su un unico foglio", "foglio")]),
+                       ("tutti su un unico foglio", None)  # la passata su «foglio» c'è già nel titolo grande sopra]),
     ("telefono", 0.0, [("Squilla il telefono,", None), ("cognome, ordine", None), ("ed evidenziatore", "evidenziatore")]),
     ("foglio", 0.0, [("Con il giallo", None), ("segnava il fritto,", None), ("con l'arancione", None), ("l'impanato", None),
                      ("e con il verde", None), ("il tacchino", None)]),
