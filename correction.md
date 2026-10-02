@@ -1087,3 +1087,43 @@ gli articoli di wordpress».
 
 **La prossima volta:** una richiesta chiara si fa. Se c'è un dubbio vero lo si dice in una riga, e intanto si procede
 con quello che ha chiesto; un parere non sostituisce mai il lavoro, e decidere al posto suo è peggio che sbagliare.
+
+## 02/10/2026 — Trello fuori dal buongiorno
+
+Nel briefing del 2 ottobre Claude ha letto il board *Marketing* di Sistema Evolve e ne ha fatto la sezione 🏋️, come
+diceva la procedura. Emanuele: «non analizzare più TRELLO nel buongiorno».
+
+**La prossima volta:** il buongiorno non chiama Trello e non ha la sezione Evolve. La regola sta in
+`code/skills/journal/buongiorno.md`, fra le trappole del mattino.
+
+## 02/10/2026 — La recensione di Room84: il vocale non lo voleva
+
+Per la recensione su Google di Antonio Vorraro e Antonella Forno, Claude ha scritto il messaggio col vocale da
+trascrivere, preso dalla memoria del personal brand. Emanuele: «non chiedergli il vocale, digli di scrivere nella
+recensione come si sono trovati con me come persona, il servizio e il sito… dagli l'input per scrivere».
+
+**La prossima volta:** una recensione su Google si chiede col link e con gli spunti per scriverla. Il vocale e il
+protocollo di `self/reference/formati.md` valgono per le testimonianze dei contenuti.
+
+## 02/10/2026 — Risposte in inglese, quattro volte nella stessa sessione
+
+Dopo lunghi giri di strumenti, con output e codice in inglese, quattro messaggi a Emanuele sono usciti in inglese,
+anche dopo che l'aveva fatto notare e dopo una nota in memoria. Emanuele: «ti ho detto cinquanta volte non devi
+parlare inglese».
+
+**La prossima volta:** ogni messaggio a Emanuele, didascalie dei file comprese, si scrive in italiano. Prima di
+mandarlo si rilegge la prima riga: se è in inglese, si riscrive tutto. Vale soprattutto alla fine di un lavoro lungo,
+che è il momento in cui è successo tutte e quattro le volte.
+
+## 03/10/2026 — Una proposta con codice per un lavoro che era un caso studio
+
+Emanuele aveva chiesto «un PDF pratico» per spiegare a Maria Grazia, sua cugina, com'è il sito di
+[[entities/clienti/l-etoile/scheda|L'Étoile]] e cosa si fa. Ne ho fatto una proposta, `PROP_2026_005_LEtoile`, con
+la testata commerciale, le partite IVA delle due parti e il numero preso da Notion. Emanuele: «non deve essere la
+proposta, è un caso studio. È mia cugina, glielo devo». La scheda diceva già che il legame familiare cambia come si
+trattano prezzi e tempi, e la richiesta non parlava né di prezzo né di proposta.
+
+**La prossima volta:** un documento prende un codice `PROP` solo se c'è una vendita, cioè un prezzo da mettere per
+iscritto. Se il cliente è famiglia, o la richiesta è «un PDF per spiegare», prima si chiede se è una vendita o un
+caso studio. Nel dubbio si fa il documento semplice, in `outputs/report/`, senza numero.
+

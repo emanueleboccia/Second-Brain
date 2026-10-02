@@ -19,6 +19,13 @@ Chi è e cosa gli è stato venduto sta nella [[entities/clienti/room84/scheda|sc
 
 ## Storico
 
+### 2026-10-02 — Il link della recensione, a tutti e due
+
+Emanuele manda ad Antonio e ad Antonella il link della scheda Google, con gli spunti per scrivere:
+come si sono trovati con lui, il lavoro dal sito del 2025 a quello nuovo, cosa piace del sito adesso
+e se lo consiglierebbero. Una recensione a testa, ognuno dal suo account. Niente vocale, per scelta di
+Emanuele. Quando arrivano, il testo va nelle [[entities/clienti/room84/recensioni|recensioni]].
+
 ### 2026-09-30 — Antonio dice sì, «ovunque»
 
 Emanuele riferisce che Antonio ha dato l'ok a mostrare il sito nuovo ovunque: il caso studio è

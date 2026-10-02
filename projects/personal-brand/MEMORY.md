@@ -507,4 +507,53 @@ Antonio di Room84, con un vocale al posto del testo scritto, secondo il protocol
 > andava del sito di prima, cosa hai pensato quando hai visto quello nuovo, e cosa ti ha detto chi l'ha visto. Poi la
 > metto io per iscritto e te la faccio rileggere prima di usarla.
 
-Il link gli va mandato solo col nome nuovo già pubblicato, se no recensisce Groweb Studios.
+Il link gli va mandato solo col nome nuovo già pubblicato, se no recensisce Groweb Studios. Verificato il 02/10/2026: il link apre la scheda «Emanuele Boccia · Web designer», e il
+messaggio va ad Antonio e ad Antonella Forno insieme, perché Room84 è di tutti e due.
+
+⚠️ **02/10/2026 · per le recensioni su Google niente vocale.** Deciso da Emanuele sul messaggio a Room84: si manda il
+link e si danno gli spunti per scrivere, cioè come si sono trovati con lui come persona, il servizio e il sito. Il
+protocollo di [[self/reference/formati|formati]], col vocale e senza «come ti sei trovato», resta per le
+testimonianze dei contenuti, non per la scheda Google.
+
+⚠️ **02/10/2026 · le recensioni sulla scheda sono bloccate.** Antonio e Antonella, aprendo il link, leggono «La
+pubblicazione è attualmente disattivata. Le nostre norme non consentono contributi per questo tipo di luogo». Dal
+pannello del proprietario non risulta niente: scheda verificata, nessun avviso, il link è lo stesso. Google dà quel
+messaggio quando blocca le recensioni a lungo su certi tipi di luogo (scuole, uffici pubblici, zone riservate) o per
+poco tempo dopo un'attività anomala; qui il sospetto è il cambio di nome, categorie e descrizione del 30/09, ancora da
+confermare. Finché il link non funziona, a nessun altro cliente si manda.
+
+## 02/10/2026 — Il calendario di ottobre in bozza, e il prima di Korme
+
+- **Il calendario è scritto**, dopo il «procediamo» di Emanuele: nove post da lunedì 5, il reel il martedì e il
+  carosello il giovedì, coi pezzi che esistono già. Sta nel [[outputs/piano-editoriale/2026-10-personal-brand|piano
+  editoriale di ottobre]]. Resta aperto solo se l'1 o il 2 è già uscito qualcosa. Il carosello che mancava, il
+  preventivo a sensazione, è fatto la stessa sera con le parole del suo articolo del blog.
+- **Le regole dei caroselli dette quella sera**, tutte in [[self/reference/design|design]]: una frase di chiusura per
+  ognuno, il disegno a cavallo dei tagli, il contenuto che riempie la slide con lo stesso spazio sopra e sotto, niente
+  righe dei dati in alto né firma in fondo, e nessun punto nei titoli.
+- **I caroselli gli piacciono quasi tutti**, ma la riga della bio in chiusura su ognuno no: «crea altri slogan». Ogni
+  carosello ha ora la sua frase, scritta in [[self/reference/design|design]] e in [[code/caroselli/README|lo stampo]].
+- **Poi l'effetto continuo**: «fai in modo che il carosello abbia quell'effetto continuo tra slide», come Arounda. I tre
+  caroselli disegnati sono rifatti come un nastro unico tagliato in slide, con un disegno a cavallo di ogni taglio: il
+  come sta in [[code/caroselli/README|lo stampo]], le slide sull'SSD.
+- **Korme lo va a sentire Emanuele la settimana prossima**, ed è un locale conosciuto in zona: per lui sarà un bel caso
+  studio. Il prima è sull'SSD in `04-PERSONAL-BRAND/1-girato/korme/`.
+- **Korme, arrivato da Karim, vuole identità e sito nuovi.** Il sito di oggi è generato con Emergent e messo online
+  così: Emanuele ci vuole fare un reel col prima e il dopo sull'AI usata senza sapere cos'è un brand. Il prima è
+  registrato lo stesso giorno, coi difetti verificati uno per uno, in [[projects/personal-brand/girato-korme|il prima
+  di Korme]].
+
+## 03/10/2026 — I cinque reel non convincono: la revisione
+
+Emanuele: il Girarrosto «forse non mi convinceva», e nemmeno Room84 «ma neanche gli altri». Guardati tutti e cinque
+un fotogramma al secondo, accanto alla v2 del Girarrosto che il 29/09 era piaciuta. Hanno gli stessi difetti: aprono
+tutti con «Questo è…», il contenuto sta piccolo nel nero, ci sono fotogrammi vuoti e chiusure ferme di cinque-sette
+secondi, raccontano funzioni invece di una differenza, e chiudono tutti con «Mandagli questo video». Il dettaglio e lo
+stampo proposto per rifarli stanno in [[projects/personal-brand/revisione-reel|la revisione dei reel]]. **Il calendario
+di ottobre è fermo sui reel** finché non si decide come rifarli: i quattro martedì aspettano.
+- **03/10/2026 · il Girarrosto v6 è montato** sulla voce nuova e sullo stampo della revisione, nel fondale scuro: la
+  prova con le illustrazioni in chiaro non gli è piaciuta, e da qui ogni reel ha una scala sola, scelta sul lavoro
+  («deve essere contestualizzato»). La regola sta in [[docs/procedure/reel-personal-brand|la procedura dei reel]], il
+  come in [[projects/personal-brand/girato-girarrosto|il girato del Girarrosto]]. Gli altri quattro reel aspettano il
+  suo parere su questo.
+

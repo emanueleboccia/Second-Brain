@@ -7,7 +7,7 @@ tags:
   - clharem
 status: attivo
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-10-02
 ---
 
 # Scheda — Clharem
@@ -26,6 +26,8 @@ updated: 2026-09-03
 - **Sito:** WooCommerce, su Notion risulta «In sviluppo». Hosting Ergonet in scadenza il
   **03/10/2026**, pagato da loro.
 - **Stato al 03/09/2026:** trattativa aperta, si sta cercando di fissare un appuntamento.
+- **Stato al 02/10/2026:** fermo. Anna ha detto che si fanno sentire loro, ed Emanuele li lascia
+  perdere: niente solleciti, nemmeno sul rinnovo del 03/10.
 
 ## La storia, che spiega tutto il resto
 

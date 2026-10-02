@@ -263,7 +263,18 @@ porta dentro.
 chiede a Notion lo stato ogni volta che si apre, dicendo «Collegato», «Manca un passo» se il database non è connesso
 all'integrazione, o che il token non va.
 
-**Cosa manca ancora online**: la casella info@emanueleboccia.it per il modulo, che per ora scrive all'email
+**Dal 02/10/2026 il modulo scrive a info@emanueleboccia.it**, la casella gratuita di Hostinger creata da Emanuele
+quel pomeriggio. ⚠️ **L'email di prova è finita nello spam**: il sito spedisce come `info@emanueleboccia.it` dal server,
+senza autenticarsi, e il filtro di Hostinger la scambia per falsa. Segnata «Non è spam» e passata in arrivo. Ogni messaggio scrive comunque una riga su Notion.
+
+✅ **Dal 03/10/2026 il sito spedisce dalla casella, con l'SMTP di Hostinger** (`smtp.hostinger.com`, 465, SSL), fatto
+nel tema senza plugin, in `impostazioni.php`. In Impostazioni → Modulo di contatto c'è il campo «Password della
+casella»: la password l'ha incollata Emanuele, e si salva solo se Hostinger la accetta. Il mittente di tutte le email
+del sito diventa info@, perché Hostinger non spedisce a nome di altri indirizzi. La prova dell'01:16 è arrivata in
+posta in arrivo. ⚠️ **Se Emanuele cambia la password della casella, va cambiata anche lì**, se no il sito non spedisce
+più.
+
+**Cosa mancava online fino al 02/10**: la casella info@emanueleboccia.it per il modulo, che fino a quel giorno scriveva all'email
 dell'amministratore; la prova del modulo; Analytics e Search Console. Yoast non serve: titolo e descrizione per Google
 li tiene il riquadro del tema, e la mappa del sito la fa WordPress.
 
@@ -321,6 +332,59 @@ da `wp_head`: senza il tema Yoast non comparirebbe. Il collegamento sta in `tema
   per autore e per data, categorie e tag fuori da Google, l'immagine di condivisione del sito, e porta in Yoast titoli
   e descrizioni di prima, uguali. Si può premere quando si vuole: quello già scritto in Yoast non si tocca.
 
+**Premuto il 02/10/2026 alle 16:20**, appena Emanuele è rientrato nella bacheca. Titoli e descrizioni c'erano
+già, quindi ne ha portati zero. Sulla home i dati strutturati hanno la persona «Emanuele Boccia», con Instagram
+e LinkedIn. Il pomeriggio stesso Emanuele chiede «il punteggio massimo» su ogni pagina e articolo: **tutto verde tranne il
+Blog**, il 02/10/2026. Per ogni pagina una frase chiave che c'era già nel testo, il titolo per Google che comincia da
+lei e la descrizione sotto i 140 caratteri, perché sopra i 145 Yoast la segna solo «ok».
+
+| Pagina | Frase chiave | Punteggio |
+|---|---|---:|
+| Home | Emanuele Boccia | 87 |
+| Chi sono | chi sono | 75 |
+| Servizi | servizi | — |
+| Siti web | siti web | 90 |
+| ERP e gestionali | gestionali su misura | 84 |
+| Consulenza | consulenza | 87 |
+| Company Brain | company brain | 87 |
+| Progetti | progetti | — |
+| Da Mamma Rosaria · il gestionale | gestionale eventi | 87 |
+| Da Mamma Rosaria · il sito | sito agriturismo | 82 |
+| La Masseria · il sito | sito masseria | 82 |
+| La Masseria · il gestionale | gestionale masseria | 84 |
+| Girarrosto Liberti | app ordini | 84 |
+| Room84 | sito B&B | 82 |
+| Tenuta Don Gaetano | sito eventi | 82 |
+| Contatti | contatti | 77 |
+| Privacy | privacy | — |
+| Cookie | cookie | 81 |
+| Articolo «Una cosa bellissima…» | sito bellissimo | 75 |
+| Articolo «Il preventivo fatto a sensazione» | preventivo | 75 |
+| Articolo «Cosa fa l'AI nel mio lavoro» | intelligenza artificiale | 81 |
+
+Dove c'è il trattino il punteggio è verde nell'elenco delle pagine, ma il numero non è stato letto perché Chrome si è
+staccato a metà giro.
+
+**Negli articoli c'è un link in più ciascuno**, senza cambiare una parola: «Da Mamma Rosaria» porta al caso del sito,
+«una prima chiamata» alla Consulenza, «Il gestionale delle feste della Masseria» al suo caso. Senza link gli articoli
+stavano sulla soglia, a 71.
+
+✅ **Sistemato la sera stessa: Blog verde a 81, e tutte le 19 pagine e i 3 articoli verdi.** `yoast.php` legge la pagina
+del blog composta coi suoi articoli, da `eb_html_blog()` in `contenuti.php`, la stessa funzione che la serve; e la
+pagina ha in fondo «Di cosa scrivo», scritta in [[projects/personal-brand/sito-blog|il blog]]. Caricati col file manager
+`contenuti.php`, `yoast.php`, `style.css` e `pagine/_modelli/blog.html`, poi le due cache.
+
+✅ **Il fuso orario di WordPress è Roma dal 02/10/2026**, con l'ok di Emanuele: prima era UTC, e gli articoli e le email
+del modulo segnavano due ore in meno. I due articoli di quella sera sono stati rimessi alle 20:53 e alle 20:54.
+
+~~Il Blog resta rosso~~, con titolo e descrizione per Google comunque scritti. È la pagina degli articoli: il tema
+non passa a Yoast il suo testo, che sta in `blog.html` e non nelle pagine compilate, e anche passandolo sono 149 parole
+contro le 300 che Yoast chiede. Per farla diventare verde servono due cose: `yoast.php` che legge anche `blog.html`, e
+un'introduzione più lunga, da far approvare a Emanuele.
+
+Quello che resta arancione quasi ovunque dipende dai testi: la frase chiave nei sottotitoli, nel testo alternativo
+delle immagini e la sua densità. Si sistema solo toccando le pagine compilate.
+
 La mappa del sito ora è quella di Yoast, `sitemap_index.xml`, anche in `robots.txt`; `wp-sitemap.xml` ci rimanda. In
 Impostazioni → Generali gli indirizzi erano ancora `http://`: portati a `https://`. ⚠️ **Cambiare quegli indirizzi
 chiude la sessione di chi è dentro**, perché il nome dei cookie dipende da lì: si rientra dall'indirizzo segreto.
@@ -368,3 +432,26 @@ controllo si rilancia prima del lancio con `code/controllo-siti/giro.mjs`.
   [[projects/personal-brand/sito-intervista|l'intervista sui lavori del sito]].
 - **Dove si vede la squadra**, dopo che il 20/09/2026 è uscita dal sito: o la storia in evidenza
   «Come si lavora», o da nessuna parte e «studio» resta solo l'handle.
+
+## Privacy e Cookie ricontrollate a sito finito, 02/10/2026
+
+Emanuele, la sera: «adesso che il sito è completo, analizza e capisci cosa scrivere». Il controllo dal vivo su quattro
+pagine, con un browser pulito, conferma quello che le pagine dicono: prima della scelta nessun cookie e niente da altri
+siti, nel browser solo `scala` e `consenso-statistiche`, niente commenti negli articoli.
+
+Corretti cinque punti, coi testi approvati da Emanuele e messi in `src/dati/legali.mjs`, da cui `genera-pagine.mjs`
+scrive le due pagine:
+
+- **l'email non è più di Google**: i moduli scrivono a info@ su Hostinger;
+- **i campi del pannello «Parliamone»**: la tua attività e «come ti richiamo», più la pagina da cui si scrive;
+- **Fiscozen e WhatsApp** fra chi riceve i dati;
+- **le voci che chiede il GDPR**: l'interesse legittimo per i dati del server, cosa è obbligatorio, nessuna decisione
+  automatica, il diritto di opporsi e di ritirare il consenso;
+- **nella pagina Cookie** le azioni che conta Analytics e chi risponde dei dati.
+
+⚠️ **Se il sito cambia cosa raccoglie, cambiano anche queste pagine**: un campo nuovo nel modulo, un servizio esterno,
+un pixel, l'inoltro di info@ a Gmail. Caricate col file manager, solo i due `index.html` in `pagine/privacy/` e
+`pagine/cookie/` del tema, e svuotate le due cache.
+
+La pagina promette che una richiesta senza lavoro si cancella dopo dodici mesi: su TickTick c'è una task ogni tre mesi,
+dal 02/11/2026, per archiviarle su Notion.

@@ -6,7 +6,7 @@ tags:
   - clienti
 status: attivo
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-02
 related:
   - "[[entities/clienti/room84/storico]]"
   - "[[entities/clienti/room84/brand-book]]"
@@ -20,8 +20,9 @@ related:
 - **Chi è:** **Antonio Vorraro**, titolare secondo i Contatti di Notion, ed è con lui che Emanuele
   ha fatto il sito nel 2025. L'attività però è intestata ad **Antonella Forno**: il suo nome e il
   codice fiscale stanno nel piede del sito, ed è lei l'host su Booking, quella che gli ospiti
-  nominano nelle recensioni. La privacy del sito vecchio dice «gestito da Antonio e Antonella». Chi
-  dei due decide sul sito non è scritto da nessuna parte: si chiede.
+  nominano nelle recensioni. La privacy del sito vecchio dice «gestito da Antonio e Antonella».
+- **Antonella è la moglie di Antonio, e Room84 è di tutti e due.** Detto da Emanuele il 02/10/2026: sono
+  due proprietari, e le richieste che contano, come la recensione, si fanno a entrambi.
 - **Perché conta più di quello che paga:** Antonio conosce molta gente sul territorio, lo dice
   Emanuele il 29/09/2026. È il motivo del restyling gratuito: farsi nominare.
 - **Attività:** affittacamere con due suite per coppie, in via Vincenzo Giuliano 26 a Poggiomarino

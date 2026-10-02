@@ -7,7 +7,7 @@ tags:
   - clharem
 status: attivo
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-10-02
 ---
 
 # Storico — Clharem
@@ -15,6 +15,11 @@ updated: 2026-09-03
 Chi è il cliente e cosa c'è sul tavolo sta in [[entities/clienti/clharem/scheda|scheda]]. Qui
 c'è solo cosa è successo, dal più recente in cima. Gli accordi presi a voce o su WhatsApp si
 scrivono il giorno stesso: è l'unico posto in cui esisteranno.
+
+### 2026-10-02 — Si fanno sentire loro, e si lascia perdere
+Emanuele riferisce che Anna ha detto che si sarebbero fatti sentire loro. Il rinnovo di hosting e
+dominio su Ergonet scade il 03/10 e lo pagano loro: non si ricorda più, e non si sollecita. Detto da
+Emanuele: «Clharem non li pensare. Lasciali perdere». Se si rifanno vivi, si riparte da qui.
 
 ### 2026-09-03 — Anna risponde
 Dopo il messaggio di setting mandato il 02/09, Anna ha risposto. Si sta cercando di fissare un

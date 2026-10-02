@@ -24,7 +24,7 @@ cd "/Users/emanueleboccia/Second Brain"
 date "+%A %d/%m/%Y %H:%M"; git rev-parse --show-toplevel; git log --oneline -1
 jq -c 'walk(if type == "object" then with_entries(select(.key | startswith("_") | not)) else . end)
   | {ultimo_briefing: .ticktick.ultimo_briefing, liste: .ticktick.liste, ignora: .ticktick.ignora_sempre.id,
-     trello: {liste: .trello.liste, membro: .trello.membro.id}, viste: .notion.viste,
+     viste: .notion.viste,
      audio: {voce: .audio.voce.scelta, modello: .audio.modello, formato: .audio.formato,
              caratteri: .audio.caratteri_target}}' code/skills/journal/riferimenti.json
 giorno=$(ls workspace/journal/sessions/ | grep -oE '20[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort | tail -1)
@@ -37,7 +37,7 @@ sed -n '/^\*\*«buongiorno»/,/^\*\*L.*audio del buongiorno/p' docs/definizioni/
 ```
 
 La `ToolSearch` è una sola, con tutti gli strumenti del giro 2:
-`select:mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__get_project_with_undone_tasks,mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__list_projects,mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__list_completed_tasks_by_date,mcp__3f303272-b739-49b5-8f9b-8e7883c02215__notion-query-data-sources,mcp__a15d834f-7764-4998-8d9e-f36f43c5090b__trelloReadCard`.
+`select:mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__get_project_with_undone_tasks,mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__list_projects,mcp__5209fda2-c1dc-422e-857d-fb172962bbcc__list_completed_tasks_by_date,mcp__3f303272-b739-49b5-8f9b-8e7883c02215__notion-query-data-sources`.
 Se un nome non si trova più, il connettore è stato ricollegato: lo si cerca per parola chiave, una volta.
 
 Se la radice stampata è un worktree e non la cartella del vault, le note di ieri possono mancare: lo si
@@ -52,7 +52,6 @@ dice prima di tutto il resto.
   digitale, e il lunedì anche su obiettivi. Poi `list_projects`, per vedere se è nata una lista che non sta
   né in `liste` né in `ignora`, e `list_completed_tasks_by_date` sulle tre digitale, da `ultimo_briefing`
   a adesso;
-- **Trello**, `trelloReadCard` con `list_by_list` su `in-corso` e `non-iniziato`, `limit` 50;
 - **ElevenLabs**, la quota in Bash: `composio execute ELEVENLABS_GET_USER_SUBSCRIPTION_INFO -d '{}'`,
   salvata nello scratchpad.
 
@@ -110,20 +109,18 @@ wikilink nel testo della chat.
      abbonamenti di Emanuele, dalle righe di `quadro.md` del giro 1, sono da pagare. È fatturato ricorrente,
      e un rinnovo che scade in silenzio è un cliente che se ne va;
    - una riga sola sui contatti caldi senza trattativa, dalla vista `lead_caldi`.
-5. **🏋️ Sistema Evolve.** Solo le card che hanno `membro` fra i membri: quelle in corso e quelle con una
-   data entro la settimana, in due righe. Da qui Trello si legge e basta.
-6. **🛠️ Siti e gestionali**, solo se qualcosa non è «ok»: il cliente, cosa dice lo script, cosa fare. Un
+5. **🛠️ Siti e gestionali**, solo se qualcosa non è «ok»: il cliente, cosa dice lo script, cosa fare. Un
    sito che non risponde è la cosa più urgente del briefing e va fra le tre di oggi. Un certificato in
    scadenza si guarda e basta: sui piani Hostinger ed Ergonet si rinnova da solo. Se lo script non parte,
    una riga.
-7. **👨‍👩‍👦 Famiglia**, solo dalle tre Digitale: in corso, in ritardo o con una data entro la settimana, e le
+6. **👨‍👩‍👦 Famiglia**, solo dalle tre Digitale: in corso, in ritardo o con una data entro la settimana, e le
    novità dopo `ultimo_briefing`, dette «nuove da Raffaele». Quelle create o chiuse da una sessione di
    Claude non sono di Raffaele: si riconoscono dalle note di sessione.
-8. **📖 Formazione**, una riga, solo se c'è una data entro la settimana.
-9. **📥 Inbox**, solo se non è vuota: «hai N cose da smistare», senza elenco.
-10. **Le tre cose di oggi**, trasversali su lavoro, famiglia, personale e formazione, con mezza frase sul
-    perché: cosa blocca, cosa scade. Sono una proposta, e se due pesano uguale si dice.
-11. **La frase per la giornata**, una riga, due al massimo, nata da quello che è appena uscito: la cosa che
+7. **📖 Formazione**, una riga, solo se c'è una data entro la settimana.
+8. **📥 Inbox**, solo se non è vuota: «hai N cose da smistare», senza elenco.
+9. **Le tre cose di oggi**, trasversali su lavoro, famiglia, personale e formazione, con mezza frase sul
+   perché: cosa blocca, cosa scade. Sono una proposta, e se due pesano uguale si dice.
+10. **La frase per la giornata**, una riga, due al massimo, nata da quello che è appena uscito: la cosa che
     si sblocca, quella che pesa. Qui Emanuele vuole essere incoraggiato, con una cosa vera e sua e mai con
     una frase da poster. Se la giornata è scarica, si dice quello.
 
@@ -165,6 +162,8 @@ nuova, la regola si scrive qui e nel log resta il fatto.
   lei e la cosa sembra strana, la si guarda.
 - **Niente wikilink in chat** (24/08): nel testo che legge Emanuele i nomi si scrivono per esteso.
 - **A Marco non si chiede niente** (25/09): nessuna priorità passa da un messaggio a lui.
+- **Trello non si guarda** (02/10): Emanuele ha tolto Sistema Evolve dal briefing. Niente chiamate al board e
+  niente sezione, nemmeno di una riga; il board si legge solo quando lo chiede lui.
 - **Otto minuti sono troppi** (28/09): tre giri, niente letture intere, niente controlli fuori procedura
   senza un rischio segnalato per oggi.
 
@@ -172,9 +171,8 @@ nuova, la regola si scrive qui e nel log resta il fatto.
 
 - **Un servizio non risponde**: il briefing esce lo stesso, con la riga «TickTick non raggiungibile». Non si
   aspetta e non si riprova.
-- **Un id o una vista non rispondono più**, o il board di Trello è cambiato: si dice e si chiede, senza
-  cercare a tentoni. Due liste coi nomi simili esistono davvero, e una condivisione revocata su Trello è una
-  notizia su Evolve, non un guasto.
+- **Un id o una vista non rispondono più**: si dice e si chiede, senza cercare a tentoni. Due liste coi nomi
+  simili esistono davvero.
 - **`ultimo_briefing` è null**: è il primo giro, e di novità non se ne segnalano. Se è vecchio di
   settimane, le novità si raggruppano: «sette task nuove sulla Masseria».
 - **È lunedì e 🎯 Obiettivi è vuota**: una riga, che fa anche da promemoria.

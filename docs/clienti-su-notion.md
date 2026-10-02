@@ -37,6 +37,11 @@ privati e aziende, che qui non serve:
   attivo*, *Ex cliente*, *Scartato*, e *Rete* per chi non è da vendere. L'*Origine* dice come sono
   arrivati: *Scraping web*, *Inbound sito*, *Passaparola*, *Outreach* e le altre. È da stato e
   origine che si decide come contattarli. Di ogni persona si tengono solo telefono ed email.
+  ⚠️ **«Nuovo» con origine «Outreach» vuol dire una persona a cui ha pensato Emanuele**: la inserisce
+  perché potrebbe averci a che fare, senza un contatto avviato e senza tempi. Non è un lead da sollecitare.
+  Detto da Emanuele il 03/10/2026 rifacendo gli stati: Felice Franchino, Cesco e Nunzio di Eden Banqueting
+  sono questo. Per questo la vista *Lead caldi senza trattativa* della Home, quella che legge il briefing, dal
+  03/10/2026 prende «In lavorazione» e i «Nuovo» che non vengono da «Outreach».
 - **Trattative** — l'ex database Proposte. La *Fase trattativa* è quella commerciale: *In
   qualifica*, *Preventivo inviato*, *In negoziazione*, *Chiuso vinto*, *Chiuso perso*. La *Fase
   lavoro* segue il lavoro vinto fino al saldo. Il titolo è il codice della proposta,

@@ -69,6 +69,16 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
   fondale, con le schermate vere che scorrono e il video della testata rimesso sopra; il disegno a mano, se c'è,
   si ricostruisce come illustrazione che si disegna da sola, e i suoi blocchi diventano le sezioni vere.
 
+- **Un reel ha una scala sola, scura o chiara, scelta sul lavoro che racconta.** La scura è il fondale firma del sito e
+  dei caroselli, nero caldo con la griglia e il bagliore: è quella di base, e piace a Emanuele. La chiara, fondo crema
+  e testo nero, si usa per un reel intero quando il lavoro la chiama, come nei caroselli che si alternano. Detto da lui
+  il 03/10/2026, dopo la prima prova della v6 del Girarrosto che le mescolava: «deve essere contestualizzato». Il
+  Girarrosto, la sera e lo spiedo, è scuro.
+- **Dal 03/10/2026 vale anche lo stampo della revisione**: il problema scritto grande nel primo secondo, un'inquadratura
+  ogni due secondi, le illustrazioni che riempiono lo schermo con una camera che si sposta, nessun fotogramma vuoto, la
+  frase finale grande e la CTA su due inquadrature. Sta in [[projects/personal-brand/revisione-reel|la revisione dei
+  reel]], e il primo fatto così è la v6 del Girarrosto, in `src/pb-girarrosto6/`.
+
 ## I passi
 
 1. **Il girato si guarda e si scrive.** Clip per clip, cosa c'è, le frasi utili e cosa va tagliato, come in

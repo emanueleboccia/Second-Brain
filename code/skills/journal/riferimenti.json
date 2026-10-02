@@ -112,11 +112,11 @@
       "_nota": "La colonna 💡 Idee non entra MAI nel briefing, in nessuna lista. Un'idea non è un impegno, e metterla in mezzo agli impegni fa sembrare in ritardo chi non lo è.",
       "esclusa_sempre": true
     },
-    "ultimo_briefing": "2026-10-01T08:52:00Z",
+    "ultimo_briefing": "2026-10-02T12:42:00Z",
     "_nota_ultimo_briefing": "Timestamp ISO 8601 dell'ultimo «buongiorno» andato a buon fine. Serve alla sezione Famiglia per riconoscere le task create o modificate da allora sulle tre liste Digitale: sono le «nuove da Raffaele». È l'unica cosa che il comando 1 scrive, e scrive qui dentro, non su un servizio esterno. Se è null — prima esecuzione dopo il cambio di struttura — la sezione novità non si inventa una finestra: dice che è il primo giro e non segnala niente."
   },
   "trello": {
-    "_nota": "Le task di Sistema Evolve. Verificato il 01/09/2026 leggendo Trello: workspace, board, liste e member id sono quelli veri. Evolve non sta su TickTick e non ci deve stare: il lavoro del reparto vive sul loro board, e questo è l'unico punto da cui il briefing lo guarda.",
+    "_nota": "Le task di Sistema Evolve. Verificato il 01/09/2026 leggendo Trello: workspace, board, liste e member id sono quelli veri. Evolve non sta su TickTick e non ci deve stare: il lavoro del reparto vive sul loro board, Dal 02/10/2026 il briefing non lo guarda più, per scelta di Emanuele: gli id restano per quando lo chiede lui.",
     "_REGOLA_SOLA_LETTURA": "⚠️ Da qui Trello si LEGGE e basta. Non si creano card, non si spostano, non si commenta, non si spunta niente — nemmeno se sembra ovvio e nemmeno se Emanuele lo dice di sfuggita mentre parla d'altro. Le modifiche le fa lui dal cervello aziendale di Evolve. Il board è condiviso con Vincenzo e Karim: una card scritta da qui compare a loro come se l'avesse scritta Emanuele, e non c'è modo di spiegare da dove è arrivata. Se serve davvero scrivere, si chiede prima ed esplicitamente.",
     "workspace": {
       "id": "ari:cloud:trello::workspace/6a8e9b0656c18f396012bc8d",

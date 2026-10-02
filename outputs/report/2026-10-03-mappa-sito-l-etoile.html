@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>L'Étoile · la mappa del sito nuovo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+/* La mappa del sito nuovo di L'Étoile, 03/10/2026: due pagine da far capire a colpo d'occhio, senza testo da leggere.
+   Il disegno è fatto di schede, finestre e telefoni, come le grafiche del personal brand; fondo crema con la griglia chiara. */
+@page{ size:A4 landscape; margin:0; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:#EEEBDA; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.foglio{
+  width:297mm; height:210mm; page-break-after:always; overflow:hidden; position:relative;
+  background-color:#EEEBDA;
+  background-image:linear-gradient(#E2DEC9 0.25mm, transparent 0.25mm), linear-gradient(90deg, #E2DEC9 0.25mm, transparent 0.25mm);
+  background-size:8mm 8mm; background-position:2mm 2mm;
+}
+.foglio:last-child{ page-break-after:auto; }
+svg{ display:block; width:297mm; height:210mm; }
+.a9{ font-family:"Archivo",Helvetica,Arial,sans-serif; font-weight:900; font-variation-settings:"wdth" 125; }
+.a7{ font-family:"Archivo",Helvetica,Arial,sans-serif; font-weight:700; font-variation-settings:"wdth" 125; }
+.mo{ font-family:"JetBrains Mono",ui-monospace,Menlo,monospace; font-weight:700; letter-spacing:.12em; }
+.he{ font-family:Helvetica,"Helvetica Neue",Arial,sans-serif; }
+.ink{ fill:#0E0E0C; } .cr{ fill:#EEEBDA; } .sp{ fill:#75746A; } .im{ fill:#B5B2A4; }
+.bordo{ fill:#EEEBDA; stroke:#0E0E0C; stroke-width:.3; }
+.pieno{ fill:#0E0E0C; }
+.linea{ stroke:#0E0E0C; stroke-width:.3; fill:none; }
+.leggera{ stroke:#75746A; stroke-width:.25; fill:none; }
+.tratteggio{ stroke:#75746A; stroke-width:.3; fill:none; stroke-dasharray:1.4 1.1; }
+.freccia{ stroke:#0E0E0C; stroke-width:.35; fill:none; marker-end:url(#punta); }
+</style>
+</head>
+<body>
+
+<!-- 1 · come funzionerà -->
+<div class="foglio">
+<svg viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="punta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="#0E0E0C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="a7 ink" x="14" y="16" font-size="3.3" letter-spacing=".9">EMANUELE BOCCIA</text>
+  <text class="mo sp" x="283" y="16" font-size="2.2" text-anchor="end">L'ÉTOILE · LA MAPPA DEL SITO NUOVO</text>
+  <text class="a9 ink" x="14" y="31" font-size="9.5">Come funzionerà.</text>
+  <text class="he sp" x="14" y="38" font-size="3.4">Voi parlate all'assistente, l'assistente aggiorna il magazzino, e il sito si aggiorna da solo.</text>
+
+  <!-- voi, dal telefono -->
+  <rect class="bordo" x="14" y="46" width="38" height="66" rx="4"/>
+  <rect class="pieno" x="28" y="48.2" width="10" height="1.6" rx=".8"/>
+  <line class="leggera" x1="16.5" y1="52" x2="49.5" y2="52"/>
+  <rect class="pieno" x="22" y="55" width="26" height="6.4" rx="2.2"/><text class="he cr" x="46" y="59.2" font-size="2.35" text-anchor="end">Nuova borsa, 150 €</text>
+  <rect class="bordo" x="17.5" y="63.6" width="27" height="6.4" rx="2.2"/><text class="he sp" x="19.5" y="67.8" font-size="2.35">Pronta. La pubblico?</text>
+  <rect class="pieno" x="40" y="72.2" width="8" height="6.4" rx="2.2"/><text class="he cr" x="44" y="76.4" font-size="2.35" text-anchor="middle">Sì</text>
+  <rect class="pieno" x="24" y="80.8" width="24" height="6.4" rx="2.2"/><text class="he cr" x="46" y="85" font-size="2.35" text-anchor="end">La nera è venduta</text>
+  <rect class="pieno" x="22" y="89.4" width="26" height="6.4" rx="2.2"/><text class="he cr" x="46" y="93.6" font-size="2.35" text-anchor="end">Borse mare al −20%</text>
+  <rect class="pieno" x="19" y="98" width="29" height="6.4" rx="2.2"/><text class="he cr" x="46" y="102.2" font-size="2.35" text-anchor="end">Trolley + beauty case</text>
+  <text class="mo sp" x="33" y="118" font-size="2.1" text-anchor="middle">VOI, DAL TELEFONO</text>
+
+  <line class="freccia" x1="53.5" y1="79" x2="60.5" y2="79"/>
+
+  <!-- l'assistente -->
+  <rect class="pieno" x="62" y="46" width="92" height="66" rx="2.5"/>
+  <text class="a9 cr" x="68" y="56" font-size="5.2">L'assistente</text>
+  <g class="he">
+    <text class="mo im" x="68" y="65.2" font-size="2.2">01</text><text class="cr" x="75" y="65.4" font-size="3.15">Carica i prodotti, con le foto</text>
+    <line x1="68" y1="68.4" x2="148" y2="68.4" stroke="#2A2A24" stroke-width=".3"/>
+    <text class="mo im" x="68" y="73.2" font-size="2.2">02</text><text class="cr" x="75" y="73.4" font-size="3.15">Toglie quelli venduti</text>
+    <line x1="68" y1="76.4" x2="148" y2="76.4" stroke="#2A2A24" stroke-width=".3"/>
+    <text class="mo im" x="68" y="81.2" font-size="2.2">03</text><text class="cr" x="75" y="81.4" font-size="3.15">Fa sconti e saldi</text>
+    <line x1="68" y1="84.4" x2="148" y2="84.4" stroke="#2A2A24" stroke-width=".3"/>
+    <text class="mo im" x="68" y="89.2" font-size="2.2">04</text><text class="cr" x="75" y="89.4" font-size="3.15">Mette in vetrina le novità</text>
+    <line x1="68" y1="92.4" x2="148" y2="92.4" stroke="#2A2A24" stroke-width=".3"/>
+    <text class="mo im" x="68" y="97.2" font-size="2.2">05</text><text class="cr" x="75" y="97.4" font-size="3.15">Consiglia, e crea i kit</text>
+  </g>
+  <text class="mo im" x="68" y="106.5" font-size="2.05">PRIMA DI PUBBLICARE, VI CHIEDE IL SÌ</text>
+
+  <line class="freccia" x1="155.5" y1="79" x2="162.5" y2="79"/>
+
+  <!-- il magazzino -->
+  <rect class="bordo" x="164" y="46" width="72" height="66" rx="2.5"/>
+  <text class="a9 ink" x="170" y="56" font-size="5.2">Il magazzino</text>
+  <text class="mo sp" x="170" y="61.6" font-size="2.05">SU SHOPIFY, IN ORDINE</text>
+  <g>
+    <text class="mo sp" x="170" y="69" font-size="1.85">PRODOTTO</text><text class="mo sp" x="214" y="69" font-size="1.85" text-anchor="end">PEZZI</text><text class="mo sp" x="230" y="69" font-size="1.85" text-anchor="end">€</text>
+    <line class="linea" x1="170" y1="70.6" x2="230" y2="70.6"/>
+    <rect class="leggera" x="170" y="73" width="4.2" height="4.2"/><rect class="im" x="176.5" y="74.4" width="22" height="1.4"/><text class="mo ink" x="214" y="76.4" font-size="2" text-anchor="end">2</text><rect class="im" x="221" y="74.4" width="9" height="1.4"/>
+    <line class="leggera" x1="170" y1="79.4" x2="230" y2="79.4"/>
+    <rect class="leggera" x="170" y="81.6" width="4.2" height="4.2"/><rect class="im" x="176.5" y="83" width="17" height="1.4"/><text class="mo ink" x="214" y="85" font-size="2" text-anchor="end">0</text><rect class="im" x="221" y="83" width="9" height="1.4"/>
+    <line class="leggera" x1="170" y1="88" x2="230" y2="88"/>
+    <rect class="leggera" x="170" y="90.2" width="4.2" height="4.2"/><rect class="im" x="176.5" y="91.6" width="25" height="1.4"/><text class="mo ink" x="214" y="93.6" font-size="2" text-anchor="end">4</text><rect class="im" x="221" y="91.6" width="9" height="1.4"/>
+    <line class="leggera" x1="170" y1="96.6" x2="230" y2="96.6"/>
+  </g>
+  <text class="mo ink" x="170" y="106.5" font-size="2.05">698 PRODOTTI, OGNUNO AL SUO POSTO</text>
+
+  <!-- i numeri -->
+  <rect class="bordo" x="244" y="46" width="39" height="66" rx="2.5"/>
+  <text class="a9 ink" x="249" y="56" font-size="5.2">I numeri</text>
+  <text class="mo sp" x="249" y="61.6" font-size="2.05">DAL PRIMO GIORNO</text>
+  <line class="linea" x1="249" y1="99" x2="278" y2="99"/>
+  <rect class="im" x="250" y="88" width="4" height="11"/><rect class="im" x="256" y="82" width="4" height="17"/><rect class="im" x="262" y="85" width="4" height="14"/><rect class="pieno" x="268" y="74" width="4" height="25"/><rect class="im" x="274" y="79" width="4" height="20"/>
+  <text class="mo sp" x="249" y="106.5" font-size="2.05">CHI ARRIVA, E DA DOVE</text>
+
+  <line class="freccia" x1="200" y1="112.5" x2="200" y2="121"/>
+  <line class="freccia" x1="263.5" y1="122.5" x2="263.5" y2="114"/>
+
+  <!-- il sito -->
+  <rect class="bordo" x="14" y="123" width="269" height="70" rx="2.5"/>
+  <line class="linea" x1="14" y1="130" x2="283" y2="130"/>
+  <circle class="leggera" cx="18.6" cy="126.5" r="1"/><circle class="leggera" cx="22.2" cy="126.5" r="1"/><circle class="leggera" cx="25.8" cy="126.5" r="1"/>
+  <rect class="leggera" x="110" y="124.5" width="77" height="4" rx="2"/>
+  <text class="mo sp" x="148.5" y="127.3" font-size="2" text-anchor="middle" letter-spacing=".05">etoilepoggiomarino.com</text>
+
+  <g id="mondi">
+    <!-- sei mondi, ognuno col suo arco -->
+    <rect class="bordo" x="19" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 ink" x="22.5" y="141.6" font-size="3.9">Donna</text>
+    <text class="mo sp" x="22.5" y="149" font-size="1.85">BORSE E ZAINI</text><text class="mo sp" x="22.5" y="153.6" font-size="1.85">PORTAFOGLI</text><text class="mo sp" x="22.5" y="158.2" font-size="1.85">MARE, D'ESTATE</text>
+    <path class="linea" d="M47.5 169.5 V158.5 A4.2 4.2 0 0 1 55.9 158.5 V169.5 Z"/>
+
+    <rect class="pieno" x="62.8" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 cr" x="66.3" y="141.6" font-size="3.9">Uomo</text>
+    <text class="mo im" x="66.3" y="149" font-size="1.85">IL COMPUTER</text><text class="mo im" x="66.3" y="153.6" font-size="1.85">LA GIORNATA</text><text class="mo im" x="66.3" y="158.2" font-size="1.85">L'ESSENZIALE</text>
+    <path d="M91.3 169.5 V158.5 A4.2 4.2 0 0 1 99.7 158.5 V169.5 Z" fill="none" stroke="#EEEBDA" stroke-width=".3"/>
+
+    <rect class="bordo" x="106.6" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 ink" x="110.1" y="141.6" font-size="3.9">Voyage</text>
+    <text class="mo sp" x="110.1" y="149" font-size="1.85">PER QUANTO PARTI</text><text class="mo sp" x="110.1" y="153.6" font-size="1.85">LE VALIGIE</text><text class="mo sp" x="110.1" y="158.2" font-size="1.85">RIEMPI LA VALIGIA</text>
+    <path class="linea" d="M135.1 169.5 V158.5 A4.2 4.2 0 0 1 143.5 158.5 V169.5 Z"/>
+
+    <rect class="bordo" x="150.4" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 ink" x="153.9" y="141.6" font-size="3.9">Beauty</text>
+    <text class="mo sp" x="153.9" y="149" font-size="1.85">VISO</text><text class="mo sp" x="153.9" y="153.6" font-size="1.85">CAPELLI</text><text class="mo sp" x="153.9" y="158.2" font-size="1.85">IL PARFUM BAR</text>
+    <path class="linea" d="M178.9 169.5 V158.5 A4.2 4.2 0 0 1 187.3 158.5 V169.5 Z"/>
+
+    <rect class="bordo" x="194.2" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 ink" x="197.7" y="141.6" font-size="3.9">Regali</text>
+    <text class="mo sp" x="197.7" y="149" font-size="1.85">A CHI</text><text class="mo sp" x="197.7" y="153.6" font-size="1.85">QUANTO</text><text class="mo sp" x="197.7" y="158.2" font-size="1.85">QUATTRO IDEE</text>
+    <path class="linea" d="M222.7 169.5 V158.5 A4.2 4.2 0 0 1 231.1 158.5 V169.5 Z"/>
+
+    <rect class="bordo" x="238" y="134" width="39.8" height="38" rx="1.5"/>
+    <text class="a9 ink" x="241.5" y="141.6" font-size="3.9">Marchi</text>
+    <text class="mo sp" x="241.5" y="149" font-size="1.85">TRENTA MARCHI</text><text class="mo sp" x="241.5" y="153.6" font-size="1.85">UNA PAGINA</text><text class="mo sp" x="241.5" y="158.2" font-size="1.85">PER OGNUNO</text>
+    <path class="linea" d="M266.5 169.5 V158.5 A4.2 4.2 0 0 1 274.9 158.5 V169.5 Z"/>
+  </g>
+
+  <!-- un carrello solo -->
+  <rect class="pieno" x="19" y="176" width="258.8" height="12" rx="1.5"/>
+  <text class="a9 cr" x="23.5" y="183.7" font-size="3.5">Un carrello solo</text>
+  <text class="mo im" x="80" y="183.3" font-size="2">CONSIGLI E KIT   ·   KLARNA IN 3 RATE   ·   SPEDIZIONE GRATIS DA 50 €   ·   WHATSAPP DEL NEGOZIO</text>
+
+  <line class="linea" x1="14" y1="199" x2="283" y2="199"/>
+  <text class="mo sp" x="14" y="203.6" font-size="2">EMANUELE BOCCIA</text>
+  <text class="mo sp" x="148.5" y="203.6" font-size="2" text-anchor="middle">L'ÉTOILE · LA MAPPA DEL SITO NUOVO</text>
+  <text class="mo sp" x="283" y="203.6" font-size="2" text-anchor="end">01 / 02</text>
+</svg>
+</div>
+
+<!-- 2 · come ci arriviamo -->
+<div class="foglio">
+<svg viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="punta2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="#0E0E0C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="a7 ink" x="14" y="16" font-size="3.3" letter-spacing=".9">EMANUELE BOCCIA</text>
+  <text class="mo sp" x="283" y="16" font-size="2.2" text-anchor="end">L'ÉTOILE · LA MAPPA DEL SITO NUOVO</text>
+  <text class="a9 ink" x="14" y="31" font-size="9.5">Come ci arriviamo.</text>
+  <text class="he sp" x="14" y="38" font-size="3.4">Cinque passi, e il sito di oggi resta online fino all'ultimo.</text>
+
+  <!-- la linea dei passi -->
+  <line class="linea" x1="40.9" y1="52" x2="256.1" y2="52"/>
+  <g class="mo" font-size="2.6" text-anchor="middle">
+    <circle class="bordo" cx="40.9" cy="52" r="5"/><text class="ink" x="40.9" y="53">01</text>
+    <circle class="bordo" cx="94.7" cy="52" r="5"/><text class="ink" x="94.7" y="53">02</text>
+    <circle class="bordo" cx="148.5" cy="52" r="5"/><text class="ink" x="148.5" y="53">03</text>
+    <circle class="bordo" cx="202.3" cy="52" r="5"/><text class="ink" x="202.3" y="53">04</text>
+    <circle class="pieno" cx="256.1" cy="52" r="5"/><text class="cr" x="256.1" y="53">05</text>
+  </g>
+
+  <!-- 01 · in negozio: la prova sul telefono -->
+  <rect class="bordo" x="29.9" y="64" width="22" height="44" rx="3"/>
+  <rect class="pieno" x="37.4" y="66" width="7" height="1.2" rx=".6"/>
+  <line class="leggera" x1="31.9" y1="69.5" x2="49.9" y2="69.5"/>
+  <path class="linea" d="M33.4 84 V76.5 A3.4 3.4 0 0 1 40.2 76.5 V84 Z"/>
+  <path class="linea" d="M41.6 84 V76.5 A3.4 3.4 0 0 1 48.4 76.5 V84 Z"/>
+  <path class="linea" d="M33.4 96 V88.5 A3.4 3.4 0 0 1 40.2 88.5 V96 Z"/>
+  <path class="pieno" d="M41.6 96 V88.5 A3.4 3.4 0 0 1 48.4 88.5 V96 Z"/>
+  <rect class="pieno" x="33.4" y="99.5" width="15" height="3.4" rx="1.7"/>
+
+  <!-- 02 · il catalogo in ordine: da sparso a in colonna -->
+  <rect class="bordo" x="76" y="70" width="11" height="8" rx=".8" transform="rotate(-12 81.5 74)"/>
+  <rect class="bordo" x="78" y="80" width="11" height="8" rx=".8" transform="rotate(9 83.5 84)"/>
+  <rect class="bordo" x="75" y="90" width="11" height="8" rx=".8" transform="rotate(-6 80.5 94)"/>
+  <rect class="bordo" x="80" y="97" width="11" height="8" rx=".8" transform="rotate(14 85.5 101)"/>
+  <line class="freccia" x1="93" y1="87" x2="98.5" y2="87" marker-end="url(#punta2)"/>
+  <g>
+    <rect class="bordo" x="101" y="68" width="5.5" height="5.5" rx=".5"/><rect class="bordo" x="101" y="75.5" width="5.5" height="5.5" rx=".5"/><rect class="bordo" x="101" y="83" width="5.5" height="5.5" rx=".5"/>
+    <rect class="bordo" x="108" y="68" width="5.5" height="5.5" rx=".5"/><rect class="bordo" x="108" y="75.5" width="5.5" height="5.5" rx=".5"/><rect class="bordo" x="108" y="83" width="5.5" height="5.5" rx=".5"/><rect class="bordo" x="108" y="90.5" width="5.5" height="5.5" rx=".5"/>
+    <rect class="pieno" x="115" y="68" width="5.5" height="5.5" rx=".5"/><rect class="pieno" x="115" y="75.5" width="5.5" height="5.5" rx=".5"/>
+  </g>
+
+  <!-- 03 · l'assistente: la prova su dieci prodotti -->
+  <rect class="pieno" x="137" y="68" width="24" height="7" rx="2.4"/><text class="he cr" x="159" y="72.6" font-size="2.35" text-anchor="end">Nuova borsa, 150 €</text>
+  <rect class="bordo" x="133" y="79" width="25" height="7" rx="2.4"/><text class="he sp" x="135" y="83.6" font-size="2.35">Pronta. La pubblico?</text>
+  <rect class="pieno" x="151" y="90" width="10" height="7" rx="2.4"/><text class="he cr" x="156" y="94.6" font-size="2.35" text-anchor="middle">Sì</text>
+  <rect class="bordo" x="133" y="101" width="22" height="7" rx="2.4"/><text class="he sp" x="135" y="105.6" font-size="2.35">Online.</text>
+
+  <!-- 04 · il sito nuovo, dietro le quinte -->
+  <rect class="bordo" x="182.3" y="66" width="40" height="34" rx="1.5"/>
+  <line class="linea" x1="182.3" y1="70.5" x2="222.3" y2="70.5"/>
+  <circle class="leggera" cx="185.3" cy="68.3" r=".7"/><circle class="leggera" cx="187.8" cy="68.3" r=".7"/><circle class="leggera" cx="190.3" cy="68.3" r=".7"/>
+  <path class="linea" d="M186 88 V79.5 A3.6 3.6 0 0 1 193.2 79.5 V88 Z"/>
+  <path class="pieno" d="M196.7 88 V79.5 A3.6 3.6 0 0 1 203.9 79.5 V88 Z"/>
+  <path class="linea" d="M207.4 88 V79.5 A3.6 3.6 0 0 1 214.6 79.5 V88 Z"/>
+  <rect class="pieno" x="186" y="91.5" width="32.5" height="4" rx=".8"/>
+  <text class="mo sp" x="202.3" y="106" font-size="1.85" text-anchor="middle">NON ANCORA ONLINE</text>
+
+  <!-- 05 · le foto, e online coi numeri -->
+  <rect class="bordo" x="236.1" y="66" width="18" height="24" rx="1"/>
+  <path class="pieno" d="M240.1 87 V77 A5 5 0 0 1 250.1 77 V87 Z"/>
+  <rect class="bordo" x="257.1" y="73" width="20" height="24" rx="1"/>
+  <line class="linea" x1="259.6" y1="93" x2="274.6" y2="93"/>
+  <rect class="im" x="260.1" y="86" width="2.8" height="7"/><rect class="im" x="264.1" y="82" width="2.8" height="11"/><rect class="pieno" x="268.1" y="77" width="2.8" height="16"/><rect class="im" x="272.1" y="80.5" width="2.8" height="12.5"/>
+
+  <!-- i titoli dei passi -->
+  <g text-anchor="middle">
+    <text class="a9 ink" x="40.9" y="119" font-size="3.9">In negozio</text>
+    <text class="mo sp" x="40.9" y="126" font-size="1.9">UN'ORA</text><text class="mo sp" x="40.9" y="130.8" font-size="1.9">LA PROVA SUL TELEFONO</text>
+    <text class="a9 ink" x="94.7" y="119" font-size="3.9">Il catalogo</text>
+    <text class="mo sp" x="94.7" y="126" font-size="1.9">MARCA, NOME, COLORE</text><text class="mo sp" x="94.7" y="130.8" font-size="1.9">OGNUNO AL SUO POSTO</text>
+    <text class="a9 ink" x="148.5" y="119" font-size="3.9">L'assistente</text>
+    <text class="mo sp" x="148.5" y="126" font-size="1.9">PROVA SU 10 PRODOTTI</text><text class="mo sp" x="148.5" y="130.8" font-size="1.9">POI È VOSTRO</text>
+    <text class="a9 ink" x="202.3" y="119" font-size="3.9">Il sito nuovo</text>
+    <text class="mo sp" x="202.3" y="126" font-size="1.9">DIETRO LE QUINTE</text><text class="mo sp" x="202.3" y="130.8" font-size="1.9">LO CORREGGIAMO INSIEME</text>
+    <text class="a9 ink" x="256.1" y="119" font-size="3.9">Foto, e online</text>
+    <text class="mo sp" x="256.1" y="126" font-size="1.9">SHOOTING IN NEGOZIO</text><text class="mo sp" x="256.1" y="130.8" font-size="1.9">I NUMERI ACCESI</text>
+  </g>
+
+  <!-- le due corsie: il sito di oggi e quello nuovo -->
+  <line class="tratteggio" x1="229.2" y1="139" x2="229.2" y2="188"/>
+  <text class="mo sp" x="14" y="147" font-size="1.9">IL SITO DI OGGI</text>
+  <rect class="bordo" x="14" y="149" width="213.2" height="10" rx="1.2"/>
+  <text class="mo ink" x="18" y="155.1" font-size="2">ONLINE, COME SEMPRE</text>
+  <text class="mo sp" x="232.2" y="155.1" font-size="2">LASCIA IL POSTO</text>
+
+  <text class="mo sp" x="14" y="168" font-size="1.9">IL SITO NUOVO</text>
+  <rect class="tratteggio" x="67.8" y="170" width="159.4" height="10" rx="1.2"/>
+  <text class="mo sp" x="71.8" y="176.1" font-size="2">SI COSTRUISCE DIETRO LE QUINTE</text>
+  <rect class="pieno" x="231.2" y="170" width="51.8" height="10" rx="1.2"/>
+  <text class="mo cr" x="235.2" y="176.1" font-size="2">ONLINE</text>
+
+  <text class="he sp" x="14" y="190.5" font-size="3">I tempi li fissiamo all'incontro in negozio.</text>
+
+  <line class="linea" x1="14" y1="199" x2="283" y2="199"/>
+  <text class="mo sp" x="14" y="203.6" font-size="2">EMANUELE BOCCIA</text>
+  <text class="mo sp" x="148.5" y="203.6" font-size="2" text-anchor="middle">L'ÉTOILE · LA MAPPA DEL SITO NUOVO</text>
+  <text class="mo sp" x="283" y="203.6" font-size="2" text-anchor="end">02 / 02</text>
+</svg>
+</div>
+
+</body>
+</html>

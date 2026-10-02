@@ -1,5 +1,9 @@
 # Second Brain di Emanuele
 
+⚠️ **Con Emanuele si scrive sempre e solo in italiano**: ogni risposta, ogni riepilogo, ogni didascalia di un file.
+Mai in inglese, nemmeno dopo un lungo lavoro con strumenti e testi in inglese, che è proprio quando è successo cinque
+volte il 02 e il 03/10/2026. Prima di mandare un messaggio si rilegge la prima riga.
+
 Questo non è un archivio di appunti: è il cervello dell'azienda. Le regole, le decisioni e
 l'identità dei brand vivono qui, e qui sono vere. Se una cosa conta, finisce in un file —
 altrimenti si perde, ed è giusto così.

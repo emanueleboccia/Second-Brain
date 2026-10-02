@@ -1,0 +1,298 @@
+{
+ "durata": 42.55,
+ "scene": [
+  {
+   "id": "apertura",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Da Marco al suo girarrosto,",
+     "da": 0.0,
+     "sentito": "Da Marco al suo girarosto,",
+     "a": 2.16
+    },
+    {
+     "testo": "nelle sere più piene,",
+     "da": 2.16,
+     "sentito": "nelle sere più piene",
+     "a": 3.7
+    },
+    {
+     "testo": "ci sono 120 ordini",
+     "da": 3.7,
+     "sentito": "ci sono 120 ordini,",
+     "a": 5.51
+    },
+    {
+     "testo": "tutti su un unico foglio",
+     "chiave": "foglio",
+     "da": 5.51,
+     "sentito": "tutti su un unico foglio.",
+     "a": 7.23
+    }
+   ],
+   "fine": 7.23,
+   "fineVoce": 7.22
+  },
+  {
+   "id": "telefono",
+   "inizio": 7.23,
+   "blocchi": [
+    {
+     "testo": "Squilla il telefono,",
+     "da": 7.23,
+     "sentito": "Squilla il telefono,",
+     "a": 8.39
+    },
+    {
+     "testo": "cognome, ordine",
+     "da": 8.39,
+     "sentito": "cognome, ordine",
+     "a": 9.41
+    },
+    {
+     "testo": "ed evidenziatore",
+     "chiave": "evidenziatore",
+     "da": 9.41,
+     "sentito": "ed evidenziatore.",
+     "a": 10.85
+    }
+   ],
+   "fine": 10.85,
+   "fineVoce": 10.79
+  },
+  {
+   "id": "foglio",
+   "inizio": 10.85,
+   "blocchi": [
+    {
+     "testo": "Con il giallo",
+     "da": 10.85,
+     "sentito": "Con il giallo",
+     "a": 11.48
+    },
+    {
+     "testo": "segnava il fritto,",
+     "da": 11.48,
+     "sentito": "sognava il fritto,",
+     "a": 12.72
+    },
+    {
+     "testo": "con l'arancione",
+     "da": 12.72,
+     "sentito": "con l'arancione",
+     "a": 13.19
+    },
+    {
+     "testo": "l'impanato",
+     "da": 13.19,
+     "sentito": "l'impanato",
+     "a": 13.57
+    },
+    {
+     "testo": "e con il verde",
+     "da": 13.57,
+     "sentito": "e con il verde",
+     "a": 14.17
+    },
+    {
+     "testo": "il tacchino",
+     "da": 14.17,
+     "sentito": "il tacchino.",
+     "a": 15.2
+    }
+   ],
+   "fine": 15.2,
+   "fineVoce": 15.13
+  },
+  {
+   "id": "conti",
+   "inizio": 15.2,
+   "blocchi": [
+    {
+     "testo": "E i conti",
+     "da": 15.2,
+     "sentito": "e i conti",
+     "a": 15.7
+    },
+    {
+     "testo": "tutti quanti",
+     "da": 15.7,
+     "sentito": "tutti quanti",
+     "a": 16.82
+    },
+    {
+     "testo": "a mente",
+     "chiave": "a mente",
+     "da": 16.82,
+     "sentito": "a mente",
+     "a": 17.87
+    }
+   ],
+   "fine": 17.87,
+   "fineVoce": 17.76
+  },
+  {
+   "id": "arrivo",
+   "inizio": 17.87,
+   "blocchi": [
+    {
+     "testo": "Prima di costruire",
+     "da": 17.87,
+     "sentito": "Prima di costruire",
+     "a": 18.8
+    },
+    {
+     "testo": "li ho guardati lavorare",
+     "chiave": "guardati lavorare",
+     "da": 18.8,
+     "sentito": "li ho guardati lavorare.",
+     "a": 20.5
+    },
+    {
+     "testo": "Sono andato lì",
+     "da": 20.5,
+     "sentito": "Sono andato lì",
+     "a": 21.41
+    },
+    {
+     "testo": "e ho visto",
+     "da": 21.41,
+     "sentito": "e ho visto",
+     "a": 21.79
+    },
+    {
+     "testo": "tutto il loro processo",
+     "da": 21.79,
+     "sentito": "tutto il loro processo.",
+     "a": 23.44
+    }
+   ],
+   "fine": 23.44,
+   "fineVoce": 23.32
+  },
+  {
+   "id": "schede",
+   "inizio": 23.44,
+   "blocchi": [
+    {
+     "testo": "Poi gli ho costruito",
+     "da": 23.44,
+     "sentito": "Poi io ho costruito",
+     "a": 24.61
+    },
+    {
+     "testo": "un'app uguale",
+     "da": 24.61,
+     "sentito": "un'app uguale",
+     "a": 25.63
+    },
+    {
+     "testo": "al loro processo,",
+     "da": 25.63,
+     "sentito": "al loro processo,",
+     "a": 27.13
+    },
+    {
+     "testo": "solo più veloce",
+     "chiave": "più veloce",
+     "da": 27.13,
+     "sentito": "solo più veloce.",
+     "a": 28.21
+    },
+    {
+     "testo": "Scrivi l'ordine",
+     "da": 28.21,
+     "sentito": "Scrivi l'ordine",
+     "a": 29.16
+    },
+    {
+     "testo": "e il conto",
+     "da": 29.16,
+     "sentito": "e il conto",
+     "a": 29.77
+    },
+    {
+     "testo": "lo fa lei",
+     "chiave": "lo fa lei",
+     "da": 29.77,
+     "sentito": "lo farei.",
+     "a": 30.66
+    }
+   ],
+   "fine": 30.66,
+   "fineVoce": 30.66
+  },
+  {
+   "id": "ipad",
+   "inizio": 30.66,
+   "blocchi": [
+    {
+     "testo": "Con un solo tocco",
+     "chiave": "un solo tocco",
+     "da": 30.66,
+     "sentito": "Con un solo tocco",
+     "a": 31.97
+    },
+    {
+     "testo": "sai quanti pezzi",
+     "da": 31.97,
+     "sentito": "sai quanti pezzi",
+     "a": 32.64
+    },
+    {
+     "testo": "devi preparare",
+     "da": 32.64,
+     "sentito": "preparare",
+     "a": 33.09
+    },
+    {
+     "testo": "in giornata",
+     "da": 33.09,
+     "sentito": "in giornata.",
+     "a": 34.15
+    }
+   ],
+   "fine": 34.15,
+   "fineVoce": 34.14
+  },
+  {
+   "id": "servizio",
+   "inizio": 34.15,
+   "blocchi": [
+    {
+     "testo": "Mo' Marco pensa",
+     "da": 34.15,
+     "sentito": "Mo Marco pensa",
+     "a": 35.27
+    },
+    {
+     "testo": "ai polli",
+     "chiave": "ai polli",
+     "da": 35.27,
+     "sentito": "ai polli",
+     "a": 36.15
+    },
+    {
+     "testo": "e ai conti",
+     "da": 36.15,
+     "sentito": "e ai conti",
+     "a": 37.0
+    },
+    {
+     "testo": "ci pensa l'applicazione",
+     "da": 37.0,
+     "sentito": "ci pensa l'applicazione.",
+     "a": 38.45
+    }
+   ],
+   "fine": 42.55,
+   "fineVoce": 38.45
+  }
+ ],
+ "cta": {
+  "da": 38.45,
+  "chiave": 40.21,
+  "sentito": "Hai un amico che fa ancora i conti a mente? Mandagli questo video."
+ }
+}

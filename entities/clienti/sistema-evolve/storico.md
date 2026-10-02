@@ -7,10 +7,14 @@ tags:
   - sistema-evolve
 status: attivo
 created: 2026-09-01
-updated: 2026-09-24
+updated: 2026-10-02
 ---
 
 # Storico — Sistema Evolve
+
+### 2026-10-02 — Visto Vincenzo, da rivedere
+Emanuele riferisce di essersi già visto con Vincenzo Campanino. **Non è bastato**: restano da chiarire il compenso,
+col rimborso spese del 19/09, e da programmare tutto il lavoro di ottobre. Serve un secondo incontro.
 
 ### 2026-09-23 — La campagna interna contro Poletti, dopo tre settimane
 Granola ne ha dato solo il riassunto: [[sources/call/2026-09-23-sistema-evolve|call del 23/09]]. Il confronto

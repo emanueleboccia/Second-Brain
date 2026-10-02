@@ -2,6 +2,29 @@
 
 Aperto il 13/07/2026.
 
+## 02/10/2026 — I due cartelli cashless di Zucche, a 16×22 da stampare su A4
+
+Emanuele ha girato i due cartelli che girano nel parco, fatti altrove: il regolamento della tessera cashless, con
+quattro punti, e quello di **Slesh** con il QR per scaricare l'app. Li ha chiesti rifatti «con lo stile di Zucche in
+Masseria», prima a 18×24 e poi, lo stesso giorno, **a 16×22 cm, stampati su A4**. Stanno sull'SSD in `3-in-produzione/cartelli-cashless/`, coi sorgenti e i
+quattro PDF.
+
+- **Lo stile è quello del calendario di Zucche**: fondo acquerello, logo grande in alto, palette di
+  `03 Brand kit/08 Zucche in masseria` (marrone #654C1E, arancio #C46310), titolo in HeroLight con *cashless* in
+  Niconne, schede crema coi numeri in tondi arancio. I due cartelli hanno lo stesso titolo, «Questo evento è
+  cashless», perché stanno uno accanto all'altro.
+- **Il formato si risolve con due PDF per cartello**: quello a 16×22 pulito, per una tipografia, e quello **A4 da
+  rifilare**, col foglio 16×22 al centro, 3 mm di fondo oltre il taglio e i segni agli angoli. Si stampa al 100%,
+  non «adatta alla pagina», e si taglia lungo i segni.
+- **Il QR è rifatto da capo**, vettoriale: porta a `https://sle.sh/app`, lo stesso indirizzo letto dal QR originale,
+  e l'ho verificato leggendolo dal PDF finito. Nel primo giro le righe del QR, disegnate una per una, mostravano
+  fessure bianche nel PDF: ora si sovrappongono di poco.
+- **I testi sono quelli dei cartelli originali**, con quattro ritocchi miei: «card» diventa «tessera» come nel
+  regolamento, il prezzo si scrive «80,00 €», i badge degli store sono in italiano, e sparisce la riga «in merito al
+  metodo di pagamento cashless», che ripeteva il titolo. Il wordmark di Slesh è ritagliato dal loro PDF e messo in
+  avorio dentro la pillola.
+- I sorgenti stanno in `sorgente/`, e `node stampa.js` rifà i quattro PDF e controlla le righe corte.
+
 ## 02/10/2026 — La lista WhatsApp delle maestre dal telefono di Da Mamma Rosaria
 
 Emanuele ha girato la rubrica del telefono di Da Mamma Rosaria: le maestre e le scuole stanno fra i clienti, salvate

@@ -195,7 +195,16 @@ alla voce — è misurato in [[sources/riferimenti/reel-synsation-good-ux|il ree
   Le regole: **due scale che si alternano nella griglia**, la scura del fondale firma e la chiara del sito, fondo
   crema e testo nero, dove **la passata si ribalta**, segno nero e parola crema; **le immagini sono illustrazioni
   fatte di pezzi d'interfaccia e diagrammi** — schede, finestre, liste, linee del tempo — **mai icone a linea**,
-  che ha trovato «proprio brutte»; la chiusura è sempre la stessa slide. Gli esempi sono in `code/caroselli/`.
+  che ha trovato «proprio brutte»; la chiusura ha sempre la stessa forma ma **una frase sua per ogni carosello**: la riga
+  della bio, «Il lavoro che ti pesa non si organizza. Si toglie.», non si ripete su tutti, detto da Emanuele il
+  02/10/2026, e resta al caso da cui è nata, il Girarrosto. **Il carosello scorre come un nastro**, chiesto lo
+  stesso giorno: ogni taglio fra due slide ha un disegno a cavallo, che si vede intero solo scorrendo. **E il
+  contenuto riempie la slide**, ben spaziato e ben posizionato: niente mezze pagine vuote sotto un titolo, detto da
+  Emanuele la sera stessa sulle copertine, con **lo stesso spazio sopra e sotto**. Sulle slide **c'è solo il
+  contenuto**: niente righe dei dati in alto («Cosa penso · 01», la serie, il tema) e niente firma in fondo. Lo
+  script segnala le fasce vuote e i margini che non tornano. **Nei titoli niente punto finale**: il punto resta
+  solo nei testi che descrivono, come «Mi racconti la tua attività e cosa ti pesa.»; punti interrogativi e virgole
+  restano. Detto da Emanuele lo stesso giorno. Gli esempi sono in `code/caroselli/`.
   Mancano ancora il post singolo, le copertine dei reel e le storie.
 - **La struttura dei formati video**, che arriverà da un brain dump dedicato ai contenuti.
 - **I file dei caratteri.** Archivo e JetBrains Mono non sono installati sul Mac e non stanno in

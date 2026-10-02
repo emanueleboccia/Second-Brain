@@ -29,3 +29,7 @@ cache/
 public/pb-tenuta/
 public/pb-dmr/
 public/pb-masseria/
+
+# Il prima del sito di L'Étoile, fotografato il 02/10/2026 per i reel futuri: non si può rifare quando il sito nuovo
+# è online, quindi va copiato anche sull'SSD in 04-PERSONAL-BRAND/1-girato/l-etoile/
+public/pb-etoile/

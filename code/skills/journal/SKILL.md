@@ -58,7 +58,7 @@ Tre comandi, tre momenti della giornata.
 | `workspace/journal/audio/` | gli mp3 del briefing, tenuti sette giorni |
 | `assets/` | la sigla, se un giorno c'è |
 
-TickTick, Notion e Trello si leggono **dai connettori attivi**, non da Composio: è la divisione scritta nel
+TickTick e Notion si leggono **dai connettori attivi**, non da Composio: è la divisione scritta nel
 `CLAUDE.md` di radice. Da Composio passano solo ElevenLabs, per la voce, e Granola, per le riunioni.
 
 **Il buongiorno e la chiusura hanno ciascuno il suo file dal 28/09/2026.** Ogni mattina si rileggevano
@@ -71,7 +71,7 @@ Emanuele. Per la fine giornata servono la data di oggi, le sessioni di oggi e il
 ### Comando 1 — «buongiorno»
 
 La procedura sta in [`buongiorno.md`](buongiorno.md), e al mattino si legge quella e basta. In tre giri
-di strumenti legge il diario, TickTick, Notion, Trello e il controllo dei siti, e ne fa un briefing solo,
+di strumenti legge il diario, TickTick, Notion e il controllo dei siti, e ne fa un briefing solo,
 in una schermata: prima scritto, poi a voce.
 
 ### Comando 2 — «chiudi sessione»

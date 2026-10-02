@@ -156,3 +156,52 @@ da 0,9 a 0,5. Tre cose dette a modo suo restano nei sottotitoli: «Al conto ci p
 suggerisce: nel sottotitolo c'è «Squilla», e va confermato riascoltando. La CTA è scritta sull'ultima inquadratura
 al posto della frase della bio, con la passata su «Mandagli questo video.». Per starci, lo spezzone del telefono è
 allungato fino a 5,3 secondi della clip. Sull'SSD: `reel-girarrosto-v5.mp4` con la phonk, e la versione senza musica.
+
+## 03/10/2026 · il copione della v6, da registrare
+
+Dopo [[projects/personal-brand/revisione-reel|la revisione dei reel]]: la v5 apriva con una presentazione, «Al girarrosto
+di Marco, gli ordini si prendevano così», e durava 38 secondi. Emanuele ha detto che la voce la rifà, e ha chiesto il
+copione nuovo. Il problema sta nella prima frase, e il reel sta in circa mezzo minuto. Le frasi restano semplici e di
+zona, come aveva chiesto il 30/09, e dicono solo quello che il [[docs/casi/girarrosto-liberti|caso]] permette: i
+centoventi ordini sono quelli delle sere piene.
+
+| # | frase | cosa si vede |
+|---|---|---|
+| 1 | Al girarrosto di Marco, nelle sere piene: centoventi ordini, tutti su un foglio. | il titolo grande «120 ordini / su un foglio» sul foglio vero |
+| 2 | Squilla il telefono: cognome, ordine, evidenziatore. | il telefono, poi il foglio disegnato a tutto schermo |
+| 3 | Giallo il fritto, arancione l'impanato, verde il tacchino. | i tre colori che si accendono sul foglio, in chiaro |
+| 4 | E i conti? Tutti a mente. | Marco al telefono, il contatore che sale a 120 |
+| 5 | Prima di costruire, li ho guardati lavorare. | l'arrivo in soggettiva, Marco al banco |
+| 6 | Poi gli ho fatto un'app uguale al foglio, solo più veloce. | la scheda dell'ordine, grande |
+| 7 | Scrivi l'ordine, e il conto lo fa lei. | il totale che esce da solo |
+| 8 | Un tocco, e sai quanti pezzi preparare. | l'iPad vero, poi i pezzi a tutto schermo |
+| 9 | Mo' Marco pensa ai polli. Ai conti ci pensa l'app. | Marco ai polli, la frase grande con la passata |
+| 10 | C'è un amico che fa ancora i conti a mente? Mandagli questo video. | la CTA, su due inquadrature |
+
+La 5 sostituisce «Io non sono partito dal computer: sono andato là e li ho guardati lavorare»: dice la stessa cosa in
+metà del tempo, ed è il «prima capisco» della sua frase. La 10 è la CTA che aveva scelto lui il 30/09.
+
+**03/10/2026 · la voce della v6 è registrata e montata.** Il file è `3-in-produzione/reel-girarrosto/nuova voce reel
+girarrosto.aifc`. Emanuele ha detto le frasi con parole sue, più lunghe del copione («Con il giallo segnava il fritto,
+con l'arancione l'impanato e con il verde il tacchino», «ci pensa l'applicazione»), e alcune più volte: vale l'ultima.
+Della prima frase, detta tre volte apposta, si prende la seconda, la più forte e la più vicina al copione. Dopo «Prima
+di costruire li ho guardati lavorare» ha aggiunto, di seguito, «Sono andato lì e ho visto tutto il loro processo».
+Montata con `scripts/pb-girarrosto6-voce.py`, che scrive anche i tempi del reel in `src/pb-girarrosto6/voce.json`:
+**39,9 secondi**, più lunga della v5 nonostante il copione più corto. Da sentire, in `reel-girarrosto/v6/` sull'SSD:
+la voce montata, la stessa senza «Sono andato lì…» (37 secondi) e le tre prese della prima frase in fila.
+
+**03/10/2026 · la v6 è montata.** La prima frase è la terza presa, «Da Marco al suo girarrosto…», scelta da Emanuele: «mi
+piace di più». La voce resta com'è, anche con «Sono andato lì e ho visto tutto il loro processo»: 42,5 secondi. Il
+reel segue lo stampo di [[projects/personal-brand/revisione-reel|la revisione]]: «120 ordini / su un foglio» grande dal
+primo fotogramma, tre riprese vere sotto, il foglio grande con una camera che stringe su ogni colore, la soggettiva
+dell'evidenziatore in mezzo, il contatore che sale a 120, l'arrivo, lo spiedo, le schede dell'app grandi, l'iPad vero
+e i pezzi, Marco ai polli, «Ai conti / ci pensa l'app» grande, e la CTA su due inquadrature. Quattro spezzoni nuovi dal
+girato: i due evidenziatori in mano (3907 a 66 e a 77 secondi) e Marco allo spiedo da lontano e da vicino (3966 a 36 e a
+54). Gli effetti nuovi della libreria: Nextel sul telefono, Counter sul contatore, Success UI sul totale, Shine sui
+pezzi, Reverb Hit sulle frasi grandi, Cinematic Woosh in apertura.
+
+La prima prova aveva le illustrazioni nella scala chiara: Emanuele preferisce il fondale scuro del sito e dei caroselli,
+e una scala sola per reel, scelta sul lavoro. Rifatta scura, la prova chiara resta in `out/pb/` del progetto Remotion.
+Sull'SSD, in `reel-girarrosto/v6/`: `reel-girarrosto-v6.mp4` con la phonk bassa sotto, e la versione senza musica. Il
+codice è in `code/remotion-test/src/pb-girarrosto6/`, con `scripts/pb-girarrosto6-voce.py`, `-prepara.py` e `-suono.py`.
+

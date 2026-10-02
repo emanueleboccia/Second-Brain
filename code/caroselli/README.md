@@ -71,3 +71,58 @@ sito**, fondo crema e testo nero con la passata ribaltata, per alternare le due 
 
 Si lanciano da una cartella di lavoro fuori dal vault, con `node <percorso>/esempi-da-zero.mjs`: i PNG escono in
 `out/`. I caratteri li prendono da `code/remotion-test/public/pb-girarrosto/font/`, gli stessi del reel.
+
+## Le chiusure non si ripetono — 02/10/2026
+
+La slide di chiusura ha sempre la stessa forma, ma ogni carosello ha la sua frase: in `esempi-da-zero.mjs` la
+`chiusura` prende la frase come terzo argomento. Emanuele: la riga della bio scritta su ogni carosello è troppo,
+«crea altri slogan». Quelle di adesso: «Prima capisco cosa vendi. Poi lo costruisco.» su «Come lavoro», «Bello non
+basta. Deve dire cosa vendi.» sul sito bello, «Non ti serve il gestionale del secolo. Ti serve il tuo.» sullo
+strumento generico. La riga della bio resta sul Girarrosto. Lo stesso giorno in «Come lavoro» è entrato il passo 02,
+la Proposta, che mancava.
+
+## Il nastro: il disegno continua da una slide all'altra — 02/10/2026
+
+Chiesto da Emanuele: «fai in modo che il carosello abbia quell'effetto continuo tra una slide e l'altra», come i
+caroselli di Arounda dove un'immagine attraversa due slide. In `esempi-da-zero.mjs` ogni carosello è ora **un
+nastro**, una tela sola larga quanto tutte le slide, che si fotografa una volta intera (`nastro-<nome>.png`) e poi
+si taglia in pezzi da 1080. Le coordinate si scrivono nel nastro, con `X(slide, x)`.
+
+- **Ogni taglio ha qualcosa a cavallo**: le funzioni che escono dalla copertina, la finestra che fa tutto, il sito
+  bello, i fili che portano il secondo sito all'elenco, la linea dei passi, le schede del primo incontro e di quello
+  che resta intestato. Verso la chiusura arriva un filo tratteggiato che diventa la sua riga.
+- **Il fondale è uno solo**: un bagliore per slide, la griglia accesa solo lì, e il buio in alto, in basso e ai due
+  capi del nastro, mai sui tagli, che altrimenti si vedrebbero.
+
+Le slide nuove stanno sull'SSD nelle cartelle `carosello-*` di `04-PERSONAL-BRAND/3-in-produzione/`; quelle del
+29/09 in `v1-29-09/`. Il Girarrosto ha già la sua immagine larga sulla 3 e la 4, e non è stato rifatto.
+
+## Il contenuto riempie la slide — 02/10/2026, sera
+
+Sulle prime versioni a nastro Emanuele ha trovato le copertine mezze vuote: «devi fare sempre in modo che il contenuto
+riempia un po' tutta la slide e sia ben spaziato e ben posizionato». Da qui:
+
+- **lo script misura ogni slide** e avvisa quando fra il margine in alto e quello in basso c'è una fascia vuota più
+  alta di 200 punti. Un avviso è un buco da riempire, non da accettare;
+- **i titoli sono più grandi** e le illustrazioni scendono a riempire: la copertina di «Come lavoro» ha i capitoli in
+  grande e la riga della home sotto, quella del sito bello la lista di quello che il sito ha e di quello che gli manca;
+- **la chiusura sta al centro** fra la riga dei dati e la firma, e i fili ci arrivano sulla sua riga, misurata a
+  pagina composta: `disegnaFili` prende i bordi veri delle cose, anche quando sono ruotate o ingrandite.
+
+## Solo il contenuto, e lo stesso spazio sopra e sotto — 02/10/2026, notte
+
+Detto da Emanuele sulla versione piena: «lo spazio verticale deve essere pari, quello verso il basso e l'alto», e
+le scritte piccole in alto, «cosa penso 01» e la numerazione, vanno tolte, come la firma in fondo alla chiusura.
+Resta il contenuto del carosello. **La cornice descritta in «I pezzi» qui sopra non si usa più.**
+
+- **I margini si misurano**: `margini` dice per ogni slide quanto spazio c'è sopra e sotto il contenuto, e avvisa
+  quando differiscono di più di 40 punti o scendono sotto 90. Le slide di adesso stanno fra 117 e 180.
+- **La chiusura si centra da sola** fra il bordo in alto e quello in basso, con la frase a 112 punti, 104 quando
+  una riga è lunga come «Prima capisco».
+
+## Niente punto nei titoli — 02/10/2026, notte
+
+«Togli tutti questi punti alla fine delle frasi… nelle headline non ci sta per niente». Il punto resta solo nei testi
+che descrivono: i passi di «Come lavoro», la riga sotto la copertina, l'invito della chiusura. Vale anche per i titoli
+dentro i siti finti, gli adesivi e le voci degli elenchi.
+

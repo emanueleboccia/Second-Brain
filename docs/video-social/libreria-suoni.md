@@ -8,7 +8,7 @@ tags:
   - regola/gusto
 status: attivo
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-03
 related:
   - "[[docs/video-social/musica-e-sound-design]]"
   - "[[docs/video-social/b-roll-e-musica]]"
@@ -87,6 +87,73 @@ orecchie, l'audio l'ho estratto e misurato fotogramma per fotogramma, e l'ho con
 
 Gli ultimi cinque tipi e due glitch sono entrati lo stesso 30/09, quando Emanuele ha chiesto «anche altri effetti,
 quelli più famosi del momento».
+
+## Gli effetti presi dai TikTok — 03/10/2026
+
+Emanuele ha salvato da TikTok quattro video che fanno solo vetrina di effetti, senza voce: ogni effetto passa sotto
+una linea col suo nome scritto sopra. Presi uno per uno, **col nome che hanno nel video**, e messi **nelle cartelle per
+uso di questa libreria**, insieme agli altri: niente cartelle per creatore, detto da Emanuele lo stesso giorno. Sono in
+WAV a 44,1 kHz, come escono dal video. Le cartelle nuove sono tre: `contatore`, `caricamento` e `logo`. Dove due
+effetti avevano lo stesso nome, il nome dice la differenza: «Riser», «Riser lungo», «Riser corto». Il provino è
+`suoni/provino-effetti-nuovi.m4a`: tutti in fila, nell'ordine della tabella, con quasi un secondo di silenzio fra uno
+e l'altro, un minuto e ventisei.
+
+**Come sono stati tagliati.** Nessuno parlava, quindi non c'era niente da separare: gli effetti sono uno dopo l'altro,
+divisi da silenzi. I tagli stanno sui silenzi misurati ogni dieci millesimi, e dove due effetti erano attaccati, sul
+punto più basso fra i due, controllato contro il momento in cui la linea passa sotto il nome. Ogni file ha una
+sfumatura di quattro centesimi in fondo, per non fare il clic. Quattro finiscono ancora sul suono, perché nel video
+il successivo partiva subito: 8 Bit Talking, Data Loading, Scan e Riser.
+
+⚠️ **La licenza non si sa.** Sono i pacchetti che i creatori regalano a chi commenta, e da dove vengano non lo dicono.
+Per i reel del profilo vanno bene come gli audio di tendenza; per una sponsorizzata o il lavoro di un cliente si
+preferiscono quelli di Pixabay, che hanno la licenza scritta, e che si riconoscono perché hanno il nome del file
+come su Pixabay.
+
+⚠️ **Le descrizioni vengono dal nome e dalla forma misurata, non dall'ascolto.** Claude non sente: dove un suono non è
+quello che il nome promette, si corregge qui dopo il provino.
+
+| cartella | file | durata | forma | quando si usa |
+|---|---|---|---|---|
+| `tastiera` | Typing | 1,0 s | colpi fitti | una scritta che si compone, un ordine scritto |
+| `pop` | UI Animations | 1,8 s | colpi, il più forte a 1,2 | schede e finestre che entrano una dopo l'altra |
+| `riser` | Riser | 3,2 s | sale fino alla fine | la salita prima di un risultato o di un prima e dopo |
+| `click` | Finger Snap | 2,7 s | schiocco e coda lunga | lo stacco secco, il «fatto» |
+| `riser` | UI Riser | 2,2 s | attacco e poi cala | l'ingresso di una schermata, un passaggio digitale |
+| `whoosh` | Woosh | 1,3 s | colmo a metà | entrate, uscite, cambi di scena |
+| `boing` | 8 Bit Talking | 2,5 s | voce da videogioco | la battuta, quasi mai nel personal brand |
+| `scatto` | Old Flash | 1,1 s | scatto e scarica | una foto d'archivio, il «prima» |
+| `whoosh` | Cinematic Woosh | 2,5 s | colmo a 0,6, coda lunga | il cambio di scena grande, l'apertura |
+| `glitch` | Night Vision | 1,7 s | attacco e ronzio | uno schermo che si accende |
+| `notifica` | Nextel | 0,5 s | il bip dei vecchi telefoni | una chiamata, il telefono del banco |
+| `pop` | Digital Text | 0,6 s | colpo breve | un testo che compare a schermo |
+| `riser` | Riser lungo | 4,0 s | sale fino a metà e cala | l'attesa lunga prima di una rivelazione |
+| `contatore` | Counter | 1,0 s | scatti in fila | un numero che sale |
+| `rotella` | Bicycle Chain | 0,7 s | ticchettio | un meccanismo che gira, una rotella |
+| `scatto` | Camera Click | 0,8 s | scatto | una schermata presa, una foto |
+| `scintilla` | Shine | 0,8 s | brillio | il risultato che compare |
+| `whoosh` | Woosh corto | 0,9 s | colmo a 0,25 | i movimenti piccoli e veloci |
+| `click` | Switch | 0,9 s | clic forte | un interruttore, il prima che diventa dopo |
+| `zap` | Zap | 0,5 s | due colpi secchi | un passaggio digitale veloce |
+| `caricamento` | Data Loading | 1,5 s | ronzio continuo | un caricamento, i dati che arrivano |
+| `boom` | Reverb Hit | 1,5 s | colpo con l'eco | il titolo grande, la frase che pesa |
+| `glitch` | Glitch Transition | 1,8 s | disturbo | un passaggio digitale, un errore dello schermo |
+| `rotella` | Gears | 1,8 s | colpo meccanico | un sistema che parte |
+| `pop` | Open UI | 0,6 s | colpo breve | una finestra che si apre |
+| `giusto` | Success UI | 1,0 s | suono di conferma | fatto, salvato, consegnato |
+| `errore` | Negative Glitch 1, 2, 3 | 0,7-1,1 s | disturbo che scende | il modo sbagliato, la X del confronto |
+| `tastiera` | Macbook Keyboard | 3,2 s | tasti veri | lavoro al computer, il codice che si scrive |
+| `scintilla` | Glimmer | 1,1 s | brillio leggero | una cosa che si illumina, la parola sulla passata |
+| `swipe` | Scan | 1,9 s | passata lunga | una schermata che si scorre, un controllo |
+| `glitch` | Glitch | 1,5 s | disturbo che cresce | un passaggio digitale |
+| `giusto` | Approve | 1,6 s | colpo e conferma | la spunta, l'approvato |
+| `riser` | Riser corto | 1,2 s | salita corta | la salita breve prima di un taglio |
+| `cassa` | Coin Flip | 0,9 s | moneta | soldi, un prezzo: con misura |
+| `whoosh` | Mini Whoosh | 1,8 s | colmo a metà | i movimenti piccoli |
+| `logo` | Logo finale | 1,7 s | colpo e coda | il marchio o la firma in fondo: era lo stesso nei quattro video, se n'è tenuto uno |
+
+**Per il Girarrosto rifatto** vengono buoni: il Nextel sul telefono che squilla, Typing quando si scrive l'ordine,
+Counter sul contatore dei 120, Success UI sul totale che esce, Shine sul risultato, e il Cinematic Woosh
+sull'apertura.
 
 ## Le musiche
 

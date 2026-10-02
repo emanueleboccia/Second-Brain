@@ -96,10 +96,24 @@ Come entra il blog nel resto del sito sta in [[projects/personal-brand/sito|il s
 
 Il caso del Girarrosto, `il-foglio-degli-ordini.md`, resta in bozza come quarto, al 27 ottobre.
 
+✅ **Dal 03/10/2026 «Il foglio degli ordini» è programmato per giovedì 8 ottobre alle 8**, per tenere un articolo a
+settimana dopo che i tre sono usciti tutti entro il 2. Tolta la bozza, data spostata all'8, e «un girarrosto» nel primo
+paragrafo porta al caso del Girarrosto. Importato da Pagine → Dal progetto; Yoast verde, frase chiave «foglio degli
+ordini». ⚠️ Emanuele non l'ha ancora riletto: se cambia qualcosa, si corregge in WordPress prima dell'8.
+
 ✅ **I tre articoli sono online dal 30/09/2026**, tolti dalle bozze su richiesta di Emanuele: «il blog l'avevamo
 già fatto con 3 articoli, inseriscilo». Il menù, il piede e la mappa del sito hanno la voce Blog. **Le date sono
 1, 8 e 15 ottobre**, un giovedì a settimana dal giorno del lancio: il primo è uscito, il secondo e il terzo sono
 programmati in WordPress ed escono da soli, alle 8 del mattino.
+
+✅ **Dal 02/10/2026 sera sono online tutti e tre.** Emanuele li ha letti e ha detto «pubblicali ora, vanno bene»:
+il preventivo e l'AI escono il 2 ottobre, a un minuto l'uno dall'altro per tenere l'ordine. Nel progetto le loro date
+sono allineate. Lo stesso giorno, per Yoast, ogni articolo ha avuto un link interno senza cambiare parole: «Da Mamma
+Rosaria» al caso del sito, «una prima chiamata» alla Consulenza, «Il gestionale delle feste della Masseria» al suo caso.
+⚠️ **I link stanno solo in WordPress**, che per gli articoli è la fonte: i `.md` del progetto non li hanno.
+
+**La pagina del Blog ha in fondo «Di cosa scrivo»**, tre paragrafi aggiunti il 02/10/2026 per arrivare alle 300
+parole che Yoast chiede, e la frase in testa dice «In questo blog». Stanno in `strumenti/blog.mjs`.
 
 ⚠️ Nell'articolo sull'AI non si dice che gli articoli si scrivono con l'AI, e non si nomina nessuno
 strumento: la regola sua è che «non si deve capire». E dentro non c'è nessun numero che non abbia

@@ -7,10 +7,13 @@ tags:
   - patrimpresa
 status: in-lavorazione
 created: 2026-09-19
-updated: 2026-09-29
+updated: 2026-10-02
 ---
 
 # Storico — Patrimpresa
+
+### 2026-10-02 — Si aspetta lui
+Il preventivo è partito il 29/09. Emanuele decide di non sollecitare: **si aspetta che Antonio si faccia vivo**.
 
 ### 2026-09-29 — Il preventivo lo chiede lui
 Due giorni prima del richiamo, Antonio si fa vivo da solo e chiede un preventivo intestato all'associazione:

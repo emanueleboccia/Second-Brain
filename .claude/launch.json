@@ -121,6 +121,14 @@
         "/Users/emanueleboccia/Desktop/progetti/room84/sito"
       ],
       "port": 8085
+    },
+    {
+      "name": "etoile",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/emanueleboccia/Desktop/progetti/etoile/servi.mjs"
+      ],
+      "port": 8086
     }
   ]
 }

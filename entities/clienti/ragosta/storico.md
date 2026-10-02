@@ -247,3 +247,11 @@ Il PDF sta in `outputs/accordi/` accanto alla prima versione, che resta com'era.
 ha tutti e due, **nel portale di Gaetano c'è solo la v2**, e la checklist della trattativa è aggiornata coi
 fatti: accordo mandato, firma che non serve, acconto incassato, portale fatto, sopralluogo saltato.
 
+## 2026-10-02 — Il sollecito per le foto
+
+Otto giorni dopo il portale il modulo non è arrivato, ed Emanuele scrive a Gaetano su WhatsApp: come sta messo con le
+foto, e il sito in dieci giorni da quando le ha. Gli lascia anche la strada più corta, cioè le foto direttamente su
+WhatsApp, un messaggio per lavoro con due righe su cos'è e dove è stato fatto, più lo stile e i colori per il logo,
+anche solo con una foto del furgone o del biglietto da visita.
+In serata, Gaetano non ha ancora risposto.
+

@@ -8,6 +8,8 @@ import { ReelAmin } from "./amin/ReelAmin";
 import { DURATA_TOTALE as durataAmin } from "./amin/tempi";
 import { ReelGirarrosto } from "./pb-girarrosto/ReelGirarrosto";
 import { DURATA as durataGirarrosto } from "./pb-girarrosto/testo";
+import { ReelGirarrosto6 } from "./pb-girarrosto6/ReelGirarrosto6";
+import { DURATA as durataGirarrosto6 } from "./pb-girarrosto6/testo";
 import { ReelRoom84 } from "./pb-room84/ReelRoom84";
 import { MUTO as ROOM84_MUTO, VOCE as ROOM84_VOCE } from "./pb-room84/testo";
 import { DURATA3 as durataRoom84Semplice, DURATA_VOCE2, DURATA_VOCE3, ReelRoom84Semplice } from "./pb-room84/Semplice";
@@ -77,6 +79,14 @@ export const MyComposition = () => {
         id="PbGirarrosto"
         component={ReelGirarrosto}
         durationInFrames={durataGirarrosto}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbGirarrosto6"
+        component={ReelGirarrosto6}
+        durationInFrames={durataGirarrosto6}
         fps={30}
         width={1080}
         height={1920}
