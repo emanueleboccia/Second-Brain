@@ -1,0 +1,108 @@
+{
+ "bottoni": {
+  "coppia": {
+   "x": 38,
+   "y": 1226,
+   "w": 220,
+   "h": 40
+  },
+  "crocche": {
+   "x": 332,
+   "y": 4042,
+   "w": 40,
+   "h": 40
+  },
+  "coca": {
+   "x": 320,
+   "y": 4594,
+   "w": 34,
+   "h": 34
+  }
+ },
+ "categorie": {
+  "cat-special": 618,
+  "cat-girarrosto": 1638,
+  "cat-contorni": 3497,
+  "cat-bibite": 4417
+ },
+ "tabOrdina": {
+  "x": 290,
+  "y": 786,
+  "w": 95,
+  "h": 50
+ },
+ "menu-0": {
+  "alto": 5271
+ },
+ "scrollCoppia": 738,
+ "toast": {
+  "x": 95,
+  "y": 665,
+  "w": 201,
+  "h": 37
+ },
+ "barra": {
+  "x": 0,
+  "y": 0,
+  "w": 0,
+  "h": 0,
+  "vis": "none"
+ },
+ "menu-1": {
+  "alto": 5271
+ },
+ "scrollCrocche": 3614,
+ "menu-3": {
+  "alto": 5271
+ },
+ "scrollCoca": 4166,
+ "menu-4": {
+  "alto": 5271
+ },
+ "ordina": {
+  "nome": {
+   "x": 18,
+   "y": 737,
+   "w": 354,
+   "h": 52
+  },
+  "oggi": {
+   "x": 18,
+   "y": 827,
+   "w": 91,
+   "h": 43
+  },
+  "bottone": {
+   "x": 18,
+   "y": 986,
+   "w": 354,
+   "h": 139
+  },
+  "totale": {
+   "x": 277,
+   "y": 592,
+   "w": 77,
+   "h": 32
+  },
+  "scroll": 0,
+  "alto": 2044,
+  "scrollBottone": 398,
+  "bottoneDopo": {
+   "x": 18,
+   "y": 588,
+   "w": 354,
+   "h": 139
+  },
+  "nomeDopo": {
+   "x": 18,
+   "y": 339,
+   "w": 354,
+   "h": 52
+  }
+ },
+ "ordina-lunga": {
+  "alto": 2180
+ },
+ "messaggio": "Buonasera! Vorrei ordinare:\n\n• 1 × Menù Coppia\n• 2 × Crocchè\n• 1 × Coca-Cola 1,5 lt\n\nRitiro: oggi (sabato 3 ottobre)\nSede: Via Filippo Turati, 109 — Poggiomarino (NA)\nTotale indicativo: €21,00\n\nSono Giovanni.\n\nÈ possibile? Grazie!",
+ "numero": "393398126276"
+}

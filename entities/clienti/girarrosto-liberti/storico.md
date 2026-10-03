@@ -20,6 +20,36 @@ Chi è il cliente e cosa gli è stato costruito sta in
 l'esito, in [[docs/casi/girarrosto-liberti|ricettario]]. Qui c'è solo cosa è successo, dal più
 recente in cima.
 
+### 2026-10-03 — Il carrello del sito si riaccende, col ritiro solo in Via Turati
+Emanuele l'ha trovato acceso sul sito, mentre lo credeva tolto. **Era tolto solo a metà**: quando il menù è
+passato a leggere i prodotti da `dati/menu.json`, i «+» accanto ai prodotti non sono più stati messi, ma la
+scheda Ordina col carrello, il contatore e «Vai al carrello» sono rimasti. Si vedeva un carrello che non si
+poteva riempire. Deciso da Emanuele di riaccenderlo per tutti, con una regola: **gli ordini si prendono e si
+ritirano solo in Via Filippo Turati, 109**. Pubblicato col suo «sì» lo stesso giorno, in `httpdocs/index.php`:
+
+- il «+» su ogni prodotto del menù, liste delle bibite comprese, e «+ Aggiungi al carrello» sui menù speciali
+  al posto del link diretto a WhatsApp;
+- nella scheda Ordina niente più scelta del punto vendita: «Si ritira in» Via Filippo Turati, con gli orari.
+  Tolti l'avviso del lunedì di Via Scafati e il suo numero da «Oppure chiama»; in «Dove siamo» Via Scafati
+  resta come punto vendita, e il testo dice che gli ordini si ritirano in Via Turati;
+- il messaggio va al **339 812 6276**, l'unico WhatsApp del sito, con i prodotti, il giorno, la sede e il
+  totale indicativo. La conferma la dà Marco in chat, si paga al ritiro.
+
+Provato online da telefono e da computer: 36 «+» nel menù, il link di WhatsApp giusto, nessun errore.
+Lo stesso giorno, dopo averlo guardato, Emanuele ha chiesto dei ritocchi, pubblicati col suo «sì»:
+
+- **Ordina**: «Svuota il carrello» è un pulsante col cestino, e lo script ora risponde anche al clic
+  sull'icona; il testo «L'ordine è confermato quando ti rispondiamo in chat…» sta in un riquadro col
+  triangolo d'avviso; in «Oppure chiama» tornano tutte e due le sedi e la mail è tolta («non la farà
+  nessuno»); «+ da confermare» sotto il totale compare solo se c'è un prodotto senza prezzo. Prima
+  compariva sempre, perché lo stile della riga scavalcava l'attributo che la nasconde.
+- **Storia**: la copertina è la foto delle mani allo spiedo, `hero-rotisserie.jpg`, senza la scritta «Fuoco
+  vero»; tolte le quattro card dei numeri, e la pagina parte da «La ricetta che non si scrive».
+
+⚠️ **Due cose aperte.** La foto della copertina della Storia è la stessa della copertina del Menù. E le tre
+recensioni di «Dicono di noi» sono inventate: nel codice c'è scritto che sono esempi da sostituire con
+quelle vere di Google. Segnalate a Emanuele il 03/10/2026, non toccate.
+
 ### 2026-09-16 — Incontrato Girarrosto La Signora
 Il secondo referral di Marco è diventato una trattativa: primo incontro di persona e proposta a voce per un
 sistema come questo in ciascuno dei loro due locali. Tutto in

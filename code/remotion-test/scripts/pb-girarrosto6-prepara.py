@@ -47,6 +47,8 @@ SPEZZONI = [
     ("evid-giallo", "video-3907_singular_display.mov", 77.4, 80.8, 0.5, {"foglio": 0.42}),
     ("spiedo", "video-3966_singular_display.mov", 36.0, 40.0, 0.45, {}),
     ("spiedo-vicino", "video-3966_singular_display.mov", 54.4, 58.0, 0.4, {}),
+    # per la v7: Marco allo spiedo visto di lato, su «quanti pezzi preparare in giornata»
+    ("spiedo-lato", "video-3966_singular_display.mov", 12.0, 15.6, 0.55, {}),
 ]
 
 

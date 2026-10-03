@@ -2,6 +2,75 @@
 
 Aperto il 13/07/2026.
 
+## 03/10/2026 — Le copie di backup che il server dava a chiunque
+
+Controllate dopo la firma, chiesto da Emanuele. Su tutta `public_html` della Masseria (Hostinger) i file di backup
+scaricabili da fuori sono **ventitré**, tutti del 21–23/07, e rispondono tutti 200:
+
+- **Quattordici `.bak` nel tema** `masseria-mezzautunno`, non quindici: `footer`, `nav`, due di `front-page`, tre di
+  `page-borgo-infestato`, `page-chi-siamo`, due di `page-funny-farm`, due di `page-scuole`, due di
+  `page-zucche-in-masseria`. Escono come `application/octet-stream`, col PHP in chiaro.
+- **Due `style.css.bak` in `public_html/css/`**, del 22/07.
+- **Sette `.zip` in `wp-content/uploads/novamira-deploy/`**: i pacchetti dei deploy di luglio fatti con Novamira, con
+  dentro template PHP, CSS e immagini. La cartella non si elenca (403), ma chi conosce il nome li scarica.
+
+Accanto agli zip ci sono anche sette cartelle `stage-*`, gli stessi pacchetti scompattati: lì i PHP rispondono 403,
+perché Hostinger non serve PHP da `uploads`, e restano fuori solo CSS e immagini che il sito non usa più. Non sono fra
+i ventitré: si possono togliere con lo stesso giro, ma non è urgente.
+
+**Nessuno contiene credenziali**: niente password, chiavi, token, webhook né email. Ci sono il numero WhatsApp, che
+sta già sul sito, e una texture JPEG in base64 nel CSS. Il danno è solo che il codice dei template si legge da fuori.
+
+**Le copie stanno nel vault**, in `knowledge/sito/copie-server-2026-07.zip`: fuori da git, perché `.gitignore`
+esclude gli zip. Sul server non si possono spostare fuori da `public_html`, perché la cartella principale non accetta
+file (lo dice [[code/firma/README|la firma]]).
+
+**Tolte il 03/10/2026, nel pomeriggio**, alla terza sessione: le prime due erano state fermate dai permessi. Dal
+Gestore file sono andati nel cestino tutta `uploads/novamira-deploy/` (sette zip e sette cartelle `stage-*`), i
+quattordici `.bak` del tema e `css/style.css.bak-20260722-1925`. Il cestino del File Browser sta in `/.h5g/.trash`,
+fuori da `public_html`, e da lì non si scarica niente. L'altro, `css/style.css.bak-20260722-1453`, è stato cancellato
+del tutto: la sua copia nello zip del vault ha la stessa dimensione, 60.056 byte.
+
+Due trappole da ricordare:
+
+- ⚠️ **Nella finestra di cancellazione del File Browser, «Skip trash bin» è spuntato di serie**, e anche togliendo la
+  spunta la richiesta è partita con `skip_trash=true`. Per mandare un file nel cestino si chiama l'API dalla scheda
+  del File Browser: `DELETE /api/resources/<percorso>?skip_trash=false` col jwt, che risponde 204.
+- ⚠️ **«Svuota la cache» della dashboard non svuota la CDN.** Dopo, un edge di Francoforte serviva ancora tre zip da
+  un'ora prima (`x-hcdn-cache-status: HIT`). Serve anche il tasto «Svuota la cache» nella pagina **CDN** del sito.
+  Svuotate tutte e due, i ventitré indirizzi rispondono 404 su ogni edge.
+
+**Novamira non si usa più**: era il vecchio sistema dei deploy, lasciato il 26/08/2026, e Emanuele l'ha ribadito il
+03/10/2026. Qui il plugin non c'è, né in `plugins` né in `mu-plugins`, controllato da dentro il 03/10/2026. Ha
+lasciato però **due password applicative sull'utente `admin`**, «Novamira» e «Novamira: La Masseria di
+Mezz'autunno» (ultimo uso il 09/08). Danno accesso da amministratore all'API anche senza il plugin, e nessuna
+configurazione sul Mac le usa. Emanuele ha detto di revocarle il 03/10/2026, ma Chrome ha tolto a Claude il
+permesso sul sito prima che lo facesse, e se le abbia revocate lui a mano non è stato ricontrollato. Si guarda in
+Utenti → Profilo → Password applicative: ogni riga che comincia con «Novamira» si revoca.
+
+Gli altri siti, controllati lo stesso giorno:
+
+- **Tenuta Don Gaetano** (Hostinger, tutta `public_html`): nessuna copia. I soli `.sql` e `.dist` sono file dei
+  plugin LiteSpeed e Hostinger. **Il plugin Novamira c'era**, la versione 1.7.1, già disattivato: è stato eliminato
+  dalla pagina Plugin di WordPress il 03/10/2026, e la sua cartella vuota `wp-content/novamira-sandbox/` è andata nel
+  cestino del File Browser. Restano le sue **due password applicative sull'utente `admin`**, «Novamira: Tenuta Don
+  Gaetano» (ultimo uso il 09/08) e «Novamira: Claude VS Code» (12/07): da revocare come quelle della Masseria.
+- **Da Mamma Rosaria** (Ergonet): tre copie del tema escono col PHP in chiaro, più due `style.css.bak`. Il
+  03/10/2026 erano ancora sul server: il dettaglio sta nella sua memoria.
+- **Sistema Evolve** (Ergonet): nessuna copia, compresi il CRM e i plugin dei film. Su Ergonet non ho guardato dentro
+  `wp-admin`, `wp-includes` e i plugin di terzi.
+
+## 03/10/2026 — La firma di Emanuele nel footer
+
+Chiesta da Emanuele su tutti i suoi siti: «Costruito da» e la moneta EB, in fondo a destra sul computer e centrata
+sul telefono. Nel tema `masseria-mezzautunno` ci sono `firma.php` e un blocco in fondo a `footer__bottom`, **in due
+file**: `footer.php` e `front-page.php`, perché la home ha un footer suo e non chiama quello comune. Il resto sta in
+[[code/firma/README|la firma]].
+
+- ⚠️ **Nella cartella del tema ci sono quattordici copie `.bak` dei template di luglio**, e il server le dà a
+  chiunque come file da scaricare: il codice dei template è leggibile da fuori. Visto il 03/10/2026, non ancora
+  tolte: il controllo è nella voce qui sopra.
+
 ## 02/10/2026 — I due cartelli cashless di Zucche, a 16×22 da stampare su A4
 
 Emanuele ha girato i due cartelli che girano nel parco, fatti altrove: il regolamento della tessera cashless, con

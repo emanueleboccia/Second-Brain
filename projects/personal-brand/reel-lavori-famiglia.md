@@ -7,7 +7,7 @@ tags:
   - girato
 status: in-lavorazione
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-03
 related:
   - "[[projects/personal-brand/girato-girarrosto]]"
   - "[[projects/personal-brand/girato-room84]]"
@@ -224,3 +224,159 @@ Composizione `PbMasseria` in `code/remotion-test/src/pb-masseria/ReelMasseria.ts
 ⏸️ **30/09/2026, notte · il reel della Masseria resta in bozza.** Emanuele, visto il v1: «Questo non mi convince, mettilo
 in bozza». Non ha detto cosa non va, e non si rifà finché non lo riapre lui. I file stanno in
 `3-in-produzione/reel-masseria/`.
+
+## 03/10/2026 · il copione nuovo della Tenuta
+
+Quarta stesura del 03/10. Le prime tre non sono piaciute a Emanuele. Niente famiglia, niente «nemmeno un sito», niente
+drone, niente tempo di lavoro; più spazio alla Tenuta e al perché del sito di una pagina. E sull'ultima: «non mi piacciono
+ste frasi messe così, sono anche difficili da pronunciare e leggere… fai un discorso più unico e sensato, semplice».
+Quindi non più frasi spezzate a effetto, ma un discorso solo, che si dice come si parla. Il perché della pagina sola è
+suo, dall'[[projects/personal-brand/sito-intervista|intervista sui lavori]] del 29/09: a un'attività nuova non serve il
+sito istituzionale, serve far vedere il posto.
+
+> Questa è Tenuta Don Gaetano, una dimora del Settecento a Poggiomarino. È una location nuova per eventi: battesimi,
+> comunioni, lauree. Quando un posto è nuovo, la prima cosa che serve è farlo conoscere. Per questo le ho creato
+> un'identità, a partire dal logo, e poi un sito di una sola pagina. Una sola pagina, perché a un'attività appena nata
+> non serve un sito con tante sezioni: serve far vedere il posto. Chi lo apre scorre e trova tutto: la dimora, le sale,
+> gli eventi e le foto. E se gli piace, con un tocco chiede la data su WhatsApp. Se conosci qualcuno che sta aprendo
+> una location per eventi, mandagli questo video.
+
+**03/10/2026 · la quinta stesura, più semplice.** Chiesta da Emanuele sulla quarta: «creami un altro copione più
+semplice». Lo stesso discorso, più corto e con parole di tutti i giorni; il perché della pagina sola resta, in una frase.
+
+> Questa è Tenuta Don Gaetano, una dimora del Settecento a Poggiomarino. È una location nuova, per battesimi, comunioni
+> e lauree, e la prima cosa da fare era farla conoscere. Così le ho creato il logo e un sito di una pagina sola, perché a
+> un posto nuovo basta far vedere com'è. Lo apri, scorri, e vedi la dimora, le sale e gli eventi. Se ti piace, chiedi la
+> data su WhatsApp con un tocco. E se conosci qualcuno che sta aprendo una location, mandagli questo video.
+
+⚠️ **I copioni restano come si facevano prima**, a frasi numerate da registrare una alla volta: Emanuele, il 03/10/2026,
+«i copioni come li facevi prima andavano già bene, non cambiare nulla». Il discorso unico è stato una scelta per la Tenuta,
+non una regola nuova. La voce l'ha registrata sul discorso, detto a modo suo: è `3-in-produzione/reel-tenuta/voce reel
+tenuta dong.aifc`, del 03/10 alle 03:25.
+
+## 03/10/2026, notte · la v3 della Tenuta, montata
+
+Sulla voce `3-in-produzione/reel-tenuta/voce reel tenuta dong.aifc`, detta a modo suo e con «Semplice e funzionale» in
+più: 33 secondi. Nella scala scura, perché la Tenuta è nero e oro. Lo stampo è quello del Girarrosto v7 e di Room84 v5:
+in apertura «Una location nuova / da far conoscere» sul drone dall'alto e sulla facciata fra i pini; le foto delle sale
+che arrivano sulle parole; il Vesuvio su «farla conoscere»; il logo che si disegna e su «e un sito» vola nella testata
+del telefono; poi **la pagina sola spiegata**: il telefono col sito vivo accanto a un foglio con le sei sezioni una
+sotto l'altra, «1 pagina», e una cornice d'oro che dice dove si trova il telefono mentre salta sulla dimora, sulla
+galleria e sugli eventi; il bottone «Scrivici su WhatsApp» toccato e la chat col messaggio vero del sito; «Semplice / e
+funzionale» grande sul computer e sul telefono; la CTA sul drone finale.
+
+⚠️ Il telefono salta fra le sezioni e non scorre: così non passa mai sulla foto del bambino nelle feste né sui musicisti
+con gli invitati. Nella CTA c'è «sta prendendo una location», come lo sente whisper due volte: da far sentire a
+Emanuele. Codice in `code/remotion-test/src/pb-tenuta-3/`; schermate, voce e suono da `scripts/pb-tenuta3-cattura.cjs`,
+`pb-tenuta3-voce.py` e `pb-tenuta3-suono.py`. Sull'SSD in `reel-tenuta/v3/`.
+
+## 03/10/2026, notte · il copione della v4 della Tenuta
+
+Chiesto da Emanuele sulla v3: il sito non è «una pagina soltanto», è **un sito vetrina della struttura, un sito one
+page**, e va detto così; fuori anche «perché a un posto nuovo basta far vedere com'è», al suo posto altri dettagli. Torna
+la forma a frasi numerate, come prima. I dettagli vengono dal sito vivo, letto il 03/10: il menù che porta alle
+sezioni, la dimora, gli eventi, la galleria, il sito che si legge sul telefono e sul computer, e il messaggio WhatsApp
+già scritto per chiedere il sopralluogo. La 7 era «perché sceglierla: tutto incluso…»: «non ci azzecca», detto da
+Emanuele, e al suo posto c'è una cosa del sito che si fa vedere coi due mockup. Restano fuori la famiglia, il drone, i
+tempi di lavoro, il fermo, i matrimoni e che il sito venda.
+
+1. Questa è Tenuta Don Gaetano, una dimora del Settecento a Poggiomarino.
+2. Una location nuova, per battesimi, comunioni, lauree e i giorni più importanti.
+3. Per farla conoscere, prima le ho dato un'identità: il logo e lo stile, nero e oro.
+4. Poi il sito: un sito vetrina della struttura, un sito one page.
+5. Dal menù tocchi una voce e vai dritto alla sezione.
+6. La dimora, gli eventi, la galleria delle sale.
+7. E si vede bene ovunque: sul telefono come sul computer.
+8. Ti piace? Un tocco, e chiedi la data su WhatsApp.
+9. Col messaggio già scritto per chiedere il sopralluogo.
+10. Conosci qualcuno che sta aprendo una location per eventi? Mandagli questo video.
+
+
+## 03/10/2026 · la v4 della Tenuta, montata sulla voce sua
+
+Emanuele ha registrato la v4 «a modo mio»: `reel-tenuta/tenutavoceeeee.aifc` sull'SSD. Le parole sue che cambiano il
+copione: «e giorni più importanti», «come prima cosa le ho dato un'identità», «Poi il sito web, un sito vetrina della
+struttura, un sito one page», «le gallerie delle sale, ovvero la parte più importante», «E se ti piace, con un solo
+tocco si compila un messaggio automatico su WhatsApp dove chiedi disponibilità per un sopralluogo», «Semplice e
+funzionale», e la CTA «Conosci qualcuno che sta prendendo una location per gli eventi? Mandagli questo video». Il sito
+l'ha detto quattro volte: vale l'ultima presa. Il reel dura 40,5 secondi.
+
+- **La registrazione è sporca**, col fondo a −52 dB: lo script la pulisce all'ingresso (passa-alto e riduzione del
+  rumore) prima di livellarla.
+- **L'identità ha una scena sua**: il logo a linee d'oro si disegna su «un'identità», sale col nome su «il logo e lo
+  stile», e su «nero e oro» arrivano i due colori coi codici.
+- **Il sito e il menù sono un'inquadratura sola**: il logo vola nella testata del telefono, l'etichetta «vetrina», poi il
+  foglio «one page» con le sezioni e la cornice d'oro dove sta il telefono. Il menù si apre, si tocca «La Dimora», e il
+  telefono salta alla dimora, agli eventi e alla galleria, che sul foglio si accende d'oro su «la parte più
+  importante». Gli eventi partono da 1960 punti, prima della foto del bambino a 2836.
+- **Ovunque** sono il computer e il telefono a tutto quadro, che si accendono a turno su «sul telefono» e «come sul
+  computer».
+- **Il finale** è il drone 0014 da 29,15 secondi, sul Vesuvio e i campi: da 25,2 c'erano la strada, un'auto e i pali
+  della luce.
+
+Composizione `PbTenuta4` in `code/remotion-test/src/pb-tenuta-4/ReelTenuta4.tsx`; voce e suono da
+`scripts/pb-tenuta4-voce.py` e `pb-tenuta4-suono.py`. Sull'SSD in `reel-tenuta/v4/`, senza base e con la phonk.
+
+✅ **03/10/2026 · la v4 è definitiva**, dopo una correzione sola: la CTA scritta diceva «sta prendendo una location per
+gli eventi», come la sentiva whisper, ed Emanuele: «la frase finale c'è un errore, "conosci qualcuno che sta aprendo una
+location per eventi? mandagli questo video"». Sulla CTA vale quello che dice lui, non la trascrizione. Il file è
+`3-in-produzione/reel-tenuta/reel-tenuta-DEFINITIVO.mp4`, la v4 senza musica.
+
+## 03/10/2026 · le CTA che cambiano, e i copioni nuovi di Mamma Rosaria e della Masseria
+
+Chiesto da Emanuele dopo la Tenuta definitiva: «cambiamo anche un po' il tipo di CTA finale, non sempre mirata alla
+condivisione, ma nemmeno al commento». I tre reel definitivi chiudevano tutti con «Mandagli questo video», ed è il
+difetto 7 di [[projects/personal-brand/revisione-reel|la revisione]]. ✅ **Deciso lo stesso giorno: i reel già pronti
+non si toccano**, Girarrosto, Room84 e Tenuta escono con «Mandagli questo video». **Dai prossimi in poi la CTA si
+alterna**, e ognuna si lega a quello che il reel ha appena fatto vedere. I tipi, oltre al condividere: **seguire** (col
+prossimo reel annunciato, «martedì prossimo ti faccio vedere…»), **salvare** (quando il reel lascia qualcosa da
+rifare da sé, come le tre domande di Room84), **scrivere in privato con una parola** («scrivimi "feste"»), che è
+l'unica che apre una conversazione, il segnale di ottobre in
+[[outputs/piano-editoriale/2026-10-personal-brand|il piano]], e dice da dove arriva il contatto, e **il sito**, per i
+lavori che hanno una pagina lì. Il commento no, l'ha escluso lui.
+
+| Reel | Esce | Tipo | La frase |
+|---|---|---|---|
+| Mamma Rosaria | 20/10 | scrivere in privato | «Se anche da te le feste passano ancora da WhatsApp, scrivimi "feste" in privato: ti faccio vedere come funziona.» |
+| Masseria | 30/10 | il sito | «Com'era prima e cos'è cambiato, lo trovi sul mio sito: il link è in bio.» |
+
+**Mamma Rosaria, il copione nuovo.** Stampo del Girarrosto v7: il prima al passato, il dopo al presente, e le frasi
+del dopo rispondono a quelle del prima. I fatti vengono da [[projects/personal-brand/sito-intervista|l'intervista]].
+Si dice «chi gestisce», mai il ruolo in famiglia; fuori Lovable, il menù col QR, da quando è in uso, e i numeri dei
+passaggi, che lui ha detto di aver inventato.
+
+1. Da Mamma Rosaria, per ogni festa, c'era un messaggio WhatsApp scritto a mano.
+2. Menù, servizi, acconto e saldo: tutto lì dentro.
+3. Il cliente cambiava una cosa? Copia, incolla, e riscrivi tutto da capo.
+4. I turni stavano in documenti sparsi su Drive.
+5. «Sabato chi lavora?» E giù ad aprire file su file.
+6. Il resto, a mente. E nessuno sapeva niente in tempo reale.
+7. Allora ho fatto un gestionale per gli eventi.
+8. Crei la festa una volta sola: menù, servizi, chi ci lavora.
+9. E partono tre link, sincronizzati.
+10. Al cliente la sua conferma, a chi lavora le sue date, alla cucina il suo menù.
+11. Cambia qualcosa? Lo cambi una volta, e lo vedono tutti.
+12. Acconti e saldi stanno lì, cliente per cliente. Altro che scorrere le chat.
+13. E lo usi dal computer, o dall'app sul telefono.
+14. Adesso sta tutto in un posto solo. E a mente non si tiene più niente.
+15. Se anche da te le feste passano ancora da WhatsApp, scrivimi «feste» in privato: ti faccio vedere come funziona.
+
+La 11 risponde alla 3, la 10 alla 4 e alla 5, la 12 alla 2.
+
+**Masseria, il copione nuovo.** Comincia dal problema, non dalla Masseria: la v1 ci arrivava a 19 secondi. Il sold out
+resta fuori, perché è un successo della Masseria e non del gestionale. I fatti vengono dall'intervista e dal copione del
+30/09.
+
+1. Alla Masseria le gite delle scuole stavano su un Excel.
+2. Le feste nel parco su Google Docs. Il resto su WhatsApp.
+3. E le stesse cose le dovevano sapere in tanti.
+4. «Domani quanti bambini vengono?» Dipende da quale file apri.
+5. Un centro di controllo non c'era: era tutto un po' a caso.
+6. Allora ho fatto un calendario solo.
+7. Le date le inserisce un responsabile, uno solo.
+8. Ogni cosa ha il suo colore: verde le gite, arancio le feste, marrone le serate.
+9. Apri il giorno, e sai quanti bambini mangiano.
+10. E chi ha un'allergia, prima che arrivi il pullman.
+11. Chi deve saperlo apre il calendario e lo vede, pure dal telefono.
+12. «Domani quanti bambini vengono?» Adesso la risposta è una sola.
+13. Com'era prima e cos'è cambiato, lo trovi sul mio sito: il link è in bio.

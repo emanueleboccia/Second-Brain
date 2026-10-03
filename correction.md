@@ -1127,3 +1127,13 @@ trattano prezzi e tempi, e la richiesta non parlava né di prezzo né di propost
 iscritto. Se il cliente è famiglia, o la richiesta è «un PDF per spiegare», prima si chiede se è una vendita o un
 caso studio. Nel dubbio si fa il documento semplice, in `outputs/report/`, senza numero.
 
+
+## 03/10/2026 — La CTA della Tenuta scritta come la sentiva whisper
+
+Nella v4 del reel della Tenuta la frase finale è uscita «Conosci qualcuno che sta prendendo una location per gli
+eventi?», perché whisper la trascriveva così tre volte su tre. Emanuele aveva detto «sta aprendo una location per
+eventi», come nel copione, e il sottotitolo sbagliato l'ha visto lui sul video.
+
+**La prossima volta:** quando la trascrizione si allontana dal copione su una parola che cambia il senso, vale il
+copione, e la differenza si chiede a Emanuele prima di montare, non si segnala a montaggio finito. Le parole che lui
+cambia apposta si riconoscono perché cambiano il giro della frase, non una parola sola che suona simile.

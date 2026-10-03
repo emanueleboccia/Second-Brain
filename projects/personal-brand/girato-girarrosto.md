@@ -7,7 +7,7 @@ tags:
   - girato
 status: in-lavorazione
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-03
 related:
   - "[[docs/casi/girarrosto-liberti]]"
   - "[[outputs/piano-editoriale/2026-10-personal-brand]]"
@@ -205,3 +205,91 @@ e una scala sola per reel, scelta sul lavoro. Rifatta scura, la prova chiara res
 Sull'SSD, in `reel-girarrosto/v6/`: `reel-girarrosto-v6.mp4` con la phonk bassa sotto, e la versione senza musica. Il
 codice è in `code/remotion-test/src/pb-girarrosto6/`, con `scripts/pb-girarrosto6-voce.py`, `-prepara.py` e `-suono.py`.
 
+## 03/10/2026 · il copione della v7, da registrare
+
+Chiesto da Emanuele dopo la v6: tenere le sue parole dell'ultima registrazione, dare più valore all'app facendo capire
+cosa fa davvero e quali problemi toglie oltre ai conti a mente, e un tono pratico, un po' divertente, a volte ironico,
+«non devo essere un perfetto a parlare». Corregge due cose della v6: il «foglio unico», che non torna col caso, dove si
+rileggevano «i fogli»; e i tempi, tutto il prima al passato e il dopo al presente. Ogni fatto viene dal
+[[docs/casi/girarrosto-liberti|caso]]: la fila di venti persone, i fogli da rileggere, l'ordine che cambiava e si
+riscriveva, i pezzi della giornata tenuti a mente, la ricerca, il conto che si fa da solo, i pezzi con un tocco, i prezzi
+che Marco cambia da solo e che cambiano anche sul menù del sito. Niente numeri di risultato, che il caso non ha.
+
+1. Da Marco al suo girarrosto, nelle sere più piene, c'erano centoventi ordini. Tutti scritti a mano.
+2. Squillava il telefono: cognome, ordine ed evidenziatore.
+3. Giallo il fritto, arancione l'impanato, verde il tacchino.
+4. Funzionava, eh. Finché non c'erano venti persone in fila.
+5. Centoventi conti, tutti a mente.
+6. «Il mio è pronto?» E giù a rileggere tutti i fogli.
+7. Uno cambia idea? Cancella e riscrivi da capo.
+8. E quanti pezzi preparare in giornata? Pure quello a mente.
+9. Io non gli ho portato il gestionale del secolo.
+10. Prima di costruire, sono andato lì e li ho guardati lavorare.
+11. Poi gli ho fatto un'app uguale al loro foglio, solo più veloce.
+12. Il conto? Lo fa lei.
+13. «Il mio è pronto?» Lo cerchi e lo trovi subito.
+14. Cambia idea? Tocchi «modifica», e basta.
+15. Quanti pezzi preparare? Un tocco, e te lo dice lei.
+16. E se Marco cambia un prezzo, cambia pure sul menù del sito.
+17. Mo' Marco pensa ai polli. Ai conti ci pensa l'app.
+18. Hai un amico che fa ancora i conti a mente? Mandagli questo video.
+
+Le frasi dalla 12 alla 15 rispondono una per una ai problemi dalla 5 alla 8, nello stesso ordine: è lo specchio fra il
+prima e il dopo. Sui 50 secondi; senza la 9 e la 16 scende verso i 44.
+
+**03/10/2026, notte · la v7 è montata** sulla voce `nuovavoceeegirarrostooooversionenuova.aifc`: 58 secondi. Delle frasi dette
+due volte, la 14 e la 16, vale l'ultima; prima della CTA ci sono due partenze lasciate a metà, fuori. I sottotitoli
+seguono le sue parole: «Cambi idea», «te lo dice l'app», «Poi ho fatto un'app». Il titolo d'apertura è «120 ordini /
+scritti a mano». Sette illustrazioni nuove, in `code/remotion-test/src/pb-girarrosto7/Illustrazioni.tsx`: i venti
+biglietti della fila, la domanda «Il mio è pronto?» coi fogli che volano via, la riga cancellata e riscritta, il
+gestionale del secolo che si riempie di funzioni e se ne va, la ricerca per cognome, il tasto modifica col totale che si
+rifà, e il prezzo che dal pannello di Marco arriva al menù del sito. Il resto riusa la v6: foglio, contatore, schede,
+pezzi, riprese. ⚠️ Il cognome della ricerca, Esposito, è inventato, e il prezzo del pollo che passa da 10 a 11 euro è un
+esempio: è da far vedere a Emanuele. Sull'SSD in `reel-girarrosto/v7/`, con la phonk e senza musica; script
+`pb-girarrosto7-voce.py` e `pb-girarrosto7-suono.py`.
+
+✅ **03/10/2026 · la v7 senza musica è la definitiva.** Emanuele: «è perfetto il video. usa quello senza musica come
+definitivo», la musica la mette lui dal social, una di tendenza. Sull'SSD è `reel-girarrosto/reel-girarrosto-DEFINITIVO.mp4`.
+Esempio e cognome inventato (il pollo da 10 a 11 euro, Esposito) sono rimasti com'erano.
+
+
+## 03/10/2026 · lo spunto del secondo reel: il sito menù col carrello
+
+Proposto da Emanuele: oltre all'app degli ordini, **il sito menù ha un carrello**. Il cliente mette i prodotti
+nell'ordine, tocca «Ordina su WhatsApp», e WhatsApp si apre col messaggio già scritto; il girarrosto conferma o fa
+cambiare l'ordine da lì. Letto dal codice di `libertigirarrosto.it` lo stesso giorno: il messaggio saluta con
+«Buongiorno» o «Buonasera» secondo l'ora, mette le righe con le quantità, il giorno del ritiro (oggi, domani o un'altra
+data), la sede fra via Turati e via Scafati, il totale indicativo e il nome, e chiude con «È possibile? Grazie!». Avvisa
+anche se si sceglie Scafati di lunedì.
+
+✅ **Il carrello è acceso dal pomeriggio del 03/10/2026**: Emanuele l'ha riattivato e l'ha spiegato così. Il Girarrosto
+fa solo il ritiro, e la consegna solo coi delivery; c'è chi vuole ordinare senza telefonare, e allora dal sito riempie
+il carrello, mette il nome, sceglie quando passa e tocca «Ordina»: si apre WhatsApp con l'ordine scritto, e il locale
+risponde «Ok, ordine accettato, l'aspettiamo per il ritiro». Letto dal sito subito dopo: un «+» accanto a ognuno dei
+36 prodotti, «A nome di (facoltativo)», «Quando passi a ritirare» con oggi, domani o un'altra data, il ritiro solo in
+via Filippo Turati, il bottone «Ordina ora», e sotto «L'ordine è confermato quando ti rispondiamo in chat» e «Nessun
+pagamento online: si paga al ritiro».
+
+Il copione, rifatto due volte lo stesso giorno. Il primo stava nello stampo della v7, col prima e il dopo, ed
+Emanuele: «deve essere diverso il contenuto rispetto al video dell'app [...] è un plus, non è un problema risolto».
+Il secondo faceva scegliere la sede, che dal sito non si sceglie più. Questo segue la sua spiegazione:
+
+1. Il sito del Girarrosto ha il suo menù. E adesso prende pure gli ordini.
+2. Al Girarrosto si ordina e si passa a ritirare.
+3. E se vuoi ordinare, ma di telefonare non ne hai voglia?
+4. Apri il sito, sfogli il menù, e tocchi «più» su quello che ti va.
+5. Un Menù Coppia, due crocchè, una Coca: tutto nel carrello, col totale che si fa da solo.
+6. Metti il tuo nome, e scegli quando passi: oggi, domani o un altro giorno.
+7. Poi tocchi «Ordina ora».
+8. E si apre WhatsApp, col messaggio già scritto.
+9. C'è tutto: cosa vuoi, quando passi, il totale e il tuo nome.
+10. Ti saluta pure giusto: buongiorno o buonasera, in base all'ora.
+11. Premi invio, e dal Girarrosto ti rispondono: «Ok, ordine accettato, ti aspettiamo per il ritiro.»
+12. Paghi quando passi. Niente app da scaricare, niente account.
+13. E i prezzi sono sempre quelli giusti: li cambia Marco dall'app, e cambiano pure qui.
+14. Il menù prima si guardava. Mo' si ordina pure.
+15. Hai un locale con un menù che si guarda e basta? Scrivimi «menù» in privato.
+
+La CTA è quella in privato con la parola: viene dopo la Masseria, che chiude col sito, e la stessa non esce due volte di
+fila ([[docs/procedure/reel-personal-brand|la procedura dei reel]]). Le schermate si catturano dal sito, come per la
+Tenuta.

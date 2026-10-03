@@ -1,6 +1,6 @@
 # Firma — il credito nei footer dei siti e dei sistemi
 
-La firma da mettere in fondo ai siti e ai gestionali fatti da Emanuele, costruita il 29/09/2026: una
+La firma da mettere in fondo ai siti pubblici fatti da Emanuele, costruita il 29/09/2026: una
 frase breve, «Costruito da», e accanto il monogramma EB nel cerchio, che gira su se stesso come una
 moneta. Tutto insieme è un link a [emanueleboccia.it](https://emanueleboccia.it/). È un blocco solo
 da incollare, HTML e CSS, senza JavaScript e senza niente da caricare.
@@ -23,8 +23,47 @@ risposta è sì, con tre cose da sapere.
   si mostra dove va e com'è, e si aspetta l'ok, un sito alla volta. Per il Girarrosto lo decide
   Emanuele, e a Marco non si chiede niente.
 
-Dove andrebbe, per tipo: nei siti in WordPress con `firma.php` nel tema, nei gestionali in Laravel
-col parziale e la variante sola in fondo alla barra laterale.
+**Online dal 03/10/2026 sui cinque siti di Emanuele**, chiesto da lui: «procedi a mettere la mia firma
+su tutti i siti web miei». Verificata sui siti veri, cache svuotate: sul computer tocca il bordo destro
+della riga in fondo, sul telefono è centrata al pixel ed è l'ultima cosa del footer, una sola per
+pagina, senza errori di PHP né di JavaScript. **Safari e iPhone non sono ancora stati guardati**: sul
+Mac non c'è Xcode, quindi niente simulatore.
+
+| Sito | Dove sta | Cosa è cambiato |
+|---|---|---|
+| Tenuta Don Gaetano | Hostinger, tema `tenuta-don-gaetano` | `firma.php`, e il blocco in fondo a `footer__bottom` di `footer.php` |
+| Masseria di Mezz'autunno | Hostinger, tema `masseria-mezzautunno` | `firma.php`, e il blocco in `footer.php` **e in `front-page.php`**, che ha un footer suo |
+| Da Mamma Rosaria | Ergonet, tema `damammarosaria` | `firma.php`, e il blocco in fondo a `fondo__note` di `footer.php` |
+| Sistema Evolve | Ergonet, tema `sistema-evolve` | `firma.php`, e il blocco in fondo a `.legale` di **sedici pagine**: ogni `page-*.php` e `front-page.php` ha il suo footer, identico agli altri |
+| Girarrosto Liberti | Ergonet, `httpdocs/index.php` | non è WordPress: il blocco di `firma.html` sotto la riga della P.IVA, in un `.firma-eb-posto` con lo stile scritto nella riga, centrato e col grigio della P.IVA |
+
+⚠️ **Se la firma cambia, va ricaricata in tutti questi posti**: `firma.php` nei quattro temi, il
+blocco nell'`index.php` del Girarrosto. Nel tema della Tenuta il codice non coincide più col repository
+`sito-web-tenutadongaetano`, che secondo la nota di luglio era la fonte di verità del tema.
+
+Come ci si arriva, senza password scritte da Claude:
+
+- **Hostinger**: dal pannello del sito, «Gestore file» apre il File Browser in un'altra scheda, con un
+  indirizzo che cambia ogni volta. Dentro, `/api/resources/<percorso>` col jwt del browser legge (GET),
+  crea (POST) e salva (PUT) i file. La cartella principale non accetta file: le copie dei file
+  originali non si possono parcheggiare sul server fuori da `public_html`. La cache si svuota col tasto
+  «Svuota la cache» nella dashboard del sito, e quella della CDN a parte, dalla pagina **CDN** del sito: il
+  03/10/2026 la prima da sola ha lasciato un edge a servire file già cancellati.
+- **Cancellare su Hostinger**: la finestra del File Browser ha «Skip trash bin» spuntato di serie, e anche
+  togliendo la spunta parte `skip_trash=true`. Per mandare un file nel cestino, `/.h5g/.trash`, si chiama
+  `DELETE /api/resources/<percorso>?skip_trash=false` col jwt dalla scheda del File Browser: risponde 204.
+- **Ergonet**: il WebPanel vuole l'accesso di Emanuele. Il file manager parla con
+  `api.ergonet.it/api/v1/filemanager/<id>/` (`list`, `download/file/content` e
+  `upload/file/content` col contenuto in base64, `create/file`). La cache si svuota da Impostazioni
+  server → Cache → «Cancella cache».
+- **Il FireShield di Ergonet** risponde a curl con una pagina di verifica di 700 byte dopo qualche
+  richiesta di fila, su contatti più spesso: sembra una pagina senza firma, ma è il filtro anti-bot.
+  Si ricontrolla con un browser vero.
+
+**Nei gestionali non va**, deciso da Emanuele il 03/10/2026: «sui gestionali non serve la firma perché
+sono privati dell'azienda, non pubblici». La firma è un canale per farsi trovare, e lì dentro la vedono
+solo il titolare e chi ci lavora. Il parziale per Laravel e la variante sola restano nella cartella per
+un sistema che un giorno fosse aperto al pubblico.
 
 ## L'idea
 
@@ -102,15 +141,34 @@ un'altra frase lo stampa `python3 code/firma/componi.py --frase "Sito di"`.
 
 ## Le regole d'uso
 
-- **Dove.** Nell'ultima riga del footer, dopo le note legali del cliente. Una per pagina. Nei
-  gestionali, in fondo alla barra laterale con la variante sola. Mai nella testata e mai accanto al
-  logo del cliente.
+- **Dove.** Nell'ultima riga del footer, dopo le note legali del cliente. Una per pagina. Solo sulle
+  pagine pubbliche: nei gestionali no. Mai nella testata e mai accanto al logo del cliente.
 - **Colore.** Quello del testo del footer, che la firma prende da sé. Non si forza un colore e non si
   portano i colori del personal brand nel sito di un altro.
 - **Misura.** La moneta fra 20 e 24 px, la scritta fra 12 e 13. Le lettere sono alte un quarto della
   moneta: sotto i 20 px non si leggono più. Sopra i 24 smette di essere una firma.
 - **Contrasto.** A riposo è al 70%. Se il testo del footer è già tenue, `--firma-opacita` si alza
   fino a 1.
+- **Il posto, deciso da Emanuele il 03/10/2026.** Sul computer in fondo a destra, su tutti i siti; sul
+  telefono centrata, come ultima cosa del footer. Lo fa `.firma-eb-posto`, che sta nello stile della
+  firma: è il contenitore da mettere in fondo alla riga più bassa del footer, e sotto i 768 px prende
+  una riga sua e si centra. Nei WordPress il footer lo chiama così, e se `firma.php` manca il sito non
+  si rompe:
+
+  ```php
+  <?php
+  $eb_firma = get_theme_file_path( 'firma.php' );
+  if ( is_readable( $eb_firma ) ) {
+    require_once $eb_firma;
+    echo '<span class="firma-eb-posto">';
+    eb_firma();
+    echo '</span>';
+  }
+  ?>
+  ```
+
+  L'eccezione è il Girarrosto: sul computer il sito si vede dentro un telefono disegnato, e la firma
+  resta centrata anche lì.
 - **Posizione.** Con la firma a destra va la normale. Al centro va la stretta, perché nella normale
   la cella tiene il posto al nome e a riposo la frase sembra spostata di una quindicina di pixel. La
   stretta vuole del vuoto prima della frase: allineata a sinistra, il nome uscirebbe dal margine.

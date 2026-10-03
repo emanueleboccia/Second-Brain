@@ -46,7 +46,7 @@ const corsivo = (larghezza: number, seme: number) => {
 };
 
 // `ora`: il frame da usare al posto di quello della sequenza, quando l'illustrazione riprende da metà (FoglioCamera)
-const Tratto: React.FC<{ x: number; y: number; larghezza: number; seme: number; da: number; durata: number; ora?: number }> = ({ x, y, larghezza, seme, da, durata, ora }) => {
+export const Tratto: React.FC<{ x: number; y: number; larghezza: number; seme: number; da: number; durata: number; ora?: number }> = ({ x, y, larghezza, seme, da, durata, ora }) => {
   const qui = useCurrentFrame();
   const frame = ora ?? qui;
   const { d, lung } = corsivo(larghezza, seme);
@@ -63,7 +63,7 @@ const Tratto: React.FC<{ x: number; y: number; larghezza: number; seme: number; 
 // I cognomi restano scarabocchi, come su un foglio vero visto da lontano; gli ordini si leggono,
 // scritti a mano, e l'evidenziatore passa sotto quelli col colore giusto: giallo il fritto,
 // arancione l'impanato, verde il tacchino, come l'hanno spiegato i ragazzi del Girarrosto.
-const Ordine: React.FC<{ testo: string; x: number; y: number; da: number; durata: number; colore?: string; passa?: number; ora?: number }> = ({ testo, x, y, da, durata, colore, passa, ora }) => {
+export const Ordine: React.FC<{ testo: string; x: number; y: number; da: number; durata: number; colore?: string; passa?: number; ora?: number }> = ({ testo, x, y, da, durata, colore, passa, ora }) => {
   const qui = useCurrentFrame();
   const frame = ora ?? qui;
   const k = interpolate(frame, [da, da + durata], [0, 1], clamp);
@@ -81,22 +81,22 @@ const Ordine: React.FC<{ testo: string; x: number; y: number; da: number; durata
 };
 
 // ---------- 2 · le schede dell'app ----------
-type Scheda = { n: string; ora: string; voci: [string, string][]; totale: string };
-const SCHEDE: Scheda[] = [
+export type Scheda = { n: string; ora: string; voci: [string, string][]; totale: string };
+export const SCHEDE: Scheda[] = [
   { n: "#12", ora: "18:35", voci: [["2 × Pollo", "€20,00"], ["1 × Patatine grande", "€6,00"], ["1 × Coca-Cola 1,5 lt", "€3,00"]], totale: "€29,00" },
   { n: "#11", ora: "18:31", voci: [["1 × Metà pollo", "€5,00"]], totale: "€5,00" },
   { n: "#10", ora: "18:30", voci: [["1 × Pollo", "€10,00"], ["4 × Würstel", "€4,00"], ["3 × Salsiccia", "€3,75"]], totale: "€19,75" },
   { n: "#9", ora: "18:25", voci: [["1 × Pollo", "€10,00"]], totale: "€10,00" },
 ];
 
-const Pillola: React.FC<{ numero: string; testo: string }> = ({ numero, testo }) => (
+export const Pillola: React.FC<{ numero: string; testo: string }> = ({ numero, testo }) => (
   <div style={{ flex: 1, background: "#111", borderRadius: 14, padding: "14px 18px", display: "flex", flexDirection: "column", gap: 2 }}>
     <span style={{ fontFamily: MONO, fontWeight: 700, fontSize: 34, color: APP_VERDE }}>{numero}</span>
     <span style={{ fontFamily: ARCHIVO, fontWeight: 700, fontSize: 15, letterSpacing: ".14em", color: "#CFCFCF" }}>{testo}</span>
   </div>
 );
 
-const SchedaApp: React.FC<{ s: Scheda; voci: number; totale: number; conta?: number; bottone?: number }> = ({ s, voci, totale, conta, bottone = 1 }) => (
+export const SchedaApp: React.FC<{ s: Scheda; voci: number; totale: number; conta?: number; bottone?: number }> = ({ s, voci, totale, conta, bottone = 1 }) => (
   <div style={{ background: "#fff", border: "3px solid #1A1A1A", borderRadius: 20, padding: "18px 20px", display: "flex", flexDirection: "column", gap: 10, height: "100%" }}>
     <div style={{ display: "flex", justifyContent: "space-between", fontFamily: MONO, fontWeight: 700, fontSize: 17, color: "#8A8A8A" }}>
       <span>{s.n}</span><span>{s.ora}</span>

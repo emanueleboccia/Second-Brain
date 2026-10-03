@@ -1,0 +1,397 @@
+{
+ "durata": 57.87,
+ "scene": [
+  {
+   "id": "apertura",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Room84, a Poggiomarino:",
+     "da": 0.0,
+     "sentito": "Room 84, appoggio marino,",
+     "a": 2.28
+    },
+    {
+     "testo": "due suite per coppie,",
+     "da": 2.28,
+     "sentito": "due suite per coppie,",
+     "a": 3.44
+    },
+    {
+     "testo": "una con la sauna",
+     "chiave": "sauna",
+     "da": 3.44,
+     "sentito": "una con la sauna",
+     "a": 4.29
+    },
+    {
+     "testo": "e una con l'idromassaggio",
+     "chiave": "idromassaggio",
+     "da": 4.29,
+     "sentito": "e una con l'idromassaggio",
+     "a": 5.61
+    }
+   ],
+   "fine": 5.61,
+   "fineVoce": 5.61
+  },
+  {
+   "id": "prima",
+   "inizio": 5.61,
+   "blocchi": [
+    {
+     "testo": "Sul sito, in alto,",
+     "da": 5.61,
+     "sentito": "Sul sito in alto c'è",
+     "a": 6.78
+    },
+    {
+     "testo": "c'era scritto:",
+     "da": 6.78,
+     "sentito": "scritto",
+     "a": 7.47
+    },
+    {
+     "testo": "«Il tuo rifugio di relax e piacere»",
+     "da": 7.47,
+     "sentito": "il tuo rifugio di relax e piacere.",
+     "a": 9.69
+    }
+   ],
+   "fine": 9.69,
+   "fineVoce": 9.69
+  },
+  {
+   "id": "domande",
+   "inizio": 9.69,
+   "blocchi": [
+    {
+     "testo": "Bello, eh?",
+     "da": 9.69,
+     "sentito": "Bello, eh?",
+     "a": 10.81
+    },
+    {
+     "testo": "Ma chi arriva sul sito",
+     "da": 10.81,
+     "sentito": "Ma chi arriva sul sito",
+     "a": 11.82
+    },
+    {
+     "testo": "vuole sapere tre cose",
+     "chiave": "tre cose",
+     "da": 11.82,
+     "sentito": "vuole sapere tre cose:",
+     "a": 13.08
+    },
+    {
+     "testo": "Com'è la camera,",
+     "da": 13.08,
+     "sentito": "Come ha la camera,",
+     "a": 13.84
+    },
+    {
+     "testo": "se è libera quella notte",
+     "da": 13.84,
+     "sentito": "se è libera quella notte",
+     "a": 15.04
+    },
+    {
+     "testo": "e quanto costa",
+     "da": 15.04,
+     "sentito": "e quanto costa.",
+     "a": 16.24
+    }
+   ],
+   "fine": 16.24,
+   "fineVoce": 16.24
+  },
+  {
+   "id": "carta",
+   "inizio": 16.24,
+   "blocchi": [
+    {
+     "testo": "Prima di toccare il computer,",
+     "da": 16.24,
+     "sentito": "Prima di doccare il compiuter,",
+     "a": 17.61
+    },
+    {
+     "testo": "carta e penna",
+     "chiave": "carta e penna",
+     "da": 17.61,
+     "sentito": "carta è piena.",
+     "a": 18.64
+    }
+   ],
+   "fine": 18.64,
+   "fineVoce": 18.58
+  },
+  {
+   "id": "foglio",
+   "inizio": 18.64,
+   "blocchi": [
+    {
+     "testo": "In alto la spa in camera,",
+     "chiave": "spa in camera",
+     "da": 18.64,
+     "sentito": "In alto la spine camera",
+     "a": 20.44
+    },
+    {
+     "testo": "che è la cosa più importante",
+     "da": 20.44,
+     "sentito": "che è la cosa più importante",
+     "a": 21.69
+    },
+    {
+     "testo": "Poi le date libere,",
+     "da": 21.69,
+     "sentito": "Poi le date libere,",
+     "a": 22.76
+    },
+    {
+     "testo": "le due camere",
+     "da": 22.76,
+     "sentito": "le due camere",
+     "a": 23.6
+    },
+    {
+     "testo": "e le recensioni",
+     "da": 23.6,
+     "sentito": "e le recensioni.",
+     "a": 24.85
+    }
+   ],
+   "fine": 24.85,
+   "fineVoce": 24.85
+  },
+  {
+   "id": "risultato",
+   "inizio": 24.85,
+   "blocchi": [
+    {
+     "testo": "Ecco il risultato",
+     "chiave": "il risultato",
+     "da": 24.85,
+     "sentito": "Ecco il risultato.",
+     "a": 25.95
+    },
+    {
+     "testo": "In alto adesso c'è:",
+     "da": 25.95,
+     "sentito": "In alto adesso c'è",
+     "a": 26.66
+    },
+    {
+     "testo": "«Una notte con la spa in camera»",
+     "da": 26.66,
+     "sentito": "una notte con la spa in camera.",
+     "a": 28.69
+    }
+   ],
+   "fine": 28.69,
+   "fineVoce": 28.67
+  },
+  {
+   "id": "chiavi",
+   "inizio": 28.69,
+   "blocchi": [
+    {
+     "testo": "Le camere sono due chiavi,",
+     "da": 28.69,
+     "sentito": "Le camere sono due chiavi,",
+     "a": 30.56
+    },
+    {
+     "testo": "la 8 e la 4,",
+     "chiave": "la 8 e la 4",
+     "da": 30.56,
+     "sentito": "la 8 e la 4,",
+     "a": 31.07
+    },
+    {
+     "testo": "ognuna con il suo video",
+     "da": 31.07,
+     "sentito": "ognuna con il suo video.",
+     "a": 32.48
+    }
+   ],
+   "fine": 32.48,
+   "fineVoce": 32.45
+  },
+  {
+   "id": "date",
+   "inizio": 32.48,
+   "blocchi": [
+    {
+     "testo": "Scegli le date",
+     "da": 32.48,
+     "sentito": "Scegli le date",
+     "a": 32.95
+    },
+    {
+     "testo": "e vedi subito",
+     "da": 32.95,
+     "sentito": "e vedi subito",
+     "a": 33.56
+    },
+    {
+     "testo": "quali notti sono libere",
+     "chiave": "libere",
+     "da": 33.56,
+     "sentito": "quali notti sono libere.",
+     "a": 35.3
+    }
+   ],
+   "fine": 35.3,
+   "fineVoce": 35.28
+  },
+  {
+   "id": "booking",
+   "inizio": 35.3,
+   "blocchi": [
+    {
+     "testo": "Il calendario lo prende da Booking,",
+     "da": 35.3,
+     "sentito": "Il calendario lo prendete al booking,",
+     "a": 36.96
+    },
+    {
+     "testo": "da solo:",
+     "chiave": "da solo",
+     "da": 36.96,
+     "sentito": "da solo,",
+     "a": 37.51
+    },
+    {
+     "testo": "nessuno lo aggiorna a mano",
+     "da": 37.51,
+     "sentito": "nessuno lo aggiorna a mano.",
+     "a": 38.87
+    }
+   ],
+   "fine": 38.87,
+   "fineVoce": 38.87
+  },
+  {
+   "id": "whatsapp",
+   "inizio": 38.87,
+   "blocchi": [
+    {
+     "testo": "Camera libera?",
+     "da": 38.87,
+     "sentito": "Camera libera,",
+     "a": 39.77
+    },
+    {
+     "testo": "Un tocco",
+     "chiave": "Un tocco",
+     "da": 39.77,
+     "sentito": "un tocco",
+     "a": 40.29
+    },
+    {
+     "testo": "e la chiedi su WhatsApp",
+     "da": 40.29,
+     "sentito": "e laghi su Whatsapp",
+     "a": 41.46
+    },
+    {
+     "testo": "con il messaggio già scritto",
+     "da": 41.46,
+     "sentito": "con il messaggio già scritto.",
+     "a": 42.69
+    }
+   ],
+   "fine": 42.69,
+   "fineVoce": 42.67
+  },
+  {
+   "id": "prezzo",
+   "inizio": 42.69,
+   "blocchi": [
+    {
+     "testo": "Oppure vedi il prezzo",
+     "da": 42.69,
+     "sentito": "Oppure vedete il prezzo",
+     "a": 43.79
+    },
+    {
+     "testo": "su Booking",
+     "da": 43.79,
+     "sentito": "su Booking",
+     "a": 44.37
+    },
+    {
+     "testo": "con date già inserite",
+     "chiave": "già inserite",
+     "da": 44.37,
+     "sentito": "con date già inserite.",
+     "a": 46.14
+    }
+   ],
+   "fine": 46.14,
+   "fineVoce": 46.13
+  },
+  {
+   "id": "recensioni",
+   "inizio": 46.14,
+   "blocchi": [
+    {
+     "testo": "Sotto invece ci sono",
+     "da": 46.14,
+     "sentito": "Sotto invece ci sono",
+     "a": 47.05
+    },
+    {
+     "testo": "le recensioni vere:",
+     "da": 47.05,
+     "sentito": "le recensioni vere,",
+     "a": 48.29
+    },
+    {
+     "testo": "9,8 su 40",
+     "chiave": "9,8 su 40",
+     "da": 48.29,
+     "sentito": "9,8 su 40.",
+     "a": 50.22
+    }
+   ],
+   "fine": 50.22,
+   "fineVoce": 50.12
+  },
+  {
+   "id": "finale",
+   "inizio": 50.22,
+   "blocchi": [
+    {
+     "testo": "Insomma, il posto",
+     "da": 50.22,
+     "sentito": "Insomma, il posto",
+     "a": 50.99
+    },
+    {
+     "testo": "era già bellissimo",
+     "da": 50.99,
+     "sentito": "era già bellissimo,",
+     "a": 52.25
+    },
+    {
+     "testo": "Mo' pure il sito",
+     "chiave": "pure il sito",
+     "da": 52.25,
+     "sentito": "mo' pure il sito.",
+     "a": 53.39
+    }
+   ],
+   "fine": 57.87,
+   "fineVoce": 53.39
+  }
+ ],
+ "cta": {
+  "da": 53.39,
+  "chiave": 54.75,
+  "sentito": "Conosci qualcuno con un BNB? Mandagli questo video e aiutalo."
+ }
+}

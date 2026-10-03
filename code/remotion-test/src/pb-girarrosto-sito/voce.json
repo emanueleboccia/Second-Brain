@@ -1,0 +1,423 @@
+{
+ "durata": 57.45,
+ "scene": [
+  {
+   "id": "apertura",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Il sito del Girarrosto Liberti",
+     "da": 0.0,
+     "sentito": "Il sito del girarrosto Liberti",
+     "a": 2.69
+    },
+    {
+     "testo": "ha il suo menù",
+     "da": 2.69,
+     "sentito": "ha il suo menù",
+     "a": 3.53
+    },
+    {
+     "testo": "e adesso prende pure gli ordini",
+     "chiave": "gli ordini",
+     "da": 3.53,
+     "sentito": "e adesso prende pure gli ordini.",
+     "a": 5.44
+    }
+   ],
+   "fine": 5.44,
+   "fineVoce": 5.44
+  },
+  {
+   "id": "ritiro",
+   "inizio": 5.44,
+   "blocchi": [
+    {
+     "testo": "Al Girarrosto si ordina",
+     "da": 5.44,
+     "sentito": "Al giro rosso si ordina",
+     "a": 6.38
+    },
+    {
+     "testo": "e si passa a ritirare",
+     "chiave": "ritirare",
+     "da": 6.38,
+     "sentito": "e si passa a ritirare.",
+     "a": 7.92
+    }
+   ],
+   "fine": 7.92,
+   "fineVoce": 7.92
+  },
+  {
+   "id": "telefono",
+   "inizio": 7.92,
+   "blocchi": [
+    {
+     "testo": "E se vuoi ordinare,",
+     "da": 7.92,
+     "sentito": "e se vuoi ordinare",
+     "a": 8.88
+    },
+    {
+     "testo": "ma di telefonare",
+     "chiave": "telefonare",
+     "da": 8.88,
+     "sentito": "ma di telefonare",
+     "a": 9.66
+    },
+    {
+     "testo": "non ne hai voglia?",
+     "da": 9.66,
+     "sentito": "non ne voglia",
+     "a": 10.68
+    }
+   ],
+   "fine": 10.68,
+   "fineVoce": 10.68
+  },
+  {
+   "id": "menu",
+   "inizio": 10.68,
+   "blocchi": [
+    {
+     "testo": "Basta che apri il sito,",
+     "da": 10.68,
+     "sentito": "Basta chiapri il sito,",
+     "a": 11.51
+    },
+    {
+     "testo": "sfogli il menù",
+     "da": 11.51,
+     "sentito": "sfogli il menu",
+     "a": 12.22
+    },
+    {
+     "testo": "e tocchi «più»",
+     "chiave": "più",
+     "da": 12.22,
+     "sentito": "e tocchi più",
+     "a": 12.84
+    },
+    {
+     "testo": "su quello che ti va",
+     "da": 12.84,
+     "sentito": "su quello che ti va.",
+     "a": 14.0
+    }
+   ],
+   "fine": 14.0,
+   "fineVoce": 14.0
+  },
+  {
+   "id": "carrello",
+   "inizio": 14.0,
+   "blocchi": [
+    {
+     "testo": "Un menù per due,",
+     "da": 14.0,
+     "sentito": "Un menù per due,",
+     "a": 14.86
+    },
+    {
+     "testo": "due crocchè,",
+     "da": 14.86,
+     "sentito": "due croquet,",
+     "a": 15.77
+    },
+    {
+     "testo": "una Coca-Cola:",
+     "da": 15.77,
+     "sentito": "una coca cola,",
+     "a": 16.75
+    },
+    {
+     "testo": "tutto nel carrello,",
+     "chiave": "carrello",
+     "da": 16.75,
+     "sentito": "tutto nel carrello",
+     "a": 17.68
+    },
+    {
+     "testo": "col totale che si fa da solo",
+     "da": 17.68,
+     "sentito": "col totale che si fa da solo.",
+     "a": 19.31
+    }
+   ],
+   "fine": 19.31,
+   "fineVoce": 19.31
+  },
+  {
+   "id": "nome",
+   "inizio": 19.31,
+   "blocchi": [
+    {
+     "testo": "Metti il tuo nome,",
+     "chiave": "nome",
+     "da": 19.31,
+     "sentito": "Metti il tuo nome,",
+     "a": 20.09
+    },
+    {
+     "testo": "scegli quando passi:",
+     "da": 20.09,
+     "sentito": "scegli quando passi,",
+     "a": 21.16
+    },
+    {
+     "testo": "oggi,",
+     "da": 21.16,
+     "sentito": "oggi,",
+     "a": 21.34
+    },
+    {
+     "testo": "domani,",
+     "da": 21.34,
+     "sentito": "domani,",
+     "a": 21.71
+    },
+    {
+     "testo": "un altro giorno",
+     "da": 21.71,
+     "sentito": "un altro giorno.",
+     "a": 22.75
+    }
+   ],
+   "fine": 22.75,
+   "fineVoce": 22.71
+  },
+  {
+   "id": "ordina",
+   "inizio": 22.75,
+   "blocchi": [
+    {
+     "testo": "Poi tocchi «Ordina ora»",
+     "chiave": "Ordina ora",
+     "da": 22.75,
+     "sentito": "Poi tocchi ordine a ora.",
+     "a": 24.29
+    }
+   ],
+   "fine": 24.29,
+   "fineVoce": 24.29
+  },
+  {
+   "id": "whatsapp",
+   "inizio": 24.29,
+   "blocchi": [
+    {
+     "testo": "e in automatico si apre WhatsApp",
+     "chiave": "WhatsApp",
+     "da": 24.29,
+     "sentito": "E in automatico si apre Whatsapp",
+     "a": 25.47
+    },
+    {
+     "testo": "con un messaggio già precompilato",
+     "chiave": "già precompilato",
+     "da": 25.47,
+     "sentito": "con un messaggio già precompilato.",
+     "a": 27.47
+    }
+   ],
+   "fine": 27.47,
+   "fineVoce": 27.47
+  },
+  {
+   "id": "tutto",
+   "inizio": 27.47,
+   "blocchi": [
+    {
+     "testo": "C'è tutto:",
+     "da": 27.47,
+     "sentito": "C'è tutto,",
+     "a": 27.82
+    },
+    {
+     "testo": "cosa vuoi,",
+     "da": 27.82,
+     "sentito": "cosa vuoi",
+     "a": 28.27
+    },
+    {
+     "testo": "quando passi,",
+     "da": 28.27,
+     "sentito": "quando passi,",
+     "a": 29.07
+    },
+    {
+     "testo": "il totale,",
+     "da": 29.07,
+     "sentito": "il totale,",
+     "a": 29.53
+    },
+    {
+     "testo": "il tuo nome,",
+     "da": 29.53,
+     "sentito": "il tuo nome,",
+     "a": 30.04
+    },
+    {
+     "testo": "tutto quanto",
+     "da": 30.04,
+     "sentito": "tutto quanto.",
+     "a": 30.93
+    }
+   ],
+   "fine": 30.93,
+   "fineVoce": 30.93
+  },
+  {
+   "id": "saluto",
+   "inizio": 30.93,
+   "blocchi": [
+    {
+     "testo": "Ti saluta pure giusto:",
+     "da": 30.93,
+     "sentito": "Ti saluta pure giusto.",
+     "a": 32.03
+    },
+    {
+     "testo": "buongiorno,",
+     "da": 32.03,
+     "sentito": "Buongiorno,",
+     "a": 32.43
+    },
+    {
+     "testo": "buonasera,",
+     "da": 32.43,
+     "sentito": "buonasera e",
+     "a": 32.78
+    },
+    {
+     "testo": "in base all'ora",
+     "da": 32.78,
+     "sentito": "in base all'ora.",
+     "a": 33.77
+    }
+   ],
+   "fine": 33.77,
+   "fineVoce": 33.71
+  },
+  {
+   "id": "invio",
+   "inizio": 33.77,
+   "blocchi": [
+    {
+     "testo": "Poi premi invio,",
+     "chiave": "invio",
+     "da": 33.77,
+     "sentito": "Poi premi invio",
+     "a": 34.43
+    },
+    {
+     "testo": "e dal Girarrosto risponderanno:",
+     "da": 34.43,
+     "sentito": "e dal giro rosso risponderanno",
+     "a": 36.25
+    },
+    {
+     "testo": "«Ok, ordine accettato,",
+     "da": 36.25,
+     "sentito": "Ok, ordine accettato,",
+     "a": 37.43
+    },
+    {
+     "testo": "ti aspettiamo per il ritiro»",
+     "da": 37.43,
+     "sentito": "ti aspettiamo per il ritiro.",
+     "a": 39.12
+    }
+   ],
+   "fine": 39.12,
+   "fineVoce": 39.12
+  },
+  {
+   "id": "pagamento",
+   "inizio": 39.12,
+   "blocchi": [
+    {
+     "testo": "Paghi quando passi,",
+     "chiave": "quando passi",
+     "da": 39.12,
+     "sentito": "Paghi quando passi,",
+     "a": 40.27
+    },
+    {
+     "testo": "niente app da scaricare,",
+     "da": 40.27,
+     "sentito": "niente app da scaricare,",
+     "a": 41.25
+    },
+    {
+     "testo": "niente account",
+     "da": 41.25,
+     "sentito": "niente account.",
+     "a": 42.43
+    }
+   ],
+   "fine": 42.43,
+   "fineVoce": 42.42
+  },
+  {
+   "id": "prezzo",
+   "inizio": 42.43,
+   "blocchi": [
+    {
+     "testo": "E i prezzi sono sempre",
+     "da": 42.43,
+     "sentito": "E i prezzi sono sempre",
+     "a": 43.32
+    },
+    {
+     "testo": "quelli aggiornati:",
+     "chiave": "aggiornati",
+     "da": 43.32,
+     "sentito": "quelli aggiornati,",
+     "a": 44.55
+    },
+    {
+     "testo": "li cambia Marco dall'app,",
+     "da": 44.55,
+     "sentito": "li cambia Marco dall'app",
+     "a": 45.58
+    },
+    {
+     "testo": "e cambiano pure sul sito",
+     "da": 45.58,
+     "sentito": "e cambiano pure sul sito.",
+     "a": 46.97
+    }
+   ],
+   "fine": 46.97,
+   "fineVoce": 46.97
+  },
+  {
+   "id": "chiusa",
+   "inizio": 46.97,
+   "blocchi": [
+    {
+     "testo": "Il menù prima si guardava,",
+     "da": 46.97,
+     "sentito": "Il menu prima si guardava,",
+     "a": 48.65
+    },
+    {
+     "testo": "adesso si ordina anche",
+     "da": 48.65,
+     "sentito": "adesso si ordina anche.",
+     "a": 50.27
+    }
+   ],
+   "fine": 57.45,
+   "fineVoce": 50.27
+  }
+ ],
+ "cta": {
+  "da": 50.27,
+  "chiave": 52.19,
+  "dopo": 54.33,
+  "sentito": "Hai un locale con un menu che si guarda e basta? Scrivimi la parola menu in privato e ti faccio vedere altre funzionalità."
+ }
+}

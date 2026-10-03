@@ -18,7 +18,7 @@ in `entities/clienti/l-etoile/`, il lavoro in `sito.md`, il prima fotografato pe
 - **I pubblici sono cinque**, li ha elencati lui: chi fa un regalo, l'uomo che si dedica qualcosa, la donna che
   cerca la sua borsa, i profumi, chi viaggia. Voyage l'hanno già voluto separato loro, aprendo il negozio.
 - **Il prima è fotografato**, chiesto da Emanuele per i reel futuri: sta in `code/remotion-test/public/pb-etoile/`
-  e va copiato sull'SSD, che quel giorno non era collegato.
+  ed è copiato sull'SSD dal 03/10/2026, in `04-PERSONAL-BRAND/1-girato/l-etoile/`: ventun file, identici.
 - Al cliente non è stato ancora mostrato niente.
 
 ## 02/10/2026, sera — Il primo prototipo

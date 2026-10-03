@@ -1,0 +1,276 @@
+{
+ "durata": 40.45,
+ "scene": [
+  {
+   "id": "apertura",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Questa è la Tenuta Don Gaetano,",
+     "da": 0.0,
+     "sentito": "Questa è la tenuta Don Gaetano,",
+     "a": 1.92
+    },
+    {
+     "testo": "una dimora del Settecento",
+     "chiave": "Settecento",
+     "da": 1.92,
+     "sentito": "una dimora del Settecento",
+     "a": 3.24
+    },
+    {
+     "testo": "a Poggiomarino",
+     "da": 3.24,
+     "sentito": "a Poggio Marino.",
+     "a": 4.25
+    }
+   ],
+   "fine": 4.25,
+   "fineVoce": 4.25
+  },
+  {
+   "id": "location",
+   "inizio": 4.25,
+   "blocchi": [
+    {
+     "testo": "Una location nuova",
+     "chiave": "nuova",
+     "da": 4.25,
+     "sentito": "Una location nuova,",
+     "a": 5.33
+    },
+    {
+     "testo": "per battesimi, comunioni,",
+     "da": 5.33,
+     "sentito": "per battesimi, comunioni,",
+     "a": 6.57
+    },
+    {
+     "testo": "lauree",
+     "da": 6.57,
+     "sentito": "lauree",
+     "a": 6.93
+    },
+    {
+     "testo": "e giorni più importanti",
+     "da": 6.93,
+     "sentito": "e giorni più importanti.",
+     "a": 8.42
+    }
+   ],
+   "fine": 8.42,
+   "fineVoce": 8.42
+  },
+  {
+   "id": "identita",
+   "inizio": 8.42,
+   "blocchi": [
+    {
+     "testo": "Per farla conoscere,",
+     "da": 8.42,
+     "sentito": "Per farla conoscere",
+     "a": 9.29
+    },
+    {
+     "testo": "come prima cosa",
+     "da": 9.29,
+     "sentito": "come prima cosa",
+     "a": 10.14
+    },
+    {
+     "testo": "le ho dato un'identità:",
+     "chiave": "identità",
+     "da": 10.14,
+     "sentito": "le ho dato un'identità,",
+     "a": 11.37
+    },
+    {
+     "testo": "il logo e lo stile,",
+     "da": 11.37,
+     "sentito": "il luogo è lo stile,",
+     "a": 12.42
+    },
+    {
+     "testo": "nero e oro",
+     "chiave": "nero e oro",
+     "da": 12.42,
+     "sentito": "nero e oro.",
+     "a": 13.5
+    }
+   ],
+   "fine": 13.5,
+   "fineVoce": 13.44
+  },
+  {
+   "id": "sito",
+   "inizio": 13.5,
+   "blocchi": [
+    {
+     "testo": "Poi il sito web,",
+     "da": 13.5,
+     "sentito": "Poi il sito web,",
+     "a": 14.91
+    },
+    {
+     "testo": "un sito vetrina",
+     "chiave": "vetrina",
+     "da": 14.91,
+     "sentito": "un sito vetrina",
+     "a": 15.49
+    },
+    {
+     "testo": "della struttura,",
+     "da": 15.49,
+     "sentito": "della struttura,",
+     "a": 16.41
+    },
+    {
+     "testo": "un sito one page",
+     "chiave": "one page",
+     "da": 16.41,
+     "sentito": "un sito one page.",
+     "a": 17.91
+    }
+   ],
+   "fine": 17.91,
+   "fineVoce": 17.82
+  },
+  {
+   "id": "menu",
+   "inizio": 17.91,
+   "blocchi": [
+    {
+     "testo": "Dal menù tocchi una voce",
+     "da": 17.91,
+     "sentito": "Dal menù tocchi una voce",
+     "a": 18.91
+    },
+    {
+     "testo": "e vai dritto alla sezione",
+     "da": 18.91,
+     "sentito": "e vai dritto alla sezione,",
+     "a": 20.47
+    },
+    {
+     "testo": "La dimora,",
+     "da": 20.47,
+     "sentito": "la dimora,",
+     "a": 20.87
+    },
+    {
+     "testo": "gli eventi,",
+     "da": 20.87,
+     "sentito": "gli eventi,",
+     "a": 21.47
+    },
+    {
+     "testo": "le gallerie delle sale,",
+     "da": 21.47,
+     "sentito": "le gallerie delle sale,",
+     "a": 22.69
+    },
+    {
+     "testo": "ovvero la parte più importante",
+     "chiave": "più importante",
+     "da": 22.69,
+     "sentito": "ovvero la parte più importante.",
+     "a": 24.54
+    }
+   ],
+   "fine": 24.54,
+   "fineVoce": 24.27
+  },
+  {
+   "id": "ovunque",
+   "inizio": 24.54,
+   "blocchi": [
+    {
+     "testo": "E si vede bene ovunque,",
+     "chiave": "ovunque",
+     "da": 24.54,
+     "sentito": "E si vede bene ovunque,",
+     "a": 25.5
+    },
+    {
+     "testo": "sul telefono",
+     "da": 25.5,
+     "sentito": "sul telefono",
+     "a": 26.16
+    },
+    {
+     "testo": "come sul computer",
+     "da": 26.16,
+     "sentito": "come sul computer.",
+     "a": 27.56
+    }
+   ],
+   "fine": 27.56,
+   "fineVoce": 27.4
+  },
+  {
+   "id": "whatsapp",
+   "inizio": 27.56,
+   "blocchi": [
+    {
+     "testo": "E se ti piace,",
+     "da": 27.56,
+     "sentito": "e se ti piace",
+     "a": 28.31
+    },
+    {
+     "testo": "con un solo tocco",
+     "chiave": "un solo tocco",
+     "da": 28.31,
+     "sentito": "con un solo tocco",
+     "a": 29.86
+    },
+    {
+     "testo": "si compila un messaggio",
+     "da": 29.86,
+     "sentito": "Si compila un messaggio",
+     "a": 30.7
+    },
+    {
+     "testo": "automatico su WhatsApp",
+     "da": 30.7,
+     "sentito": "automatico su WhatsApp",
+     "a": 31.8
+    },
+    {
+     "testo": "dove chiedi disponibilità",
+     "da": 31.8,
+     "sentito": "dove chiedi disponibilità",
+     "a": 33.27
+    },
+    {
+     "testo": "per un sopralluogo",
+     "da": 33.27,
+     "sentito": "per un sopralluogo.",
+     "a": 34.28
+    }
+   ],
+   "fine": 34.28,
+   "fineVoce": 34.24
+  },
+  {
+   "id": "semplice",
+   "inizio": 34.28,
+   "blocchi": [
+    {
+     "testo": "Semplice e funzionale",
+     "chiave": "funzionale",
+     "da": 34.28,
+     "sentito": "Semplice e funzionale.",
+     "a": 35.89
+    }
+   ],
+   "fine": 40.45,
+   "fineVoce": 35.89
+  }
+ ],
+ "cta": {
+  "da": 35.89,
+  "chiave": 38.59,
+  "sentito": "Conosci qualcuno che sta prendendo una location pariamenti? Mandagli questo video!"
+ }
+}

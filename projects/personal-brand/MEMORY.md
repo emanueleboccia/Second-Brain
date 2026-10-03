@@ -557,3 +557,13 @@ di ottobre è fermo sui reel** finché non si decide come rifarli: i quattro mar
   come in [[projects/personal-brand/girato-girarrosto|il girato del Girarrosto]]. Gli altri quattro reel aspettano il
   suo parere su questo.
 
+
+## 03/10/2026 — La firma è online sui cinque siti di Emanuele
+
+Chiesto da Emanuele: «procedi a mettere la mia firma su tutti i siti web miei», cioè Da Mamma Rosaria, Tenuta Don
+Gaetano, Masseria di Mezz'autunno, Sistema Evolve e Girarrosto Liberti. **La regola del posto l'ha data lui**: sul
+computer in fondo a destra, «come tutti quanti», e sul telefono centrata come ultima cosa del footer. Sta nello stile
+della firma, `.firma-eb-posto`, e vale per ogni sito che verrà. Il Girarrosto fa eccezione, centrato anche sul
+computer, perché lì il sito si vede dentro un telefono disegnato. Dove sta sito per sito, e come si arriva ai file di
+Hostinger ed Ergonet, in [[code/firma/README|la firma]]. Nei gestionali non va, detto da Emanuele lo stesso
+giorno: «sono privati dell'azienda, non pubblici». Resta aperta la clausola nei lavori dei clienti.

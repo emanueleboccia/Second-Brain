@@ -10,6 +10,16 @@ import { ReelGirarrosto } from "./pb-girarrosto/ReelGirarrosto";
 import { DURATA as durataGirarrosto } from "./pb-girarrosto/testo";
 import { ReelGirarrosto6 } from "./pb-girarrosto6/ReelGirarrosto6";
 import { DURATA as durataGirarrosto6 } from "./pb-girarrosto6/testo";
+import { ReelGirarrosto7 } from "./pb-girarrosto7/ReelGirarrosto7";
+import { DURATA as durataGirarrosto7 } from "./pb-girarrosto7/testo";
+import { ReelRoom84v5 } from "./pb-room84-5/ReelRoom84v5";
+import { DURATA as durataRoom84v5 } from "./pb-room84-5/testo";
+import { ReelTenuta3 } from "./pb-tenuta-3/ReelTenuta3";
+import { DURATA as durataTenuta3 } from "./pb-tenuta-3/testo";
+import { ReelTenuta4 } from "./pb-tenuta-4/ReelTenuta4";
+import { ReelGirarrostoSito } from "./pb-girarrosto-sito/ReelGirarrostoSito";
+import { DURATA as durataGirarrostoSito } from "./pb-girarrosto-sito/testo";
+import { DURATA as durataTenuta4 } from "./pb-tenuta-4/testo";
 import { ReelRoom84 } from "./pb-room84/ReelRoom84";
 import { MUTO as ROOM84_MUTO, VOCE as ROOM84_VOCE } from "./pb-room84/testo";
 import { DURATA3 as durataRoom84Semplice, DURATA_VOCE2, DURATA_VOCE3, ReelRoom84Semplice } from "./pb-room84/Semplice";
@@ -87,6 +97,46 @@ export const MyComposition = () => {
         id="PbGirarrosto6"
         component={ReelGirarrosto6}
         durationInFrames={durataGirarrosto6}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbGirarrosto7"
+        component={ReelGirarrosto7}
+        durationInFrames={durataGirarrosto7}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbRoom84v5"
+        component={ReelRoom84v5}
+        durationInFrames={durataRoom84v5}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbTenuta3"
+        component={ReelTenuta3}
+        durationInFrames={durataTenuta3}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbTenuta4"
+        component={ReelTenuta4}
+        durationInFrames={durataTenuta4}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PbGirarrostoSito"
+        component={ReelGirarrostoSito}
+        durationInFrames={durataGirarrostoSito}
         fps={30}
         width={1080}
         height={1920}

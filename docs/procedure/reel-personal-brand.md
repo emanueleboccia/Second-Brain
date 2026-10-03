@@ -59,6 +59,12 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
 - **La CTA scritta sull'ultima inquadratura è la frase che dice lui, com'è.** Se la dice come una frase, non diventa una
   domanda. Sul reel di Mamma Rosaria del 30/09/2026 c'era scritto «Conosci qualcuno…?» mentre lui diceva «Se conosci
   qualcuno che organizza eventi e fa ancora tutto su WhatsApp, mandagli questo video»: «non è una domanda».
+- **La CTA si alterna da un reel all'altro**, deciso il 03/10/2026: i primi tre chiudevano tutti con «Mandagli questo
+  video». Oltre al condividere ci sono il seguire, col prossimo reel annunciato; il salvare, quando il reel lascia
+  qualcosa da rifare da sé; lo scrivere in privato con una parola, che apre una conversazione; e il sito, per i lavori
+  che hanno una pagina lì. Il commento no. Ognuna si lega a quello che il reel ha appena fatto vedere, e la stessa non
+  esce due volte di fila. Le scelte reel per reel stanno in
+  [[projects/personal-brand/reel-lavori-famiglia|i reel dei lavori di famiglia]].
 - **Una ripresa col drone si prende quando è già stabile nel percorso**, non nel secondo in cui parte o si assesta:
   lo spostamento di lato si misura con la correlazione di fase fra un fotogramma e l'altro, e si sceglie il tratto
   dritto.
@@ -78,6 +84,10 @@ I colori e i caratteri sono quelli di [[self/reference/design|il design]]; il ri
   ogni due secondi, le illustrazioni che riempiono lo schermo con una camera che si sposta, nessun fotogramma vuoto, la
   frase finale grande e la CTA su due inquadrature. Sta in [[projects/personal-brand/revisione-reel|la revisione dei
   reel]], e il primo fatto così è la v6 del Girarrosto, in `src/pb-girarrosto6/`.
+
+- **Il copione è un discorso, non una fila di battute.** Frasi semplici e collegate, che si dicono come si parla a qualcuno:
+  le frasi corte a effetto sono difficili da pronunciare e da leggere, e suonano ambigue. Detto da Emanuele il 03/10/2026
+  sul copione della Tenuta.
 
 ## I passi
 

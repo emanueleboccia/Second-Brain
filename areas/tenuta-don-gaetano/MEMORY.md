@@ -2,6 +2,13 @@
 
 Aperto il 12/07/2026.
 
+## 03/10/2026 — La firma di Emanuele nel footer
+
+Chiesta da Emanuele su tutti i suoi siti: «Costruito da» e la moneta EB, in fondo a destra sul computer e centrata
+sul telefono. Nel tema sul server ci sono `firma.php` e nove righe in fondo a `footer__bottom` di `footer.php`,
+caricate dal gestore file di Hostinger. ⚠️ **Il repository `sito-web-tenutadongaetano` non le ha**: se il tema
+si ripubblica da lì, la firma sparisce. Il resto sta in [[code/firma/README|la firma]].
+
 ## 30/09/2026 — Il primo report dei social
 
 Chiesto da Emanuele insieme a quello di Mamma Rosaria, per agosto e settembre: il PDF sta su Drive in

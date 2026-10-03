@@ -124,6 +124,10 @@ non si scrive al posto suo, perché è l'unica riga della pagina che non è di E
 
 **5 · Quello che è rimasto fuori**
 
+⚠️ *Non più vero dal 03/10/2026: il carrello sul sito del Girarrosto è acceso, col ritiro solo in Via Turati.
+Se questa sezione va sul sito, si riscrive. Il dettaglio sta nello
+[[entities/clienti/girarrosto-liberti/storico|storico del Girarrosto]].*
+
 *Sul sito menù era pronto un carrello: il cliente sceglie i prodotti e, al posto del pagamento
 online, gli si precompila un messaggio WhatsApp già pronto da mandare al numero degli ordini.
 Non è entrato, perché Marco gli ordini online non li prende e la conferma la vuole dare lui, come

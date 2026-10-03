@@ -156,6 +156,35 @@
   pointer-events: none;
 }
 
+/* Il posto nel footer, deciso da Emanuele il 03/10/2026: sul computer in fondo a
+   destra, sul telefono centrata e ultima cosa del footer. La firma sta dentro
+   .firma-eb-posto, che si mette in fondo alla riga più bassa del footer. Sul
+   telefono prende una riga tutta sua, e il nome esce verso sinistra come nella
+   stretta, perché al centro la cella larga la farebbe sembrare spostata. */
+.firma-eb-posto {
+  display: flex !important;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .firma-eb-posto {
+    flex: 1 0 100%;
+    width: 100%;
+    justify-content: center;
+    margin: 8px 0 0;
+    order: 99;
+  }
+
+  .firma-eb-posto .firma-eb__nome {
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+  }
+}
+
 /* Chi ha chiesto meno movimento la vede ferma, di fronte. */
 @media (prefers-reduced-motion: reduce) {
   .firma-eb .firma-eb__moneta {

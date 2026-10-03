@@ -1,0 +1,197 @@
+{
+ "durata": 32.95,
+ "scene": [
+  {
+   "id": "apertura",
+   "inizio": 0.0,
+   "blocchi": [
+    {
+     "testo": "Questa qui che vedete",
+     "da": 0.0,
+     "sentito": "Questa qui che vedete",
+     "a": 1.16
+    },
+    {
+     "testo": "è la Tenuta Don Gaetano,",
+     "da": 1.16,
+     "sentito": "è la tenuta Don Gaetano,",
+     "a": 2.53
+    },
+    {
+     "testo": "una dimora del '700",
+     "chiave": "del '700",
+     "da": 2.53,
+     "sentito": "una dimora del '700",
+     "a": 4.01
+    },
+    {
+     "testo": "che si trova a Poggiomarino",
+     "da": 4.01,
+     "sentito": "che si trova a Poggio Marino.",
+     "a": 5.48
+    }
+   ],
+   "fine": 5.48,
+   "fineVoce": 5.48
+  },
+  {
+   "id": "location",
+   "inizio": 5.48,
+   "blocchi": [
+    {
+     "testo": "È una location per eventi nuova,",
+     "chiave": "nuova",
+     "da": 5.48,
+     "sentito": "È una location per eventi nuova,",
+     "a": 6.98
+    },
+    {
+     "testo": "fatta per battesimi,",
+     "da": 6.98,
+     "sentito": "fatta per battesimi,",
+     "a": 8.2
+    },
+    {
+     "testo": "comunioni, lauree",
+     "da": 8.2,
+     "sentito": "comunioni, lauree",
+     "a": 9.41
+    },
+    {
+     "testo": "ed altri eventi importanti",
+     "da": 9.41,
+     "sentito": "ed altri eventi importanti.",
+     "a": 10.96
+    }
+   ],
+   "fine": 10.96,
+   "fineVoce": 10.96
+  },
+  {
+   "id": "conoscere",
+   "inizio": 10.96,
+   "blocchi": [
+    {
+     "testo": "E la prima cosa da fare",
+     "da": 10.96,
+     "sentito": "e la prima cosa da fare",
+     "a": 12.13
+    },
+    {
+     "testo": "era farla conoscere",
+     "chiave": "farla conoscere",
+     "da": 12.13,
+     "sentito": "era farla conoscere.",
+     "a": 13.3
+    },
+    {
+     "testo": "Così le ho creato il logo",
+     "chiave": "il logo",
+     "da": 13.3,
+     "sentito": "Così le ho create il logo",
+     "a": 14.55
+    },
+    {
+     "testo": "e un sito",
+     "da": 14.55,
+     "sentito": "e un sito.",
+     "a": 15.64
+    }
+   ],
+   "fine": 15.64,
+   "fineVoce": 15.64
+  },
+  {
+   "id": "sito",
+   "inizio": 15.64,
+   "blocchi": [
+    {
+     "testo": "Il sito web, da una pagina soltanto,",
+     "chiave": "una pagina",
+     "da": 15.64,
+     "sentito": "il sito web da una pagina soltanto,",
+     "a": 17.6
+    },
+    {
+     "testo": "essendo una location nuova,",
+     "da": 17.6,
+     "sentito": "essendo una location nuova,",
+     "a": 19.27
+    },
+    {
+     "testo": "dove quando lo apri",
+     "da": 19.27,
+     "sentito": "dove quando lo apri",
+     "a": 20.12
+    },
+    {
+     "testo": "scorri e vedi la dimora,",
+     "da": 20.12,
+     "sentito": "scorri e vedi la dimora,",
+     "a": 21.55
+    },
+    {
+     "testo": "le sale",
+     "da": 21.55,
+     "sentito": "le sale",
+     "a": 21.97
+    },
+    {
+     "testo": "e gli eventi",
+     "da": 21.97,
+     "sentito": "e gli eventi.",
+     "a": 22.99
+    }
+   ],
+   "fine": 22.99,
+   "fineVoce": 22.99
+  },
+  {
+   "id": "whatsapp",
+   "inizio": 22.99,
+   "blocchi": [
+    {
+     "testo": "Se ti piace,",
+     "da": 22.99,
+     "sentito": "Se ti piace,",
+     "a": 23.51
+    },
+    {
+     "testo": "chiedi la data su WhatsApp",
+     "da": 23.51,
+     "sentito": "chiedi la data su WhatsApp",
+     "a": 25.05
+    },
+    {
+     "testo": "con un semplice tocco",
+     "chiave": "tocco",
+     "da": 25.05,
+     "sentito": "con un semplice tocco.",
+     "a": 26.48
+    }
+   ],
+   "fine": 26.48,
+   "fineVoce": 26.48
+  },
+  {
+   "id": "semplice",
+   "inizio": 26.48,
+   "blocchi": [
+    {
+     "testo": "Semplice e funzionale",
+     "chiave": "funzionale",
+     "da": 26.48,
+     "sentito": "Semplice e funzionale.",
+     "a": 28.09
+    }
+   ],
+   "fine": 32.95,
+   "fineVoce": 28.09
+  }
+ ],
+ "cta": {
+  "da": 28.09,
+  "chiave": 30.71,
+  "sentito": "Se conosci qualcuno che sta prendendo a location per eventi, mandagli questo video."
+ }
+}

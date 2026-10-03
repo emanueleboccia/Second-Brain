@@ -7,7 +7,7 @@ tags:
   - girarrosto-liberti
 status: in-lavorazione
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-10-03
 related:
   - "[[docs/casi/README]]"
   - "[[entities/clienti/girarrosto-liberti/scheda]]"
@@ -63,6 +63,15 @@ si **precompila un messaggio WhatsApp** già pronto da mandare al numero degli o
 non prende ordini online, ma WhatsApp lo usa tutti i giorni: la conferma la dà lui da lì, come
 ha sempre fatto. **Non è stata integrata per questioni interne del locale**, non per un limite
 tecnico — e resta una funzionalità da riproporre a chi è nella stessa situazione.
+
+✅ **Riacceso il 03/10/2026.** Emanuele l'ha riattivato sul sito vero: un «+» accanto a ogni prodotto, il nome, il giorno
+del ritiro e «Ordina ora», che apre WhatsApp con l'ordine già scritto. Il Girarrosto fa solo il ritiro, e la consegna
+solo coi delivery: il carrello serve a chi vuole ordinare senza telefonare. L'ordine è preso quando il locale risponde
+in chat, e si paga al ritiro.
+
+⚠️ **Dal 03/10/2026 il carrello è acceso**, deciso da Emanuele: per tutti, ma col ritiro solo in Via Filippo
+Turati e il messaggio a un solo WhatsApp, quello degli ordini. Il paragrafo sopra racconta com'era all'inizio;
+il come e il perché stanno nello [[entities/clienti/girarrosto-liberti/storico|storico del Girarrosto]].
 
 ## La soluzione
 

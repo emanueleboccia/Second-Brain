@@ -219,3 +219,65 @@ secondi. Composizione `PbRoom84Voce4` in `src/pb-room84/Voce4.tsx`, voce da `scr
 ⚠️ **Sulle schermate bianche i sottotitoli crema non si leggono**: nel primo render, con lo zoom, sotto «In alto
 diceva» passava il riquadro bianco delle date. Sotto il telefono c'è un'ombra in basso, come sulle riprese, e non un
 riquadro.
+
+## 03/10/2026 · il copione della v5, sullo stampo del Girarrosto
+
+Dopo il Girarrosto v7, approvato da Emanuele, Room84 si rifà con lo stesso stampo
+([[projects/personal-brand/revisione-reel|la revisione dei reel]]): pratico, un po' ironico, e con più valore al lavoro,
+cioè a quello che il sito fa davvero. Ogni fatto viene dal [[entities/clienti/room84/brand-book|brand book]] e da
+[[projects/restyling-room84/sito|il restyling]]: le due suite, la sauna e l'idromassaggio, il 9,8 su quaranta, il
+calendario che legge le notti occupate dai calendari di Booking, i due bottoni per ogni camera libera. Del sito vecchio
+si dice solo la scritta in alto, come nella v4, e niente di male: era suo.
+
+1. Room84, a Poggiomarino: due suite per coppie, una con la sauna e una con l'idromassaggio.
+2. Sul sito, in alto, c'era scritto: «Il tuo rifugio di relax e piacere».
+3. Bello, eh. Ma chi arriva lì vuole sapere tre cose.
+4. Com'è la camera. Se è libera quella notte. E quanto costa.
+5. Prima di toccare il computer: carta e penna.
+6. In alto la spa in camera, che è la cosa più importante.
+7. Poi le date libere, le due camere, le recensioni.
+8. Ecco il risultato.
+9. In alto adesso c'è: «Una notte con la spa in camera».
+10. Le camere sono due chiavi: la 8 e la 4, ognuna col suo video.
+11. Scegli le date, e vedi subito quali notti sono libere.
+12. Il calendario lo prende da Booking, da solo: nessuno lo aggiorna a mano.
+13. Camera libera? Un tocco, e la chiedi su WhatsApp col messaggio già scritto.
+14. Oppure vedi il prezzo su Booking, con le date già messe.
+15. Sotto, le recensioni vere: 9,8 su quaranta.
+16. Il posto era già bello. Mo' pure il sito.
+17. Conosci qualcuno con un B&B? Mandagli questo video.
+
+Le frasi dalla 9 alla 15 rispondono alle tre domande della 4, nello stesso ordine: com'è (9-10), se è libera (11-12),
+quanto costa (13-14), e la prova (15).
+
+**03/10/2026 · la v5 è montata** sulla voce `voceee reel room844.aifc` di `3-in-produzione/reel-room84/`: 58 secondi.
+Vale l'ultima presa: «Poi le date libere» ricominciata, recensioni e chiusura dette due volte, e la CTA è diventata
+«Mandagli questo video e aiutalo». È nella scala chiara, scelta sul lavoro: Room84 è un posto di lusso col sito crema e
+bronzo, e il Girarrosto che esce prima è scuro.
+
+Emanuele, prima di montarla: «fai meglio le illustrazioni», c'erano difetti nel foglio che si scriveva e quando si
+mostrava il risultato, e il risultato va fatto vedere come trasformazione, coi mockup del telefono e del computer. Quindi:
+
+- **il foglio è un disegno pulito**, a tratto uguale con gli angoli tondi, che si disegna blocco per blocco quando lo
+  nomina, con le scritte a mano che compaiono da sinistra e la camera che segue il blocco;
+- **il risultato è il foglio che si stringe nella forma del telefono**, pieno, e ci si accende sopra il sito vero; poi
+  entra il computer, e su «In alto adesso c'è» torna il telefono di prima accanto: prima e dopo nella stessa
+  inquadratura, con le due scritte in alto leggibili;
+- **le schermate del calendario sono del sito vivo**, del 03/10, col 19 e il 21 ottobre liberi in tutte e due le camere:
+  `public/pb-room84-5/schermi/` del progetto Remotion. Il messaggio WhatsApp è quello che il sito prepara davvero, e la
+  pagina di Booking non mostra prezzi;
+- **le riprese delle camere sono i video del cliente**, che Antonio ha dato ok a usare ovunque: la sauna, la vasca, la
+  serata e il brindisi in chiusura.
+
+Codice in `code/remotion-test/src/pb-room84-5/`, voce da `scripts/pb-room84-5-voce.py`, suono da
+`scripts/pb-room84-5-suono.py`. Sull'SSD in `reel-room84/v5/`, con la phonk e senza musica.
+
+**03/10/2026 · le due correzioni di Emanuele sulla v5.** «L'unica cosa da cambiare è la parte finale… la ragazza, un
+po' volgare», e dal secondo 5 a «vuole sapere tre cose» i testi non si leggevano. Quindi: **la modella dei video del
+cliente non c'è più**, né nel finale né negli archi delle camere. Su «il posto era già bellissimo» c'è la vasca vuota
+che si illumina, la CTA sta sulla targa di Room84 col fondo scurito sotto le parole, e gli archi mostrano la sauna e la
+vasca vuote. Il telefono del sito di prima si ferma sopra i sottotitoli e sfuma prima, e la scritta «Il tuo rifugio di
+relax e piacere» ha di nuovo il suo sottotitolo. Per il resto: «è perfetto».
+
+✅ **03/10/2026 · la v5 corretta è la definitiva**, senza musica: «va benissimo, definitivo». Sull'SSD è
+`reel-room84/reel-room84-DEFINITIVO.mp4`.

@@ -2,6 +2,51 @@
 
 Aperto il 13/07/2026.
 
+## 03/10/2026 — Le copie di backup che il server dava a chiunque
+
+Cercate su tutti i siti di Emanuele dopo quelle trovate alla Masseria: il quadro completo sta nella memoria della
+Masseria. Qui, sul server Ergonet, ci sono dieci copie di fine luglio e inizio agosto, e **cinque si scaricano da fuori**:
+
+- **Tre nel tema `damammarosaria`, col PHP in chiaro**: `page-la-storia.php.bak`, `page-la-storia.php.bak2` e
+  `page-contatti.php.bak2`, del 29/07.
+- **Due `style.css.bak`**: uno in `assets/css/` del tema, del 29/07, e uno in `uploads/dmr-backup-20260730/`.
+- Le altre cinque, i `.php.bak` in `uploads/dmr-backup-20260730/` e `uploads/dmr-backup-20260803/`, rispondono 404:
+  le ferma l'`.htaccess` di `uploads`.
+
+**Nessuna contiene credenziali**: c'è solo `info@damammarosaria.com`, che è pubblica. Le copie di tutte e cinque le
+esposte stanno in `knowledge/sito/copie-server-2026-07.zip`, fuori da git. Lo `style.css.bak` del tema, che la mattina
+curl non riusciva più a scaricare, è entrato nello zip il pomeriggio del 03/10/2026, preso dal browser: 38 KB, e
+l'unico «token» dentro è il commento sopra le variabili dei colori.
+
+⚠️ **Non ancora tolte.** Emanuele ha dato l'ok il 03/10/2026 e quel giorno ci hanno provato tre sessioni di Claude.
+La terza ha pulito la Masseria e la Tenuta su Hostinger, poi su Ergonet è arrivata fino al file selezionato nel file
+manager: al clic su «Cancella» il classificatore della modalità auto l'ha fermata. A quel punto, nel pomeriggio, i
+cinque file erano tutti sul server, con le stesse dimensioni delle copie nello zip del vault; lo `style.css.bak` del
+tema pesa 37,48 KB, cioè i 38.375 byte della copia, quindi non c'è più niente da salvare prima.
+
+Si tolgono dal file manager del WebPanel (Servizi delegati → damammarosaria.it → File Manager): nel tema
+`page-la-storia.php.bak`, `page-la-storia.php.bak2`, `page-contatti.php.bak2` e `assets/css/style.css.bak`, e poi
+`uploads/dmr-backup-20260730/style.css.bak`. Dopo, Impostazioni server → Cache → «Cancella cache», e dal browser, con
+una pausa fra un indirizzo e l'altro, si controlla che rispondano 404. Da Claude si fa solo in una sessione senza
+modalità auto.
+
+Novamira, il vecchio sistema dei deploy di luglio, non si usa più dal 26/08/2026, ribadito da Emanuele il 03/10/2026.
+Su questo sito non è installato.
+
+- `wp-content/ai1wm-backups/` è vuota, a parte i file di protezione. `/private/gestionale/` ha `.env` e i log di
+  Laravel, ma sta fuori dalle cartelle servite dal sito. In `uploads/template-kits/` c'è uno zip di un kit di
+  Elementor del 2025, scaricabile: è un modello grafico, non codice nostro.
+- **Il FireShield chiude la porta a curl.** Dopo una decina di richieste di fila ai `.bak`, il 03/10/2026 ha
+  rifiutato ogni connessione di curl, home compresa, per almeno un quarto d'ora. Chrome sullo stesso Mac entrava lo stesso.
+  Per controlli a raffica su Ergonet si usa il browser, con una pausa fra una richiesta e l'altra.
+
+## 03/10/2026 — La firma di Emanuele nel footer
+
+Chiesta da Emanuele su tutti i suoi siti: «Costruito da» e la moneta EB, in fondo a destra sul computer e centrata
+sul telefono. Nel tema `damammarosaria` ci sono `firma.php` e nove righe in fondo a `fondo__note` di `footer.php`,
+l'unico footer del tema; caricate dal file manager del WebPanel, poi cache Varnish svuotata. Il resto sta in
+[[code/firma/README|la firma]].
+
 ## 30/09/2026 — Il sito in loop per il Chrome dei computer, e la correzione
 
 Il controllo del briefing ha trovato la home che non si apriva: «troppi reindirizzamenti». Era vero per il Chrome del

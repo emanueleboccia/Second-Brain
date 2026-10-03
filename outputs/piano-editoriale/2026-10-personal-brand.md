@@ -7,7 +7,7 @@ tags:
   - personal-brand
 status: attivo
 created: 2026-09-06
-updated: 2026-10-02
+updated: 2026-10-03
 related:
   - "[[projects/personal-brand/lancio]]"
   - "[[projects/personal-brand/MEMORY]]"
@@ -51,13 +51,13 @@ domanda è rimasta aperta.
 | Data | Cosa | Pezzo | Stato |
 |---|---|---|---|
 | **lun 5** | Carosello, scuro | «Come lavoro», i sei passi | pronto |
-| **mar 6** | Reel | il Girarrosto, il foglio degli ordini tolto | **v5, aspetta l'ok** |
+| **mar 6** | Reel | il Girarrosto, il foglio degli ordini tolto | ✅ v7 definitiva, senza musica |
 | **mer 7** | Carosello, chiaro | il sito bello che non comunica | pronto |
-| **mar 13** | Reel | Room84, il sito prima e dopo | **v4, aspetta l'ok** |
+| **mar 13** | Reel | Room84, il sito prima e dopo | ✅ v5 definitiva, senza musica |
 | **gio 15** | Carosello, chiaro | il preventivo fatto a sensazione | fatto il 02/10, da vedere |
 | **mar 20** | Reel | il gestionale di Mamma Rosaria | approvato |
 | **gio 22** | Carosello, scuro | lo strumento generico | pronto |
-| **mar 27** | Reel | il sito della Tenuta | approvato |
+| **mar 27** | Reel | il sito della Tenuta | ✅ v4 definitiva, senza musica |
 | **gio 29** | Carosello, scuro | il caso del Girarrosto | **da rifare con le regole nuove** |
 | *ven 30* | *Reel* | *il gestionale della Masseria, per Halloween* | *in bozza: esce solo se Emanuele lo riapre* |
 
